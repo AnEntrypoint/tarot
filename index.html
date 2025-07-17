@@ -325,7 +325,6 @@
                 const demoPageUrl = `data:text/html;base64,${encodedDemoPage}`;
 
                 addView(demoPageUrl, 'RPC Demo Server', false);
-                addView('https://os.js.org/', 'OS.js', false);
                 addView('https://vdo.ninja/?room=247420', 'VDO.Ninja', false);
                 addView('https://app.revolt.chat/', 'Revolt Chat', false);
                 saveViews(); // Save the default set
@@ -404,7 +403,7 @@
                 viewFrame.id = viewId;
                 viewFrame.classList.add('content-view');
                 viewFrame.src = url;
-                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation";
+                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts";
                 content.appendChild(viewFrame);
 
                 const newView = { id: viewId, url, title: viewTitle, favicon, frame: viewFrame, badge };
