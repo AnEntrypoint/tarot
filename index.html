@@ -320,13 +320,22 @@
             });
 
             // --- Modal Logic ---
-            addButton.addEventListener('click', () => { modal.style.display = 'block'; urlInput.focus(); });
+            addButton.addEventListener('click', () => {
+                const randomNumber = Math.floor(100000 + Math.random() * 900000);
+                const suggestedUrl = `https://chitchatter.im/public/${randomNumber}`;
+                urlInput.value = suggestedUrl;
+                modal.style.display = 'block';
+                urlInput.focus();
+                // Select the random number part for easy editing
+                const selectionStart = suggestedUrl.lastIndexOf('/') + 1;
+                urlInput.setSelectionRange(selectionStart, suggestedUrl.length);
+            });
             cancelButton.addEventListener('click', () => { modal.style.display = 'none'; urlInput.value = ''; });
             confirmAddButton.addEventListener('click', () => {
                 const url = urlInput.value.trim();
                 if (url) {
                     if (!/^(https?:\/\/|data:text\/html;base64,)/i.test(url)) {
-                       alert("Please enter a valid URL.");
+                       console.error("Invalid URL entered:", url);
                        return;
                     }
                     addView(url, url, true);
@@ -379,7 +388,7 @@
                 viewFrame.id = viewId;
                 viewFrame.classList.add('content-view');
                 viewFrame.src = url;
-                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-microphone allow-camera";
+                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-microphone allow-camera";
                 viewFrame.setAttribute('allow', 'microphone; camera; display-capture');
                 content.appendChild(viewFrame);
 
