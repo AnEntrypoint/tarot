@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord-like OS.js App</title>
+    <link rel="stylesheet" href="https://unpkg.com/@osjs/client/dist/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/@osjs/gui/dist/main.css">
+    <script src="https://unpkg.com/@osjs/client/dist/main.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+        }
+        .app-container {
+            display: flex;
+            height: 100vh;
+            background-color: #36393f;
+            color: #dcddde;
+        }
+        .sidebar {
+            width: 70px;
+            background-color: #202225;
+            padding-top: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-shrink: 0;
+            -webkit-user-select: none;
+            user-select: none;
+            overflow-y: auto; /* Allow scrolling */
+            /* Hide scrollbar for Chrome, Safari and Opera */
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        .favicon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: #36393f;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: border-radius 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            flex-shrink: 0; /* Prevent favicons from shrinking */
+        }
+        .favicon.dragging {
+            opacity: 0.5;
+            transform: scale(0.9);
+        }
+        .favicon:hover, .favicon.active {
+            border-radius: 16px;
+            background-color: #7289da;
+        }
+        .favicon.add-button {
+            background-color: #43b581;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+        .favicon.add-button:hover {
+            background-color: #3aa576;
+        }
+        .notification-badge {
+            position: absolute;
+            bottom: -2px;
+            right: -4px;
+            background-color: #f04747;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 5px;
+            font-size: 12px;
+            font-weight: bold;
+            border: 2px solid #202225;
+            display: none; /* Hidden by default */
+        }
+        .content {
+            flex-grow: 1;
+            position: relative;
+        }
+        .content-view {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: none;
+        }
+        .content-view.active {
+            display: block;
+        }
+        #add-view-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #2f3136;
+            padding: 24px;
+            border-radius: 8px;
+            z-index: 1000;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.24);
+            display: none;
+            width: 400px;
+        }
+        #add-view-modal h2 {
+            margin-top: 0;
+            color: white;
+            font-size: 20px;
+        }
+        #add-view-modal input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 3px;
+            border: 1px solid #202225;
+            background-color: #40444b;
+            color: #dcddde;
+            margin-bottom: 20px;
+        }
+        #add-view-modal button {
+            padding: 10px 16px;
+            border-radius: 3px;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        #add-view-modal .add-btn {
+            background-color: #7289da;
+            color: white;
+        }
+        #add-view-modal .cancel-btn {
+            background-color: transparent;
+            color: #dcddde;
+            margin-left: 8px;
+        }
+        /* Context Menu Styles */
+        #context-menu {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            background-color: #18191c;
+            border-radius: 4px;
+            padding: 6px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.24);
+            width: 180px;
+        }
+        .context-menu-item {
+            padding: 8px 12px;
+            color: #dcddde;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+        .context-menu-item.remove {
+            color: #f04747;
+        }
+        .context-menu-item:hover {
+            background-color: #7289da;
+            color: white;
+        }
+        .context-menu-item.remove:hover {
+            background-color: #f04747;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="sidebar" id="sidebar">
+            <!-- Favicons will be added here -->
+            <div class="favicon add-button" id="addButton">+</div>
+        </div>
+        <div class="content" id="content">
+            <!-- Embedded views will be added here -->
+        </div>
+    </div>
+
+    <!-- Add View Modal -->
+    <div id="add-view-modal">
+        <h2>Add a new server</h2>
+        <p style="color: #b9bbbe; font-size: 14px; margin-bottom: 20px;">Enter a URL to create a new view. This will be embedded.</p>
+        <input type="text" id="urlInput" placeholder="https://example.com">
+        <div style="text-align: right;">
+            <button class="cancel-btn" id="cancelButton">Cancel</button>
+            <button class="add-btn" id="confirmAddButton">Add</button>
+        </div>
+    </div>
+
+    <!-- Custom Context Menu -->
+    <div id="context-menu">
+        <div class="context-menu-item remove" id="remove-item">Remove Server</div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sidebar = document.getElementById('sidebar');
+            const content = document.getElementById('content');
+            const addButton = document.getElementById('addButton');
+            const modal = document.getElementById('add-view-modal');
+            const urlInput = document.getElementById('urlInput');
+            const confirmAddButton = document.getElementById('confirmAddButton');
+            const cancelButton = document.getElementById('cancelButton');
+            const contextMenu = document.getElementById('context-menu');
+            const removeItem = document.getElementById('remove-item');
+
+            const STORAGE_KEY = 'discord-like-servers';
+            let views = [];
+            let activeView = null;
+            let draggedItem = null;
+
+            // --- Drag and Drop Logic ---
+            sidebar.addEventListener('dragstart', (e) => {
+                if (e.target.classList.contains('favicon') && !e.target.classList.contains('add-button')) {
+                    draggedItem = e.target;
+                    setTimeout(() => {
+                        e.target.classList.add('dragging');
+                    }, 0);
+                }
+            });
+
+            sidebar.addEventListener('dragend', (e) => {
+                if (draggedItem) {
+                    draggedItem.classList.remove('dragging');
+                    draggedItem = null;
+                }
+            });
+
+            sidebar.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                const afterElement = getDragAfterElement(sidebar, e.clientY);
+                if (draggedItem) {
+                    if (afterElement == null) {
+                        sidebar.insertBefore(draggedItem, addButton);
+                    } else {
+                        sidebar.insertBefore(draggedItem, afterElement);
+                    }
+                }
+            });
+
+            sidebar.addEventListener('drop', (e) => {
+                e.preventDefault();
+                if (draggedItem) {
+                    // Reorder the `views` array based on the new DOM order
+                    const newOrderIds = [...sidebar.querySelectorAll('.favicon:not(.add-button)')].map(fav => fav.dataset.viewId);
+                    views.sort((a, b) => newOrderIds.indexOf(a.id) - newOrderIds.indexOf(b.id));
+                    saveViews(); // Persist the new order
+                }
+            });
+
+            function getDragAfterElement(container, y) {
+                const draggableElements = [...container.querySelectorAll('.favicon:not(.add-button):not(.dragging)')];
+
+                return draggableElements.reduce((closest, child) => {
+                    const box = child.getBoundingClientRect();
+                    const offset = y - box.top - box.height / 2;
+                    if (offset < 0 && offset > closest.offset) {
+                        return { offset: offset, element: child };
+                    } else {
+                        return closest;
+                    }
+                }, { offset: Number.NEGATIVE_INFINITY }).element;
+            }
+
+            // --- Persistence Logic ---
+            function saveViews() {
+                const viewsToSave = views.map(view => ({
+                    url: view.url,
+                    title: view.title
+                }));
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(viewsToSave));
+            }
+
+            function loadViews() {
+                const savedViews = localStorage.getItem(STORAGE_KEY);
+                if (savedViews) {
+                    try {
+                        const parsedViews = JSON.parse(savedViews);
+                        if (Array.isArray(parsedViews) && parsedViews.length > 0) {
+                            parsedViews.forEach(view => addView(view.url, view.title, false));
+                            setActiveView(views[0].id);
+                        } else {
+                           loadDefaultViews();
+                        }
+                    } catch (e) {
+                        console.error("Failed to parse saved views, loading defaults.", e);
+                        loadDefaultViews();
+                    }
+                } else {
+                    loadDefaultViews();
+                }
+            }
+
+            function loadDefaultViews() {
+                 // Create the HTML for the demo page as a base64 data URL
+                const demoPageHtml = `
+                    <html style="background-color: #36393f; color: #dcddde; font-family: sans-serif; text-align: center; padding-top: 50px;">
+                        <body>
+                            <h1>RPC Demo Page</h1>
+                            <p>Use these buttons to send notifications to the parent window.</p>
+                            <div style="margin-top: 30px;">
+                                <button onclick="sendNotification(1)">Set 1 Notification</button>
+                                <button onclick="sendNotification(5)">Set 5 Notifications</button>
+                                <button onclick="sendNotification(150)">Set 150 Notifications</button>
+                                <button onclick="sendNotification(0)">Clear Notifications</button>
+                            </div>
+                            <script>
+                                function sendNotification(count) {
+                                    const message = { type: 'setNotificationCount', count: count };
+                                    parent.postMessage(message, '*');
+                                }
+                            <\/script>
+                        </body>
+                    </html>
+                `;
+                const encodedDemoPage = btoa(demoPageHtml);
+                const demoPageUrl = `data:text/html;base64,${encodedDemoPage}`;
+
+                addView(demoPageUrl, 'RPC Demo Server', false);
+                addView('https://os.js.org/', 'OS.js', false);
+                addView('https://vdo.ninja/?room=247420', 'VDO.Ninja', false);
+                addView('https://app.revolt.chat/', 'Revolt Chat', false);
+                saveViews(); // Save the default set
+            }
+
+
+            // --- RPC Listener for Notifications ---
+            window.addEventListener('message', (event) => {
+                const { type, count } = event.data;
+                if (type === 'setNotificationCount') {
+                    const sendingFrame = Array.from(document.querySelectorAll('.content-view'))
+                                              .find(iframe => iframe.contentWindow === event.source);
+                    if (sendingFrame) {
+                        setNotificationBadge(sendingFrame.id, count);
+                    }
+                }
+            });
+
+            // --- Modal Logic ---
+            addButton.addEventListener('click', () => { modal.style.display = 'block'; urlInput.focus(); });
+            cancelButton.addEventListener('click', () => { modal.style.display = 'none'; urlInput.value = ''; });
+            confirmAddButton.addEventListener('click', () => {
+                const url = urlInput.value.trim();
+                if (url) {
+                    if (!/^(https?:\/\/|data:text\/html;base64,)/i.test(url)) {
+                       alert("Please enter a valid URL.");
+                       return;
+                    }
+                    addView(url, url, true);
+                    urlInput.value = '';
+                    modal.style.display = 'none';
+                }
+            });
+            urlInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') confirmAddButton.click(); });
+
+            // --- View Management ---
+            function addView(url, title = null, shouldSave = true) {
+                const viewId = `view-${Date.now()}-${Math.random()}`;
+                let faviconUrl;
+                let viewTitle = title || url;
+
+                if (url.startsWith('data:')) {
+                    faviconUrl = 'https://placehold.co/64x64/7289da/ffffff?text=DEMO';
+                } else {
+                    try {
+                        faviconUrl = `https://www.google.com/s2/favicons?domain=${new URL(url).hostname}&sz=64`;
+                    } catch (e) {
+                        console.error("Invalid URL for favicon:", url);
+                        faviconUrl = 'https://placehold.co/64x64/36393f/ffffff?text=ERR'; // Error icon
+                    }
+                }
+
+                const favicon = document.createElement('div');
+                favicon.classList.add('favicon');
+                favicon.dataset.viewId = viewId;
+                favicon.draggable = true; // Make it draggable
+                favicon.style.backgroundImage = `url('${faviconUrl}')`;
+                favicon.title = viewTitle;
+
+                const badge = document.createElement('div');
+                badge.classList.add('notification-badge');
+                favicon.appendChild(badge);
+
+                favicon.addEventListener('click', () => setActiveView(viewId));
+                favicon.addEventListener('contextmenu', (e) => {
+                    e.preventDefault();
+                    contextMenu.style.top = `${e.clientY}px`;
+                    contextMenu.style.left = `${e.clientX}px`;
+                    contextMenu.style.display = 'block';
+                    contextMenu.dataset.viewId = viewId;
+                });
+
+                sidebar.insertBefore(favicon, addButton);
+
+                const viewFrame = document.createElement('iframe');
+                viewFrame.id = viewId;
+                viewFrame.classList.add('content-view');
+                viewFrame.src = url;
+                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation";
+                content.appendChild(viewFrame);
+
+                const newView = { id: viewId, url, title: viewTitle, favicon, frame: viewFrame, badge };
+                views.push(newView);
+                
+                if (shouldSave) {
+                    setActiveView(viewId);
+                    saveViews();
+                }
+            }
+
+            function setActiveView(viewId) {
+                if (!viewId && views.length > 0) {
+                    viewId = views[0].id;
+                }
+                activeView = viewId;
+                views.forEach(view => {
+                    const isActive = view.id === viewId;
+                    view.frame.classList.toggle('active', isActive);
+                    view.favicon.classList.toggle('active', isActive);
+                });
+            }
+
+            function removeView(viewId) {
+                const viewIndex = views.findIndex(v => v.id === viewId);
+                if (viewIndex === -1) return;
+                const viewToRemove = views[viewIndex];
+                viewToRemove.favicon.remove();
+                viewToRemove.frame.remove();
+                views.splice(viewIndex, 1);
+                
+                saveViews();
+
+                if (activeView === viewId) {
+                    setActiveView(views.length > 0 ? views[0].id : null);
+                }
+            }
+            
+            function setNotificationBadge(viewId, count) {
+                const view = views.find(v => v.id === viewId);
+                if (!view) return;
+                if (count > 0) {
+                    view.badge.textContent = count > 99 ? '99+' : count;
+                    view.badge.style.display = 'block';
+                } else {
+                    view.badge.style.display = 'none';
+                }
+            }
+
+            // --- Context Menu Logic ---
+            removeItem.addEventListener('click', () => {
+                const viewIdToRemove = contextMenu.dataset.viewId;
+                if (viewIdToRemove) removeView(viewIdToRemove);
+                contextMenu.style.display = 'none';
+            });
+            window.addEventListener('click', (e) => {
+                if (!contextMenu.contains(e.target)) contextMenu.style.display = 'none';
+            });
+
+            // --- Initial Setup ---
+            loadViews();
+        });
+    </script>
+</body>
+</html>
