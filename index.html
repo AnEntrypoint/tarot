@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord-like OS.js App</title>
-    <link rel="stylesheet" href="https://unpkg.com/@osjs/client/dist/main.css">
-    <link rel="stylesheet" href="https://unpkg.com/@osjs/gui/dist/main.css">
-    <script src="https://unpkg.com/@osjs/client/dist/main.js"></script>
+    <title>Discord-like Web App</title>
     <style>
         body, html {
             margin: 0;
@@ -33,12 +30,12 @@
             -webkit-user-select: none;
             user-select: none;
             overflow-y: auto; /* Allow scrolling */
-            /* Hide scrollbar for Chrome, Safari and Opera */
-            &::-webkit-scrollbar {
-                display: none;
-            }
-            -ms-overflow-style: none;  /* IE and Edge */
             scrollbar-width: none;  /* Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+        }
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .sidebar::-webkit-scrollbar {
+            display: none;
         }
         .favicon {
             width: 48px;
@@ -286,7 +283,6 @@
                         const parsedViews = JSON.parse(savedViews);
                         if (Array.isArray(parsedViews) && parsedViews.length > 0) {
                             parsedViews.forEach(view => addView(view.url, view.title, false));
-                            setActiveView(views[0].id);
                         } else {
                            loadDefaultViews();
                         }
@@ -296,6 +292,11 @@
                     }
                 } else {
                     loadDefaultViews();
+                }
+
+                // Set the first view as active after loading
+                if (views.length > 0) {
+                    setActiveView(views[0].id);
                 }
             }
 
@@ -403,8 +404,8 @@
                 viewFrame.id = viewId;
                 viewFrame.classList.add('content-view');
                 viewFrame.src = url;
-                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-microphone allow-camera";
-                viewFrame.setAttribute('allow', 'microphone; camera;');
+                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-microphone allow-camera";
+                viewFrame.setAttribute('allow', 'microphone; camera; display-capture');
                 content.appendChild(viewFrame);
 
                 const newView = { id: viewId, url, title: viewTitle, favicon, frame: viewFrame, badge };
