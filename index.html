@@ -301,32 +301,7 @@
             }
 
             function loadDefaultViews() {
-                 // Create the HTML for the demo page as a base64 data URL
-                const demoPageHtml = `
-                    <html style="background-color: #36393f; color: #dcddde; font-family: sans-serif; text-align: center; padding-top: 50px;">
-                        <body>
-                            <h1>RPC Demo Page</h1>
-                            <p>Use these buttons to send notifications to the parent window.</p>
-                            <div style="margin-top: 30px;">
-                                <button onclick="sendNotification(1)">Set 1 Notification</button>
-                                <button onclick="sendNotification(5)">Set 5 Notifications</button>
-                                <button onclick="sendNotification(150)">Set 150 Notifications</button>
-                                <button onclick="sendNotification(0)">Clear Notifications</button>
-                            </div>
-                            <script>
-                                function sendNotification(count) {
-                                    const message = { type: 'setNotificationCount', count: count };
-                                    parent.postMessage(message, '*');
-                                }
-                            <\/script>
-                        </body>
-                    </html>
-                `;
-                const encodedDemoPage = btoa(demoPageHtml);
-                const demoPageUrl = `data:text/html;base64,${encodedDemoPage}`;
-
-                addView(demoPageUrl, 'RPC Demo Server', false);
-                addView('https://vdo.ninja/?room=247420', 'VDO.Ninja', false);
+                addView('https://chitchatter.im/public/247420', 'ChitChatter', false);
                 addView('https://app.revolt.chat/', 'Revolt Chat', false);
                 saveViews(); // Save the default set
             }
