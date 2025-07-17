@@ -403,7 +403,8 @@
                 viewFrame.id = viewId;
                 viewFrame.classList.add('content-view');
                 viewFrame.src = url;
-                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts";
+                viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-microphone allow-camera";
+                viewFrame.setAttribute('allow', 'microphone; camera;');
                 content.appendChild(viewFrame);
 
                 const newView = { id: viewId, url, title: viewTitle, favicon, frame: viewFrame, badge };
