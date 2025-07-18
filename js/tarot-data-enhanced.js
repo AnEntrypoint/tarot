@@ -153,7 +153,7 @@ const tarotCards = [
         treeOfLife: ["Kether", "Tiphereth"],
         chakra: "Third Eye",
         jungianArchetype: "The Wise Woman",
-        image: "img/big/major_02_HighPriestess.jpg",
+        image: "img/big/major_02_High_Priestess.jpg",
         
         keywords: {
             upright: ["Intuition", "Sacred knowledge", "Divine feminine", "Subconscious mind", "Mystery", "Wisdom", "Spirituality", "Inner guidance"],
