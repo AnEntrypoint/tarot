@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord-like OS.js App</title>
-    <link rel="stylesheet" href="https://unpkg.com/@osjs/client/dist/main.css">
-    <link rel="stylesheet" href="https://unpkg.com/@osjs/gui/dist/main.css">
-    <script src="https://unpkg.com/@osjs/client/dist/main.js"></script>
+    <title>Discord-like Web App</title>
     <style>
         body, html {
             margin: 0;
@@ -33,12 +30,12 @@
             -webkit-user-select: none;
             user-select: none;
             overflow-y: auto; /* Allow scrolling */
-            /* Hide scrollbar for Chrome, Safari and Opera */
-            &::-webkit-scrollbar {
-                display: none;
-            }
-            -ms-overflow-style: none;  /* IE and Edge */
             scrollbar-width: none;  /* Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+        }
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .sidebar::-webkit-scrollbar {
+            display: none;
         }
         .favicon {
             width: 48px;
@@ -286,7 +283,6 @@
                         const parsedViews = JSON.parse(savedViews);
                         if (Array.isArray(parsedViews) && parsedViews.length > 0) {
                             parsedViews.forEach(view => addView(view.url, view.title, false));
-                            setActiveView(views[0].id);
                         } else {
                            loadDefaultViews();
                         }
@@ -297,35 +293,15 @@
                 } else {
                     loadDefaultViews();
                 }
+
+                // Set the first view as active after loading
+                if (views.length > 0) {
+                    setActiveView(views[0].id);
+                }
             }
 
             function loadDefaultViews() {
-                 // Create the HTML for the demo page as a base64 data URL
-                const demoPageHtml = `
-                    <html style="background-color: #36393f; color: #dcddde; font-family: sans-serif; text-align: center; padding-top: 50px;">
-                        <body>
-                            <h1>RPC Demo Page</h1>
-                            <p>Use these buttons to send notifications to the parent window.</p>
-                            <div style="margin-top: 30px;">
-                                <button onclick="sendNotification(1)">Set 1 Notification</button>
-                                <button onclick="sendNotification(5)">Set 5 Notifications</button>
-                                <button onclick="sendNotification(150)">Set 150 Notifications</button>
-                                <button onclick="sendNotification(0)">Clear Notifications</button>
-                            </div>
-                            <script>
-                                function sendNotification(count) {
-                                    const message = { type: 'setNotificationCount', count: count };
-                                    parent.postMessage(message, '*');
-                                }
-                            <\/script>
-                        </body>
-                    </html>
-                `;
-                const encodedDemoPage = btoa(demoPageHtml);
-                const demoPageUrl = `data:text/html;base64,${encodedDemoPage}`;
-
-                addView(demoPageUrl, 'RPC Demo Server', false);
-                addView('https://vdo.ninja/?room=247420', 'VDO.Ninja', false);
+                addView('https://chitchatter.im/public/247420', 'ChitChatter', false);
                 addView('https://app.revolt.chat/', 'Revolt Chat', false);
                 saveViews(); // Save the default set
             }
@@ -344,13 +320,22 @@
             });
 
             // --- Modal Logic ---
-            addButton.addEventListener('click', () => { modal.style.display = 'block'; urlInput.focus(); });
+            addButton.addEventListener('click', () => {
+                const randomNumber = Math.floor(100000 + Math.random() * 900000);
+                const suggestedUrl = `https://chitchatter.im/public/${randomNumber}`;
+                urlInput.value = suggestedUrl;
+                modal.style.display = 'block';
+                urlInput.focus();
+                // Select the random number part for easy editing
+                const selectionStart = suggestedUrl.lastIndexOf('/') + 1;
+                urlInput.setSelectionRange(selectionStart, suggestedUrl.length);
+            });
             cancelButton.addEventListener('click', () => { modal.style.display = 'none'; urlInput.value = ''; });
             confirmAddButton.addEventListener('click', () => {
                 const url = urlInput.value.trim();
                 if (url) {
                     if (!/^(https?:\/\/|data:text\/html;base64,)/i.test(url)) {
-                       alert("Please enter a valid URL.");
+                       console.error("Invalid URL entered:", url);
                        return;
                     }
                     addView(url, url, true);
@@ -404,7 +389,7 @@
                 viewFrame.classList.add('content-view');
                 viewFrame.src = url;
                 viewFrame.sandbox = "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-microphone allow-camera";
-                viewFrame.setAttribute('allow', 'microphone; camera;');
+                viewFrame.setAttribute('allow', 'microphone; camera; display-capture');
                 content.appendChild(viewFrame);
 
                 const newView = { id: viewId, url, title: viewTitle, favicon, frame: viewFrame, badge };
