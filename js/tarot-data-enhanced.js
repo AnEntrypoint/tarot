@@ -15,7 +15,7 @@ const tarotCards = [
         treeOfLife: ["Kether", "Chokmah"],
         chakra: "Crown",
         jungianArchetype: "The Innocent",
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_00_Fool.jpg",
+        image: "img/big/major_00_Fool.jpg",
         
         keywords: {
             upright: ["New beginnings", "Innocence", "Spontaneity", "Free spirit", "Adventure", "Leap of faith", "Potential", "Originality"],
@@ -84,7 +84,7 @@ const tarotCards = [
         treeOfLife: ["Kether", "Binah"],
         chakra: "Throat",
         jungianArchetype: "The Magician",
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_01_Magician.jpg",
+        image: "img/big/major_01_Magician.jpg",
         
         keywords: {
             upright: ["Manifestation", "Resourcefulness", "Power", "Inspired action", "Will", "Concentration", "Skill", "Mastery"],
@@ -153,7 +153,7 @@ const tarotCards = [
         treeOfLife: ["Kether", "Tiphereth"],
         chakra: "Third Eye",
         jungianArchetype: "The Wise Woman",
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_02_HighPriestess.jpg",
+        image: "img/big/major_02_HighPriestess.jpg",
         
         keywords: {
             upright: ["Intuition", "Sacred knowledge", "Divine feminine", "Subconscious mind", "Mystery", "Wisdom", "Spirituality", "Inner guidance"],
