@@ -302,15 +302,17 @@ button {
 }
 
 .deck-card:before {
-    content: 'DRAW';
+    content: 'CLICK TO DRAW';
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 600;
     opacity: 0.8;
     color: var(--text-light);
+    text-align: center;
+    line-height: 1.2;
 }
 
 @media (min-width: 640px) {
