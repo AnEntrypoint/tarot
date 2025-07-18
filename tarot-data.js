@@ -8,7 +8,7 @@ const tarotCards = [
         element: "Air",
         astrology: "Uranus",
         numerology: 0,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_00_Fool.jpg",
+        image: "img/big/major_00_Fool.jpg",
         keywords: {
             upright: ["New beginnings", "Innocence", "Spontaneity", "Free spirit", "Adventure"],
             reversed: ["Recklessness", "Taken advantage of", "Inconsideration", "Foolishness"]
@@ -35,7 +35,7 @@ const tarotCards = [
         element: "Air",
         astrology: "Mercury",
         numerology: 1,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_01_Magician.jpg",
+        image: "img/big/major_01_Magician.jpg",
         keywords: {
             upright: ["Manifestation", "Resourcefulness", "Power", "Inspired action", "Will"],
             reversed: ["Manipulation", "Poor planning", "Untapped talents", "Lack of focus"]
@@ -62,7 +62,7 @@ const tarotCards = [
         element: "Water",
         astrology: "Moon",
         numerology: 2,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_02_High_Priestess.jpg",
+        image: "img/big/major_02_High_Priestess.jpg",
         keywords: {
             upright: ["Intuition", "Sacred knowledge", "Divine feminine", "Subconscious", "Mystery"],
             reversed: ["Secrets revealed", "Hidden agendas", "Lack of intuition", "Disconnection"]
@@ -89,7 +89,7 @@ const tarotCards = [
         element: "Earth",
         astrology: "Venus",
         numerology: 3,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_03_Empress.jpg",
+        image: "img/big/major_03_Empress.jpg",
         keywords: {
             upright: ["Femininity", "Beauty", "Nature", "Nurturing", "Abundance", "Fertility"],
             reversed: ["Creative block", "Dependence", "Smothering", "Lack of growth"]
@@ -116,7 +116,7 @@ const tarotCards = [
         element: "Fire",
         astrology: "Aries",
         numerology: 4,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_04_Emperor.jpg",
+        image: "img/big/maj04.jpg",
         keywords: {
             upright: ["Authority", "Structure", "Control", "Father figure", "Leadership"],
             reversed: ["Domination", "Excessive control", "Lack of discipline", "Tyranny"]
@@ -143,7 +143,7 @@ const tarotCards = [
         element: "Earth",
         astrology: "Taurus",
         numerology: 5,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_05_Hierophant.jpg",
+        image: "img/big/major_05_Hierophant.jpg",
         keywords: {
             upright: ["Spiritual wisdom", "Religious beliefs", "Conformity", "Tradition", "Institutions"],
             reversed: ["Personal beliefs", "Freedom", "Challenging tradition", "New approaches"]
@@ -170,7 +170,7 @@ const tarotCards = [
         element: "Air",
         astrology: "Gemini",
         numerology: 6,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_06_Lovers.jpg",
+        image: "img/big/major_06_Lovers.jpg",
         keywords: {
             upright: ["Love", "Harmony", "Relationships", "Choice", "Values alignment"],
             reversed: ["Disharmony", "Imbalance", "Misaligned values", "Difficult choices"]
@@ -197,7 +197,7 @@ const tarotCards = [
         element: "Water",
         astrology: "Cancer",
         numerology: 7,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_07_Chariot.jpg",
+        image: "img/big/major_07_Chariot.jpg",
         keywords: {
             upright: ["Control", "Willpower", "Victory", "Determination", "Direction"],
             reversed: ["Lack of control", "Opposition", "Lack of direction", "Aggression"]
@@ -224,7 +224,7 @@ const tarotCards = [
         element: "Fire",
         astrology: "Leo",
         numerology: 8,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_08_Strength.jpg",
+        image: "img/big/major_08_Strength.jpg",
         keywords: {
             upright: ["Courage", "Compassion", "Inner strength", "Patience", "Control"],
             reversed: ["Weakness", "Self-doubt", "Lack of confidence", "Giving up"]
@@ -251,7 +251,7 @@ const tarotCards = [
         element: "Earth",
         astrology: "Virgo",
         numerology: 9,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_09_Hermit.jpg",
+        image: "img/big/major_09_Hermit.jpg",
         keywords: {
             upright: ["Introspection", "Solitude", "Guidance", "Inner wisdom", "Soul searching"],
             reversed: ["Isolation", "Loneliness", "Withdrawal", "Avoiding introspection"]
@@ -278,7 +278,7 @@ const tarotCards = [
         element: "Fire",
         astrology: "Jupiter",
         numerology: 10,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/major_10_Wheel_of_Fortune.jpg",
+        image: "img/big/major_10_Wheel_of_Fortune.jpg",
         keywords: {
             upright: ["Good luck", "Destiny", "Change", "Cycles", "Turning point"],
             reversed: ["Bad luck", "Resistance to change", "Breaking cycles", "Setbacks"]
@@ -307,7 +307,7 @@ const tarotCards = [
         element: "Fire",
         astrology: "Fire signs (Aries, Leo, Sagittarius)",
         numerology: 1,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/wands01.jpg",
+        image: "img/big/wands01.jpg",
         keywords: {
             upright: ["Inspiration", "New opportunities", "Growth", "Potential", "Creative energy"],
             reversed: ["Lack of energy", "Delays", "Creative blocks", "Wasted opportunities"]
@@ -334,7 +334,7 @@ const tarotCards = [
         element: "Fire",
         astrology: "Mars in Aries",
         numerology: 2,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/wands02.jpg",
+        image: "img/big/wands02.jpg",
         keywords: {
             upright: ["Planning", "Future vision", "Personal power", "Discovery", "Planning"],
             reversed: ["Fear of unknown", "Lack of planning", "Playing it safe", "Disorganized thinking"]
@@ -363,7 +363,7 @@ const tarotCards = [
         element: "Water",
         astrology: "Water signs (Cancer, Scorpio, Pisces)",
         numerology: 1,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/cups01.jpg",
+        image: "img/big/cups01.jpg",
         keywords: {
             upright: ["New emotions", "Intuition", "Love", "Compassion", "Creativity"],
             reversed: ["Blocked emotions", "Emptiness", "Lack of love", "Creative block"]
@@ -390,7 +390,7 @@ const tarotCards = [
         element: "Water",
         astrology: "Venus in Cancer",
         numerology: 2,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/cups02.jpg",
+        image: "img/big/cups02.jpg",
         keywords: {
             upright: ["Unity", "Partnership", "Connection", "Mutual attraction", "Cooperation"],
             reversed: ["Disharmony", "Imbalance", "Broken partnership", "Self-love issues"]
@@ -419,7 +419,7 @@ const tarotCards = [
         element: "Air",
         astrology: "Air signs (Gemini, Libra, Aquarius)",
         numerology: 1,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/swords01.jpg",
+        image: "img/big/swords01.jpg",
         keywords: {
             upright: ["New ideas", "Mental clarity", "Breakthrough", "Communication", "Truth"],
             reversed: ["Confusion", "Chaos", "Lack of clarity", "Misinformation"]
@@ -446,7 +446,7 @@ const tarotCards = [
         element: "Air",
         astrology: "Moon in Libra",
         numerology: 2,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/swords02.jpg",
+        image: "img/big/swords02.jpg",
         keywords: {
             upright: ["Indecision", "Stalemate", "Blocked emotions", "Difficult choice"],
             reversed: ["Decision made", "Confusion cleared", "Information revealed", "Emotional release"]
@@ -475,7 +475,7 @@ const tarotCards = [
         element: "Earth",
         astrology: "Earth signs (Taurus, Virgo, Capricorn)",
         numerology: 1,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/pents01.jpg",
+        image: "img/big/pents01.jpg",
         keywords: {
             upright: ["New opportunities", "Manifestation", "Financial opportunity", "Material gain", "Prosperity"],
             reversed: ["Missed opportunity", "Financial loss", "Poor planning", "Greed"]
@@ -502,7 +502,7 @@ const tarotCards = [
         element: "Earth",
         astrology: "Jupiter in Capricorn",
         numerology: 2,
-        image: "https://raw.githubusercontent.com/searge/tarot/main/img/big/pents02.jpg",
+        image: "img/big/pents02.jpg",
         keywords: {
             upright: ["Balance", "Adaptability", "Time management", "Flexibility", "Juggling priorities"],
             reversed: ["Imbalance", "Overwhelmed", "Financial stress", "Poor time management"]
