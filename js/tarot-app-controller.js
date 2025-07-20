@@ -197,28 +197,109 @@ class TarotAppController {
         const summaryElement = document.getElementById('readingSummary');
         const contentElement = document.getElementById('summaryContent');
         
+        // Generate detailed elemental and numerical analysis
+        const elementalStats = this.getElementalStats();
+        const numericalStats = this.getNumericalStats();
+        const energeticStats = this.getEnergeticStats();
+        
         let summaryHTML = `
             <div class="reading-header">
                 <h4 class="text-xl font-semibold mb-2 text-teal-400">${this.currentSpread.name}</h4>
                 <p class="text-gray-300 mb-4">${this.currentSpread.interpretation}</p>
+                
+                <!-- Quick Stats -->
+                <div class="reading-stats grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                    <div class="stat-card">
+                        <span class="stat-value">${this.drawnCards.filter(c => c.suit === 'Major Arcana').length}</span>
+                        <span class="stat-label">Major Arcana</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-value">${this.drawnCards.filter(c => c.isReversed).length}</span>
+                        <span class="stat-label">Reversed</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-value">${elementalStats.dominant}</span>
+                        <span class="stat-label">Dominant Element</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-value">${energeticStats.overall}</span>
+                        <span class="stat-label">Energy Level</span>
+                    </div>
+                </div>
             </div>
             
             <div class="cards-overview">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <h5 class="font-semibold text-purple-300 mb-4">Detailed Card Analysis</h5>
+                <div class="grid grid-cols-1 gap-4">
         `;
         
         this.drawnCards.forEach((card, index) => {
+            const cardAnalysis = this.getDetailedCardAnalysis(card);
             summaryHTML += `
-                <div class="card-summary">
-                    <div class="flex items-start gap-3">
+                <div class="detailed-card-summary">
+                    <div class="card-header">
                         <div class="card-position-indicator">
                             <span class="position-number">${index + 1}</span>
                         </div>
-                        <div class="card-summary-content">
+                        <div class="card-title-section">
                             <h5 class="font-semibold text-blue-300">${card.position.name}</h5>
-                            <p class="text-sm text-gray-400 mb-2">${card.position.description}</p>
-                            <p class="font-medium text-white">${card.name}${card.isReversed ? ' (Reversed)' : ''}</p>
-                            <p class="text-sm text-gray-300 mt-1">${this.getCardSummary(card)}</p>
+                            <p class="text-sm text-gray-400">${card.position.description}</p>
+                        </div>
+                        <div class="card-energy-indicator ${card.element?.toLowerCase() || 'neutral'}">
+                            ${this.getElementSymbol(card.element)}
+                        </div>
+                    </div>
+                    
+                    <div class="card-main-info">
+                        <div class="card-name-section">
+                            <p class="font-medium text-white text-lg">${card.name}${card.isReversed ? ' (Reversed)' : ''}</p>
+                            <div class="card-metadata">
+                                <span class="metadata-item">${card.suit}</span>
+                                ${card.number ? `<span class="metadata-item">Number ${card.number}</span>` : ''}
+                                ${card.element ? `<span class="metadata-item">${card.element}</span>` : ''}
+                                ${card.astrology ? `<span class="metadata-item">${card.astrology}</span>` : ''}
+                            </div>
+                        </div>
+                        
+                        <div class="card-analysis-grid">
+                            <div class="analysis-section">
+                                <h6 class="analysis-title">Primary Meaning</h6>
+                                <p class="text-sm text-gray-300">${cardAnalysis.primaryMeaning}</p>
+                            </div>
+                            
+                            <div class="analysis-section">
+                                <h6 class="analysis-title">Position-Specific Interpretation</h6>
+                                <p class="text-sm text-gray-300">${cardAnalysis.positionSpecific}</p>
+                            </div>
+                            
+                            <div class="analysis-section">
+                                <h6 class="analysis-title">Keywords</h6>
+                                <div class="keywords-list">
+                                    ${cardAnalysis.keywords.map(kw => `<span class="keyword-tag">${kw}</span>`).join('')}
+                                </div>
+                            </div>
+                            
+                            <div class="analysis-section">
+                                <h6 class="analysis-title">Energetic Influence</h6>
+                                <p class="text-sm text-gray-300">${cardAnalysis.energeticInfluence}</p>
+                            </div>
+                            
+                            <div class="analysis-section">
+                                <h6 class="analysis-title">Psychological Aspect</h6>
+                                <p class="text-sm text-gray-300">${cardAnalysis.psychological}</p>
+                            </div>
+                            
+                            <div class="analysis-section">
+                                <h6 class="analysis-title">Spiritual Message</h6>
+                                <p class="text-sm text-gray-300">${cardAnalysis.spiritual}</p>
+                            </div>
+                            
+                            ${card.isReversed ? `
+                                <div class="analysis-section reversed-analysis">
+                                    <h6 class="analysis-title">Reversed Significance</h6>
+                                    <p class="text-sm text-gray-300">${cardAnalysis.reversedSignificance}</p>
+                                </div>
+                            ` : ''}
                         </div>
                     </div>
                 </div>
@@ -229,9 +310,76 @@ class TarotAppController {
                 </div>
             </div>
             
-            <div class="reading-insight mt-6">
-                <h5 class="font-semibold text-purple-300 mb-3">Overall Reading Insight</h5>
-                <p class="text-gray-300">${this.generateOverallInsight()}</p>
+            <div class="comprehensive-insights mt-8">
+                <h5 class="font-semibold text-purple-300 mb-4">Comprehensive Reading Insights</h5>
+                
+                <div class="insights-grid">
+                    <div class="insight-section">
+                        <h6 class="insight-title">Elemental Analysis</h6>
+                        <p class="text-sm text-gray-300">${elementalStats.analysis}</p>
+                        <div class="element-breakdown">
+                            ${Object.entries(elementalStats.breakdown).map(([element, count]) => 
+                                `<div class="element-stat">
+                                    <span class="element-icon ${element.toLowerCase()}">${this.getElementSymbol(element)}</span>
+                                    <span class="element-name">${element}</span>
+                                    <span class="element-count">${count}</span>
+                                </div>`
+                            ).join('')}
+                        </div>
+                    </div>
+                    
+                    <div class="insight-section">
+                        <h6 class="insight-title">Numerical Significance</h6>
+                        <p class="text-sm text-gray-300">${numericalStats.analysis}</p>
+                        <div class="numerical-patterns">
+                            ${numericalStats.patterns.map(pattern => 
+                                `<div class="number-pattern">${pattern}</div>`
+                            ).join('')}
+                        </div>
+                    </div>
+                    
+                    <div class="insight-section">
+                        <h6 class="insight-title">Energetic Flow</h6>
+                        <p class="text-sm text-gray-300">${energeticStats.analysis}</p>
+                        <div class="energy-flow-map">
+                            ${this.drawnCards.map((card, i) => 
+                                `<div class="flow-node ${this.getEnergyDirection(card, i)}">
+                                    <span class="node-number">${i + 1}</span>
+                                    <span class="node-energy">${this.getCardEnergyType(card)}</span>
+                                </div>`
+                            ).join('')}
+                        </div>
+                    </div>
+                    
+                    <div class="insight-section full-width">
+                        <h6 class="insight-title">Overall Reading Synthesis</h6>
+                        <p class="text-gray-300">${this.generateComprehensiveInsight()}</p>
+                    </div>
+                    
+                    <div class="insight-section full-width">
+                        <h6 class="insight-title">Practical Guidance</h6>
+                        <div class="guidance-list">
+                            ${this.generatePracticalGuidance().map(guidance => 
+                                `<div class="guidance-item">
+                                    <span class="guidance-icon">💡</span>
+                                    <span class="guidance-text">${guidance}</span>
+                                </div>`
+                            ).join('')}
+                        </div>
+                    </div>
+                    
+                    <div class="insight-section full-width">
+                        <h6 class="insight-title">Questions for Reflection</h6>
+                        <div class="reflection-questions">
+                            ${this.generateReflectionQuestions().map(question => 
+                                `<div class="reflection-question">
+                                    <span class="question-icon">❓</span>
+                                    <span class="question-text">${question}</span>
+                                </div>`
+                            ).join('')}
+                        </div>
+                    </div>
+                </div>
             </div>
         `;
         
@@ -242,6 +390,483 @@ class TarotAppController {
     getCardSummary(card) {
         const meaning = card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general;
         return meaning.substring(0, 120) + '...';
+    }
+
+    getElementalStats() {
+        const breakdown = {};
+        let dominant = 'Balanced';
+        let maxCount = 0;
+        
+        this.drawnCards.forEach(card => {
+            if (card.element) {
+                breakdown[card.element] = (breakdown[card.element] || 0) + 1;
+                if (breakdown[card.element] > maxCount) {
+                    maxCount = breakdown[card.element];
+                    dominant = card.element;
+                }
+            }
+        });
+        
+        const analysis = this.generateElementalAnalysis(breakdown, dominant);
+        
+        return { breakdown, dominant, analysis };
+    }
+    
+    getNumericalStats() {
+        const numbers = this.drawnCards
+            .filter(card => card.number !== null)
+            .map(card => card.number);
+        
+        const patterns = [];
+        const sum = numbers.reduce((a, b) => a + b, 0);
+        const average = numbers.length > 0 ? (sum / numbers.length).toFixed(1) : 0;
+        
+        // Find sequences
+        const sortedNumbers = [...numbers].sort((a, b) => a - b);
+        let sequences = [];
+        let currentSeq = [sortedNumbers[0]];
+        
+        for (let i = 1; i < sortedNumbers.length; i++) {
+            if (sortedNumbers[i] === sortedNumbers[i-1] + 1) {
+                currentSeq.push(sortedNumbers[i]);
+            } else {
+                if (currentSeq.length > 1) sequences.push([...currentSeq]);
+                currentSeq = [sortedNumbers[i]];
+            }
+        }
+        if (currentSeq.length > 1) sequences.push(currentSeq);
+        
+        if (sequences.length > 0) {
+            patterns.push(`Sequential pattern: ${sequences.map(seq => seq.join('-')).join(', ')}`);
+        }
+        
+        patterns.push(`Average numerical value: ${average}`);
+        patterns.push(`Total numerical sum: ${sum}`);
+        
+        // Check for master numbers
+        const masterNumbers = numbers.filter(n => [11, 22, 33].includes(n));
+        if (masterNumbers.length > 0) {
+            patterns.push(`Master numbers present: ${masterNumbers.join(', ')}`);
+        }
+        
+        const analysis = `The numerical frequency suggests ${this.getNumericalFrequencyMeaning(average)}. ` +
+                        `With a total sum of ${sum}, the reading vibrates at ${this.getNumericalVibrationMeaning(sum)}.`;
+        
+        return { patterns, analysis, average, sum };
+    }
+    
+    getEnergeticStats() {
+        const energyTypes = {
+            active: 0,
+            passive: 0,
+            transformative: 0,
+            stable: 0
+        };
+        
+        this.drawnCards.forEach(card => {
+            const energyType = this.getCardEnergyType(card);
+            energyTypes[energyType]++;
+        });
+        
+        const dominant = Object.entries(energyTypes)
+            .sort(([,a], [,b]) => b - a)[0][0];
+        
+        const overall = this.getOverallEnergyLevel(energyTypes);
+        const analysis = this.generateEnergeticAnalysis(energyTypes, dominant);
+        
+        return { energyTypes, dominant, overall, analysis };
+    }
+    
+    getDetailedCardAnalysis(card) {
+        const primaryMeaning = card.isReversed ? 
+            card.meanings.reversed.general : 
+            card.meanings.upright.general;
+        
+        const keywords = card.isReversed ? 
+            card.keywords.reversed : 
+            card.keywords.upright;
+        
+        const positionSpecific = this.getPositionSpecificMeaning(card, card.position);
+        const energeticInfluence = this.getEnergeticInfluence(card);
+        const psychological = this.getPsychologicalAspect(card);
+        const spiritual = this.getSpiritualMessage(card);
+        const reversedSignificance = card.isReversed ? 
+            this.getReversedSignificance(card) : '';
+        
+        return {
+            primaryMeaning,
+            keywords,
+            positionSpecific,
+            energeticInfluence,
+            psychological,
+            spiritual,
+            reversedSignificance
+        };
+    }
+    
+    getElementSymbol(element) {
+        const symbols = {
+            'Fire': '🔥',
+            'Water': '💧',
+            'Air': '💨',
+            'Earth': '🌍',
+            'Spirit': '✨'
+        };
+        return symbols[element] || '❔';
+    }
+    
+    getCardEnergyType(card) {
+        if (card.suit === 'Major Arcana') {
+            const transformativeCards = ['Death', 'The Tower', 'Judgement', 'The World'];
+            if (transformativeCards.includes(card.name)) return 'transformative';
+            return 'active';
+        }
+        
+        if (card.suit === 'Wands') return 'active';
+        if (card.suit === 'Cups') return 'passive';
+        if (card.suit === 'Swords') return 'transformative';
+        if (card.suit === 'Pentacles') return 'stable';
+        
+        return 'active';
+    }
+    
+    getEnergyDirection(card, index) {
+        const energyType = this.getCardEnergyType(card);
+        const position = index % 4; // Create cyclical pattern
+        
+        if (energyType === 'active') return 'ascending';
+        if (energyType === 'transformative') return 'dynamic';
+        if (energyType === 'passive') return 'descending';
+        return 'stable';
+    }
+    
+    generateElementalAnalysis(breakdown, dominant) {
+        const elementalMeanings = {
+            'Fire': 'passionate energy, creativity, and action-oriented approach',
+            'Water': 'emotional depth, intuition, and spiritual flow',
+            'Air': 'mental clarity, communication, and intellectual pursuits',
+            'Earth': 'practical grounding, material stability, and tangible results'
+        };
+        
+        let analysis = `This reading is strongly influenced by ${dominant} energy, bringing ${elementalMeanings[dominant] || 'balanced forces'}. `;
+        
+        const missingElements = ['Fire', 'Water', 'Air', 'Earth'].filter(el => !breakdown[el]);
+        if (missingElements.length > 0) {
+            analysis += `The absence of ${missingElements.join(' and ')} suggests areas that may need attention or conscious integration.`;
+        }
+        
+        return analysis;
+    }
+    
+    getNumericalFrequencyMeaning(average) {
+        if (average < 5) return 'foundational energy and new beginnings';
+        if (average < 10) return 'manifestation energy and practical development';
+        if (average < 15) return 'completion energy and mastery';
+        return 'transformational energy and spiritual evolution';
+    }
+    
+    getNumericalVibrationMeaning(sum) {
+        const reduced = this.reduceNumber(sum);
+        const vibrations = {
+            1: 'leadership and new beginnings',
+            2: 'partnership and balance', 
+            3: 'creativity and expression',
+            4: 'stability and foundation',
+            5: 'change and freedom',
+            6: 'harmony and responsibility',
+            7: 'spiritual seeking and introspection',
+            8: 'material mastery and achievement',
+            9: 'completion and wisdom'
+        };
+        return vibrations[reduced] || 'unique spiritual frequency';
+    }
+    
+    reduceNumber(num) {
+        while (num > 9 && num !== 11 && num !== 22 && num !== 33) {
+            num = num.toString().split('').reduce((a, b) => parseInt(a) + parseInt(b), 0);
+        }
+        return num;
+    }
+    
+    getOverallEnergyLevel(energyTypes) {
+        const total = Object.values(energyTypes).reduce((a, b) => a + b, 0);
+        const activeScore = energyTypes.active * 3 + energyTypes.transformative * 2 + energyTypes.passive * 1 + energyTypes.stable * 2;
+        const percentage = (activeScore / (total * 3)) * 100;
+        
+        if (percentage > 75) return 'High';
+        if (percentage > 50) return 'Moderate';
+        if (percentage > 25) return 'Gentle';
+        return 'Subtle';
+    }
+    
+    generateEnergeticAnalysis(energyTypes, dominant) {
+        const energyDescriptions = {
+            active: 'dynamic forward movement and initiating action',
+            passive: 'receptive flow and emotional processing',
+            transformative: 'catalytic change and breakthrough energy',
+            stable: 'grounding force and sustained growth'
+        };
+        
+        return `The energetic signature is primarily ${dominant}, emphasizing ${energyDescriptions[dominant]}. ` +
+               `This creates a reading focused on ${this.getEnergeticFocus(dominant)}.`;
+    }
+    
+    getEnergeticFocus(dominantEnergy) {
+        const focuses = {
+            active: 'taking initiative and moving forward with confidence',
+            passive: 'deep emotional healing and intuitive guidance',
+            transformative: 'breakthrough moments and significant life changes',
+            stable: 'building lasting foundations and practical manifestation'
+        };
+        return focuses[dominantEnergy] || 'balanced growth and development';
+    }
+    
+    getPositionSpecificMeaning(card, position) {
+        const meaning = card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general;
+        return `In the ${position.name} position, ${card.name} specifically addresses ${this.getPositionContext(position.name, card)}. ${meaning.substring(0, 150)}...`;
+    }
+    
+    getPositionContext(positionName, card) {
+        const contexts = {
+            'Past': 'the foundational influences and experiences that have led to the current situation',
+            'Present': 'the immediate circumstances and energies surrounding you now',
+            'Future': 'the potential outcomes and directions available to you',
+            'Conscious': 'what you are actively aware of and can directly influence',
+            'Subconscious': 'hidden influences, desires, and unconscious patterns',
+            'Self': 'your inner nature, core identity, and personal power',
+            'Situation': 'the external circumstances and environmental factors',
+            'Challenges': 'obstacles to overcome and lessons to learn',
+            'Action': 'the steps you need to take and decisions to make',
+            'Outcome': 'the ultimate resolution and transformation available'
+        };
+        
+        return contexts[positionName] || 'the specific area of focus in your life';
+    }
+    
+    getEnergeticInfluence(card) {
+        const element = card.element;
+        const suit = card.suit;
+        const isReversed = card.isReversed;
+        
+        let influence = `This card radiates ${element || 'balanced'} energy, `;
+        
+        if (suit === 'Major Arcana') {
+            influence += 'carrying universal archetypal power that operates beyond personal will. ';
+        } else {
+            const suitInfluences = {
+                'Wands': 'igniting passion and creative fire within your spirit',
+                'Cups': 'opening emotional depths and enhancing intuitive receptivity',
+                'Swords': 'sharpening mental clarity and cutting through illusion',
+                'Pentacles': 'grounding aspirations into tangible, practical reality'
+            };
+            influence += suitInfluences[suit] || 'bringing specific directional energy';
+        }
+        
+        if (isReversed) {
+            influence += ' The reversed orientation suggests this energy is internalized, blocked, or in transition.';
+        }
+        
+        return influence;
+    }
+    
+    getPsychologicalAspect(card) {
+        // Map to Jungian concepts
+        const majorArcanaMappe = {
+            'The Fool': 'Embracing the innocent, spontaneous aspect of the psyche',
+            'The Magician': 'Activating personal will and conscious manifestation',
+            'The High Priestess': 'Accessing the anima and intuitive wisdom',
+            'The Empress': 'Nurturing the creative, fertile aspects of consciousness',
+            'The Emperor': 'Establishing order, structure, and paternal authority',
+            'The Hierophant': 'Seeking wisdom through tradition and collective knowledge',
+            'The Lovers': 'Integrating opposites and making conscious choices',
+            'The Chariot': 'Directing willpower toward a specific goal',
+            'Strength': 'Balancing instinct with conscious control',
+            'The Hermit': 'Turning inward for self-discovery and enlightenment',
+            'Wheel of Fortune': 'Understanding cycles and surrendering to greater forces',
+            'Justice': 'Seeking balance and examining consequences',
+            'The Hanged Man': 'Surrendering ego for higher perspective',
+            'Death': 'Transforming through letting go of outdated patterns',
+            'Temperance': 'Harmonizing opposing forces within the psyche',
+            'The Devil': 'Confronting shadow aspects and material attachments',
+            'The Tower': 'Breaking through rigid mental structures',
+            'The Star': 'Connecting with hope and spiritual guidance',
+            'The Moon': 'Navigating the unconscious and facing illusions',
+            'The Sun': 'Achieving integration and conscious illumination',
+            'Judgement': 'Experiencing spiritual awakening and rebirth',
+            'The World': 'Achieving wholeness and completion of a cycle'
+        };
+        
+        if (card.suit === 'Major Arcana') {
+            return majorArcanaMappe[card.name] || 'Working with archetypal energies to integrate aspects of the collective unconscious';
+        }
+        
+        const suitPsychology = {
+            'Wands': 'Exploring motivation, passion, and the drive for self-expression',
+            'Cups': 'Processing emotions, relationships, and the feeling function',
+            'Swords': 'Engaging with thoughts, communication, and mental challenges',
+            'Pentacles': 'Focusing on sensation, security, and material manifestation'
+        };
+        
+        return suitPsychology[card.suit] || 'Integrating practical life experiences into psychological growth';
+    }
+    
+    getSpiritualMessage(card) {
+        // Enhanced spiritual interpretations
+        const spiritualMessages = {
+            'Major Arcana': 'This card carries a message from your higher self about your spiritual evolution and soul\'s journey.',
+            'Wands': 'Your spirit calls for creative expression and passionate engagement with your life\'s purpose.',
+            'Cups': 'Divine love flows through your emotional experiences, offering healing and spiritual nourishment.',
+            'Swords': 'Truth and clarity are being revealed to cut through illusion and align with your authentic path.',
+            'Pentacles': 'The material world serves as a temple for spiritual growth and conscious manifestation.'
+        };
+        
+        let message = spiritualMessages[card.suit] || spiritualMessages['Major Arcana'];
+        
+        if (card.isReversed) {
+            message += ' The reversed energy suggests an invitation to look within for the spiritual lesson being offered.';
+        }
+        
+        return message;
+    }
+    
+    getReversedSignificance(card) {
+        return `The reversed orientation of ${card.name} indicates that its energy is operating internally, suggesting a need for ` +
+               `inner work, patience, or a different approach than the upright meaning would suggest. This may represent ` +
+               `blocked energy, shadow work, or a period of gestation before external manifestation.`;
+    }
+    
+    generateComprehensiveInsight() {
+        const majorArcanaCount = this.drawnCards.filter(c => c.suit === 'Major Arcana').length;
+        const reversedCount = this.drawnCards.filter(c => c.isReversed).length;
+        const elements = {};
+        
+        this.drawnCards.forEach(card => {
+            if (card.element) {
+                elements[card.element] = (elements[card.element] || 0) + 1;
+            }
+        });
+        
+        let insight = 'This reading reveals ';
+        
+        if (majorArcanaCount > this.drawnCards.length / 2) {
+            insight += 'a powerful spiritual awakening and major life themes demanding attention. The universe is actively guiding you through significant transformations. ';
+        } else if (majorArcanaCount === 0) {
+            insight += 'a focus on practical, day-to-day matters and personal development within your current life circumstances. ';
+        } else {
+            insight += 'a balanced blend of spiritual guidance and practical considerations, suggesting both inner work and outer action are needed. ';
+        }
+        
+        if (reversedCount > this.drawnCards.length / 2) {
+            insight += 'The predominance of reversed cards indicates a time of internal processing, reflection, and shadow work. ';
+        }
+        
+        const dominantElement = Object.entries(elements).sort(([,a], [,b]) => b - a)[0];
+        if (dominantElement) {
+            const elementInsights = {
+                'Fire': 'Your path forward requires courage, creativity, and bold action.',
+                'Water': 'Trust your intuition and allow emotions to guide you toward healing.',
+                'Air': 'Mental clarity and honest communication will illuminate your way.',
+                'Earth': 'Focus on practical steps and building solid foundations for lasting success.'
+            };
+            insight += elementInsights[dominantElement[0]] || '';
+        }
+        
+        insight += ' This reading encourages you to integrate all aspects of your experience—spiritual, emotional, mental, and physical—for holistic growth and authentic self-expression.';
+        
+        return insight;
+    }
+    
+    generatePracticalGuidance() {
+        const guidance = [];
+        const elements = {};
+        const suits = {};
+        
+        this.drawnCards.forEach(card => {
+            if (card.element) elements[card.element] = (elements[card.element] || 0) + 1;
+            suits[card.suit] = (suits[card.suit] || 0) + 1;
+        });
+        
+        // Element-based guidance
+        Object.entries(elements).forEach(([element, count]) => {
+            if (count >= 2) {
+                const elementGuidance = {
+                    'Fire': 'Take bold action on your creative projects and trust your passionate impulses.',
+                    'Water': 'Honor your emotional needs and create space for intuitive reflection.',
+                    'Air': 'Engage in meaningful conversations and seek new learning opportunities.',
+                    'Earth': 'Focus on practical steps, financial planning, and physical wellness.'
+                };
+                guidance.push(elementGuidance[element]);
+            }
+        });
+        
+        // Reversed card guidance
+        const reversedCount = this.drawnCards.filter(c => c.isReversed).length;
+        if (reversedCount > 0) {
+            guidance.push('Practice patience and self-reflection before taking major external actions.');
+        }
+        
+        // Major Arcana guidance
+        const majorCount = this.drawnCards.filter(c => c.suit === 'Major Arcana').length;
+        if (majorCount > 0) {
+            guidance.push('Pay attention to synchronicities and spiritual signs guiding your path.');
+        }
+        
+        // Default guidance
+        if (guidance.length === 0) {
+            guidance.push('Trust the process and remain open to unexpected opportunities.');
+            guidance.push('Balance action with reflection for optimal results.');
+        }
+        
+        return guidance;
+    }
+    
+    generateReflectionQuestions() {
+        const questions = [];
+        const themes = new Set();
+        
+        this.drawnCards.forEach(card => {
+            themes.add(card.suit);
+            if (card.isReversed) themes.add('shadow');
+        });
+        
+        if (themes.has('Major Arcana')) {
+            questions.push('What major life lesson is the universe trying to teach me right now?');
+            questions.push('How can I align more closely with my soul\'s purpose?');
+        }
+        
+        if (themes.has('Wands')) {
+            questions.push('What creative project or passion deserves more of my energy?');
+            questions.push('Where in my life do I need to take more initiative?');
+        }
+        
+        if (themes.has('Cups')) {
+            questions.push('What emotions am I avoiding that need to be felt and healed?');
+            questions.push('How can I nurture my relationships and emotional well-being?');
+        }
+        
+        if (themes.has('Swords')) {
+            questions.push('What mental patterns or beliefs need to be examined and possibly released?');
+            questions.push('Where do I need more clarity or honest communication in my life?');
+        }
+        
+        if (themes.has('Pentacles')) {
+            questions.push('How can I better manifest my goals in the physical world?');
+            questions.push('What practical steps will move me toward greater security and abundance?');
+        }
+        
+        if (themes.has('shadow')) {
+            questions.push('What hidden aspects of myself are seeking integration and acceptance?');
+            questions.push('How might current challenges be gifts in disguise?');
+        }
+        
+        // Ensure we have at least 3 questions
+        if (questions.length < 3) {
+            questions.push('What is my highest priority for personal growth right now?');
+            questions.push('How can I trust my inner wisdom more fully?');
+            questions.push('What would love do in this situation?');
+        }
+        
+        return questions.slice(0, 5); // Return max 5 questions
     }
 
     generateOverallInsight() {
@@ -315,6 +940,16 @@ class TarotAppController {
         this.updateArchetypesTab();
         this.updateTimingTab();
         this.updateKarmaTab();
+        this.updateNumerologyTab();
+        this.updateElementsTab();
+        this.updateAstrologyTab();
+        this.updateGeometryTab();
+        this.updateSymbolismTab();
+        this.updateInteractionsTab();
+        this.updateShadowTab();
+        this.updateAlchemyTab();
+        this.updateMythologyTab();
+        this.updateQuantumTab();
     }
 
     updateOverviewTab() {
@@ -571,6 +1206,471 @@ class TarotAppController {
         document.getElementById('dharmicPurpose').innerHTML = `
             <p class="text-sm text-gray-300">${analysis.dharma}</p>
         `;
+    }
+
+    updateNumerologyTab() {
+        const analysis = this.currentAnalysis.numerology;
+        
+        document.getElementById('numerologyLifePath').innerHTML = `
+            <div class="analysis-metric">
+                <span class="metric-label">Life Path Number</span>
+                <span class="metric-value text-2xl">${analysis.lifePath}</span>
+            </div>
+            ${analysis.masterNumbers.length > 0 ? `
+                <div class="master-numbers mt-3">
+                    <h5 class="text-sm font-semibold text-yellow-400 mb-2">Master Numbers Present:</h5>
+                    ${analysis.masterNumbers.map(m => `
+                        <div class="master-number-item">
+                            <span class="text-lg font-bold">${m.number}</span> - ${m.card}<br>
+                            <span class="text-xs text-gray-400">${m.meaning}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : ''}
+        `;
+        
+        document.getElementById('numerologyPatterns').innerHTML = `
+            ${analysis.repeatingPatterns.length > 0 ? `
+                <div class="repeating-patterns">
+                    ${analysis.repeatingPatterns.map(p => `
+                        <div class="pattern-item mb-2">
+                            <span class="font-semibold">${p.number}</span> appears ${p.frequency} times<br>
+                            <span class="text-xs text-gray-400">${p.meaning}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '<p class="text-sm text-gray-400">No repeating patterns detected</p>'}
+        `;
+        
+        document.getElementById('pythagoreanAnalysis').innerHTML = `
+            <div class="pythagorean-grid">
+                <div class="analysis-metric">
+                    <span class="metric-label">Soul Urge</span>
+                    <span class="metric-value">${analysis.pythagoreanAnalysis.soulUrge}</span>
+                </div>
+                <div class="analysis-metric">
+                    <span class="metric-label">Expression</span>
+                    <span class="metric-value">${analysis.pythagoreanAnalysis.expression}</span>
+                </div>
+                <div class="analysis-metric">
+                    <span class="metric-label">Personality</span>
+                    <span class="metric-value">${analysis.pythagoreanAnalysis.personality}</span>
+                </div>
+                <div class="analysis-metric">
+                    <span class="metric-label">Maturity</span>
+                    <span class="metric-value">${analysis.pythagoreanAnalysis.maturity}</span>
+                </div>
+            </div>
+        `;
+        
+        document.getElementById('angelNumbers').innerHTML = `
+            ${analysis.angelNumbers.length > 0 ? `
+                <div class="angel-numbers">
+                    ${analysis.angelNumbers.map(a => `
+                        <div class="angel-number-item mb-2">
+                            <span class="font-bold text-teal-400">${a.sequence}</span><br>
+                            <span class="text-sm">${a.meaning}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : ''}
+            <div class="frequency-info mt-3">
+                <span class="text-xs text-gray-400">Overall Vibrational Frequency:</span><br>
+                <span class="text-lg font-semibold">${analysis.vibrationalFrequencies.overall.toFixed(2)} Hz</span>
+            </div>
+        `;
+    }
+
+    updateElementsTab() {
+        const analysis = this.currentAnalysis.elementalDignities;
+        
+        document.getElementById('elementalDignities').innerHTML = `
+            <div class="dignities-summary">
+                <p class="text-sm mb-2">Dominant Element: <span class="font-semibold text-teal-400">${analysis.dominantElement || 'Balanced'}</span></p>
+                ${analysis.missingElements.length > 0 ? `
+                    <p class="text-sm text-yellow-400">Missing: ${analysis.missingElements.join(', ')}</p>
+                ` : ''}
+            </div>
+        `;
+        
+        document.getElementById('elementalFlow').innerHTML = `
+            <div class="flow-diagram">
+                ${analysis.elementalFlow.map((flow, i) => `
+                    <div class="flow-item">
+                        <span class="position-number">${flow.position}</span>
+                        <span class="element-name">${flow.element}</span>
+                        ${flow.flowDirection !== 'terminus' ? `
+                            <span class="flow-arrow ${flow.flowDirection}">→</span>
+                        ` : ''}
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('strengtheningPairs').innerHTML = `
+            ${analysis.strengtheningPairs.length > 0 ? `
+                <div class="pair-list">
+                    ${analysis.strengtheningPairs.map(p => `
+                        <div class="pair-item mb-2">
+                            <span class="font-semibold">${p.cards[0]} + ${p.cards[1]}</span><br>
+                            <span class="text-sm text-gray-400">${p.effect}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '<p class="text-sm text-gray-400">No strengthening combinations found</p>'}
+        `;
+        
+        document.getElementById('elementalBalanceDetail').innerHTML = `
+            <div class="element-chart">
+                ${Object.entries(analysis.elementalBalance).map(([element, count]) => `
+                    <div class="element-bar">
+                        <span class="element-label">${element}</span>
+                        <div class="bar-container">
+                            <div class="bar-fill ${element.toLowerCase()}" style="width: ${(count / this.drawnCards.length) * 100}%"></div>
+                        </div>
+                        <span class="element-count">${count}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    updateAstrologyTab() {
+        const analysis = this.currentAnalysis.astrologicalTransits;
+        
+        document.getElementById('currentTransits').innerHTML = `
+            <div class="transit-info">
+                <p class="mb-2">Lunar Phase: <span class="font-semibold">${analysis.lunarPhase}</span></p>
+                <p class="mb-2">Planetary Hour: <span class="font-semibold">${analysis.planetaryHours}</span></p>
+                ${analysis.retrogrades.length > 0 ? `
+                    <p class="text-yellow-400">Retrogrades: ${analysis.retrogrades.join(', ')}</p>
+                ` : ''}
+            </div>
+        `;
+        
+        document.getElementById('planetaryInfluences').innerHTML = `
+            <div class="planetary-list">
+                ${analysis.cardAstrology.map(ca => `
+                    <div class="planetary-item mb-2">
+                        <span class="font-semibold">${ca.card}</span> - ${ca.astrological}<br>
+                        <span class="text-sm text-gray-400">${ca.currentTransit}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('lunarPhaseImpact').innerHTML = `
+            <p class="text-sm text-gray-300">${analysis.interpretation.split('\n')[0]}</p>
+        `;
+        
+        document.getElementById('aspectPatterns').innerHTML = `
+            ${analysis.aspectPatterns.length > 0 ? `
+                <div class="aspect-list">
+                    ${analysis.aspectPatterns.map(pattern => `
+                        <div class="aspect-item">${pattern}</div>
+                    `).join('')}
+                </div>
+            ` : '<p class="text-sm text-gray-400">No significant aspect patterns detected</p>'}
+        `;
+    }
+
+    updateGeometryTab() {
+        const analysis = this.currentAnalysis.sacredGeometry;
+        
+        document.getElementById('goldenRatio').innerHTML = `
+            ${analysis.goldenRatio.length > 0 ? `
+                <div class="ratio-list">
+                    ${analysis.goldenRatio.map(r => `
+                        <div class="ratio-item mb-2">
+                            <span class="font-semibold">${r.card}</span><br>
+                            ${r.relationships.map(rel => `
+                                <span class="text-sm">With ${rel.withCard}: ${rel.ratio.toFixed(3)} - ${rel.significance}</span><br>
+                            `).join('')}
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '<p class="text-sm text-gray-400">No golden ratio relationships found</p>'}
+        `;
+        
+        document.getElementById('fibonacciSequences').innerHTML = `
+            ${analysis.fibonacciSequence.length > 0 ? `
+                <div class="fibonacci-list">
+                    ${analysis.fibonacciSequence.map(f => `
+                        <div class="fib-item mb-2">
+                            <span class="font-semibold">${f.card}</span> - Number ${f.number}<br>
+                            <span class="text-sm text-gray-400">${f.meaning}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '<p class="text-sm text-gray-400">No Fibonacci numbers present</p>'}
+        `;
+        
+        document.getElementById('platonicSolids').innerHTML = `
+            <p class="text-sm text-gray-300">${analysis.platonicSolids.length} Platonic solid correspondences found</p>
+        `;
+        
+        document.getElementById('sacredPatterns').innerHTML = `
+            <div class="pattern-summary">
+                ${analysis.geometricPatterns.map(pattern => `
+                    <div class="pattern-badge">${pattern}</div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    updateSymbolismTab() {
+        const analysis = this.currentAnalysis.symbolism;
+        
+        document.getElementById('archetypicalSymbols').innerHTML = `
+            <div class="symbol-grid">
+                ${analysis.archetypicalSymbols.slice(0, 6).map(s => `
+                    <div class="symbol-item">
+                        <span class="symbol-name">${s.symbol}</span><br>
+                        <span class="text-xs text-gray-400">${s.card}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('colorSymbolism').innerHTML = `
+            <div class="color-analysis">
+                ${analysis.colorSymbolism.slice(0, 4).map(c => `
+                    <div class="color-item mb-2">
+                        <span class="color-indicator" style="background-color: ${c.color}"></span>
+                        <span class="ml-2">${c.color} - ${c.meaning}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('animalPlantTotems').innerHTML = `
+            <div class="totem-list">
+                ${analysis.animalSymbolism.slice(0, 3).map(a => `
+                    <div class="totem-item">${a.animal} - ${a.totemMeaning}</div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('alchemicalSymbols').innerHTML = `
+            <p class="text-sm text-gray-300">Dominant themes: ${analysis.dominantThemes.join(', ')}</p>
+        `;
+    }
+
+    updateInteractionsTab() {
+        const analysis = this.currentAnalysis.cardInteractions;
+        
+        document.getElementById('cardConnections').innerHTML = `
+            <div class="connection-list">
+                ${analysis.directConnections.slice(0, 4).map(conn => `
+                    <div class="connection-item mb-2">
+                        <span class="font-semibold">${conn.from} → ${conn.to}</span><br>
+                        <span class="text-sm text-gray-400">${conn.connectionType}: ${conn.narrative}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('energyFlows').innerHTML = `
+            <div class="energy-flow-diagram">
+                ${analysis.energyFlows.map(flow => `
+                    <div class="energy-node">${flow}</div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('narrativeThreads').innerHTML = `
+            <div class="narrative-list">
+                ${analysis.narrativeThreads.slice(0, 3).map(thread => `
+                    <div class="narrative-item mb-2">${thread}</div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('cardClusters').innerHTML = `
+            ${analysis.cardClusters.length > 0 ? `
+                <div class="cluster-list">
+                    ${analysis.cardClusters.map(cluster => `
+                        <div class="cluster-item">${cluster}</div>
+                    `).join('')}
+                </div>
+            ` : '<p class="text-sm text-gray-400">No significant card clusters detected</p>'}
+        `;
+    }
+
+    updateShadowTab() {
+        const analysis = this.currentAnalysis.shadowWork;
+        
+        document.getElementById('shadowAspects').innerHTML = `
+            <div class="shadow-list">
+                ${analysis.shadowAspects.map(aspect => `
+                    <div class="shadow-item mb-3">
+                        <span class="font-semibold">${aspect.card}</span><br>
+                        <span class="text-sm">Manifestation: ${aspect.shadowManifestation}</span><br>
+                        <span class="text-sm text-gray-400">Fear: ${aspect.underlyingFear}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('projectionsDenials').innerHTML = `
+            ${analysis.projections.length > 0 ? `
+                <div class="projection-list">
+                    ${analysis.projections.map(proj => `
+                        <div class="projection-item mb-2">
+                            <span class="font-semibold">${proj.card}</span><br>
+                            <span class="text-sm">${proj.projectedQualities.join(', ')}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '<p class="text-sm text-gray-400">No significant projections identified</p>'}
+        `;
+        
+        document.getElementById('integrationOpportunities').innerHTML = `
+            <div class="integration-list">
+                ${analysis.integrationOpportunities.map(opp => `
+                    <div class="integration-item mb-2">• ${opp}</div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('shadowGifts').innerHTML = `
+            <div class="gift-list">
+                ${analysis.shadowGifts.map(gift => `
+                    <div class="gift-item text-teal-400">✦ ${gift}</div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    updateAlchemyTab() {
+        const analysis = this.currentAnalysis.alchemical;
+        
+        document.getElementById('alchemicalStage').innerHTML = `
+            <div class="stage-indicator">
+                <span class="text-2xl font-bold">${analysis.currentStage || 'Prima Materia'}</span>
+                <p class="text-sm text-gray-400 mt-2">${this.getAlchemicalStageDescription(analysis.currentStage)}</p>
+            </div>
+        `;
+        
+        document.getElementById('transformationProcess').innerHTML = `
+            <div class="process-steps">
+                ${analysis.transformation.map((step, i) => `
+                    <div class="process-step">
+                        <span class="step-number">${i + 1}</span>
+                        <span class="step-description">${step}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('primaMateria').innerHTML = `
+            <p class="text-sm text-gray-300">${analysis.primaMateria.join(', ')}</p>
+        `;
+        
+        document.getElementById('philosophersStone').innerHTML = `
+            ${analysis.philosophersStone.length > 0 ? `
+                <div class="stone-indicators">
+                    ${analysis.philosophersStone.map(indicator => `
+                        <div class="stone-item text-yellow-400">✦ ${indicator}</div>
+                    `).join('')}
+                </div>
+            ` : '<p class="text-sm text-gray-400">The Great Work continues...</p>'}
+        `;
+    }
+
+    updateMythologyTab() {
+        const analysis = this.currentAnalysis.mythological;
+        
+        document.getElementById('heroJourneyStage').innerHTML = `
+            <div class="journey-map">
+                ${analysis.heroJourney.map(stage => `
+                    <div class="journey-stage mb-2">
+                        <span class="font-semibold">${stage.card}</span> - ${stage.stage}<br>
+                        <span class="text-sm text-gray-400">${stage.meaning}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('divineArchetypes').innerHTML = `
+            <div class="archetype-grid">
+                ${analysis.goddessArchetypes.concat(analysis.godArchetypes).slice(0, 4).map(arch => `
+                    <div class="archetype-card">
+                        <span class="archetype-name">${arch.goddess || arch.god}</span><br>
+                        <span class="text-xs">${arch.card}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('culturalMythologies').innerHTML = `
+            <div class="mythology-list">
+                ${Object.entries(analysis.culturalMythologies).filter(([_, myths]) => myths.length > 0).map(([culture, myths]) => `
+                    <div class="mythology-item mb-2">
+                        <span class="font-semibold capitalize">${culture}:</span> ${myths.slice(0, 2).join(', ')}
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('cosmicCycles').innerHTML = `
+            <div class="cycle-list">
+                ${analysis.cosmicCycles.map(cycle => `
+                    <div class="cycle-item">${cycle}</div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    updateQuantumTab() {
+        const analysis = this.currentAnalysis.quantumField;
+        
+        document.getElementById('fieldCoherence').innerHTML = `
+            <div class="coherence-meter">
+                <span class="text-2xl font-bold">${(analysis.fieldCoherence * 100).toFixed(1)}%</span>
+                <div class="coherence-bar">
+                    <div class="coherence-fill" style="width: ${analysis.fieldCoherence * 100}%"></div>
+                </div>
+                <p class="text-sm text-gray-400 mt-2">Field coherence indicates energetic alignment</p>
+            </div>
+        `;
+        
+        document.getElementById('quantumEntanglements').innerHTML = `
+            <div class="entanglement-list">
+                ${analysis.entanglements.map(ent => `
+                    <div class="entanglement-item mb-2">
+                        <span class="font-semibold">${ent.cards[0]} ↔ ${ent.cards[1]}</span><br>
+                        <span class="text-sm">Strength: ${(ent.strength * 100).toFixed(0)}% - ${ent.type}</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('probabilityFields').innerHTML = `
+            <div class="probability-visualization">
+                ${analysis.probabilityFields.map(field => `
+                    <div class="probability-node">${field}</div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('synchronicities').innerHTML = `
+            <div class="sync-list">
+                ${analysis.synchronicities.map(sync => `
+                    <div class="sync-item text-teal-400">✨ ${sync}</div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    getAlchemicalStageDescription(stage) {
+        const descriptions = {
+            'nigredo': 'The blackening - decomposition and shadow work',
+            'albedo': 'The whitening - purification and illumination',
+            'citrinitas': 'The yellowing - solar consciousness emerging',
+            'rubedo': 'The reddening - final integration and wholeness'
+        };
+        return descriptions[stage?.toLowerCase()] || 'The beginning of transformation';
     }
 
     switchAnalysisTab(tabName) {
