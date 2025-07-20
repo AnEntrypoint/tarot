@@ -27,7 +27,7 @@ class CardRenderer {
                         <span class="card-number">${card.number !== null ? card.number : ''}</span>
                     </div>
                 </div>
-                <div class="card-info" style="display: none;">
+                <div class="card-info" style="display: none !important;">
                     <h4 class="card-name">${card.name}${card.isReversed ? ' (Reversed)' : ''}</h4>
                     ${position ? `<p class="card-position-name">${position.name}</p>` : ''}
                     <div class="card-metadata">
@@ -48,10 +48,10 @@ class CardRenderer {
 
         cardDiv.innerHTML = cardContent;
         
-        // Add click handler to toggle between image-only and full view
+        // Add click handler to show card details in modal
         cardDiv.addEventListener('click', (e) => {
             e.stopPropagation();
-            this.toggleCardView(cardDiv, card);
+            this.showCardDetails(card);
         });
         
         this.cardElements.set(card, cardDiv);
@@ -206,23 +206,6 @@ class CardRenderer {
         }, 100);
     }
 
-    // Toggle between image-only and full card view
-    toggleCardView(cardDiv, card) {
-        const isImageOnly = cardDiv.classList.contains('image-only');
-        const cardInfo = cardDiv.querySelector('.card-info');
-        
-        if (isImageOnly) {
-            // Show full card info
-            cardDiv.classList.remove('image-only');
-            cardDiv.classList.add('expanded');
-            if (cardInfo) cardInfo.style.display = 'block';
-        } else {
-            // Show only image
-            cardDiv.classList.add('image-only');
-            cardDiv.classList.remove('expanded');
-            if (cardInfo) cardInfo.style.display = 'none';
-        }
-    }
 
     // Update card element with new data
     updateCardElement(card, newData) {
