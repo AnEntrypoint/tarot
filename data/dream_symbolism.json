@@ -1,0 +1,553 @@
+{
+  "dream_interpretation": {
+    "description": "Comprehensive dream symbolism database for tarot-guided dream analysis and interpretation",
+    "quote": "Dreams are the royal road to the unconscious, and the tarot provides the symbolic language to decode their messages for healing and transformation.",
+    "author": "Sigmund Freud (adapted)",
+    "source": "The Interpretation of Dreams",
+    "universal_dream_symbols": {
+      "water_dreams": {
+        "description": "Water in dreams represents emotional states, unconscious content, and life force",
+        "quote": "Water is the mirror of the unconscious mind, reflecting our deepest emotional truths and spiritual longings.",
+        "author": "Gaston Bachelard",
+        "source": "Water and Dreams",
+        "clear_water": {
+          "meaning": "Emotional clarity, pure intuition, spiritual cleansing",
+          "tarot_correlations": ["Ace of Cups", "The Star", "Temperance"],
+          "psychological_significance": "Clear emotional state, accessible intuition",
+          "spiritual_message": "Divine flow and emotional purity",
+          "healing_application": "Emotional cleansing and intuitive development",
+          "timing_indicators": "New emotional beginning, spiritual renewal",
+          "inter_card_relationships": {
+            "with_ace_cups": "Perfect alignment of emotional and spiritual clarity",
+            "with_star": "Hope and healing through emotional purification",
+            "with_temperance": "Balanced emotional flow and spiritual integration"
+          }
+        },
+        "muddy_water": {
+          "meaning": "Emotional confusion, unclear intuition, contaminated feelings",
+          "tarot_correlations": ["Seven of Cups", "The Moon", "Five of Cups"],
+          "psychological_significance": "Emotional turbulence, unclear motivations",
+          "spiritual_message": "Need for emotional and spiritual purification",
+          "healing_application": "Emotional clearing and intuitive cleansing work",
+          "shadow_work": "Addressing emotional contamination and unclear boundaries"
+        },
+        "flowing_water": {
+          "meaning": "Emotional movement, life transitions, time passage",
+          "tarot_correlations": ["Six of Swords", "The Chariot", "Wheel of Fortune"],
+          "psychological_significance": "Healthy emotional flow and adaptation",
+          "spiritual_message": "Divine flow and natural life transitions",
+          "healing_application": "Supporting emotional flow and transition work"
+        },
+        "drowning": {
+          "meaning": "Emotional overwhelm, loss of control, spiritual emergency",
+          "tarot_correlations": ["Ten of Swords", "The Tower", "Five of Pentacles"],
+          "psychological_significance": "Emotional overwhelm requiring immediate support",
+          "spiritual_message": "Spiritual emergency requiring divine intervention",
+          "healing_application": "Crisis intervention and emotional stabilization",
+          "emergency_guidance": "Seek immediate support, grounding practices essential"
+        },
+        "swimming": {
+          "meaning": "Emotional mastery, navigating feelings skillfully, spiritual buoyancy",
+          "tarot_correlations": ["King of Cups", "Strength", "The World"],
+          "psychological_significance": "Emotional intelligence and mastery",
+          "spiritual_message": "Spiritual mastery over emotional realm",
+          "healing_application": "Emotional intelligence development and mastery work"
+        }
+      },
+      "flying_dreams": {
+        "description": "Flying dreams represent spiritual freedom, transcendence, and liberation from limitations",
+        "controlled_flying": {
+          "meaning": "Spiritual mastery, freedom from limitations, transcendent consciousness",
+          "tarot_correlations": ["The World", "The Star", "The Fool"],
+          "psychological_significance": "Personal empowerment and transcendence",
+          "spiritual_message": "Spiritual liberation and consciousness expansion",
+          "healing_application": "Freedom work and consciousness expansion practices"
+        },
+        "difficulty_flying": {
+          "meaning": "Spiritual obstacles, limited transcendence, fear of freedom",
+          "tarot_correlations": ["Eight of Swords", "The Devil", "Five of Pentacles"],
+          "psychological_significance": "Fear of personal power and freedom",
+          "spiritual_message": "Spiritual blocks requiring clearing",
+          "healing_application": "Freedom blocks clearing and empowerment work"
+        },
+        "falling_while_flying": {
+          "meaning": "Loss of spiritual control, fear of heights, grounding needed",
+          "tarot_correlations": ["The Tower", "Ten of Swords", "The Hanged Man"],
+          "psychological_significance": "Fear of success or spiritual power",
+          "spiritual_message": "Need for grounding spiritual experiences",
+          "healing_application": "Grounding practices and fear resolution"
+        }
+      },
+      "animal_dreams": {
+        "description": "Animals in dreams represent instinctual wisdom, natural powers, and archetypal energies",
+        "domestic_animals": {
+          "cats": {
+            "meaning": "Feminine intuition, independence, mystery, psychic abilities",
+            "tarot_correlations": ["The High Priestess", "The Moon", "Queen of Cups"],
+            "psychological_significance": "Intuitive feminine wisdom and independence",
+            "spiritual_message": "Divine feminine guidance and psychic development",
+            "healing_application": "Intuitive development and feminine power reclamation",
+            "black_cat": "Deep psychic abilities, shadow work, feminine mystery",
+            "white_cat": "Pure intuition, spiritual guidance, clarity",
+            "multiple_cats": "Many sources of intuitive guidance, feminine community"
+          },
+          "dogs": {
+            "meaning": "Loyalty, protection, companionship, unconditional love",
+            "tarot_correlations": ["The Fool", "Strength", "Six of Cups"],
+            "psychological_significance": "Loyal friendship and protective instincts",
+            "spiritual_message": "Divine companionship and unconditional love",
+            "healing_application": "Loyalty healing and unconditional love development",
+            "aggressive_dog": "Protective instincts awakening, boundary enforcement needed",
+            "friendly_dog": "Loyal companionship available, trust in relationships",
+            "lost_dog": "Missing loyalty or protection, need for faithful companionship"
+          },
+          "horses": {
+            "meaning": "Power, freedom, sexual energy, spiritual journey",
+            "tarot_correlations": ["The Chariot", "The Sun", "Knight of Wands"],
+            "psychological_significance": "Personal power and sexual energy",
+            "spiritual_message": "Spiritual power and freedom journey",
+            "healing_application": "Power reclamation and freedom work",
+            "white_horse": "Spiritual purity, divine power, sacred journey",
+            "black_horse": "Shadow power, deep instincts, transformative energy",
+            "wild_horse": "Untamed freedom, wild spiritual energy, liberation"
+          }
+        },
+        "wild_animals": {
+          "big_cats": {
+            "lions": {
+              "meaning": "Courage, leadership, solar power, spiritual authority",
+              "tarot_correlations": ["Strength", "The Sun", "The Emperor"],
+              "psychological_significance": "Leadership abilities and courage development",
+              "spiritual_message": "Divine authority and spiritual courage",
+              "healing_application": "Courage building and leadership development"
+            },
+            "tigers": {
+              "meaning": "Personal power, passion, controlled aggression, spiritual strength",
+              "tarot_correlations": ["Strength", "Knight of Wands", "The Chariot"],
+              "psychological_significance": "Controlled passion and personal power",
+              "spiritual_message": "Spiritual strength with controlled power",
+              "healing_application": "Power balancing and passion integration"
+            },
+            "leopards": {
+              "meaning": "Stealth, patience, spotted wisdom, hidden power",
+              "tarot_correlations": ["The Hermit", "Seven of Swords", "The High Priestess"],
+              "psychological_significance": "Hidden strengths and patient wisdom",
+              "spiritual_message": "Hidden spiritual gifts and patient development",
+              "healing_application": "Hidden talent development and patience cultivation"
+            }
+          },
+          "bears": {
+            "meaning": "Protective power, hibernation wisdom, earth connection, maternal strength",
+            "tarot_correlations": ["The Empress", "Strength", "The Hermit"],
+            "psychological_significance": "Protective instincts and natural wisdom",
+            "spiritual_message": "Earth wisdom and protective spiritual power",
+            "healing_application": "Protection work and earth connection practices",
+            "grizzly_bear": "Fierce protection, powerful boundaries, survival wisdom",
+            "polar_bear": "Spiritual endurance, clarity in harsh conditions",
+            "black_bear": "Shadow protection, hidden strength, natural healing"
+          },
+          "wolves": {
+            "meaning": "Pack wisdom, wild instincts, loyalty, moon connection",
+            "tarot_correlations": ["The Moon", "The Hermit", "Strength"],
+            "psychological_significance": "Pack mentality and wild instincts",
+            "spiritual_message": "Lunar wisdom and pack spiritual connections",
+            "healing_application": "Community healing and instinct development",
+            "lone_wolf": "Independent spiritual path, solitary wisdom",
+            "wolf_pack": "Community strength, collective wisdom, group protection"
+          }
+        },
+        "birds": {
+          "eagles": {
+            "meaning": "Vision, spiritual sight, divine messages, higher perspective",
+            "tarot_correlations": ["The Star", "The Hermit", "Ace of Swords"],
+            "psychological_significance": "Higher perspective and visionary abilities",
+            "spiritual_message": "Divine vision and spiritual sight development",
+            "healing_application": "Vision development and perspective expansion"
+          },
+          "owls": {
+            "meaning": "Wisdom, night vision, death mysteries, feminine wisdom",
+            "tarot_correlations": ["The High Priestess", "Death", "The Hermit"],
+            "psychological_significance": "Deep wisdom and death-rebirth understanding",
+            "spiritual_message": "Night wisdom and death mysteries",
+            "healing_application": "Wisdom cultivation and death work"
+          },
+          "ravens": {
+            "meaning": "Magic, prophecy, death messages, transformation",
+            "tarot_correlations": ["Death", "The Tower", "The High Priestess"],
+            "psychological_significance": "Transformative messages and magical thinking",
+            "spiritual_message": "Prophetic abilities and transformation guidance",
+            "healing_application": "Prophecy development and transformation support"
+          }
+        }
+      },
+      "death_dreams": {
+        "description": "Death dreams represent transformation, endings, and spiritual rebirth",
+        "quote": "Dreams of death are rarely about physical death but about the death of old selves and the birth of new consciousness.",
+        "author": "Marie-Louise von Franz",
+        "source": "Dreams and Death",
+        "own_death": {
+          "meaning": "Major life transformation, ego death, spiritual rebirth",
+          "tarot_correlations": ["Death", "Judgement", "The Tower"],
+          "psychological_significance": "Major personality transformation required",
+          "spiritual_message": "Spiritual death and rebirth cycle",
+          "healing_application": "Transformation support and rebirth preparation",
+          "timing_indicators": "Major life transition period, spiritual initiation time"
+        },
+        "loved_one_death": {
+          "meaning": "Relationship transformation, fear of loss, unfinished business",
+          "tarot_correlations": ["Five of Cups", "Death", "Six of Cups"],
+          "psychological_significance": "Processing grief or relationship changes",
+          "spiritual_message": "Soul connection transcending physical form",
+          "healing_application": "Grief processing and relationship healing"
+        },
+        "stranger_death": {
+          "meaning": "Unknown aspects dying, shadow death, collective transformation",
+          "tarot_correlations": ["Death", "The Hermit", "The Moon"],
+          "psychological_significance": "Unknown parts of self undergoing change",
+          "spiritual_message": "Collective or archetypal transformation",
+          "healing_application": "Shadow transformation and collective healing"
+        },
+        "resurrection_dreams": {
+          "meaning": "Spiritual rebirth, renewal after death, phoenix energy",
+          "tarot_correlations": ["Judgement", "The Sun", "The World"],
+          "psychological_significance": "Successful transformation and renewal",
+          "spiritual_message": "Spiritual resurrection and divine renewal",
+          "healing_application": "Renewal support and resurrection energy work"
+        }
+      },
+      "house_dreams": {
+        "description": "Houses represent the psyche structure, different rooms showing different aspects of consciousness",
+        "basement": {
+          "meaning": "Unconscious mind, repressed material, foundational issues",
+          "tarot_correlations": ["The Moon", "The Devil", "Eight of Swords"],
+          "psychological_significance": "Unconscious content requiring attention",
+          "spiritual_message": "Foundation spiritual work needed",
+          "healing_application": "Unconscious exploration and foundational healing"
+        },
+        "attic": {
+          "meaning": "Higher consciousness, stored memories, spiritual aspirations",
+          "tarot_correlations": ["The Star", "The Hermit", "The High Priestess"],
+          "psychological_significance": "Higher mind and stored wisdom",
+          "spiritual_message": "Spiritual aspirations and higher consciousness",
+          "healing_application": "Higher consciousness development and wisdom retrieval"
+        },
+        "kitchen": {
+          "meaning": "Nourishment, transformation, family dynamics, creative cooking",
+          "tarot_correlations": ["The Empress", "Queen of Pentacles", "Ace of Pentacles"],
+          "psychological_significance": "Nurturing abilities and family patterns",
+          "spiritual_message": "Spiritual nourishment and transformation",
+          "healing_application": "Nurturing development and family healing"
+        },
+        "bedroom": {
+          "meaning": "Intimacy, rest, sexual energy, private self",
+          "tarot_correlations": ["The Lovers", "Four of Swords", "Two of Cups"],
+          "psychological_significance": "Intimate relationships and rest needs",
+          "spiritual_message": "Sacred sexuality and spiritual rest",
+          "healing_application": "Intimacy healing and rest restoration"
+        },
+        "bathroom": {
+          "meaning": "Cleansing, elimination, privacy, purification",
+          "tarot_correlations": ["Temperance", "The Star", "Death"],
+          "psychological_significance": "Emotional cleansing and elimination needs",
+          "spiritual_message": "Spiritual purification and cleansing",
+          "healing_application": "Purification work and emotional cleansing"
+        },
+        "new_rooms": {
+          "meaning": "New aspects of self, unexplored potential, consciousness expansion",
+          "tarot_correlations": ["The Fool", "Ace cards", "The Star"],
+          "psychological_significance": "New personality aspects emerging",
+          "spiritual_message": "New spiritual territories to explore",
+          "healing_application": "Potential development and consciousness expansion"
+        }
+      }
+    },
+    "nightmare_interpretation": {
+      "description": "Understanding nightmares as shadow work opportunities and healing guidance",
+      "quote": "Nightmares are not punishments but invitations from the psyche to face what we most need to heal.",
+      "author": "Jeremy Taylor",
+      "source": "Where People Fly and Water Runs Uphill",
+      "chase_dreams": {
+        "being_chased": {
+          "meaning": "Avoiding something that needs attention, shadow pursuit",
+          "tarot_correlations": ["Seven of Swords", "Five of Swords", "The Moon"],
+          "psychological_significance": "Avoidance patterns and shadow material",
+          "spiritual_message": "Shadow aspects seeking integration",
+          "healing_application": "Shadow work and avoidance pattern healing",
+          "transformation_approach": "Turn and face the pursuer in dream work"
+        },
+        "chasing_someone": {
+          "meaning": "Pursuing rejected aspects, trying to reclaim power",
+          "tarot_correlations": ["The Chariot", "Seven of Wands", "Strength"],
+          "psychological_significance": "Attempting to reclaim lost aspects",
+          "spiritual_message": "Spiritual pursuit of wholeness",
+          "healing_application": "Integration work and power reclamation"
+        }
+      },
+      "falling_dreams": {
+        "meaning": "Loss of control, fear of failure, grounding needs",
+        "tarot_correlations": ["The Tower", "Ten of Swords", "The Hanged Man"],
+        "psychological_significance": "Control issues and failure fears",
+        "spiritual_message": "Surrender and trust needed",
+        "healing_application": "Control release and trust development",
+        "lucid_approach": "Learn to fly or float instead of falling"
+      },
+      "monster_dreams": {
+        "meaning": "Shadow projections, repressed fears, power reclamation",
+        "tarot_correlations": ["The Devil", "Strength", "The Moon"],
+        "psychological_significance": "Repressed aspects appearing as monsters",
+        "spiritual_message": "Shadow integration opportunities",
+        "healing_application": "Shadow work and fear transformation",
+        "transformation_technique": "Dialogue with monster to understand its message"
+      },
+      "disaster_dreams": {
+        "meaning": "Major life changes, collective fears, transformation anxiety",
+        "tarot_correlations": ["The Tower", "Death", "Wheel of Fortune"],
+        "psychological_significance": "Change anxiety and transformation fears",
+        "spiritual_message": "Major spiritual transformation coming",
+        "healing_application": "Change preparation and transformation support"
+      }
+    },
+    "lucid_dreaming": {
+      "description": "Conscious dreaming techniques for spiritual development and healing",
+      "quote": "Lucid dreaming is the yoga of sleep, a practice of maintaining consciousness while the body rests and the soul travels.",
+      "author": "Stephen LaBerge",
+      "source": "Exploring the World of Lucid Dreaming",
+      "reality_checks": {
+        "tarot_reality_check": "Look at tarot cards in dream - text often changes or appears nonsensical",
+        "hand_check": "Look at hands - often appear distorted or with wrong number of fingers",
+        "time_check": "Check clocks - time often inconsistent in dreams",
+        "reading_check": "Try to read text - often changes when looked at twice"
+      },
+      "dream_incubation": {
+        "description": "Requesting specific dreams for guidance and healing",
+        "preparation_ritual": {
+          "evening_meditation": "Meditate with specific tarot card before sleep",
+          "intention_setting": "Clear request for dream guidance on specific issue",
+          "card_placement": "Place relevant tarot card under pillow",
+          "journal_preparation": "Have dream journal ready for immediate recording"
+        },
+        "incubation_spreads": {
+          "dream_question": "What do I need to understand about this situation?",
+          "healing_dream": "What healing does my soul need?",
+          "guidance_dream": "What guidance do my guides have for me?",
+          "creative_dream": "What creative inspiration awaits me?"
+        }
+      },
+      "dream_healing": {
+        "description": "Using lucid dreams for therapeutic and spiritual healing",
+        "healing_techniques": {
+          "energy_healing": "Practice energy healing on dream body",
+          "chakra_balancing": "Visualize chakra colors and balance in dream",
+          "past_life_healing": "Request past-life healing dreams",
+          "relationship_healing": "Meet people in dreams for healing conversations"
+        },
+        "spiritual_practices": {
+          "meeting_guides": "Request meetings with spiritual guides",
+          "visiting_temples": "Create sacred spaces for spiritual work",
+          "receiving_initiations": "Request spiritual initiations and teachings",
+          "exploring_realms": "Visit different spiritual dimensions"
+        }
+      }
+    },
+    "recurring_dreams": {
+      "description": "Understanding repetitive dreams as important spiritual messages",
+      "quote": "Recurring dreams are the psyche's way of insisting we pay attention to something crucial for our development.",
+      "author": "Patricia Garfield",
+      "source": "Creative Dreaming",
+      "common_patterns": {
+        "school_dreams": {
+          "meaning": "Learning required, tests of development, knowledge integration",
+          "tarot_correlations": ["The Hierophant", "Eight of Pentacles", "Page cards"],
+          "psychological_significance": "Learning and development issues",
+          "spiritual_message": "Spiritual lessons requiring attention",
+          "healing_application": "Learning support and development guidance",
+          "resolution_approach": "Identify what learning is being avoided"
+        },
+        "exam_dreams": {
+          "meaning": "Life tests, preparedness anxiety, evaluation fears",
+          "tarot_correlations": ["Justice", "Judgement", "Seven of Swords"],
+          "psychological_significance": "Performance anxiety and evaluation fears",
+          "spiritual_message": "Spiritual testing and development assessment",
+          "healing_application": "Confidence building and preparation support"
+        },
+        "lost_dreams": {
+          "meaning": "Direction confusion, identity crisis, spiritual wandering",
+          "tarot_correlations": ["The Moon", "Seven of Cups", "The Hermit"],
+          "psychological_significance": "Identity and direction confusion",
+          "spiritual_message": "Spiritual direction seeking required",
+          "healing_application": "Direction finding and identity clarification"
+        },
+        "childhood_home": {
+          "meaning": "Family patterns, foundational issues, inner child healing",
+          "tarot_correlations": ["Six of Cups", "The Moon", "Four of Cups"],
+          "psychological_significance": "Family patterns and childhood issues",
+          "spiritual_message": "Foundational spiritual healing needed",
+          "healing_application": "Inner child work and family pattern healing"
+        }
+      }
+    },
+    "prophetic_dreams": {
+      "description": "Dreams that provide glimpses of future possibilities and spiritual guidance",
+      "quote": "Prophetic dreams are not predictions of fixed fate but visions of potential futures based on current spiritual and psychological trajectories.",
+      "author": "Edgar Cayce",
+      "source": "Dreams and Visions",
+      "types_of_prophetic_dreams": {
+        "warning_dreams": {
+          "meaning": "Alerts about potential problems or dangers",
+          "tarot_correlations": ["The Tower", "Seven of Swords", "Five of Pentacles"],
+          "validation_signs": "Specific details that later prove accurate",
+          "spiritual_purpose": "Divine protection and guidance",
+          "action_guidance": "Take preventive measures while honoring free will"
+        },
+        "guidance_dreams": {
+          "meaning": "Divine guidance for important decisions",
+          "tarot_correlations": ["The Star", "The Hermit", "The High Priestess"],
+          "validation_signs": "Sense of clarity and divine presence",
+          "spiritual_purpose": "Divine guidance and direction",
+          "action_guidance": "Follow guidance while using discernment"
+        },
+        "healing_dreams": {
+          "meaning": "Information about healing approaches and methods",
+          "tarot_correlations": ["Temperance", "The Star", "Ace of Cups"],
+          "validation_signs": "Healing occurs following dream guidance",
+          "spiritual_purpose": "Divine healing wisdom",
+          "action_guidance": "Integrate healing wisdom with medical care"
+        },
+        "visitation_dreams": {
+          "meaning": "Communication with deceased loved ones or spiritual guides",
+          "tarot_correlations": ["Six of Cups", "Judgement", "The High Priestess"],
+          "validation_signs": "Information unknown to dreamer proves accurate",
+          "spiritual_purpose": "Spiritual communication and comfort",
+          "action_guidance": "Receive comfort and guidance while discerning messages"
+        }
+      }
+    },
+    "dream_symbols_by_element": {
+      "fire_symbols": {
+        "description": "Fire element dreams relate to passion, transformation, and spiritual energy",
+        "candles": {
+          "meaning": "Spiritual illumination, prayer, sacred flame",
+          "tarot_correlations": ["The Hermit", "Temperance", "Ace of Wands"],
+          "healing_application": "Spiritual illumination and prayer work"
+        },
+        "fireplace": {
+          "meaning": "Home warmth, family gathering, controlled passion",
+          "tarot_correlations": ["Ten of Cups", "Four of Wands", "King of Wands"],
+          "healing_application": "Family healing and controlled passion development"
+        },
+        "forest_fire": {
+          "meaning": "Uncontrolled transformation, destructive passion, spiritual emergency",
+          "tarot_correlations": ["The Tower", "Five of Wands", "Seven of Wands"],
+          "healing_application": "Crisis management and passion control"
+        },
+        "sun": {
+          "meaning": "Consciousness, divine masculine, vitality, success",
+          "tarot_correlations": ["The Sun", "The Magician", "Six of Wands"],
+          "healing_application": "Consciousness expansion and vitality restoration"
+        }
+      },
+      "water_symbols": {
+        "description": "Water element dreams relate to emotions, intuition, and spiritual flow",
+        "ocean": {
+          "meaning": "Vast unconscious, emotional depths, spiritual infinity",
+          "tarot_correlations": ["The High Priestess", "The Moon", "King of Cups"],
+          "healing_application": "Unconscious exploration and emotional depth work"
+        },
+        "river": {
+          "meaning": "Life flow, time passage, emotional journey",
+          "tarot_correlations": ["Temperance", "Six of Swords", "Ace of Cups"],
+          "healing_application": "Life flow support and emotional journey guidance"
+        },
+        "rain": {
+          "meaning": "Emotional release, cleansing, divine blessing",
+          "tarot_correlations": ["Three of Swords", "The Star", "Ace of Cups"],
+          "healing_application": "Emotional release and cleansing support"
+        },
+        "snow": {
+          "meaning": "Emotional cooling, purity, spiritual silence",
+          "tarot_correlations": ["The Hermit", "The Star", "Four of Swords"],
+          "healing_application": "Emotional cooling and spiritual silence practices"
+        }
+      },
+      "air_symbols": {
+        "description": "Air element dreams relate to thoughts, communication, and spiritual inspiration",
+        "wind": {
+          "meaning": "Change, inspiration, mental movement, spiritual breath",
+          "tarot_correlations": ["The Fool", "Page of Swords", "Eight of Wands"],
+          "healing_application": "Change support and inspiration cultivation"
+        },
+        "storm": {
+          "meaning": "Mental turbulence, conflicting thoughts, spiritual test",
+          "tarot_correlations": ["The Tower", "Five of Swords", "Seven of Swords"],
+          "healing_application": "Mental clarity and conflict resolution"
+        },
+        "birds_flying": {
+          "meaning": "Freedom thoughts, spiritual messages, transcendence",
+          "tarot_correlations": ["The Star", "Ace of Swords", "The Fool"],
+          "healing_application": "Freedom development and spiritual message reception"
+        },
+        "clouds": {
+          "meaning": "Unclear thinking, temporary obscuration, shifting perspectives",
+          "tarot_correlations": ["The Moon", "Seven of Cups", "Eight of Swords"],
+          "healing_application": "Mental clarity and perspective shifting support"
+        }
+      },
+      "earth_symbols": {
+        "description": "Earth element dreams relate to material concerns, stability, and grounding",
+        "mountains": {
+          "meaning": "Spiritual achievement, challenges, higher perspective",
+          "tarot_correlations": ["The Hermit", "The Emperor", "Ten of Pentacles"],
+          "healing_application": "Achievement support and challenge navigation"
+        },
+        "trees": {
+          "meaning": "Growth, connection, wisdom, life force",
+          "tarot_correlations": ["The World", "Ace of Pentacles", "The Empress"],
+          "healing_application": "Growth support and wisdom cultivation"
+        },
+        "gardens": {
+          "meaning": "Cultivated growth, nurturing, creative manifestation",
+          "tarot_correlations": ["The Empress", "Seven of Pentacles", "Three of Pentacles"],
+          "healing_application": "Creative cultivation and nurturing development"
+        },
+        "caves": {
+          "meaning": "Inner exploration, hidden treasures, womb wisdom",
+          "tarot_correlations": ["The Hermit", "The High Priestess", "The Devil"],
+          "healing_application": "Inner exploration and hidden wisdom retrieval"
+        }
+      }
+    },
+    "dream_incubation_spreads": {
+      "pre_sleep_guidance": {
+        "position_1": "Current state of consciousness",
+        "position_2": "What needs attention in dreams",
+        "position_3": "Best way to prepare for dream guidance",
+        "position_4": "Expected type of dream message",
+        "position_5": "How to remember and interpret dreams"
+      },
+      "dream_interpretation": {
+        "position_1": "Overall dream message",
+        "position_2": "Conscious mind's interpretation",
+        "position_3": "Unconscious mind's message",
+        "position_4": "Spiritual guidance within dream",
+        "position_5": "Practical action to take",
+        "position_6": "Integration guidance for waking life"
+      },
+      "nightmare_transformation": {
+        "position_1": "Fear behind nightmare",
+        "position_2": "Shadow aspect seeking attention",
+        "position_3": "Gift hidden in frightening image",
+        "position_4": "Healing needed for transformation",
+        "position_5": "Empowerment available through facing fear",
+        "position_6": "New dream image for healing"
+      },
+      "recurring_dream_resolution": {
+        "position_1": "Core message of recurring dream",
+        "position_2": "What prevents understanding message",
+        "position_3": "Action needed in waking life",
+        "position_4": "How dream will change with integration",
+        "position_5": "Gift received from resolving pattern",
+        "position_6": "Next level of dream work"
+      }
+    }
+  }
+}

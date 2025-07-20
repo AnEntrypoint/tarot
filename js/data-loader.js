@@ -38,7 +38,22 @@ class TarotDataLoader {
             'sacred_geometry',
             'chakras',
             'colors',
-            'elements'
+            'elements',
+            'card_combinations',
+            'timing_cycles',
+            'healing_therapeutics',
+            'divination_techniques',
+            'cross_cultural_symbols',
+            'dream_symbolism',
+            'plant_animal_correspondences',
+            'card_relationship_matrix',
+            'synthetic_readings_context',
+            'master_spread_interpretations',
+            'mystical_oracular_wisdom',
+            'esoteric_correspondences',
+            'comprehensive_applications',
+            'professional_reading_mastery',
+            'master_reference_compendium'
         ];
 
         const loadPromises = dataSources.map(source => this._loadJSONFile(source));

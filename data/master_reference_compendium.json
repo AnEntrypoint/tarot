@@ -1,0 +1,353 @@
+{
+  "master_reference_compendium": {
+    "description": "Ultimate reference guide integrating all tarot systems, correspondences, and practical applications into a unified wisdom tradition",
+    "quote": "The tarot is a complete book of wisdom, containing within its symbolic language the keys to understanding consciousness, cosmos, and the divine mysteries that connect all existence.",
+    "author": "Paul Foster Case",
+    "source": "The Tarot: A Key to the Wisdom of the Ages",
+    "complete_card_correspondences": {
+      "major_arcana_master_correlations": {
+        "0_the_fool": {
+          "hebrew_letter": "Aleph (Ox) - Divine breath, primordial energy",
+          "kabbalistic_path": "Kether to Chokmah - Crown to Wisdom",
+          "astrological_attribution": "Uranus - Revolutionary change, awakening, freedom",
+          "alchemical_principle": "Prima Materia - Raw material for transformation",
+          "psychological_archetype": "The Innocent - Pure potential and trust",
+          "mythological_correspondences": ["Parsifal", "Dionysus", "Green Man", "Divine Child"],
+          "elemental_association": "Air - Mental freedom and new thoughts",
+          "numerical_vibration": "0 - Infinite potential, void, beginning",
+          "color_correspondences": ["Light yellow", "Sky blue", "White", "Iridescent"],
+          "gemstone_allies": ["Clear quartz", "Herkimer diamond", "Rainbow fluorite"],
+          "plant_allies": ["Daisy", "Dandelion", "Wild rose", "Morning glory"],
+          "animal_spirits": ["Butterfly", "Hummingbird", "Dolphin", "White dove"],
+          "chakra_activation": "Crown chakra - Divine connection and cosmic consciousness",
+          "body_correspondences": "Head, brain, nervous system, breath",
+          "healing_applications": "New beginnings, trust building, innocence restoration",
+          "timing_indicators": "Immediate action required, divine timing, spring energy",
+          "shadow_aspects": "Naivety, recklessness, avoidance of responsibility",
+          "integration_work": "Balancing innocence with wisdom, trust with discernment",
+          "spiritual_lessons": "Divine trust, beginner's mind, sacred foolishness",
+          "meditation_focus": "Pure awareness, open heart, unlimited possibility",
+          "affirmation": "I trust the divine process and step forward with faith",
+          "reversed_meaning": "Fear of new beginnings, lack of trust, poor judgment",
+          "professional_guidance": "Career change, new ventures, creative expression",
+          "relationship_guidance": "New love, renewed romance, childlike joy",
+          "financial_guidance": "New opportunities, calculated risks, beginner's luck",
+          "health_guidance": "Fresh start, new treatments, mental health focus",
+          "spiritual_guidance": "Spiritual awakening, new path, divine calling"
+        },
+        "1_the_magician": {
+          "hebrew_letter": "Beth (House) - Conscious dwelling, manifestation",
+          "kabbalistic_path": "Kether to Binah - Crown to Understanding",
+          "astrological_attribution": "Mercury - Communication, skill, versatility",
+          "alchemical_principle": "Solve - Dissolution and analysis",
+          "psychological_archetype": "The Creator - Conscious manifestation power",
+          "mythological_correspondences": ["Hermes", "Thoth", "Loki", "Prometheus"],
+          "elemental_association": "Air/Mercury - Mental agility and communication",
+          "numerical_vibration": "1 - Unity, beginning, individual will",
+          "color_correspondences": ["Yellow", "Orange", "Red", "All colors present"],
+          "gemstone_allies": ["Citrine", "Tiger's eye", "Carnelian", "Agate"],
+          "plant_allies": ["Vervain", "Cinquefoil", "Palm", "Mercury herbs"],
+          "animal_spirits": ["Ibis", "Snake", "Monkey", "Magpie"],
+          "chakra_activation": "Solar plexus - Personal power and will",
+          "body_correspondences": "Hands, arms, nervous system, brain",
+          "healing_applications": "Skill development, confidence building, manifestation",
+          "timing_indicators": "Time for action, skill application, immediate results",
+          "shadow_aspects": "Manipulation, trickery, misuse of power, illusion",
+          "integration_work": "Ethical power use, skill with wisdom, service orientation",
+          "spiritual_lessons": "Conscious creation, divine will, magical thinking",
+          "meditation_focus": "Personal power, manifestation ability, divine connection",
+          "affirmation": "I have all the tools I need to create my reality",
+          "reversed_meaning": "Blocked power, manipulation, lack of skill or confidence",
+          "professional_guidance": "Skill mastery, communication, leadership development",
+          "relationship_guidance": "Taking initiative, clear communication, attraction",
+          "financial_guidance": "Money management, investment skill, earning power",
+          "health_guidance": "Healing power, medical skill, treatment success",
+          "spiritual_guidance": "Magical practice, manifestation work, divine service"
+        },
+        "21_the_world": {
+          "hebrew_letter": "Tau (Cross/Mark) - Completion, final attainment",
+          "kabbalistic_path": "Yesod to Malkuth - Foundation to Kingdom",
+          "astrological_attribution": "Saturn - Structure, completion, mastery",
+          "alchemical_principle": "Rebis - Perfect integration of opposites",
+          "psychological_archetype": "The Sage - Completed individuation",
+          "mythological_correspondences": ["Cosmic Dancer", "World Soul", "Completion Gods"],
+          "elemental_association": "Earth - Material completion and mastery",
+          "numerical_vibration": "21 (2+1=3) - Creative completion and synthesis",
+          "color_correspondences": ["Deep purple", "Indigo", "Gold", "All colors integrated"],
+          "gemstone_allies": ["Amethyst", "Lapis lazuli", "Diamond", "Tanzanite"],
+          "plant_allies": ["Oak", "Cedar", "Lotus", "World tree symbolism"],
+          "animal_spirits": ["Eagle", "Lion", "Bull", "Human - four fixed signs"],
+          "chakra_activation": "All chakras integrated, full energy system activation",
+          "body_correspondences": "Entire body integrated, complete health",
+          "healing_applications": "Complete healing, integration, wholeness",
+          "timing_indicators": "Completion time, cycle ending, mastery achieved",
+          "shadow_aspects": "Perfectionism, arrogance, completion resistance",
+          "integration_work": "Humble mastery, service through completion, new beginnings",
+          "spiritual_lessons": "Cosmic consciousness, divine completion, unity awareness",
+          "meditation_focus": "Universal consciousness, complete integration, divine unity",
+          "affirmation": "I am complete, whole, and one with all existence",
+          "reversed_meaning": "Incomplete projects, lack of integration, isolation",
+          "professional_guidance": "Career mastery, completion of major projects, recognition",
+          "relationship_guidance": "Committed partnership, family completion, harmony",
+          "financial_guidance": "Financial security, abundance, material completion",
+          "health_guidance": "Complete healing, optimal health, vitality",
+          "spiritual_guidance": "Enlightenment, cosmic consciousness, divine union"
+        }
+      },
+      "minor_arcana_suit_mastery": {
+        "wands_fire_element": {
+          "elemental_principle": "Fire - Energy, passion, creativity, spiritual will",
+          "consciousness_level": "Spiritual/Intuitive - Divine inspiration and creative fire",
+          "life_area_governance": "Career, creativity, passion, spiritual development",
+          "personality_types": "Leaders, creators, visionaries, entrepreneurs",
+          "seasonal_correspondence": "Spring/Summer - Growth and manifestation seasons",
+          "direction": "South - Place of power and manifestation",
+          "time_of_day": "Noon - Peak solar energy and activity",
+          "astrological_signs": "Aries, Leo, Sagittarius - Cardinal fire, fixed fire, mutable fire",
+          "chakra_correspondences": "Solar plexus, heart, crown - Power, love, inspiration",
+          "body_systems": "Muscular, circulatory, nervous - Energy and action systems",
+          "psychological_functions": "Intuition, will, inspiration, motivation",
+          "shadow_aspects": "Burnout, aggression, impatience, ego inflation",
+          "integration_work": "Sustainable passion, ethical leadership, service orientation",
+          "healing_applications": "Energy restoration, confidence building, passion recovery",
+          "professional_applications": "Leadership, creativity, entrepreneurship, performance",
+          "relationship_applications": "Passion, romance, sexual energy, shared vision",
+          "spiritual_applications": "Prayer, meditation, service, devotional practices",
+          "magical_correspondences": "Candle magic, sun magic, dragon energy, phoenix power"
+        },
+        "cups_water_element": {
+          "elemental_principle": "Water - Emotion, intuition, love, psychic abilities",
+          "consciousness_level": "Emotional/Psychic - Heart wisdom and intuitive knowledge",
+          "life_area_governance": "Relationships, emotions, spirituality, healing",
+          "personality_types": "Healers, counselors, artists, mystics",
+          "seasonal_correspondence": "Summer/Autumn - Emotional depth seasons",
+          "direction": "West - Place of emotions and sunset reflection",
+          "time_of_day": "Evening/Twilight - Emotional and intuitive time",
+          "astrological_signs": "Cancer, Scorpio, Pisces - Cardinal water, fixed water, mutable water",
+          "chakra_correspondences": "Sacral, heart, third eye - Emotion, love, intuition",
+          "body_systems": "Lymphatic, reproductive, endocrine - Fluid and hormonal systems",
+          "psychological_functions": "Feeling, intuition, empathy, imagination",
+          "shadow_aspects": "Emotional overwhelm, depression, escapism, boundary issues",
+          "integration_work": "Emotional intelligence, healthy boundaries, practical compassion",
+          "healing_applications": "Emotional healing, relationship therapy, trauma recovery",
+          "professional_applications": "Counseling, healing arts, creative expression, service",
+          "relationship_applications": "Intimacy, empathy, emotional connection, family bonds",
+          "spiritual_applications": "Mysticism, devotion, compassion practices, psychic development",
+          "magical_correspondences": "Moon magic, water magic, love spells, healing rituals"
+        },
+        "swords_air_element": {
+          "elemental_principle": "Air - Thought, communication, truth, analysis",
+          "consciousness_level": "Mental/Intellectual - Rational mind and clear communication",
+          "life_area_governance": "Communication, learning, conflict, justice",
+          "personality_types": "Teachers, writers, lawyers, analysts",
+          "seasonal_correspondence": "Autumn/Winter - Mental clarity seasons",
+          "direction": "East - Place of new thoughts and dawn insights",
+          "time_of_day": "Dawn - Mental clarity and new ideas time",
+          "astrological_signs": "Gemini, Libra, Aquarius - Mutable air, cardinal air, fixed air",
+          "chakra_correspondences": "Throat, third eye, crown - Communication, wisdom, consciousness",
+          "body_systems": "Respiratory, nervous, circulatory - Breath and mental systems",
+          "psychological_functions": "Thinking, analyzing, communicating, judging",
+          "shadow_aspects": "Mental rigidity, overthinking, cruelty, cold logic",
+          "integration_work": "Compassionate thinking, wise communication, balanced analysis",
+          "healing_applications": "Mental health, communication therapy, trauma processing",
+          "professional_applications": "Teaching, writing, law, technology, research",
+          "relationship_applications": "Communication, conflict resolution, intellectual connection",
+          "spiritual_applications": "Study, contemplation, truth seeking, wisdom development",
+          "magical_correspondences": "Wind magic, word magic, incense, breath work"
+        },
+        "pentacles_earth_element": {
+          "elemental_principle": "Earth - Material, practical, sensual, abundance",
+          "consciousness_level": "Physical/Material - Body wisdom and practical intelligence",
+          "life_area_governance": "Money, health, work, material security",
+          "personality_types": "Builders, healers, farmers, business people",
+          "seasonal_correspondence": "Winter/Spring - Grounding and growth seasons",
+          "direction": "North - Place of stability and material manifestation",
+          "time_of_day": "Midnight - Grounding and deep earth connection time",
+          "astrological_signs": "Taurus, Virgo, Capricorn - Fixed earth, mutable earth, cardinal earth",
+          "chakra_correspondences": "Root, sacral, solar plexus - Grounding, creativity, power",
+          "body_systems": "Skeletal, digestive, immune - Structure and nourishment systems",
+          "psychological_functions": "Sensing, building, nurturing, manifesting",
+          "shadow_aspects": "Materialism, greed, stubbornness, sensual excess",
+          "integration_work": "Sacred materialism, generous abundance, practical spirituality",
+          "healing_applications": "Physical healing, prosperity work, grounding practices",
+          "professional_applications": "Business, healthcare, agriculture, craftsmanship",
+          "relationship_applications": "Practical support, sensual connection, shared resources",
+          "spiritual_applications": "Embodied spirituality, nature connection, service work",
+          "magical_correspondences": "Earth magic, crystal work, herb magic, abundance rituals"
+        }
+      },
+      "court_card_personality_matrix": {
+        "developmental_stages": {
+          "page_level": {
+            "description": "Beginner energy, learning phase, youthful enthusiasm",
+            "psychological_development": "Late adolescence to early twenties consciousness",
+            "spiritual_development": "Beginning seeker, open to learning, enthusiastic",
+            "relationship_style": "Eager to please, learning boundaries, experimental",
+            "career_approach": "Entry level, learning skills, exploring possibilities",
+            "financial_behavior": "Learning money management, often impulsive spending",
+            "health_patterns": "Generally good health, learning self-care habits",
+            "shadow_tendencies": "Immaturity, unreliability, lack of follow-through",
+            "growth_direction": "Skill development, responsibility building, experience gaining"
+          },
+          "knight_level": {
+            "description": "Active energy, pursuit phase, focused action",
+            "psychological_development": "Young adult to thirties consciousness",
+            "spiritual_development": "Active seeker, testing beliefs, building practice",
+            "relationship_style": "Pursuing, passionate, sometimes commitment-challenged",
+            "career_approach": "Building career, ambitious, action-oriented",
+            "financial_behavior": "Investment focused, sometimes risky financial choices",
+            "health_patterns": "Active lifestyle, may push physical limits",
+            "shadow_tendencies": "Impatience, recklessness, single-minded pursuit",
+            "growth_direction": "Balance building, patience development, wisdom integration"
+          },
+          "queen_level": {
+            "description": "Receptive mastery, nurturing wisdom, emotional intelligence",
+            "psychological_development": "Mature adult consciousness, integrated feminine",
+            "spiritual_development": "Wisdom through experience, compassionate service",
+            "relationship_style": "Nurturing, supportive, emotionally intelligent",
+            "career_approach": "Collaborative leadership, mentoring, sustainable success",
+            "financial_behavior": "Security-focused, generous giving, wise investment",
+            "health_patterns": "Holistic health approach, stress management skills",
+            "shadow_tendencies": "Over-giving, martyrdom, emotional manipulation",
+            "growth_direction": "Boundary setting, self-care balance, empowered nurturing"
+          },
+          "king_level": {
+            "description": "Active mastery, authoritative wisdom, leadership skills",
+            "psychological_development": "Mature adult consciousness, integrated masculine",
+            "spiritual_development": "Wisdom through service, responsible leadership",
+            "relationship_style": "Protective, providing, steadfast commitment",
+            "career_approach": "Executive leadership, mentoring, legacy building",
+            "financial_behavior": "Wealth building, responsible stewardship, generous provision",
+            "health_patterns": "Preventive care, sustainable practices, stress management",
+            "shadow_tendencies": "Authoritarianism, rigidity, workaholic tendencies",
+            "growth_direction": "Flexibility development, delegation skills, humble service"
+          }
+        }
+      }
+    },
+    "comprehensive_spread_library": {
+      "life_purpose_spreads": {
+        "soul_mission_mandala": {
+          "description": "12-card spread revealing complete soul purpose and mission",
+          "card_positions": {
+            "center": "Core soul essence and divine purpose",
+            "north": "Spiritual gifts and abilities",
+            "northeast": "Mental talents and intellectual contributions",
+            "east": "Communication gifts and teaching abilities",
+            "southeast": "Creative expression and artistic talents",
+            "south": "Practical skills and material contributions",
+            "southwest": "Healing abilities and therapeutic gifts",
+            "west": "Emotional wisdom and relationship skills",
+            "northwest": "Intuitive abilities and psychic gifts",
+            "above": "Higher guidance and spiritual direction",
+            "below": "Practical foundation and earthly expression",
+            "integration": "How to integrate all gifts in service"
+          },
+          "interpretation_guidelines": {
+            "elemental_balance": "Notice which directions are strongest for natural emphasis",
+            "gift_integration": "Look for patterns showing how gifts work together",
+            "service_direction": "Identify how personal gifts serve collective good",
+            "timing_indicators": "Cards may indicate timing for developing specific gifts"
+          }
+        },
+        "dharma_discovery_spread": {
+          "description": "9-card spread for understanding life's true calling",
+          "card_positions": {
+            "1": "Current life situation and circumstances",
+            "2": "Soul gifts brought into this lifetime",
+            "3": "Life lessons to be learned and mastered",
+            "4": "Service to be provided to others",
+            "5": "Obstacles to overcome in fulfilling dharma",
+            "6": "Support available for dharmic work",
+            "7": "Signs of alignment with true purpose",
+            "8": "Consequences of ignoring dharmic calling",
+            "9": "Ultimate fulfillment through dharmic service"
+          }
+        }
+      },
+      "relationship_mastery_spreads": {
+        "sacred_union_assessment": {
+          "description": "15-card spread for deep relationship evaluation",
+          "card_positions": {
+            "person_a_essence": "Core being and energy of first person",
+            "person_b_essence": "Core being and energy of second person",
+            "soul_connection": "Deeper spiritual bond between souls",
+            "past_life_influence": "Previous lifetime connections affecting current relationship",
+            "karmic_purpose": "What this relationship is meant to teach and heal",
+            "gifts_to_each_other": "What each person brings to the relationship",
+            "growth_challenges": "Areas requiring development and healing",
+            "communication_dynamic": "How the two communicate and understand each other",
+            "intimacy_potential": "Capacity for deep emotional and physical connection",
+            "shared_vision": "Common goals and life direction",
+            "family_potential": "Capacity for creating family or extended community",
+            "service_together": "How relationship serves larger purpose",
+            "obstacles_to_overcome": "External and internal challenges to navigate",
+            "divine_blessing": "How universe supports this union",
+            "highest_potential": "Ultimate possibility of relationship fulfillment"
+          }
+        }
+      },
+      "healing_and_transformation_spreads": {
+        "complete_healing_assessment": {
+          "description": "21-card spread for comprehensive healing evaluation",
+          "card_positions": {
+            "physical_body": "Current physical health and needs",
+            "emotional_body": "Emotional patterns and healing needs",
+            "mental_body": "Thought patterns and mental health",
+            "spiritual_body": "Soul condition and spiritual development",
+            "energy_field": "Aura and energetic boundaries",
+            "root_cause": "Original source of current imbalance",
+            "genetic_inheritance": "Family patterns affecting health",
+            "past_life_influence": "Previous lifetime experiences affecting current health",
+            "environmental_factors": "External influences on health and well-being",
+            "lifestyle_factors": "Daily habits and choices affecting health",
+            "relationship_health": "How relationships support or drain health",
+            "work_life_impact": "How career and daily work affect well-being",
+            "spiritual_practice": "What spiritual practices support healing",
+            "medical_support": "What medical or therapeutic help is needed",
+            "healing_allies": "People who can support healing journey",
+            "healing_obstacles": "What blocks or slows healing process",
+            "healing_timeline": "Natural rhythm and timing for healing",
+            "prevention_wisdom": "How to maintain health going forward",
+            "service_through_healing": "How healed condition serves others",
+            "integration_work": "How to integrate healing into daily life",
+            "ultimate_wellness": "Vision of complete health and vitality"
+          }
+        }
+      }
+    },
+    "master_timing_system": {
+      "comprehensive_timing_matrix": {
+        "immediate_timing": {
+          "within_24_hours": "Aces, explosive cards like Tower, urgent Swords",
+          "within_week": "Pages, beginning numbers (2s, 3s), fast-moving Knights",
+          "within_month": "4s through 6s, developing situations, growing energy",
+          "within_season": "7s through 9s, maturing situations, harvest time",
+          "within_year": "10s, court card mastery, completion and new cycles"
+        },
+        "astrological_timing": {
+          "mercury_timing": "Communication, contracts, short trips - days to weeks",
+          "venus_timing": "Love, money, beauty - weeks to months",
+          "mars_timing": "Action, conflict, energy - immediate to weeks",
+          "jupiter_timing": "Expansion, growth, opportunities - months to year",
+          "saturn_timing": "Structure, limitation, mastery - years to decades",
+          "uranus_timing": "Sudden change, awakening - unexpected timing",
+          "neptune_timing": "Spirituality, confusion, dreams - gradual, unclear",
+          "pluto_timing": "Transformation, death-rebirth - years to decades"
+        },
+        "seasonal_timing": {
+          "spring_timing": "New projects, planting, beginning cycles",
+          "summer_timing": "Growth, manifestation, peak activity",
+          "autumn_timing": "Harvest, completion, gratitude, preparation",
+          "winter_timing": "Rest, planning, inner work, contemplation"
+        },
+        "lunar_timing": {
+          "new_moon": "New beginnings, intention setting - next 2 weeks",
+          "waxing_moon": "Building energy, growth - next week",
+          "full_moon": "Culmination, peak energy - within days",
+          "waning_moon": "Release, clearing - next 2 weeks"
+        }
+      }
+    }
+  }
+}
