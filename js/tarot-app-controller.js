@@ -977,16 +977,36 @@ class TarotAppController {
                 // Update the tab content
                 tab.updateMethod();
                 // Show the tab
-                if (tabButton) tabButton.style.display = 'block';
-                if (tabContent) tabContent.style.display = 'block';
+                if (tabButton) {
+                    tabButton.style.display = 'block';
+                    tabButton.removeAttribute('data-empty');
+                }
+                if (tabContent) {
+                    tabContent.style.display = 'block';
+                    tabContent.removeAttribute('data-empty');
+                }
+                
+                // Check for empty cards after update and mark them
+                this.markEmptyAnalysisCards(tab.id);
             } else {
                 // Hide tabs without meaningful data
-                if (tabButton) tabButton.style.display = 'none';
-                if (tabContent) tabContent.style.display = 'none';
+                if (tabButton) {
+                    tabButton.style.display = 'none';
+                    tabButton.setAttribute('data-empty', 'true');
+                }
+                if (tabContent) {
+                    tabContent.style.display = 'none';
+                    tabContent.setAttribute('data-empty', 'true');
+                }
             }
         });
+        
+        // Update remaining tabs manually (these should be added to the main tabs array eventually)
         this.updateMythologyTab();
+        this.markEmptyAnalysisCards('mythology');
+        
         this.updateQuantumTab();
+        this.markEmptyAnalysisCards('quantum');
     }
 
     // Helper function to check if analysis section has meaningful data
@@ -995,34 +1015,131 @@ class TarotAppController {
         
         const section = this.currentAnalysis[sectionKey];
         
+        // List of phrases that indicate empty or placeholder content
+        const emptyIndicators = [
+            'requires JSON database',
+            'not available',
+            'analysis not available',
+            'no specific',
+            'general tarot reading',
+            'basic interpretation',
+            'standard meaning',
+            'undefined',
+            'null',
+            'empty',
+            'no data',
+            'coming soon',
+            'not implemented',
+            'placeholder'
+        ];
+        
+        // Helper to check if a string is meaningful
+        const isStringMeaningful = (str) => {
+            if (!str || typeof str !== 'string') return false;
+            const cleanStr = str.trim().toLowerCase();
+            if (cleanStr.length < 10) return false; // Too short to be meaningful
+            return !emptyIndicators.some(indicator => cleanStr.includes(indicator));
+        };
+        
+        // Helper to check if an object has meaningful content
+        const hasObjectMeaningfulContent = (obj) => {
+            if (!obj || typeof obj !== 'object') return false;
+            
+            return Object.values(obj).some(value => {
+                if (typeof value === 'string') {
+                    return isStringMeaningful(value);
+                } else if (Array.isArray(value)) {
+                    return value.length > 0 && value.some(item => 
+                        typeof item === 'string' ? isStringMeaningful(item) : 
+                        typeof item === 'object' ? hasObjectMeaningfulContent(item) : 
+                        true
+                    );
+                } else if (typeof value === 'object') {
+                    return hasObjectMeaningfulContent(value);
+                }
+                return true; // Numbers, booleans etc are considered meaningful
+            });
+        };
+        
         // Check for meaningful content based on section type
         if (Array.isArray(section)) {
-            return section.length > 0;
+            return section.length > 0 && section.some(item => 
+                typeof item === 'string' ? isStringMeaningful(item) : 
+                typeof item === 'object' ? hasObjectMeaningfulContent(item) : 
+                true
+            );
         }
         
         if (typeof section === 'object') {
-            // Check for arrays with content
-            const hasArraysWithContent = Object.values(section).some(value => 
-                Array.isArray(value) && value.length > 0
-            );
-            
-            // Check for non-empty strings
-            const hasNonEmptyStrings = Object.values(section).some(value => 
-                typeof value === 'string' && value.trim().length > 0 && 
-                !value.includes('requires JSON database') && 
-                !value.includes('not available')
-            );
-            
-            return hasArraysWithContent || hasNonEmptyStrings;
+            return hasObjectMeaningfulContent(section);
         }
         
         if (typeof section === 'string') {
-            return section.length > 0 && 
-                   !section.includes('requires JSON database') && 
-                   !section.includes('not available');
+            return isStringMeaningful(section);
         }
         
         return false;
+    }
+
+    // Mark empty analysis cards for CSS hiding
+    markEmptyAnalysisCards(tabId) {
+        const tabContent = document.getElementById(`${tabId}Tab`);
+        if (!tabContent) return;
+        
+        const analysisCards = tabContent.querySelectorAll('.analysis-card');
+        analysisCards.forEach(card => {
+            const contentDiv = card.querySelector('div:not(h4)'); // Get content div (not header)
+            if (contentDiv) {
+                const content = contentDiv.textContent || contentDiv.innerHTML;
+                const cleanContent = content.trim().toLowerCase();
+                
+                // List of indicators for empty/meaningless content
+                const emptyIndicators = [
+                    'requires json database',
+                    'not available',
+                    'analysis not available',
+                    'no specific',
+                    'general tarot reading',
+                    'basic interpretation',
+                    'standard meaning',
+                    'undefined',
+                    'null',
+                    'empty',
+                    'no data',
+                    'coming soon',
+                    'not implemented',
+                    'placeholder',
+                    'lorem ipsum'
+                ];
+                
+                const isEmpty = !cleanContent || 
+                               cleanContent.length < 10 || 
+                               emptyIndicators.some(indicator => cleanContent.includes(indicator)) ||
+                               cleanContent === '{}' ||
+                               cleanContent === '[]' ||
+                               /^[\s\-\.]*$/.test(cleanContent); // Only whitespace, dashes, or dots
+                
+                if (isEmpty) {
+                    card.setAttribute('data-empty', 'true');
+                    card.style.display = 'none';
+                } else {
+                    card.removeAttribute('data-empty');
+                    card.style.display = '';
+                }
+            }
+        });
+        
+        // Hide the entire tab if all cards are empty
+        const visibleCards = tabContent.querySelectorAll('.analysis-card:not([data-empty="true"])');
+        if (visibleCards.length === 0) {
+            const tabButton = document.querySelector(`[data-tab="${tabId}"]`);
+            if (tabButton) {
+                tabButton.style.display = 'none';
+                tabButton.setAttribute('data-empty', 'true');
+            }
+            tabContent.style.display = 'none';
+            tabContent.setAttribute('data-empty', 'true');
+        }
     }
 
     updateOverviewTab() {
