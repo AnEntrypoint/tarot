@@ -1,0 +1,499 @@
+{
+  "hermetic_principles": {
+    "description": "The seven fundamental principles of Hermetic philosophy as applied to tarot interpretation",
+    "quote": "The principles of truth are seven; he who knows these, understandingly, possesses the magic key before whose touch all the doors of the temple fly open.",
+    "author": "The Three Initiates",
+    "source": "The Kybalion",
+    "mentalism": {
+      "principle": "The All is Mind; the Universe is Mental",
+      "tarot_application": "All tarot readings reflect the mental state and consciousness of the querent",
+      "cards": ["The Magician", "The High Priestess", "The Hermit"],
+      "practical_meaning": "Thoughts create reality and influence outcomes",
+      "quote": "Mind is the master power that moulds and makes, and man is mind, and evermore he takes the tool of thought, and, shaping what he wills, brings forth a thousand joys, a thousand ills.",
+      "author": "James Allen",
+      "source": "As a Man Thinketh",
+      "alchemical_operation": "Calcination - burning away illusions"
+    },
+    "correspondence": {
+      "principle": "As above, so below; as below, so above",
+      "tarot_application": "Patterns in the cards reflect patterns in life and cosmos",
+      "cards": ["The Star", "The World", "Wheel of Fortune"],
+      "practical_meaning": "Microcosm reflects macrocosm in all divination",
+      "quote": "That which is below is like that which is above, and that which is above is like that which is below, to accomplish the miracles of the one thing.",
+      "author": "Hermes Trismegistus",
+      "source": "The Emerald Tablet",
+      "alchemical_operation": "Solution - dissolving rigid boundaries"
+    },
+    "vibration": {
+      "principle": "Nothing rests; everything moves; everything vibrates",
+      "tarot_application": "Each card carries specific vibrational frequencies",
+      "cards": ["The Fool", "The Hanged Man", "Temperance"],
+      "practical_meaning": "Energy states can be shifted through conscious intention",
+      "quote": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.",
+      "author": "Nikola Tesla",
+      "source": "Scientific Principles",
+      "alchemical_operation": "Separation - distinguishing different energetic states"
+    },
+    "polarity": {
+      "principle": "Everything is dual; everything has poles; opposites are identical in nature",
+      "tarot_application": "All cards contain both positive and negative potentials",
+      "cards": ["The Lovers", "Justice", "The Moon"],
+      "practical_meaning": "Understanding polarity allows for conscious choice",
+      "quote": "Opposites are identical in nature, but different in degree; extremes meet; all truths are but half-truths.",
+      "author": "The Three Initiates",
+      "source": "The Kybalion",
+      "alchemical_operation": "Conjunction - uniting opposites"
+    },
+    "rhythm": {
+      "principle": "Everything flows, out and in; the pendulum-swing manifests in everything",
+      "tarot_application": "Card meanings change with life cycles and timing",
+      "cards": ["Wheel of Fortune", "Death", "The World"],
+      "practical_meaning": "Life moves in cycles of expansion and contraction",
+      "quote": "To everything there is a season, and a time to every purpose under heaven.",
+      "author": "Ecclesiastes",
+      "source": "Bible, Ecclesiastes 3:1",
+      "alchemical_operation": "Fermentation - cyclic transformation"
+    },
+    "cause_and_effect": {
+      "principle": "Every cause has its effect; every effect has its cause",
+      "tarot_application": "Card combinations show karmic patterns and consequences",
+      "cards": ["Justice", "Judgement", "The Tower"],
+      "practical_meaning": "Present situations result from past choices",
+      "quote": "The law of karma is the law of cause and effect in the moral world.",
+      "author": "Swami Vivekananda",
+      "source": "Raja Yoga",
+      "alchemical_operation": "Distillation - purifying through consequences"
+    },
+    "gender": {
+      "principle": "Everything has its masculine and feminine principles",
+      "tarot_application": "All cards express both active and receptive energies",
+      "cards": ["The Emperor", "The Empress", "The Sun", "The Moon"],
+      "practical_meaning": "Balance of masculine and feminine creates harmony",
+      "quote": "The masculine and feminine principles exist in all planes of creation.",
+      "author": "The Three Initiates",
+      "source": "The Kybalion",
+      "alchemical_operation": "Coagulation - solidifying the balanced whole"
+    }
+  },
+  "alchemical_operations": {
+    "description": "The twelve classical alchemical operations and their correspondence to tarot transformation",
+    "quote": "Alchemy is the art of transmuting base metals into gold, but more importantly, it is the art of transmuting the base human soul into spiritual gold.",
+    "author": "Paracelsus",
+    "source": "Archidoxes of Magic",
+    "calcination": {
+      "element": "Fire",
+      "planet": "Saturn",
+      "tarot_cards": ["The Tower", "Death", "Five of Pentacles"],
+      "psychological_process": "Burning away ego attachments and false beliefs",
+      "spiritual_meaning": "Destruction of illusions to reveal truth",
+      "practical_application": "Releasing outdated patterns and beliefs",
+      "quote": "The first operation of the Great Work is the calcination of the base metal, representing the burning away of all that is false in human nature.",
+      "author": "Manly P. Hall",
+      "source": "The Secret Teachings of All Ages",
+      "bodily_correspondence": "Fever, inflammation as purification"
+    },
+    "solution": {
+      "element": "Water",
+      "planet": "Moon",
+      "tarot_cards": ["The High Priestess", "The Hanged Man", "Four of Cups"],
+      "psychological_process": "Dissolving rigid mental patterns",
+      "spiritual_meaning": "Liquefying the solid ego to allow transformation",
+      "practical_application": "Becoming more flexible and open to change",
+      "quote": "Solution dissolves the fixed into the flowing, allowing the rigid boundaries of the ego to become permeable to divine influence.",
+      "author": "Carl Jung",
+      "source": "Psychology and Alchemy",
+      "bodily_correspondence": "Tears, sweating as emotional release"
+    },
+    "separation": {
+      "element": "Air",
+      "planet": "Mercury",
+      "tarot_cards": ["The Hermit", "Eight of Swords", "Two of Swords"],
+      "psychological_process": "Discriminating between truth and illusion",
+      "spiritual_meaning": "Separating the pure from the impure",
+      "practical_application": "Developing discernment and clarity",
+      "quote": "Separation is the operation by which we learn to distinguish between what belongs to our true nature and what is merely superficial conditioning.",
+      "author": "A.E. Waite",
+      "source": "The Secret Tradition in Alchemy",
+      "bodily_correspondence": "Deep breathing as consciousness separation"
+    },
+    "conjunction": {
+      "element": "Earth",
+      "planet": "Venus",
+      "tarot_cards": ["The Lovers", "Temperance", "Two of Cups"],
+      "psychological_process": "Uniting conscious and unconscious aspects",
+      "spiritual_meaning": "Sacred marriage of opposites",
+      "practical_application": "Integrating all aspects of self",
+      "quote": "Conjunction is the mystical marriage where opposites are united in perfect harmony, creating something greater than the sum of its parts.",
+      "author": "Marie-Louise von Franz",
+      "source": "Alchemy: An Introduction to the Symbolism and the Psychology",
+      "bodily_correspondence": "Sexual union as creative merger"
+    },
+    "putrefaction": {
+      "element": "Water/Earth",
+      "planet": "Saturn/Pluto",
+      "tarot_cards": ["Death", "The Devil", "Five of Cups"],
+      "psychological_process": "Allowing old self to die completely",
+      "spiritual_meaning": "Necessary decay before resurrection",
+      "practical_application": "Accepting loss and grief as transformation",
+      "quote": "Without putrefaction, nothing can be regenerated. The old must completely die before the new can be born.",
+      "author": "Basil Valentine",
+      "source": "The Twelve Keys of Basil Valentine",
+      "bodily_correspondence": "Depression as necessary dissolution"
+    },
+    "congelation": {
+      "element": "Earth",
+      "planet": "Saturn",
+      "tarot_cards": ["The Emperor", "Four of Pentacles", "Ten of Pentacles"],
+      "psychological_process": "Forming new stable identity",
+      "spiritual_meaning": "Crystallizing spiritual insights into form",
+      "practical_application": "Creating lasting change and structure",
+      "quote": "Congelation fixes the volatile spirit into stable form, making permanent what was once fleeting inspiration.",
+      "author": "Nicholas Flamel",
+      "source": "The Summary of Philosophy",
+      "bodily_correspondence": "Crystallization of insights into habit"
+    },
+    "cibation": {
+      "element": "Fire/Water",
+      "planet": "Jupiter",
+      "tarot_cards": ["Strength", "Nine of Pentacles", "Six of Wands"],
+      "psychological_process": "Nourishing the newly formed consciousness",
+      "spiritual_meaning": "Feeding the spiritual child within",
+      "practical_application": "Supporting growth through proper nourishment",
+      "quote": "Cibation is the gentle nourishment of the philosophical child, providing it with the spiritual food necessary for its growth.",
+      "author": "Ramon Llull",
+      "source": "The Tree of Life",
+      "bodily_correspondence": "Proper nutrition supporting transformation"
+    },
+    "sublimation": {
+      "element": "Air/Fire",
+      "planet": "Mercury/Sun",
+      "tarot_cards": ["The Star", "The Sun", "Ace of Swords"],
+      "psychological_process": "Elevating base instincts to higher expression",
+      "spiritual_meaning": "Transformation of lower nature into higher",
+      "practical_application": "Channeling raw energy into creative expression",
+      "quote": "Sublimation raises the earthly to the celestial, transforming base desires into divine inspiration.",
+      "author": "Zosimos of Panopolis",
+      "source": "On the Letter Omega",
+      "bodily_correspondence": "Transmutation of sexual energy into creativity"
+    },
+    "fermentation": {
+      "element": "Air",
+      "planet": "Jupiter/Sun",
+      "tarot_cards": ["Temperance", "The Star", "Three of Cups"],
+      "psychological_process": "Allowing natural transformation to occur",
+      "spiritual_meaning": "Spiritual resurrection and new life",
+      "practical_application": "Trusting the natural process of growth",
+      "quote": "Fermentation is the resurrection phase where the philosopher's stone begins to manifest its miraculous properties.",
+      "author": "George Ripley",
+      "source": "The Compound of Alchemy",
+      "bodily_correspondence": "Natural healing and regeneration"
+    },
+    "exaltation": {
+      "element": "Fire",
+      "planet": "Sun",
+      "tarot_cards": ["The Sun", "Six of Wands", "The World"],
+      "psychological_process": "Reaching heightened states of consciousness",
+      "spiritual_meaning": "Glorification and elevation of spirit",
+      "practical_application": "Experiencing peak spiritual states",
+      "quote": "Exaltation lifts the prepared soul to the heights of divine consciousness where it beholds the face of the eternal.",
+      "author": "John Dee",
+      "source": "Monas Hieroglyphica",
+      "bodily_correspondence": "Ecstatic states and peak experiences"
+    },
+    "multiplication": {
+      "element": "All Elements",
+      "planet": "Sun/Jupiter",
+      "tarot_cards": ["The Magician", "Three of Pentacles", "Ten of Cups"],
+      "psychological_process": "Expanding consciousness and abilities",
+      "spiritual_meaning": "Infinite increase of spiritual power",
+      "practical_application": "Manifesting abundance and sharing gifts",
+      "quote": "Multiplication demonstrates the infinite creative power of the perfected consciousness to generate limitless spiritual wealth.",
+      "author": "Michael Maier",
+      "source": "Atalanta Fugiens",
+      "bodily_correspondence": "Abundant health and vitality"
+    },
+    "projection": {
+      "element": "Spirit",
+      "planet": "Sun",
+      "tarot_cards": ["The World", "The Magician", "Ace of Pentacles"],
+      "psychological_process": "Radiating transformed consciousness",
+      "spiritual_meaning": "Transmuting others through presence",
+      "practical_application": "Becoming a force for positive change",
+      "quote": "Projection is the final operation where the adept becomes a philosopher's stone, capable of transmuting all they touch.",
+      "author": "Pseudo-Democritus",
+      "source": "Physica et Mystica",
+      "bodily_correspondence": "Healing others through presence"
+    }
+  },
+  "prima_materia": {
+    "description": "The first matter from which all things are created",
+    "quote": "The prima materia is the chaos mentioned by the ancients, containing in potential all forms and all possibilities.",
+    "author": "Gerhard Dorn",
+    "source": "Speculativae philosophiae",
+    "characteristics": {
+      "universal_solvent": "Dissolves all forms back to pure potential",
+      "virgin_earth": "Untouched by human conditioning",
+      "philosophical_mercury": "The flowing principle of transformation",
+      "dragon": "The powerful force that must be tamed",
+      "green_lion": "The raw life force before refinement"
+    },
+    "tarot_correspondences": [
+      {
+        "card": "The Fool",
+        "aspect": "Pure potential before manifestation",
+        "meaning": "The unformed consciousness at the beginning of the journey"
+      },
+      {
+        "card": "The Star",
+        "aspect": "The naked truth of essential nature",
+        "meaning": "Pure essence stripped of all artifice"
+      },
+      {
+        "card": "Ace cards",
+        "aspect": "Raw elemental forces",
+        "meaning": "Primary energies before specific manifestation"
+      }
+    ],
+    "psychological_meaning": "The original nature before ego conditioning",
+    "spiritual_significance": "The divine spark within all beings",
+    "practical_application": "Returning to authentic self through spiritual practice"
+  },
+  "philosopher_stone": {
+    "description": "The ultimate goal of alchemy - the perfected consciousness",
+    "quote": "The philosopher's stone is not a stone at all, but the perfect soul that has achieved union with the divine.",
+    "author": "Paracelsus",
+    "source": "The Hermetic and Alchemical Writings",
+    "properties": {
+      "transmutation": "Transforms base metals into gold",
+      "healing": "Cures all diseases and extends life",
+      "wisdom": "Grants perfect knowledge and understanding",
+      "unity": "Reconciles all opposites",
+      "immortality": "Confers spiritual immortality"
+    },
+    "stages_of_development": {
+      "nigredo": {
+        "color": "Black",
+        "cards": ["Death", "The Devil", "The Tower"],
+        "process": "Putrefaction and dissolution of ego",
+        "quote": "In the blackness of nigredo, all illusions die and the soul confronts its shadow."
+      },
+      "albedo": {
+        "color": "White",
+        "cards": ["The Moon", "The High Priestess", "The Star"],
+        "process": "Purification and illumination",
+        "quote": "The white queen emerges from the darkness, pure and receptive to divine light."
+      },
+      "citrinitas": {
+        "color": "Yellow",
+        "cards": ["The Sun", "The Hermit", "Temperance"],
+        "process": "Solar consciousness and wisdom",
+        "quote": "The yellow phase brings the dawn of spiritual understanding and inner illumination."
+      },
+      "rubedo": {
+        "color": "Red",
+        "cards": ["The Magician", "The World", "Strength"],
+        "process": "Perfect union and completion",
+        "quote": "The red king represents the perfected consciousness that has achieved the Great Work."
+      }
+    },
+    "tarot_completion": "The World card represents the achieved philosopher's stone",
+    "psychological_meaning": "Fully individuated and integrated personality",
+    "spiritual_significance": "Christ consciousness or Buddha nature realized",
+    "practical_application": "Living as an embodiment of divine wisdom and love"
+  },
+  "alchemical_symbols": {
+    "description": "Sacred symbols used in hermetic and alchemical practice",
+    "quote": "Symbols are the language of the soul, speaking directly to the unconscious mind through archetypal imagery.",
+    "author": "Carl Jung",
+    "source": "Man and His Symbols",
+    "elements": {
+      "fire": {
+        "symbol": "△",
+        "tarot_suit": "Wands",
+        "qualities": ["hot", "dry", "active", "masculine"],
+        "cards": ["The Sun", "The Tower", "Strength"],
+        "spiritual_meaning": "Divine will and creative force",
+        "psychological_aspect": "Conscious will and directed energy"
+      },
+      "water": {
+        "symbol": "▽",
+        "tarot_suit": "Cups",
+        "qualities": ["cold", "moist", "passive", "feminine"],
+        "cards": ["The Moon", "The Star", "The High Priestess"],
+        "spiritual_meaning": "Divine love and receptivity",
+        "psychological_aspect": "Emotions and unconscious flow"
+      },
+      "air": {
+        "symbol": "△ with line",
+        "tarot_suit": "Swords",
+        "qualities": ["hot", "moist", "active", "masculine"],
+        "cards": ["The Fool", "Justice", "The Hermit"],
+        "spiritual_meaning": "Divine intelligence and communication",
+        "psychological_aspect": "Thoughts and mental processes"
+      },
+      "earth": {
+        "symbol": "▽ with line",
+        "tarot_suit": "Pentacles",
+        "qualities": ["cold", "dry", "passive", "feminine"],
+        "cards": ["The World", "The Empress", "The Emperor"],
+        "spiritual_meaning": "Divine manifestation and form",
+        "psychological_aspect": "Practical application and material reality"
+      }
+    },
+    "metals": {
+      "gold": {
+        "symbol": "☉",
+        "planet": "Sun",
+        "tarot_cards": ["The Sun", "The Magician"],
+        "quality": "Perfection and incorruption",
+        "spiritual_meaning": "Divine consciousness achieved"
+      },
+      "silver": {
+        "symbol": "☽",
+        "planet": "Moon",
+        "tarot_cards": ["The High Priestess", "The Moon"],
+        "quality": "Purity and reflection",
+        "spiritual_meaning": "Receptive wisdom and intuition"
+      },
+      "mercury": {
+        "symbol": "☿",
+        "planet": "Mercury",
+        "tarot_cards": ["The Magician", "The Hermit"],
+        "quality": "Fluidity and transformation",
+        "spiritual_meaning": "Active intelligence and communication"
+      },
+      "copper": {
+        "symbol": "♀",
+        "planet": "Venus",
+        "tarot_cards": ["The Empress", "The Lovers"],
+        "quality": "Beauty and attraction",
+        "spiritual_meaning": "Divine love and harmony"
+      },
+      "iron": {
+        "symbol": "♂",
+        "planet": "Mars",
+        "tarot_cards": ["The Tower", "The Chariot"],
+        "quality": "Strength and courage",
+        "spiritual_meaning": "Divine will in action"
+      },
+      "tin": {
+        "symbol": "♃",
+        "planet": "Jupiter",
+        "tarot_cards": ["Wheel of Fortune", "The Hierophant"],
+        "quality": "Expansion and wisdom",
+        "spiritual_meaning": "Divine law and growth"
+      },
+      "lead": {
+        "symbol": "♄",
+        "planet": "Saturn",
+        "tarot_cards": ["The World", "The Devil"],
+        "quality": "Limitation and structure",
+        "spiritual_meaning": "Divine law and necessary restriction"
+      }
+    }
+  },
+  "hermetic_texts": {
+    "description": "Classical hermetic literature and their tarot applications",
+    "emerald_tablet": {
+      "author": "Hermes Trismegistus",
+      "key_teaching": "As above, so below",
+      "tarot_application": "The principle underlying all divinatory correspondence",
+      "quote": "That which is below is like that which is above, and that which is above is like that which is below, to accomplish the miracles of the one thing.",
+      "practical_meaning": "All tarot readings reflect cosmic patterns"
+    },
+    "corpus_hermeticum": {
+      "author": "Hermes Trismegistus",
+      "key_teaching": "Mind as creator of reality",
+      "tarot_application": "The mental nature of all tarot interpretation",
+      "quote": "Mind is the pilot of the soul, and mind, being the image of God, governs all things.",
+      "practical_meaning": "Consciousness shapes the meaning of cards"
+    },
+    "kybalion": {
+      "author": "The Three Initiates",
+      "key_teaching": "Seven hermetic principles",
+      "tarot_application": "Framework for understanding card dynamics",
+      "quote": "The lips of wisdom are closed, except to the ears of understanding.",
+      "practical_meaning": "Tarot wisdom reveals itself according to the reader's level of understanding"
+    }
+  },
+  "alchemical_marriage": {
+    "description": "The sacred union of opposites in hermetic philosophy",
+    "quote": "The alchemical marriage is the union of the solar and lunar consciousness, creating the philosophical child of perfect wisdom.",
+    "author": "Gerhard Dorn",
+    "source": "De tenebris contra naturam",
+    "stages": {
+      "courtship": {
+        "cards": ["Two of Cups", "The Lovers", "Two of Wands"],
+        "process": "Recognition and attraction of opposites",
+        "meaning": "Conscious and unconscious begin to recognize each other"
+      },
+      "betrothal": {
+        "cards": ["Three of Cups", "Six of Cups", "The Hierophant"],
+        "process": "Commitment to the union process",
+        "meaning": "Formal dedication to inner integration work"
+      },
+      "wedding": {
+        "cards": ["Temperance", "The Lovers", "Two of Pentacles"],
+        "process": "Active joining of masculine and feminine principles",
+        "meaning": "Conscious merging of complementary aspects"
+      },
+      "consummation": {
+        "cards": ["The Star", "The World", "Ten of Cups"],
+        "process": "Complete union creating new consciousness",
+        "meaning": "Birth of integrated, whole being"
+      }
+    },
+    "participants": {
+      "red_king": {
+        "represents": "Solar consciousness, active principle",
+        "tarot_cards": ["The Emperor", "The Sun", "King cards"],
+        "qualities": ["will", "action", "consciousness", "logic"]
+      },
+      "white_queen": {
+        "represents": "Lunar consciousness, receptive principle",
+        "tarot_cards": ["The High Priestess", "The Moon", "Queen cards"],
+        "qualities": ["intuition", "receptivity", "emotion", "wisdom"]
+      }
+    },
+    "offspring": {
+      "philosophical_child": {
+        "represents": "Perfected consciousness born from union",
+        "tarot_cards": ["The Sun", "The World", "The Star"],
+        "qualities": ["integrated wisdom", "divine consciousness", "perfect balance"]
+      }
+    }
+  },
+  "spagyric_principles": {
+    "description": "The three principles of Paracelsian alchemy",
+    "quote": "All things consist of three principles: Sulphur, Mercury, and Salt. These are the trinity that manifests in all creation.",
+    "author": "Paracelsus",
+    "source": "Opus Paramirum",
+    "sulphur": {
+      "principle": "Soul - the active, fiery principle",
+      "tarot_correspondence": "Major Arcana",
+      "qualities": ["consciousness", "activity", "fire", "spirit"],
+      "cards": ["The Magician", "The Sun", "Strength"],
+      "meaning": "The essential nature and driving force",
+      "color": "Red",
+      "operation": "Calcination and Exaltation"
+    },
+    "mercury": {
+      "principle": "Spirit - the connecting, flowing principle",
+      "tarot_correspondence": "Court Cards",
+      "qualities": ["fluidity", "communication", "change", "mediation"],
+      "cards": ["The Hermit", "Temperance", "The Fool"],
+      "meaning": "The life force that animates and connects",
+      "color": "White",
+      "operation": "Solution and Sublimation"
+    },
+    "salt": {
+      "principle": "Body - the crystallizing, stabilizing principle",
+      "tarot_correspondence": "Minor Arcana pip cards",
+      "qualities": ["structure", "stability", "earth", "manifestation"],
+      "cards": ["The World", "The Emperor", "Ten of Pentacles"],
+      "meaning": "The physical vessel and material expression",
+      "color": "Black",
+      "operation": "Congelation and Coagulation"
+    }
+  }
+}
