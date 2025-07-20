@@ -421,20 +421,51 @@ class AnalysisEngine {
     // For brevity, I'll include the structure but not implement every method fully
 
     async analyzeKabbalisticInfluence(cards) {
-        await this.ensureInitialized();
+        if (!this.isInitialized) {
+            return { 
+                activePaths: [], 
+                sephirothInfluence: {}, 
+                hebrewLetters: [], 
+                interpretation: "Kabbalistic analysis requires JSON database initialization." 
+            };
+        }
+
         const paths = [];
         const sephiroth = {};
         const hebrewLetters = [];
 
+        // Use data loader to get Kabbalistic data
+        const kabbData = this.dataLoader.getData('kabbalah');
+        
         cards.forEach(card => {
-            if (this.kabbalisticPaths[card.name]) {
-                const path = this.kabbalisticPaths[card.name];
-                paths.push(path);
-                hebrewLetters.push(path.hebrew);
-                
-                path.sephiroth.forEach(seph => {
-                    sephiroth[seph] = (sephiroth[seph] || 0) + 1;
-                });
+            // For now, provide basic Kabbalistic interpretation based on card attributes
+            if (card.suit === 'Major Arcana' && card.number !== null) {
+                const pathNumber = card.number;
+                if (kabbData.paths && kabbData.paths[pathNumber]) {
+                    const path = kabbData.paths[pathNumber];
+                    paths.push({
+                        card: card.name,
+                        pathNumber,
+                        ...path
+                    });
+                    
+                    if (path.hebrew_letter) {
+                        hebrewLetters.push(path.hebrew_letter);
+                    }
+                }
+            }
+            
+            // Map suits to sephiroth (basic correspondence)
+            const suitSephirah = {
+                'Wands': 'Chokmah',
+                'Cups': 'Binah', 
+                'Swords': 'Gevurah',
+                'Pentacles': 'Malkuth'
+            };
+            
+            if (suitSephirah[card.suit]) {
+                const seph = suitSephirah[card.suit];
+                sephiroth[seph] = (sephiroth[seph] || 0) + 1;
             }
         });
 
@@ -442,7 +473,7 @@ class AnalysisEngine {
             activePaths: paths,
             sephirothInfluence: sephiroth,
             hebrewLetters,
-            interpretation: `${paths.length} Kabbalistic paths are active, connecting to ${Object.keys(sephiroth).length} sephiroth.`
+            interpretation: `${paths.length} Kabbalistic paths are active, connecting to ${Object.keys(sephiroth).length} sephiroth. The Tree of Life energy flows through these channels to provide guidance.`
         };
     }
 
