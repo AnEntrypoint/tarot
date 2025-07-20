@@ -301,7 +301,7 @@ button {
     }
 }
 
-.deck-card:before {
+.deck-card.ready-to-draw:before {
     content: 'CLICK TO DRAW';
     position: absolute;
     top: 50%;
@@ -316,7 +316,7 @@ button {
 }
 
 @media (min-width: 640px) {
-    .deck-card:before {
+    .deck-card.ready-to-draw:before {
         font-size: 1rem;
     }
 }
