@@ -335,7 +335,8 @@ class AnalysisEngine {
     }
 
     // Analyze spiritual path indicators
-    analyzeSpiritualPath(cards) {
+    async analyzeSpiritualPath(cards) {
+        await this.ensureInitialized();
         const soulLessons = [];
         const spiritualGifts = [];
         const higherSelf = [];
@@ -435,7 +436,8 @@ class AnalysisEngine {
     // Additional analysis methods would continue here...
     // For brevity, I'll include the structure but not implement every method fully
 
-    analyzeKabbalisticInfluence(cards) {
+    async analyzeKabbalisticInfluence(cards) {
+        await this.ensureInitialized();
         const paths = [];
         const sephiroth = {};
         const hebrewLetters = [];
@@ -460,7 +462,8 @@ class AnalysisEngine {
         };
     }
 
-    analyzeChakraAlignment(cards) {
+    async analyzeChakraAlignment(cards) {
+        await this.ensureInitialized();
         const chakras = { Root: 0, Sacral: 0, "Solar Plexus": 0, Heart: 0, Throat: 0, "Third Eye": 0, Crown: 0 };
         
         cards.forEach(card => {
@@ -477,7 +480,8 @@ class AnalysisEngine {
         };
     }
 
-    analyzeArchetypes(cards) {
+    async analyzeArchetypes(cards) {
+        await this.ensureInitialized();
         return {
             primary: "Hero's Journey theme detected",
             mythological: "Greek/Roman mythological influences",
@@ -485,7 +489,8 @@ class AnalysisEngine {
         };
     }
 
-    analyzeTiming(cards) {
+    async analyzeTiming(cards) {
+        await this.ensureInitialized();
         return {
             seasonal: "Spring energy - new beginnings",
             lunar: "Waxing moon - growth phase",
@@ -494,7 +499,8 @@ class AnalysisEngine {
         };
     }
 
-    analyzeKarmicPattern(cards) {
+    async analyzeKarmicPattern(cards) {
+        await this.ensureInitialized();
         return {
             debts: "Past relationship patterns need resolution",
             pastLife: "Creative talents from previous incarnations",
@@ -505,7 +511,8 @@ class AnalysisEngine {
     }
 
     // Deep Numerological Analysis
-    analyzeNumerology(cards) {
+    async analyzeNumerology(cards) {
+        await this.ensureInitialized();
         const numerologicalData = {
             cardNumbers: [],
             lifePath: 0,
@@ -580,7 +587,8 @@ class AnalysisEngine {
     }
 
     // Elemental Dignities Analysis
-    analyzeElementalDignities(cards) {
+    async analyzeElementalDignities(cards) {
+        await this.ensureInitialized();
         const dignities = {
             strengtheningPairs: [],
             weakeningPairs: [],
@@ -651,7 +659,8 @@ class AnalysisEngine {
     }
 
     // Astrological Transits Analysis
-    analyzeAstrologicalTransits(cards) {
+    async analyzeAstrologicalTransits(cards) {
+        await this.ensureInitialized();
         const currentDate = new Date();
         const transits = {
             currentPlanetaryPositions: this.getCurrentPlanetaryPositions(currentDate),
@@ -695,7 +704,8 @@ class AnalysisEngine {
     }
 
     // Sacred Geometry Analysis
-    analyzeSacredGeometry(cards) {
+    async analyzeSacredGeometry(cards) {
+        await this.ensureInitialized();
         const geometry = {
             goldenRatio: [],
             fibonacciSequence: [],
@@ -773,7 +783,8 @@ class AnalysisEngine {
     }
 
     // Deep Symbolism Analysis
-    analyzeDeepSymbolism(cards) {
+    async analyzeDeepSymbolism(cards) {
+        await this.ensureInitialized();
         const symbolism = {
             archetypicalSymbols: [],
             colorSymbolism: [],
@@ -828,7 +839,8 @@ class AnalysisEngine {
     }
 
     // Card Interactions Analysis
-    analyzeCardInteractions(cards) {
+    async analyzeCardInteractions(cards) {
+        await this.ensureInitialized();
         const interactions = {
             directConnections: [],
             mirrorPairs: [],
@@ -886,7 +898,8 @@ class AnalysisEngine {
     }
 
     // Shadow Work Analysis
-    analyzeShadowWork(cards) {
+    async analyzeShadowWork(cards) {
+        await this.ensureInitialized();
         const shadow = {
             shadowAspects: [],
             projections: [],
@@ -954,7 +967,8 @@ class AnalysisEngine {
     }
 
     // Alchemical Process Analysis
-    analyzeAlchemicalProcess(cards) {
+    async analyzeAlchemicalProcess(cards) {
+        await this.ensureInitialized();
         const alchemy = {
             currentStage: null,
             nigrido: [],
@@ -1033,7 +1047,8 @@ class AnalysisEngine {
     }
 
     // Mythological Patterns Analysis
-    analyzeMythologicalPatterns(cards) {
+    async analyzeMythologicalPatterns(cards) {
+        await this.ensureInitialized();
         const mythology = {
             heroJourney: [],
             goddessArchetypes: [],
@@ -1104,7 +1119,8 @@ class AnalysisEngine {
     }
 
     // Quantum Field Analysis
-    analyzeQuantumFieldInfluence(cards) {
+    async analyzeQuantumFieldInfluence(cards) {
+        await this.ensureInitialized();
         const quantum = {
             fieldCoherence: 0,
             entanglements: [],
