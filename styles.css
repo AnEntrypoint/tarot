@@ -2318,6 +2318,50 @@ button {
     display: none;
 }
 
+/* Hide analysis cards with minimal or placeholder content */
+.analysis-card:has(> div:empty) {
+    display: none;
+}
+
+/* Hide cards containing only placeholder text */
+.analysis-card > div:only-child:not(:has(*)) {
+    min-height: 20px;
+}
+
+.analysis-card > div:only-child:not(:has(*)):empty,
+.analysis-card > div:only-child:not(:has(*)):is([data-empty="true"]) {
+    display: none;
+}
+
+/* Hide parent card if child div is hidden */
+.analysis-card:has(> div[style*="display: none"]) {
+    display: none;
+}
+
+/* Hide tabs that have no visible analysis cards */
+.tab-content:not(:has(.analysis-card:not([style*="display: none"]))) {
+    display: none;
+}
+
+/* Hide tab buttons for tabs with no content */
+.tab-button[data-tab]:not(:has(+ .tab-content .analysis-card:not([style*="display: none"]))) {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/* Alternative approach for empty content detection */
+.analysis-card[data-empty="true"] {
+    display: none !important;
+}
+
+.analysis-card > div[data-content="placeholder"] {
+    display: none;
+}
+
+.analysis-card:has(> div[data-content="placeholder"]:only-child) {
+    display: none;
+}
+
 /* Tab Content Enhancements */
 .tab-content {
     display: none;
