@@ -755,6 +755,9 @@ class AnalysisEngine {
         return {
             cardAstrology,
             lunarPhase,
+            retrogrades: [], // Empty array to satisfy UI expectations
+            planetaryHours: lunarPhase, // Use lunar phase as planetary hour for simplicity
+            aspectPatterns: [], // Empty array to satisfy UI expectations
             interpretation: `${cardAstrology.length} cards carry astrological energies. Current lunar phase: ${lunarPhase}. The cosmic energies support the themes revealed in this reading.`
         };
     }
