@@ -2314,6 +2314,32 @@ class AnalysisEngine {
         
         return suitArchetypes[card.suit] || "Seeker";
     }
+
+    // Calculate elemental balance score
+    calculateElementalBalance(elements) {
+        const total = Object.values(elements).reduce((sum, count) => sum + count, 0);
+        const average = total / 4;
+        const variance = Object.values(elements).reduce((sum, count) => sum + Math.pow(count - average, 2), 0) / 4;
+        return Math.max(0, 100 - (variance * 10)); // Higher score = more balanced
+    }
+
+    generateElementalInterpretation(dominant, lacking, elements) {
+        const dominantMeaning = {
+            Fire: "passion, creativity, and action dominate your current situation",
+            Water: "emotions, intuition, and relationships are the primary focus",
+            Air: "thoughts, communication, and mental clarity are emphasized",
+            Earth: "practical matters, material concerns, and stability are highlighted"
+        };
+
+        const lackingMeaning = {
+            Fire: "you may need more passion and initiative",
+            Water: "emotional connection and intuition may be lacking",
+            Air: "clearer thinking and communication might be needed",
+            Earth: "more grounding and practical focus could be beneficial"
+        };
+
+        return `${dominantMeaning[dominant]}. However, ${lackingMeaning[lacking]}.`;
+    }
 }
 
 // Export for module usage
