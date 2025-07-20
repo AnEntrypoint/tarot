@@ -11,6 +11,8 @@ class TarotAppController {
         this.readingInProgress = false;
         this.savedReadings = JSON.parse(localStorage.getItem('tarotReadings')) || [];
         this.currentAnalysis = null;
+        this.readingMode = 'draw'; // 'draw' or 'manual'
+        this.cardSelectionInProgress = false;
         
         this.initializeEventListeners();
         this.loadSavedReadings();
@@ -83,17 +85,33 @@ class TarotAppController {
         // Update UI
         this.hideElement('spreadSelection');
         this.hideButton('startReadingBtn');
-        this.showElement('deckContainer');
         this.showButton('resetReadingBtn');
         this.clearReadingArea();
         this.hideElement('readingSummary');
         this.hideElement('analysisPanel');
         
-        // Update instruction
-        this.updateInstructionText(`Draw ${this.currentSpread.cardCount} card(s) for your ${this.currentSpread.name} reading. Click the deck to draw your first card.`);
+        // Set up the reading grid first (without cards)
+        const readingArea = document.getElementById('readingArea');
+        const spreadContainer = document.createElement('div');
+        spreadContainer.className = `reading-grid reading-grid-${this.currentSpread.type}`;
+        readingArea.appendChild(spreadContainer);
         
-        // Enable deck interaction
-        this.enableDeckInteraction();
+        // Create placeholder positions
+        for (let i = 0; i < this.currentSpread.cardCount; i++) {
+            const placeholder = document.createElement('div');
+            placeholder.className = 'card-placeholder-slot';
+            placeholder.dataset.position = i;
+            placeholder.innerHTML = `
+                <div class="card-position-label">${this.currentSpread.positions[i].name}</div>
+                <div class="card-placeholder-inner">
+                    <span class="placeholder-number">${i + 1}</span>
+                </div>
+            `;
+            spreadContainer.appendChild(placeholder);
+        }
+        
+        // Show mode selection
+        this.showModeSelection();
     }
 
     drawCard() {
@@ -132,21 +150,21 @@ class TarotAppController {
 
     displayCard(card) {
         const readingArea = document.getElementById('readingArea');
+        const spreadContainer = readingArea.querySelector('.reading-grid');
         
-        // Create or update the spread layout
-        let spreadContainer = readingArea.querySelector('.reading-grid');
-        if (!spreadContainer) {
-            spreadContainer = document.createElement('div');
-            spreadContainer.className = `reading-grid reading-grid-${this.currentSpread.type}`;
-            readingArea.appendChild(spreadContainer);
+        // Find the placeholder for this position
+        const placeholder = spreadContainer.querySelector(`.card-placeholder-slot[data-position="${card.positionIndex}"]`);
+        
+        if (placeholder) {
+            // Create card element
+            const cardElement = this.cardRenderer.createCardElement(card, card.position);
+            
+            // Replace placeholder with actual card
+            placeholder.replaceWith(cardElement);
+            
+            // Animate card appearance
+            this.cardRenderer.animateCardAppearance(cardElement);
         }
-        
-        // Create card element
-        const cardElement = this.cardRenderer.createCardElement(card, card.position);
-        spreadContainer.appendChild(cardElement);
-        
-        // Animate card appearance
-        this.cardRenderer.animateCardAppearance(cardElement);
     }
 
     updateReadingProgress() {
@@ -847,6 +865,174 @@ class TarotAppController {
                 }
             }, 300);
         }, 3000);
+    }
+
+    // Show mode selection UI
+    showModeSelection() {
+        const modalDiv = document.createElement('div');
+        modalDiv.id = 'modeSelectionModal';
+        modalDiv.className = 'mode-selection-modal';
+        modalDiv.innerHTML = `
+            <div class="mode-selection-content">
+                <h3 class="text-xl font-semibold mb-4 text-teal-400">Choose Your Reading Method</h3>
+                <div class="mode-options">
+                    <button class="mode-option-btn" data-mode="draw">
+                        <div class="mode-icon">🎴</div>
+                        <h4 class="text-lg font-semibold mb-2">Draw Cards</h4>
+                        <p class="text-sm text-gray-300">Let fate guide your reading by randomly drawing cards from the deck</p>
+                    </button>
+                    <button class="mode-option-btn" data-mode="manual">
+                        <div class="mode-icon">🔮</div>
+                        <h4 class="text-lg font-semibold mb-2">Select Cards</h4>
+                        <p class="text-sm text-gray-300">Choose specific cards from the deck for your reading</p>
+                    </button>
+                </div>
+            </div>
+        `;
+        
+        document.body.appendChild(modalDiv);
+        
+        // Add event listeners
+        modalDiv.querySelectorAll('.mode-option-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                this.readingMode = e.currentTarget.dataset.mode;
+                this.closeModeSelection();
+                
+                if (this.readingMode === 'draw') {
+                    this.startDrawMode();
+                } else {
+                    this.startManualMode();
+                }
+            });
+        });
+    }
+    
+    closeModeSelection() {
+        const modal = document.getElementById('modeSelectionModal');
+        if (modal) {
+            modal.remove();
+        }
+    }
+    
+    startDrawMode() {
+        this.showElement('deckContainer');
+        this.updateInstructionText(`Draw ${this.currentSpread.cardCount} card(s) for your ${this.currentSpread.name} reading. Click the deck to draw your first card.`);
+        this.enableDeckInteraction();
+    }
+    
+    startManualMode() {
+        this.cardSelectionInProgress = true;
+        this.showCardPicker();
+    }
+    
+    showCardPicker() {
+        const pickerDiv = document.createElement('div');
+        pickerDiv.id = 'cardPickerModal';
+        pickerDiv.className = 'card-picker-modal';
+        
+        // Group cards by suit
+        const cardsBySuit = {
+            'Major Arcana': [],
+            'Wands': [],
+            'Cups': [],
+            'Swords': [],
+            'Pentacles': []
+        };
+        
+        tarotCards.forEach(card => {
+            cardsBySuit[card.suit].push(card);
+        });
+        
+        const cardsNeeded = this.currentSpread.cardCount - this.drawnCards.length;
+        
+        pickerDiv.innerHTML = `
+            <div class="card-picker-content">
+                <div class="card-picker-header">
+                    <h3 class="text-xl font-semibold text-teal-400">Select ${cardsNeeded} Card${cardsNeeded > 1 ? 's' : ''}</h3>
+                    <p class="text-sm text-gray-300">Position: ${this.currentSpread.positions[this.drawnCards.length].name}</p>
+                    <button id="closeCardPicker" class="close-picker-btn">×</button>
+                </div>
+                <div class="card-picker-suits">
+                    ${Object.entries(cardsBySuit).map(([suit, cards]) => `
+                        <div class="suit-section">
+                            <h4 class="suit-header">${suit}</h4>
+                            <div class="suit-cards">
+                                ${cards.map(card => `
+                                    <button class="picker-card" data-card-name="${card.name}" 
+                                            ${this.isCardAlreadyDrawn(card) ? 'disabled' : ''}>
+                                        <span class="picker-card-name">${card.name}</span>
+                                        ${this.isCardAlreadyDrawn(card) ? '<span class="card-used">Used</span>' : ''}
+                                    </button>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="card-picker-footer">
+                    <label class="reversed-option">
+                        <input type="checkbox" id="reverseCardOption">
+                        <span>Draw as reversed</span>
+                    </label>
+                </div>
+            </div>
+        `;
+        
+        document.body.appendChild(pickerDiv);
+        
+        // Add event listeners
+        document.getElementById('closeCardPicker').addEventListener('click', () => this.closeCardPicker());
+        
+        pickerDiv.querySelectorAll('.picker-card:not([disabled])').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const cardName = e.currentTarget.dataset.cardName;
+                const isReversed = document.getElementById('reverseCardOption').checked;
+                this.selectCard(cardName, isReversed);
+            });
+        });
+    }
+    
+    closeCardPicker() {
+        const picker = document.getElementById('cardPickerModal');
+        if (picker) {
+            picker.remove();
+        }
+        this.cardSelectionInProgress = false;
+    }
+    
+    isCardAlreadyDrawn(card) {
+        return this.drawnCards.some(drawn => drawn.name === card.name);
+    }
+    
+    selectCard(cardName, isReversed) {
+        const card = tarotCards.find(c => c.name === cardName);
+        if (!card) return;
+        
+        // Create drawn card with position info
+        const drawnCard = {
+            ...card,
+            isReversed,
+            position: this.currentSpread.positions[this.drawnCards.length],
+            positionIndex: this.drawnCards.length,
+            timestamp: new Date().toISOString()
+        };
+        
+        // Add to drawn cards
+        this.drawnCards.push(drawnCard);
+        
+        // Display the card
+        this.displayCard(drawnCard);
+        
+        // Close picker
+        this.closeCardPicker();
+        
+        // Check if more cards needed
+        if (this.drawnCards.length < this.currentSpread.cardCount) {
+            setTimeout(() => {
+                this.showCardPicker();
+            }, 300);
+        } else {
+            this.completeReading();
+        }
     }
 }
 
