@@ -9,7 +9,7 @@ class CardRenderer {
     // Create card HTML element
     createCardElement(card, position = null) {
         const cardDiv = document.createElement('div');
-        cardDiv.className = 'tarot-card';
+        cardDiv.className = 'tarot-card image-only';
         cardDiv.setAttribute('data-card-id', `${card.name}-${card.positionIndex || 0}`);
         
         if (card.isReversed) {
@@ -27,7 +27,7 @@ class CardRenderer {
                         <span class="card-number">${card.number !== null ? card.number : ''}</span>
                     </div>
                 </div>
-                <div class="card-info">
+                <div class="card-info" style="display: none;">
                     <h4 class="card-name">${card.name}${card.isReversed ? ' (Reversed)' : ''}</h4>
                     ${position ? `<p class="card-position-name">${position.name}</p>` : ''}
                     <div class="card-metadata">
@@ -48,8 +48,11 @@ class CardRenderer {
 
         cardDiv.innerHTML = cardContent;
         
-        // Add click handler for detailed view
-        cardDiv.addEventListener('click', () => this.showCardDetails(card));
+        // Add click handler to toggle between image-only and full view
+        cardDiv.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.toggleCardView(cardDiv, card);
+        });
         
         this.cardElements.set(card, cardDiv);
         return cardDiv;
@@ -201,6 +204,24 @@ class CardRenderer {
             cardElement.style.opacity = '1';
             cardElement.style.transform = 'translateY(0)';
         }, 100);
+    }
+
+    // Toggle between image-only and full card view
+    toggleCardView(cardDiv, card) {
+        const isImageOnly = cardDiv.classList.contains('image-only');
+        const cardInfo = cardDiv.querySelector('.card-info');
+        
+        if (isImageOnly) {
+            // Show full card info
+            cardDiv.classList.remove('image-only');
+            cardDiv.classList.add('expanded');
+            if (cardInfo) cardInfo.style.display = 'block';
+        } else {
+            // Show only image
+            cardDiv.classList.add('image-only');
+            cardDiv.classList.remove('expanded');
+            if (cardInfo) cardInfo.style.display = 'none';
+        }
     }
 
     // Update card element with new data
