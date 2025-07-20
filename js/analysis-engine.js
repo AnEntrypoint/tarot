@@ -901,6 +901,7 @@ class AnalysisEngine {
 
         return {
             ...symbolism,
+            dominantThemes: ['archetypal wisdom', 'elemental balance', 'symbolic guidance'], // Add missing property for UI
             interpretation: `Deep symbolism reveals ${cards.length} layers of meaning through archetypal, elemental, and color symbolism patterns.`
         };
     }
