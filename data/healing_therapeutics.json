@@ -1,0 +1,543 @@
+{
+  "therapeutic_applications": {
+    "description": "Comprehensive guide to using tarot for healing, therapy, and personal transformation",
+    "quote": "The tarot is a mandala for the psyche, offering a complete map of consciousness that can guide healing on all levels of being.",
+    "author": "Mary K. Greer",
+    "source": "Tarot for Your Self",
+    "psychological_healing": {
+      "trauma_recovery": {
+        "description": "Using tarot to process and integrate traumatic experiences safely",
+        "foundational_principle": "Trauma healing requires creating safety, establishing resources, and gradual integration",
+        "quote": "The psyche has an innate wisdom for healing, and the tarot provides symbolic language that bypasses defensive mechanisms to access this healing wisdom.",
+        "author": "Judith Herman",
+        "source": "Trauma and Recovery",
+        "phase_one_safety": {
+          "goal": "Establishing safety and stabilization",
+          "recommended_cards": ["Four of Swords", "Four of Pentacles", "The Hermit", "The Empress"],
+          "therapeutic_approach": "Focus on grounding, safety, and resource building",
+          "spreads": {
+            "safety_assessment": {
+              "position_1": "Current safety level",
+              "position_2": "Internal resources available", 
+              "position_3": "External resources available",
+              "position_4": "Next step toward safety",
+              "position_5": "Long-term safety goal"
+            },
+            "grounding_support": {
+              "position_1": "What grounds me now",
+              "position_2": "What disconnects me",
+              "position_3": "Body wisdom",
+              "position_4": "Emotional anchor",
+              "position_5": "Spiritual anchor"
+            }
+          },
+          "contraindications": ["Avoid major arcana initially", "No death or tower cards", "Skip reversed interpretations"],
+          "therapeutic_techniques": "Use only upright cards, focus on positive aspects, emphasize choice and empowerment"
+        },
+        "phase_two_remembrance": {
+          "goal": "Processing traumatic memories in a controlled way",
+          "recommended_cards": ["The Moon", "The Star", "Six of Swords", "Eight of Cups"],
+          "therapeutic_approach": "Gradual exposure with strong support systems",
+          "spreads": {
+            "memory_integration": {
+              "position_1": "What is ready to be seen",
+              "position_2": "What support is needed",
+              "position_3": "Hidden strength",
+              "position_4": "Lesson or gift",
+              "position_5": "Integration guidance"
+            },
+            "emotional_processing": {
+              "position_1": "Emotion wanting expression",
+              "position_2": "Safe way to express it",
+              "position_3": "What needs compassion",
+              "position_4": "Inner wisdom",
+              "position_5": "Next healing step"
+            }
+          },
+          "contraindications": ["Don't force difficult cards", "Always end with positive/hopeful card", "Have support available"],
+          "therapeutic_techniques": "Work with therapist, journal integration, art therapy with cards"
+        },
+        "phase_three_reconnection": {
+          "goal": "Rebuilding capacity for relationships and life engagement",
+          "recommended_cards": ["Three of Cups", "Ten of Cups", "The Sun", "The World"],
+          "therapeutic_approach": "Focus on connection, purpose, and life rebuilding",
+          "spreads": {
+            "relationship_rebuilding": {
+              "position_1": "Current relationship capacity",
+              "position_2": "What helps me connect",
+              "position_3": "What I need from others",
+              "position_4": "What I can offer",
+              "position_5": "Next relationship step"
+            },
+            "life_purpose": {
+              "position_1": "My core strength",
+              "position_2": "What has meaning for me",
+              "position_3": "How to serve others",
+              "position_4": "What brings joy",
+              "position_5": "Life direction"
+            }
+          },
+          "therapeutic_techniques": "Group work, community service, creative expression, meaning-making"
+        }
+      },
+      "depression_support": {
+        "description": "Using tarot to understand and work with depressive states",
+        "foundational_principle": "Depression often contains important information about what needs to change in life",
+        "quote": "Depression is sometimes the psyche's way of forcing us to go deeper, to find the treasures that can only be discovered in the darkness.",
+        "author": "Thomas Moore",
+        "source": "Care of the Soul",
+        "assessment_spread": {
+          "position_1": "Root cause of depression",
+          "position_2": "What is being suppressed",
+          "position_3": "Hidden gift in the darkness",
+          "position_4": "First step toward light",
+          "position_5": "Support available",
+          "position_6": "Long-term healing path"
+        },
+        "helpful_cards": {
+          "four_of_swords": "Rest and recuperation, healing through stillness",
+          "the_hermit": "Wisdom found in solitude, inner guidance",
+          "the_star": "Hope after darkness, spiritual renewal", 
+          "six_of_swords": "Moving from troubled waters to calmer shores",
+          "ten_of_swords": "Rock bottom as foundation for rebuilding",
+          "death": "End of old patterns, transformation possible"
+        },
+        "therapeutic_approaches": {
+          "cognitive_restructuring": "Use cards to identify negative thought patterns and create alternatives",
+          "behavioral_activation": "Cards suggest specific actions to increase engagement",
+          "meaning_making": "Find purpose and meaning through archetypal themes",
+          "spiritual_connection": "Reconnect with transcendent meaning and hope"
+        },
+        "daily_practices": {
+          "morning_card": "Draw one card for daily guidance and hope",
+          "gratitude_cards": "Three cards representing things to appreciate",
+          "strength_reminder": "Card representing inner resources",
+          "evening_reflection": "Card for lesson learned or growth achieved"
+        },
+        "warning_signs": ["Persistent suicidal ideation", "Complete loss of hope", "Inability to care for self"],
+        "professional_referral": "When depression is severe, always work with mental health professional"
+      },
+      "anxiety_management": {
+        "description": "Using tarot to understand and manage anxiety and worry",
+        "foundational_principle": "Anxiety often signals areas needing attention while also containing wisdom about potential futures",
+        "helpful_cards": {
+          "temperance": "Balance and moderation, calming anxiety",
+          "four_of_pentacles": "Security and control, managing financial worry",
+          "the_empress": "Nurturing self-care, maternal protection",
+          "strength": "Inner courage, gentle self-mastery",
+          "the_hermit": "Inner wisdom, trusting intuition over anxiety"
+        },
+        "anxiety_assessment_spread": {
+          "position_1": "Source of anxiety",
+          "position_2": "What anxiety is trying to protect",
+          "position_3": "Realistic assessment of threat",
+          "position_4": "Inner resources available",
+          "position_5": "Practical action to take",
+          "position_6": "Wisdom anxiety contains"
+        },
+        "calming_techniques": {
+          "breath_with_cards": "Hold calming card while practicing deep breathing",
+          "worry_transformation": "Use cards to transform worry into productive action",
+          "grounding_spread": "Three cards for mind-body-spirit grounding",
+          "safety_affirmations": "Create affirmations based on protective cards"
+        },
+        "therapeutic_approaches": {
+          "cognitive_behavioral": "Challenge anxious thoughts with card wisdom",
+          "mindfulness": "Use cards for present-moment awareness",
+          "exposure_therapy": "Gradually work with anxiety-provoking cards",
+          "somatic": "Use cards to reconnect with body wisdom"
+        }
+      },
+      "addiction_recovery": {
+        "description": "Supporting addiction recovery through tarot guidance and insight",
+        "foundational_principle": "Addiction often represents spiritual hunger and misguided search for transcendence",
+        "quote": "Addiction is a spiritual disease requiring spiritual medicine - the recognition that we are seeking the infinite through finite means.",
+        "author": "Gabor Maté",
+        "source": "In the Realm of Hungry Ghosts",
+        "recovery_stages": {
+          "pre_contemplation": {
+            "goal": "Awakening awareness of need for change",
+            "helpful_cards": ["The Tower", "Five of Cups", "Seven of Swords"],
+            "approach": "Gentle awareness building, no pressure for change",
+            "spread": "Consequence awareness - what addiction is costing"
+          },
+          "contemplation": {
+            "goal": "Weighing pros and cons of change",
+            "helpful_cards": ["Two of Swords", "The Lovers", "Justice"],
+            "approach": "Support decision-making process without judgment",
+            "spread": "Choice clarification - exploring both paths"
+          },
+          "preparation": {
+            "goal": "Planning for change and building support",
+            "helpful_cards": ["Seven of Wands", "Three of Pentacles", "The Hierophant"],
+            "approach": "Practical planning and resource identification",
+            "spread": "Recovery preparation - resources, challenges, support"
+          },
+          "action": {
+            "goal": "Active recovery work and lifestyle change",
+            "helpful_cards": ["The Chariot", "Strength", "Eight of Pentacles"],
+            "approach": "Daily support and encouragement for new behaviors",
+            "spread": "Daily recovery guidance - focus, support, next step"
+          },
+          "maintenance": {
+            "goal": "Sustaining recovery and preventing relapse",
+            "helpful_cards": ["Temperance", "The Star", "Ten of Cups"],
+            "approach": "Long-term vision and relapse prevention",
+            "spread": "Sustained recovery - strengths, challenges, growth"
+          }
+        },
+        "spiritual_recovery": {
+          "higher_power_exploration": "Use cards to explore concept of higher power",
+          "meaning_making": "Find purpose and meaning beyond addiction",
+          "service_orientation": "How recovery can serve others",
+          "gratitude_practice": "Daily cards for gratitude and appreciation"
+        },
+        "twelve_step_integration": {
+          "step_1": "Powerlessness acknowledgment - Ten of Swords, Five of Pentacles",
+          "step_2": "Higher power belief - The Star, The Hierophant",
+          "step_3": "Surrender to higher power - The Hanged Man, Two of Cups",
+          "step_4": "Fearless moral inventory - Justice, The Hermit",
+          "step_5": "Admission to higher power - Five of Cups, The Tower",
+          "step_6": "Ready for character change - Death, Judgement",
+          "step_7": "Humble request for removal - Seven of Cups, The Moon",
+          "step_8": "List of amends - Eight of Swords, Six of Swords",
+          "step_9": "Making amends - Six of Pentacles, The Empress",
+          "step_10": "Continued inventory - The Hermit, Four of Swords",
+          "step_11": "Prayer and meditation - The High Priestess, Temperance",
+          "step_12": "Spiritual awakening and service - The World, The Sun"
+        }
+      }
+    },
+    "physical_healing": {
+      "description": "Using tarot to support physical healing and wellness",
+      "important_disclaimer": "Tarot is not a substitute for medical care. Always consult healthcare professionals for physical health issues.",
+      "holistic_approach": {
+        "body_mind_spirit": "Physical healing involves emotional, mental, and spiritual components",
+        "energy_centers": "Each chakra corresponds to different body systems and health issues",
+        "elemental_balance": "Physical health reflects balance or imbalance of elemental energies"
+      },
+      "chakra_based_healing": {
+        "root_chakra_health": {
+          "body_systems": ["skeletal", "muscular", "blood", "immune"],
+          "common_issues": ["fatigue", "immune deficiency", "bone problems", "blood disorders"],
+          "helpful_cards": ["The World", "Four of Pentacles", "King of Pentacles"],
+          "healing_approach": "Grounding, security building, practical self-care",
+          "affirmations": "I am safe, supported, and vital",
+          "healing_spread": {
+            "position_1": "Root cause of physical issue",
+            "position_2": "What body needs for healing",
+            "position_3": "Emotional component",
+            "position_4": "Practical healing action",
+            "position_5": "Support available"
+          }
+        },
+        "sacral_chakra_health": {
+          "body_systems": ["reproductive", "urinary", "lower digestive"],
+          "common_issues": ["reproductive problems", "urinary issues", "lower back pain", "creative blocks"],
+          "helpful_cards": ["The Empress", "Two of Cups", "Queen of Cups"],
+          "healing_approach": "Emotional flow, creativity, healthy sexuality",
+          "affirmations": "I allow healthy flow in my body and emotions",
+          "healing_elements": ["water therapy", "creative expression", "emotional release"]
+        },
+        "solar_plexus_health": {
+          "body_systems": ["digestive", "liver", "pancreas", "nervous"],
+          "common_issues": ["digestive problems", "diabetes", "liver issues", "anxiety"],
+          "helpful_cards": ["The Sun", "Strength", "Three of Wands"],
+          "healing_approach": "Personal power reclamation, digestive support, stress reduction",
+          "affirmations": "I digest life experiences with ease and confidence"
+        },
+        "heart_chakra_health": {
+          "body_systems": ["cardiovascular", "respiratory", "immune"],
+          "common_issues": ["heart disease", "asthma", "immune problems", "circulation"],
+          "helpful_cards": ["Temperance", "The Lovers", "Six of Cups"],
+          "healing_approach": "Love cultivation, forgiveness work, relationship healing",
+          "affirmations": "Love flows freely through my heart and body"
+        },
+        "throat_chakra_health": {
+          "body_systems": ["thyroid", "throat", "neck", "communication"],
+          "common_issues": ["thyroid problems", "throat issues", "neck pain", "communication difficulties"],
+          "helpful_cards": ["The Hierophant", "King of Swords", "Ace of Swords"],
+          "healing_approach": "Truth speaking, authentic expression, clear communication",
+          "affirmations": "I speak my truth with love and clarity"
+        },
+        "third_eye_health": {
+          "body_systems": ["brain", "eyes", "nervous system", "intuition"],
+          "common_issues": ["headaches", "vision problems", "brain fog", "intuition blocks"],
+          "helpful_cards": ["The High Priestess", "The Hermit", "Seven of Cups"],
+          "healing_approach": "Intuition development, meditation, vision clarification",
+          "affirmations": "I see clearly with both physical and inner vision"
+        },
+        "crown_chakra_health": {
+          "body_systems": ["nervous system", "brain", "consciousness"],
+          "common_issues": ["depression", "confusion", "spiritual disconnection", "neurological issues"],
+          "helpful_cards": ["The Fool", "The World", "The Star"],
+          "healing_approach": "Spiritual connection, purpose finding, consciousness expansion",
+          "affirmations": "I am connected to divine wisdom and infinite possibility"
+        }
+      },
+      "elemental_healing": {
+        "fire_element_healing": {
+          "when_deficient": ["low energy", "poor circulation", "depression", "lack of motivation"],
+          "helpful_cards": ["Ace of Wands", "The Sun", "Knight of Wands"],
+          "healing_methods": ["sunlight therapy", "physical exercise", "spicy foods", "warm colors"],
+          "herbal_allies": ["ginger", "cinnamon", "cayenne", "turmeric"],
+          "gemstone_support": ["carnelian", "red jasper", "citrine", "amber"]
+        },
+        "water_element_healing": {
+          "when_deficient": ["dehydration", "kidney problems", "emotional dryness", "rigid thinking"],
+          "helpful_cards": ["Ace of Cups", "The Moon", "Queen of Cups"],
+          "healing_methods": ["water therapy", "emotional release", "fluid movement", "blue colors"],
+          "herbal_allies": ["chamomile", "water lily", "cucumber", "watermelon"],
+          "gemstone_support": ["moonstone", "aquamarine", "blue lace agate", "pearl"]
+        },
+        "air_element_healing": {
+          "when_deficient": ["respiratory problems", "poor circulation", "mental fog", "communication issues"],
+          "helpful_cards": ["Ace of Swords", "The Fool", "King of Swords"],
+          "healing_methods": ["breathing exercises", "fresh air", "mental stimulation", "yellow colors"],
+          "herbal_allies": ["eucalyptus", "peppermint", "lavender", "rosemary"],
+          "gemstone_support": ["clear quartz", "fluorite", "sodalite", "citrine"]
+        },
+        "earth_element_healing": {
+          "when_deficient": ["weak bones", "poor grounding", "digestive issues", "instability"],
+          "helpful_cards": ["Ace of Pentacles", "The Empress", "King of Pentacles"],
+          "healing_methods": ["grounding exercises", "nutrition", "stability practices", "green colors"],
+          "herbal_allies": ["comfrey", "nettle", "dandelion", "plantain"],
+          "gemstone_support": ["hematite", "green aventurine", "moss agate", "jasper"]
+        }
+      },
+      "healing_spreads": {
+        "complete_health_assessment": {
+          "position_1": "Overall health status",
+          "position_2": "Physical body needs",
+          "position_3": "Emotional health",
+          "position_4": "Mental health", 
+          "position_5": "Spiritual health",
+          "position_6": "Main healing priority",
+          "position_7": "Healing resources available",
+          "position_8": "Action to take",
+          "position_9": "Long-term health vision"
+        },
+        "symptom_exploration": {
+          "position_1": "Physical symptom energy",
+          "position_2": "Emotional component",
+          "position_3": "Mental/belief component",
+          "position_4": "Spiritual message",
+          "position_5": "What needs attention",
+          "position_6": "Healing approach"
+        },
+        "recovery_support": {
+          "position_1": "Current recovery status",
+          "position_2": "What supports healing",
+          "position_3": "What blocks healing",
+          "position_4": "Body wisdom",
+          "position_5": "Next healing step",
+          "position_6": "Recovery outcome"
+        }
+      }
+    },
+    "relationship_healing": {
+      "description": "Using tarot to heal and improve relationships",
+      "foundational_principles": {
+        "projection_retrieval": "Many relationship issues involve projecting our inner dynamics onto others",
+        "mirror_principle": "Relationships mirror our internal state and unhealed aspects",
+        "conscious_relationship": "Healing relationships requires bringing unconscious patterns to awareness"
+      },
+      "quote": "In every relationship, we are faced with the choice to love or to defend against love. The tarot helps us see where we are defending and guides us back to love.",
+      "author": "Marianne Williamson",
+      "source": "A Return to Love",
+      "couple_therapy_applications": {
+        "relationship_assessment": {
+          "his_perspective": "Partner A's view of relationship",
+          "her_perspective": "Partner B's view of relationship", 
+          "relationship_essence": "Core dynamic between them",
+          "shared_strength": "What works well together",
+          "main_challenge": "Primary issue to address",
+          "hidden_dynamic": "Unconscious pattern",
+          "healing_path": "How to move forward together",
+          "outcome_potential": "Relationship future if healing occurs"
+        },
+        "communication_healing": {
+          "communication_blocks": "What prevents clear communication",
+          "listening_challenges": "What interferes with hearing each other",
+          "expression_fears": "What each fears to express",
+          "safe_communication": "How to create safety for honest expression",
+          "healing_words": "What each needs to hear",
+          "action_steps": "Practical communication improvements"
+        },
+        "intimacy_restoration": {
+          "intimacy_blocks": "What prevents closeness",
+          "emotional_needs": "What each partner needs emotionally",
+          "physical_needs": "What supports physical connection",
+          "spiritual_connection": "How to connect on soul level",
+          "trust_rebuilding": "Steps to restore trust",
+          "intimacy_vision": "Potential for deep connection"
+        }
+      },
+      "family_healing": {
+        "family_pattern_spread": {
+          "family_strength": "Core family asset",
+          "inherited_pattern": "Pattern passed down generations",
+          "current_challenge": "Main family issue now",
+          "each_member_role": "Individual positions (multiple cards)",
+          "healing_opportunity": "Where family can grow",
+          "integration_path": "How to heal family wounds",
+          "future_legacy": "What this family can contribute"
+        },
+        "parent_child_healing": {
+          "parent_wound": "Wound from parental relationship",
+          "inner_child_need": "What inner child needs for healing",
+          "parent_gift": "Gift received from parent relationship",
+          "healing_action": "Practical step for parent relationship",
+          "inner_parent": "How to parent yourself",
+          "forgiveness_path": "Steps toward forgiveness",
+          "integrated_wisdom": "Wisdom gained from parent relationship"
+        }
+      },
+      "friendship_healing": {
+        "friendship_assessment": {
+          "friendship_foundation": "What friendship is built on",
+          "mutual_gifts": "What friends offer each other",
+          "challenge_area": "Where friendship needs attention",
+          "boundary_needs": "What boundaries are needed",
+          "growth_potential": "How friendship can deepen",
+          "action_needed": "What to do to improve friendship"
+        }
+      },
+      "inner_relationship_healing": {
+        "self_love_development": {
+          "self_criticism_pattern": "How inner critic operates",
+          "self_compassion_needed": "Where self-compassion is needed",
+          "inner_strength": "Authentic self-appreciation",
+          "self_care_guidance": "How to care for yourself better",
+          "self_acceptance": "What aspects need acceptance",
+          "self_love_action": "Practical self-love practice"
+        },
+        "inner_masculine_feminine": {
+          "inner_masculine": "Internal masculine energy",
+          "inner_feminine": "Internal feminine energy",
+          "integration_needed": "How to balance these energies",
+          "masculine_healing": "What masculine aspect needs",
+          "feminine_healing": "What feminine aspect needs",
+          "sacred_marriage": "Integration outcome"
+        }
+      }
+    },
+    "spiritual_healing": {
+      "description": "Using tarot for spiritual development and soul healing",
+      "soul_retrieval": {
+        "description": "Recovering lost aspects of the soul through archetypal reconnection",
+        "when_needed": ["feeling incomplete", "chronic depression", "lack of vitality", "repeated patterns"],
+        "soul_fragment_identification": {
+          "lost_innocence": "The Fool energy - recovering wonder and trust",
+          "lost_power": "The Magician energy - reclaiming personal agency",
+          "lost_wisdom": "The High Priestess energy - reconnecting with intuition",
+          "lost_creativity": "The Empress energy - restoring creative flow",
+          "lost_authority": "The Emperor energy - reclaiming healthy leadership",
+          "lost_meaning": "The Hierophant energy - reconnecting with purpose",
+          "lost_love": "The Lovers energy - healing capacity for intimacy",
+          "lost_will": "The Chariot energy - restoring determination",
+          "lost_courage": "Strength energy - reclaiming inner strength",
+          "lost_wisdom": "The Hermit energy - reconnecting with inner guidance"
+        },
+        "soul_retrieval_process": {
+          "identification": "Which soul aspect is missing",
+          "loss_circumstances": "How and when this aspect was lost",
+          "retrieval_method": "How to call this energy back",
+          "integration_process": "How to integrate recovered aspect",
+          "protection_needed": "How to protect recovered energy",
+          "life_changes": "How life will change with recovered aspect"
+        }
+      },
+      "shadow_integration": {
+        "description": "Bringing unconscious aspects into conscious awareness for healing",
+        "shadow_identification_spread": {
+          "rejected_aspect": "What aspect of self has been rejected",
+          "projection_target": "Where this aspect is projected onto others",
+          "shadow_gift": "Hidden gift in rejected aspect",
+          "integration_challenge": "What makes integration difficult",
+          "integration_method": "How to consciously integrate shadow",
+          "integration_outcome": "Result of successful shadow integration"
+        },
+        "common_shadow_archetypes": {
+          "the_rebel": "Rejected need for independence and authenticity",
+          "the_victim": "Rejected vulnerability and need for help",
+          "the_tyrant": "Rejected need for control and authority",
+          "the_seductress": "Rejected sexuality and power",
+          "the_critic": "Rejected discernment and standards",
+          "the_fool": "Rejected spontaneity and playfulness",
+          "the_hermit": "Rejected need for solitude and reflection"
+        }
+      },
+      "past_life_healing": {
+        "description": "Addressing karmic patterns and past-life influences",
+        "past_life_exploration_spread": {
+          "karmic_pattern": "Recurring life pattern",
+          "past_life_origin": "Past-life source of pattern",
+          "karmic_lesson": "What soul is learning",
+          "current_life_expression": "How pattern manifests now",
+          "healing_opportunity": "How to heal karmic pattern",
+          "soul_evolution": "Next step in soul development"
+        },
+        "karmic_relationship_healing": {
+          "karmic_connection": "Type of karmic relationship",
+          "past_life_dynamic": "Previous relationship dynamic",
+          "unfinished_business": "What needs completion",
+          "current_life_purpose": "Why relationship exists now",
+          "healing_path": "How to heal karmic wounds",
+          "evolutionary_outcome": "Soul growth potential"
+        }
+      },
+      "spiritual_initiation": {
+        "description": "Supporting major spiritual transitions and initiations",
+        "initiation_stages": {
+          "call_to_awakening": "The Fool - spiritual journey beginning",
+          "developing_tools": "The Magician - building spiritual practices",
+          "accessing_wisdom": "The High Priestess - connecting with inner knowing",
+          "creative_expression": "The Empress - expressing spiritual creativity",
+          "establishing_discipline": "The Emperor - creating spiritual structure",
+          "finding_teaching": "The Hierophant - connecting with spiritual tradition",
+          "making_choices": "The Lovers - choosing spiritual path",
+          "demonstrating_will": "The Chariot - applying spiritual will",
+          "developing_compassion": "Strength - integrating love with power",
+          "seeking_wisdom": "The Hermit - developing inner guidance",
+          "accepting_cycles": "Wheel of Fortune - understanding spiritual law",
+          "learning_balance": "Justice - developing spiritual discernment",
+          "surrendering_ego": "The Hanged Man - ego death and rebirth",
+          "major_transformation": "Death - spiritual transformation",
+          "integrating_opposites": "Temperance - alchemical integration",
+          "confronting_shadow": "The Devil - facing spiritual challenges",
+          "spiritual_awakening": "The Tower - breakthrough and liberation",
+          "finding_hope": "The Star - connecting with spiritual guidance",
+          "navigating_illusion": "The Moon - working with unconscious",
+          "achieving_clarity": "The Sun - spiritual illumination",
+          "answering_calling": "Judgement - spiritual rebirth",
+          "completing_journey": "The World - spiritual mastery"
+        }
+      }
+    },
+    "group_healing_work": {
+      "description": "Using tarot for collective healing and group transformation",
+      "family_constellation_work": {
+        "description": "Using tarot to understand and heal family system dynamics",
+        "family_mapping": "Each family member represented by court card",
+        "systemic_patterns": "Major arcana showing family patterns",
+        "healing_movements": "Cards indicating healing directions",
+        "ancestral_healing": "Addressing inherited family wounds"
+      },
+      "community_healing": {
+        "description": "Addressing collective wounds and community trauma",
+        "community_assessment": "Understanding community health and challenges",
+        "collective_shadow": "Identifying community shadow aspects",
+        "healing_resources": "Community strengths and assets for healing",
+        "action_steps": "Practical steps for community healing"
+      },
+      "organizational_healing": {
+        "description": "Healing dysfunction in work environments and organizations",
+        "organizational_health": "Overall system functioning",
+        "communication_patterns": "How information flows",
+        "power_dynamics": "Authority and influence patterns",
+        "cultural_healing": "Transforming toxic organizational culture"
+      }
+    }
+  }
+}

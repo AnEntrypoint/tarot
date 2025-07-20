@@ -1,0 +1,511 @@
+{
+  "temporal_correspondences": {
+    "description": "Comprehensive timing systems for tarot reading and life cycle analysis",
+    "quote": "Time is not linear but cyclical, and the tarot cards reflect the eternal patterns that govern all temporal manifestation.",
+    "author": "Dane Rudhyar",
+    "source": "The Astrology of Personality",
+    "daily_rhythms": {
+      "planetary_hours": {
+        "description": "Ancient system dividing each day into 24 planetary hours for optimal timing",
+        "calculation_method": "Divide sunrise to sunset into 12 equal parts (day hours), sunset to sunrise into 12 equal parts (night hours)",
+        "sunday_sequence": ["Sun", "Venus", "Mercury", "Moon", "Saturn", "Jupiter", "Mars", "Sun", "Venus", "Mercury", "Moon", "Saturn", "Jupiter", "Mars", "Sun", "Venus", "Mercury", "Moon", "Saturn", "Jupiter", "Mars", "Sun", "Venus", "Mercury"],
+        "applications": {
+          "sun_hours": {
+            "optimal_for": ["leadership decisions", "success magic", "vitality work", "authority matters"],
+            "tarot_cards": ["The Sun", "Six of Wands", "King of Wands"],
+            "avoid": ["secret activities", "nighttime magic", "emotional work"]
+          },
+          "moon_hours": {
+            "optimal_for": ["psychic work", "intuition", "women's mysteries", "dream work"],
+            "tarot_cards": ["The Moon", "The High Priestess", "Queen of Cups"],
+            "avoid": ["rational analysis", "business decisions", "aggressive action"]
+          },
+          "mercury_hours": {
+            "optimal_for": ["communication", "learning", "writing", "technology"],
+            "tarot_cards": ["The Magician", "Eight of Pentacles", "Page of Swords"],
+            "avoid": ["emotional decisions", "rest", "meditation"]
+          },
+          "venus_hours": {
+            "optimal_for": ["love magic", "artistic work", "beauty", "harmony"],
+            "tarot_cards": ["The Empress", "The Lovers", "Two of Cups"],
+            "avoid": ["conflict", "war", "aggressive competition"]
+          },
+          "mars_hours": {
+            "optimal_for": ["courage work", "protection", "competition", "physical activity"],
+            "tarot_cards": ["The Tower", "Five of Wands", "Knight of Wands"],
+            "avoid": ["peaceful negotiations", "gentle healing", "diplomatic work"]
+          },
+          "jupiter_hours": {
+            "optimal_for": ["expansion", "legal matters", "prosperity", "spiritual teaching"],
+            "tarot_cards": ["Wheel of Fortune", "The Hierophant", "Ten of Pentacles"],
+            "avoid": ["petty concerns", "restriction", "detailed work"]
+          },
+          "saturn_hours": {
+            "optimal_for": ["binding", "banishing", "discipline", "long-term planning"],
+            "tarot_cards": ["The World", "The Devil", "Four of Pentacles"],
+            "avoid": ["celebrations", "new beginnings", "joyful activities"]
+          }
+        }
+      },
+      "circadian_correspondences": {
+        "dawn": {
+          "time_range": "Sunrise ± 1 hour",
+          "energy": "New beginnings, hope, fresh starts, air element",
+          "optimal_cards": ["The Fool", "The Star", "Ace cards", "Pages"],
+          "psychological_state": "Optimistic, clear-minded, ready for new experiences",
+          "spiritual_significance": "Rebirth, renewal, divine inspiration",
+          "magical_work": ["blessing new projects", "air magic", "communication spells"],
+          "shadow_aspects": ["false optimism", "naivety", "ignoring reality"]
+        },
+        "morning": {
+          "time_range": "2-6 hours after sunrise",
+          "energy": "Active manifestation, productivity, fire element growing",
+          "optimal_cards": ["The Magician", "Three of Wands", "Knights"],
+          "psychological_state": "Energetic, focused, productive",
+          "spiritual_significance": "Divine will in action, manifestation power",
+          "magical_work": ["success magic", "career spells", "manifestation rituals"],
+          "shadow_aspects": ["workaholism", "ignoring relationships", "burnout"]
+        },
+        "noon": {
+          "time_range": "Solar maximum ± 1 hour",
+          "energy": "Peak power, full manifestation, fire element at maximum",
+          "optimal_cards": ["The Sun", "The Emperor", "Kings"],
+          "psychological_state": "Confident, powerful, authoritative",
+          "spiritual_significance": "Divine consciousness fully awake",
+          "magical_work": ["power magic", "healing", "authority spells"],
+          "shadow_aspects": ["ego inflation", "domination", "burning others"]
+        },
+        "afternoon": {
+          "time_range": "2-6 hours before sunset",
+          "energy": "Consolidation, relationship focus, air and earth balance",
+          "optimal_cards": ["The Lovers", "Six of Pentacles", "Queens"],
+          "psychological_state": "Social, collaborative, relationship-oriented",
+          "spiritual_significance": "Divine love and cooperation",
+          "magical_work": ["relationship magic", "social harmony", "collaborative spells"],
+          "shadow_aspects": ["people-pleasing", "losing individual identity", "superficiality"]
+        },
+        "sunset": {
+          "time_range": "Sunset ± 1 hour",
+          "energy": "Reflection, gratitude, completion, water element rising",
+          "optimal_cards": ["Six of Cups", "Ten of Cups", "The Hermit"],
+          "psychological_state": "Reflective, grateful, contemplative",
+          "spiritual_significance": "Divine wisdom through experience",
+          "magical_work": ["gratitude rituals", "ancestor work", "completion ceremonies"],
+          "shadow_aspects": ["melancholy", "living in past", "resistance to endings"]
+        },
+        "evening": {
+          "time_range": "2-6 hours after sunset",
+          "energy": "Emotional depth, family time, water element dominant",
+          "optimal_cards": ["The Moon", "Four of Cups", "Court Cups"],
+          "psychological_state": "Emotional, intuitive, introspective",
+          "spiritual_significance": "Divine feminine wisdom, emotional healing",
+          "magical_work": ["emotional healing", "family magic", "intuitive development"],
+          "shadow_aspects": ["emotional overwhelm", "depression", "escapism"]
+        },
+        "midnight": {
+          "time_range": "Midnight ± 1 hour",
+          "energy": "Deep mystery, subconscious work, earth element at rest",
+          "optimal_cards": ["The High Priestess", "The Devil", "Death"],
+          "psychological_state": "Mystical, deep, accessing unconscious",
+          "spiritual_significance": "Divine mystery, shadow work, deep transformation",
+          "magical_work": ["shadow work", "deep healing", "transformation magic"],
+          "shadow_aspects": ["dark magic", "depression", "escapism"]
+        },
+        "deep_night": {
+          "time_range": "2-6 hours before sunrise",
+          "energy": "Rest, renewal, dream work, preparation for rebirth",
+          "optimal_cards": ["Four of Swords", "The Hanged Man", "Judgement"],
+          "psychological_state": "Resting, dreaming, processing",
+          "spiritual_significance": "Divine rest, preparation for renewal",
+          "magical_work": ["dream work", "rest magic", "preparation rituals"],
+          "shadow_aspects": ["insomnia", "anxiety", "fear of dawn"]
+        }
+      }
+    },
+    "weekly_rhythms": {
+      "sunday": {
+        "ruling_planet": "Sun",
+        "element": "Fire",
+        "energy": "Leadership, vitality, success, fatherhood, authority",
+        "optimal_cards": ["The Sun", "The Emperor", "Six of Wands", "King of Wands"],
+        "activities": ["leadership work", "success magic", "solar healing", "authority establishment"],
+        "avoid": ["subordinate roles", "hidden activities", "emotional vulnerability"],
+        "psychological_theme": "Stepping into personal power and leadership",
+        "spiritual_lesson": "Embodying divine authority and radiant consciousness",
+        "color_magic": "Gold, orange, bright yellow",
+        "gemstone_work": "Citrine, amber, sunstone, topaz",
+        "herbal_allies": "Sunflower, chamomile, St. John's wort, rosemary"
+      },
+      "monday": {
+        "ruling_planet": "Moon",
+        "element": "Water",
+        "energy": "Intuition, emotions, motherhood, psychic abilities, cycles",
+        "optimal_cards": ["The Moon", "The High Priestess", "Queen of Cups", "Two of Cups"],
+        "activities": ["psychic development", "emotional healing", "women's mysteries", "lunar magic"],
+        "avoid": ["aggressive action", "logical analysis only", "suppressing emotions"],
+        "psychological_theme": "Connecting with emotional and intuitive wisdom",
+        "spiritual_lesson": "Honoring the divine feminine and emotional intelligence",
+        "color_magic": "Silver, white, sea blue, pale green",
+        "gemstone_work": "Moonstone, pearl, aquamarine, selenite",
+        "herbal_allies": "Jasmine, mugwort, water lily, white rose"
+      },
+      "tuesday": {
+        "ruling_planet": "Mars",
+        "element": "Fire",
+        "energy": "Action, courage, competition, protection, war, sexuality",
+        "optimal_cards": ["The Tower", "Five of Wands", "Knight of Wands", "Seven of Wands"],
+        "activities": ["protection magic", "courage building", "competitive activities", "passion work"],
+        "avoid": ["peaceful negotiations", "gentle healing", "passive activities"],
+        "psychological_theme": "Developing courage and assertiveness",
+        "spiritual_lesson": "Learning to fight for what is right and protect the innocent",
+        "color_magic": "Red, scarlet, orange-red, burgundy",
+        "gemstone_work": "Ruby, garnet, bloodstone, red jasper",
+        "herbal_allies": "Nettle, ginger, black pepper, dragon's blood"
+      },
+      "wednesday": {
+        "ruling_planet": "Mercury",
+        "element": "Air",
+        "energy": "Communication, learning, travel, commerce, technology",
+        "optimal_cards": ["The Magician", "The Hermit", "Eight of Pentacles", "Page of Swords"],
+        "activities": ["learning", "communication magic", "technology work", "travel"],
+        "avoid": ["emotional intensity", "physical labor only", "avoiding mental stimulation"],
+        "psychological_theme": "Developing communication and intellectual abilities",
+        "spiritual_lesson": "Using intelligence and communication to serve higher purposes",
+        "color_magic": "Yellow, orange, light blue, variegated colors",
+        "gemstone_work": "Citrine, agate, fluorite, clear quartz",
+        "herbal_allies": "Lavender, fennel, caraway, mint"
+      },
+      "thursday": {
+        "ruling_planet": "Jupiter",
+        "element": "Fire",
+        "energy": "Expansion, wisdom, prosperity, teaching, legal matters, philosophy",
+        "optimal_cards": ["Wheel of Fortune", "The Hierophant", "Ten of Pentacles", "King of Wands"],
+        "activities": ["prosperity magic", "teaching", "legal work", "spiritual expansion"],
+        "avoid": ["petty concerns", "limitation thinking", "materialistic focus only"],
+        "psychological_theme": "Expanding consciousness and sharing wisdom",
+        "spiritual_lesson": "Growing in wisdom and sharing blessings with others",
+        "color_magic": "Purple, royal blue, turquoise, gold",
+        "gemstone_work": "Sapphire, lapis lazuli, turquoise, amethyst",
+        "herbal_allies": "Sage, oak, cedar, hyssop"
+      },
+      "friday": {
+        "ruling_planet": "Venus",
+        "element": "Earth/Water",
+        "energy": "Love, beauty, art, harmony, pleasure, relationships, money",
+        "optimal_cards": ["The Empress", "The Lovers", "Two of Cups", "Queen of Pentacles"],
+        "activities": ["love magic", "artistic creation", "beauty work", "relationship healing"],
+        "avoid": ["conflict", "harsh criticism", "ugly environments"],
+        "psychological_theme": "Developing capacity for love and appreciation of beauty",
+        "spiritual_lesson": "Recognizing divine love and beauty in all creation",
+        "color_magic": "Green, pink, light blue, copper",
+        "gemstone_work": "Rose quartz, emerald, jade, copper",
+        "herbal_allies": "Rose, apple blossom, yarrow, elderflower"
+      },
+      "saturday": {
+        "ruling_planet": "Saturn",
+        "element": "Earth",
+        "energy": "Discipline, structure, limitation, time, karma, completion",
+        "optimal_cards": ["The World", "The Devil", "Ten of Swords", "Four of Pentacles"],
+        "activities": ["banishing", "binding", "discipline work", "karmic healing"],
+        "avoid": ["frivolous activities", "new beginnings", "expansion work"],
+        "psychological_theme": "Developing discipline and accepting necessary limitations",
+        "spiritual_lesson": "Understanding divine law and the necessity of structure",
+        "color_magic": "Black, dark brown, indigo, lead gray",
+        "gemstone_work": "Hematite, obsidian, onyx, jet",
+        "herbal_allies": "Comfrey, cypress, myrrh, patchouli"
+      }
+    },
+    "monthly_rhythms": {
+      "lunar_month_phases": {
+        "new_moon": {
+          "duration": "3 days (day before, day of, day after)",
+          "energy": "New beginnings, intention setting, planting seeds",
+          "optimal_cards": ["Aces", "The Fool", "The Star"],
+          "magical_work": ["intention setting", "new project blessing", "seed magic"],
+          "psychological_focus": "Clarifying desires and setting intentions",
+          "spiritual_significance": "Divine feminine receptivity, new cycle blessing",
+          "avoid": ["major decisions", "harvesting", "completion work"],
+          "tarot_spreads": ["New moon intention spread", "Seed planting spread"]
+        },
+        "waxing_crescent": {
+          "duration": "Approximately 3-7 days after new moon",
+          "energy": "Initial growth, building momentum, taking first steps",
+          "optimal_cards": ["Twos", "Threes", "Pages"],
+          "magical_work": ["growth magic", "attraction spells", "building energy"],
+          "psychological_focus": "Taking action on intentions, building momentum",
+          "spiritual_significance": "Divine support for new growth",
+          "activities": ["starting projects", "making plans", "building habits"],
+          "tarot_spreads": ["Growth potential spread", "Next steps spread"]
+        },
+        "first_quarter": {
+          "duration": "3 days around first quarter moon",
+          "energy": "Challenge, decision, breakthrough, testing",
+          "optimal_cards": ["Fives", "Sevens", "Knights"],
+          "magical_work": ["breakthrough magic", "courage spells", "obstacle removal"],
+          "psychological_focus": "Overcoming obstacles, making tough decisions",
+          "spiritual_significance": "Divine testing and strengthening",
+          "challenges": ["resistance", "obstacles", "decision paralysis"],
+          "tarot_spreads": ["Challenge resolution spread", "Decision making spread"]
+        },
+        "waxing_gibbous": {
+          "duration": "Approximately 3-7 days before full moon",
+          "energy": "Refinement, adjustment, patience, preparation",
+          "optimal_cards": ["Eights", "Nines", "Queens"],
+          "magical_work": ["refinement magic", "patience spells", "preparation rituals"],
+          "psychological_focus": "Refining approach, developing patience, preparing for completion",
+          "spiritual_significance": "Divine patience and perfection",
+          "activities": ["adjusting course", "developing skills", "patient persistence"],
+          "tarot_spreads": ["Refinement spread", "Patience and preparation spread"]
+        },
+        "full_moon": {
+          "duration": "3 days (day before, day of, day after)",
+          "energy": "Culmination, peak power, illumination, completion",
+          "optimal_cards": ["Tens", "The Moon", "The Sun"],
+          "magical_work": ["power magic", "divination", "charging", "completion"],
+          "psychological_focus": "Integration, culmination, full awareness",
+          "spiritual_significance": "Divine illumination and peak consciousness",
+          "activities": ["divination", "energy charging", "celebration"],
+          "tarot_spreads": ["Full moon illumination spread", "Peak power spread"]
+        },
+        "waning_gibbous": {
+          "duration": "Approximately 3-7 days after full moon",
+          "energy": "Gratitude, sharing, teaching, giving back",
+          "optimal_cards": ["Sixes", "Kings", "The Hierophant"],
+          "magical_work": ["gratitude magic", "sharing spells", "teaching rituals"],
+          "psychological_focus": "Sharing wisdom, expressing gratitude, giving back",
+          "spiritual_significance": "Divine generosity and wisdom sharing",
+          "activities": ["teaching", "mentoring", "sharing abundance"],
+          "tarot_spreads": ["Gratitude spread", "Wisdom sharing spread"]
+        },
+        "last_quarter": {
+          "duration": "3 days around last quarter moon",
+          "energy": "Release, forgiveness, letting go, clearing",
+          "optimal_cards": ["Fours", "Death", "The Hanged Man"],
+          "magical_work": ["banishing", "release magic", "forgiveness rituals"],
+          "psychological_focus": "Letting go, forgiving, clearing space",
+          "spiritual_significance": "Divine mercy and release",
+          "activities": ["forgiveness work", "decluttering", "ending relationships"],
+          "tarot_spreads": ["Release and forgiveness spread", "Letting go spread"]
+        },
+        "waning_crescent": {
+          "duration": "Approximately 3-7 days before new moon",
+          "energy": "Rest, reflection, inner work, preparation for rebirth",
+          "optimal_cards": ["The Hermit", "Four of Swords", "Judgement"],
+          "magical_work": ["rest magic", "inner work", "preparation rituals"],
+          "psychological_focus": "Rest, reflection, inner preparation",
+          "spiritual_significance": "Divine rest and preparation for renewal",
+          "activities": ["meditation", "rest", "inner reflection"],
+          "tarot_spreads": ["Inner reflection spread", "Rest and renewal spread"]
+        }
+      }
+    },
+    "seasonal_cycles": {
+      "spring_equinox_period": {
+        "dates": "March 15-April 15 (Northern Hemisphere)",
+        "energy": "New beginnings, growth, air element awakening",
+        "dominant_cards": ["The Fool", "The Star", "Aces", "Twos", "Threes"],
+        "psychological_themes": ["renewal", "hope", "new projects", "fresh starts"],
+        "spiritual_significance": "Resurrection, rebirth, divine renewal",
+        "optimal_activities": ["starting new projects", "planting seeds", "blessing new ventures"],
+        "body_systems": ["respiratory", "nervous", "circulatory awakening"],
+        "emotional_patterns": ["optimism", "excitement", "restlessness", "hope"],
+        "shadow_aspects": ["overcommitment", "scattered energy", "impatience"],
+        "color_energies": ["Light green", "yellow-green", "pink", "light blue"],
+        "gemstone_support": ["Green aventurine", "rose quartz", "clear quartz", "aquamarine"],
+        "herbal_allies": ["Dandelion", "clover", "violet", "nettle"],
+        "tarot_work": ["New year spreads", "goal setting readings", "potential assessment"]
+      },
+      "late_spring_period": {
+        "dates": "April 15-May 31",
+        "energy": "Rapid growth, Venus energy, earth element flourishing",
+        "dominant_cards": ["The Empress", "The Hierophant", "Fours", "Fives", "Sixes"],
+        "psychological_themes": ["creativity", "learning", "relationship building", "skill development"],
+        "spiritual_significance": "Divine creativity, sacred sexuality, learning",
+        "optimal_activities": ["creative projects", "relationship building", "learning new skills"],
+        "body_systems": ["reproductive", "digestive", "muscular strengthening"],
+        "emotional_patterns": ["creativity", "sensuality", "productivity", "social connection"],
+        "shadow_aspects": ["overindulgence", "superficiality", "avoiding challenges"],
+        "tarot_work": ["Creativity spreads", "relationship analysis", "skill development readings"]
+      },
+      "summer_solstice_period": {
+        "dates": "June 15-July 15",
+        "energy": "Peak manifestation, fire element at maximum, full power",
+        "dominant_cards": ["The Sun", "The Chariot", "Strength", "Sevens", "Eights"],
+        "psychological_themes": ["achievement", "confidence", "leadership", "full expression"],
+        "spiritual_significance": "Divine consciousness fully awakened, peak spiritual power",
+        "optimal_activities": ["leadership roles", "major achievements", "public recognition"],
+        "body_systems": ["cardiovascular", "muscular", "solar plexus at peak"],
+        "emotional_patterns": ["confidence", "joy", "extroversion", "celebration"],
+        "shadow_aspects": ["ego inflation", "burnout", "ignoring others' needs"],
+        "tarot_work": ["Achievement readings", "leadership guidance", "peak power spreads"]
+      },
+      "late_summer_period": {
+        "dates": "July 15-August 31",
+        "energy": "Sustained power, harvest beginning, fire-earth balance",
+        "dominant_cards": ["The Emperor", "Justice", "Temperance", "Nines", "Tens"],
+        "psychological_themes": ["mastery", "balance", "harvesting results", "wisdom"],
+        "spiritual_significance": "Divine justice, balanced power, wise leadership",
+        "optimal_activities": ["mastering skills", "harvesting results", "teaching others"],
+        "body_systems": ["digestive", "metabolic", "immune system strengthening"],
+        "emotional_patterns": ["satisfaction", "wisdom", "generosity", "balance"],
+        "shadow_aspects": ["complacency", "pride", "taking success for granted"],
+        "tarot_work": ["Mastery assessment", "wisdom sharing", "balance evaluation"]
+      },
+      "autumn_equinox_period": {
+        "dates": "September 15-October 15",
+        "energy": "Balance, harvest, reflection, air-water transition",
+        "dominant_cards": ["Justice", "The Hermit", "Death", "Sixes", "Tens"],
+        "psychological_themes": ["balance", "reflection", "justice", "completion"],
+        "spiritual_significance": "Divine balance, karmic accounting, sacred justice",
+        "optimal_activities": ["reflection", "giving thanks", "balancing accounts", "justice work"],
+        "body_systems": ["nervous", "immune", "eliminatory"],
+        "emotional_patterns": ["gratitude", "reflection", "melancholy", "preparation"],
+        "shadow_aspects": ["depression", "regret", "resistance to change"],
+        "tarot_work": ["Harvest reflection", "balance assessment", "gratitude spreads"]
+      },
+      "late_autumn_period": {
+        "dates": "October 15-November 30",
+        "energy": "Deep transformation, water element rising, shadow work",
+        "dominant_cards": ["Death", "The Tower", "The Devil", "Fives", "Eights"],
+        "psychological_themes": ["transformation", "releasing", "shadow work", "deep change"],
+        "spiritual_significance": "Divine transformation, death-rebirth mysteries, shadow integration",
+        "optimal_activities": ["shadow work", "releasing ceremonies", "deep transformation"],
+        "body_systems": ["lymphatic", "reproductive", "eliminatory"],
+        "emotional_patterns": ["intensity", "depth", "releasing", "transformation"],
+        "shadow_aspects": ["depression", "obsession", "resistance to change"],
+        "tarot_work": ["Shadow work spreads", "transformation guidance", "release ceremonies"]
+      },
+      "winter_solstice_period": {
+        "dates": "December 15-January 15",
+        "energy": "Deep rest, earth element dominant, inner work",
+        "dominant_cards": ["The Hanged Man", "The High Priestess", "The World", "Fours"],
+        "psychological_themes": ["rest", "inner work", "gestation", "wisdom"],
+        "spiritual_significance": "Divine rest, inner wisdom, mystical consciousness",
+        "optimal_activities": ["rest", "meditation", "inner work", "spiritual study"],
+        "body_systems": ["skeletal", "immune", "nervous system rest"],
+        "emotional_patterns": ["introspection", "peace", "wisdom", "patience"],
+        "shadow_aspects": ["depression", "isolation", "stagnation"],
+        "tarot_work": ["Inner wisdom spreads", "rest and renewal", "spiritual guidance"]
+      },
+      "late_winter_period": {
+        "dates": "January 15-March 15",
+        "energy": "Preparation for rebirth, earth-air transition, planning",
+        "dominant_cards": ["The Star", "Judgement", "Temperance", "Twos", "Threes"],
+        "psychological_themes": ["hope", "planning", "preparation", "vision"],
+        "spiritual_significance": "Divine hope, preparation for renewal, visionary consciousness",
+        "optimal_activities": ["planning", "visioning", "preparing for spring", "hope cultivation"],
+        "body_systems": ["nervous system awakening", "circulatory preparation"],
+        "emotional_patterns": ["hope", "anticipation", "planning", "vision"],
+        "shadow_aspects": ["false hope", "impatience", "premature action"],
+        "tarot_work": ["Vision quests", "planning spreads", "hope cultivation"]
+      }
+    },
+    "life_cycle_timing": {
+      "seven_year_cycles": {
+        "description": "Human development follows seven-year cycles corresponding to planetary influences",
+        "quote": "Every seven years, the human being undergoes a complete cellular renewal and psychological transformation, reflected in the ancient wisdom of planetary cycles.",
+        "author": "Rudolf Steiner",
+        "source": "The Four Temperaments",
+        "ages_0_7": {
+          "planetary_ruler": "Moon",
+          "tarot_correspondence": "The Fool, Pages",
+          "developmental_theme": "Physical development, basic trust, innocence",
+          "psychological_tasks": ["developing trust", "learning basic safety", "physical mastery"],
+          "spiritual_lesson": "Learning to trust the world and basic goodness",
+          "shadow_challenges": ["basic mistrust", "physical insecurity", "abandonment fears"],
+          "optimal_tarot_work": "Family healing, inner child work, trust building"
+        },
+        "ages_7_14": {
+          "planetary_ruler": "Mercury",
+          "tarot_correspondence": "The Magician, Knights",
+          "developmental_theme": "Mental development, learning, communication",
+          "psychological_tasks": ["developing intellectual capacity", "learning communication", "skill building"],
+          "spiritual_lesson": "Learning to use mental faculties for growth and connection",
+          "shadow_challenges": ["learning difficulties", "communication problems", "intellectual insecurity"],
+          "optimal_tarot_work": "Learning support, communication improvement, skill development"
+        },
+        "ages_14_21": {
+          "planetary_ruler": "Venus",
+          "tarot_correspondence": "The Lovers, Queens",
+          "developmental_theme": "Emotional and relationship development, identity formation",
+          "psychological_tasks": ["developing relationships", "sexual identity", "emotional intelligence"],
+          "spiritual_lesson": "Learning about love, beauty, and harmonious relationships",
+          "shadow_challenges": ["relationship confusion", "identity crisis", "emotional overwhelm"],
+          "optimal_tarot_work": "Relationship guidance, identity clarification, emotional healing"
+        },
+        "ages_21_28": {
+          "planetary_ruler": "Sun",
+          "tarot_correspondence": "The Sun, Kings",
+          "developmental_theme": "Career development, adult identity, independence",
+          "psychological_tasks": ["career establishment", "adult independence", "personal authority"],
+          "spiritual_lesson": "Learning to shine unique light and take responsibility",
+          "shadow_challenges": ["career confusion", "authority problems", "identity issues"],
+          "optimal_tarot_work": "Career guidance, authority development, purpose clarification"
+        },
+        "ages_28_35": {
+          "planetary_ruler": "Mars",
+          "tarot_correspondence": "The Chariot, Strength",
+          "developmental_theme": "Active achievement, competition, assertion",
+          "psychological_tasks": ["achieving goals", "competing successfully", "asserting will"],
+          "spiritual_lesson": "Learning to fight for what matters while maintaining ethics",
+          "shadow_challenges": ["aggressive competition", "burnout", "ethical compromises"],
+          "optimal_tarot_work": "Goal achievement, ethical guidance, energy management"
+        },
+        "ages_35_42": {
+          "planetary_ruler": "Jupiter",
+          "tarot_correspondence": "The Hierophant, Wheel of Fortune",
+          "developmental_theme": "Expansion, teaching, philosophical development",
+          "psychological_tasks": ["expanding influence", "teaching others", "developing wisdom"],
+          "spiritual_lesson": "Learning to share wisdom and expand consciousness",
+          "shadow_challenges": ["dogmatism", "preaching", "spiritual inflation"],
+          "optimal_tarot_work": "Wisdom sharing, teaching preparation, philosophical guidance"
+        },
+        "ages_42_49": {
+          "planetary_ruler": "Saturn",
+          "tarot_correspondence": "The Hermit, Justice",
+          "developmental_theme": "Responsibility, limitation acceptance, wisdom",
+          "psychological_tasks": ["accepting limitations", "developing wisdom", "taking responsibility"],
+          "spiritual_lesson": "Learning about divine law and necessary limitations",
+          "shadow_challenges": ["depression", "rigidity", "cynicism"],
+          "optimal_tarot_work": "Wisdom cultivation, responsibility acceptance, depression healing"
+        },
+        "ages_49_56": {
+          "planetary_ruler": "Uranus",
+          "tarot_correspondence": "The Tower, The Star",
+          "developmental_theme": "Revolutionary change, awakening, innovation",
+          "psychological_tasks": ["revolutionary thinking", "breaking old patterns", "innovation"],
+          "spiritual_lesson": "Learning to break free from limiting patterns",
+          "shadow_challenges": ["destructive rebellion", "chaos addiction", "alienation"],
+          "optimal_tarot_work": "Revolutionary guidance, pattern breaking, innovative thinking"
+        },
+        "ages_56_63": {
+          "planetary_ruler": "Neptune",
+          "tarot_correspondence": "The Hanged Man, The Moon",
+          "developmental_theme": "Spiritual dissolution, transcendence, confusion",
+          "psychological_tasks": ["spiritual development", "transcending ego", "accepting mystery"],
+          "spiritual_lesson": "Learning to dissolve ego boundaries and merge with larger reality",
+          "shadow_challenges": ["spiritual confusion", "dissolution anxiety", "escapism"],
+          "optimal_tarot_work": "Spiritual guidance, transcendence support, confusion clearing"
+        },
+        "ages_63_70": {
+          "planetary_ruler": "Pluto",
+          "tarot_correspondence": "Death, Judgement",
+          "developmental_theme": "Transformation, regeneration, spiritual rebirth",
+          "psychological_tasks": ["major transformation", "spiritual rebirth", "legacy creation"],
+          "spiritual_lesson": "Learning about death-rebirth and spiritual transformation",
+          "shadow_challenges": ["fear of death", "transformation resistance", "despair"],
+          "optimal_tarot_work": "Transformation support, death preparation, legacy planning"
+        },
+        "ages_70_plus": {
+          "planetary_ruler": "Return to Moon",
+          "tarot_correspondence": "The World, The Fool",
+          "developmental_theme": "Wisdom integration, completion, new cycles",
+          "psychological_tasks": ["integrating life wisdom", "preparing for transition", "new cycles"],
+          "spiritual_lesson": "Completing life cycles while remaining open to new mysteries",
+          "shadow_challenges": ["regret", "resistance to ending", "bitterness"],
+          "optimal_tarot_work": "Life integration, wisdom sharing, transition preparation"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,971 @@
+{
+  "major_arcana_pairs": {
+    "description": "Comprehensive analysis of Major Arcana card combinations and their interpretive meanings",
+    "quote": "When two archetypes meet in a reading, they create a third energy that is greater than the sum of its parts - a new story that speaks to the deepest layers of human experience.",
+    "author": "Mary K. Greer",
+    "source": "Tarot for Your Self",
+    "fool_combinations": {
+      "fool_magician": {
+        "keywords": ["new beginning with focused intent", "naive power", "unlimited potential"],
+        "meaning": "A fresh start backed by skill and determination. The querent is at the beginning of a journey with all the tools they need to succeed.",
+        "upright_interpretation": "New projects launched with confidence and skill. Beginner's mind combined with mastery of tools.",
+        "reversed_interpretation": "Scattered energy, starting something without proper preparation, or misuse of abilities.",
+        "psychological_aspect": "The innocent Self meeting the conscious Ego - integration of natural wisdom with learned skills",
+        "spiritual_lesson": "Learning to channel divine inspiration through earthly capabilities",
+        "practical_advice": "Start your new venture, but take time to plan and prepare properly",
+        "timing": "Immediate action on well-considered plans",
+        "love_reading": "New relationship with someone skilled and confident, or learning to love with greater awareness",
+        "career_reading": "New job or project where you can use your natural talents and acquired skills",
+        "shadow_aspects": ["overconfidence", "manipulation of innocence", "spiritual materialism"],
+        "chakra_interaction": "Crown (Fool) activating Solar Plexus (Magician)",
+        "elemental_balance": "Spirit (Fool) manifesting through Fire (Magician's will)"
+      },
+      "fool_high_priestess": {
+        "keywords": ["intuitive beginning", "unconscious wisdom", "mystical journey"],
+        "meaning": "A spiritual journey beginning with deep inner knowing. The querent is called to trust their intuition over logic.",
+        "upright_interpretation": "Starting a path of spiritual development. Trusting inner wisdom in new endeavors.",
+        "reversed_interpretation": "Ignoring intuition, spiritual confusion, or being led astray by false mysticism.",
+        "psychological_aspect": "The innocent Self encountering the unconscious Anima - accessing hidden feminine wisdom",
+        "spiritual_lesson": "Learning to trust the voice of inner knowing over external authorities",
+        "practical_advice": "Follow your gut feelings in this new situation, even if you can't explain why",
+        "timing": "When the moon is full or during periods of heightened intuition",
+        "love_reading": "Soul mate connection beginning, or learning to love through intuitive understanding",
+        "career_reading": "Work involving intuition, healing, or spiritual services calling to you",
+        "shadow_aspects": ["spiritual bypassing", "avoiding reality", "psychic inflation"],
+        "chakra_interaction": "Crown (Fool) opening Third Eye (High Priestess)",
+        "elemental_balance": "Spirit (Fool) flowing through Water (High Priestess's intuition)"
+      },
+      "fool_empress": {
+        "keywords": ["creative fertility", "abundant beginning", "natural manifestation"],
+        "meaning": "A new creative or nurturing endeavor blessed with natural abundance. Fertility in all forms.",
+        "upright_interpretation": "Creative projects flourishing from the start. Natural talent manifesting abundance.",
+        "reversed_interpretation": "Creative blocks, infertility, or abundance turning to excess and waste.",
+        "psychological_aspect": "The innocent Self embracing the Great Mother archetype - learning to create and nurture",
+        "spiritual_lesson": "Understanding that creation flows naturally when we align with divine feminine principles",
+        "practical_advice": "Trust in the natural timing of growth and development in your new venture",
+        "timing": "Spring season, or during times of natural growth and expansion",
+        "love_reading": "Pregnancy, new family, or relationship entering fertile, creative phase",
+        "career_reading": "Creative work, nurturing professions, or businesses involving natural products",
+        "shadow_aspects": ["overindulgence", "smothering creativity", "jealousy of others' success"],
+        "chakra_interaction": "Crown (Fool) energizing Heart (Empress)",
+        "elemental_balance": "Spirit (Fool) grounding through Earth (Empress's materialization)"
+      },
+      "fool_emperor": {
+        "keywords": ["structured beginning", "authoritative guidance", "disciplined potential"],
+        "meaning": "New endeavors that require structure, discipline, and possibly mentorship from authority figures.",
+        "upright_interpretation": "Starting something with proper planning and authority backing. Learning discipline.",
+        "reversed_interpretation": "Rebellion against necessary structure, or being crushed by too much control.",
+        "psychological_aspect": "The innocent Self encountering the Father archetype - learning about authority and structure",
+        "spiritual_lesson": "Understanding that true freedom comes through accepting necessary limitations",
+        "practical_advice": "Seek guidance from those with experience, and create structure for your new beginning",
+        "timing": "During times requiring discipline and long-term commitment",
+        "love_reading": "Relationship needing clear boundaries, or attraction to authoritative partner",
+        "career_reading": "Starting in a structured environment, or taking on leadership responsibilities",
+        "shadow_aspects": ["authoritarian control", "loss of innocence", "rigid thinking"],
+        "chakra_interaction": "Crown (Fool) stabilizing through Solar Plexus (Emperor)",
+        "elemental_balance": "Spirit (Fool) forming through Fire (Emperor's will)"
+      },
+      "fool_hierophant": {
+        "keywords": ["spiritual education", "traditional wisdom", "guided learning"],
+        "meaning": "Beginning a formal spiritual or educational journey. Learning from established traditions.",
+        "upright_interpretation": "Starting spiritual studies or finding a teacher. Wisdom through traditional methods.",
+        "reversed_interpretation": "Rejecting helpful guidance, spiritual orthodoxy, or missing important lessons.",
+        "psychological_aspect": "The innocent Self seeking the Wise Teacher - learning to receive wisdom",
+        "spiritual_lesson": "Understanding that some wisdom can only be gained through proper instruction",
+        "practical_advice": "Seek out teachers, join study groups, or follow established methods in your new path",
+        "timing": "Academic seasons, or when ready to make formal commitments to learning",
+        "love_reading": "Learning about love through traditional relationship wisdom or couples counseling",
+        "career_reading": "Formal education, religious calling, or work requiring certification and training",
+        "shadow_aspects": ["dogmatic thinking", "spiritual dependency", "avoiding personal responsibility"],
+        "chakra_interaction": "Crown (Fool) receiving through Throat (Hierophant)",
+        "elemental_balance": "Spirit (Fool) learning through Earth (Hierophant's tradition)"
+      },
+      "fool_lovers": {
+        "keywords": ["choice in innocence", "pure love", "moral decision"],
+        "meaning": "A significant choice that will determine the path ahead, often involving love or moral values.",
+        "upright_interpretation": "Making choices from the heart. Pure love or moral clarity guiding decisions.",
+        "reversed_interpretation": "Poor choices, temptation leading astray, or avoiding necessary decisions.",
+        "psychological_aspect": "The innocent Self facing the choice between different aspects of love",
+        "spiritual_lesson": "Learning that every choice shapes our spiritual development",
+        "practical_advice": "Choose based on your highest values and deepest love, not fear or convention",
+        "timing": "When major life choices must be made, particularly in relationships",
+        "love_reading": "New love requiring choice between options, or choosing love over security",
+        "career_reading": "Career choice based on passion rather than just practicality",
+        "shadow_aspects": ["paralysis by choice", "choosing based on ego", "avoiding commitment"],
+        "chakra_interaction": "Crown (Fool) choosing through Heart (Lovers)",
+        "elemental_balance": "Spirit (Fool) deciding through Air (Lovers' choice)"
+      },
+      "fool_chariot": {
+        "keywords": ["determined journey", "willful progress", "controlled adventure"],
+        "meaning": "Beginning a journey that will require strong will and determination to overcome obstacles.",
+        "upright_interpretation": "Starting an adventure with confidence and determination. Victory through effort.",
+        "reversed_interpretation": "Reckless rushing ahead, lack of direction, or being overwhelmed by challenges.",
+        "psychological_aspect": "The innocent Self developing the Warrior spirit - learning to fight for goals",
+        "spiritual_lesson": "Understanding that spiritual progress requires effort and determination",
+        "practical_advice": "Move forward with confidence, but maintain control and direction",
+        "timing": "When forward movement and decisive action are required",
+        "love_reading": "Actively pursuing love, or relationship requiring effort to overcome obstacles",
+        "career_reading": "Competitive field requiring strong will and determination to succeed",
+        "shadow_aspects": ["aggressive ambition", "forcing outcomes", "steamrolling over others"],
+        "chakra_interaction": "Crown (Fool) driving through Solar Plexus (Chariot)",
+        "elemental_balance": "Spirit (Fool) moving through Water (Chariot's emotional control)"
+      },
+      "fool_strength": {
+        "keywords": ["gentle power", "courageous innocence", "taming the beast"],
+        "meaning": "Beginning something that will require inner strength and courage, approached with gentleness.",
+        "upright_interpretation": "Starting with confidence and inner strength. Courage without aggression.",
+        "reversed_interpretation": "Lack of confidence, being overwhelmed by fears, or using force instead of gentleness.",
+        "psychological_aspect": "The innocent Self learning to master the Shadow through love",
+        "spiritual_lesson": "True strength comes from love and compassion, not force",
+        "practical_advice": "Approach challenges with gentle persistence rather than force",
+        "timing": "When courage is needed but force would be counterproductive",
+        "love_reading": "Love requiring patience and gentleness to overcome difficulties",
+        "career_reading": "Work requiring emotional intelligence and gentle leadership",
+        "shadow_aspects": ["passive aggression", "hidden anger", "avoiding necessary confrontation"],
+        "chakra_interaction": "Crown (Fool) strengthening through Heart (Strength)",
+        "elemental_balance": "Spirit (Fool) stabilizing through Fire (Strength's courage)"
+      },
+      "fool_hermit": {
+        "keywords": ["solitary seeking", "inner guidance", "wisdom quest"],
+        "meaning": "Beginning a journey of self-discovery that will require periods of solitude and introspection.",
+        "upright_interpretation": "Starting a spiritual quest. Seeking wisdom through inner guidance.",
+        "reversed_interpretation": "Isolation without growth, avoiding necessary solitude, or becoming lost in the search.",
+        "psychological_aspect": "The innocent Self seeking the Wise Old Man - learning from inner guidance",
+        "spiritual_lesson": "Some wisdom can only be found in solitude and introspection",
+        "practical_advice": "Take time for solitary reflection before making important decisions",
+        "timing": "During periods calling for introspection and self-examination",
+        "love_reading": "Need for personal growth before entering relationship, or partner who values solitude",
+        "career_reading": "Work requiring independent research, contemplation, or spiritual guidance",
+        "shadow_aspects": ["narcissistic isolation", "avoiding reality", "spiritual superiority"],
+        "chakra_interaction": "Crown (Fool) seeking through Third Eye (Hermit)",
+        "elemental_balance": "Spirit (Fool) deepening through Earth (Hermit's grounding)"
+      },
+      "fool_wheel": {
+        "keywords": ["fated beginning", "karmic opportunity", "cyclical change"],
+        "meaning": "A new beginning that is part of a larger cosmic cycle or karmic pattern.",
+        "upright_interpretation": "Lucky timing for new starts. Karmic opportunities presenting themselves.",
+        "reversed_interpretation": "Bad timing, missing opportunities, or being caught in negative cycles.",
+        "psychological_aspect": "The innocent Self recognizing the Self's organizing principle in life events",
+        "spiritual_lesson": "Understanding that beginnings are part of larger cosmic patterns",
+        "practical_advice": "Pay attention to timing and synchronicities in your new endeavor",
+        "timing": "When cosmic timing is favorable, often involving significant astrological events",
+        "love_reading": "Fated meeting or relationship that feels destined",
+        "career_reading": "Opportunity arising through synchronicity or unexpected circumstances",
+        "shadow_aspects": ["passive fatalism", "gambling mentality", "avoiding responsibility"],
+        "chakra_interaction": "Crown (Fool) aligning with all chakras (Wheel)",
+        "elemental_balance": "Spirit (Fool) cycling through all elements (Wheel's totality)"
+      },
+      "fool_justice": {
+        "keywords": ["fair beginning", "balanced choice", "karmic accounting"],
+        "meaning": "Starting something that will require fairness, balance, and careful consideration of consequences.",
+        "upright_interpretation": "Beginning with fairness and proper consideration. Justice supporting new starts.",
+        "reversed_interpretation": "Unfair start, poor judgment, or consequences of past actions blocking progress.",
+        "psychological_aspect": "The innocent Self learning about moral balance and consequences",
+        "spiritual_lesson": "Every beginning carries karmic weight and requires ethical consideration",
+        "practical_advice": "Ensure your new start is fair to all involved and ethically sound",
+        "timing": "When legal matters or ethical considerations are paramount",
+        "love_reading": "Relationship requiring fairness and equal commitment from both parties",
+        "career_reading": "Work in legal field, or ensuring ethical practices in new venture",
+        "shadow_aspects": ["harsh judgment", "perfectionism", "avoiding necessary decisions"],
+        "chakra_interaction": "Crown (Fool) balancing through Heart (Justice)",
+        "elemental_balance": "Spirit (Fool) weighing through Air (Justice's thought)"
+      },
+      "fool_hanged_man": {
+        "keywords": ["suspended beginning", "patient waiting", "sacrificial start"],
+        "meaning": "A beginning that requires patience, sacrifice, or a complete change of perspective.",
+        "upright_interpretation": "Starting through surrender. Gaining new perspective through patience.",
+        "reversed_interpretation": "Unnecessary martyrdom, resistance to needed waiting, or false sacrifice.",
+        "psychological_aspect": "The innocent Self learning about necessary sacrifice and surrender",
+        "spiritual_lesson": "Sometimes progress requires letting go and trusting the process",
+        "practical_advice": "Be patient with timing, and be willing to sacrifice lesser goods for greater ones",
+        "timing": "When patience and sacrifice are required before action can be taken",
+        "love_reading": "Love requiring sacrifice or patience, or relationship beginning through surrender",
+        "career_reading": "Career change requiring sacrifice of current security for future growth",
+        "shadow_aspects": ["martyrdom complex", "passive victimhood", "avoiding action"],
+        "chakra_interaction": "Crown (Fool) surrendering through Heart (Hanged Man)",
+        "elemental_balance": "Spirit (Fool) flowing through Water (Hanged Man's surrender)"
+      },
+      "fool_death": {
+        "keywords": ["transformative beginning", "death before rebirth", "profound change"],
+        "meaning": "A beginning that requires the complete death of the old self or situation.",
+        "upright_interpretation": "Transformation enabling new start. Rebirth through necessary endings.",
+        "reversed_interpretation": "Resistance to necessary change, fear of transformation, or incomplete endings.",
+        "psychological_aspect": "The innocent Self encountering the Death archetype - learning about transformation",
+        "spiritual_lesson": "True beginnings often require complete endings of what came before",
+        "practical_advice": "Allow old patterns to die completely before starting anew",
+        "timing": "During major life transitions requiring complete transformation",
+        "love_reading": "Relationship requiring death of old patterns, or love born from major life change",
+        "career_reading": "Complete career transformation, or work involving death/rebirth themes",
+        "shadow_aspects": ["clinging to dying patterns", "fear of change", "destructive urges"],
+        "chakra_interaction": "Crown (Fool) transforming through Root (Death)",
+        "elemental_balance": "Spirit (Fool) changing through Water (Death's flow)"
+      },
+      "fool_temperance": {
+        "keywords": ["balanced beginning", "moderate approach", "healing integration"],
+        "meaning": "Starting something with perfect balance and moderation, often involving healing or integration.",
+        "upright_interpretation": "Beginning with proper balance. Healing approach to new situations.",
+        "reversed_interpretation": "Imbalance at start, extremes instead of moderation, or forced integration.",
+        "psychological_aspect": "The innocent Self learning about the transcendent function and balance",
+        "spiritual_lesson": "The middle way provides the most sustainable foundation for growth",
+        "practical_advice": "Start with moderation and seek balance in all aspects of your new endeavor",
+        "timing": "When healing and integration are needed before moving forward",
+        "love_reading": "Balanced relationship beginning, or healing past wounds before new love",
+        "career_reading": "Work involving healing, counseling, or bringing opposing forces together",
+        "shadow_aspects": ["bland mediocrity", "avoiding necessary extremes", "false peace"],
+        "chakra_interaction": "Crown (Fool) balancing through Heart (Temperance)",
+        "elemental_balance": "Spirit (Fool) mixing all elements (Temperance's alchemy)"
+      },
+      "fool_devil": {
+        "keywords": ["tempting beginning", "shadow encounter", "material binding"],
+        "meaning": "A beginning that involves confronting temptation, shadow aspects, or material bondage.",
+        "upright_interpretation": "Starting while aware of temptations. Learning about material limitations.",
+        "reversed_interpretation": "Falling to temptation, being deceived, or refusing to see shadow aspects.",
+        "psychological_aspect": "The innocent Self encountering the Shadow - learning about dark aspects",
+        "spiritual_lesson": "Temptation and shadow must be recognized and integrated, not avoided",
+        "practical_advice": "Be aware of potential pitfalls and temptations in your new path",
+        "timing": "When shadow work or confronting temptations is necessary",
+        "love_reading": "Relationship involving power dynamics, obsession, or overcoming addictions",
+        "career_reading": "Work involving ethical challenges or dealing with human shadow aspects",
+        "shadow_aspects": ["succumbing to temptation", "denial of shadow", "spiritual bypassing"],
+        "chakra_interaction": "Crown (Fool) confronting through Root (Devil)",
+        "elemental_balance": "Spirit (Fool) testing through Earth (Devil's materialism)"
+      },
+      "fool_tower": {
+        "keywords": ["shocking awakening", "sudden revelation", "destructive liberation"],
+        "meaning": "A beginning catalyzed by sudden shock, revelation, or the destruction of false beliefs.",
+        "upright_interpretation": "Liberation through sudden awakening. Truth destroying illusions.",
+        "reversed_interpretation": "Avoiding necessary wake-up calls, clinging to illusions, or destructive revelations.",
+        "psychological_aspect": "The innocent Self experiencing divine intervention and ego destruction",
+        "spiritual_lesson": "Sometimes liberation requires the destruction of everything we thought we knew",
+        "practical_advice": "Embrace sudden changes as liberation from limiting structures",
+        "timing": "During sudden, unexpected events that shatter old patterns",
+        "love_reading": "Sudden relationship changes that ultimately bring freedom and truth",
+        "career_reading": "Unexpected job loss or change that opens new opportunities",
+        "shadow_aspects": ["destructive urges", "chaos addiction", "avoiding rebuilding"],
+        "chakra_interaction": "Crown (Fool) awakening through Crown (Tower)",
+        "elemental_balance": "Spirit (Fool) shocking through Fire (Tower's lightning)"
+      },
+      "fool_star": {
+        "keywords": ["hopeful beginning", "guided by stars", "spiritual inspiration"],
+        "meaning": "A beginning blessed with hope, inspiration, and divine guidance toward future possibilities.",
+        "upright_interpretation": "Starting with hope and inspiration. Divine guidance supporting new paths.",
+        "reversed_interpretation": "Loss of hope, lack of inspiration, or disconnection from guidance.",
+        "psychological_aspect": "The innocent Self connecting with the Self as guiding star",
+        "spiritual_lesson": "Following our highest inspirations leads to spiritual fulfillment",
+        "practical_advice": "Trust your inspirations and follow your highest hopes in this new beginning",
+        "timing": "After difficult periods, when hope and inspiration are returning",
+        "love_reading": "Love inspired by highest ideals, or healing after emotional wounds",
+        "career_reading": "Work that inspires you and serves your highest calling",
+        "shadow_aspects": ["false hope", "unrealistic expectations", "spiritual bypassing"],
+        "chakra_interaction": "Crown (Fool) inspiring through Crown (Star)",
+        "elemental_balance": "Spirit (Fool) flowing through Water (Star's healing)"
+      },
+      "fool_moon": {
+        "keywords": ["mysterious beginning", "unconscious guidance", "illusory path"],
+        "meaning": "Starting a journey into the unknown, guided by unconscious forces and intuitive navigation.",
+        "upright_interpretation": "Beginning guided by unconscious wisdom. Navigating by intuition through mystery.",
+        "reversed_interpretation": "Lost in illusions, fear of the unknown, or being deceived by false guidance.",
+        "psychological_aspect": "The innocent Self journeying through the collective unconscious",
+        "spiritual_lesson": "The path to enlightenment often leads through the dark night of the soul",
+        "practical_advice": "Trust your intuition but be aware of illusions and projections",
+        "timing": "During confusing periods requiring intuitive navigation",
+        "love_reading": "Relationship shrouded in mystery, or love requiring faith over certainty",
+        "career_reading": "Work involving the unconscious, dreams, or navigating unclear situations",
+        "shadow_aspects": ["paranoid delusions", "being lost in fantasies", "avoiding clarity"],
+        "chakra_interaction": "Crown (Fool) navigating through Sacral (Moon)",
+        "elemental_balance": "Spirit (Fool) swimming through Water (Moon's depths)"
+      },
+      "fool_sun": {
+        "keywords": ["joyful beginning", "illuminated path", "conscious awakening"],
+        "meaning": "A beginning blessed with clarity, joy, and the full light of conscious awareness.",
+        "upright_interpretation": "Starting with clarity and joy. Conscious awareness illuminating the path.",
+        "reversed_interpretation": "False optimism, ego inflation, or burning out from too much exposure.",
+        "psychological_aspect": "The innocent Self achieving conscious integration and joy",
+        "spiritual_lesson": "Enlightenment brings joy and clarity to all endeavors",
+        "practical_advice": "Proceed with confidence and joy, sharing your light with others",
+        "timing": "When clarity has been achieved and energy is at its peak",
+        "love_reading": "Joyful relationship or marriage, possibly involving children",
+        "career_reading": "Work that brings joy and recognition, or leadership roles",
+        "shadow_aspects": ["ego inflation", "showing off", "burning others with intensity"],
+        "chakra_interaction": "Crown (Fool) shining through Solar Plexus (Sun)",
+        "elemental_balance": "Spirit (Fool) blazing through Fire (Sun's radiance)"
+      },
+      "fool_judgement": {
+        "keywords": ["awakened beginning", "called to purpose", "spiritual rebirth"],
+        "meaning": "A beginning that represents spiritual awakening and answering a higher calling.",
+        "upright_interpretation": "Starting through spiritual awakening. Answering a higher calling.",
+        "reversed_interpretation": "Ignoring spiritual calling, harsh self-judgment, or premature spiritual claims.",
+        "psychological_aspect": "The innocent Self answering the call to individuation",
+        "spiritual_lesson": "Spiritual awakening calls us to serve something greater than ourselves",
+        "practical_advice": "Answer the call to your highest purpose, even if it means leaving comfort behind",
+        "timing": "When spiritual awakening occurs and higher purpose becomes clear",
+        "love_reading": "Soul mate connection or relationship serving spiritual purpose",
+        "career_reading": "Calling to spiritual work or service that serves higher purpose",
+        "shadow_aspects": ["spiritual superiority", "judging others", "avoiding earthly responsibilities"],
+        "chakra_interaction": "Crown (Fool) answering through Throat (Judgement)",
+        "elemental_balance": "Spirit (Fool) ascending through Fire (Judgement's call)"
+      },
+      "fool_world": {
+        "keywords": ["completed innocence", "cyclical mastery", "integrated wholeness"],
+        "meaning": "Beginning from a place of completion and integration, starting a new cycle of development.",
+        "upright_interpretation": "Starting from mastery and completion. New cycle beginning from wisdom.",
+        "reversed_interpretation": "Incomplete mastery, rushing to new cycles, or avoiding integration.",
+        "psychological_aspect": "The innocent Self achieving individuation and beginning the next spiral",
+        "spiritual_lesson": "Every ending contains a new beginning; every mastery opens new mysteries",
+        "practical_advice": "Draw on your accumulated wisdom while remaining open to new learning",
+        "timing": "After major completion, when ready for the next level of development",
+        "love_reading": "Mature love beginning from place of self-completion",
+        "career_reading": "Starting new venture from place of mastery and accumulated expertise",
+        "shadow_aspects": ["complacency", "know-it-all attitude", "fear of new challenges"],
+        "chakra_interaction": "Crown (Fool) completing through all chakras (World)",
+        "elemental_balance": "Spirit (Fool) integrating all elements (World's totality)"
+      }
+    },
+    "magician_combinations": {
+      "magician_high_priestess": {
+        "keywords": ["conscious meets unconscious", "balanced manifestation", "integrated wisdom"],
+        "meaning": "The perfect balance between conscious will and unconscious wisdom creating powerful manifestation.",
+        "upright_interpretation": "Balanced use of conscious and unconscious faculties. Powerful manifestation through integration.",
+        "reversed_interpretation": "Imbalance between thinking and feeling, manipulation vs. intuition, or blocked creative flow.",
+        "psychological_aspect": "Animus and Anima in perfect balance - integrated masculine and feminine principles",
+        "spiritual_lesson": "True power comes from balancing active will with receptive wisdom",
+        "practical_advice": "Combine logical planning with intuitive guidance for best results",
+        "timing": "When both action and receptivity are needed in equal measure",
+        "love_reading": "Perfect balance in relationship between partners or within oneself",
+        "career_reading": "Work requiring both analytical skills and intuitive insight",
+        "shadow_aspects": ["manipulation through pseudo-spirituality", "intellectual superiority", "emotional manipulation"],
+        "chakra_interaction": "Solar Plexus (Magician) balancing Third Eye (High Priestess)",
+        "elemental_balance": "Fire (Magician's will) harmonizing Water (High Priestess's flow)"
+      },
+      "magician_empress": {
+        "keywords": ["creative manifestation", "fertile will", "abundant creation"],
+        "meaning": "Willpower channeled into creative and nurturing manifestation. Fertile period for bringing ideas to life.",
+        "upright_interpretation": "Creative projects manifesting successfully. Will power creating abundance.",
+        "reversed_interpretation": "Creative blocks, forcing growth, or manifesting without heart.",
+        "psychological_aspect": "Conscious will (Animus) fertilizing creative potential (Great Mother)",
+        "spiritual_lesson": "True creation requires both focused will and receptive nurturing",
+        "practical_advice": "Channel your will into creative projects that nurture growth",
+        "timing": "Spring seasons, new moon in earth signs, or when creating something new",
+        "love_reading": "Relationship manifesting abundance, possibly pregnancy or creative collaboration",
+        "career_reading": "Creative fields, business involving growth or nurturing, artistic manifestation",
+        "shadow_aspects": ["forcing creation", "materialistic manipulation", "depleting creative resources"],
+        "chakra_interaction": "Solar Plexus (Magician) energizing Heart (Empress)",
+        "elemental_balance": "Fire (Magician's will) nurturing Earth (Empress's growth)"
+      },
+      "magician_emperor": {
+        "keywords": ["structured power", "authoritative manifestation", "disciplined will"],
+        "meaning": "Willpower backed by authority and structure. Leadership through competence and discipline.",
+        "upright_interpretation": "Manifestation through proper authority and structure. Leadership and discipline.",
+        "reversed_interpretation": "Abuse of power, rigid control, or authority without competence.",
+        "psychological_aspect": "Personal will aligning with archetypal authority - ego serving higher order",
+        "spiritual_lesson": "True power requires structure, discipline, and service to higher principles",
+        "practical_advice": "Use your abilities within proper structures and with appropriate authority",
+        "timing": "When long-term building and sustained effort are required",
+        "love_reading": "Relationship requiring commitment and structure, or partners supporting each other's authority",
+        "career_reading": "Leadership positions, structured environments, or building lasting institutions",
+        "shadow_aspects": ["tyrannical control", "rigid authoritarianism", "power without wisdom"],
+        "chakra_interaction": "Solar Plexus (Magician) structuring through Solar Plexus (Emperor)",
+        "elemental_balance": "Fire (Magician's will) forming Fire (Emperor's authority)"
+      }
+    },
+    "cross_elemental_pairs": {
+      "fire_water_dynamics": {
+        "steam_transformation": {
+          "description": "When Fire and Water cards appear together, they create the energy of transformation through steam",
+          "cards_examples": ["Ace of Wands + Ace of Cups", "Ten of Wands + Ten of Cups", "King of Wands + Queen of Cups"],
+          "meaning": "Passionate emotions, transformative healing, or conflict leading to growth",
+          "positive_manifestation": "Healing through passionate engagement, emotional alchemy, transformative relationships",
+          "negative_manifestation": "Emotional volatility, passion consuming reason, steam burning relationships",
+          "resolution_advice": "Allow the steam to clear before making decisions, find the alchemy in conflict"
+        },
+        "mutual_annihilation": {
+          "description": "Fire and Water can extinguish each other when not properly balanced",
+          "warning_signs": "Emotional suppression, passion killing intuition, or overwhelming force meeting immovable flow",
+          "healing_approach": "Create space between opposing forces, find the sacred marriage in conflict",
+          "spiritual_lesson": "Opposites seek integration, not domination"
+        }
+      },
+      "air_earth_dynamics": {
+        "erosion_formation": {
+          "description": "Air and Earth cards together represent the slow formation of wisdom through experience",
+          "cards_examples": ["Ace of Swords + Ace of Pentacles", "King of Swords + Queen of Pentacles"],
+          "meaning": "Ideas taking practical form, or practical experience generating wisdom",
+          "positive_manifestation": "Grounded thinking, practical wisdom, ideas becoming reality",
+          "negative_manifestation": "Mental erosion of confidence, impractical idealism, or stubborn resistance to new ideas",
+          "resolution_advice": "Allow ideas time to take root in practical reality"
+        }
+      }
+    }
+  },
+  "minor_arcana_progressions": {
+    "description": "Understanding the flow and relationships between numbered cards in sequences",
+    "quote": "The numbered cards tell the story of each element's journey from pure potential to complete manifestation, revealing the hidden psychology of human development.",
+    "author": "Rachel Pollack",
+    "source": "Seventy-Eight Degrees of Wisdom",
+    "ace_progressions": {
+      "ace_to_ten_journey": {
+        "overview": "Each suit's journey from Ace (pure potential) through Ten (completion) mirrors psychological and spiritual development",
+        "universal_themes": {
+          "ace": "Pure potential, new beginning, divine gift",
+          "two": "First manifestation, choice, duality", 
+          "three": "Initial growth, creative expression, group formation",
+          "four": "Foundation, stability, structure",
+          "five": "Challenge, conflict, testing",
+          "six": "Harmony, balance, resolution",
+          "seven": "Spiritual testing, perseverance, vision",
+          "eight": "Mastery, skill development, dedication",
+          "nine": "Near completion, wisdom, fulfillment",
+          "ten": "Completion, mastery, transition to next cycle"
+        }
+      },
+      "wands_progression": {
+        "element": "Fire",
+        "psychological_theme": "Development of will, creativity, and spiritual purpose",
+        "ace_to_two": {
+          "transition": "Pure creative spark receiving direction and planning",
+          "meaning": "Initial inspiration developing first concrete plans",
+          "shadow": "Inspiration without follow-through, or premature action"
+        },
+        "two_to_three": {
+          "transition": "Personal vision expanding to include others",
+          "meaning": "Moving from personal planning to collaborative effort",
+          "shadow": "Losing control of vision, or excluding necessary partners"
+        },
+        "three_to_four": {
+          "transition": "Expansion stabilizing into celebration and completion",
+          "meaning": "Collaborative effort achieving stable success",
+          "shadow": "Premature celebration, or excluding growth opportunities"
+        },
+        "four_to_five": {
+          "transition": "Stability disrupted by competition and challenge",
+          "meaning": "Success attracting challenge and requiring defense",
+          "shadow": "Internal conflict, or unnecessary competition"
+        },
+        "five_to_six": {
+          "transition": "Conflict resolved through victory and recognition",
+          "meaning": "Overcoming challenges leads to public recognition",
+          "shadow": "Hollow victory, or success creating isolation"
+        },
+        "six_to_seven": {
+          "transition": "Public success requiring defense and perseverance",
+          "meaning": "Achievement must be protected and maintained",
+          "shadow": "Paranoid defensiveness, or giving up under pressure"
+        },
+        "seven_to_eight": {
+          "transition": "Defensive struggle transforming into swift action",
+          "meaning": "Obstacles overcome through speed and determination",
+          "shadow": "Rushing ahead without planning, or missing important details"
+        },
+        "eight_to_nine": {
+          "transition": "Swift progress meeting final obstacle before completion",
+          "meaning": "Last challenge before achieving long-term goal",
+          "shadow": "Giving up before finish line, or becoming paranoid about success"
+        },
+        "nine_to_ten": {
+          "transition": "Final challenge overcome but leading to overwhelming responsibility",
+          "meaning": "Success achieved but at cost of personal burden",
+          "shadow": "Being crushed by success, or refusing to delegate"
+        }
+      },
+      "cups_progression": {
+        "element": "Water",
+        "psychological_theme": "Development of emotional intelligence, relationships, and spiritual love",
+        "ace_to_two": {
+          "transition": "Universal love becoming personal relationship",
+          "meaning": "Divine love manifesting as human connection",
+          "shadow": "Idealizing relationships, or avoiding divine love for human love"
+        },
+        "two_to_three": {
+          "transition": "Intimate relationship expanding to include friendship and community",
+          "meaning": "Private love becoming social celebration",
+          "shadow": "Relationship becoming superficial through over-sharing"
+        },
+        "three_to_four": {
+          "transition": "External celebration confronting internal dissatisfaction",
+          "meaning": "Social success leading to spiritual emptiness",
+          "shadow": "Ingratitude, or missing obvious blessings while seeking more"
+        },
+        "four_to_five": {
+          "transition": "Apathy disrupted by loss and grief",
+          "meaning": "Emotional numbness broken by significant loss",
+          "shadow": "Dwelling in grief, or avoiding necessary emotional processing"
+        },
+        "five_to_six": {
+          "transition": "Grief healed through nostalgia and emotional return",
+          "meaning": "Past healing present wounds through memory and revisitation",
+          "shadow": "Living in the past, or idealizing what was lost"
+        },
+        "six_to_seven": {
+          "transition": "Nostalgic comfort expanding into unlimited spiritual possibilities",
+          "meaning": "Past healing opening doorway to infinite spiritual options",
+          "shadow": "Spiritual materialism, or being overwhelmed by choices"
+        },
+        "seven_to_eight": {
+          "transition": "Spiritual seeking requiring abandonment of current emotional attachments",
+          "meaning": "Higher calling requiring leaving behind current emotional life",
+          "shadow": "Spiritual bypassing, or abandoning responsibilities"
+        },
+        "eight_to_nine": {
+          "transition": "Spiritual quest achieving emotional fulfillment and satisfaction",
+          "meaning": "Spiritual development creating deep emotional satisfaction",
+          "shadow": "Spiritual pride, or emotional complacency"
+        },
+        "nine_to_ten": {
+          "transition": "Personal satisfaction expanding to encompass family and community",
+          "meaning": "Individual happiness creating harmonious relationships",
+          "shadow": "Superficial happiness, or excluding others from joy"
+        }
+      },
+      "swords_progression": {
+        "element": "Air", 
+        "psychological_theme": "Development of mental clarity, communication, and intellectual truth",
+        "ace_to_two": {
+          "transition": "Pure mental clarity confronting first major decision",
+          "meaning": "Clear thinking facing complex choices requiring balance",
+          "shadow": "Decision paralysis, or cutting through complexity too quickly"
+        },
+        "two_to_three": {
+          "transition": "Balanced decision leading to heartbreak and separation",
+          "meaning": "Right decision causing necessary but painful separation",
+          "shadow": "Avoiding necessary decisions to prevent pain"
+        },
+        "three_to_four": {
+          "transition": "Active heartbreak settling into rest and contemplation",
+          "meaning": "Emotional pain requiring mental rest and peaceful reflection",
+          "shadow": "Mental paralysis, or avoiding necessary processing"
+        },
+        "four_to_five": {
+          "transition": "Peaceful rest disrupted by conflict and competition",
+          "meaning": "Mental peace challenged by competitive thoughts and conflicts",
+          "shadow": "Creating unnecessary mental conflict, or avoiding healthy competition"
+        },
+        "five_to_six": {
+          "transition": "Mental conflict resolved through movement and transition",
+          "meaning": "Troubled thoughts cleared through change of mental environment",
+          "shadow": "Running from problems instead of solving them"
+        },
+        "six_to_seven": {
+          "transition": "Mental movement requiring strategic thinking and planning",
+          "meaning": "Progress demanding careful strategy and mental cunning",
+          "shadow": "Deception, or overthinking simple situations"
+        },
+        "seven_to_eight": {
+          "transition": "Strategic thinking leading to mental restriction and limitation",
+          "meaning": "Mental plans creating their own prison of limitation",
+          "shadow": "Analysis paralysis, or mental self-punishment"
+        },
+        "eight_to_nine": {
+          "transition": "Mental bondage breaking down into anxiety and worry",
+          "meaning": "Restricted thinking dissolving into anxious mental activity",
+          "shadow": "Mental torture, or refusing to let go of limiting thoughts"
+        },
+        "nine_to_ten": {
+          "transition": "Mental anguish culminating in complete mental breakdown or breakthrough",
+          "meaning": "Mental suffering reaching bottom, requiring complete mental transformation",
+          "shadow": "Mental collapse, or refusing transformation through crisis"
+        }
+      },
+      "pentacles_progression": {
+        "element": "Earth",
+        "psychological_theme": "Development of material mastery, practical skills, and earthly wisdom",
+        "ace_to_two": {
+          "transition": "Material opportunity requiring practical juggling and balance",
+          "meaning": "New material potential demanding skillful resource management",
+          "shadow": "Being overwhelmed by opportunities, or poor resource management"
+        },
+        "two_to_three": {
+          "transition": "Practical balance leading to skilled craftsmanship and collaboration",
+          "meaning": "Resource management developing into skilled work with others",
+          "shadow": "Perfectionism preventing collaboration, or sloppy workmanship"
+        },
+        "three_to_four": {
+          "transition": "Collaborative skill building creating personal material security",
+          "meaning": "Shared learning leading to individual material foundation",
+          "shadow": "Hoarding resources, or refusing to learn from others"
+        },
+        "four_to_five": {
+          "transition": "Material security threatened by loss and spiritual poverty",
+          "meaning": "Material comfort challenged by economic or spiritual crisis",
+          "shadow": "Clinging to material security, or refusing help when needed"
+        },
+        "five_to_six": {
+          "transition": "Material and spiritual poverty relieved through generosity and sharing",
+          "meaning": "Crisis resolved through community support and wise sharing",
+          "shadow": "Charity creating dependency, or pride refusing help"
+        },
+        "six_to_seven": {
+          "transition": "Material sharing requiring patience for long-term investment results",
+          "meaning": "Generous investments requiring patience for material returns",
+          "shadow": "Impatience with results, or investing without proper evaluation"
+        },
+        "seven_to_eight": {
+          "transition": "Patient investment leading to dedicated skill development",
+          "meaning": "Long-term planning inspiring devoted craftsmanship and skill building",
+          "shadow": "Workaholic tendencies, or losing sight of goals in details"
+        },
+        "eight_to_nine": {
+          "transition": "Skilled craftsmanship achieving material independence and refinement",
+          "meaning": "Dedicated work creating material sophistication and self-sufficiency",
+          "shadow": "Material snobbery, or isolation through material success"
+        },
+        "nine_to_ten": {
+          "transition": "Personal material success expanding to create family wealth and legacy",
+          "meaning": "Individual achievement creating lasting material foundation for others",
+          "shadow": "Materialistic family dysfunction, or wealth without wisdom"
+        }
+      }
+    },
+    "numerical_resonances": {
+      "cross_suit_resonances": {
+        "all_aces": {
+          "meaning": "Multiple new beginnings, overwhelming potential, divine gifts arriving simultaneously",
+          "interpretation": "Major life renewal across all areas - spiritual, emotional, mental, and physical",
+          "timing": "Spring equinox energy, major life transitions, spiritual initiations",
+          "advice": "Focus on one area at a time while remaining open to all possibilities"
+        },
+        "all_twos": {
+          "meaning": "Choices, partnerships, and balance dominating life situation",
+          "interpretation": "Life requiring careful balance and important relationship decisions",
+          "timing": "Times of major decision-making, relationship formation or challenges",
+          "advice": "Seek balance in all areas while making necessary choices"
+        },
+        "all_threes": {
+          "meaning": "Creative expansion, group formation, and initial manifestation",
+          "interpretation": "Period of growth, collaboration, and creative expression",
+          "timing": "Growth phases, when community support is strong",
+          "advice": "Embrace collaboration while maintaining creative integrity"
+        },
+        "all_fours": {
+          "meaning": "Foundation, stability, and structure in all areas of life",
+          "interpretation": "Time of building solid foundations and creating stability",
+          "timing": "Consolidation periods, when groundwork is needed",
+          "advice": "Build slowly and steadily, ensure all foundations are solid"
+        },
+        "all_fives": {
+          "meaning": "Crisis, conflict, and challenge across all life areas",
+          "interpretation": "Major testing period requiring courage and adaptability",
+          "timing": "Crisis periods, major life challenges, spiritual testing",
+          "advice": "Remember that challenges are opportunities for growth"
+        },
+        "all_sixes": {
+          "meaning": "Harmony, balance, and resolution following challenges",
+          "interpretation": "Period of peace and balance after difficulties",
+          "timing": "Recovery periods, when harmony is being restored",
+          "advice": "Appreciate peace while preparing for future growth"
+        },
+        "all_sevens": {
+          "meaning": "Spiritual testing, perseverance, and inner development",
+          "interpretation": "Deep spiritual work requiring sustained effort and vision",
+          "timing": "Spiritual development phases, vision quest periods",
+          "advice": "Trust inner vision while maintaining practical grounding"
+        },
+        "all_eights": {
+          "meaning": "Mastery, skill development, and dedicated effort",
+          "interpretation": "Time of developing expertise and honing abilities",
+          "timing": "Skill-building phases, professional development periods",
+          "advice": "Commit to excellence while maintaining life balance"
+        },
+        "all_nines": {
+          "meaning": "Near completion, wisdom, and preparation for new cycle",
+          "interpretation": "Wisdom phase before major completion or transition",
+          "timing": "Before major life completions, wisdom-gathering periods",
+          "advice": "Prepare for completion while remaining open to final lessons"
+        },
+        "all_tens": {
+          "meaning": "Completion, mastery, and transition to new cycles",
+          "interpretation": "Major life completion affecting all areas",
+          "timing": "End of major life cycles, completion of long-term goals",
+          "advice": "Celebrate completion while preparing for new beginnings"
+        }
+      }
+    }
+  },
+  "court_card_relationships": {
+    "description": "Complex personality interactions and relationship dynamics between court cards",
+    "quote": "The court cards represent not just personality types, but the entire spectrum of human relationship dynamics and psychological development stages.",
+    "author": "Mary K. Greer",
+    "source": "Understanding the Tarot Court",
+    "personality_matrices": {
+      "age_and_development": {
+        "pages": {
+          "age_range": "Child to young adult (0-21)",
+          "psychological_stage": "Learning, exploring, beginning to develop elemental nature",
+          "relationship_style": "Curious, enthusiastic, sometimes naive or inexperienced",
+          "growth_challenges": "Learning boundaries, developing skills, finding direction",
+          "shadow_aspects": "Immaturity, irresponsibility, lack of follow-through"
+        },
+        "knights": {
+          "age_range": "Young adult to adult (18-35)",
+          "psychological_stage": "Active pursuit, quest for mastery, extreme expression of element",
+          "relationship_style": "Passionate, focused, sometimes obsessive or imbalanced",
+          "growth_challenges": "Learning balance, tempering extremes, developing patience",
+          "shadow_aspects": "Fanaticism, burnout, tunnel vision"
+        },
+        "queens": {
+          "age_range": "Adult to mature adult (25-60)",
+          "psychological_stage": "Mastery of element's receptive aspects, nurturing others' development",
+          "relationship_style": "Supportive, intuitive, emotionally intelligent, sometimes protective",
+          "growth_challenges": "Balancing self-care with caring for others, maintaining boundaries",
+          "shadow_aspects": "Codependency, manipulation through emotion, martyrdom"
+        },
+        "kings": {
+          "age_range": "Mature adult to elder (35+)",
+          "psychological_stage": "Mastery of element's active aspects, leadership and teaching",
+          "relationship_style": "Authoritative, goal-oriented, protective, sometimes distant",
+          "growth_challenges": "Staying connected to feelings, delegating authority, mentoring others",
+          "shadow_aspects": "Tyranny, emotional disconnection, abuse of power"
+        }
+      },
+      "elemental_personality_interactions": {
+        "fire_personalities": {
+          "page_of_wands": {
+            "core_traits": ["enthusiastic", "creative", "impulsive", "optimistic"],
+            "relationship_needs": "Encouragement, creative outlets, adventure, inspiration",
+            "compatibility": {
+              "high": ["Other fire types", "Air personalities", "Earth pages/queens"],
+              "medium": ["Water queens", "Earth kings"],
+              "challenging": ["Water knights/kings", "Earth knights", "Air knights"]
+            },
+            "communication_style": "Direct, enthusiastic, sometimes overwhelming",
+            "conflict_resolution": "Needs time to cool down, responds to humor and creativity"
+          },
+          "knight_of_wands": {
+            "core_traits": ["impulsive", "adventurous", "passionate", "restless"],
+            "relationship_needs": "Freedom, excitement, physical activity, new challenges",
+            "compatibility": {
+              "high": ["Fire pages", "Air pages/knights", "adventurous types"],
+              "medium": ["Fire queens/kings", "Air queens"],
+              "challenging": ["Water types", "Earth types", "overly structured personalities"]
+            },
+            "communication_style": "Fast-paced, action-oriented, sometimes impatient",
+            "conflict_resolution": "Needs physical outlet, responds to challenge rather than criticism"
+          },
+          "queen_of_wands": {
+            "core_traits": ["confident", "charismatic", "warm", "protective"],
+            "relationship_needs": "Appreciation, creative expression, loyal relationships, respect",
+            "compatibility": {
+              "high": ["All fire types", "Earth queens/kings", "Air queens"],
+              "medium": ["Water queens", "Air kings"],
+              "challenging": ["Water knights", "overly critical or cold personalities"]
+            },
+            "communication_style": "Warm but authoritative, inspiring, protective",
+            "conflict_resolution": "Responds to honesty and directness, needs respect maintained"
+          },
+          "king_of_wands": {
+            "core_traits": ["natural leader", "visionary", "generous", "commanding"],
+            "relationship_needs": "Respect, independence, opportunities to lead, loyal followers",
+            "compatibility": {
+              "high": ["Fire queens", "Earth queens/kings", "Air pages/queens"],
+              "medium": ["Fire pages/knights", "Air kings"],
+              "challenging": ["Water knights/kings", "other strong leaders", "overly emotional types"]
+            },
+            "communication_style": "Commanding, inspiring, sometimes impatient with details",
+            "conflict_resolution": "Responds to logic and respect, needs to maintain dignity"
+          }
+        },
+        "water_personalities": {
+          "page_of_cups": {
+            "core_traits": ["sensitive", "intuitive", "artistic", "dreamy"],
+            "relationship_needs": "Emotional safety, creative expression, gentle guidance, understanding",
+            "compatibility": {
+              "high": ["Water types", "Earth queens", "Air pages"],
+              "medium": ["Fire queens", "Earth pages"],
+              "challenging": ["Fire knights/kings", "Air knights/kings", "harsh personalities"]
+            },
+            "communication_style": "Gentle, indirect, emotionally expressive",
+            "conflict_resolution": "Needs emotional safety, responds to kindness and patience"
+          },
+          "knight_of_cups": {
+            "core_traits": ["romantic", "idealistic", "moody", "artistic"],
+            "relationship_needs": "Romance, emotional depth, artistic appreciation, understanding",
+            "compatibility": {
+              "high": ["Water queens", "Earth queens", "Air pages/queens"],
+              "medium": ["Water pages", "Fire queens"],
+              "challenging": ["Fire knights/kings", "Air kings", "practical-only personalities"]
+            },
+            "communication_style": "Emotionally rich, poetic, sometimes overly dramatic",
+            "conflict_resolution": "Needs emotional validation, responds to beauty and romance"
+          },
+          "queen_of_cups": {
+            "core_traits": ["empathetic", "intuitive", "nurturing", "psychic"],
+            "relationship_needs": "Emotional connection, spiritual growth, helping others, peace",
+            "compatibility": {
+              "high": ["All water types", "Earth types", "sensitive personalities"],
+              "medium": ["Fire queens", "Air queens"],
+              "challenging": ["Fire knights", "Air knights/kings", "emotionally unavailable types"]
+            },
+            "communication_style": "Emotionally intelligent, intuitive, sometimes indirect",
+            "conflict_resolution": "Seeks emotional understanding, responds to empathy and care"
+          },
+          "king_of_cups": {
+            "core_traits": ["emotionally balanced", "wise", "compassionate", "controlled"],
+            "relationship_needs": "Emotional depth, intellectual stimulation, helping others, respect",
+            "compatibility": {
+              "high": ["Water queens", "Earth queens/kings", "Air queens/kings"],
+              "medium": ["Water pages/knights", "Fire queens"],
+              "challenging": ["Fire knights", "overly emotional or overly cold personalities"]
+            },
+            "communication_style": "Balanced, wise, emotionally aware but controlled",
+            "conflict_resolution": "Seeks understanding, responds to emotional intelligence and respect"
+          }
+        },
+        "air_personalities": {
+          "page_of_swords": {
+            "core_traits": ["curious", "quick-witted", "communicative", "restless"],
+            "relationship_needs": "Mental stimulation, communication, learning opportunities, variety",
+            "compatibility": {
+              "high": ["Air types", "Fire pages/queens", "intellectually curious types"],
+              "medium": ["Water pages", "Earth pages"],
+              "challenging": ["Earth knights/kings", "Water knights", "anti-intellectual types"]
+            },
+            "communication_style": "Quick, questioning, sometimes tactless or scattered",
+            "conflict_resolution": "Needs logical explanation, responds to intellectual engagement"
+          },
+          "knight_of_swords": {
+            "core_traits": ["intellectual", "aggressive", "truth-seeking", "impatient"],
+            "relationship_needs": "Intellectual challenge, truth, efficiency, respect for intelligence",
+            "compatibility": {
+              "high": ["Air types", "Fire knights"],
+              "medium": ["Fire queens/kings", "Earth kings"],
+              "challenging": ["Water types", "Earth queens", "emotionally-driven personalities"]
+            },
+            "communication_style": "Direct, logical, sometimes cutting or insensitive",
+            "conflict_resolution": "Needs logical argument, responds to intellectual respect"
+          },
+          "queen_of_swords": {
+            "core_traits": ["intelligent", "independent", "direct", "perceptive"],
+            "relationship_needs": "Intellectual equality, honesty, independence, clear communication",
+            "compatibility": {
+              "high": ["Air kings", "Fire queens/kings", "intellectually honest types"],
+              "medium": ["Air pages/knights", "Earth kings"],
+              "challenging": ["Water knights", "dishonest types", "overly emotional personalities"]
+            },
+            "communication_style": "Clear, direct, intellectually honest, sometimes cutting",
+            "conflict_resolution": "Needs honesty and logic, responds to intellectual respect"
+          },
+          "king_of_swords": {
+            "core_traits": ["authoritative", "logical", "fair", "detached"],
+            "relationship_needs": "Intellectual respect, fairness, efficiency, clear boundaries",
+            "compatibility": {
+              "high": ["Air queens", "Fire kings", "Earth kings"],
+              "medium": ["Air pages/knights", "Fire queens"],
+              "challenging": ["Water types", "emotional personalities", "illogical types"]
+            },
+            "communication_style": "Authoritative, logical, fair but detached",
+            "conflict_resolution": "Needs logical argument and respect for authority"
+          }
+        },
+        "earth_personalities": {
+          "page_of_pentacles": {
+            "core_traits": ["practical", "studious", "reliable", "cautious"],
+            "relationship_needs": "Security, learning opportunities, practical goals, stability",
+            "compatibility": {
+              "high": ["Earth types", "Water types", "stable personalities"],
+              "medium": ["Fire queens", "Air pages"],
+              "challenging": ["Fire knights", "Air knights", "unstable personalities"]
+            },
+            "communication_style": "Practical, careful, sometimes slow or overly cautious",
+            "conflict_resolution": "Needs security and practical solutions"
+          },
+          "knight_of_pentacles": {
+            "core_traits": ["methodical", "persistent", "hardworking", "stubborn"],
+            "relationship_needs": "Appreciation for effort, practical goals, stability, patience",
+            "compatibility": {
+              "high": ["Earth types", "Water queens/kings"],
+              "medium": ["Fire queens/kings", "Air queens"],
+              "challenging": ["Fire knights", "Air knights", "impatient personalities"]
+            },
+            "communication_style": "Deliberate, practical, sometimes stubborn or slow",
+            "conflict_resolution": "Needs time and practical approach, responds to patience"
+          },
+          "queen_of_pentacles": {
+            "core_traits": ["nurturing", "practical", "resourceful", "grounded"],
+            "relationship_needs": "Family security, practical comfort, helping others, stability",
+            "compatibility": {
+              "high": ["All earth types", "Water types", "family-oriented personalities"],
+              "medium": ["Fire queens", "Air queens"],
+              "challenging": ["Fire knights", "Air knights", "unstable personalities"]
+            },
+            "communication_style": "Warm, practical, nurturing, sometimes protective",
+            "conflict_resolution": "Seeks practical solutions and family harmony"
+          },
+          "king_of_pentacles": {
+            "core_traits": ["successful", "generous", "practical", "authoritative"],
+            "relationship_needs": "Respect for achievement, practical partnerships, stability, legacy",
+            "compatibility": {
+              "high": ["Earth queens", "Water kings", "Fire kings"],
+              "medium": ["Earth pages/knights", "Air kings"],
+              "challenging": ["Fire knights", "Air knights", "impractical personalities"]
+            },
+            "communication_style": "Authoritative, practical, generous but business-like",
+            "conflict_resolution": "Responds to practical solutions and respect for authority"
+          }
+        }
+      }
+    },
+    "relationship_dynamics": {
+      "romantic_compatibility": {
+        "fire_fire": {
+          "dynamic": "Passionate and energetic but potentially combustible",
+          "strengths": ["intense attraction", "shared enthusiasm", "mutual inspiration"],
+          "challenges": ["competition", "burnout", "lack of emotional depth"],
+          "advice": "Take turns leading, create cooling-off periods, develop emotional intelligence together"
+        },
+        "water_water": {
+          "dynamic": "Emotionally deep but potentially stagnant",
+          "strengths": ["emotional intimacy", "intuitive understanding", "spiritual connection"],
+          "challenges": ["emotional overwhelm", "lack of action", "codependency"],
+          "advice": "Maintain individual identity, take practical action together, avoid emotional enmeshment"
+        },
+        "air_air": {
+          "dynamic": "Intellectually stimulating but potentially detached",
+          "strengths": ["mental compatibility", "excellent communication", "shared interests"],
+          "challenges": ["emotional distance", "over-analysis", "lack of grounding"],
+          "advice": "Develop emotional intimacy, spend time in nature, engage in physical activities together"
+        },
+        "earth_earth": {
+          "dynamic": "Stable and practical but potentially boring",
+          "strengths": ["security", "shared values", "practical partnership"],
+          "challenges": ["lack of excitement", "resistance to change", "emotional suppression"],
+          "advice": "Add adventure and spontaneity, express emotions more, try new experiences together"
+        },
+        "fire_water": {
+          "dynamic": "Transformative but potentially volatile",
+          "strengths": ["passion meets depth", "emotional healing", "creative transformation"],
+          "challenges": ["emotional volatility", "steam burns", "mutual annihilation"],
+          "advice": "Learn each other's rhythm, create safety for emotional expression, find the alchemy in conflict"
+        },
+        "fire_air": {
+          "dynamic": "Exciting and inspiring with mutual enhancement",
+          "strengths": ["intellectual passion", "shared adventures", "mutual inspiration"],
+          "challenges": ["lack of grounding", "superficiality", "burnout"],
+          "advice": "Build practical foundations, develop emotional depth, take rest periods"
+        },
+        "fire_earth": {
+          "dynamic": "Complementary but requiring patience",
+          "strengths": ["vision meets practicality", "passion meets stability", "creative manifestation"],
+          "challenges": ["different paces", "frustration", "value conflicts"],
+          "advice": "Respect different rhythms, appreciate complementary strengths, find middle ground"
+        },
+        "water_air": {
+          "dynamic": "Emotionally complex requiring integration",
+          "strengths": ["emotional intelligence", "intuitive communication", "artistic collaboration"],
+          "challenges": ["emotional confusion", "over-analysis of feelings", "instability"],
+          "advice": "Balance emotion with logic, ground insights in practical action, maintain clear communication"
+        },
+        "water_earth": {
+          "dynamic": "Naturally harmonious and fertile",
+          "strengths": ["emotional security", "nurturing relationship", "practical love"],
+          "challenges": ["stagnation", "resistance to change", "over-protection"],
+          "advice": "Introduce gentle change, maintain individual growth, avoid emotional stagnation"
+        },
+        "air_earth": {
+          "dynamic": "Complementary but requiring patience",
+          "strengths": ["ideas meet practical application", "mental stimulation", "grounded communication"],
+          "challenges": ["different values", "pace conflicts", "misunderstanding"],
+          "advice": "Value each other's contributions, be patient with different approaches, find practical applications for ideas"
+        }
+      }
+    }
+  }
+}
