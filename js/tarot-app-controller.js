@@ -937,11 +937,8 @@ class TarotAppController {
             // Display analysis
             this.displayAnalysis();
             
-            // Show analysis panel
+            // Show analysis panel (no auto-scroll for cleaner UX)
             this.showElement('analysisPanel');
-            
-            // Smooth scroll to analysis
-            document.getElementById('analysisPanel').scrollIntoView({ behavior: 'smooth' });
         } catch (error) {
             console.error('Error analyzing reading:', error);
             alert('Error analyzing reading. Please try again.');
@@ -951,25 +948,81 @@ class TarotAppController {
     displayAnalysis() {
         if (!this.currentAnalysis) return;
 
-        // Update each analysis tab
-        this.updateOverviewTab();
-        this.updatePsychologyTab();
-        this.updateSpiritualTab();
-        this.updateKabbalahTab();
-        this.updateChakrasTab();
-        this.updateArchetypesTab();
-        this.updateTimingTab();
-        this.updateKarmaTab();
-        this.updateNumerologyTab();
-        this.updateElementsTab();
-        this.updateAstrologyTab();
-        this.updateGeometryTab();
-        this.updateSymbolismTab();
-        this.updateInteractionsTab();
-        this.updateShadowTab();
-        this.updateAlchemyTab();
+        // Define tabs with their update methods and data validation
+        const tabs = [
+            { id: 'overview', updateMethod: () => this.updateOverviewTab(), hasData: () => true }, // Always show overview
+            { id: 'psychology', updateMethod: () => this.updatePsychologyTab(), hasData: () => this.hasAnalysisData('psychology') },
+            { id: 'spiritual', updateMethod: () => this.updateSpiritualTab(), hasData: () => this.hasAnalysisData('spiritual') },
+            { id: 'kabbalah', updateMethod: () => this.updateKabbalahTab(), hasData: () => this.hasAnalysisData('kabbalah') },
+            { id: 'chakras', updateMethod: () => this.updateChakrasTab(), hasData: () => this.hasAnalysisData('chakras') },
+            { id: 'archetypes', updateMethod: () => this.updateArchetypesTab(), hasData: () => this.hasAnalysisData('archetypes') },
+            { id: 'timing', updateMethod: () => this.updateTimingTab(), hasData: () => this.hasAnalysisData('timing') },
+            { id: 'karma', updateMethod: () => this.updateKarmaTab(), hasData: () => this.hasAnalysisData('karma') },
+            { id: 'numerology', updateMethod: () => this.updateNumerologyTab(), hasData: () => this.hasAnalysisData('numerology') },
+            { id: 'elements', updateMethod: () => this.updateElementsTab(), hasData: () => this.hasAnalysisData('elemental') },
+            { id: 'astrology', updateMethod: () => this.updateAstrologyTab(), hasData: () => this.hasAnalysisData('astrologicalTransits') },
+            { id: 'geometry', updateMethod: () => this.updateGeometryTab(), hasData: () => this.hasAnalysisData('sacredGeometry') },
+            { id: 'symbolism', updateMethod: () => this.updateSymbolismTab(), hasData: () => this.hasAnalysisData('symbolism') },
+            { id: 'interactions', updateMethod: () => this.updateInteractionsTab(), hasData: () => this.hasAnalysisData('cardInteractions') },
+            { id: 'shadow', updateMethod: () => this.updateShadowTab(), hasData: () => this.hasAnalysisData('shadowWork') },
+            { id: 'alchemy', updateMethod: () => this.updateAlchemyTab(), hasData: () => this.hasAnalysisData('alchemical') }
+        ];
+
+        // Update tabs and hide those without meaningful data
+        tabs.forEach(tab => {
+            const tabButton = document.querySelector(`[data-tab="${tab.id}"]`);
+            const tabContent = document.getElementById(`${tab.id}Tab`);
+            
+            if (tab.hasData()) {
+                // Update the tab content
+                tab.updateMethod();
+                // Show the tab
+                if (tabButton) tabButton.style.display = 'block';
+                if (tabContent) tabContent.style.display = 'block';
+            } else {
+                // Hide tabs without meaningful data
+                if (tabButton) tabButton.style.display = 'none';
+                if (tabContent) tabContent.style.display = 'none';
+            }
+        });
         this.updateMythologyTab();
         this.updateQuantumTab();
+    }
+
+    // Helper function to check if analysis section has meaningful data
+    hasAnalysisData(sectionKey) {
+        if (!this.currentAnalysis || !this.currentAnalysis[sectionKey]) return false;
+        
+        const section = this.currentAnalysis[sectionKey];
+        
+        // Check for meaningful content based on section type
+        if (Array.isArray(section)) {
+            return section.length > 0;
+        }
+        
+        if (typeof section === 'object') {
+            // Check for arrays with content
+            const hasArraysWithContent = Object.values(section).some(value => 
+                Array.isArray(value) && value.length > 0
+            );
+            
+            // Check for non-empty strings
+            const hasNonEmptyStrings = Object.values(section).some(value => 
+                typeof value === 'string' && value.trim().length > 0 && 
+                !value.includes('requires JSON database') && 
+                !value.includes('not available')
+            );
+            
+            return hasArraysWithContent || hasNonEmptyStrings;
+        }
+        
+        if (typeof section === 'string') {
+            return section.length > 0 && 
+                   !section.includes('requires JSON database') && 
+                   !section.includes('not available');
+        }
+        
+        return false;
     }
 
     updateOverviewTab() {
