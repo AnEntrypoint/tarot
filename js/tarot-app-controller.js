@@ -180,6 +180,11 @@ class TarotAppController {
         this.readingInProgress = false;
         this.disableDeckInteraction();
         this.hideElement('deckContainer');
+        // Remove ready-to-draw class when hiding deck
+        const deckCard = document.querySelector('.deck-card');
+        if (deckCard) {
+            deckCard.classList.remove('ready-to-draw');
+        }
         
         // Show action buttons
         this.showButton('saveReadingBtn');
@@ -1832,6 +1837,11 @@ class TarotAppController {
         this.showElement('spreadSelection');
         this.hideAllButtons();
         this.hideElement('deckContainer');
+        // Remove ready-to-draw class when resetting
+        const deckCard = document.querySelector('.deck-card');
+        if (deckCard) {
+            deckCard.classList.remove('ready-to-draw');
+        }
         this.hideElement('readingSummary');
         this.hideElement('analysisPanel');
         this.clearReadingArea();
@@ -2018,6 +2028,11 @@ class TarotAppController {
         this.showElement('deckContainer');
         this.updateInstructionText(`Draw ${this.currentSpread.cardCount} card(s) for your ${this.currentSpread.name} reading. Click the deck to draw your first card.`);
         this.enableDeckInteraction();
+        // Add ready-to-draw class to show "CLICK TO DRAW" text
+        const deckCard = document.querySelector('.deck-card');
+        if (deckCard) {
+            deckCard.classList.add('ready-to-draw');
+        }
     }
     
     startManualMode() {
