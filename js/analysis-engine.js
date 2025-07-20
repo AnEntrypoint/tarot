@@ -8,6 +8,32 @@ class AnalysisEngine {
         this.isInitialized = false;
         this.initializationPromise = null;
         
+        // Basic Jungian archetypes for fallback
+        this.jungianArchetypes = {
+            "The Fool": "Innocent",
+            "The Magician": "Magician",
+            "The High Priestess": "Sage",
+            "The Empress": "Mother",
+            "The Emperor": "Ruler",
+            "The Hierophant": "Teacher",
+            "The Lovers": "Lover",
+            "The Chariot": "Hero",
+            "Strength": "Hero",
+            "The Hermit": "Sage",
+            "Wheel of Fortune": "Magician",
+            "Justice": "Ruler",
+            "The Hanged Man": "Martyr",
+            "Death": "Destroyer",
+            "Temperance": "Sage",
+            "The Devil": "Shadow",
+            "The Tower": "Destroyer",
+            "The Star": "Innocent",
+            "The Moon": "Shadow",
+            "The Sun": "Hero",
+            "Judgement": "Sage",
+            "The World": "Sage"
+        };
+        
         // Listen for data loader ready event
         window.addEventListener('tarotDataLoaded', () => {
             this.initialize();
@@ -98,7 +124,7 @@ class AnalysisEngine {
     }
 
     // Generate reading overview
-    generateOverview(cards, spreadType) {
+    async generateOverview(cards, spreadType) {
         const majorArcana = cards.filter(c => c.suit === "Major Arcana").length;
         const courtCards = cards.filter(c => ["King", "Queen", "Knight", "Page"].some(court => c.name.includes(court))).length;
         const reversedCards = cards.filter(c => c.isReversed).length;
@@ -123,59 +149,6 @@ class AnalysisEngine {
                 The energy pattern suggests ${energyFlow.toLowerCase()}, indicating the current flow of circumstances in your life.`;
     }
 
-    // Analyze elemental balance
-    analyzeElementalBalance(cards) {
-        const elements = { Fire: 0, Water: 0, Air: 0, Earth: 0 };
-        
-        cards.forEach(card => {
-            if (card.element && elements.hasOwnProperty(card.element)) {
-                elements[card.element]++;
-            }
-            
-            // Add suit-based elemental analysis
-            if (card.suit === "Wands") elements.Fire++;
-            else if (card.suit === "Cups") elements.Water++;
-            else if (card.suit === "Swords") elements.Air++;
-            else if (card.suit === "Pentacles") elements.Earth++;
-        });
-
-        const dominant = Object.keys(elements).reduce((a, b) => elements[a] > elements[b] ? a : b);
-        const lacking = Object.keys(elements).reduce((a, b) => elements[a] < elements[b] ? a : b);
-        
-        return {
-            distribution: elements,
-            dominant,
-            lacking,
-            balance: this.calculateElementalBalance(elements),
-            interpretation: this.generateElementalInterpretation(dominant, lacking, elements)
-        };
-    }
-
-    generateElementalInterpretation(dominant, lacking, elements) {
-        const dominantMeaning = {
-            Fire: "passion, creativity, and action dominate your current situation",
-            Water: "emotions, intuition, and relationships are the primary focus",
-            Air: "thoughts, communication, and mental clarity are emphasized",
-            Earth: "practical matters, material concerns, and stability are highlighted"
-        };
-
-        const lackingMeaning = {
-            Fire: "you may need more passion and initiative",
-            Water: "emotional connection and intuition may be lacking",
-            Air: "clearer thinking and communication might be needed",
-            Earth: "more grounding and practical focus could be beneficial"
-        };
-
-        return `${dominantMeaning[dominant]}. However, ${lackingMeaning[lacking]}.`;
-    }
-
-    // Calculate elemental balance score
-    calculateElementalBalance(elements) {
-        const total = Object.values(elements).reduce((sum, count) => sum + count, 0);
-        const average = total / 4;
-        const variance = Object.values(elements).reduce((sum, count) => sum + Math.pow(count - average, 2), 0) / 4;
-        return Math.max(0, 100 - (variance * 10)); // Higher score = more balanced
-    }
 
     // Analyze suit distribution
     analyzeSuitDistribution(cards) {
@@ -248,14 +221,23 @@ class AnalysisEngine {
     }
 
     // Analyze Jungian psychological patterns
-    analyzeJungianPattern(cards) {
+    async analyzeJungianPattern(cards) {
+        await this.ensureInitialized();
+        
         const archetypes = {};
         const shadowWork = [];
         const animaAnimus = [];
+        
+        // Get psychology data from JSON database if available
+        const psychologyData = this.isInitialized ? this.dataLoader.getData('psychology') : {};
+        const jungianData = psychologyData.jungian_archetypes?.major_arcana_correspondences || {};
 
         cards.forEach(card => {
-            if (this.jungianArchetypes[card.name]) {
-                const archetype = this.jungianArchetypes[card.name];
+            // Try JSON data first, fallback to basic archetypes
+            const archetypeData = jungianData[card.name];
+            const archetype = archetypeData?.primary_archetype || this.getBasicArchetype(card);
+            
+            if (archetype) {
                 archetypes[archetype] = (archetypes[archetype] || 0) + 1;
 
                 // Check for shadow work (reversed cards)
@@ -265,10 +247,12 @@ class AnalysisEngine {
 
                 // Check for anima/animus patterns
                 if (["The Empress", "The High Priestess", "Queen of Cups", "Queen of Pentacles"].includes(card.name)) {
-                    animaAnimus.push(`Anima: ${card.name} - ${this.getAnimaAnimusMeaning(card.name, "anima")}`);
+                    const animaMeaning = archetypeData?.anima_aspect || this.getAnimaAnimusMeaning(card.name, "anima");
+                    animaAnimus.push(`Anima: ${card.name} - ${animaMeaning}`);
                 }
                 if (["The Emperor", "The Magician", "King of Wands", "King of Swords"].includes(card.name)) {
-                    animaAnimus.push(`Animus: ${card.name} - ${this.getAnimaAnimusMeaning(card.name, "animus")}`);
+                    const animusMeaning = archetypeData?.animus_aspect || this.getAnimaAnimusMeaning(card.name, "animus");
+                    animaAnimus.push(`Animus: ${card.name} - ${animusMeaning}`);
                 }
             }
         });
@@ -2305,6 +2289,30 @@ class AnalysisEngine {
         });
         
         return interpretation;
+    }
+    
+    // Get basic archetype for cards without JSON data
+    getBasicArchetype(card) {
+        // Check if it's a Major Arcana card
+        if (card.suit === "Major Arcana" && this.jungianArchetypes[card.name]) {
+            return this.jungianArchetypes[card.name];
+        }
+        
+        // For Minor Arcana, assign based on court cards
+        if (card.name.includes("King")) return "Ruler";
+        if (card.name.includes("Queen")) return "Mother";
+        if (card.name.includes("Knight")) return "Hero";
+        if (card.name.includes("Page")) return "Innocent";
+        
+        // For numbered cards, use suit-based archetypes
+        const suitArchetypes = {
+            "Wands": "Magician",
+            "Cups": "Lover",
+            "Swords": "Hero",
+            "Pentacles": "Creator"
+        };
+        
+        return suitArchetypes[card.suit] || "Seeker";
     }
 }
 

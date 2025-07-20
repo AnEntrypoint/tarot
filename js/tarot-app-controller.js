@@ -924,20 +924,25 @@ class TarotAppController {
         return focuses[element] || "balanced energy";
     }
 
-    analyzeReading() {
+    async analyzeReading() {
         if (!this.drawnCards.length) return;
 
-        // Generate comprehensive analysis
-        this.currentAnalysis = this.analysisEngine.analyzeReading(this.drawnCards, this.currentSpread.type);
-        
-        // Display analysis
-        this.displayAnalysis();
-        
-        // Show analysis panel
-        this.showElement('analysisPanel');
-        
-        // Smooth scroll to analysis
-        document.getElementById('analysisPanel').scrollIntoView({ behavior: 'smooth' });
+        try {
+            // Generate comprehensive analysis
+            this.currentAnalysis = await this.analysisEngine.analyzeReading(this.drawnCards, this.currentSpread.type);
+            
+            // Display analysis
+            this.displayAnalysis();
+            
+            // Show analysis panel
+            this.showElement('analysisPanel');
+            
+            // Smooth scroll to analysis
+            document.getElementById('analysisPanel').scrollIntoView({ behavior: 'smooth' });
+        } catch (error) {
+            console.error('Error analyzing reading:', error);
+            alert('Error analyzing reading. Please try again.');
+        }
     }
 
     displayAnalysis() {
