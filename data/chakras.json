@@ -1,0 +1,472 @@
+{
+  "chakra_system": {
+    "description": "The seven major energy centers and their correspondence to tarot symbolism",
+    "quote": "The chakras are the organizational centers for the reception, assimilation, and transmission of life energies.",
+    "author": "Anodea Judith",
+    "source": "Wheels of Life",
+    "muladhara": {
+      "name": "Root Chakra",
+      "sanskrit": "Muladhara",
+      "location": "Base of spine",
+      "element": "Earth",
+      "color": "Red",
+      "sound": "LAM",
+      "petals": 4,
+      "planet": "Saturn",
+      "tarot_cards": ["The World", "Four of Pentacles", "The Emperor", "Ten of Pentacles"],
+      "major_arcana": "The World",
+      "keywords": ["survival", "grounding", "security", "foundation", "material needs"],
+      "quote": "The root chakra is the foundation of the energy system, providing the stability necessary for spiritual growth.",
+      "author": "Caroline Myss",
+      "source": "Anatomy of the Spirit",
+      "physical_associations": ["legs", "feet", "bones", "large intestine", "adrenals"],
+      "psychological_themes": {
+        "balanced": ["grounded", "secure", "stable", "present"],
+        "excessive": ["materialistic", "greedy", "fearful of change", "rigid"],
+        "deficient": ["spacey", "disconnected", "underweight", "restless"]
+      },
+      "spiritual_lesson": "Learning to trust the physical world and one's place in it",
+      "developmental_stage": "Womb to 12 months",
+      "life_issues": ["physical survival", "tribal belonging", "family loyalty"],
+      "healing_practices": ["grounding exercises", "physical exercise", "earth connection"],
+      "gemstones": ["hematite", "red jasper", "garnet", "obsidian"],
+      "essential_oils": ["cedar", "patchouli", "sandalwood", "vetiver"],
+      "yoga_poses": ["mountain pose", "warrior poses", "child's pose"],
+      "affirmations": ["I am safe", "I belong", "I have enough", "I am grounded"]
+    },
+    "svadhisthana": {
+      "name": "Sacral Chakra", 
+      "sanskrit": "Svadhisthana",
+      "location": "Lower abdomen, below navel",
+      "element": "Water",
+      "color": "Orange",
+      "sound": "VAM",
+      "petals": 6,
+      "planet": "Moon",
+      "tarot_cards": ["The Moon", "Two of Cups", "Queen of Cups", "Ace of Cups"],
+      "major_arcana": "The Moon",
+      "keywords": ["emotions", "sexuality", "creativity", "pleasure", "relationships"],
+      "quote": "The sacral chakra is the center of feeling, emotion, pleasure, sensuality, intimacy, and connection.",
+      "author": "Anodea Judith",
+      "source": "Eastern Body, Western Mind",
+      "physical_associations": ["reproductive organs", "kidneys", "bladder", "lower back"],
+      "psychological_themes": {
+        "balanced": ["creative", "emotionally stable", "passionate", "intuitive"],
+        "excessive": ["emotionally dependent", "addictive", "sexually obsessed"],
+        "deficient": ["emotionally numb", "frigid", "fearful of pleasure", "rigid"]
+      },
+      "spiritual_lesson": "Learning healthy emotional expression and creative flow",
+      "developmental_stage": "6 months to 2 years",
+      "life_issues": ["emotional expression", "sexuality", "creativity", "desire"],
+      "healing_practices": ["emotional expression", "creative arts", "water therapy"],
+      "gemstones": ["carnelian", "orange calcite", "moonstone", "amber"],
+      "essential_oils": ["ylang ylang", "orange", "rose", "jasmine"],
+      "yoga_poses": ["hip openers", "goddess pose", "pigeon pose"],
+      "affirmations": ["I feel", "I create", "I enjoy pleasure", "I am creative"]
+    },
+    "manipura": {
+      "name": "Solar Plexus Chakra",
+      "sanskrit": "Manipura", 
+      "location": "Upper abdomen, stomach area",
+      "element": "Fire",
+      "color": "Yellow",
+      "sound": "RAM",
+      "petals": 10,
+      "planet": "Mars/Sun",
+      "tarot_cards": ["The Sun", "Strength", "The Magician", "Three of Wands"],
+      "major_arcana": "The Sun",
+      "keywords": ["personal power", "confidence", "will", "transformation", "energy"],
+      "quote": "The solar plexus chakra is the center of personal power, the place of ego, of passions, impulses, anger, and strength.",
+      "author": "Osho",
+      "source": "Chakra Meditation",
+      "physical_associations": ["stomach", "liver", "pancreas", "digestive system"],
+      "psychological_themes": {
+        "balanced": ["confident", "energetic", "spontaneous", "playful"],
+        "excessive": ["aggressive", "dominating", "competitive", "arrogant"],
+        "deficient": ["passive", "fearful", "weak-willed", "poor self-esteem"]
+      },
+      "spiritual_lesson": "Learning to use personal power responsibly and with wisdom",
+      "developmental_stage": "18 months to 4 years",
+      "life_issues": ["personal power", "self-esteem", "individual will", "autonomy"],
+      "healing_practices": ["breathwork", "martial arts", "sun gazing", "core strengthening"],
+      "gemstones": ["citrine", "yellow topaz", "amber", "tiger's eye"],
+      "essential_oils": ["lemon", "grapefruit", "bergamot", "rosemary"],
+      "yoga_poses": ["warrior III", "boat pose", "twists", "core work"],
+      "affirmations": ["I can", "I am powerful", "I am confident", "I choose"]
+    },
+    "anahata": {
+      "name": "Heart Chakra",
+      "sanskrit": "Anahata",
+      "location": "Center of chest",
+      "element": "Air", 
+      "color": "Green",
+      "sound": "YAM",
+      "petals": 12,
+      "planet": "Venus",
+      "tarot_cards": ["Temperance", "The Lovers", "Six of Cups", "Two of Cups"],
+      "major_arcana": "Temperance",
+      "keywords": ["love", "compassion", "connection", "healing", "forgiveness"],
+      "quote": "The heart chakra is the center of love, compassion, and kindness. It is the seat of the soul and the gateway to higher consciousness.",
+      "author": "Deepak Chopra",
+      "source": "The Seven Spiritual Laws of Success",
+      "physical_associations": ["heart", "lungs", "circulatory system", "arms", "hands"],
+      "psychological_themes": {
+        "balanced": ["loving", "compassionate", "empathetic", "peaceful"],
+        "excessive": ["codependent", "jealous", "clingy", "poor boundaries"],
+        "deficient": ["cold", "distant", "lonely", "isolated", "critical"]
+      },
+      "spiritual_lesson": "Learning unconditional love and compassion for self and others",
+      "developmental_stage": "4 to 7 years",
+      "life_issues": ["love", "relationships", "compassion", "emotional healing"],
+      "healing_practices": ["heart-opening meditation", "forgiveness work", "service to others"],
+      "gemstones": ["rose quartz", "green aventurine", "emerald", "jade"],
+      "essential_oils": ["rose", "geranium", "eucalyptus", "pine"],
+      "yoga_poses": ["camel pose", "heart openers", "arm extensions"],
+      "affirmations": ["I love", "I forgive", "I am open to love", "I am compassionate"]
+    },
+    "vishuddha": {
+      "name": "Throat Chakra",
+      "sanskrit": "Vishuddha",
+      "location": "Throat area",
+      "element": "Space/Ether",
+      "color": "Blue", 
+      "sound": "HAM",
+      "petals": 16,
+      "planet": "Mercury",
+      "tarot_cards": ["The Hierophant", "Justice", "King of Swords", "Ace of Swords"],
+      "major_arcana": "The Hierophant",
+      "keywords": ["communication", "truth", "expression", "creativity", "authenticity"],
+      "quote": "The throat chakra is the center of communication, creativity, and truth. It is the gateway between the heart and the mind.",
+      "author": "Shakti Gawain",
+      "source": "Chakra Meditation",
+      "physical_associations": ["throat", "neck", "thyroid", "mouth", "jaw"],
+      "psychological_themes": {
+        "balanced": ["truthful", "communicative", "creative", "good listener"],
+        "excessive": ["talks too much", "gossipy", "dominating conversations"],
+        "deficient": ["afraid to speak", "shy", "withdrawn", "secretive"]
+      },
+      "spiritual_lesson": "Learning to speak and live one's truth with integrity",
+      "developmental_stage": "7 to 12 years",
+      "life_issues": ["communication", "creativity", "truth", "choice"],
+      "healing_practices": ["chanting", "singing", "truthful communication", "creative expression"],
+      "gemstones": ["blue lace agate", "sodalite", "lapis lazuli", "aquamarine"],
+      "essential_oils": ["chamomile", "eucalyptus", "frankincense", "sage"],
+      "yoga_poses": ["fish pose", "shoulder stand", "neck releases"],
+      "affirmations": ["I speak my truth", "I express myself clearly", "I am heard"]
+    },
+    "ajna": {
+      "name": "Third Eye Chakra",
+      "sanskrit": "Ajna",
+      "location": "Between eyebrows",
+      "element": "Light",
+      "color": "Indigo",
+      "sound": "OM",
+      "petals": 2,
+      "planet": "Jupiter/Neptune",
+      "tarot_cards": ["The High Priestess", "The Hermit", "Seven of Cups", "The Star"],
+      "major_arcana": "The High Priestess", 
+      "keywords": ["intuition", "wisdom", "insight", "imagination", "psychic abilities"],
+      "quote": "The third eye chakra is the center of insight, intuition, and wisdom. It is the seat of the soul's vision.",
+      "author": "Paramahansa Yogananda",
+      "source": "Autobiography of a Yogi",
+      "physical_associations": ["eyes", "brain", "pineal gland", "pituitary gland"],
+      "psychological_themes": {
+        "balanced": ["intuitive", "insightful", "imaginative", "wise"],
+        "excessive": ["obsessed with psychic experiences", "delusional", "egotistical"],
+        "deficient": ["insensitive", "poor memory", "no imagination", "difficulty visualizing"]
+      },
+      "spiritual_lesson": "Learning to see beyond physical reality and trust inner knowing",
+      "developmental_stage": "Adolescence",
+      "life_issues": ["intuition", "imagination", "wisdom", "psychic abilities"],
+      "healing_practices": ["meditation", "visualization", "dream work", "contemplation"],
+      "gemstones": ["amethyst", "lapis lazuli", "fluorite", "clear quartz"],
+      "essential_oils": ["lavender", "frankincense", "sandalwood", "rosemary"],
+      "yoga_poses": ["child's pose", "downward dog", "meditation poses"],
+      "affirmations": ["I see", "I understand", "I trust my intuition", "I am wise"]
+    },
+    "sahasrara": {
+      "name": "Crown Chakra",
+      "sanskrit": "Sahasrara", 
+      "location": "Top of head",
+      "element": "Thought/Consciousness",
+      "color": "Violet/White",
+      "sound": "Silent OM",
+      "petals": 1000,
+      "planet": "Uranus/Neptune",
+      "tarot_cards": ["The Fool", "The World", "Judgement", "The Star"],
+      "major_arcana": "The Fool/The World",
+      "keywords": ["spirituality", "enlightenment", "connection", "unity", "transcendence"],
+      "quote": "The crown chakra is the center of enlightenment, spiritual connection to the universe, and divine consciousness.",
+      "author": "Swami Muktananda",
+      "source": "Play of Consciousness",
+      "physical_associations": ["brain", "nervous system", "pineal gland"],
+      "psychological_themes": {
+        "balanced": ["wise", "understanding", "open-minded", "thoughtful"],
+        "excessive": ["overly intellectual", "spiritual addiction", "confusion"],
+        "deficient": ["learning difficulties", "spiritual skepticism", "limited beliefs"]
+      },
+      "spiritual_lesson": "Learning to connect with divine consciousness and universal wisdom",
+      "developmental_stage": "Throughout life, peaks in spiritual awakening",
+      "life_issues": ["spirituality", "connection to divine", "life purpose", "enlightenment"],
+      "healing_practices": ["meditation", "prayer", "spiritual study", "selfless service"],
+      "gemstones": ["amethyst", "clear quartz", "diamond", "selenite"],
+      "essential_oils": ["lotus", "frankincense", "myrrh", "sandalwood"],
+      "yoga_poses": ["headstand", "lotus pose", "meditation", "savasana"],
+      "affirmations": ["I understand", "I am connected", "I am divine", "I am one with all"]
+    }
+  },
+  "energy_flow_patterns": {
+    "description": "The movement and interaction of energy through the chakra system",
+    "quote": "Energy flows where attention goes. The chakras are the gateways through which life force moves through our being.",
+    "author": "Barbara Brennan",
+    "source": "Hands of Light",
+    "ascending_current": {
+      "direction": "Upward flow from root to crown",
+      "quality": "Liberation, transcendence, spiritual evolution", 
+      "tarot_correspondence": "The Fool's journey through Major Arcana",
+      "purpose": "Moving from material to spiritual consciousness",
+      "practices": ["meditation", "breathwork", "yoga", "spiritual study"],
+      "blockages": "Unresolved lower chakra issues prevent higher development"
+    },
+    "descending_current": {
+      "direction": "Downward flow from crown to root",
+      "quality": "Manifestation, grounding, bringing heaven to earth",
+      "tarot_correspondence": "Bringing spiritual insights into practical reality",
+      "purpose": "Integrating spiritual wisdom into daily life",
+      "practices": ["service", "creative expression", "practical application"],
+      "blockages": "Spiritual bypassing or inability to ground insights"
+    },
+    "horizontal_flows": {
+      "description": "Energy flowing between chakras at same level",
+      "heart_connections": "Connecting with others through heart chakra",
+      "throat_expressions": "Communicating and sharing with others",
+      "third_eye_telepathy": "Psychic and intuitive connections",
+      "tarot_application": "Understanding relationships between court cards of same rank"
+    }
+  },
+  "aura_layers": {
+    "description": "The seven layers of the human energy field",
+    "quote": "The aura is the electromagnetic field that surrounds the human body and every living thing that exists.",
+    "author": "Barbara Ann Brennan",
+    "source": "Light Emerging",
+    "etheric_body": {
+      "layer": 1,
+      "chakra_connection": "Root chakra",
+      "distance": "1/4 to 2 inches from body",
+      "color": "Blue-gray",
+      "function": "Physical vitality and health",
+      "tarot_correspondence": "Suit of Pentacles - physical manifestation",
+      "characteristics": "Exact duplicate of physical body in energy form",
+      "healing_focus": "Physical health and energy levels"
+    },
+    "emotional_body": {
+      "layer": 2,
+      "chakra_connection": "Sacral chakra", 
+      "distance": "1 to 3 inches from body",
+      "color": "All colors of the rainbow",
+      "function": "Emotions and feelings",
+      "tarot_correspondence": "Suit of Cups - emotional experiences",
+      "characteristics": "Fluid, flowing colors that change with emotions",
+      "healing_focus": "Emotional balance and expression"
+    },
+    "mental_body": {
+      "layer": 3,
+      "chakra_connection": "Solar plexus chakra",
+      "distance": "3 to 8 inches from body", 
+      "color": "Yellow, radiating outward",
+      "function": "Thoughts and mental processes",
+      "tarot_correspondence": "Suit of Swords - mental activity",
+      "characteristics": "Bright yellow light intensifying with mental activity",
+      "healing_focus": "Mental clarity and thought patterns"
+    },
+    "astral_body": {
+      "layer": 4,
+      "chakra_connection": "Heart chakra",
+      "distance": "6 inches to 1 foot from body",
+      "color": "Rose-colored light",
+      "function": "Love and relationships",
+      "tarot_correspondence": "Major Arcana - karmic relationships",
+      "characteristics": "Bridge between physical and spiritual layers",
+      "healing_focus": "Love, compassion, and relationships"
+    },
+    "etheric_template": {
+      "layer": 5,
+      "chakra_connection": "Throat chakra",
+      "distance": "1.5 to 2 feet from body",
+      "color": "Cobalt blue",
+      "function": "Divine will and speaking truth",
+      "tarot_correspondence": "Court cards - personality expressions",
+      "characteristics": "Template for etheric layer, contains sound",
+      "healing_focus": "Creative expression and truth speaking"
+    },
+    "celestial_body": {
+      "layer": 6,
+      "chakra_connection": "Third eye chakra",
+      "distance": "2 to 2.75 feet from body",
+      "color": "Pearlescent light with pastel colors",
+      "function": "Divine love and spiritual ecstasy",
+      "tarot_correspondence": "Spiritual aspects of Major Arcana",
+      "characteristics": "Opalescent light with beautiful colors",
+      "healing_focus": "Spiritual love and divine connection"
+    },
+    "ketheric_template": {
+      "layer": 7,
+      "chakra_connection": "Crown chakra",
+      "distance": "2.5 to 3.5 feet from body",
+      "color": "Golden light",
+      "function": "Divine mind and spiritual purpose",
+      "tarot_correspondence": "Highest spiritual meanings of all cards",
+      "characteristics": "Highly structured golden grid pattern",
+      "healing_focus": "Life purpose and divine connection"
+    }
+  },
+  "meridian_system": {
+    "description": "Traditional Chinese Medicine energy pathways",
+    "quote": "The meridians are rivers of energy that flow through the body, connecting all organs and systems in perfect harmony.",
+    "author": "Ted Kaptchuk",
+    "source": "The Web That Has No Weaver",
+    "primary_meridians": {
+      "lung": {
+        "element": "Metal",
+        "emotion": "Grief",
+        "tarot_correlation": "Swords suit - letting go and release",
+        "peak_time": "3-5 AM",
+        "function": "Respiration and energy distribution"
+      },
+      "large_intestine": {
+        "element": "Metal", 
+        "emotion": "Grief/Letting go",
+        "tarot_correlation": "Death card - transformation through release",
+        "peak_time": "5-7 AM",
+        "function": "Elimination and boundary setting"
+      },
+      "stomach": {
+        "element": "Earth",
+        "emotion": "Worry/Anxiety",
+        "tarot_correlation": "Pentacles suit - nourishment and security",
+        "peak_time": "7-9 AM",
+        "function": "Digestion and nourishment"
+      },
+      "spleen": {
+        "element": "Earth",
+        "emotion": "Worry/Pensiveness", 
+        "tarot_correlation": "The Hermit - contemplation and integration",
+        "peak_time": "9-11 AM",
+        "function": "Energy transformation and blood production"
+      },
+      "heart": {
+        "element": "Fire",
+        "emotion": "Joy/Overexcitement",
+        "tarot_correlation": "Cups suit - love and emotional connection",
+        "peak_time": "11 AM-1 PM",
+        "function": "Circulation and consciousness"
+      },
+      "small_intestine": {
+        "element": "Fire",
+        "emotion": "Joy/Confusion",
+        "tarot_correlation": "Two of Swords - discrimination and choice",
+        "peak_time": "1-3 PM", 
+        "function": "Absorption and discrimination"
+      },
+      "bladder": {
+        "element": "Water",
+        "emotion": "Fear/Fright",
+        "tarot_correlation": "The Moon - unconscious fears and purification",
+        "peak_time": "3-5 PM",
+        "function": "Storage and elimination of fluids"
+      },
+      "kidney": {
+        "element": "Water",
+        "emotion": "Fear/Shock",
+        "tarot_correlation": "The Tower - sudden shock and transformation",
+        "peak_time": "5-7 PM",
+        "function": "Vital essence and willpower"
+      },
+      "pericardium": {
+        "element": "Fire",
+        "emotion": "Overprotection/Vulnerability",
+        "tarot_correlation": "Four of Swords - protection and withdrawal",
+        "peak_time": "7-9 PM",
+        "function": "Heart protection and circulation"
+      },
+      "triple_heater": {
+        "element": "Fire",
+        "emotion": "Depression/Elation",
+        "tarot_correlation": "Temperance - balance and regulation",
+        "peak_time": "9-11 PM",
+        "function": "Temperature regulation and metabolism"
+      },
+      "gallbladder": {
+        "element": "Wood",
+        "emotion": "Anger/Indecision",
+        "tarot_correlation": "Seven of Wands - courage and decision making",
+        "peak_time": "11 PM-1 AM",
+        "function": "Decision making and courage"
+      },
+      "liver": {
+        "element": "Wood",
+        "emotion": "Anger/Frustration",
+        "tarot_correlation": "Wands suit - creative fire and growth",
+        "peak_time": "1-3 AM",
+        "function": "Planning and creative vision"
+      }
+    }
+  },
+  "kundalini_system": {
+    "description": "The serpent energy that rises through the chakras",
+    "quote": "Kundalini is the divine feminine energy that lies coiled at the base of the spine, waiting to be awakened to unite with divine consciousness.",
+    "author": "Swami Muktananda",
+    "source": "Kundalini: The Secret of Life",
+    "stages_of_awakening": {
+      "initial_stirring": {
+        "chakra": "Root",
+        "tarot_card": "Ace of Wands",
+        "experience": "First spark of spiritual energy awakening",
+        "symptoms": ["heat at base of spine", "increased energy", "spiritual seeking"],
+        "cautions": "Need proper guidance and grounding practices"
+      },
+      "emotional_purification": {
+        "chakra": "Sacral", 
+        "tarot_card": "Death",
+        "experience": "Emotional patterns and traumas surface for healing",
+        "symptoms": ["emotional intensity", "relationship changes", "creative surges"],
+        "cautions": "Emotional support and healthy expression needed"
+      },
+      "power_struggles": {
+        "chakra": "Solar Plexus",
+        "tarot_card": "The Tower", 
+        "experience": "Ego dissolution and power dynamics shift",
+        "symptoms": ["digestive issues", "power struggles", "authority conflicts"],
+        "cautions": "Avoid spiritual bypassing, stay grounded"
+      },
+      "heart_opening": {
+        "chakra": "Heart",
+        "tarot_card": "The Star",
+        "experience": "Unconditional love and compassion awaken",
+        "symptoms": ["overwhelming love", "psychic abilities", "healing powers"],
+        "cautions": "Maintain boundaries while staying open"
+      },
+      "truth_expression": {
+        "chakra": "Throat",
+        "tarot_card": "Judgement",
+        "experience": "Compelled to speak and live truth",
+        "symptoms": ["powerful voice", "channeling", "prophetic abilities"],
+        "cautions": "Use voice responsibly and with wisdom"
+      },
+      "psychic_opening": {
+        "chakra": "Third Eye",
+        "tarot_card": "The High Priestess",
+        "experience": "Psychic and mystical experiences increase",
+        "symptoms": ["visions", "telepathy", "precognition", "out-of-body experiences"],
+        "cautions": "Discernment crucial, avoid spiritual ego"
+      },
+      "divine_union": {
+        "chakra": "Crown",
+        "tarot_card": "The World",
+        "experience": "Unity consciousness and enlightenment",
+        "symptoms": ["bliss states", "cosmic consciousness", "miraculous healing"],
+        "cautions": "Integration with ordinary life essential"
+      }
+    }
+  }
+}

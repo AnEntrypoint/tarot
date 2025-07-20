@@ -1,0 +1,438 @@
+{
+  "classical_elements": {
+    "description": "The four classical elements and their comprehensive correspondences in tarot and spiritual systems",
+    "quote": "The four elements are the fundamental building blocks of all existence, each containing within itself the power of creation and transformation.",
+    "author": "Paracelsus",
+    "source": "The Hermetic and Alchemical Writings",
+    "fire": {
+      "symbol": "△",
+      "tarot_suit": "Wands",
+      "direction": "South",
+      "season": "Summer",
+      "time_of_day": "Noon",
+      "moon_phase": "Waxing Gibbous",
+      "qualities": ["Hot", "Dry", "Active", "Masculine"],
+      "temperament": "Choleric",
+      "life_stage": "Youth",
+      "major_arcana": ["The Sun", "Strength", "The Tower", "Judgement"],
+      "quote": "Fire is the element of transformation, passion, and divine will - the spark that ignites creation and the force that purifies through destruction.",
+      "author": "Agrippa",
+      "source": "Three Books of Occult Philosophy",
+      "psychological_function": {
+        "positive": ["enthusiasm", "courage", "leadership", "inspiration", "creativity"],
+        "negative": ["anger", "impulsiveness", "aggression", "destructiveness", "impatience"],
+        "balanced": ["passionate yet controlled", "courageous yet wise", "creative yet constructive"]
+      },
+      "spiritual_significance": "Divine will in action, spiritual transformation, creative force",
+      "body_correspondences": {
+        "systems": ["muscular", "circulatory", "nervous"],
+        "organs": ["heart", "liver", "brain"],
+        "senses": "sight",
+        "bodily_fluids": "blood"
+      },
+      "planetary_rulers": ["Sun", "Mars", "Jupiter"],
+      "zodiac_signs": ["Aries", "Leo", "Sagittarius"],
+      "chakras": ["Solar Plexus", "Root (manifestation aspect)"],
+      "colors": ["Red", "Orange", "Yellow", "Gold"],
+      "gemstones": ["Ruby", "Garnet", "Carnelian", "Citrine", "Fire Opal"],
+      "metals": ["Gold", "Iron", "Brass"],
+      "plants": {
+        "trees": ["Oak", "Cedar", "Pine", "Rowan"],
+        "herbs": ["Basil", "Cinnamon", "Ginger", "Rosemary", "Sage"],
+        "flowers": ["Sunflower", "Marigold", "Red Rose", "Carnation"]
+      },
+      "animals": ["Lion", "Eagle", "Salamander", "Phoenix", "Dragon"],
+      "mythological_beings": ["Salamanders", "Fire Dragons", "Phoenix", "Seraphim"],
+      "deities": ["Ra", "Apollo", "Agni", "Brigid", "Hestia", "Vulcan"],
+      "tarot_interpretations": {
+        "when_prominent": "Action needed, creative energy, passionate involvement",
+        "when_lacking": "Stagnation, lack of motivation, cold emotions",
+        "when_excessive": "Burnout, anger, rash decisions, destruction"
+      },
+      "magical_applications": {
+        "ritual_use": "Protection, purification, banishing, energy raising",
+        "spell_work": "Passion spells, courage magic, success rituals",
+        "tools": ["Wand", "Athame", "Candles", "Incense"],
+        "altar_direction": "South"
+      },
+      "meditation_practices": {
+        "flame_meditation": "Gazing at candle flame for concentration and willpower",
+        "fire_breathing": "Breath work to activate inner fire and energy",
+        "sun_visualization": "Connecting with solar energy for vitality"
+      },
+      "elemental_balance": {
+        "harmonizes_with": "Air (feeds fire), Earth (grounds fire energy)",
+        "conflicts_with": "Water (extinguishes), excessive Fire (burnout)",
+        "complementary_element": "Water"
+      }
+    },
+    "water": {
+      "symbol": "▽",
+      "tarot_suit": "Cups",
+      "direction": "West",
+      "season": "Autumn",
+      "time_of_day": "Sunset/Evening",
+      "moon_phase": "Full Moon",
+      "qualities": ["Cold", "Moist", "Passive", "Feminine"],
+      "temperament": "Phlegmatic",
+      "life_stage": "Maturity",
+      "major_arcana": ["The High Priestess", "The Moon", "Death", "The Star"],
+      "quote": "Water is the element of emotion, intuition, and the unconscious - the flowing force that connects all life and carries the wisdom of the depths.",
+      "author": "Carl Jung",
+      "source": "The Archetypes and the Collective Unconscious",
+      "psychological_function": {
+        "positive": ["empathy", "intuition", "compassion", "adaptability", "emotional depth"],
+        "negative": ["moodiness", "oversensitivity", "depression", "passivity", "confusion"],
+        "balanced": ["emotionally intelligent", "intuitive yet grounded", "compassionate yet boundaried"]
+      },
+      "spiritual_significance": "Divine love, emotional wisdom, unconscious knowledge, purification",
+      "body_correspondences": {
+        "systems": ["lymphatic", "endocrine", "reproductive"],
+        "organs": ["kidneys", "bladder", "reproductive organs"],
+        "senses": "taste",
+        "bodily_fluids": "lymph, hormones, reproductive fluids"
+      },
+      "planetary_rulers": ["Moon", "Neptune", "Venus"],
+      "zodiac_signs": ["Cancer", "Scorpio", "Pisces"],
+      "chakras": ["Sacral", "Heart (emotional aspect)", "Third Eye (intuitive aspect)"],
+      "colors": ["Blue", "Silver", "Sea Green", "Indigo", "Turquoise"],
+      "gemstones": ["Pearl", "Moonstone", "Aquamarine", "Amethyst", "Blue Lace Agate"],
+      "metals": ["Silver", "Copper", "Mercury"],
+      "plants": {
+        "trees": ["Willow", "Birch", "Elder", "Apple"],
+        "herbs": ["Chamomile", "Jasmine", "Lotus", "Water Lily", "Aloe"],
+        "flowers": ["Water Lily", "Iris", "Forget-me-not", "Violet"]
+      },
+      "animals": ["Fish", "Dolphin", "Swan", "Frog", "Crab", "Whale"],
+      "mythological_beings": ["Undines", "Water Nymphs", "Mermaids", "Sea Serpents"],
+      "deities": ["Isis", "Yemoja", "Poseidon", "Quan Yin", "Aphrodite", "Tiamat"],
+      "tarot_interpretations": {
+        "when_prominent": "Emotional involvement, intuitive guidance, psychic experiences",
+        "when_lacking": "Emotional blockage, lack of empathy, spiritual dryness",
+        "when_excessive": "Emotional overwhelm, confusion, inability to act"
+      },
+      "magical_applications": {
+        "ritual_use": "Purification, blessing, scrying, emotional healing",
+        "spell_work": "Love magic, healing rituals, dream work, divination",
+        "tools": ["Chalice", "Cauldron", "Mirrors", "Crystals"],
+        "altar_direction": "West"
+      },
+      "meditation_practices": {
+        "water_gazing": "Scrying in bowl of water for visions and insight",
+        "ocean_breathing": "Rhythmic breathing like waves for emotional balance",
+        "rain_meditation": "Connecting with cleansing and renewal energy"
+      },
+      "elemental_balance": {
+        "harmonizes_with": "Earth (nourishes growth), Air (creates mist and clouds)",
+        "conflicts_with": "Fire (mutual destruction), excessive Water (flood/stagnation)",
+        "complementary_element": "Fire"
+      }
+    },
+    "air": {
+      "symbol": "△ with horizontal line",
+      "tarot_suit": "Swords",
+      "direction": "East",
+      "season": "Spring",
+      "time_of_day": "Dawn/Morning",
+      "moon_phase": "New Moon",
+      "qualities": ["Hot", "Moist", "Active", "Masculine"],
+      "temperament": "Sanguine",
+      "life_stage": "Childhood",
+      "major_arcana": ["The Fool", "Justice", "The Hermit", "Temperance"],
+      "quote": "Air is the element of intellect, communication, and spirit - the breath that animates all life and carries thoughts across the infinite expanse of mind.",
+      "author": "Aristotle",
+      "source": "Meteorology",
+      "psychological_function": {
+        "positive": ["intelligence", "communication", "objectivity", "mental clarity", "adaptability"],
+        "negative": ["overthinking", "detachment", "anxiety", "indecision", "superficiality"],
+        "balanced": ["clear thinking", "effective communication", "mental flexibility"]
+      },
+      "spiritual_significance": "Divine intelligence, communication with higher realms, breath of life",
+      "body_correspondences": {
+        "systems": ["respiratory", "nervous", "circulatory"],
+        "organs": ["lungs", "brain", "nervous system"],
+        "senses": "smell",
+        "bodily_fluids": "none specifically"
+      },
+      "planetary_rulers": ["Mercury", "Uranus", "Jupiter"],
+      "zodiac_signs": ["Gemini", "Libra", "Aquarius"],
+      "chakras": ["Throat", "Third Eye (mental aspect)", "Crown (communication aspect)"],
+      "colors": ["Yellow", "Light Blue", "White", "Clear"],
+      "gemstones": ["Clear Quartz", "Citrine", "Topaz", "Fluorite", "Sodalite"],
+      "metals": ["Mercury", "Aluminum", "Tin"],
+      "plants": {
+        "trees": ["Aspen", "Hazel", "Linden", "Palm"],
+        "herbs": ["Lavender", "Peppermint", "Eucalyptus", "Frankincense", "Sage"],
+        "flowers": ["Dandelion", "Clover", "Pansy", "Primrose"]
+      },
+      "animals": ["Eagle", "Hawk", "Butterfly", "Hummingbird", "Dragonfly"],
+      "mythological_beings": ["Sylphs", "Wind Spirits", "Fairies", "Angels"],
+      "deities": ["Hermes", "Thoth", "Saraswati", "Athena", "Odin", "Quetzalcoatl"],
+      "tarot_interpretations": {
+        "when_prominent": "Mental activity, communication needs, new ideas, travel",
+        "when_lacking": "Mental fog, poor communication, lack of inspiration",
+        "when_excessive": "Mental overwhelm, anxiety, scattered thoughts, inability to focus"
+      },
+      "magical_applications": {
+        "ritual_use": "Communication, divination, travel magic, mental clarity",
+        "spell_work": "Study magic, communication spells, weather working",
+        "tools": ["Athame", "Sword", "Feather", "Incense"],
+        "altar_direction": "East"
+      },
+      "meditation_practices": {
+        "breath_awareness": "Focusing on breath for mental clarity and presence",
+        "wind_meditation": "Connecting with air currents for mental flexibility",
+        "mantra_practice": "Using sound and breath for spiritual communication"
+      },
+      "elemental_balance": {
+        "harmonizes_with": "Fire (feeds flames), Water (creates weather patterns)",
+        "conflicts_with": "Earth (erosion), excessive Air (hurricane/tornado)",
+        "complementary_element": "Earth"
+      }
+    },
+    "earth": {
+      "symbol": "▽ with horizontal line",
+      "tarot_suit": "Pentacles/Coins",
+      "direction": "North",
+      "season": "Winter",
+      "time_of_day": "Midnight/Night",
+      "moon_phase": "Waning Moon",
+      "qualities": ["Cold", "Dry", "Passive", "Feminine"],
+      "temperament": "Melancholic",
+      "life_stage": "Old Age",
+      "major_arcana": ["The World", "The Emperor", "The Empress", "The Devil"],
+      "quote": "Earth is the element of manifestation, stability, and material wisdom - the foundation upon which all spiritual growth must be built.",
+      "author": "Paracelsus",
+      "source": "The Hermetic and Alchemical Writings",
+      "psychological_function": {
+        "positive": ["practicality", "reliability", "patience", "materialism", "endurance"],
+        "negative": ["stubbornness", "materialism", "resistance to change", "depression", "greed"],
+        "balanced": ["grounded wisdom", "practical spirituality", "stable yet flexible"]
+      },
+      "spiritual_significance": "Divine manifestation, material wisdom, grounding spiritual energy",
+      "body_correspondences": {
+        "systems": ["skeletal", "digestive", "immune"],
+        "organs": ["bones", "stomach", "intestines", "skin"],
+        "senses": "touch",
+        "bodily_fluids": "digestive enzymes"
+      },
+      "planetary_rulers": ["Saturn", "Venus", "Ceres"],
+      "zodiac_signs": ["Taurus", "Virgo", "Capricorn"],
+      "chakras": ["Root", "Sacral (fertility aspect)", "Solar Plexus (material aspect)"],
+      "colors": ["Green", "Brown", "Black", "Russet", "Gold"],
+      "gemstones": ["Hematite", "Jasper", "Agate", "Emerald", "Peridot"],
+      "metals": ["Lead", "Iron", "Copper"],
+      "plants": {
+        "trees": ["Oak", "Pine", "Cedar", "Maple", "Ash"],
+        "herbs": ["Comfrey", "Patchouli", "Vetiver", "Cedar", "Pine"],
+        "flowers": ["Sunflower", "Magnolia", "Honeysuckle", "Jasmine"]
+      },
+      "animals": ["Bull", "Bear", "Wolf", "Stag", "Snake", "Badger"],
+      "mythological_beings": ["Gnomes", "Earth Spirits", "Dwarves", "Tree Spirits"],
+      "deities": ["Gaia", "Ceres", "Demeter", "Pan", "Cernunnos", "Pachamama"],
+      "tarot_interpretations": {
+        "when_prominent": "Material concerns, practical matters, need for grounding",
+        "when_lacking": "Impracticality, disconnection from reality, instability",
+        "when_excessive": "Materialism, stubbornness, resistance to spiritual growth"
+      },
+      "magical_applications": {
+        "ritual_use": "Grounding, prosperity, fertility, protection, healing",
+        "spell_work": "Money magic, healing rituals, garden blessing",
+        "tools": ["Pentacle", "Stones", "Crystals", "Salt"],
+        "altar_direction": "North"
+      },
+      "meditation_practices": {
+        "earth_connection": "Sitting or lying on earth for grounding and stability",
+        "crystal_meditation": "Using earth's gems for focused intention",
+        "tree_meditation": "Connecting with trees for wisdom and strength"
+      },
+      "elemental_balance": {
+        "harmonizes_with": "Water (creates fertility), Fire (creates pottery/transformation)",
+        "conflicts_with": "Air (erosion), excessive Earth (stagnation/rigidity)",
+        "complementary_element": "Air"
+      }
+    },
+    "spirit": {
+      "symbol": "Circle or Pentagram",
+      "description": "The fifth element that contains and transcends all others",
+      "tarot_correspondence": "Major Arcana as a whole, especially The World",
+      "direction": "Center/Above",
+      "season": "All seasons/Eternal",
+      "time": "All times/Eternal now",
+      "qualities": ["All qualities unified", "Transcendent", "Unifying"],
+      "quote": "Spirit is the fifth element that contains all others, the divine consciousness that permeates and transcends all material existence.",
+      "author": "Cornelius Agrippa",
+      "source": "Three Books of Occult Philosophy",
+      "spiritual_significance": "Divine consciousness, unity, transcendence of duality",
+      "colors": ["White", "Clear", "Rainbow", "Gold"],
+      "manifestations": ["consciousness", "life force", "divine spark", "cosmic order"],
+      "tarot_applications": "Synthesis of all elements in readings, highest spiritual meaning"
+    }
+  },
+  "elemental_dignities": {
+    "description": "How elements interact and modify each other's meanings in tarot readings",
+    "quote": "The elements do not exist in isolation but in constant interaction, each modifying and being modified by the others in an eternal dance of creation.",
+    "author": "Golden Dawn Tradition",
+    "source": "The Complete Golden Dawn System of Magic",
+    "friendly_combinations": {
+      "fire_air": {
+        "interaction": "Air feeds fire, fire heats air",
+        "tarot_meaning": "Ideas put into action, inspired communication, mental fire",
+        "enhanced_qualities": ["enthusiasm", "inspiration", "quick action", "brilliant ideas"],
+        "example_reading": "Wands and Swords together indicate inspired action and clear communication"
+      },
+      "water_earth": {
+        "interaction": "Water nourishes earth, earth shapes water",
+        "tarot_meaning": "Emotional grounding, practical love, material security",
+        "enhanced_qualities": ["fertility", "growth", "practical emotion", "stable relationships"],
+        "example_reading": "Cups and Pentacles together indicate emotional satisfaction through material security"
+      }
+    },
+    "neutral_combinations": {
+      "fire_earth": {
+        "interaction": "Fire can fertilize earth or scorch it",
+        "tarot_meaning": "Passionate materialism, creative productivity, or destructive force",
+        "variable_effects": ["creative manifestation", "burnout", "passionate work", "impractical dreams"],
+        "example_reading": "Balance needed between ambition and practicality"
+      },
+      "air_water": {
+        "interaction": "Air can create waves or mist",
+        "tarot_meaning": "Emotional communication, intuitive thinking, or mental confusion",
+        "variable_effects": ["clear communication", "emotional thought", "mental confusion", "inspired intuition"],
+        "example_reading": "Emotions and thoughts need integration"
+      }
+    },
+    "challenging_combinations": {
+      "fire_water": {
+        "interaction": "Fire and water extinguish each other",
+        "tarot_meaning": "Conflict between passion and emotion, steam and transformation",
+        "tension_effects": ["emotional suppression", "passionate cooling", "transformation through conflict"],
+        "resolution": "Find the steam - transformation through integration",
+        "example_reading": "Wands and Cups together may indicate emotional/passionate conflict requiring balance"
+      },
+      "air_earth": {
+        "interaction": "Air can erode earth or earth can block air",
+        "tarot_meaning": "Ideas vs. practicality, mental vs. material concerns",
+        "tension_effects": ["impractical thinking", "mental rigidity", "scattered material focus"],
+        "resolution": "Ground ideas in practical reality",
+        "example_reading": "Swords and Pentacles together may indicate need to make ideas practical"
+      }
+    }
+  },
+  "elemental_personalities": {
+    "description": "How the elements manifest in human personality types and court card interpretations",
+    "fire_personality": {
+      "court_cards": "Kings and Knights of Wands",
+      "core_traits": ["energetic", "passionate", "inspiring", "impatient", "creative"],
+      "motivations": ["achievement", "recognition", "adventure", "creative expression"],
+      "communication_style": "Direct, enthusiastic, inspiring, sometimes overwhelming",
+      "relationships": "Passionate, loyal, but may burn out quickly",
+      "career_preferences": ["leadership", "entrepreneurship", "arts", "sports", "military"],
+      "stress_responses": "Anger, impulsive action, burnout, destruction",
+      "growth_areas": "Patience, listening, considering consequences, cooling down"
+    },
+    "water_personality": {
+      "court_cards": "Queens and Pages of Cups",
+      "core_traits": ["emotional", "intuitive", "empathetic", "sensitive", "adaptable"],
+      "motivations": ["connection", "harmony", "emotional fulfillment", "helping others"],
+      "communication_style": "Gentle, indirect, emotionally expressive, sometimes unclear",
+      "relationships": "Deep, nurturing, intuitive, but may be overly dependent",
+      "career_preferences": ["counseling", "healing arts", "social work", "arts", "hospitality"],
+      "stress_responses": "Withdrawal, moodiness, emotional overwhelm, depression",
+      "growth_areas": "Boundaries, assertiveness, practical action, emotional regulation"
+    },
+    "air_personality": {
+      "court_cards": "Kings and Knights of Swords",
+      "core_traits": ["intellectual", "communicative", "objective", "curious", "detached"],
+      "motivations": ["knowledge", "truth", "communication", "mental stimulation"],
+      "communication_style": "Clear, logical, articulate, sometimes cold or cutting",
+      "relationships": "Intellectual connection, fair, but may lack emotional depth",
+      "career_preferences": ["teaching", "writing", "technology", "law", "research"],
+      "stress_responses": "Anxiety, overthinking, mental paralysis, critical harshness",
+      "growth_areas": "Emotional awareness, empathy, practical application, patience"
+    },
+    "earth_personality": {
+      "court_cards": "Queens and Pages of Pentacles",
+      "core_traits": ["practical", "reliable", "patient", "sensual", "methodical"],
+      "motivations": ["security", "comfort", "tangible results", "building something lasting"],
+      "communication_style": "Practical, concrete, steady, sometimes slow or stubborn",
+      "relationships": "Stable, nurturing, loyal, but may resist change",
+      "career_preferences": ["business", "agriculture", "crafts", "healthcare", "finance"],
+      "stress_responses": "Stubbornness, materialism, depression, physical illness",
+      "growth_areas": "Flexibility, spiritual awareness, risk-taking, emotional expression"
+    }
+  },
+  "seasonal_correspondences": {
+    "description": "How the elements manifest through the natural cycles of the year",
+    "spring_air": {
+      "time_period": "March 21 - June 20",
+      "energy": "New beginnings, fresh ideas, communication, movement",
+      "tarot_focus": "Aces and twos, new projects, mental clarity",
+      "magical_work": "Blessing new projects, communication spells, travel magic",
+      "body_focus": "Respiratory system, nervous system, mental clarity"
+    },
+    "summer_fire": {
+      "time_period": "June 21 - September 20",
+      "energy": "Full manifestation, peak energy, creativity, passion",
+      "tarot_focus": "Threes through sixes, active manifestation, creative expression",
+      "magical_work": "Success spells, protection magic, energy raising",
+      "body_focus": "Circulatory system, heart, muscular system"
+    },
+    "autumn_water": {
+      "time_period": "September 21 - December 20",
+      "energy": "Harvest, reflection, emotional depth, intuition",
+      "tarot_focus": "Sevens through nines, emotional maturity, wisdom gathering",
+      "magical_work": "Divination, emotional healing, ancestor work",
+      "body_focus": "Lymphatic system, reproductive system, emotional balance"
+    },
+    "winter_earth": {
+      "time_period": "December 21 - March 20",
+      "energy": "Rest, contemplation, grounding, deep wisdom",
+      "tarot_focus": "Tens and court cards, completion, mastery, wisdom",
+      "magical_work": "Grounding rituals, prosperity magic, wisdom seeking",
+      "body_focus": "Skeletal system, digestive system, immune system"
+    }
+  },
+  "elemental_meditation": {
+    "description": "Meditation practices for connecting with and balancing elemental energies",
+    "fire_meditation": {
+      "practice": "Candle flame gazing",
+      "duration": "10-20 minutes",
+      "intention": "Activating will, courage, and creative energy",
+      "visualization": "Drawing fire energy up from earth's core through the body",
+      "benefits": "Increased energy, motivation, courage, creativity",
+      "precautions": "Avoid if angry or overstimulated"
+    },
+    "water_meditation": {
+      "practice": "Flowing water visualization or actual water immersion",
+      "duration": "15-30 minutes",
+      "intention": "Emotional healing, intuition development, purification",
+      "visualization": "Cleansing water flowing through body, washing away negativity",
+      "benefits": "Emotional balance, increased intuition, stress relief",
+      "precautions": "May bring up buried emotions"
+    },
+    "air_meditation": {
+      "practice": "Conscious breathing and wind visualization",
+      "duration": "10-25 minutes",
+      "intention": "Mental clarity, communication improvement, spiritual connection",
+      "visualization": "Drawing clear air into mind, thoughts becoming crystal clear",
+      "benefits": "Mental clarity, improved communication, spiritual insight",
+      "precautions": "May cause dizziness if breathing too forcefully"
+    },
+    "earth_meditation": {
+      "practice": "Grounding visualization or earth connection",
+      "duration": "20-40 minutes",
+      "intention": "Stability, grounding, material security, physical healing",
+      "visualization": "Roots growing from body into earth, drawing up nourishing energy",
+      "benefits": "Grounding, stability, physical healing, material manifestation",
+      "precautions": "None, generally safe for all practitioners"
+    },
+    "elemental_balance": {
+      "practice": "Cycling through all four elements in one session",
+      "duration": "40-60 minutes",
+      "intention": "Complete balance and integration of all elemental energies",
+      "structure": "10-15 minutes each element, ending with spirit integration",
+      "benefits": "Complete energetic balance, wholeness, spiritual integration"
+    }
+  }
+}

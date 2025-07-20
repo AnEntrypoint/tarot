@@ -1,0 +1,417 @@
+{
+  "color_psychology": {
+    "description": "The psychological and spiritual significance of colors in tarot symbolism",
+    "quote": "Colors are the smiles of nature, and each color speaks a universal language that transcends cultural boundaries.",
+    "author": "Johann Wolfgang von Goethe",
+    "source": "Theory of Colors",
+    "red": {
+      "wavelength": "700 nanometers",
+      "frequency": "430 THz",
+      "chakra": "Root",
+      "element": "Fire",
+      "planet": "Mars",
+      "tarot_cards": ["The Magician's robe", "Strength card lion", "Suit of Wands"],
+      "psychological_effects": {
+        "positive": ["energy", "passion", "courage", "vitality", "strength"],
+        "negative": ["aggression", "anger", "danger", "violence", "stress"],
+        "therapeutic": ["stimulates circulation", "increases energy", "boosts confidence"]
+      },
+      "spiritual_significance": "Divine will in action, life force energy, creative power",
+      "quote": "Red is the color of life, of blood, of fire - it is the most dynamic of all colors and speaks to our primal nature.",
+      "author": "Faber Birren",
+      "source": "Color Psychology and Color Therapy",
+      "cultural_meanings": {
+        "western": ["passion", "love", "danger", "power"],
+        "eastern": ["good fortune", "prosperity", "joy", "celebration"],
+        "alchemical": ["sulfur", "active principle", "masculine energy"]
+      },
+      "meditation_use": "Activating personal power and life force energy",
+      "healing_properties": ["stimulates nervous system", "increases metabolism", "enhances physical strength"],
+      "gemstone_associations": ["ruby", "garnet", "red jasper", "carnelian"]
+    },
+    "orange": {
+      "wavelength": "620 nanometers", 
+      "frequency": "484 THz",
+      "chakra": "Sacral",
+      "element": "Fire/Water",
+      "planet": "Sun/Mercury",
+      "tarot_cards": ["Two of Cups background", "Page of Wands clothing", "Temperance angel"],
+      "psychological_effects": {
+        "positive": ["creativity", "enthusiasm", "warmth", "sociability", "confidence"],
+        "negative": ["frivolity", "exhibitionism", "superficiality", "impatience"],
+        "therapeutic": ["stimulates appetite", "enhances creativity", "promotes social interaction"]
+      },
+      "spiritual_significance": "Creative expression, emotional warmth, social connection",
+      "quote": "Orange combines the energy of red and the happiness of yellow, creating a vibrant expression of joy and creativity.",
+      "author": "Angela Wright",
+      "source": "The Beginner's Guide to Color Psychology",
+      "cultural_meanings": {
+        "western": ["creativity", "adventure", "enthusiasm", "warmth"],
+        "eastern": ["good luck", "spiritual strength", "transformation"],
+        "alchemical": ["citrinitas stage", "spiritual gold", "consciousness awakening"]
+      },
+      "meditation_use": "Enhancing creativity and emotional expression",
+      "healing_properties": ["supports reproductive system", "aids digestion", "boosts immunity"],
+      "gemstone_associations": ["orange calcite", "amber", "citrine", "fire opal"]
+    },
+    "yellow": {
+      "wavelength": "570 nanometers",
+      "frequency": "526 THz", 
+      "chakra": "Solar Plexus",
+      "element": "Air/Fire",
+      "planet": "Sun",
+      "tarot_cards": ["The Sun card", "The Fool's hair", "Suit of Swords (traditional)"],
+      "psychological_effects": {
+        "positive": ["intellect", "clarity", "optimism", "confidence", "enlightenment"],
+        "negative": ["cowardice", "jealousy", "criticism", "anxiety", "betrayal"],
+        "therapeutic": ["stimulates mental activity", "improves memory", "enhances communication"]
+      },
+      "spiritual_significance": "Illumination, wisdom, mental clarity, divine light",
+      "quote": "Yellow is the color closest to light itself, representing the illumination of consciousness and the joy of enlightenment.",
+      "author": "Rudolf Steiner",
+      "source": "The Arts and Their Mission",
+      "cultural_meanings": {
+        "western": ["happiness", "intellect", "cowardice", "caution"],
+        "eastern": ["sacred", "imperial", "prosperity", "wisdom"],
+        "alchemical": ["solar consciousness", "gold", "perfected mind"]
+      },
+      "meditation_use": "Developing mental clarity and spiritual illumination",
+      "healing_properties": ["supports nervous system", "aids concentration", "stimulates lymphatic system"],
+      "gemstone_associations": ["citrine", "yellow topaz", "amber", "golden beryl"]
+    },
+    "green": {
+      "wavelength": "530 nanometers",
+      "frequency": "566 THz",
+      "chakra": "Heart", 
+      "element": "Earth/Water",
+      "planet": "Venus",
+      "tarot_cards": ["The Empress's gown", "Seven of Pentacles growth", "Nature backgrounds"],
+      "psychological_effects": {
+        "positive": ["balance", "harmony", "growth", "healing", "prosperity"],
+        "negative": ["envy", "jealousy", "inexperience", "greed", "illness"],
+        "therapeutic": ["calms nervous system", "reduces stress", "promotes healing"]
+      },
+      "spiritual_significance": "Heart-centered consciousness, healing, natural harmony, growth",
+      "quote": "Green is the color of life itself, representing the perfect balance between heaven and earth, spirit and matter.",
+      "author": "Max Lüscher",
+      "source": "The Lüscher Color Test",
+      "cultural_meanings": {
+        "western": ["nature", "growth", "money", "envy", "luck"],
+        "eastern": ["new beginnings", "fertility", "harmony", "peace"],
+        "alchemical": ["prima materia", "natural wisdom", "hermetic medicine"]
+      },
+      "meditation_use": "Opening the heart chakra and connecting with nature",
+      "healing_properties": ["balances emotions", "supports heart health", "promotes cellular regeneration"],
+      "gemstone_associations": ["emerald", "green aventurine", "jade", "malachite"]
+    },
+    "blue": {
+      "wavelength": "470 nanometers",
+      "frequency": "638 THz",
+      "chakra": "Throat/Third Eye",
+      "element": "Water/Air", 
+      "planet": "Jupiter/Neptune",
+      "tarot_cards": ["The High Priestess robe", "The Star water", "Cups suit water"],
+      "psychological_effects": {
+        "positive": ["peace", "tranquility", "communication", "trust", "wisdom"],
+        "negative": ["coldness", "depression", "passivity", "conservatism"],
+        "therapeutic": ["lowers blood pressure", "calms mind", "enhances communication"]
+      },
+      "spiritual_significance": "Divine truth, spiritual communication, infinite consciousness",
+      "quote": "Blue is the color of infinite space, representing the vastness of divine consciousness and the depths of spiritual truth.",
+      "author": "Wassily Kandinsky",
+      "source": "Concerning the Spiritual in Art",
+      "cultural_meanings": {
+        "western": ["trust", "loyalty", "wisdom", "confidence", "intelligence"],
+        "eastern": ["immortality", "divinity", "healing", "protection"],
+        "alchemical": ["mercury", "flowing principle", "spiritual communication"]
+      },
+      "meditation_use": "Enhancing communication and accessing higher wisdom",
+      "healing_properties": ["supports thyroid", "calms inflammation", "promotes restful sleep"],
+      "gemstone_associations": ["sapphire", "lapis lazuli", "aquamarine", "sodalite"]
+    },
+    "indigo": {
+      "wavelength": "445 nanometers",
+      "frequency": "674 THz",
+      "chakra": "Third Eye",
+      "element": "Ether/Space",
+      "planet": "Saturn/Neptune",
+      "tarot_cards": ["The High Priestess veil", "The Hermit's robe", "Night sky in cards"],
+      "psychological_effects": {
+        "positive": ["intuition", "spiritual perception", "wisdom", "devotion"],
+        "negative": ["isolation", "depression", "fanaticism", "impracticality"],
+        "therapeutic": ["enhances intuition", "calms mental activity", "promotes spiritual awareness"]
+      },
+      "spiritual_significance": "Mystical perception, inner vision, connection to cosmic consciousness",
+      "quote": "Indigo is the color of the deep night sky, representing the mysterious depths of consciousness and cosmic wisdom.",
+      "author": "Alice Bailey",
+      "source": "Esoteric Healing",
+      "cultural_meanings": {
+        "western": ["intuition", "mystery", "spirituality", "dignity"],
+        "eastern": ["wisdom", "spiritual knowledge", "deep meditation"],
+        "alchemical": ["philosophical mercury", "cosmic consciousness", "spiritual sight"]
+      },
+      "meditation_use": "Developing psychic abilities and spiritual insight",
+      "healing_properties": ["supports pineal gland", "enhances intuition", "calms mental chatter"],
+      "gemstone_associations": ["indigo gabbro", "labradorite", "iolite", "tanzanite"]
+    },
+    "violet": {
+      "wavelength": "400 nanometers",
+      "frequency": "750 THz",
+      "chakra": "Crown",
+      "element": "Spirit/Thought",
+      "planet": "Jupiter/Neptune", 
+      "tarot_cards": ["Temperance angel wings", "Justice robes", "Spiritual symbolism"],
+      "psychological_effects": {
+        "positive": ["spirituality", "transformation", "inspiration", "creativity"],
+        "negative": ["impracticality", "immaturity", "arrogance", "mourning"],
+        "therapeutic": ["calms nervous system", "enhances spiritual connection", "promotes transformation"]
+      },
+      "spiritual_significance": "Divine connection, spiritual transformation, cosmic consciousness",
+      "quote": "Violet is the color of transmutation, representing the transformation of the soul and connection to divine consciousness.",
+      "author": "Charles Leadbeater",
+      "source": "Man Visible and Invisible",
+      "cultural_meanings": {
+        "western": ["royalty", "spirituality", "luxury", "creativity", "mystery"],
+        "eastern": ["spiritual power", "enlightenment", "transformation"],
+        "alchemical": ["philosophical gold", "spiritual perfection", "divine consciousness"]
+      },
+      "meditation_use": "Connecting with divine consciousness and spiritual transformation",
+      "healing_properties": ["supports nervous system", "enhances spiritual awareness", "promotes psychic abilities"],
+      "gemstone_associations": ["amethyst", "charoite", "sugilite", "lepidolite"]
+    },
+    "white": {
+      "wavelength": "All visible spectrum",
+      "frequency": "All frequencies combined",
+      "chakra": "Crown/All chakras",
+      "element": "Spirit/Pure consciousness",
+      "planet": "Moon/Uranus",
+      "tarot_cards": ["The Fool's inner garment", "Temperance angel", "Purity symbols"],
+      "psychological_effects": {
+        "positive": ["purity", "clarity", "simplicity", "peace", "new beginnings"],
+        "negative": ["sterility", "coldness", "isolation", "emptiness"],
+        "therapeutic": ["purifies energy", "enhances clarity", "promotes peace"]
+      },
+      "spiritual_significance": "Pure consciousness, divine light, spiritual perfection, unity",
+      "quote": "White contains all colors and represents the pure light of divine consciousness from which all creation emanates.",
+      "author": "H.P. Blavatsky",
+      "source": "The Secret Doctrine",
+      "cultural_meanings": {
+        "western": ["purity", "innocence", "peace", "cleanliness", "sterility"],
+        "eastern": ["mourning", "death", "rebirth", "spiritual purity"],
+        "alchemical": ["albedo stage", "purification", "lunar consciousness"]
+      },
+      "meditation_use": "Purification and connection to divine light",
+      "healing_properties": ["purifies all systems", "enhances spiritual healing", "promotes clarity"],
+      "gemstone_associations": ["clear quartz", "selenite", "moonstone", "diamond"]
+    },
+    "black": {
+      "wavelength": "Absorption of all wavelengths",
+      "frequency": "Zero reflection",
+      "chakra": "Root/Base",
+      "element": "Earth/Void",
+      "planet": "Saturn/Pluto",
+      "tarot_cards": ["Death's armor", "The Devil's darkness", "Night imagery"],
+      "psychological_effects": {
+        "positive": ["protection", "mystery", "sophistication", "authority"],
+        "negative": ["depression", "mourning", "evil", "emptiness", "fear"],
+        "therapeutic": ["provides protection", "absorbs negative energy", "promotes introspection"]
+      },
+      "spiritual_significance": "The void, mystery, protection, absorption of negativity, death/rebirth",
+      "quote": "Black is not the absence of color, but the presence of all possibilities - the fertile darkness from which all life emerges.",
+      "author": "Carl Jung",
+      "source": "Memories, Dreams, Reflections",
+      "cultural_meanings": {
+        "western": ["death", "mourning", "evil", "sophistication", "power"],
+        "eastern": ["mystery", "depth", "spiritual strength", "infinity"],
+        "alchemical": ["nigredo stage", "prima materia", "dissolution", "fertile void"]
+      },
+      "meditation_use": "Grounding, protection, and connecting with the void",
+      "healing_properties": ["absorbs negative energy", "provides grounding", "promotes deep rest"],
+      "gemstone_associations": ["obsidian", "black tourmaline", "hematite", "jet"]
+    },
+    "gray": {
+      "psychological_effects": {
+        "positive": ["neutrality", "balance", "compromise", "wisdom"],
+        "negative": ["indecision", "boredom", "depression", "lack of energy"],
+        "therapeutic": ["promotes neutrality", "calms extremes", "encourages contemplation"]
+      },
+      "spiritual_significance": "Balance between light and dark, wisdom through experience",
+      "tarot_cards": ["The Hermit's cloak", "Clouds in background", "Neutral grounds"],
+      "meditation_use": "Finding balance and neutral perspective",
+      "cultural_meanings": {
+        "western": ["neutrality", "compromise", "wisdom", "age"],
+        "alchemical": ["balance of opposites", "philosophical neutral", "integration"]
+      }
+    }
+  },
+  "color_combinations": {
+    "description": "The interaction and meaning of color combinations in tarot imagery",
+    "quote": "Colors never appear in isolation but always in relationship to other colors, creating harmonies and tensions that speak to the soul.",
+    "author": "Josef Albers",
+    "source": "Interaction of Color",
+    "complementary_pairs": {
+      "red_green": {
+        "dynamic": "Passion balanced by harmony",
+        "tarot_example": "The Lovers card - passion (red) balanced by heart wisdom (green)",
+        "spiritual_meaning": "Integration of desire with spiritual growth",
+        "psychological_effect": "Creates visual vibration and emotional intensity"
+      },
+      "blue_orange": {
+        "dynamic": "Communication balanced by creativity",
+        "tarot_example": "Temperance - divine communication (blue) with creative flow (orange)",
+        "spiritual_meaning": "Heavenly wisdom expressed through earthly creativity",
+        "psychological_effect": "Balances introversion with extroversion"
+      },
+      "yellow_purple": {
+        "dynamic": "Intellect balanced by spirituality", 
+        "tarot_example": "The Star - mental illumination (yellow) with spiritual vision (purple)",
+        "spiritual_meaning": "Integration of rational mind with mystical experience",
+        "psychological_effect": "Stimulates both mental and spiritual faculties"
+      }
+    },
+    "triadic_harmonies": {
+      "red_yellow_blue": {
+        "meaning": "Primary colors representing fundamental life forces",
+        "tarot_application": "Complete energy system in Major Arcana",
+        "spiritual_significance": "Body, mind, and spirit in perfect balance"
+      },
+      "orange_green_violet": {
+        "meaning": "Secondary colors representing refined consciousness",
+        "tarot_application": "Advanced spiritual development stages",
+        "spiritual_significance": "Emotional, heart, and crown chakra alignment"
+      }
+    },
+    "analogous_harmonies": {
+      "blue_blue_green_green": {
+        "meaning": "Cool, calming, flowing energy",
+        "tarot_application": "Cups suit water imagery",
+        "emotional_effect": "Peace, tranquility, emotional flow"
+      },
+      "red_red_orange_orange": {
+        "meaning": "Warm, energizing, active energy",
+        "tarot_application": "Wands suit fire imagery", 
+        "emotional_effect": "Passion, energy, creative fire"
+      }
+    }
+  },
+  "color_therapy": {
+    "description": "Therapeutic applications of color in spiritual and psychological healing",
+    "quote": "Color is a power which directly influences the soul, awakening spiritual vibrations and promoting healing on all levels.",
+    "author": "Wassily Kandinsky",
+    "source": "Concerning the Spiritual in Art",
+    "chromotherapy_principles": {
+      "warm_colors": {
+        "range": ["Red", "Orange", "Yellow"],
+        "effects": ["Stimulating", "Energizing", "Activating"],
+        "therapeutic_use": ["Depression", "Lethargy", "Circulation problems"],
+        "tarot_correlation": "Fire and Earth suits for grounding and activation"
+      },
+      "cool_colors": {
+        "range": ["Blue", "Indigo", "Violet"],
+        "effects": ["Calming", "Cooling", "Sedating"],
+        "therapeutic_use": ["Anxiety", "Inflammation", "Hyperactivity"],
+        "tarot_correlation": "Water and Air suits for emotional and mental balance"
+      }
+    },
+    "specific_treatments": {
+      "red_light_therapy": {
+        "conditions": ["Low energy", "Poor circulation", "Depression"],
+        "method": "Visualization or red light exposure",
+        "tarot_meditation": "Focus on red elements in Strength or Magician cards",
+        "duration": "10-15 minutes daily",
+        "precautions": "Avoid with high blood pressure or agitation"
+      },
+      "blue_light_therapy": {
+        "conditions": ["Insomnia", "Anxiety", "Inflammation"],
+        "method": "Blue light meditation or visualization",
+        "tarot_meditation": "Focus on blue elements in High Priestess or Star cards",
+        "duration": "15-20 minutes daily",
+        "precautions": "May increase depression in some individuals"
+      },
+      "green_healing": {
+        "conditions": ["Heart problems", "Stress", "Relationship issues"],
+        "method": "Green light visualization or nature immersion",
+        "tarot_meditation": "Focus on green in Empress or heart-centered cards",
+        "duration": "20-30 minutes daily",
+        "precautions": "Generally safe for all conditions"
+      }
+    }
+  },
+  "cultural_color_meanings": {
+    "description": "How different cultures interpret colors in spiritual and symbolic contexts",
+    "western_tradition": {
+      "white": ["Purity", "Innocence", "Peace", "Divinity"],
+      "black": ["Death", "Evil", "Mystery", "Power"],
+      "red": ["Love", "Passion", "Danger", "Power"],
+      "blue": ["Trust", "Loyalty", "Peace", "Divinity"],
+      "green": ["Nature", "Growth", "Money", "Envy"],
+      "yellow": ["Happiness", "Cowardice", "Intellect", "Caution"],
+      "purple": ["Royalty", "Spirituality", "Luxury", "Mystery"]
+    },
+    "eastern_tradition": {
+      "white": ["Death", "Mourning", "Purity", "Spiritual power"],
+      "black": ["Evil", "Destruction", "Formlessness", "Mystery"],
+      "red": ["Good fortune", "Joy", "Prosperity", "Life force"],
+      "blue": ["Immortality", "Healing", "Wisdom", "Tranquility"],
+      "green": ["New life", "Harmony", "Peace", "Fertility"],
+      "yellow": ["Sacred", "Imperial", "Center", "Earth"],
+      "purple": ["Spiritual transformation", "Enlightenment", "High rank"]
+    },
+    "native_american": {
+      "white": ["Purity", "North direction", "Wisdom", "Winter"],
+      "black": ["Introspection", "West direction", "Maturity", "Autumn"],
+      "red": ["Life force", "South direction", "Strength", "Summer"],
+      "blue": ["Sky father", "Wisdom", "Truth", "Spiritual connection"],
+      "green": ["Earth mother", "Healing", "Growth", "Fertility"],
+      "yellow": ["East direction", "New beginnings", "Spring", "Illumination"]
+    }
+  },
+  "gemstone_color_healing": {
+    "description": "Using colored gemstones for energy work and healing with tarot",
+    "quote": "Gemstones are crystallized light, holding within their structure the healing vibrations of specific color frequencies.",
+    "author": "Melody",
+    "source": "Love Is In The Earth",
+    "red_stones": {
+      "examples": ["Ruby", "Garnet", "Red Jasper", "Carnelian"],
+      "healing_properties": ["Vitality", "Courage", "Passion", "Grounding"],
+      "tarot_application": "Place on cards with red imagery for enhanced energy",
+      "chakra_work": "Root chakra activation and balancing"
+    },
+    "orange_stones": {
+      "examples": ["Carnelian", "Orange Calcite", "Sunstone", "Fire Opal"],
+      "healing_properties": ["Creativity", "Sexuality", "Joy", "Confidence"],
+      "tarot_application": "Enhance creative interpretations and emotional insights",
+      "chakra_work": "Sacral chakra healing and creative flow"
+    },
+    "yellow_stones": {
+      "examples": ["Citrine", "Yellow Topaz", "Amber", "Tiger's Eye"],
+      "healing_properties": ["Mental clarity", "Confidence", "Abundance", "Wisdom"],
+      "tarot_application": "Clarify mental aspects of card meanings",
+      "chakra_work": "Solar plexus empowerment and mental clarity"
+    },
+    "green_stones": {
+      "examples": ["Emerald", "Green Aventurine", "Jade", "Malachite"],
+      "healing_properties": ["Heart healing", "Abundance", "Growth", "Balance"],
+      "tarot_application": "Enhance love and relationship readings",
+      "chakra_work": "Heart chakra opening and emotional healing"
+    },
+    "blue_stones": {
+      "examples": ["Sapphire", "Lapis Lazuli", "Aquamarine", "Sodalite"],
+      "healing_properties": ["Communication", "Truth", "Peace", "Wisdom"],
+      "tarot_application": "Enhance communication and truth in readings",
+      "chakra_work": "Throat chakra expression and truth speaking"
+    },
+    "indigo_stones": {
+      "examples": ["Indigo Gabbro", "Labradorite", "Iolite", "Tanzanite"],
+      "healing_properties": ["Intuition", "Psychic abilities", "Spiritual sight"],
+      "tarot_application": "Enhance psychic and intuitive aspects of readings",
+      "chakra_work": "Third eye activation and psychic development"
+    },
+    "purple_stones": {
+      "examples": ["Amethyst", "Charoite", "Sugilite", "Lepidolite"],
+      "healing_properties": ["Spiritual connection", "Transformation", "Peace"],
+      "tarot_application": "Enhance spiritual and transformational aspects",
+      "chakra_work": "Crown chakra connection and spiritual awakening"
+    }
+  }
+}
