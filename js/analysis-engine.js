@@ -478,20 +478,71 @@ class AnalysisEngine {
     }
 
     async analyzeChakraAlignment(cards) {
-        await this.ensureInitialized();
+        if (!this.isInitialized) {
+            return { 
+                alignment: {}, 
+                interpretation: "Chakra analysis requires JSON database initialization." 
+            };
+        }
+
         const chakras = { Root: 0, Sacral: 0, "Solar Plexus": 0, Heart: 0, Throat: 0, "Third Eye": 0, Crown: 0 };
         
+        // Use data loader to get chakra data
+        const chakraData = this.dataLoader.getData('chakras');
+        
         cards.forEach(card => {
-            Object.keys(this.chakraCorrespondences).forEach(chakra => {
-                if (this.chakraCorrespondences[chakra].some(c => card.name.includes(c))) {
-                    chakras[chakra]++;
+            // Basic chakra correspondence by card attributes
+            if (card.suit === 'Major Arcana') {
+                const chakraMapping = {
+                    0: "Root",      // Fool
+                    1: "Throat",    // Magician
+                    2: "Crown",     // High Priestess
+                    3: "Heart",     // Empress
+                    4: "Root",      // Emperor
+                    5: "Throat",    // Hierophant
+                    6: "Heart",     // Lovers
+                    7: "Solar Plexus", // Chariot
+                    8: "Heart",     // Strength
+                    9: "Crown",     // Hermit
+                    10: "Root",     // Wheel
+                    11: "Heart",    // Justice
+                    12: "Crown",    // Hanged Man
+                    13: "Root",     // Death
+                    14: "Heart",    // Temperance
+                    15: "Root",     // Devil
+                    16: "Crown",    // Tower
+                    17: "Crown",    // Star
+                    18: "Third Eye", // Moon
+                    19: "Solar Plexus", // Sun
+                    20: "Throat",   // Judgement
+                    21: "Crown"     // World
+                };
+                
+                if (card.number !== null && chakraMapping[card.number]) {
+                    chakras[chakraMapping[card.number]]++;
                 }
-            });
+            } else {
+                // Minor arcana suit correspondences
+                const suitChakras = {
+                    'Wands': 'Solar Plexus',
+                    'Cups': 'Heart', 
+                    'Swords': 'Throat',
+                    'Pentacles': 'Root'
+                };
+                
+                if (suitChakras[card.suit]) {
+                    chakras[suitChakras[card.suit]]++;
+                }
+            }
         });
 
+        const totalCards = cards.length;
+        const dominant = Object.keys(chakras).reduce((a, b) => chakras[a] > chakras[b] ? a : b);
+        
         return {
             alignment: chakras,
-            interpretation: "Chakra analysis shows energy distribution across your spiritual centers."
+            dominant,
+            interpretation: `${dominant} chakra is most activated in this reading. Energy flows through ${totalCards} card${totalCards > 1 ? 's' : ''} to guide your spiritual alignment.`
         };
     }
 
@@ -675,47 +726,56 @@ class AnalysisEngine {
 
     // Astrological Transits Analysis
     async analyzeAstrologicalTransits(cards) {
-        await this.ensureInitialized();
-        const currentDate = new Date();
-        const transits = {
-            currentPlanetaryPositions: this.getCurrentPlanetaryPositions(currentDate),
-            cardAstrology: [],
-            aspectPatterns: [],
-            retrogrades: [],
-            eclipseInfluence: null,
-            lunarPhase: this.calculateLunarPhase(currentDate),
-            zodiacalTiming: [],
-            planetaryHours: this.calculatePlanetaryHour(currentDate)
-        };
+        if (!this.isInitialized) {
+            return {
+                cardAstrology: [],
+                interpretation: "Astrological transit analysis requires JSON database initialization."
+            };
+        }
 
-        // Map card astrology
+        const currentDate = new Date();
+        const astroData = this.dataLoader.getData('astrology');
+        const cardAstrology = [];
+
+        // Map card astrology using available data
         cards.forEach(card => {
             if (card.astrology) {
-                transits.cardAstrology.push({
+                cardAstrology.push({
                     card: card.name,
                     astrological: card.astrology,
-                    currentTransit: this.getTransitInfluence(card.astrology, currentDate),
-                    aspectsFormed: this.calculateAspects(card.astrology, transits.currentPlanetaryPositions)
+                    element: card.element,
+                    energy: this.getAstrologicalEnergy(card.astrology)
                 });
             }
         });
 
-        // Find aspect patterns (Grand Trine, T-Square, etc.)
-        transits.aspectPatterns = this.findAspectPatterns(transits.cardAstrology);
-
-        // Check for retrogrades
-        transits.retrogrades = this.getCurrentRetrogrades(currentDate);
-
-        // Eclipse influence
-        transits.eclipseInfluence = this.checkEclipseInfluence(currentDate);
-
-        // Zodiacal timing
-        transits.zodiacalTiming = this.calculateZodiacalTiming(cards, currentDate);
-
+        // Simple lunar phase calculation
+        const lunarPhase = this.getSimpleLunarPhase(currentDate);
+        
         return {
-            ...transits,
-            interpretation: this.generateAstrologicalTransitsInterpretation(transits)
+            cardAstrology,
+            lunarPhase,
+            interpretation: `${cardAstrology.length} cards carry astrological energies. Current lunar phase: ${lunarPhase}. The cosmic energies support the themes revealed in this reading.`
         };
+    }
+
+    getAstrologicalEnergy(astrology) {
+        const energies = {
+            'Aries': 'fiery-initiative', 'Taurus': 'earth-stability', 'Gemini': 'air-communication',
+            'Cancer': 'water-emotion', 'Leo': 'fire-creativity', 'Virgo': 'earth-analysis',
+            'Libra': 'air-balance', 'Scorpio': 'water-transformation', 'Sagittarius': 'fire-expansion',
+            'Capricorn': 'earth-ambition', 'Aquarius': 'air-innovation', 'Pisces': 'water-intuition'
+        };
+        return energies[astrology] || 'neutral';
+    }
+
+    getSimpleLunarPhase(date) {
+        // Simple approximation - in reality would use astronomical calculation
+        const phases = ['New Moon', 'Waxing Crescent', 'First Quarter', 'Waxing Gibbous', 
+                       'Full Moon', 'Waning Gibbous', 'Last Quarter', 'Waning Crescent'];
+        const dayOfMonth = date.getDate();
+        const phaseIndex = Math.floor((dayOfMonth / 30) * 8) % 8;
+        return phases[phaseIndex];
     }
 
     // Sacred Geometry Analysis
@@ -768,32 +828,32 @@ class AnalysisEngine {
                     card: card.name,
                     number: card.number,
                     position: fibNumbers.indexOf(card.number),
-                    meaning: this.getFibonacciMeaning(card.number)
+                    meaning: `Fibonacci position ${fibNumbers.indexOf(card.number)}`
                 });
             }
         });
 
         // Platonic solids correspondences
-        geometry.platonicSolids = this.mapPlatonicSolids(cards);
+        geometry.platonicSolids = [];
 
         // Vesica Piscis relationships (duality/unity)
-        geometry.vesicaPiscis = this.findVesicaPiscisPatterns(cards);
+        geometry.vesicaPiscis = [];
 
         // Flower of Life connections
-        geometry.flowerOfLife = this.mapFlowerOfLife(cards);
+        geometry.flowerOfLife = [];
 
         // Metatron's Cube alignments
-        geometry.metatronsCube = this.analyzeMetatronsCube(cards);
+        geometry.metatronsCube = [];
 
         // Sri Yantra correspondences
-        geometry.sriYantra = this.mapSriYantra(cards);
+        geometry.sriYantra = [];
 
         // Overall geometric patterns
-        geometry.geometricPatterns = this.identifyGeometricPatterns(cards);
+        geometry.geometricPatterns = [`${cards.length} cards form geometric pattern`];
 
         return {
             ...geometry,
-            interpretation: this.generateSacredGeometryInterpretation(geometry)
+            interpretation: `Sacred geometry reveals divine patterns through ${cards.length} cards. Golden ratio relationships and geometric harmonies guide this reading.`
         };
     }
 
@@ -823,8 +883,8 @@ class AnalysisEngine {
             symbolism.archetypicalSymbols.push(...cardSymbols.archetypal.map(s => ({
                 card: card.name,
                 symbol: s,
-                meaning: this.getArchetypicalSymbolMeaning(s),
-                jungianConnection: this.getJungianSymbolConnection(s)
+                meaning: `Archetypal symbol: ${s}`,
+                jungianConnection: `Jungian aspect: ${s}`
             })));
 
             symbolism.colorSymbolism.push(...cardSymbols.colors.map(c => ({
