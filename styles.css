@@ -1312,7 +1312,7 @@ button {
 }
 
 .flex {
-    display: flex !important;
+    display: flex;
 }
 
 .flex-center {
