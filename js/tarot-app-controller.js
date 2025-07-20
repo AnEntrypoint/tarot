@@ -29,7 +29,7 @@ class TarotAppController {
         document.getElementById('startReadingBtn').addEventListener('click', () => this.startReading());
         document.getElementById('resetReadingBtn').addEventListener('click', () => this.resetReading());
         document.getElementById('saveReadingBtn').addEventListener('click', () => this.saveReading());
-        document.getElementById('analyzeReadingBtn').addEventListener('click', () => this.analyzeReading());
+        // Analyze reading now runs automatically - no button needed
         
         // Deck interaction
         document.getElementById('deckContainer').addEventListener('click', () => this.drawCard());
@@ -195,10 +195,13 @@ class TarotAppController {
         
         // Show action buttons
         this.showButton('saveReadingBtn');
-        this.showButton('analyzeReadingBtn');
+        // Remove manual analyze button - analysis will run automatically
         
         // Generate and display reading summary
         this.generateReadingSummary();
+        
+        // Automatically run analysis when reading is complete
+        setTimeout(() => this.analyzeReading(), 500); // Small delay for smooth UX
         
         this.updateInstructionText(
             "Your reading is complete! Explore the detailed meanings by clicking on individual cards, or use the analysis tools for deeper insights."
@@ -1826,7 +1829,7 @@ class TarotAppController {
         // Show relevant buttons
         this.showButton('resetReadingBtn');
         this.showButton('saveReadingBtn');
-        this.showButton('analyzeReadingBtn');
+        // Analyze reading now runs automatically
         
         // Generate summary
         this.generateReadingSummary();
@@ -1934,7 +1937,7 @@ class TarotAppController {
     }
 
     hideAllButtons() {
-        ['startReadingBtn', 'resetReadingBtn', 'saveReadingBtn', 'analyzeReadingBtn'].forEach(id => {
+        ['startReadingBtn', 'resetReadingBtn', 'saveReadingBtn'].forEach(id => {
             this.hideButton(id);
         });
     }
