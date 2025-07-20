@@ -93,7 +93,14 @@ class TarotAppController {
         // Set up the reading grid first (without cards)
         const readingArea = document.getElementById('readingArea');
         const spreadContainer = document.createElement('div');
-        spreadContainer.className = `reading-grid reading-grid-${this.currentSpread.type}`;
+        // Map spread types to CSS classes
+        const spreadClassMap = {
+            'single': 'single',
+            'three-card': 'three-card',
+            'relationship': 'relationship',
+            'celtic-cross': 'celtic-cross'
+        };
+        spreadContainer.className = `reading-grid reading-grid-${spreadClassMap[this.currentSpread.type] || this.currentSpread.type}`;
         readingArea.appendChild(spreadContainer);
         
         // Create placeholder positions
@@ -1795,7 +1802,14 @@ class TarotAppController {
         readingArea.innerHTML = '';
         
         const spreadContainer = document.createElement('div');
-        spreadContainer.className = `reading-grid reading-grid-${this.currentSpread.type}`;
+        // Map spread types to CSS classes
+        const spreadClassMap = {
+            'single': 'single',
+            'three-card': 'three-card',
+            'relationship': 'relationship',
+            'celtic-cross': 'celtic-cross'
+        };
+        spreadContainer.className = `reading-grid reading-grid-${spreadClassMap[this.currentSpread.type] || this.currentSpread.type}`;
         
         this.drawnCards.forEach(card => {
             const cardElement = this.cardRenderer.createCardElement(card, card.position);
