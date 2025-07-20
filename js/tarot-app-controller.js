@@ -40,10 +40,7 @@ class TarotAppController {
             if (e.target.id === 'cardModal') this.closeModal();
         });
 
-        // Analysis tab events
-        document.querySelectorAll('.tab-button').forEach(button => {
-            button.addEventListener('click', (e) => this.switchAnalysisTab(e.target.dataset.tab));
-        });
+        // Tab buttons removed - analysis now uses section headers
 
         // Keyboard shortcuts
         document.addEventListener('keydown', (e) => this.handleKeyboardShortcuts(e));
@@ -948,8 +945,8 @@ class TarotAppController {
     displayAnalysis() {
         if (!this.currentAnalysis) return;
 
-        // Define tabs with their update methods and data validation
-        const tabs = [
+        // Define sections with their update methods and data validation
+        const sections = [
             { id: 'overview', updateMethod: () => this.updateOverviewTab(), hasData: () => true }, // Always show overview
             { id: 'psychology', updateMethod: () => this.updatePsychologyTab(), hasData: () => this.hasAnalysisData('psychology') },
             { id: 'spiritual', updateMethod: () => this.updateSpiritualTab(), hasData: () => this.hasAnalysisData('spiritual') },
@@ -968,35 +965,26 @@ class TarotAppController {
             { id: 'alchemy', updateMethod: () => this.updateAlchemyTab(), hasData: () => this.hasAnalysisData('alchemical') }
         ];
 
-        // Update tabs and hide those without meaningful data
-        tabs.forEach(tab => {
-            const tabButton = document.querySelector(`[data-tab="${tab.id}"]`);
-            const tabContent = document.getElementById(`${tab.id}Tab`);
+        // Update sections and hide those without meaningful data
+        sections.forEach(section => {
+            const sectionContent = document.getElementById(`${section.id}Section`);
             
-            if (tab.hasData()) {
-                // Update the tab content
-                tab.updateMethod();
-                // Show the tab
-                if (tabButton) {
-                    tabButton.style.display = 'block';
-                    tabButton.removeAttribute('data-empty');
-                }
-                if (tabContent) {
-                    tabContent.style.display = 'block';
-                    tabContent.removeAttribute('data-empty');
+            if (section.hasData()) {
+                // Update the section content
+                section.updateMethod();
+                // Show the section
+                if (sectionContent) {
+                    sectionContent.style.display = 'block';
+                    sectionContent.removeAttribute('data-empty');
                 }
                 
                 // Check for empty cards after update and mark them
-                this.markEmptyAnalysisCards(tab.id);
+                this.markEmptyAnalysisCards(section.id);
             } else {
-                // Hide tabs without meaningful data
-                if (tabButton) {
-                    tabButton.style.display = 'none';
-                    tabButton.setAttribute('data-empty', 'true');
-                }
-                if (tabContent) {
-                    tabContent.style.display = 'none';
-                    tabContent.setAttribute('data-empty', 'true');
+                // Hide sections without meaningful data
+                if (sectionContent) {
+                    sectionContent.style.display = 'none';
+                    sectionContent.setAttribute('data-empty', 'true');
                 }
             }
         });
@@ -1082,11 +1070,11 @@ class TarotAppController {
     }
 
     // Mark empty analysis cards for CSS hiding
-    markEmptyAnalysisCards(tabId) {
-        const tabContent = document.getElementById(`${tabId}Tab`);
-        if (!tabContent) return;
+    markEmptyAnalysisCards(sectionId) {
+        const sectionContent = document.getElementById(`${sectionId}Section`);
+        if (!sectionContent) return;
         
-        const analysisCards = tabContent.querySelectorAll('.analysis-card');
+        const analysisCards = sectionContent.querySelectorAll('.analysis-card');
         analysisCards.forEach(card => {
             const contentDiv = card.querySelector('div:not(h4)'); // Get content div (not header)
             if (contentDiv) {
@@ -1129,16 +1117,11 @@ class TarotAppController {
             }
         });
         
-        // Hide the entire tab if all cards are empty
-        const visibleCards = tabContent.querySelectorAll('.analysis-card:not([data-empty="true"])');
+        // Hide the entire section if all cards are empty
+        const visibleCards = sectionContent.querySelectorAll('.analysis-card:not([data-empty="true"])');
         if (visibleCards.length === 0) {
-            const tabButton = document.querySelector(`[data-tab="${tabId}"]`);
-            if (tabButton) {
-                tabButton.style.display = 'none';
-                tabButton.setAttribute('data-empty', 'true');
-            }
-            tabContent.style.display = 'none';
-            tabContent.setAttribute('data-empty', 'true');
+            sectionContent.style.display = 'none';
+            sectionContent.setAttribute('data-empty', 'true');
         }
     }
 
@@ -1863,23 +1846,7 @@ class TarotAppController {
         return descriptions[stage?.toLowerCase()] || 'The beginning of transformation';
     }
 
-    switchAnalysisTab(tabName) {
-        // Hide all tab contents
-        document.querySelectorAll('.tab-content').forEach(content => {
-            content.classList.remove('active');
-        });
-        
-        // Remove active class from all buttons
-        document.querySelectorAll('.tab-button').forEach(button => {
-            button.classList.remove('active');
-        });
-        
-        // Show selected tab content
-        document.getElementById(`${tabName}Tab`).classList.add('active');
-        
-        // Add active class to clicked button
-        document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
-    }
+    // switchAnalysisTab method removed - analysis now uses section-based layout
 
     saveReading() {
         if (!this.drawnCards.length) return;

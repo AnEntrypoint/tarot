@@ -2165,6 +2165,41 @@ button {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
+/* Analysis Section Styles */
+.analysis-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+}
+
+.analysis-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.analysis-section-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--accent-blue);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.75rem;
+}
+
+.analysis-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-teal), var(--accent-blue));
+    border-radius: 2px;
+}
+
 .analysis-panel h3 {
     text-align: center;
     margin-bottom: 2rem;
