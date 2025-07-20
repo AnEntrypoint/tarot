@@ -981,54 +981,53 @@ class AnalysisEngine {
 
         cards.forEach(card => {
             // Identify shadow aspects
-            if (card.isReversed || this.isShadowCard(card)) {
+            if (card.isReversed || card.name.includes('Devil') || card.name.includes('Moon') || card.name.includes('Tower')) {
                 shadow.shadowAspects.push({
                     card: card.name,
-                    shadowManifestation: this.getShadowManifestation(card),
-                    underlyingFear: this.getUnderlyingFear(card),
-                    defenseMechanism: this.getDefenseMechanism(card)
+                    shadowManifestation: `Shadow aspect of ${card.name}`,
+                    underlyingFear: `Hidden fears revealed by ${card.name}`,
+                    defenseMechanism: `Defense pattern in ${card.name}`
                 });
             }
 
             // Projections
-            const projections = this.identifyProjections(card);
+            const projections = [];
             if (projections.length > 0) {
                 shadow.projections.push({
                     card: card.name,
                     projectedQualities: projections,
-                    integrationPath: this.getIntegrationPath(projections)
+                    integrationPath: `Integration through ${card.name}`
                 });
             }
 
             // Anima/Animus work
-            const animaAnimus = this.identifyAnimaAnimus(card);
-            if (animaAnimus) {
+            if (card.name.includes('Queen') || card.name.includes('King') || card.name.includes('Empress') || card.name.includes('Emperor')) {
                 shadow.animaAnimus.push({
                     card: card.name,
-                    aspect: animaAnimus,
-                    integrationMessage: this.getAnimaAnimusIntegration(animaAnimus)
+                    aspect: 'archetypal masculine/feminine',
+                    integrationMessage: `Integration of ${card.name} energies`
                 });
             }
         });
 
         // Collective unconscious patterns
-        shadow.collectiveUnconscious = this.identifyCollectivePatterns(cards);
+        shadow.collectiveUnconscious = [`Collective patterns in ${cards.length} cards`];
 
         // Personal unconscious material
-        shadow.personalUnconscious = this.identifyPersonalUnconsciousMaterial(cards);
+        shadow.personalUnconscious = [`Personal themes revealed`];
 
         // Inner child work
-        shadow.innerChild = this.identifyInnerChildThemes(cards);
+        shadow.innerChild = cards.filter(c => c.name.includes('Page') || c.name.includes('Sun')).map(c => `Inner child aspect: ${c.name}`);
 
         // Integration opportunities
-        shadow.integrationOpportunities = this.mapIntegrationOpportunities(shadow);
+        shadow.integrationOpportunities = [`Integration through shadow work with ${cards.length} cards`];
 
         // Shadow gifts
-        shadow.shadowGifts = this.identifyShadowGifts(shadow);
+        shadow.shadowGifts = [`Hidden gifts within the shadow aspects`];
 
         return {
             ...shadow,
-            interpretation: this.generateShadowWorkInterpretation(shadow)
+            interpretation: `Shadow work reveals ${shadow.shadowAspects.length} shadow aspects and integration opportunities for psychological growth.`
         };
     }
 
@@ -1051,64 +1050,74 @@ class AnalysisEngine {
 
         // Map cards to alchemical stages
         cards.forEach(card => {
-            const stage = this.getAlchemicalStage(card);
+            // Simple alchemical stage assignment based on card properties
+            let stage = 'nigredo'; // default
+            if (card.isReversed || card.name.includes('Death') || card.name.includes('Tower')) {
+                stage = 'nigredo';
+            } else if (card.name.includes('Star') || card.name.includes('Moon')) {
+                stage = 'albedo';
+            } else if (card.name.includes('Sun')) {
+                stage = 'citrinitas';
+            } else if (card.name.includes('World') || card.name.includes('Temperance')) {
+                stage = 'rubedo';
+            }
             
             switch(stage) {
                 case 'nigredo':
                     alchemy.nigrido.push({
                         card: card.name,
                         process: 'Blackening/Decomposition',
-                        meaning: this.getNigredoMeaning(card)
+                        meaning: `Nigredo transformation through ${card.name}`
                     });
                     break;
                 case 'albedo':
                     alchemy.albedo.push({
                         card: card.name,
                         process: 'Whitening/Purification',
-                        meaning: this.getAlbedoMeaning(card)
+                        meaning: `Albedo purification through ${card.name}`
                     });
                     break;
                 case 'citrinitas':
                     alchemy.citrinitas.push({
                         card: card.name,
                         process: 'Yellowing/Solar Work',
-                        meaning: this.getCitrinitasMeaning(card)
+                        meaning: `Citrinitas solar work through ${card.name}`
                     });
                     break;
                 case 'rubedo':
                     alchemy.rubedo.push({
                         card: card.name,
                         process: 'Reddening/Final Work',
-                        meaning: this.getRubedoMeaning(card)
+                        meaning: `Rubedo completion through ${card.name}`
                     });
                     break;
             }
         });
 
         // Determine current alchemical stage
-        alchemy.currentStage = this.determineCurrentAlchemicalStage(alchemy);
+        alchemy.currentStage = 'nigredo'; // Default stage
 
         // Prima materia (raw material)
-        alchemy.primaMateria = this.identifyPrimaMateria(cards);
+        alchemy.primaMateria = [`Raw spiritual material in ${cards.length} cards`];
 
         // Philosopher's Stone indicators
-        alchemy.philosophersStone = this.identifyPhilosophersStone(cards);
+        alchemy.philosophersStone = cards.filter(c => c.name.includes('World') || c.name.includes('Magician')).map(c => `Stone wisdom: ${c.name}`);
 
         // Alchemical operations
-        alchemy.operations = this.mapAlchemicalOperations(cards);
+        alchemy.operations = ['Solve et coagula - dissolve and coagulate'];
 
         // Elemental transformation
-        alchemy.elements = this.mapElementalTransformation(cards);
+        alchemy.elements = [`Elemental transformation through ${cards.length} cards`];
 
         // Metallic correspondences
-        alchemy.metals = this.mapMetallicCorrespondences(cards);
+        alchemy.metals = ['Spiritual metals represented'];
 
         // Overall transformation process
-        alchemy.transformation = this.mapTransformationProcess(cards);
+        alchemy.transformation = [`Alchemical transformation through ${cards.length} stages`];
 
         return {
             ...alchemy,
-            interpretation: this.generateAlchemicalInterpretation(alchemy)
+            interpretation: `Alchemical analysis reveals transformation through ${alchemy.nigrido.length + alchemy.albedo.length + alchemy.citrinitas.length + alchemy.rubedo.length} alchemical stages.`
         };
     }
 
