@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarot Reader - Professional Edition</title>
+    <title>Tarot Reader - Insight and Guidance</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <link rel="stylesheet" href="styles.css">
@@ -16,64 +16,64 @@
                 Tarot Reader
             </h1>
             <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-                Professional tarot readings for personal insight and guidance. 
-                Explore different spreads to gain clarity on your questions.
+                Discover insights and guidance through the ancient wisdom of tarot. 
+                Explore different spreads to gain clarity on your path forward.
             </p>
         </header>
 
         <!-- Spread Selection -->
         <div id="spreadSelection" class="mb-6">
             <h2 class="title-font text-center mb-4 text-blue-300">Choose Your Spread</h2>
-            <div class="spread-grid">
-                <div class="spread-option" data-spread="single">
+            <div class="spread-grid" role="group" aria-label="Tarot spread options">
+                <button class="spread-option" data-spread="single" type="button" role="button" aria-label="Select single card spread for quick insight">
                     <div class="text-center">
-                        <div class="text-2xl mb-2 font-bold text-blue-400">1</div>
+                        <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">1</div>
                         <h3 class="text-lg font-semibold mb-1">Single Card</h3>
                         <p class="text-xs text-gray-400">Quick insight for guidance</p>
                     </div>
-                </div>
-                <div class="spread-option" data-spread="three-card">
+                </button>
+                <button class="spread-option" data-spread="three-card" type="button" role="button" aria-label="Select three card spread for past, present, and future reading">
                     <div class="text-center">
-                        <div class="text-2xl mb-2 font-bold text-blue-400">3</div>
+                        <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">3</div>
                         <h3 class="text-lg font-semibold mb-1">Past-Present-Future</h3>
                         <p class="text-xs text-gray-400">Classic timeline reading</p>
                     </div>
-                </div>
-                <div class="spread-option" data-spread="relationship">
+                </button>
+                <button class="spread-option" data-spread="relationship" type="button" role="button" aria-label="Select relationship spread for connections and partnerships">
                     <div class="text-center">
-                        <div class="text-2xl mb-2 font-bold text-blue-400">4</div>
+                        <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">4</div>
                         <h3 class="text-lg font-semibold mb-1">Relationship</h3>
-                        <p class="text-xs text-gray-400">Explore love & connections</p>
+                        <p class="text-xs text-gray-400">Explore connections & partnerships</p>
                     </div>
-                </div>
-                <div class="spread-option" data-spread="celtic-cross">
+                </button>
+                <button class="spread-option" data-spread="celtic-cross" type="button" role="button" aria-label="Select Celtic Cross spread for comprehensive in-depth analysis">
                     <div class="text-center">
-                        <div class="text-2xl mb-2 font-bold text-blue-400">10</div>
+                        <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">10</div>
                         <h3 class="text-lg font-semibold mb-1">Celtic Cross</h3>
-                        <p class="text-xs text-gray-400">Comprehensive reading</p>
+                        <p class="text-xs text-gray-400">In-depth analysis</p>
                     </div>
-                </div>
+                </button>
             </div>
         </div>
 
 
         <!-- Action Buttons -->
-        <div class="flex flex-col sm:flex-row gap-3 justify-center mb-6">
-            <button id="startReadingBtn" class="bg-gradient-to-r from-blue-600 to-teal-700 hover:from-blue-700 hover:to-teal-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 hidden w-full sm:w-auto">
+        <div class="flex flex-col sm:flex-row gap-3 justify-center mb-6" role="group" aria-label="Reading actions">
+            <button id="startReadingBtn" type="button" class="bg-gradient-to-r from-blue-600 to-teal-700 hover:from-blue-700 hover:to-teal-800 focus:from-blue-700 focus:to-teal-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 focus:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 hidden w-full sm:w-auto" aria-label="Begin your tarot reading">
                 Begin Reading
             </button>
-            <button id="resetReadingBtn" class="bg-gradient-to-r from-red-600 to-pink-700 hover:from-red-700 hover:to-pink-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 hidden w-full sm:w-auto">
+            <button id="resetReadingBtn" type="button" class="bg-gradient-to-r from-red-600 to-pink-700 hover:from-red-700 hover:to-pink-800 focus:from-red-700 focus:to-pink-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 focus:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 hidden w-full sm:w-auto" aria-label="Start a new reading">
                 New Reading
             </button>
-            <button id="saveReadingBtn" class="bg-gradient-to-r from-green-600 to-teal-700 hover:from-green-700 hover:to-teal-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 hidden w-full sm:w-auto">
+            <button id="saveReadingBtn" type="button" class="bg-gradient-to-r from-green-600 to-teal-700 hover:from-green-700 hover:to-teal-800 focus:from-green-700 focus:to-teal-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 focus:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 hidden w-full sm:w-auto" aria-label="Save your current reading">
                 Save Reading
             </button>
             <!-- Analysis now runs automatically when reading is complete -->
         </div>
 
         <!-- Instruction Text -->
-        <p id="instructionText" class="text-center text-base mb-6 text-gray-300 px-4">
-            Select a spread type to begin your mystical journey
+        <p id="instructionText" class="text-center text-base mb-6 text-gray-300 px-4" aria-live="polite" role="status">
+            Select a spread type to begin your journey of insight
         </p>
 
         <!-- Deck Container -->
@@ -82,45 +82,45 @@
         </div>
 
         <!-- Reading Area -->
-        <div id="readingArea" class="mb-6">
+        <div id="readingArea" class="mb-6" role="main" aria-label="Tarot card reading area">
             <!-- Cards will be displayed here -->
         </div>
 
         <!-- Reading Summary -->
-        <div id="readingSummary" class="reading-summary hidden">
-            <h3 class="title-font text-2xl font-semibold mb-4 text-teal-400">Reading Interpretation</h3>
-            <div id="summaryContent"></div>
-        </div>
+        <section id="readingSummary" class="reading-summary hidden" aria-labelledby="summary-heading">
+            <h3 id="summary-heading" class="title-font text-2xl font-semibold mb-4 text-teal-400">Reading Interpretation</h3>
+            <div id="summaryContent" role="region" aria-live="polite"></div>
+        </section>
 
         <!-- Advanced Analysis Panel -->
-        <div id="analysisPanel" class="analysis-panel hidden">
+        <section id="analysisPanel" class="analysis-panel hidden" aria-labelledby="analysis-heading">
             <div class="mb-8">
-                <h3 class="title-font text-2xl font-semibold mb-4 text-blue-400">Advanced Analysis</h3>
+                <h3 id="analysis-heading" class="title-font text-2xl font-semibold mb-4 text-blue-400">Advanced Analysis</h3>
                 
                 <!-- Analysis Tabs -->
-                <div class="analysis-tabs mb-6">
-                    <button class="tab-button active" data-tab="overview">Overview</button>
-                    <button class="tab-button" data-tab="psychology">Psychology</button>
-                    <button class="tab-button" data-tab="spiritual">Spiritual</button>
-                    <button class="tab-button" data-tab="kabbalah">Kabbalah</button>
-                    <button class="tab-button" data-tab="chakras">Chakras</button>
-                    <button class="tab-button" data-tab="archetypes">Archetypes</button>
-                    <button class="tab-button" data-tab="timing">Timing</button>
-                    <button class="tab-button" data-tab="karma">Karma</button>
-                    <button class="tab-button" data-tab="numerology">Numerology</button>
-                    <button class="tab-button" data-tab="elements">Elements</button>
-                    <button class="tab-button" data-tab="astrology">Astrology</button>
-                    <button class="tab-button" data-tab="geometry">Sacred Geometry</button>
-                    <button class="tab-button" data-tab="symbolism">Symbolism</button>
-                    <button class="tab-button" data-tab="interactions">Interactions</button>
-                    <button class="tab-button" data-tab="shadow">Shadow Work</button>
-                    <button class="tab-button" data-tab="alchemy">Alchemy</button>
-                    <button class="tab-button" data-tab="mythology">Mythology</button>
-                    <button class="tab-button" data-tab="quantum">Quantum Field</button>
+                <div class="analysis-tabs mb-6" role="tablist" aria-label="Analysis categories">
+                    <button class="tab-button active" data-tab="overview" role="tab" aria-selected="true" aria-controls="overviewTab" type="button">Overview</button>
+                    <button class="tab-button" data-tab="psychology" role="tab" aria-selected="false" aria-controls="psychologyTab" type="button">Psychology</button>
+                    <button class="tab-button" data-tab="spiritual" role="tab" aria-selected="false" aria-controls="spiritualTab" type="button">Spiritual</button>
+                    <button class="tab-button" data-tab="kabbalah" role="tab" aria-selected="false" aria-controls="kabbalahTab" type="button">Kabbalah</button>
+                    <button class="tab-button" data-tab="chakras" role="tab" aria-selected="false" aria-controls="chakrasTab" type="button">Chakras</button>
+                    <button class="tab-button" data-tab="archetypes" role="tab" aria-selected="false" aria-controls="archetypesTab" type="button">Archetypes</button>
+                    <button class="tab-button" data-tab="timing" role="tab" aria-selected="false" aria-controls="timingTab" type="button">Timing</button>
+                    <button class="tab-button" data-tab="karma" role="tab" aria-selected="false" aria-controls="karmaTab" type="button">Karma</button>
+                    <button class="tab-button" data-tab="numerology" role="tab" aria-selected="false" aria-controls="numerologyTab" type="button">Numerology</button>
+                    <button class="tab-button" data-tab="elements" role="tab" aria-selected="false" aria-controls="elementsTab" type="button">Elements</button>
+                    <button class="tab-button" data-tab="astrology" role="tab" aria-selected="false" aria-controls="astrologyTab" type="button">Astrology</button>
+                    <button class="tab-button" data-tab="geometry" role="tab" aria-selected="false" aria-controls="geometryTab" type="button">Sacred Geometry</button>
+                    <button class="tab-button" data-tab="symbolism" role="tab" aria-selected="false" aria-controls="symbolismTab" type="button">Symbolism</button>
+                    <button class="tab-button" data-tab="interactions" role="tab" aria-selected="false" aria-controls="interactionsTab" type="button">Interactions</button>
+                    <button class="tab-button" data-tab="shadow" role="tab" aria-selected="false" aria-controls="shadowTab" type="button">Shadow Work</button>
+                    <button class="tab-button" data-tab="alchemy" role="tab" aria-selected="false" aria-controls="alchemyTab" type="button">Alchemy</button>
+                    <button class="tab-button" data-tab="mythology" role="tab" aria-selected="false" aria-controls="mythologyTab" type="button">Mythology</button>
+                    <button class="tab-button" data-tab="quantum" role="tab" aria-selected="false" aria-controls="quantumTab" type="button">Quantum Field</button>
                 </div>
 
                 <!-- Tab Content -->
-                <div id="overviewTab" class="tab-content active">
+                <div id="overviewTab" class="tab-content active" role="tabpanel" aria-labelledby="overview-tab">
                     <div class="analysis-grid">
                         <div class="analysis-card">
                             <h4 class="text-lg font-semibold mb-2 text-teal-400">Reading Overview</h4>
