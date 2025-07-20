@@ -259,18 +259,46 @@ button {
     z-index: 10;
 }
 
-/* Expanded card view */
-.tarot-card.expanded {
-    width: auto;
-    height: auto;
-    min-height: 300px;
+/* Card placeholder slots */
+.card-placeholder-slot {
+    width: 120px;
+    height: 190px;
+    border: 2px dashed var(--accent-teal);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: rgba(13, 27, 42, 0.5);
+    transition: all 0.3s ease;
 }
 
-.tarot-card.expanded .card-image-container {
-    width: 100px;
-    height: 150px;
-    margin: 0 auto 1rem;
+.card-position-label {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.875rem;
+    color: var(--accent-teal);
+    white-space: nowrap;
 }
+
+.card-placeholder-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-number {
+    font-size: 2rem;
+    color: var(--accent-blue);
+    opacity: 0.5;
+    font-weight: bold;
+}
+
 
 .tarot-card.image-only:hover {
     transform: translateY(-5px);
@@ -504,54 +532,64 @@ button {
 }
 
 /* Celtic Cross specific positions */
-.reading-grid-celtic-cross .tarot-card:nth-child(1) { /* Present */ 
+.reading-grid-celtic-cross .tarot-card:nth-child(1),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(1) { /* Present */ 
     grid-column: 3;
     grid-row: 2;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(2) { /* Challenge */
+.reading-grid-celtic-cross .tarot-card:nth-child(2),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(2) { /* Challenge */
     grid-column: 3;
     grid-row: 2;
     transform: rotate(90deg);
     z-index: 1;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(3) { /* Distant Past */
+.reading-grid-celtic-cross .tarot-card:nth-child(3),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(3) { /* Distant Past */
     grid-column: 3;
     grid-row: 3;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(4) { /* Recent Past */
+.reading-grid-celtic-cross .tarot-card:nth-child(4),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(4) { /* Recent Past */
     grid-column: 2;
     grid-row: 2;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(5) { /* Possible Outcome */
+.reading-grid-celtic-cross .tarot-card:nth-child(5),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(5) { /* Possible Outcome */
     grid-column: 3;
     grid-row: 1;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(6) { /* Immediate Future */
+.reading-grid-celtic-cross .tarot-card:nth-child(6),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(6) { /* Immediate Future */
     grid-column: 4;
     grid-row: 2;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(7) { /* Your Approach */
+.reading-grid-celtic-cross .tarot-card:nth-child(7),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(7) { /* Your Approach */
     grid-column: 5;
     grid-row: 4;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(8) { /* External Influences */
+.reading-grid-celtic-cross .tarot-card:nth-child(8),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(8) { /* External Influences */
     grid-column: 5;
     grid-row: 3;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(9) { /* Hopes and Fears */
+.reading-grid-celtic-cross .tarot-card:nth-child(9),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(9) { /* Hopes and Fears */
     grid-column: 5;
     grid-row: 2;
 }
 
-.reading-grid-celtic-cross .tarot-card:nth-child(10) { /* Final Outcome */
+.reading-grid-celtic-cross .tarot-card:nth-child(10),
+.reading-grid-celtic-cross .card-placeholder-slot:nth-child(10) { /* Final Outcome */
     grid-column: 5;
     grid-row: 1;
 }
