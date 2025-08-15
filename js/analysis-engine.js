@@ -235,24 +235,24 @@ class AnalysisEngine {
         cards.forEach(card => {
             // Try JSON data first, fallback to basic archetypes
             const archetypeData = jungianData[card.name];
-            const archetype = getText(archetypeData?.primary_archetype) || this.getBasicArchetype(card);
+            const archetype = renderTextWithCitation(archetypeData?.primary_archetype, getText(archetypeData?.primary_archetype)) || this.getBasicArchetype(card);
             
             if (archetype) {
                 archetypes[archetype] = (archetypes[archetype] || 0) + 1;
 
                 // Check for shadow work (reversed cards)
                 if (card.isReversed) {
-                    const shadowMeaning = getText(archetypeData?.shadow_aspect) || this.getShadowMeaning(card.name);
+                    const shadowMeaning = renderTextWithCitation(archetypeData?.shadow_aspect, getText(archetypeData?.shadow_aspect)) || this.getShadowMeaning(card.name);
                     shadowWork.push(`${card.name} (${archetype}) - ${shadowMeaning}`);
                 }
 
                 // Check for anima/animus patterns
                 if (["The Empress", "The High Priestess", "Queen of Cups", "Queen of Pentacles"].includes(card.name)) {
-                    const animaMeaning = getText(archetypeData?.anima_aspect) || this.getAnimaAnimusMeaning(card.name, "anima");
+                    const animaMeaning = renderTextWithCitation(archetypeData?.anima_aspect, getText(archetypeData?.anima_aspect)) || this.getAnimaAnimusMeaning(card.name, "anima");
                     animaAnimus.push(`Anima: ${card.name} - ${animaMeaning}`);
                 }
                 if (["The Emperor", "The Magician", "King of Wands", "King of Swords"].includes(card.name)) {
-                    const animusMeaning = getText(archetypeData?.animus_aspect) || this.getAnimaAnimusMeaning(card.name, "animus");
+                    const animusMeaning = renderTextWithCitation(archetypeData?.animus_aspect, getText(archetypeData?.animus_aspect)) || this.getAnimaAnimusMeaning(card.name, "animus");
                     animaAnimus.push(`Animus: ${card.name} - ${animusMeaning}`);
                 }
             }
@@ -1736,16 +1736,16 @@ class AnalysisEngine {
             const dominantData = insights[dominant.toLowerCase()];
             interpretation += `${dominant} energy dominates this reading. `;
             if (dominantData.psychological_aspects) {
-                interpretation += `${getText(dominantData.psychological_aspects)}. `;
+                interpretation += `${renderTextWithCitation(dominantData.psychological_aspects, getText(dominantData.psychological_aspects))}. `;
             }
             if (dominantData.life_lessons) {
-                interpretation += `Key lesson: ${getText(dominantData.life_lessons)}. `;
+                interpretation += `Key lesson: ${renderTextWithCitation(dominantData.life_lessons, getText(dominantData.life_lessons))}. `;
             }
             
             // Add academic quote if available
             if (dominantData.academic_quotes && dominantData.academic_quotes.length > 0) {
                 const quote = dominantData.academic_quotes[0];
-                interpretation += `\\n\\nAs ${getText(quote.author)} noted: "${getText(quote.quote)}"`;
+                interpretation += `\\n\\nAs ${renderTextWithCitation(quote.author, getText(quote.author))} noted: "${renderTextWithCitation(quote.quote, getText(quote.quote))}"`;
             }
         } else {
             // Fallback to basic interpretation
@@ -1836,7 +1836,7 @@ class AnalysisEngine {
         let interpretation = `This reading contains ${symbols.length} universal symbols that resonate across cultures:\\n\\n`;
         
         symbols.forEach(sym => {
-            interpretation += `• ${getText(sym.symbol)} (${getText(sym.card)}): ${getText(sym.meaning)}\\n`;
+            interpretation += `• ${renderTextWithCitation(sym.symbol, getText(sym.symbol))} (${renderTextWithCitation(sym.card, getText(sym.card))}): ${renderTextWithCitation(sym.meaning, getText(sym.meaning))}\\n`;
         });
         
         if (themes.length > 0) {
@@ -1884,7 +1884,7 @@ class AnalysisEngine {
         let interpretation = "From a dream symbolism perspective:\\n\\n";
         
         dreamSymbols.forEach(symbol => {
-            interpretation += `• ${getText(symbol.card)}: ${getText(symbol.dreamMeaning)}\\n`;
+            interpretation += `• ${renderTextWithCitation(symbol.card, getText(symbol.card))}: ${renderTextWithCitation(symbol.dreamMeaning, getText(symbol.dreamMeaning))}\\n`;
         });
         
         const allThemes = dreamSymbols.flatMap(s => s.collectiveUnconscious);
@@ -1932,10 +1932,10 @@ class AnalysisEngine {
         let interpretation = "Natural world connections in this reading:\\n\\n";
         
         correspondences.forEach(corr => {
-            interpretation += `• ${getText(corr.card)}:\\n`;
-            if (corr.plants) interpretation += `  Plants: ${corr.plants.map(p => getText(p)).join(', ')}\\n`;
-            if (corr.animals) interpretation += `  Animals: ${corr.animals.map(a => getText(a)).join(', ')}\\n`;
-            if (corr.natural_magic) interpretation += `  Natural Magic: ${getText(corr.natural_magic)}\\n`;
+            interpretation += `• ${renderTextWithCitation(corr.card, getText(corr.card))}:\\n`;
+            if (corr.plants) interpretation += `  Plants: ${corr.plants.map(p => renderTextWithCitation(p, getText(p))).join(', ')}\\n`;
+            if (corr.animals) interpretation += `  Animals: ${corr.animals.map(a => renderTextWithCitation(a, getText(a))).join(', ')}\\n`;
+            if (corr.natural_magic) interpretation += `  Natural Magic: ${renderTextWithCitation(corr.natural_magic, getText(corr.natural_magic))}\\n`;
         });
         
         return interpretation;
@@ -1976,10 +1976,10 @@ class AnalysisEngine {
         let interpretation = "Therapeutic and healing insights:\\n\\n";
         
         healingAspects.forEach(aspect => {
-            interpretation += `• ${getText(aspect.card)}:\\n`;
-            if (aspect.trauma_healing) interpretation += `  Trauma Work: ${getText(aspect.trauma_healing)}\\n`;
-            if (aspect.therapeutic_approach) interpretation += `  Approach: ${getText(aspect.therapeutic_approach)}\\n`;
-            if (aspect.healing_modalities) interpretation += `  Modalities: ${aspect.healing_modalities.map(m => getText(m)).join(', ')}\\n`;
+            interpretation += `• ${renderTextWithCitation(aspect.card, getText(aspect.card))}:\\n`;
+            if (aspect.trauma_healing) interpretation += `  Trauma Work: ${renderTextWithCitation(aspect.trauma_healing, getText(aspect.trauma_healing))}\\n`;
+            if (aspect.therapeutic_approach) interpretation += `  Approach: ${renderTextWithCitation(aspect.therapeutic_approach, getText(aspect.therapeutic_approach))}\\n`;
+            if (aspect.healing_modalities) interpretation += `  Modalities: ${aspect.healing_modalities.map(m => renderTextWithCitation(m, getText(m))).join(', ')}\\n`;
         });
         
         return interpretation;
@@ -2024,11 +2024,11 @@ class AnalysisEngine {
         const reversedCount = cards.filter(c => c.isReversed).length;
         
         if (majorArcanaCount > cards.length * 0.6) {
-            return getText(techniques.spiritual_counseling) || "Focus on spiritual guidance and life path insights.";
+            return renderTextWithCitation(techniques.spiritual_counseling, getText(techniques.spiritual_counseling)) || "Focus on spiritual guidance and life path insights.";
         } else if (reversedCount > cards.length * 0.5) {
-            return getText(techniques.shadow_work) || "Emphasize inner work and unconscious pattern exploration.";
+            return renderTextWithCitation(techniques.shadow_work, getText(techniques.shadow_work)) || "Emphasize inner work and unconscious pattern exploration.";
         } else {
-            return getText(techniques.practical_guidance) || "Provide clear, actionable advice for practical matters.";
+            return renderTextWithCitation(techniques.practical_guidance, getText(techniques.practical_guidance)) || "Provide clear, actionable advice for practical matters.";
         }
     }
 
@@ -2040,11 +2040,11 @@ class AnalysisEngine {
         );
         
         const suitDynamics = {
-            "Cups": getText(dynamics.emotional_support) || "Client may need emotional support and validation.",
-            "Wands": getText(dynamics.motivation) || "Client likely seeks inspiration and direction for action.",
-            "Swords": getText(dynamics.clarity) || "Client probably needs mental clarity and decision-making support.",
-            "Pentacles": getText(dynamics.practical_advice) || "Client is looking for practical, material guidance.",
-            "Major Arcana": getText(dynamics.spiritual_guidance) || "Client is seeking deeper spiritual insight."
+            "Cups": renderTextWithCitation(dynamics.emotional_support, getText(dynamics.emotional_support)) || "Client may need emotional support and validation.",
+            "Wands": renderTextWithCitation(dynamics.motivation, getText(dynamics.motivation)) || "Client likely seeks inspiration and direction for action.",
+            "Swords": renderTextWithCitation(dynamics.clarity, getText(dynamics.clarity)) || "Client probably needs mental clarity and decision-making support.",
+            "Pentacles": renderTextWithCitation(dynamics.practical_advice, getText(dynamics.practical_advice)) || "Client is looking for practical, material guidance.",
+            "Major Arcana": renderTextWithCitation(dynamics.spiritual_guidance, getText(dynamics.spiritual_guidance)) || "Client is seeking deeper spiritual insight."
         };
         
         return suitDynamics[dominantSuit] || "Provide balanced, comprehensive guidance.";
@@ -2059,9 +2059,9 @@ class AnalysisEngine {
         
         insights.forEach(insight => {
             if (insight.type === 'technique') {
-                interpretation += `Recommended Technique: ${getText(insight.recommendation)}\\n\\n`;
+                interpretation += `Recommended Technique: ${renderTextWithCitation(insight.recommendation, getText(insight.recommendation))}\\n\\n`;
             } else if (insight.type === 'client_dynamics') {
-                interpretation += `Client Dynamics: ${getText(insight.guidance)}\\n\\n`;
+                interpretation += `Client Dynamics: ${renderTextWithCitation(insight.guidance, getText(insight.guidance))}\\n\\n`;
             }
         });
         
@@ -2230,13 +2230,13 @@ class AnalysisEngine {
         let interpretation = `${spreadType} Spread Analysis:\\n\\n`;
         
         if (insights.technique) {
-            interpretation += `Mastery Technique: ${getText(insights.technique.advanced_technique) || 'Standard interpretation'}\\n\\n`;
+            interpretation += `Mastery Technique: ${renderTextWithCitation(insights.technique.advanced_technique, getText(insights.technique.advanced_technique)) || 'Standard interpretation'}\\n\\n`;
         }
         
         if (insights.positionInteractions && insights.positionInteractions.length > 0) {
             interpretation += "Position Interactions:\\n";
             insights.positionInteractions.forEach(interaction => {
-                interpretation += `• ${getText(interaction.card1)} → ${getText(interaction.card2)}: ${getText(interaction.interaction)}\\n`;
+                interpretation += `• ${renderTextWithCitation(interaction.card1, getText(interaction.card1))} → ${renderTextWithCitation(interaction.card2, getText(interaction.card2))}: ${renderTextWithCitation(interaction.interaction, getText(interaction.interaction))}\\n`;
             });
         }
         
@@ -2305,9 +2305,9 @@ class AnalysisEngine {
         
         insights.forEach(insight => {
             if (insight.type === 'technique') {
-                interpretation += `Oracle Guidance: ${getText(insight.value)}\\n\\n`;
+                interpretation += `Oracle Guidance: ${renderTextWithCitation(insight.value, getText(insight.value))}\\n\\n`;
             } else if (insight.type === 'wisdom') {
-                interpretation += `Transcendent Wisdom: ${getText(insight.value)}\\n\\n`;
+                interpretation += `Transcendent Wisdom: ${renderTextWithCitation(insight.value, getText(insight.value))}\\n\\n`;
             }
         });
         
@@ -2355,10 +2355,10 @@ class AnalysisEngine {
         const dominantArea = this.getDominantLifeArea(suits);
         
         const areas = {
-            'emotional': getText(masteryData.emotional_mastery) || "Focus on emotional intelligence and heart-centered decision making.",
-            'mental': getText(masteryData.mental_mastery) || "Develop clarity of thought and conscious communication.",
-            'physical': getText(masteryData.physical_mastery) || "Ground your spiritual insights in practical, material action.",
-            'spiritual': getText(masteryData.spiritual_mastery) || "Align your actions with your highest spiritual purpose."
+            'emotional': renderTextWithCitation(masteryData.emotional_mastery, getText(masteryData.emotional_mastery)) || "Focus on emotional intelligence and heart-centered decision making.",
+            'mental': renderTextWithCitation(masteryData.mental_mastery, getText(masteryData.mental_mastery)) || "Develop clarity of thought and conscious communication.",
+            'physical': renderTextWithCitation(masteryData.physical_mastery, getText(masteryData.physical_mastery)) || "Ground your spiritual insights in practical, material action.",
+            'spiritual': renderTextWithCitation(masteryData.spiritual_mastery, getText(masteryData.spiritual_mastery)) || "Align your actions with your highest spiritual purpose."
         };
         
         return areas[dominantArea] || areas['spiritual'];
@@ -2388,13 +2388,13 @@ class AnalysisEngine {
         const tens = cards.filter(c => c.name.includes('Ten')).length;
         
         if (aces > 0 && tens > 0) {
-            return getText(manifestationData.complete_cycle) || "You have both the seed and the fruition - trust the manifestation process.";
+            return renderTextWithCitation(manifestationData.complete_cycle, getText(manifestationData.complete_cycle)) || "You have both the seed and the fruition - trust the manifestation process.";
         } else if (aces > 0) {
-            return getText(manifestationData.new_beginnings) || "Focus your intention clearly - you are planting powerful seeds.";
+            return renderTextWithCitation(manifestationData.new_beginnings, getText(manifestationData.new_beginnings)) || "Focus your intention clearly - you are planting powerful seeds.";
         } else if (tens > 0) {
-            return getText(manifestationData.completion) || "Harvest time approaches - prepare to receive the fruits of your efforts.";
+            return renderTextWithCitation(manifestationData.completion, getText(manifestationData.completion)) || "Harvest time approaches - prepare to receive the fruits of your efforts.";
         } else {
-            return getText(manifestationData.process) || "Stay present with the unfolding process of manifestation.";
+            return renderTextWithCitation(manifestationData.process, getText(manifestationData.process)) || "Stay present with the unfolding process of manifestation.";
         }
     }
 
@@ -2403,11 +2403,11 @@ class AnalysisEngine {
         const upright = cards.length - reversed;
         
         if (reversed > upright) {
-            return getText(integrationData.inner_work) || "Focus on inner integration and shadow work practices.";
+            return renderTextWithCitation(integrationData.inner_work, getText(integrationData.inner_work)) || "Focus on inner integration and shadow work practices.";
         } else if (upright > reversed * 2) {
-            return getText(integrationData.outer_expression) || "Express your inner wisdom through concrete action in the world.";
+            return renderTextWithCitation(integrationData.outer_expression, getText(integrationData.outer_expression)) || "Express your inner wisdom through concrete action in the world.";
         } else {
-            return getText(integrationData.balanced_integration) || "Balance inner reflection with outer expression.";
+            return renderTextWithCitation(integrationData.balanced_integration, getText(integrationData.balanced_integration)) || "Balance inner reflection with outer expression.";
         }
     }
 
@@ -2419,7 +2419,7 @@ class AnalysisEngine {
         let interpretation = "Comprehensive Life Applications:\\n\\n";
         
         applications.forEach(app => {
-            interpretation += `${getText(app.category)}: ${getText(app.insight)}\\n\\n`;
+            interpretation += `${renderTextWithCitation(app.category, getText(app.category))}: ${renderTextWithCitation(app.insight, getText(app.insight))}\\n\\n`;
         });
         
         return interpretation;
