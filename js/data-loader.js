@@ -58,6 +58,22 @@ class TarotDataLoader {
 
         const loadPromises = dataSources.map(source => this._loadJSONFile(source));
         
+        const citationMapPromise = fetch('scripts/citation_map.json')
+            .then(res => res.json())
+            .then(data => {
+                this.dataCache.citationMap = data;
+                window.citationMap = data;
+            });
+
+        const bookIndexPromise = fetch('data/book_index.json')
+            .then(res => res.json())
+            .then(data => {
+                this.dataCache.bookIndex = data;
+                window.bookIndex = data;
+            });
+
+        loadPromises.push(citationMapPromise, bookIndexPromise);
+
         try {
             await Promise.all(loadPromises);
             this.isLoaded = true;
