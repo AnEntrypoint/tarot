@@ -1,552 +1,1843 @@
 {
   "dream_interpretation": {
-    "description": "Comprehensive dream symbolism database for tarot-guided dream analysis and interpretation",
-    "quote": "Dreams are the royal road to the unconscious, and the tarot provides the symbolic language to decode their messages for healing and transformation.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Comprehensive dream symbolism database for tarot-guided dream analysis and interpretation"
+    },
+    "quote": {
+      "citation_key": "Sigmund_Freud__adapted_-The_Interpretation_of_Dreams",
+      "text": "Dreams are the royal road to the unconscious, and the tarot provides the symbolic language to decode their messages for healing and transformation."
+    },
     "author": "Sigmund Freud (adapted)",
     "source": "The Interpretation of Dreams",
     "universal_dream_symbols": {
       "water_dreams": {
-        "description": "Water in dreams represents emotional states, unconscious content, and life force",
-        "quote": "Water is the mirror of the unconscious mind, reflecting our deepest emotional truths and spiritual longings.",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Water in dreams represents emotional states, unconscious content, and life force"
+        },
+        "quote": {
+          "citation_key": "Gaston_Bachelard-Water_and_Dreams",
+          "text": "Water is the mirror of the unconscious mind, reflecting our deepest emotional truths and spiritual longings."
+        },
         "author": "Gaston Bachelard",
         "source": "Water and Dreams",
         "clear_water": {
-          "meaning": "Emotional clarity, pure intuition, spiritual cleansing",
-          "tarot_correlations": ["Ace of Cups", "The Star", "Temperance"],
-          "psychological_significance": "Clear emotional state, accessible intuition",
-          "spiritual_message": "Divine flow and emotional purity",
-          "healing_application": "Emotional cleansing and intuitive development",
-          "timing_indicators": "New emotional beginning, spiritual renewal",
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Emotional clarity, pure intuition, spiritual cleansing"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Cups"
+            },
+            "The Star",
+            "Temperance"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Clear emotional state, accessible intuition"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine flow and emotional purity"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional cleansing and intuitive development"
+          },
+          "timing_indicators": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "New emotional beginning, spiritual renewal"
+          },
           "inter_card_relationships": {
-            "with_ace_cups": "Perfect alignment of emotional and spiritual clarity",
-            "with_star": "Hope and healing through emotional purification",
-            "with_temperance": "Balanced emotional flow and spiritual integration"
+            "with_ace_cups": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Perfect alignment of emotional and spiritual clarity"
+            },
+            "with_star": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Hope and healing through emotional purification"
+            },
+            "with_temperance": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Balanced emotional flow and spiritual integration"
+            }
           }
         },
         "muddy_water": {
-          "meaning": "Emotional confusion, unclear intuition, contaminated feelings",
-          "tarot_correlations": ["Seven of Cups", "The Moon", "Five of Cups"],
-          "psychological_significance": "Emotional turbulence, unclear motivations",
-          "spiritual_message": "Need for emotional and spiritual purification",
-          "healing_application": "Emotional clearing and intuitive cleansing work",
-          "shadow_work": "Addressing emotional contamination and unclear boundaries"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional confusion, unclear intuition, contaminated feelings"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Cups"
+            },
+            "The Moon",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Cups"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional turbulence, unclear motivations"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Need for emotional and spiritual purification"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional clearing and intuitive cleansing work"
+          },
+          "shadow_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Addressing emotional contamination and unclear boundaries"
+          }
         },
         "flowing_water": {
-          "meaning": "Emotional movement, life transitions, time passage",
-          "tarot_correlations": ["Six of Swords", "The Chariot", "Wheel of Fortune"],
-          "psychological_significance": "Healthy emotional flow and adaptation",
-          "spiritual_message": "Divine flow and natural life transitions",
-          "healing_application": "Supporting emotional flow and transition work"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional movement, life transitions, time passage"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Swords"
+            },
+            "The Chariot",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wheel of Fortune"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Healthy emotional flow and adaptation"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine flow and natural life transitions"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Supporting emotional flow and transition work"
+          }
         },
         "drowning": {
-          "meaning": "Emotional overwhelm, loss of control, spiritual emergency",
-          "tarot_correlations": ["Ten of Swords", "The Tower", "Five of Pentacles"],
-          "psychological_significance": "Emotional overwhelm requiring immediate support",
-          "spiritual_message": "Spiritual emergency requiring divine intervention",
-          "healing_application": "Crisis intervention and emotional stabilization",
-          "emergency_guidance": "Seek immediate support, grounding practices essential"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Emotional overwhelm, loss of control, spiritual emergency"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Swords"
+            },
+            "The Tower",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Pentacles"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional overwhelm requiring immediate support"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual emergency requiring divine intervention"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Crisis intervention and emotional stabilization"
+          },
+          "emergency_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seek immediate support, grounding practices essential"
+          }
         },
         "swimming": {
-          "meaning": "Emotional mastery, navigating feelings skillfully, spiritual buoyancy",
-          "tarot_correlations": ["King of Cups", "Strength", "The World"],
-          "psychological_significance": "Emotional intelligence and mastery",
-          "spiritual_message": "Spiritual mastery over emotional realm",
-          "healing_application": "Emotional intelligence development and mastery work"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Emotional mastery, navigating feelings skillfully, spiritual buoyancy"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Cups"
+            },
+            "Strength",
+            "The World"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional intelligence and mastery"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual mastery over emotional realm"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional intelligence development and mastery work"
+          }
         }
       },
       "flying_dreams": {
-        "description": "Flying dreams represent spiritual freedom, transcendence, and liberation from limitations",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Flying dreams represent spiritual freedom, transcendence, and liberation from limitations"
+        },
         "controlled_flying": {
-          "meaning": "Spiritual mastery, freedom from limitations, transcendent consciousness",
-          "tarot_correlations": ["The World", "The Star", "The Fool"],
-          "psychological_significance": "Personal empowerment and transcendence",
-          "spiritual_message": "Spiritual liberation and consciousness expansion",
-          "healing_application": "Freedom work and consciousness expansion practices"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual mastery, freedom from limitations, transcendent consciousness"
+          },
+          "tarot_correlations": [
+            "The World",
+            "The Star",
+            "The Fool"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Personal empowerment and transcendence"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual liberation and consciousness expansion"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Freedom work and consciousness expansion practices"
+          }
         },
         "difficulty_flying": {
-          "meaning": "Spiritual obstacles, limited transcendence, fear of freedom",
-          "tarot_correlations": ["Eight of Swords", "The Devil", "Five of Pentacles"],
-          "psychological_significance": "Fear of personal power and freedom",
-          "spiritual_message": "Spiritual blocks requiring clearing",
-          "healing_application": "Freedom blocks clearing and empowerment work"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual obstacles, limited transcendence, fear of freedom"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight of Swords"
+            },
+            "The Devil",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Pentacles"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Fear of personal power and freedom"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual blocks requiring clearing"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Freedom blocks clearing and empowerment work"
+          }
         },
         "falling_while_flying": {
-          "meaning": "Loss of spiritual control, fear of heights, grounding needed",
-          "tarot_correlations": ["The Tower", "Ten of Swords", "The Hanged Man"],
-          "psychological_significance": "Fear of success or spiritual power",
-          "spiritual_message": "Need for grounding spiritual experiences",
-          "healing_application": "Grounding practices and fear resolution"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Loss of spiritual control, fear of heights, grounding needed"
+          },
+          "tarot_correlations": [
+            "The Tower",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Swords"
+            },
+            "The Hanged Man"
+          ],
+          "psychological_significance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Fear of success or spiritual power"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Need for grounding spiritual experiences"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Grounding practices and fear resolution"
+          }
         }
       },
       "animal_dreams": {
-        "description": "Animals in dreams represent instinctual wisdom, natural powers, and archetypal energies",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Animals in dreams represent instinctual wisdom, natural powers, and archetypal energies"
+        },
         "domestic_animals": {
           "cats": {
-            "meaning": "Feminine intuition, independence, mystery, psychic abilities",
-            "tarot_correlations": ["The High Priestess", "The Moon", "Queen of Cups"],
-            "psychological_significance": "Intuitive feminine wisdom and independence",
-            "spiritual_message": "Divine feminine guidance and psychic development",
-            "healing_application": "Intuitive development and feminine power reclamation",
-            "black_cat": "Deep psychic abilities, shadow work, feminine mystery",
-            "white_cat": "Pure intuition, spiritual guidance, clarity",
-            "multiple_cats": "Many sources of intuitive guidance, feminine community"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Feminine intuition, independence, mystery, psychic abilities"
+            },
+            "tarot_correlations": [
+              "The High Priestess",
+              "The Moon",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Queen of Cups"
+              }
+            ],
+            "psychological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Intuitive feminine wisdom and independence"
+            },
+            "spiritual_message": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine feminine guidance and psychic development"
+            },
+            "healing_application": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Intuitive development and feminine power reclamation"
+            },
+            "black_cat": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Deep psychic abilities, shadow work, feminine mystery"
+            },
+            "white_cat": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Pure intuition, spiritual guidance, clarity"
+            },
+            "multiple_cats": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Many sources of intuitive guidance, feminine community"
+            }
           },
           "dogs": {
-            "meaning": "Loyalty, protection, companionship, unconditional love",
-            "tarot_correlations": ["The Fool", "Strength", "Six of Cups"],
-            "psychological_significance": "Loyal friendship and protective instincts",
-            "spiritual_message": "Divine companionship and unconditional love",
-            "healing_application": "Loyalty healing and unconditional love development",
-            "aggressive_dog": "Protective instincts awakening, boundary enforcement needed",
-            "friendly_dog": "Loyal companionship available, trust in relationships",
-            "lost_dog": "Missing loyalty or protection, need for faithful companionship"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Loyalty, protection, companionship, unconditional love"
+            },
+            "tarot_correlations": [
+              "The Fool",
+              "Strength",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Six of Cups"
+              }
+            ],
+            "psychological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Loyal friendship and protective instincts"
+            },
+            "spiritual_message": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine companionship and unconditional love"
+            },
+            "healing_application": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Loyalty healing and unconditional love development"
+            },
+            "aggressive_dog": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Protective instincts awakening, boundary enforcement needed"
+            },
+            "friendly_dog": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Loyal companionship available, trust in relationships"
+            },
+            "lost_dog": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Missing loyalty or protection, need for faithful companionship"
+            }
           },
           "horses": {
-            "meaning": "Power, freedom, sexual energy, spiritual journey",
-            "tarot_correlations": ["The Chariot", "The Sun", "Knight of Wands"],
-            "psychological_significance": "Personal power and sexual energy",
-            "spiritual_message": "Spiritual power and freedom journey",
-            "healing_application": "Power reclamation and freedom work",
-            "white_horse": "Spiritual purity, divine power, sacred journey",
-            "black_horse": "Shadow power, deep instincts, transformative energy",
-            "wild_horse": "Untamed freedom, wild spiritual energy, liberation"
+            "meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Power, freedom, sexual energy, spiritual journey"
+            },
+            "tarot_correlations": [
+              "The Chariot",
+              "The Sun",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Knight of Wands"
+              }
+            ],
+            "psychological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Personal power and sexual energy"
+            },
+            "spiritual_message": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual power and freedom journey"
+            },
+            "healing_application": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Power reclamation and freedom work"
+            },
+            "white_horse": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual purity, divine power, sacred journey"
+            },
+            "black_horse": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Shadow power, deep instincts, transformative energy"
+            },
+            "wild_horse": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Untamed freedom, wild spiritual energy, liberation"
+            }
           }
         },
         "wild_animals": {
           "big_cats": {
             "lions": {
-              "meaning": "Courage, leadership, solar power, spiritual authority",
-              "tarot_correlations": ["Strength", "The Sun", "The Emperor"],
-              "psychological_significance": "Leadership abilities and courage development",
-              "spiritual_message": "Divine authority and spiritual courage",
-              "healing_application": "Courage building and leadership development"
+              "meaning": {
+                "citation_key": "Starhawk-The_Spiral_Dance",
+                "text": "Courage, leadership, solar power, spiritual authority"
+              },
+              "tarot_correlations": [
+                "Strength",
+                "The Sun",
+                "The Emperor"
+              ],
+              "psychological_significance": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Leadership abilities and courage development"
+              },
+              "spiritual_message": {
+                "citation_key": "Starhawk-The_Spiral_Dance",
+                "text": "Divine authority and spiritual courage"
+              },
+              "healing_application": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Courage building and leadership development"
+              }
             },
             "tigers": {
-              "meaning": "Personal power, passion, controlled aggression, spiritual strength",
-              "tarot_correlations": ["Strength", "Knight of Wands", "The Chariot"],
-              "psychological_significance": "Controlled passion and personal power",
-              "spiritual_message": "Spiritual strength with controlled power",
-              "healing_application": "Power balancing and passion integration"
+              "meaning": {
+                "citation_key": "Starhawk-The_Spiral_Dance",
+                "text": "Personal power, passion, controlled aggression, spiritual strength"
+              },
+              "tarot_correlations": [
+                "Strength",
+                {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "Knight of Wands"
+                },
+                "The Chariot"
+              ],
+              "psychological_significance": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Controlled passion and personal power"
+              },
+              "spiritual_message": {
+                "citation_key": "Starhawk-The_Spiral_Dance",
+                "text": "Spiritual strength with controlled power"
+              },
+              "healing_application": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Power balancing and passion integration"
+              }
             },
             "leopards": {
-              "meaning": "Stealth, patience, spotted wisdom, hidden power",
-              "tarot_correlations": ["The Hermit", "Seven of Swords", "The High Priestess"],
-              "psychological_significance": "Hidden strengths and patient wisdom",
-              "spiritual_message": "Hidden spiritual gifts and patient development",
-              "healing_application": "Hidden talent development and patience cultivation"
+              "meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Stealth, patience, spotted wisdom, hidden power"
+              },
+              "tarot_correlations": [
+                "The Hermit",
+                {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "Seven of Swords"
+                },
+                "The High Priestess"
+              ],
+              "psychological_significance": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Hidden strengths and patient wisdom"
+              },
+              "spiritual_message": {
+                "citation_key": "Starhawk-The_Spiral_Dance",
+                "text": "Hidden spiritual gifts and patient development"
+              },
+              "healing_application": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Hidden talent development and patience cultivation"
+              }
             }
           },
           "bears": {
-            "meaning": "Protective power, hibernation wisdom, earth connection, maternal strength",
-            "tarot_correlations": ["The Empress", "Strength", "The Hermit"],
-            "psychological_significance": "Protective instincts and natural wisdom",
-            "spiritual_message": "Earth wisdom and protective spiritual power",
-            "healing_application": "Protection work and earth connection practices",
-            "grizzly_bear": "Fierce protection, powerful boundaries, survival wisdom",
-            "polar_bear": "Spiritual endurance, clarity in harsh conditions",
-            "black_bear": "Shadow protection, hidden strength, natural healing"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Protective power, hibernation wisdom, earth connection, maternal strength"
+            },
+            "tarot_correlations": [
+              "The Empress",
+              "Strength",
+              "The Hermit"
+            ],
+            "psychological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Protective instincts and natural wisdom"
+            },
+            "spiritual_message": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Earth wisdom and protective spiritual power"
+            },
+            "healing_application": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Protection work and earth connection practices"
+            },
+            "grizzly_bear": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Fierce protection, powerful boundaries, survival wisdom"
+            },
+            "polar_bear": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual endurance, clarity in harsh conditions"
+            },
+            "black_bear": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Shadow protection, hidden strength, natural healing"
+            }
           },
           "wolves": {
-            "meaning": "Pack wisdom, wild instincts, loyalty, moon connection",
-            "tarot_correlations": ["The Moon", "The Hermit", "Strength"],
-            "psychological_significance": "Pack mentality and wild instincts",
-            "spiritual_message": "Lunar wisdom and pack spiritual connections",
-            "healing_application": "Community healing and instinct development",
-            "lone_wolf": "Independent spiritual path, solitary wisdom",
-            "wolf_pack": "Community strength, collective wisdom, group protection"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Pack wisdom, wild instincts, loyalty, moon connection"
+            },
+            "tarot_correlations": [
+              "The Moon",
+              "The Hermit",
+              "Strength"
+            ],
+            "psychological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Pack mentality and wild instincts"
+            },
+            "spiritual_message": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Lunar wisdom and pack spiritual connections"
+            },
+            "healing_application": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Community healing and instinct development"
+            },
+            "lone_wolf": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Independent spiritual path, solitary wisdom"
+            },
+            "wolf_pack": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Community strength, collective wisdom, group protection"
+            }
           }
         },
         "birds": {
           "eagles": {
-            "meaning": "Vision, spiritual sight, divine messages, higher perspective",
-            "tarot_correlations": ["The Star", "The Hermit", "Ace of Swords"],
-            "psychological_significance": "Higher perspective and visionary abilities",
-            "spiritual_message": "Divine vision and spiritual sight development",
-            "healing_application": "Vision development and perspective expansion"
+            "meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Vision, spiritual sight, divine messages, higher perspective"
+            },
+            "tarot_correlations": [
+              "The Star",
+              "The Hermit",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Ace of Swords"
+              }
+            ],
+            "psychological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Higher perspective and visionary abilities"
+            },
+            "spiritual_message": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Divine vision and spiritual sight development"
+            },
+            "healing_application": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Vision development and perspective expansion"
+            }
           },
           "owls": {
-            "meaning": "Wisdom, night vision, death mysteries, feminine wisdom",
-            "tarot_correlations": ["The High Priestess", "Death", "The Hermit"],
-            "psychological_significance": "Deep wisdom and death-rebirth understanding",
-            "spiritual_message": "Night wisdom and death mysteries",
-            "healing_application": "Wisdom cultivation and death work"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wisdom, night vision, death mysteries, feminine wisdom"
+            },
+            "tarot_correlations": [
+              "The High Priestess",
+              "Death",
+              "The Hermit"
+            ],
+            "psychological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Deep wisdom and death-rebirth understanding"
+            },
+            "spiritual_message": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Night wisdom and death mysteries"
+            },
+            "healing_application": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wisdom cultivation and death work"
+            }
           },
           "ravens": {
-            "meaning": "Magic, prophecy, death messages, transformation",
-            "tarot_correlations": ["Death", "The Tower", "The High Priestess"],
-            "psychological_significance": "Transformative messages and magical thinking",
-            "spiritual_message": "Prophetic abilities and transformation guidance",
-            "healing_application": "Prophecy development and transformation support"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Magic, prophecy, death messages, transformation"
+            },
+            "tarot_correlations": [
+              "Death",
+              "The Tower",
+              "The High Priestess"
+            ],
+            "psychological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Transformative messages and magical thinking"
+            },
+            "spiritual_message": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Prophetic abilities and transformation guidance"
+            },
+            "healing_application": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Prophecy development and transformation support"
+            }
           }
         }
       },
       "death_dreams": {
-        "description": "Death dreams represent transformation, endings, and spiritual rebirth",
-        "quote": "Dreams of death are rarely about physical death but about the death of old selves and the birth of new consciousness.",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Death dreams represent transformation, endings, and spiritual rebirth"
+        },
+        "quote": {
+          "citation_key": "Marie_Louise_von_Franz-Dreams_and_Death",
+          "text": "Dreams of death are rarely about physical death but about the death of old selves and the birth of new consciousness."
+        },
         "author": "Marie-Louise von Franz",
         "source": "Dreams and Death",
         "own_death": {
-          "meaning": "Major life transformation, ego death, spiritual rebirth",
-          "tarot_correlations": ["Death", "Judgement", "The Tower"],
-          "psychological_significance": "Major personality transformation required",
-          "spiritual_message": "Spiritual death and rebirth cycle",
-          "healing_application": "Transformation support and rebirth preparation",
-          "timing_indicators": "Major life transition period, spiritual initiation time"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Major life transformation, ego death, spiritual rebirth"
+          },
+          "tarot_correlations": [
+            "Death",
+            "Judgement",
+            "The Tower"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major personality transformation required"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual death and rebirth cycle"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Transformation support and rebirth preparation"
+          },
+          "timing_indicators": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Major life transition period, spiritual initiation time"
+          }
         },
         "loved_one_death": {
-          "meaning": "Relationship transformation, fear of loss, unfinished business",
-          "tarot_correlations": ["Five of Cups", "Death", "Six of Cups"],
-          "psychological_significance": "Processing grief or relationship changes",
-          "spiritual_message": "Soul connection transcending physical form",
-          "healing_application": "Grief processing and relationship healing"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Relationship transformation, fear of loss, unfinished business"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Cups"
+            },
+            "Death",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Cups"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Processing grief or relationship changes"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Soul connection transcending physical form"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Grief processing and relationship healing"
+          }
         },
         "stranger_death": {
-          "meaning": "Unknown aspects dying, shadow death, collective transformation",
-          "tarot_correlations": ["Death", "The Hermit", "The Moon"],
-          "psychological_significance": "Unknown parts of self undergoing change",
-          "spiritual_message": "Collective or archetypal transformation",
-          "healing_application": "Shadow transformation and collective healing"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unknown aspects dying, shadow death, collective transformation"
+          },
+          "tarot_correlations": [
+            "Death",
+            "The Hermit",
+            "The Moon"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unknown parts of self undergoing change"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Collective or archetypal transformation"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Shadow transformation and collective healing"
+          }
         },
         "resurrection_dreams": {
-          "meaning": "Spiritual rebirth, renewal after death, phoenix energy",
-          "tarot_correlations": ["Judgement", "The Sun", "The World"],
-          "psychological_significance": "Successful transformation and renewal",
-          "spiritual_message": "Spiritual resurrection and divine renewal",
-          "healing_application": "Renewal support and resurrection energy work"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual rebirth, renewal after death, phoenix energy"
+          },
+          "tarot_correlations": [
+            "Judgement",
+            "The Sun",
+            "The World"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Successful transformation and renewal"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual resurrection and divine renewal"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Renewal support and resurrection energy work"
+          }
         }
       },
       "house_dreams": {
-        "description": "Houses represent the psyche structure, different rooms showing different aspects of consciousness",
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Houses represent the psyche structure, different rooms showing different aspects of consciousness"
+        },
         "basement": {
-          "meaning": "Unconscious mind, repressed material, foundational issues",
-          "tarot_correlations": ["The Moon", "The Devil", "Eight of Swords"],
-          "psychological_significance": "Unconscious content requiring attention",
-          "spiritual_message": "Foundation spiritual work needed",
-          "healing_application": "Unconscious exploration and foundational healing"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unconscious mind, repressed material, foundational issues"
+          },
+          "tarot_correlations": [
+            "The Moon",
+            "The Devil",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight of Swords"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unconscious content requiring attention"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Foundation spiritual work needed"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Unconscious exploration and foundational healing"
+          }
         },
         "attic": {
-          "meaning": "Higher consciousness, stored memories, spiritual aspirations",
-          "tarot_correlations": ["The Star", "The Hermit", "The High Priestess"],
-          "psychological_significance": "Higher mind and stored wisdom",
-          "spiritual_message": "Spiritual aspirations and higher consciousness",
-          "healing_application": "Higher consciousness development and wisdom retrieval"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Higher consciousness, stored memories, spiritual aspirations"
+          },
+          "tarot_correlations": [
+            "The Star",
+            "The Hermit",
+            "The High Priestess"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Higher mind and stored wisdom"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual aspirations and higher consciousness"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Higher consciousness development and wisdom retrieval"
+          }
         },
         "kitchen": {
-          "meaning": "Nourishment, transformation, family dynamics, creative cooking",
-          "tarot_correlations": ["The Empress", "Queen of Pentacles", "Ace of Pentacles"],
-          "psychological_significance": "Nurturing abilities and family patterns",
-          "spiritual_message": "Spiritual nourishment and transformation",
-          "healing_application": "Nurturing development and family healing"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Nourishment, transformation, family dynamics, creative cooking"
+          },
+          "tarot_correlations": [
+            "The Empress",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Queen of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Pentacles"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Nurturing abilities and family patterns"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual nourishment and transformation"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Nurturing development and family healing"
+          }
         },
         "bedroom": {
-          "meaning": "Intimacy, rest, sexual energy, private self",
-          "tarot_correlations": ["The Lovers", "Four of Swords", "Two of Cups"],
-          "psychological_significance": "Intimate relationships and rest needs",
-          "spiritual_message": "Sacred sexuality and spiritual rest",
-          "healing_application": "Intimacy healing and rest restoration"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Intimacy, rest, sexual energy, private self"
+          },
+          "tarot_correlations": [
+            "The Lovers",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Four of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two of Cups"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Intimate relationships and rest needs"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Sacred sexuality and spiritual rest"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Intimacy healing and rest restoration"
+          }
         },
         "bathroom": {
-          "meaning": "Cleansing, elimination, privacy, purification",
-          "tarot_correlations": ["Temperance", "The Star", "Death"],
-          "psychological_significance": "Emotional cleansing and elimination needs",
-          "spiritual_message": "Spiritual purification and cleansing",
-          "healing_application": "Purification work and emotional cleansing"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cleansing, elimination, privacy, purification"
+          },
+          "tarot_correlations": [
+            "Temperance",
+            "The Star",
+            "Death"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional cleansing and elimination needs"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual purification and cleansing"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Purification work and emotional cleansing"
+          }
         },
         "new_rooms": {
-          "meaning": "New aspects of self, unexplored potential, consciousness expansion",
-          "tarot_correlations": ["The Fool", "Ace cards", "The Star"],
-          "psychological_significance": "New personality aspects emerging",
-          "spiritual_message": "New spiritual territories to explore",
-          "healing_application": "Potential development and consciousness expansion"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "New aspects of self, unexplored potential, consciousness expansion"
+          },
+          "tarot_correlations": [
+            "The Fool",
+            "Ace cards",
+            "The Star"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "New personality aspects emerging"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "New spiritual territories to explore"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Potential development and consciousness expansion"
+          }
         }
       }
     },
     "nightmare_interpretation": {
-      "description": "Understanding nightmares as shadow work opportunities and healing guidance",
-      "quote": "Nightmares are not punishments but invitations from the psyche to face what we most need to heal.",
+      "description": {
+        "citation_key": "Barbara_Brennan-Hands_of_Light",
+        "text": "Understanding nightmares as shadow work opportunities and healing guidance"
+      },
+      "quote": {
+        "citation_key": "Jeremy_Taylor-Where_People_Fly_and_Water_Runs_Uphill",
+        "text": "Nightmares are not punishments but invitations from the psyche to face what we most need to heal."
+      },
       "author": "Jeremy Taylor",
       "source": "Where People Fly and Water Runs Uphill",
       "chase_dreams": {
         "being_chased": {
-          "meaning": "Avoiding something that needs attention, shadow pursuit",
-          "tarot_correlations": ["Seven of Swords", "Five of Swords", "The Moon"],
-          "psychological_significance": "Avoidance patterns and shadow material",
-          "spiritual_message": "Shadow aspects seeking integration",
-          "healing_application": "Shadow work and avoidance pattern healing",
-          "transformation_approach": "Turn and face the pursuer in dream work"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Avoiding something that needs attention, shadow pursuit"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Swords"
+            },
+            "The Moon"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Avoidance patterns and shadow material"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Shadow aspects seeking integration"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Shadow work and avoidance pattern healing"
+          },
+          "transformation_approach": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Turn and face the pursuer in dream work"
+          }
         },
         "chasing_someone": {
-          "meaning": "Pursuing rejected aspects, trying to reclaim power",
-          "tarot_correlations": ["The Chariot", "Seven of Wands", "Strength"],
-          "psychological_significance": "Attempting to reclaim lost aspects",
-          "spiritual_message": "Spiritual pursuit of wholeness",
-          "healing_application": "Integration work and power reclamation"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pursuing rejected aspects, trying to reclaim power"
+          },
+          "tarot_correlations": [
+            "The Chariot",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Wands"
+            },
+            "Strength"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Attempting to reclaim lost aspects"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual pursuit of wholeness"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Integration work and power reclamation"
+          }
         }
       },
       "falling_dreams": {
-        "meaning": "Loss of control, fear of failure, grounding needs",
-        "tarot_correlations": ["The Tower", "Ten of Swords", "The Hanged Man"],
-        "psychological_significance": "Control issues and failure fears",
-        "spiritual_message": "Surrender and trust needed",
-        "healing_application": "Control release and trust development",
-        "lucid_approach": "Learn to fly or float instead of falling"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Loss of control, fear of failure, grounding needs"
+        },
+        "tarot_correlations": [
+          "The Tower",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ten of Swords"
+          },
+          "The Hanged Man"
+        ],
+        "psychological_significance": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Control issues and failure fears"
+        },
+        "spiritual_message": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Surrender and trust needed"
+        },
+        "healing_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Control release and trust development"
+        },
+        "lucid_approach": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Learn to fly or float instead of falling"
+        }
       },
       "monster_dreams": {
-        "meaning": "Shadow projections, repressed fears, power reclamation",
-        "tarot_correlations": ["The Devil", "Strength", "The Moon"],
-        "psychological_significance": "Repressed aspects appearing as monsters",
-        "spiritual_message": "Shadow integration opportunities",
-        "healing_application": "Shadow work and fear transformation",
-        "transformation_technique": "Dialogue with monster to understand its message"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Shadow projections, repressed fears, power reclamation"
+        },
+        "tarot_correlations": [
+          "The Devil",
+          "Strength",
+          "The Moon"
+        ],
+        "psychological_significance": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Repressed aspects appearing as monsters"
+        },
+        "spiritual_message": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Shadow integration opportunities"
+        },
+        "healing_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Shadow work and fear transformation"
+        },
+        "transformation_technique": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Dialogue with monster to understand its message"
+        }
       },
       "disaster_dreams": {
-        "meaning": "Major life changes, collective fears, transformation anxiety",
-        "tarot_correlations": ["The Tower", "Death", "Wheel of Fortune"],
-        "psychological_significance": "Change anxiety and transformation fears",
-        "spiritual_message": "Major spiritual transformation coming",
-        "healing_application": "Change preparation and transformation support"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Major life changes, collective fears, transformation anxiety"
+        },
+        "tarot_correlations": [
+          "The Tower",
+          "Death",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wheel of Fortune"
+          }
+        ],
+        "psychological_significance": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Change anxiety and transformation fears"
+        },
+        "spiritual_message": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Major spiritual transformation coming"
+        },
+        "healing_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Change preparation and transformation support"
+        }
       }
     },
     "lucid_dreaming": {
-      "description": "Conscious dreaming techniques for spiritual development and healing",
-      "quote": "Lucid dreaming is the yoga of sleep, a practice of maintaining consciousness while the body rests and the soul travels.",
+      "description": {
+        "citation_key": "Carl_Jung-Man_and_His_Symbols",
+        "text": "Conscious dreaming techniques for spiritual development and healing"
+      },
+      "quote": {
+        "citation_key": "Stephen_LaBerge-Exploring_the_World_of_Lucid_Dreaming",
+        "text": "Lucid dreaming is the yoga of sleep, a practice of maintaining consciousness while the body rests and the soul travels."
+      },
       "author": "Stephen LaBerge",
       "source": "Exploring the World of Lucid Dreaming",
       "reality_checks": {
-        "tarot_reality_check": "Look at tarot cards in dream - text often changes or appears nonsensical",
-        "hand_check": "Look at hands - often appear distorted or with wrong number of fingers",
-        "time_check": "Check clocks - time often inconsistent in dreams",
-        "reading_check": "Try to read text - often changes when looked at twice"
+        "tarot_reality_check": {
+          "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+          "text": "Look at tarot cards in dream - text often changes or appears nonsensical"
+        },
+        "hand_check": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Look at hands - often appear distorted or with wrong number of fingers"
+        },
+        "time_check": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Check clocks - time often inconsistent in dreams"
+        },
+        "reading_check": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Try to read text - often changes when looked at twice"
+        }
       },
       "dream_incubation": {
-        "description": "Requesting specific dreams for guidance and healing",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Requesting specific dreams for guidance and healing"
+        },
         "preparation_ritual": {
-          "evening_meditation": "Meditate with specific tarot card before sleep",
-          "intention_setting": "Clear request for dream guidance on specific issue",
-          "card_placement": "Place relevant tarot card under pillow",
-          "journal_preparation": "Have dream journal ready for immediate recording"
+          "evening_meditation": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Meditate with specific tarot card before sleep"
+          },
+          "intention_setting": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Clear request for dream guidance on specific issue"
+          },
+          "card_placement": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Place relevant tarot card under pillow"
+          },
+          "journal_preparation": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Have dream journal ready for immediate recording"
+          }
         },
         "incubation_spreads": {
-          "dream_question": "What do I need to understand about this situation?",
-          "healing_dream": "What healing does my soul need?",
-          "guidance_dream": "What guidance do my guides have for me?",
-          "creative_dream": "What creative inspiration awaits me?"
+          "dream_question": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "What do I need to understand about this situation?"
+          },
+          "healing_dream": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "What healing does my soul need?"
+          },
+          "guidance_dream": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "What guidance do my guides have for me?"
+          },
+          "creative_dream": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "What creative inspiration awaits me?"
+          }
         }
       },
       "dream_healing": {
-        "description": "Using lucid dreams for therapeutic and spiritual healing",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Using lucid dreams for therapeutic and spiritual healing"
+        },
         "healing_techniques": {
-          "energy_healing": "Practice energy healing on dream body",
-          "chakra_balancing": "Visualize chakra colors and balance in dream",
-          "past_life_healing": "Request past-life healing dreams",
-          "relationship_healing": "Meet people in dreams for healing conversations"
+          "energy_healing": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Practice energy healing on dream body"
+          },
+          "chakra_balancing": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Visualize chakra colors and balance in dream"
+          },
+          "past_life_healing": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Request past-life healing dreams"
+          },
+          "relationship_healing": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Meet people in dreams for healing conversations"
+          }
         },
         "spiritual_practices": {
-          "meeting_guides": "Request meetings with spiritual guides",
-          "visiting_temples": "Create sacred spaces for spiritual work",
-          "receiving_initiations": "Request spiritual initiations and teachings",
-          "exploring_realms": "Visit different spiritual dimensions"
+          "meeting_guides": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Request meetings with spiritual guides"
+          },
+          "visiting_temples": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Create sacred spaces for spiritual work"
+          },
+          "receiving_initiations": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Request spiritual initiations and teachings"
+          },
+          "exploring_realms": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Visit different spiritual dimensions"
+          }
         }
       }
     },
     "recurring_dreams": {
-      "description": "Understanding repetitive dreams as important spiritual messages",
-      "quote": "Recurring dreams are the psyche's way of insisting we pay attention to something crucial for our development.",
+      "description": {
+        "citation_key": "Carl_Jung-Man_and_His_Symbols",
+        "text": "Understanding repetitive dreams as important spiritual messages"
+      },
+      "quote": {
+        "citation_key": "Patricia_Garfield-Creative_Dreaming",
+        "text": "Recurring dreams are the psyche's way of insisting we pay attention to something crucial for our development."
+      },
       "author": "Patricia Garfield",
       "source": "Creative Dreaming",
       "common_patterns": {
         "school_dreams": {
-          "meaning": "Learning required, tests of development, knowledge integration",
-          "tarot_correlations": ["The Hierophant", "Eight of Pentacles", "Page cards"],
-          "psychological_significance": "Learning and development issues",
-          "spiritual_message": "Spiritual lessons requiring attention",
-          "healing_application": "Learning support and development guidance",
-          "resolution_approach": "Identify what learning is being avoided"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Learning required, tests of development, knowledge integration"
+          },
+          "tarot_correlations": [
+            "The Hierophant",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight of Pentacles"
+            },
+            "Page cards"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Learning and development issues"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual lessons requiring attention"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Learning support and development guidance"
+          },
+          "resolution_approach": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Identify what learning is being avoided"
+          }
         },
         "exam_dreams": {
-          "meaning": "Life tests, preparedness anxiety, evaluation fears",
-          "tarot_correlations": ["Justice", "Judgement", "Seven of Swords"],
-          "psychological_significance": "Performance anxiety and evaluation fears",
-          "spiritual_message": "Spiritual testing and development assessment",
-          "healing_application": "Confidence building and preparation support"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Life tests, preparedness anxiety, evaluation fears"
+          },
+          "tarot_correlations": [
+            "Justice",
+            "Judgement",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Swords"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Performance anxiety and evaluation fears"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual testing and development assessment"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Confidence building and preparation support"
+          }
         },
         "lost_dreams": {
-          "meaning": "Direction confusion, identity crisis, spiritual wandering",
-          "tarot_correlations": ["The Moon", "Seven of Cups", "The Hermit"],
-          "psychological_significance": "Identity and direction confusion",
-          "spiritual_message": "Spiritual direction seeking required",
-          "healing_application": "Direction finding and identity clarification"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Direction confusion, identity crisis, spiritual wandering"
+          },
+          "tarot_correlations": [
+            "The Moon",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Cups"
+            },
+            "The Hermit"
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Identity and direction confusion"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual direction seeking required"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Direction finding and identity clarification"
+          }
         },
         "childhood_home": {
-          "meaning": "Family patterns, foundational issues, inner child healing",
-          "tarot_correlations": ["Six of Cups", "The Moon", "Four of Cups"],
-          "psychological_significance": "Family patterns and childhood issues",
-          "spiritual_message": "Foundational spiritual healing needed",
-          "healing_application": "Inner child work and family pattern healing"
+          "meaning": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Family patterns, foundational issues, inner child healing"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Cups"
+            },
+            "The Moon",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Four of Cups"
+            }
+          ],
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Family patterns and childhood issues"
+          },
+          "spiritual_message": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Foundational spiritual healing needed"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Inner child work and family pattern healing"
+          }
         }
       }
     },
     "prophetic_dreams": {
-      "description": "Dreams that provide glimpses of future possibilities and spiritual guidance",
-      "quote": "Prophetic dreams are not predictions of fixed fate but visions of potential futures based on current spiritual and psychological trajectories.",
+      "description": {
+        "citation_key": "Carl_Jung-Man_and_His_Symbols",
+        "text": "Dreams that provide glimpses of future possibilities and spiritual guidance"
+      },
+      "quote": {
+        "citation_key": "Edgar_Cayce-Dreams_and_Visions",
+        "text": "Prophetic dreams are not predictions of fixed fate but visions of potential futures based on current spiritual and psychological trajectories."
+      },
       "author": "Edgar Cayce",
       "source": "Dreams and Visions",
       "types_of_prophetic_dreams": {
         "warning_dreams": {
-          "meaning": "Alerts about potential problems or dangers",
-          "tarot_correlations": ["The Tower", "Seven of Swords", "Five of Pentacles"],
-          "validation_signs": "Specific details that later prove accurate",
-          "spiritual_purpose": "Divine protection and guidance",
-          "action_guidance": "Take preventive measures while honoring free will"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Alerts about potential problems or dangers"
+          },
+          "tarot_correlations": [
+            "The Tower",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Pentacles"
+            }
+          ],
+          "validation_signs": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Specific details that later prove accurate"
+          },
+          "spiritual_purpose": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine protection and guidance"
+          },
+          "action_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Take preventive measures while honoring free will"
+          }
         },
         "guidance_dreams": {
-          "meaning": "Divine guidance for important decisions",
-          "tarot_correlations": ["The Star", "The Hermit", "The High Priestess"],
-          "validation_signs": "Sense of clarity and divine presence",
-          "spiritual_purpose": "Divine guidance and direction",
-          "action_guidance": "Follow guidance while using discernment"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine guidance for important decisions"
+          },
+          "tarot_correlations": [
+            "The Star",
+            "The Hermit",
+            "The High Priestess"
+          ],
+          "validation_signs": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sense of clarity and divine presence"
+          },
+          "spiritual_purpose": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine guidance and direction"
+          },
+          "action_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Follow guidance while using discernment"
+          }
         },
         "healing_dreams": {
-          "meaning": "Information about healing approaches and methods",
-          "tarot_correlations": ["Temperance", "The Star", "Ace of Cups"],
-          "validation_signs": "Healing occurs following dream guidance",
-          "spiritual_purpose": "Divine healing wisdom",
-          "action_guidance": "Integrate healing wisdom with medical care"
+          "meaning": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Information about healing approaches and methods"
+          },
+          "tarot_correlations": [
+            "Temperance",
+            "The Star",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Cups"
+            }
+          ],
+          "validation_signs": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Healing occurs following dream guidance"
+          },
+          "spiritual_purpose": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Divine healing wisdom"
+          },
+          "action_guidance": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Integrate healing wisdom with medical care"
+          }
         },
         "visitation_dreams": {
-          "meaning": "Communication with deceased loved ones or spiritual guides",
-          "tarot_correlations": ["Six of Cups", "Judgement", "The High Priestess"],
-          "validation_signs": "Information unknown to dreamer proves accurate",
-          "spiritual_purpose": "Spiritual communication and comfort",
-          "action_guidance": "Receive comfort and guidance while discerning messages"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Communication with deceased loved ones or spiritual guides"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Cups"
+            },
+            "Judgement",
+            "The High Priestess"
+          ],
+          "validation_signs": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Information unknown to dreamer proves accurate"
+          },
+          "spiritual_purpose": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual communication and comfort"
+          },
+          "action_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Receive comfort and guidance while discerning messages"
+          }
         }
       }
     },
     "dream_symbols_by_element": {
       "fire_symbols": {
-        "description": "Fire element dreams relate to passion, transformation, and spiritual energy",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Fire element dreams relate to passion, transformation, and spiritual energy"
+        },
         "candles": {
-          "meaning": "Spiritual illumination, prayer, sacred flame",
-          "tarot_correlations": ["The Hermit", "Temperance", "Ace of Wands"],
-          "healing_application": "Spiritual illumination and prayer work"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual illumination, prayer, sacred flame"
+          },
+          "tarot_correlations": [
+            "The Hermit",
+            "Temperance",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Wands"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual illumination and prayer work"
+          }
         },
         "fireplace": {
-          "meaning": "Home warmth, family gathering, controlled passion",
-          "tarot_correlations": ["Ten of Cups", "Four of Wands", "King of Wands"],
-          "healing_application": "Family healing and controlled passion development"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Home warmth, family gathering, controlled passion"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Four of Wands"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Wands"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Family healing and controlled passion development"
+          }
         },
         "forest_fire": {
-          "meaning": "Uncontrolled transformation, destructive passion, spiritual emergency",
-          "tarot_correlations": ["The Tower", "Five of Wands", "Seven of Wands"],
-          "healing_application": "Crisis management and passion control"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Uncontrolled transformation, destructive passion, spiritual emergency"
+          },
+          "tarot_correlations": [
+            "The Tower",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Wands"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Wands"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Crisis management and passion control"
+          }
         },
         "sun": {
-          "meaning": "Consciousness, divine masculine, vitality, success",
-          "tarot_correlations": ["The Sun", "The Magician", "Six of Wands"],
-          "healing_application": "Consciousness expansion and vitality restoration"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Consciousness, divine masculine, vitality, success"
+          },
+          "tarot_correlations": [
+            "The Sun",
+            "The Magician",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Wands"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Consciousness expansion and vitality restoration"
+          }
         }
       },
       "water_symbols": {
-        "description": "Water element dreams relate to emotions, intuition, and spiritual flow",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Water element dreams relate to emotions, intuition, and spiritual flow"
+        },
         "ocean": {
-          "meaning": "Vast unconscious, emotional depths, spiritual infinity",
-          "tarot_correlations": ["The High Priestess", "The Moon", "King of Cups"],
-          "healing_application": "Unconscious exploration and emotional depth work"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Vast unconscious, emotional depths, spiritual infinity"
+          },
+          "tarot_correlations": [
+            "The High Priestess",
+            "The Moon",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Cups"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unconscious exploration and emotional depth work"
+          }
         },
         "river": {
-          "meaning": "Life flow, time passage, emotional journey",
-          "tarot_correlations": ["Temperance", "Six of Swords", "Ace of Cups"],
-          "healing_application": "Life flow support and emotional journey guidance"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Life flow, time passage, emotional journey"
+          },
+          "tarot_correlations": [
+            "Temperance",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Cups"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Life flow support and emotional journey guidance"
+          }
         },
         "rain": {
-          "meaning": "Emotional release, cleansing, divine blessing",
-          "tarot_correlations": ["Three of Swords", "The Star", "Ace of Cups"],
-          "healing_application": "Emotional release and cleansing support"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional release, cleansing, divine blessing"
+          },
+          "tarot_correlations": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Three of Swords"
+            },
+            "The Star",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Cups"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional release and cleansing support"
+          }
         },
         "snow": {
-          "meaning": "Emotional cooling, purity, spiritual silence",
-          "tarot_correlations": ["The Hermit", "The Star", "Four of Swords"],
-          "healing_application": "Emotional cooling and spiritual silence practices"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Emotional cooling, purity, spiritual silence"
+          },
+          "tarot_correlations": [
+            "The Hermit",
+            "The Star",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Four of Swords"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Emotional cooling and spiritual silence practices"
+          }
         }
       },
       "air_symbols": {
-        "description": "Air element dreams relate to thoughts, communication, and spiritual inspiration",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Air element dreams relate to thoughts, communication, and spiritual inspiration"
+        },
         "wind": {
-          "meaning": "Change, inspiration, mental movement, spiritual breath",
-          "tarot_correlations": ["The Fool", "Page of Swords", "Eight of Wands"],
-          "healing_application": "Change support and inspiration cultivation"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Change, inspiration, mental movement, spiritual breath"
+          },
+          "tarot_correlations": [
+            "The Fool",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Page of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight of Wands"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Change support and inspiration cultivation"
+          }
         },
         "storm": {
-          "meaning": "Mental turbulence, conflicting thoughts, spiritual test",
-          "tarot_correlations": ["The Tower", "Five of Swords", "Seven of Swords"],
-          "healing_application": "Mental clarity and conflict resolution"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Mental turbulence, conflicting thoughts, spiritual test"
+          },
+          "tarot_correlations": [
+            "The Tower",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Swords"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental clarity and conflict resolution"
+          }
         },
         "birds_flying": {
-          "meaning": "Freedom thoughts, spiritual messages, transcendence",
-          "tarot_correlations": ["The Star", "Ace of Swords", "The Fool"],
-          "healing_application": "Freedom development and spiritual message reception"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Freedom thoughts, spiritual messages, transcendence"
+          },
+          "tarot_correlations": [
+            "The Star",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Swords"
+            },
+            "The Fool"
+          ],
+          "healing_application": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Freedom development and spiritual message reception"
+          }
         },
         "clouds": {
-          "meaning": "Unclear thinking, temporary obscuration, shifting perspectives",
-          "tarot_correlations": ["The Moon", "Seven of Cups", "Eight of Swords"],
-          "healing_application": "Mental clarity and perspective shifting support"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unclear thinking, temporary obscuration, shifting perspectives"
+          },
+          "tarot_correlations": [
+            "The Moon",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight of Swords"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental clarity and perspective shifting support"
+          }
         }
       },
       "earth_symbols": {
-        "description": "Earth element dreams relate to material concerns, stability, and grounding",
+        "description": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Earth element dreams relate to material concerns, stability, and grounding"
+        },
         "mountains": {
-          "meaning": "Spiritual achievement, challenges, higher perspective",
-          "tarot_correlations": ["The Hermit", "The Emperor", "Ten of Pentacles"],
-          "healing_application": "Achievement support and challenge navigation"
+          "meaning": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual achievement, challenges, higher perspective"
+          },
+          "tarot_correlations": [
+            "The Hermit",
+            "The Emperor",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Pentacles"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Achievement support and challenge navigation"
+          }
         },
         "trees": {
-          "meaning": "Growth, connection, wisdom, life force",
-          "tarot_correlations": ["The World", "Ace of Pentacles", "The Empress"],
-          "healing_application": "Growth support and wisdom cultivation"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Growth, connection, wisdom, life force"
+          },
+          "tarot_correlations": [
+            "The World",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Pentacles"
+            },
+            "The Empress"
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Growth support and wisdom cultivation"
+          }
         },
         "gardens": {
-          "meaning": "Cultivated growth, nurturing, creative manifestation",
-          "tarot_correlations": ["The Empress", "Seven of Pentacles", "Three of Pentacles"],
-          "healing_application": "Creative cultivation and nurturing development"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cultivated growth, nurturing, creative manifestation"
+          },
+          "tarot_correlations": [
+            "The Empress",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Three of Pentacles"
+            }
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creative cultivation and nurturing development"
+          }
         },
         "caves": {
-          "meaning": "Inner exploration, hidden treasures, womb wisdom",
-          "tarot_correlations": ["The Hermit", "The High Priestess", "The Devil"],
-          "healing_application": "Inner exploration and hidden wisdom retrieval"
+          "meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Inner exploration, hidden treasures, womb wisdom"
+          },
+          "tarot_correlations": [
+            "The Hermit",
+            "The High Priestess",
+            "The Devil"
+          ],
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Inner exploration and hidden wisdom retrieval"
+          }
         }
       }
     },
     "dream_incubation_spreads": {
       "pre_sleep_guidance": {
-        "position_1": "Current state of consciousness",
-        "position_2": "What needs attention in dreams",
-        "position_3": "Best way to prepare for dream guidance",
-        "position_4": "Expected type of dream message",
-        "position_5": "How to remember and interpret dreams"
+        "position_1": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Current state of consciousness"
+        },
+        "position_2": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "What needs attention in dreams"
+        },
+        "position_3": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Best way to prepare for dream guidance"
+        },
+        "position_4": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Expected type of dream message"
+        },
+        "position_5": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "How to remember and interpret dreams"
+        }
       },
       "dream_interpretation": {
-        "position_1": "Overall dream message",
-        "position_2": "Conscious mind's interpretation",
-        "position_3": "Unconscious mind's message",
-        "position_4": "Spiritual guidance within dream",
-        "position_5": "Practical action to take",
-        "position_6": "Integration guidance for waking life"
+        "position_1": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Overall dream message"
+        },
+        "position_2": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Conscious mind's interpretation"
+        },
+        "position_3": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Unconscious mind's message"
+        },
+        "position_4": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Spiritual guidance within dream"
+        },
+        "position_5": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Practical action to take"
+        },
+        "position_6": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Integration guidance for waking life"
+        }
       },
       "nightmare_transformation": {
-        "position_1": "Fear behind nightmare",
-        "position_2": "Shadow aspect seeking attention",
-        "position_3": "Gift hidden in frightening image",
-        "position_4": "Healing needed for transformation",
-        "position_5": "Empowerment available through facing fear",
-        "position_6": "New dream image for healing"
+        "position_1": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Fear behind nightmare"
+        },
+        "position_2": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Shadow aspect seeking attention"
+        },
+        "position_3": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Gift hidden in frightening image"
+        },
+        "position_4": {
+          "citation_key": "Barbara_Brennan-Hands_of_Light",
+          "text": "Healing needed for transformation"
+        },
+        "position_5": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Empowerment available through facing fear"
+        },
+        "position_6": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "New dream image for healing"
+        }
       },
       "recurring_dream_resolution": {
-        "position_1": "Core message of recurring dream",
-        "position_2": "What prevents understanding message",
-        "position_3": "Action needed in waking life",
-        "position_4": "How dream will change with integration",
-        "position_5": "Gift received from resolving pattern",
-        "position_6": "Next level of dream work"
+        "position_1": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Core message of recurring dream"
+        },
+        "position_2": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "What prevents understanding message"
+        },
+        "position_3": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Action needed in waking life"
+        },
+        "position_4": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "How dream will change with integration"
+        },
+        "position_5": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Gift received from resolving pattern"
+        },
+        "position_6": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Next level of dream work"
+        }
       }
     }
   }
