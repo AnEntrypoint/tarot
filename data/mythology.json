@@ -1,606 +1,2130 @@
 {
   "hero_journey": {
-    "description": "Joseph Campbell's monomyth structure as reflected in tarot sequences",
-    "quote": "A hero ventures forth from the world of common day into a region of supernatural wonder: fabulous forces are there encountered and a decisive victory is won.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Joseph Campbell's monomyth structure as reflected in tarot sequences"
+    },
+    "quote": {
+      "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+      "text": "A hero ventures forth from the world of common day into a region of supernatural wonder: fabulous forces are there encountered and a decisive victory is won."
+    },
     "author": "Joseph Campbell",
     "source": "The Hero with a Thousand Faces",
     "stages": {
       "ordinary_world": {
-        "tarot_cards": ["Four of Pentacles", "Seven of Cups"],
-        "description": "The hero's normal life before transformation",
-        "psychological_meaning": "Ego identification with status quo",
-        "mythological_examples": ["Bilbo in the Shire", "Luke on Tatooine", "Dorothy in Kansas"],
-        "challenges": "Comfort zone resistance, fear of change",
-        "gifts": "Stability, foundation, known resources"
+        "tarot_cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Four of Pentacles"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seven of Cups"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero's normal life before transformation"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ego identification with status quo"
+        },
+        "mythological_examples": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Bilbo in the Shire"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Luke on Tatooine"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Dorothy in Kansas"
+          }
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Comfort zone resistance, fear of change"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Stability, foundation, known resources"
+        }
       },
       "call_to_adventure": {
-        "tarot_cards": ["The Fool", "Ace of Wands"],
-        "description": "The hero is presented with a problem or challenge",
-        "psychological_meaning": "Emergence of new consciousness",
-        "mythological_examples": ["Gandalf's visit", "Princess Leia's message", "Tornado approaching"],
-        "challenges": "Fear of the unknown, self-doubt",
-        "gifts": "Opportunity for growth, divine calling"
+        "tarot_cards": [
+          "The Fool",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ace of Wands"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero is presented with a problem or challenge"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Emergence of new consciousness"
+        },
+        "mythological_examples": [
+          "Gandalf's visit",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Princess Leia's message"
+          },
+          "Tornado approaching"
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Fear of the unknown, self-doubt"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Opportunity for growth, divine calling"
+        }
       },
       "refusal_of_the_call": {
-        "tarot_cards": ["Two of Swords", "Seven of Swords"],
-        "description": "The hero hesitates or refuses the adventure",
-        "psychological_meaning": "Ego resistance to transformation",
-        "mythological_examples": ["Bilbo's reluctance", "Luke's initial refusal", "Dorothy's disbelief"],
-        "challenges": "Paralysis, fear, doubt",
-        "gifts": "Time for preparation, realistic assessment"
+        "tarot_cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Two of Swords"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seven of Swords"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero hesitates or refuses the adventure"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ego resistance to transformation"
+        },
+        "mythological_examples": [
+          "Bilbo's reluctance",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Luke's initial refusal"
+          },
+          "Dorothy's disbelief"
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Paralysis, fear, doubt"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Time for preparation, realistic assessment"
+        }
       },
       "meeting_the_mentor": {
-        "tarot_cards": ["The Hierophant", "The Hermit"],
-        "description": "The hero encounters a wise figure who gives advice or magical gifts",
-        "psychological_meaning": "Connection with inner wisdom",
-        "mythological_examples": ["Gandalf", "Obi-Wan Kenobi", "Glinda the Good Witch"],
-        "challenges": "Trust issues, spiritual pride",
-        "gifts": "Wisdom, tools, protection, guidance"
+        "tarot_cards": [
+          "The Hierophant",
+          "The Hermit"
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero encounters a wise figure who gives advice or magical gifts"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Connection with inner wisdom"
+        },
+        "mythological_examples": [
+          "Gandalf",
+          "Obi-Wan Kenobi",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Glinda the Good Witch"
+          }
+        ],
+        "challenges": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Trust issues, spiritual pride"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Wisdom, tools, protection, guidance"
+        }
       },
       "crossing_threshold": {
-        "tarot_cards": ["The Chariot", "Eight of Wands"],
-        "description": "The hero commits to the adventure and enters a new world",
-        "psychological_meaning": "Commitment to transformation",
-        "mythological_examples": ["Leaving Bag End", "Leaving Tatooine", "Entering Oz"],
-        "challenges": "Point of no return, guardian monsters",
-        "gifts": "Courage, commitment, forward momentum"
+        "tarot_cards": [
+          "The Chariot",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Eight of Wands"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero commits to the adventure and enters a new world"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Commitment to transformation"
+        },
+        "mythological_examples": [
+          "Leaving Bag End",
+          "Leaving Tatooine",
+          "Entering Oz"
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Point of no return, guardian monsters"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Courage, commitment, forward momentum"
+        }
       },
       "tests_allies_enemies": {
-        "tarot_cards": ["Five of Wands", "Seven of Swords", "Three of Cups"],
-        "description": "The hero faces challenges and makes allies and enemies",
-        "psychological_meaning": "Learning to discern and relate",
-        "mythological_examples": ["Moria and Rivendell", "Cantina scene", "Meeting Scarecrow, Tin Man, Lion"],
-        "challenges": "Discernment, trust, conflict resolution",
-        "gifts": "Alliances, skills, self-knowledge"
+        "tarot_cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Five of Wands"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seven of Swords"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Three of Cups"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero faces challenges and makes allies and enemies"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Learning to discern and relate"
+        },
+        "mythological_examples": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Moria and Rivendell"
+          },
+          "Cantina scene",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Meeting Scarecrow, Tin Man, Lion"
+          }
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Discernment, trust, conflict resolution"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Alliances, skills, self-knowledge"
+        }
       },
       "approach_to_inmost_cave": {
-        "tarot_cards": ["The Moon", "Nine of Swords"],
-        "description": "The hero prepares for the major challenge in the special world",
-        "psychological_meaning": "Confronting deepest fears",
-        "mythological_examples": ["Approaching Mordor", "Death Star approach", "Witch's castle"],
-        "challenges": "Maximum fear, self-doubt, temptation to retreat",
-        "gifts": "Preparation, resolve, final gathering of resources"
+        "tarot_cards": [
+          "The Moon",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Nine of Swords"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero prepares for the major challenge in the special world"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Confronting deepest fears"
+        },
+        "mythological_examples": [
+          "Approaching Mordor",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Death Star approach"
+          },
+          "Witch's castle"
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Maximum fear, self-doubt, temptation to retreat"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Preparation, resolve, final gathering of resources"
+        }
       },
       "ordeal": {
-        "tarot_cards": ["Death", "The Tower"],
-        "description": "The hero faces their greatest fear or most difficult challenge",
-        "psychological_meaning": "Ego death and transformation",
-        "mythological_examples": ["Mount Doom", "Death Star battle", "Melting the witch"],
-        "challenges": "Possible death, ultimate test",
-        "gifts": "Breakthrough, resurrection, transformation"
+        "tarot_cards": [
+          "Death",
+          "The Tower"
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero faces their greatest fear or most difficult challenge"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ego death and transformation"
+        },
+        "mythological_examples": [
+          "Mount Doom",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Death Star battle"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Melting the witch"
+          }
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Possible death, ultimate test"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Breakthrough, resurrection, transformation"
+        }
       },
       "reward": {
-        "tarot_cards": ["Six of Wands", "The Sun"],
-        "description": "The hero survives and gains something from the experience",
-        "psychological_meaning": "Integration of new consciousness",
-        "mythological_examples": ["Ring destroyed", "Death Star destroyed", "Ruby slippers"],
-        "challenges": "Temptation to stay, false victory",
-        "gifts": "Treasure, wisdom, power, recognition"
+        "tarot_cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Six of Wands"
+          },
+          "The Sun"
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero survives and gains something from the experience"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Integration of new consciousness"
+        },
+        "mythological_examples": [
+          "Ring destroyed",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Death Star destroyed"
+          },
+          "Ruby slippers"
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Temptation to stay, false victory"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Treasure, wisdom, power, recognition"
+        }
       },
       "road_back": {
-        "tarot_cards": ["Eight of Cups", "Six of Swords"],
-        "description": "The hero begins the journey back to the ordinary world",
-        "psychological_meaning": "Return to integrate learning",
-        "mythological_examples": ["Return to Shire", "Rebel escape", "Return to Kansas"],
-        "challenges": "Pursuit, difficulty of return, loss of magic",
-        "gifts": "Commitment to return, responsibility to share"
+        "tarot_cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Eight of Cups"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Six of Swords"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero begins the journey back to the ordinary world"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Return to integrate learning"
+        },
+        "mythological_examples": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Return to Shire"
+          },
+          "Rebel escape",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Return to Kansas"
+          }
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Pursuit, difficulty of return, loss of magic"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Commitment to return, responsibility to share"
+        }
       },
       "resurrection": {
-        "tarot_cards": ["Judgement", "Ten of Cups"],
-        "description": "The hero faces a final test and is transformed",
-        "psychological_meaning": "Final integration and rebirth",
-        "mythological_examples": ["Frodo's sacrifice", "Luke's forgiveness", "Dorothy's awakening"],
-        "challenges": "Final temptation, ultimate sacrifice",
-        "gifts": "Complete transformation, spiritual mastery"
+        "tarot_cards": [
+          "Judgement",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ten of Cups"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero faces a final test and is transformed"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Final integration and rebirth"
+        },
+        "mythological_examples": [
+          "Frodo's sacrifice",
+          "Luke's forgiveness",
+          "Dorothy's awakening"
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Final temptation, ultimate sacrifice"
+        },
+        "gifts": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Complete transformation, spiritual mastery"
+        }
       },
       "return_with_elixir": {
-        "tarot_cards": ["The World", "Ten of Pentacles"],
-        "description": "The hero returns home transformed and able to help others",
-        "psychological_meaning": "Service from integrated wisdom",
-        "mythological_examples": ["Shire restoration", "New Republic", "Appreciation of home"],
-        "challenges": "Integration into ordinary life, teaching others",
-        "gifts": "Wisdom to share, power to heal, transformation of world"
+        "tarot_cards": [
+          "The World",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ten of Pentacles"
+          }
+        ],
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The hero returns home transformed and able to help others"
+        },
+        "psychological_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Service from integrated wisdom"
+        },
+        "mythological_examples": [
+          "Shire restoration",
+          "New Republic",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Appreciation of home"
+          }
+        ],
+        "challenges": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Integration into ordinary life, teaching others"
+        },
+        "gifts": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Wisdom to share, power to heal, transformation of world"
+        }
       }
     }
   },
   "divine_archetypes": {
-    "description": "Universal divine archetypes appearing across cultures and their tarot correspondences",
-    "quote": "The gods have become diseases; Zeus no longer rules Olympus but rather the solar plexus.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Universal divine archetypes appearing across cultures and their tarot correspondences"
+    },
+    "quote": {
+      "citation_key": "Carl_Gustav_Jung-Commentary_on_The_Secret_of_the_Golden_Flower",
+      "text": "The gods have become diseases; Zeus no longer rules Olympus but rather the solar plexus."
+    },
     "author": "Carl Gustav Jung",
     "source": "Commentary on The Secret of the Golden Flower",
     "creator_god": {
-      "tarot_cards": ["The Magician", "Ace of Wands"],
-      "universal_names": ["Brahma", "Ptah", "Quetzalcoatl", "Odin", "Atum"],
-      "attributes": ["Creation", "Word", "Manifestation", "Divine Will"],
-      "psychological_function": "Creative impulse and manifestation ability",
-      "shadow_aspects": ["Destructive creation", "Megalomania", "Playing God"],
-      "worship_practices": ["Creative visualization", "Manifestation rituals", "Word magic"],
-      "offerings": ["Creative works", "New projects", "Innovation"],
-      "sacred_symbols": ["Wand", "Rod", "Pen", "Word", "Light"]
+      "tarot_cards": [
+        "The Magician",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ace of Wands"
+        }
+      ],
+      "universal_names": [
+        "Brahma",
+        "Ptah",
+        "Quetzalcoatl",
+        "Odin",
+        "Atum"
+      ],
+      "attributes": [
+        "Creation",
+        "Word",
+        "Manifestation",
+        "Divine Will"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Creative impulse and manifestation ability"
+      },
+      "shadow_aspects": [
+        "Destructive creation",
+        "Megalomania",
+        "Playing God"
+      ],
+      "worship_practices": [
+        "Creative visualization",
+        "Manifestation rituals",
+        "Word magic"
+      ],
+      "offerings": [
+        "Creative works",
+        "New projects",
+        "Innovation"
+      ],
+      "sacred_symbols": [
+        "Wand",
+        "Rod",
+        "Pen",
+        "Word",
+        "Light"
+      ]
     },
     "great_mother": {
-      "tarot_cards": ["The Empress", "Queen of Cups"],
-      "universal_names": ["Gaia", "Isis", "Pachamama", "Quan Yin", "Devi"],
-      "attributes": ["Nurturing", "Fertility", "Unconditional Love", "Protection"],
-      "psychological_function": "Nurturing and creative feminine principle",
-      "shadow_aspects": ["Smothering", "Possessiveness", "Devouring mother"],
-      "worship_practices": ["Earth honoring", "Fertility rituals", "Maternal devotion"],
-      "offerings": ["Flowers", "Fruits", "Milk", "Honey", "Care for others"],
-      "sacred_symbols": ["Cup", "Womb", "Moon", "Corn", "Rose"]
+      "tarot_cards": [
+        "The Empress",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Queen of Cups"
+        }
+      ],
+      "universal_names": [
+        "Gaia",
+        "Isis",
+        "Pachamama",
+        "Quan Yin",
+        "Devi"
+      ],
+      "attributes": [
+        "Nurturing",
+        "Fertility",
+        "Unconditional Love",
+        "Protection"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Nurturing and creative feminine principle"
+      },
+      "shadow_aspects": [
+        "Smothering",
+        "Possessiveness",
+        "Devouring mother"
+      ],
+      "worship_practices": [
+        "Earth honoring",
+        "Fertility rituals",
+        "Maternal devotion"
+      ],
+      "offerings": [
+        "Flowers",
+        "Fruits",
+        "Milk",
+        "Honey",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Care for others"
+        }
+      ],
+      "sacred_symbols": [
+        "Cup",
+        "Womb",
+        "Moon",
+        "Corn",
+        "Rose"
+      ]
     },
     "sky_father": {
-      "tarot_cards": ["The Emperor", "King of Swords"],
-      "universal_names": ["Zeus", "Jupiter", "Indra", "Jade Emperor", "Odin"],
-      "attributes": ["Authority", "Justice", "Law", "Protection", "Order"],
-      "psychological_function": "Paternal authority and cosmic order",
-      "shadow_aspects": ["Tyranny", "Rigidity", "Authoritarian control"],
-      "worship_practices": ["Ceremonial rituals", "Oath-making", "Legal proceedings"],
-      "offerings": ["Formal ceremonies", "Oaths", "Justice work", "Leadership"],
-      "sacred_symbols": ["Crown", "Scepter", "Eagle", "Thunder", "Mountain"]
+      "tarot_cards": [
+        "The Emperor",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "King of Swords"
+        }
+      ],
+      "universal_names": [
+        "Zeus",
+        "Jupiter",
+        "Indra",
+        "Jade Emperor",
+        "Odin"
+      ],
+      "attributes": [
+        "Authority",
+        "Justice",
+        "Law",
+        "Protection",
+        "Order"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Paternal authority and cosmic order"
+      },
+      "shadow_aspects": [
+        "Tyranny",
+        "Rigidity",
+        "Authoritarian control"
+      ],
+      "worship_practices": [
+        "Ceremonial rituals",
+        "Oath-making",
+        "Legal proceedings"
+      ],
+      "offerings": [
+        "Formal ceremonies",
+        "Oaths",
+        "Justice work",
+        "Leadership"
+      ],
+      "sacred_symbols": [
+        "Crown",
+        "Scepter",
+        "Eagle",
+        "Thunder",
+        "Mountain"
+      ]
     },
     "wise_woman": {
-      "tarot_cards": ["The High Priestess", "Queen of Swords"],
-      "universal_names": ["Athena", "Saraswati", "Sophia", "Brigid", "Tara"],
-      "attributes": ["Wisdom", "Strategy", "Healing", "Magic", "Knowledge"],
-      "psychological_function": "Intuitive wisdom and spiritual insight",
-      "shadow_aspects": ["Manipulation", "Secretiveness", "Cold intellectualism"],
-      "worship_practices": ["Study", "Meditation", "Divination", "Healing work"],
-      "offerings": ["Books", "Herbs", "Crystals", "Poetry", "Wisdom teachings"],
-      "sacred_symbols": ["Owl", "Book", "Crescent Moon", "Veil", "Mirror"]
+      "tarot_cards": [
+        "The High Priestess",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Queen of Swords"
+        }
+      ],
+      "universal_names": [
+        "Athena",
+        "Saraswati",
+        "Sophia",
+        "Brigid",
+        "Tara"
+      ],
+      "attributes": [
+        "Wisdom",
+        "Strategy",
+        "Healing",
+        "Magic",
+        "Knowledge"
+      ],
+      "psychological_function": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Intuitive wisdom and spiritual insight"
+      },
+      "shadow_aspects": [
+        "Manipulation",
+        "Secretiveness",
+        "Cold intellectualism"
+      ],
+      "worship_practices": [
+        "Study",
+        "Meditation",
+        "Divination",
+        "Healing work"
+      ],
+      "offerings": [
+        "Books",
+        "Herbs",
+        "Crystals",
+        "Poetry",
+        "Wisdom teachings"
+      ],
+      "sacred_symbols": [
+        "Owl",
+        "Book",
+        "Crescent Moon",
+        "Veil",
+        "Mirror"
+      ]
     },
     "warrior_hero": {
-      "tarot_cards": ["The Chariot", "Knight of Wands"],
-      "universal_names": ["Ares", "Mars", "Tyr", "Hanuman", "Michael"],
-      "attributes": ["Courage", "Protection", "Victory", "Honor", "Strength"],
-      "psychological_function": "Warrior spirit and protective instinct",
-      "shadow_aspects": ["Aggression", "Violence", "Berserker rage"],
-      "worship_practices": ["Martial arts", "Protection rituals", "Courage building"],
-      "offerings": ["Physical training", "Protection of others", "Acts of courage"],
-      "sacred_symbols": ["Sword", "Shield", "Armor", "Horse", "Fire"]
+      "tarot_cards": [
+        "The Chariot",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Knight of Wands"
+        }
+      ],
+      "universal_names": [
+        "Ares",
+        "Mars",
+        "Tyr",
+        "Hanuman",
+        "Michael"
+      ],
+      "attributes": [
+        "Courage",
+        "Protection",
+        "Victory",
+        "Honor",
+        "Strength"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Warrior spirit and protective instinct"
+      },
+      "shadow_aspects": [
+        "Aggression",
+        "Violence",
+        "Berserker rage"
+      ],
+      "worship_practices": [
+        "Martial arts",
+        "Protection rituals",
+        "Courage building"
+      ],
+      "offerings": [
+        "Physical training",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Protection of others"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Acts of courage"
+        }
+      ],
+      "sacred_symbols": [
+        "Sword",
+        "Shield",
+        "Armor",
+        "Horse",
+        "Fire"
+      ]
     },
     "trickster": {
-      "tarot_cards": ["The Fool", "Seven of Swords"],
-      "universal_names": ["Loki", "Hermes", "Coyote", "Anansi", "Kokopelli"],
-      "attributes": ["Change", "Humor", "Teaching", "Boundary crossing", "Transformation"],
-      "psychological_function": "Agent of change and consciousness expansion",
-      "shadow_aspects": ["Chaos", "Deception", "Destructive pranks"],
-      "worship_practices": ["Humor", "Improvisation", "Breaking rules", "Creative chaos"],
-      "offerings": ["Jokes", "Spontaneous acts", "Rule breaking", "Creative expression"],
-      "sacred_symbols": ["Mask", "Staff", "Crossroads", "Key", "Jester's cap"]
+      "tarot_cards": [
+        "The Fool",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Seven of Swords"
+        }
+      ],
+      "universal_names": [
+        "Loki",
+        "Hermes",
+        "Coyote",
+        "Anansi",
+        "Kokopelli"
+      ],
+      "attributes": [
+        "Change",
+        "Humor",
+        "Teaching",
+        "Boundary crossing",
+        "Transformation"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Agent of change and consciousness expansion"
+      },
+      "shadow_aspects": [
+        "Chaos",
+        "Deception",
+        "Destructive pranks"
+      ],
+      "worship_practices": [
+        "Humor",
+        "Improvisation",
+        "Breaking rules",
+        "Creative chaos"
+      ],
+      "offerings": [
+        "Jokes",
+        "Spontaneous acts",
+        "Rule breaking",
+        "Creative expression"
+      ],
+      "sacred_symbols": [
+        "Mask",
+        "Staff",
+        "Crossroads",
+        "Key",
+        "Jester's cap"
+      ]
     },
     "death_god": {
-      "tarot_cards": ["Death", "The Tower"],
-      "universal_names": ["Hades", "Kali", "Mictlantecuhtli", "Osiris", "Shiva"],
-      "attributes": ["Transformation", "Endings", "Rebirth", "Judgment", "Destruction"],
-      "psychological_function": "Transformative power and letting go",
-      "shadow_aspects": ["Destruction", "Depression", "Morbidity"],
-      "worship_practices": ["Ancestor honoring", "Transformation rituals", "Letting go ceremonies"],
-      "offerings": ["Funeral rites", "Release rituals", "Transformation work"],
-      "sacred_symbols": ["Skull", "Scythe", "Pomegranate", "Black", "Underworld"]
+      "tarot_cards": [
+        "Death",
+        "The Tower"
+      ],
+      "universal_names": [
+        "Hades",
+        "Kali",
+        "Mictlantecuhtli",
+        "Osiris",
+        "Shiva"
+      ],
+      "attributes": [
+        "Transformation",
+        "Endings",
+        "Rebirth",
+        "Judgment",
+        "Destruction"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Transformative power and letting go"
+      },
+      "shadow_aspects": [
+        "Destruction",
+        "Depression",
+        "Morbidity"
+      ],
+      "worship_practices": [
+        "Ancestor honoring",
+        "Transformation rituals",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Letting go ceremonies"
+        }
+      ],
+      "offerings": [
+        "Funeral rites",
+        "Release rituals",
+        "Transformation work"
+      ],
+      "sacred_symbols": [
+        "Skull",
+        "Scythe",
+        "Pomegranate",
+        "Black",
+        "Underworld"
+      ]
     },
     "love_goddess": {
-      "tarot_cards": ["The Lovers", "Queen of Cups"],
-      "universal_names": ["Aphrodite", "Venus", "Ishtar", "Lakshmi", "Freya"],
-      "attributes": ["Love", "Beauty", "Pleasure", "Harmony", "Attraction"],
-      "psychological_function": "Love principle and aesthetic sense",
-      "shadow_aspects": ["Vanity", "Manipulation through beauty", "Superficiality"],
-      "worship_practices": ["Beauty creation", "Love rituals", "Harmony building"],
-      "offerings": ["Beautiful objects", "Love acts", "Artistic creation", "Self-care"],
-      "sacred_symbols": ["Rose", "Dove", "Mirror", "Shell", "Heart"]
+      "tarot_cards": [
+        "The Lovers",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Queen of Cups"
+        }
+      ],
+      "universal_names": [
+        "Aphrodite",
+        "Venus",
+        "Ishtar",
+        "Lakshmi",
+        "Freya"
+      ],
+      "attributes": [
+        "Love",
+        "Beauty",
+        "Pleasure",
+        "Harmony",
+        "Attraction"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Love principle and aesthetic sense"
+      },
+      "shadow_aspects": [
+        "Vanity",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Manipulation through beauty"
+        },
+        "Superficiality"
+      ],
+      "worship_practices": [
+        "Beauty creation",
+        "Love rituals",
+        "Harmony building"
+      ],
+      "offerings": [
+        "Beautiful objects",
+        "Love acts",
+        "Artistic creation",
+        "Self-care"
+      ],
+      "sacred_symbols": [
+        "Rose",
+        "Dove",
+        "Mirror",
+        "Shell",
+        "Heart"
+      ]
     },
     "sun_god": {
-      "tarot_cards": ["The Sun", "King of Wands"],
-      "universal_names": ["Apollo", "Ra", "Surya", "Inti", "Amaterasu"],
-      "attributes": ["Illumination", "Truth", "Healing", "Leadership", "Vitality"],
-      "psychological_function": "Conscious awareness and life force",
-      "shadow_aspects": ["Pride", "Ego inflation", "Burning others"],
-      "worship_practices": ["Sun salutations", "Truth-telling", "Healing work", "Leadership"],
-      "offerings": ["Truth", "Healing service", "Leadership", "Artistic excellence"],
-      "sacred_symbols": ["Sun disk", "Golden crown", "Lyre", "Lion", "Gold"]
+      "tarot_cards": [
+        "The Sun",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "King of Wands"
+        }
+      ],
+      "universal_names": [
+        "Apollo",
+        "Ra",
+        "Surya",
+        "Inti",
+        "Amaterasu"
+      ],
+      "attributes": [
+        "Illumination",
+        "Truth",
+        "Healing",
+        "Leadership",
+        "Vitality"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Conscious awareness and life force"
+      },
+      "shadow_aspects": [
+        "Pride",
+        "Ego inflation",
+        "Burning others"
+      ],
+      "worship_practices": [
+        "Sun salutations",
+        "Truth-telling",
+        "Healing work",
+        "Leadership"
+      ],
+      "offerings": [
+        "Truth",
+        "Healing service",
+        "Leadership",
+        "Artistic excellence"
+      ],
+      "sacred_symbols": [
+        "Sun disk",
+        "Golden crown",
+        "Lyre",
+        "Lion",
+        "Gold"
+      ]
     },
     "moon_goddess": {
-      "tarot_cards": ["The Moon", "The High Priestess"],
-      "universal_names": ["Diana", "Selene", "Chang'e", "Coyolxauhqui", "Artemis"],
-      "attributes": ["Mystery", "Cycles", "Intuition", "Protection", "Magic"],
-      "psychological_function": "Unconscious wisdom and cyclical awareness",
-      "shadow_aspects": ["Illusion", "Madness", "Deception"],
-      "worship_practices": ["Moon rituals", "Divination", "Cycle honoring", "Night work"],
-      "offerings": ["Night vigils", "Divination practice", "Cycle awareness", "Intuitive work"],
-      "sacred_symbols": ["Crescent moon", "Silver", "Bow", "Hounds", "Mirror"]
+      "tarot_cards": [
+        "The Moon",
+        "The High Priestess"
+      ],
+      "universal_names": [
+        "Diana",
+        "Selene",
+        "Chang'e",
+        "Coyolxauhqui",
+        "Artemis"
+      ],
+      "attributes": [
+        "Mystery",
+        "Cycles",
+        "Intuition",
+        "Protection",
+        "Magic"
+      ],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Unconscious wisdom and cyclical awareness"
+      },
+      "shadow_aspects": [
+        "Illusion",
+        "Madness",
+        "Deception"
+      ],
+      "worship_practices": [
+        "Moon rituals",
+        "Divination",
+        "Cycle honoring",
+        "Night work"
+      ],
+      "offerings": [
+        "Night vigils",
+        "Divination practice",
+        "Cycle awareness",
+        "Intuitive work"
+      ],
+      "sacred_symbols": [
+        "Crescent moon",
+        "Silver",
+        "Bow",
+        "Hounds",
+        "Mirror"
+      ]
     }
   },
   "cultural_mythologies": {
-    "description": "Specific cultural mythological systems and their tarot correspondences",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Specific cultural mythological systems and their tarot correspondences"
+    },
     "greek": {
-      "description": "Ancient Greek mythology and its psychological wisdom",
-      "quote": "Myth is the secret opening through which the inexhaustible energies of the cosmos pour into human cultural manifestation.",
+      "description": {
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+        "text": "Ancient Greek mythology and its psychological wisdom"
+      },
+      "quote": {
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+        "text": "Myth is the secret opening through which the inexhaustible energies of the cosmos pour into human cultural manifestation."
+      },
       "author": "Joseph Campbell",
       "source": "The Hero with a Thousand Faces",
       "major_themes": {
         "olympian_power": {
-          "cards": ["The Emperor", "King of Wands"],
-          "deities": ["Zeus", "Poseidon", "Hades"],
-          "lessons": "Divine authority and cosmic order",
-          "shadow": "Abuse of power, patriarchal domination"
+          "cards": [
+            "The Emperor",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Wands"
+            }
+          ],
+          "deities": [
+            "Zeus",
+            "Poseidon",
+            "Hades"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine authority and cosmic order"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Abuse of power, patriarchal domination"
+          }
         },
         "feminine_wisdom": {
-          "cards": ["The High Priestess", "The Empress"],
-          "deities": ["Athena", "Demeter", "Hera"],
-          "lessons": "Wisdom, fertility, and feminine power",
-          "shadow": "Possessiveness, revenge, manipulation"
+          "cards": [
+            "The High Priestess",
+            "The Empress"
+          ],
+          "deities": [
+            "Athena",
+            "Demeter",
+            "Hera"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wisdom, fertility, and feminine power"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Possessiveness, revenge, manipulation"
+          }
         },
         "transformation": {
-          "cards": ["Death", "The Tower"],
-          "myths": ["Persephone", "Dionysus", "Phoenix"],
-          "lessons": "Death and rebirth cycles",
-          "shadow": "Resistance to change, destruction"
+          "cards": [
+            "Death",
+            "The Tower"
+          ],
+          "myths": [
+            "Persephone",
+            "Dionysus",
+            "Phoenix"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Death and rebirth cycles"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Resistance to change, destruction"
+          }
         },
         "heroic_journey": {
-          "cards": ["The Chariot", "Strength"],
-          "heroes": ["Heracles", "Perseus", "Theseus"],
-          "lessons": "Overcoming obstacles through courage",
-          "shadow": "Hubris, violence, ego inflation"
+          "cards": [
+            "The Chariot",
+            "Strength"
+          ],
+          "heroes": [
+            "Heracles",
+            "Perseus",
+            "Theseus"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Overcoming obstacles through courage"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hubris, violence, ego inflation"
+          }
         }
       }
     },
     "egyptian": {
-      "description": "Ancient Egyptian mythology and spiritual wisdom",
-      "quote": "The ancient Egyptians understood that the journey through death leads to resurrection and eternal life.",
+      "description": {
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+        "text": "Ancient Egyptian mythology and spiritual wisdom"
+      },
+      "quote": {
+        "citation_key": "E_A__Wallis_Budge-The_Book_of_the_Dead",
+        "text": "The ancient Egyptians understood that the journey through death leads to resurrection and eternal life."
+      },
       "author": "E.A. Wallis Budge",
       "source": "The Book of the Dead",
       "major_themes": {
         "solar_consciousness": {
-          "cards": ["The Sun", "The Chariot"],
-          "deities": ["Ra", "Horus", "Khnum"],
-          "lessons": "Illumination and divine kingship",
-          "shadow": "Solar pride, domination"
+          "cards": [
+            "The Sun",
+            "The Chariot"
+          ],
+          "deities": [
+            "Ra",
+            "Horus",
+            "Khnum"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Illumination and divine kingship"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Solar pride, domination"
+          }
         },
         "death_rebirth": {
-          "cards": ["Death", "Judgement"],
-          "deities": ["Osiris", "Anubis", "Thoth"],
-          "lessons": "Transformation through death",
-          "shadow": "Fear of death, mummification of spirit"
+          "cards": [
+            "Death",
+            "Judgement"
+          ],
+          "deities": [
+            "Osiris",
+            "Anubis",
+            "Thoth"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Transformation through death"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Fear of death, mummification of spirit"
+          }
         },
         "divine_feminine": {
-          "cards": ["The High Priestess", "The Star"],
-          "deities": ["Isis", "Nut", "Hathor"],
-          "lessons": "Magic, protection, cosmic motherhood",
-          "shadow": "Manipulation, possessive love"
+          "cards": [
+            "The High Priestess",
+            "The Star"
+          ],
+          "deities": [
+            "Isis",
+            "Nut",
+            "Hathor"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Magic, protection, cosmic motherhood"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Manipulation, possessive love"
+          }
         },
         "cosmic_order": {
-          "cards": ["Justice", "The World"],
-          "deities": ["Ma'at", "Ptah", "Thoth"],
-          "lessons": "Truth, justice, and divine order",
-          "shadow": "Rigid judgment, heartless law"
+          "cards": [
+            "Justice",
+            "The World"
+          ],
+          "deities": [
+            "Ma'at",
+            "Ptah",
+            "Thoth"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Truth, justice, and divine order"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rigid judgment, heartless law"
+          }
         }
       }
     },
     "norse": {
-      "description": "Norse mythology and warrior wisdom",
-      "quote": "The Norse cosmos is a web of connections, where every action affects the whole and destiny is woven by the Norns.",
+      "description": {
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+        "text": "Norse mythology and warrior wisdom"
+      },
+      "quote": {
+        "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology",
+        "text": "The Norse cosmos is a web of connections, where every action affects the whole and destiny is woven by the Norns."
+      },
       "author": "Rudolf Simek",
       "source": "Dictionary of Northern Mythology",
       "major_themes": {
         "wisdom_seeking": {
-          "cards": ["The Hermit", "The Hanged Man"],
-          "deities": ["Odin", "Mimir", "Frigg"],
-          "lessons": "Sacrifice for wisdom",
-          "shadow": "Obsessive seeking, self-sacrifice"
+          "cards": [
+            "The Hermit",
+            "The Hanged Man"
+          ],
+          "deities": [
+            "Odin",
+            "Mimir",
+            "Frigg"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacrifice for wisdom"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Obsessive seeking, self-sacrifice"
+          }
         },
         "warrior_code": {
-          "cards": ["Strength", "Seven of Wands"],
-          "deities": ["Thor", "Tyr", "Freyr"],
-          "lessons": "Honor, courage, protection",
-          "shadow": "Violence, berserker rage"
+          "cards": [
+            "Strength",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Wands"
+            }
+          ],
+          "deities": [
+            "Thor",
+            "Tyr",
+            "Freyr"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Honor, courage, protection"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Violence, berserker rage"
+          }
         },
         "fate_destiny": {
-          "cards": ["Wheel of Fortune", "The World"],
-          "entities": ["Norns", "Wyrd", "Ragnarok"],
-          "lessons": "Acceptance of fate while acting with honor",
+          "cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wheel of Fortune"
+            },
+            "The World"
+          ],
+          "entities": [
+            "Norns",
+            "Wyrd",
+            "Ragnarok"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Acceptance of fate while acting with honor"
+          },
           "shadow": "Fatalism, doom-seeking"
         },
         "magic_wisdom": {
-          "cards": ["The Magician", "The High Priestess"],
-          "practices": ["Seidr", "Runes", "Galdr"],
-          "lessons": "Practical magic and foresight",
-          "shadow": "Dark magic, manipulation"
+          "cards": [
+            "The Magician",
+            "The High Priestess"
+          ],
+          "practices": [
+            "Seidr",
+            "Runes",
+            "Galdr"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Practical magic and foresight"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Dark magic, manipulation"
+          }
         }
       }
     },
     "celtic": {
-      "description": "Celtic mythology and nature wisdom",
-      "quote": "The Celts saw the divine in every aspect of nature, understanding that the material and spiritual worlds are one.",
+      "description": {
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+        "text": "Celtic mythology and nature wisdom"
+      },
+      "quote": {
+        "citation_key": "Miranda_Green-Celtic_Myths_and_Legends",
+        "text": "The Celts saw the divine in every aspect of nature, understanding that the material and spiritual worlds are one."
+      },
       "author": "Miranda Green",
       "source": "Celtic Myths and Legends",
       "major_themes": {
         "land_connection": {
-          "cards": ["The Empress", "Ten of Pentacles"],
-          "deities": ["Brigid", "Danu", "Cernunnos"],
-          "lessons": "Sacred relationship with earth",
-          "shadow": "Possessiveness of land, territorial conflict"
+          "cards": [
+            "The Empress",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Pentacles"
+            }
+          ],
+          "deities": [
+            "Brigid",
+            "Danu",
+            "Cernunnos"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred relationship with earth"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Possessiveness of land, territorial conflict"
+          }
         },
         "otherworld": {
-          "cards": ["The Moon", "Seven of Cups"],
-          "concepts": ["Sidhe", "Tir na nOg", "Samhain"],
-          "lessons": "Thin veils between worlds",
-          "shadow": "Escapism, loss of grounding"
+          "cards": [
+            "The Moon",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Cups"
+            }
+          ],
+          "concepts": [
+            "Sidhe",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Tir na nOg"
+            },
+            "Samhain"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Thin veils between worlds"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Escapism, loss of grounding"
+          }
         },
         "warrior_poet": {
-          "cards": ["The Chariot", "Three of Swords"],
-          "archetypes": ["Fianna", "Bards", "Druids"],
-          "lessons": "Combining strength with wisdom",
-          "shadow": "Romantic violence, bardic lies"
+          "cards": [
+            "The Chariot",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Three of Swords"
+            }
+          ],
+          "archetypes": [
+            "Fianna",
+            "Bards",
+            "Druids"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Combining strength with wisdom"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Romantic violence, bardic lies"
+          }
         },
         "seasonal_cycles": {
-          "cards": ["Wheel of Fortune", "The World"],
-          "festivals": ["Samhain", "Imbolc", "Beltane", "Lughnasadh"],
-          "lessons": "Living in harmony with natural cycles",
-          "shadow": "Rigid traditionalism, resistance to change"
+          "cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wheel of Fortune"
+            },
+            "The World"
+          ],
+          "festivals": [
+            "Samhain",
+            "Imbolc",
+            "Beltane",
+            "Lughnasadh"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Living in harmony with natural cycles"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rigid traditionalism, resistance to change"
+          }
         }
       }
     },
     "hindu": {
-      "description": "Hindu mythology and dharmic wisdom",
-      "quote": "The whole universe is one family, and the divine consciousness pervades every atom of existence.",
+      "description": {
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+        "text": "Hindu mythology and dharmic wisdom"
+      },
+      "quote": {
+        "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts",
+        "text": "The whole universe is one family, and the divine consciousness pervades every atom of existence."
+      },
       "author": "Chandogya Upanishad",
       "source": "Ancient Vedic Texts",
       "major_themes": {
         "dharma": {
-          "cards": ["Justice", "The Hierophant"],
-          "concepts": ["Righteousness", "Duty", "Cosmic Law"],
-          "lessons": "Living according to divine law",
-          "shadow": "Rigid caste thinking, dharmic superiority"
+          "cards": [
+            "Justice",
+            "The Hierophant"
+          ],
+          "concepts": [
+            "Righteousness",
+            "Duty",
+            "Cosmic Law"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Living according to divine law"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rigid caste thinking, dharmic superiority"
+          }
         },
         "karma": {
-          "cards": ["Wheel of Fortune", "Justice"],
-          "concepts": ["Action", "Consequence", "Rebirth"],
-          "lessons": "Responsibility for all actions",
-          "shadow": "Karmic blame, fatalistic thinking"
+          "cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wheel of Fortune"
+            },
+            "Justice"
+          ],
+          "concepts": [
+            "Action",
+            "Consequence",
+            "Rebirth"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Responsibility for all actions"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Karmic blame, fatalistic thinking"
+          }
         },
         "devotion": {
-          "cards": ["The Star", "Six of Cups"],
-          "practices": ["Bhakti", "Puja", "Seva"],
-          "lessons": "Love and service to the divine",
-          "shadow": "Blind devotion, spiritual bypassing"
+          "cards": [
+            "The Star",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Cups"
+            }
+          ],
+          "practices": [
+            "Bhakti",
+            "Puja",
+            "Seva"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Love and service to the divine"
+          },
+          "shadow": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Blind devotion, spiritual bypassing"
+          }
         },
         "liberation": {
-          "cards": ["The World", "The Fool"],
-          "concepts": ["Moksha", "Enlightenment", "Self-realization"],
-          "lessons": "Freedom from illusion",
-          "shadow": "Spiritual pride, world denial"
+          "cards": [
+            "The World",
+            "The Fool"
+          ],
+          "concepts": [
+            "Moksha",
+            "Enlightenment",
+            "Self-realization"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Freedom from illusion"
+          },
+          "shadow": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual pride, world denial"
+          }
         }
       }
     },
     "buddhist": {
-      "description": "Buddhist mythology and enlightenment wisdom",
-      "quote": "All conditioned things are impermanent. When one sees this with wisdom, one turns away from suffering.",
+      "description": {
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+        "text": "Buddhist mythology and enlightenment wisdom"
+      },
+      "quote": {
+        "citation_key": "Buddha-Dhammapada",
+        "text": "All conditioned things are impermanent. When one sees this with wisdom, one turns away from suffering."
+      },
       "author": "Buddha",
       "source": "Dhammapada",
       "major_themes": {
         "suffering_cessation": {
-          "cards": ["The Hanged Man", "Death"],
-          "concepts": ["Dukkha", "Four Noble Truths", "Cessation"],
-          "lessons": "Understanding and ending suffering",
-          "shadow": "Spiritual bypassing, emotional suppression"
+          "cards": [
+            "The Hanged Man",
+            "Death"
+          ],
+          "concepts": [
+            "Dukkha",
+            "Four Noble Truths",
+            "Cessation"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Understanding and ending suffering"
+          },
+          "shadow": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual bypassing, emotional suppression"
+          }
         },
         "compassion": {
-          "cards": ["Temperance", "Six of Cups"],
-          "concepts": ["Karuna", "Bodhisattva", "Loving-kindness"],
-          "lessons": "Universal compassion and service",
+          "cards": [
+            "Temperance",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Cups"
+            }
+          ],
+          "concepts": [
+            "Karuna",
+            "Bodhisattva",
+            "Loving-kindness"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Universal compassion and service"
+          },
           "shadow": "Codependency, martyrdom"
         },
         "mindfulness": {
-          "cards": ["The Hermit", "Two of Swords"],
-          "practices": ["Meditation", "Awareness", "Present moment"],
-          "lessons": "Conscious awareness in each moment",
-          "shadow": "Spiritual materialism, meditation addiction"
+          "cards": [
+            "The Hermit",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two of Swords"
+            }
+          ],
+          "practices": [
+            "Meditation",
+            "Awareness",
+            "Present moment"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Conscious awareness in each moment"
+          },
+          "shadow": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Spiritual materialism, meditation addiction"
+          }
         },
         "emptiness": {
-          "cards": ["The Fool", "The Hanged Man"],
-          "concepts": ["Sunyata", "Non-self", "Interdependence"],
-          "lessons": "Understanding the illusory nature of separate self",
+          "cards": [
+            "The Fool",
+            "The Hanged Man"
+          ],
+          "concepts": [
+            "Sunyata",
+            "Non-self",
+            "Interdependence"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Understanding the illusory nature of separate self"
+          },
           "shadow": "Nihilism, dissociation"
         }
       }
     },
     "native_american": {
-      "description": "Native American mythology and earth wisdom",
-      "quote": "We do not inherit the earth from our ancestors; we borrow it from our children.",
+      "description": {
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
+        "text": "Native American mythology and earth wisdom"
+      },
+      "quote": {
+        "citation_key": "Native_American_Proverb-Traditional_Wisdom",
+        "text": "We do not inherit the earth from our ancestors; we borrow it from our children."
+      },
       "author": "Native American Proverb",
       "source": "Traditional Wisdom",
       "major_themes": {
         "great_spirit": {
-          "cards": ["The World", "The Star"],
-          "concepts": ["Wakan Tanka", "Creator", "Sacred Unity"],
-          "lessons": "All life is sacred and interconnected",
-          "shadow": "Romanticization, cultural appropriation"
+          "cards": [
+            "The World",
+            "The Star"
+          ],
+          "concepts": [
+            "Wakan Tanka",
+            "Creator",
+            "Sacred Unity"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "All life is sacred and interconnected"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Romanticization, cultural appropriation"
+          }
         },
         "medicine_wheel": {
-          "cards": ["Wheel of Fortune", "The World"],
-          "concepts": ["Four directions", "Seasons", "Life cycles"],
-          "lessons": "Balance and cyclical wisdom",
-          "shadow": "Rigid thinking, cultural stereotyping"
+          "cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wheel of Fortune"
+            },
+            "The World"
+          ],
+          "concepts": [
+            "Four directions",
+            "Seasons",
+            "Life cycles"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Balance and cyclical wisdom"
+          },
+          "shadow": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rigid thinking, cultural stereotyping"
+          }
         },
         "vision_quest": {
-          "cards": ["The Hermit", "The Star"],
-          "practices": ["Solitude", "Fasting", "Vision seeking"],
-          "lessons": "Seeking guidance through spiritual practice",
-          "shadow": "Spiritual materialism, vision addiction"
+          "cards": [
+            "The Hermit",
+            "The Star"
+          ],
+          "practices": [
+            "Solitude",
+            "Fasting",
+            "Vision seeking"
+          ],
+          "lessons": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Seeking guidance through spiritual practice"
+          },
+          "shadow": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual materialism, vision addiction"
+          }
         },
         "animal_spirits": {
-          "cards": ["Strength", "The Moon"],
-          "concepts": ["Totems", "Power animals", "Spirit guides"],
-          "lessons": "Learning from nature's teachers",
-          "shadow": "Anthropomorphizing, spiritual materialism"
+          "cards": [
+            "Strength",
+            "The Moon"
+          ],
+          "concepts": [
+            "Totems",
+            "Power animals",
+            "Spirit guides"
+          ],
+          "lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Learning from nature's teachers"
+          },
+          "shadow": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Anthropomorphizing, spiritual materialism"
+          }
         }
       }
     }
   },
   "cosmic_cycles": {
-    "description": "Universal cycles reflected in tarot symbolism",
-    "quote": "As above, so below; as within, so without; as the universe, so the soul.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Universal cycles reflected in tarot symbolism"
+    },
+    "quote": {
+      "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet",
+      "text": "As above, so below; as within, so without; as the universe, so the soul."
+    },
     "author": "Hermes Trismegistus",
     "source": "The Emerald Tablet",
     "seasonal_cycle": {
       "spring": {
-        "cards": ["The Fool", "Ace of Wands", "The Star"],
-        "energy": "New beginnings, growth, potential",
-        "psychological_phase": "Renewal and fresh starts",
-        "spiritual_lesson": "Trust in new possibilities"
+        "cards": [
+          "The Fool",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ace of Wands"
+          },
+          "The Star"
+        ],
+        "energy": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "New beginnings, growth, potential"
+        },
+        "psychological_phase": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Renewal and fresh starts"
+        },
+        "spiritual_lesson": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Trust in new possibilities"
+        }
       },
       "summer": {
-        "cards": ["The Sun", "Three of Cups", "Six of Wands"],
-        "energy": "Manifestation, celebration, abundance",
-        "psychological_phase": "Active expression and achievement",
-        "spiritual_lesson": "Joy in creative expression"
+        "cards": [
+          "The Sun",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Three of Cups"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Six of Wands"
+          }
+        ],
+        "energy": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Manifestation, celebration, abundance"
+        },
+        "psychological_phase": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Active expression and achievement"
+        },
+        "spiritual_lesson": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Joy in creative expression"
+        }
       },
       "autumn": {
-        "cards": ["Death", "Ten of Pentacles", "The Hermit"],
-        "energy": "Harvest, reflection, preparation",
-        "psychological_phase": "Integration and wisdom gathering",
-        "spiritual_lesson": "Gratitude and letting go"
+        "cards": [
+          "Death",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ten of Pentacles"
+          },
+          "The Hermit"
+        ],
+        "energy": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Harvest, reflection, preparation"
+        },
+        "psychological_phase": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Integration and wisdom gathering"
+        },
+        "spiritual_lesson": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Gratitude and letting go"
+        }
       },
       "winter": {
-        "cards": ["The Hanged Man", "Four of Swords", "The High Priestess"],
-        "energy": "Rest, introspection, gestation",
-        "psychological_phase": "Inner work and contemplation",
-        "spiritual_lesson": "Patience and inner knowing"
+        "cards": [
+          "The Hanged Man",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Four of Swords"
+          },
+          "The High Priestess"
+        ],
+        "energy": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Rest, introspection, gestation"
+        },
+        "psychological_phase": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Inner work and contemplation"
+        },
+        "spiritual_lesson": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Patience and inner knowing"
+        }
       }
     },
     "lunar_cycle": {
       "new_moon": {
-        "cards": ["The High Priestess", "Ace cards"],
-        "energy": "Receptivity, new intentions, intuition",
-        "magical_working": "Setting intentions, new beginnings"
+        "cards": [
+          "The High Priestess",
+          "Ace cards"
+        ],
+        "energy": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Receptivity, new intentions, intuition"
+        },
+        "magical_working": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Setting intentions, new beginnings"
+        }
       },
       "waxing_moon": {
-        "cards": ["The Magician", "Two through Four cards"],
-        "energy": "Building, growth, manifestation",
-        "magical_working": "Drawing in, building up, growth magic"
+        "cards": [
+          "The Magician",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Two through Four cards"
+          }
+        ],
+        "energy": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Building, growth, manifestation"
+        },
+        "magical_working": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Drawing in, building up, growth magic"
+        }
       },
       "full_moon": {
-        "cards": ["The Moon", "The Sun", "Nine and Ten cards"],
-        "energy": "Culmination, peak power, illumination",
-        "magical_working": "Divination, charging, peak magic"
+        "cards": [
+          "The Moon",
+          "The Sun",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Nine and Ten cards"
+          }
+        ],
+        "energy": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Culmination, peak power, illumination"
+        },
+        "magical_working": {
+          "citation_key": "Mary_K_Greer-Tarot_for_Your_Self",
+          "text": "Divination, charging, peak magic"
+        }
       },
       "waning_moon": {
-        "cards": ["Death", "The Hermit", "Five through Eight cards"],
-        "energy": "Release, banishing, wisdom",
-        "magical_working": "Banishing, releasing, wisdom work"
+        "cards": [
+          "Death",
+          "The Hermit",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Five through Eight cards"
+          }
+        ],
+        "energy": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Release, banishing, wisdom"
+        },
+        "magical_working": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Banishing, releasing, wisdom work"
+        }
       }
     },
     "life_cycle": {
       "birth": {
-        "cards": ["The Fool", "Ace cards"],
-        "mythology": "Divine child, new soul incarnation",
-        "spiritual_task": "Embracing incarnation with wonder"
+        "cards": [
+          "The Fool",
+          "Ace cards"
+        ],
+        "mythology": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine child, new soul incarnation"
+        },
+        "spiritual_task": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Embracing incarnation with wonder"
+        }
       },
       "youth": {
-        "cards": ["Pages", "The Magician"],
-        "mythology": "Hero's call to adventure",
-        "spiritual_task": "Learning and skill development"
+        "cards": [
+          "Pages",
+          "The Magician"
+        ],
+        "mythology": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Hero's call to adventure"
+        },
+        "spiritual_task": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Learning and skill development"
+        }
       },
       "adulthood": {
-        "cards": ["Knights", "Queens", "The Chariot"],
-        "mythology": "Active engagement with world",
-        "spiritual_task": "Mastery and service"
+        "cards": [
+          "Knights",
+          "Queens",
+          "The Chariot"
+        ],
+        "mythology": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Active engagement with world"
+        },
+        "spiritual_task": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Mastery and service"
+        }
       },
       "elderhood": {
-        "cards": ["Kings", "The Hermit"],
-        "mythology": "Wise elder, teacher",
-        "spiritual_task": "Wisdom sharing and mentorship"
+        "cards": [
+          "Kings",
+          "The Hermit"
+        ],
+        "mythology": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Wise elder, teacher"
+        },
+        "spiritual_task": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Wisdom sharing and mentorship"
+        }
       },
       "death": {
-        "cards": ["Death", "The World"],
-        "mythology": "Return to source, completion",
-        "spiritual_task": "Release and transformation"
+        "cards": [
+          "Death",
+          "The World"
+        ],
+        "mythology": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Return to source, completion"
+        },
+        "spiritual_task": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Release and transformation"
+        }
       }
     },
     "great_year": {
-      "description": "The precession of equinoxes and ages of humanity",
-      "quote": "We are moving out of the Age of Pisces into the Age of Aquarius, bringing new consciousness to humanity.",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The precession of equinoxes and ages of humanity"
+      },
+      "quote": {
+        "citation_key": "Alice_Bailey-Esoteric_Astrology",
+        "text": "We are moving out of the Age of Pisces into the Age of Aquarius, bringing new consciousness to humanity."
+      },
       "author": "Alice Bailey",
       "source": "Esoteric Astrology",
       "age_of_aries": {
-        "cards": ["The Emperor", "Five of Wands"],
-        "characteristics": "War, conquest, individualism",
-        "spiritual_lesson": "Development of individual will"
+        "cards": [
+          "The Emperor",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Five of Wands"
+          }
+        ],
+        "characteristics": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "War, conquest, individualism"
+        },
+        "spiritual_lesson": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Development of individual will"
+        }
       },
       "age_of_pisces": {
-        "cards": ["The Hanged Man", "Seven of Cups"],
-        "characteristics": "Sacrifice, devotion, mysticism",
-        "spiritual_lesson": "Surrender and compassion"
+        "cards": [
+          "The Hanged Man",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seven of Cups"
+          }
+        ],
+        "characteristics": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Sacrifice, devotion, mysticism"
+        },
+        "spiritual_lesson": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Surrender and compassion"
+        }
       },
       "age_of_aquarius": {
-        "cards": ["The Star", "The Fool"],
-        "characteristics": "Brotherhood, innovation, consciousness",
-        "spiritual_lesson": "Universal love and humanitarian service"
+        "cards": [
+          "The Star",
+          "The Fool"
+        ],
+        "characteristics": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Brotherhood, innovation, consciousness"
+        },
+        "spiritual_lesson": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Universal love and humanitarian service"
+        }
       }
     }
   },
   "creation_myths": {
-    "description": "Universal creation patterns reflected in tarot symbolism",
-    "quote": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Universal creation patterns reflected in tarot symbolism"
+    },
+    "quote": {
+      "citation_key": "John-Gospel_of_John_1_1",
+      "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+    },
     "author": "John",
     "source": "Gospel of John 1:1",
     "primordial_void": {
-      "cards": ["The High Priestess", "The Hanged Man"],
-      "mythological_examples": ["Chaos", "Nun", "Ginnungagap", "Sunyata"],
-      "description": "The pregnant darkness before creation",
-      "psychological_meaning": "Unconscious potential before manifestation"
+      "cards": [
+        "The High Priestess",
+        "The Hanged Man"
+      ],
+      "mythological_examples": [
+        "Chaos",
+        "Nun",
+        "Ginnungagap",
+        "Sunyata"
+      ],
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The pregnant darkness before creation"
+      },
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Unconscious potential before manifestation"
+      }
     },
     "divine_word": {
-      "cards": ["The Magician", "Ace of Wands"],
-      "mythological_examples": ["Logos", "Om", "Vak", "Hu"],
-      "description": "The creative sound that begins manifestation",
-      "psychological_meaning": "Conscious will initiating creation"
+      "cards": [
+        "The Magician",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ace of Wands"
+        }
+      ],
+      "mythological_examples": [
+        "Logos",
+        "Om",
+        "Vak",
+        "Hu"
+      ],
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The creative sound that begins manifestation"
+      },
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Conscious will initiating creation"
+      }
     },
     "separation_duality": {
-      "cards": ["The Lovers", "Two cards"],
-      "mythological_examples": ["Heaven/Earth", "Light/Dark", "Yin/Yang"],
-      "description": "The first division creating polarity",
-      "psychological_meaning": "Awareness through contrast and choice"
+      "cards": [
+        "The Lovers",
+        "Two cards"
+      ],
+      "mythological_examples": [
+        "Heaven/Earth",
+        "Light/Dark",
+        "Yin/Yang"
+      ],
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The first division creating polarity"
+      },
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Awareness through contrast and choice"
+      }
     },
     "world_tree": {
-      "cards": ["The World", "Ten of Pentacles"],
-      "mythological_examples": ["Yggdrasil", "Tree of Life", "Axis Mundi"],
-      "description": "The cosmic axis connecting all levels of existence",
-      "psychological_meaning": "Integration of all aspects of being"
+      "cards": [
+        "The World",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ten of Pentacles"
+        }
+      ],
+      "mythological_examples": [
+        "Yggdrasil",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Tree of Life"
+        },
+        "Axis Mundi"
+      ],
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The cosmic axis connecting all levels of existence"
+      },
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Integration of all aspects of being"
+      }
     },
     "cosmic_egg": {
-      "cards": ["The World", "The Fool"],
-      "mythological_examples": ["Hiranyagarbha", "Orphic Egg", "World Egg"],
-      "description": "The container of all potential being",
-      "psychological_meaning": "The Self as container of infinite possibility"
+      "cards": [
+        "The World",
+        "The Fool"
+      ],
+      "mythological_examples": [
+        "Hiranyagarbha",
+        "Orphic Egg",
+        "World Egg"
+      ],
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The container of all potential being"
+      },
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The Self as container of infinite possibility"
+      }
     }
   },
   "sacred_marriage": {
-    "description": "The hieros gamos or sacred marriage appearing across cultures",
-    "quote": "The sacred marriage represents the union of consciousness and the unconscious, creating the birth of the Self.",
+    "description": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The hieros gamos or sacred marriage appearing across cultures"
+    },
+    "quote": {
+      "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference",
+      "text": "The sacred marriage represents the union of consciousness and the unconscious, creating the birth of the Self."
+    },
     "author": "Carl Gustav Jung",
     "source": "The Psychology of the Transference",
     "divine_couples": {
       "heaven_earth": {
-        "cards": ["The Emperor", "The Empress"],
-        "examples": ["Zeus/Hera", "Shiva/Shakti", "Jade Emperor/Queen Mother"],
-        "symbolism": "Union of sky consciousness with earth wisdom"
+        "cards": [
+          "The Emperor",
+          "The Empress"
+        ],
+        "examples": [
+          "Zeus/Hera",
+          "Shiva/Shakti",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Jade Emperor/Queen Mother"
+          }
+        ],
+        "symbolism": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Union of sky consciousness with earth wisdom"
+        }
       },
       "sun_moon": {
-        "cards": ["The Sun", "The Moon"],
-        "examples": ["Apollo/Diana", "Ra/Isis", "Sol/Luna"],
-        "symbolism": "Integration of conscious and unconscious"
+        "cards": [
+          "The Sun",
+          "The Moon"
+        ],
+        "examples": [
+          "Apollo/Diana",
+          "Ra/Isis",
+          "Sol/Luna"
+        ],
+        "symbolism": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Integration of conscious and unconscious"
+        }
       },
       "king_queen": {
-        "cards": ["Court card Kings", "Court card Queens"],
-        "examples": ["Arthur/Guinevere", "Osiris/Isis"],
-        "symbolism": "Perfect balance of masculine and feminine principles"
+        "cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Court card Kings"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Court card Queens"
+          }
+        ],
+        "examples": [
+          "Arthur/Guinevere",
+          "Osiris/Isis"
+        ],
+        "symbolism": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Perfect balance of masculine and feminine principles"
+        }
       }
     },
     "psychological_meaning": {
-      "anima_animus": "Integration of contrasexual aspect",
-      "conscious_unconscious": "Marriage of known and unknown aspects of psyche",
-      "spirit_matter": "Union of spiritual aspiration with material reality",
-      "individual_collective": "Balance of personal needs with social responsibility"
+      "anima_animus": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Integration of contrasexual aspect"
+      },
+      "conscious_unconscious": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Marriage of known and unknown aspects of psyche"
+      },
+      "spirit_matter": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Union of spiritual aspiration with material reality"
+      },
+      "individual_collective": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Balance of personal needs with social responsibility"
+      }
     }
   }
 }

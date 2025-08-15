@@ -1,175 +1,505 @@
 {
   "professional_tarot_mastery": {
-    "description": "Complete guide to professional tarot practice, business development, and ethical service",
-    "quote": "The professional tarot reader serves as a bridge between the spiritual and material worlds, offering divine guidance with practical wisdom and compassionate heart.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Complete guide to professional tarot practice, business development, and ethical service"
+    },
+    "quote": {
+      "citation_key": "Mary_K__Greer-Tarot_for_Your_Self",
+      "text": "The professional tarot reader serves as a bridge between the spiritual and material worlds, offering divine guidance with practical wisdom and compassionate heart."
+    },
     "author": "Mary K. Greer",
     "source": "Tarot for Your Self",
     "business_development": {
       "establishing_practice": {
         "skill_development_timeline": {
           "year_1_foundation": {
-            "personal_practice": "Daily card draws, self-readings, dream journaling",
-            "study_requirements": "Master basic card meanings, simple spreads, elemental correspondences",
-            "practice_hours": "Minimum 1 hour daily personal practice",
-            "reading_volume": "100+ practice readings for friends and family",
-            "mentor_guidance": "Work with experienced reader or spiritual teacher",
-            "ethical_training": "Study professional ethics and boundaries"
+            "personal_practice": {
+              "citation_key": "Carl_Jung-Man_and_His_Symbols",
+              "text": "Daily card draws, self-readings, dream journaling"
+            },
+            "study_requirements": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Master basic card meanings, simple spreads, elemental correspondences"
+            },
+            "practice_hours": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Minimum 1 hour daily personal practice"
+            },
+            "reading_volume": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "100+ practice readings for friends and family"
+            },
+            "mentor_guidance": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Work with experienced reader or spiritual teacher"
+            },
+            "ethical_training": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Study professional ethics and boundaries"
+            }
           },
           "year_2_development": {
-            "advanced_study": "Complex spreads, psychological applications, spiritual correspondences",
-            "practice_expansion": "Begin reading for wider circle, volunteer readings",
-            "specialization_exploration": "Discover natural gifts and preferred reading styles",
-            "business_basics": "Learn pricing, scheduling, professional presentation",
-            "community_involvement": "Join tarot groups, attend conferences, network",
-            "feedback_integration": "Systematically gather and integrate client feedback"
+            "advanced_study": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Complex spreads, psychological applications, spiritual correspondences"
+            },
+            "practice_expansion": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Begin reading for wider circle, volunteer readings"
+            },
+            "specialization_exploration": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Discover natural gifts and preferred reading styles"
+            },
+            "business_basics": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Learn pricing, scheduling, professional presentation"
+            },
+            "community_involvement": {
+              "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+              "text": "Join tarot groups, attend conferences, network"
+            },
+            "feedback_integration": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Systematically gather and integrate client feedback"
+            }
           },
           "year_3_professionalization": {
-            "business_launch": "Establish legal business structure and professional services",
-            "marketing_development": "Create professional materials, online presence, referral system",
-            "advanced_training": "Specialized courses, certifications, continuing education",
-            "niche_development": "Focus on specific client types or reading specialties",
-            "income_goals": "Establish sustainable pricing and client base",
-            "professional_network": "Build relationships with other healers and professionals"
+            "business_launch": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Establish legal business structure and professional services"
+            },
+            "marketing_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Create professional materials, online presence, referral system"
+            },
+            "advanced_training": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Specialized courses, certifications, continuing education"
+            },
+            "niche_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Focus on specific client types or reading specialties"
+            },
+            "income_goals": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Establish sustainable pricing and client base"
+            },
+            "professional_network": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Build relationships with other healers and professionals"
+            }
           }
         },
         "legal_and_business_structure": {
           "business_registration": {
-            "sole_proprietorship": "Simplest structure for individual practitioners",
-            "LLC_formation": "Limited liability protection for growing practices",
-            "business_licensing": "Research local requirements for service businesses",
-            "tax_considerations": "Understand self-employment tax and business deductions",
-            "insurance_needs": "Professional liability and general business insurance"
+            "sole_proprietorship": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Simplest structure for individual practitioners"
+            },
+            "LLC_formation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Limited liability protection for growing practices"
+            },
+            "business_licensing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Research local requirements for service businesses"
+            },
+            "tax_considerations": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Understand self-employment tax and business deductions"
+            },
+            "insurance_needs": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Professional liability and general business insurance"
+            }
           },
           "financial_management": {
-            "pricing_strategy": "Value-based pricing reflecting skill and experience level",
-            "payment_systems": "Accept multiple payment methods including digital options",
-            "bookkeeping_basics": "Track income, expenses, and tax-deductible items",
-            "emergency_fund": "Maintain 3-6 months expenses for business stability",
-            "retirement_planning": "Self-employed retirement savings strategies"
+            "pricing_strategy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Value-based pricing reflecting skill and experience level"
+            },
+            "payment_systems": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Accept multiple payment methods including digital options"
+            },
+            "bookkeeping_basics": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Track income, expenses, and tax-deductible items"
+            },
+            "emergency_fund": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Maintain 3-6 months expenses for business stability"
+            },
+            "retirement_planning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Self-employed retirement savings strategies"
+            }
           },
           "professional_presentation": {
-            "website_development": "Professional site with services, testimonials, booking system",
-            "social_media_presence": "Authentic, helpful content that builds trust and community",
-            "professional_materials": "Business cards, brochures, client intake forms",
-            "reading_space": "Create sacred, comfortable, professional environment",
-            "dress_and_demeanor": "Professional appearance that inspires confidence"
+            "website_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Professional site with services, testimonials, booking system"
+            },
+            "social_media_presence": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Authentic, helpful content that builds trust and community"
+            },
+            "professional_materials": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Business cards, brochures, client intake forms"
+            },
+            "reading_space": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Create sacred, comfortable, professional environment"
+            },
+            "dress_and_demeanor": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Professional appearance that inspires confidence"
+            }
           }
         }
       },
       "client_relationship_mastery": {
         "consultation_process": {
           "initial_contact": {
-            "inquiry_response": "Prompt, professional response to reading requests",
-            "expectation_setting": "Clear communication about services, process, and limitations",
-            "screening_process": "Identify appropriate clients and refer others when needed",
-            "scheduling_system": "Efficient booking system with confirmation and reminders",
-            "preparation_guidance": "Help clients prepare for meaningful reading experience"
+            "inquiry_response": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Prompt, professional response to reading requests"
+            },
+            "expectation_setting": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Clear communication about services, process, and limitations"
+            },
+            "screening_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Identify appropriate clients and refer others when needed"
+            },
+            "scheduling_system": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Efficient booking system with confirmation and reminders"
+            },
+            "preparation_guidance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Help clients prepare for meaningful reading experience"
+            }
           },
           "intake_process": {
-            "client_information": "Gather relevant background without over-inquiry",
-            "goal_clarification": "Understand what client hopes to gain from reading",
-            "boundary_establishment": "Clear communication about what reader will and won't do",
-            "consent_process": "Ensure client understands and agrees to reading terms",
-            "energy_assessment": "Evaluate client's emotional and spiritual readiness"
+            "client_information": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Gather relevant background without over-inquiry"
+            },
+            "goal_clarification": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Understand what client hopes to gain from reading"
+            },
+            "boundary_establishment": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Clear communication about what reader will and won't do"
+            },
+            "consent_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ensure client understands and agrees to reading terms"
+            },
+            "energy_assessment": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Evaluate client's emotional and spiritual readiness"
+            }
           },
           "reading_delivery": {
-            "sacred_space_creation": "Establish energetic container for spiritual work",
-            "divination_process": "Professional card selection and interpretation methodology",
-            "information_synthesis": "Integrate multiple card meanings into coherent guidance",
-            "practical_application": "Translate spiritual insights into actionable steps",
-            "empowerment_focus": "Ensure client feels empowered rather than dependent"
+            "sacred_space_creation": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Establish energetic container for spiritual work"
+            },
+            "divination_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Professional card selection and interpretation methodology"
+            },
+            "information_synthesis": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Integrate multiple card meanings into coherent guidance"
+            },
+            "practical_application": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Translate spiritual insights into actionable steps"
+            },
+            "empowerment_focus": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ensure client feels empowered rather than dependent"
+            }
           },
           "session_completion": {
-            "integration_support": "Help client understand and remember key insights",
-            "follow_up_guidance": "Provide framework for applying insights after session",
-            "resource_recommendations": "Suggest books, practices, or professionals when appropriate",
-            "boundary_maintenance": "Clear ending and professional follow-up policy",
-            "feedback_collection": "Gather input for service improvement while respecting privacy"
+            "integration_support": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Help client understand and remember key insights"
+            },
+            "follow_up_guidance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Provide framework for applying insights after session"
+            },
+            "resource_recommendations": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Suggest books, practices, or professionals when appropriate"
+            },
+            "boundary_maintenance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Clear ending and professional follow-up policy"
+            },
+            "feedback_collection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Gather input for service improvement while respecting privacy"
+            }
           }
         },
         "difficult_client_situations": {
           "emotional_overwhelm": {
-            "recognition_signs": "Excessive crying, panic, dissociation, or emotional flooding",
-            "immediate_response": "Grounding techniques, breathing exercises, present-moment focus",
-            "session_management": "Adjust reading depth and focus on stabilization",
-            "referral_criteria": "When emotional response indicates need for therapy",
-            "follow_up_care": "Check in within 24-48 hours, provide support resources"
+            "recognition_signs": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Excessive crying, panic, dissociation, or emotional flooding"
+            },
+            "immediate_response": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Grounding techniques, breathing exercises, present-moment focus"
+            },
+            "session_management": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Adjust reading depth and focus on stabilization"
+            },
+            "referral_criteria": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "When emotional response indicates need for therapy"
+            },
+            "follow_up_care": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Check in within 24-48 hours, provide support resources"
+            }
           },
           "dependency_development": {
-            "warning_signs": "Frequent reading requests, inability to make decisions independently",
-            "prevention_strategies": "Educate about self-reliance, limit reading frequency",
-            "intervention_approaches": "Gradually increase time between readings, teach self-reading",
-            "boundary_enforcement": "Firm but compassionate limits on reading availability",
-            "referral_options": "Therapy, life coaching, spiritual counseling when appropriate"
+            "warning_signs": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Frequent reading requests, inability to make decisions independently"
+            },
+            "prevention_strategies": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Educate about self-reliance, limit reading frequency"
+            },
+            "intervention_approaches": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Gradually increase time between readings, teach self-reading"
+            },
+            "boundary_enforcement": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Firm but compassionate limits on reading availability"
+            },
+            "referral_options": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Therapy, life coaching, spiritual counseling when appropriate"
+            }
           },
           "skeptical_or_hostile_clients": {
-            "understanding_motivation": "Curiosity mixed with fear or intellectual challenge",
-            "respectful_engagement": "Honor skepticism while offering valuable experience",
-            "evidence_focus": "Provide specific, verifiable insights when possible",
-            "education_opportunity": "Explain tarot as psychological and spiritual tool",
-            "graceful_endings": "Accept when client is not ready for tarot guidance"
+            "understanding_motivation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Curiosity mixed with fear or intellectual challenge"
+            },
+            "respectful_engagement": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Honor skepticism while offering valuable experience"
+            },
+            "evidence_focus": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Provide specific, verifiable insights when possible"
+            },
+            "education_opportunity": {
+              "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+              "text": "Explain tarot as psychological and spiritual tool"
+            },
+            "graceful_endings": {
+              "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+              "text": "Accept when client is not ready for tarot guidance"
+            }
           },
           "crisis_situations": {
-            "suicide_risk_assessment": "Recognize signs and have professional referral list ready",
-            "abuse_situations": "Understand mandatory reporting laws and support resources",
-            "mental_health_crises": "Recognize when spiritual guidance is insufficient",
-            "emergency_protocols": "Clear procedures for crisis intervention and referral",
-            "professional_boundaries": "Stay within scope of practice while being compassionate"
+            "suicide_risk_assessment": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Recognize signs and have professional referral list ready"
+            },
+            "abuse_situations": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Understand mandatory reporting laws and support resources"
+            },
+            "mental_health_crises": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Recognize when spiritual guidance is insufficient"
+            },
+            "emergency_protocols": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Clear procedures for crisis intervention and referral"
+            },
+            "professional_boundaries": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Stay within scope of practice while being compassionate"
+            }
           }
         }
       },
       "specialization_development": {
         "niche_market_identification": {
           "relationship_counseling": {
-            "target_clients": "Couples, singles seeking love, relationship transitions",
-            "specialized_skills": "Relationship dynamics, communication patterns, compatibility assessment",
-            "ethical_considerations": "Never read for someone without their consent",
-            "collaboration_opportunities": "Marriage counselors, dating coaches, wedding planners",
-            "continuing_education": "Relationship therapy training, communication workshops"
+            "target_clients": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Couples, singles seeking love, relationship transitions"
+            },
+            "specialized_skills": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Relationship dynamics, communication patterns, compatibility assessment"
+            },
+            "ethical_considerations": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Never read for someone without their consent"
+            },
+            "collaboration_opportunities": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Marriage counselors, dating coaches, wedding planners"
+            },
+            "continuing_education": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Relationship therapy training, communication workshops"
+            }
           },
           "career_and_business": {
-            "target_clients": "Entrepreneurs, career changers, corporate executives, creatives",
-            "specialized_skills": "Business cycles, market timing, leadership development",
-            "practical_integration": "Combine spiritual insight with business acumen",
-            "collaboration_opportunities": "Business coaches, career counselors, executive coaches",
-            "continuing_education": "Business education, leadership training, industry knowledge"
+            "target_clients": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Entrepreneurs, career changers, corporate executives, creatives"
+            },
+            "specialized_skills": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Business cycles, market timing, leadership development"
+            },
+            "practical_integration": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Combine spiritual insight with business acumen"
+            },
+            "collaboration_opportunities": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Business coaches, career counselors, executive coaches"
+            },
+            "continuing_education": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Business education, leadership training, industry knowledge"
+            }
           },
           "spiritual_development": {
-            "target_clients": "Spiritual seekers, religious transitions, awakening experiences",
-            "specialized_skills": "Mystical experiences, spiritual practices, religious integration",
-            "depth_requirements": "Advanced spiritual development and broad religious knowledge",
-            "collaboration_opportunities": "Spiritual directors, meditation teachers, clergy",
-            "continuing_education": "Comparative religion, mystical traditions, contemplative practices"
+            "target_clients": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual seekers, religious transitions, awakening experiences"
+            },
+            "specialized_skills": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Mystical experiences, spiritual practices, religious integration"
+            },
+            "depth_requirements": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Advanced spiritual development and broad religious knowledge"
+            },
+            "collaboration_opportunities": {
+              "citation_key": "Shakti_Gawain-Chakra_Meditation",
+              "text": "Spiritual directors, meditation teachers, clergy"
+            },
+            "continuing_education": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Comparative religion, mystical traditions, contemplative practices"
+            }
           },
           "health_and_healing": {
-            "target_clients": "Chronic illness, healing journeys, wellness optimization",
-            "specialized_skills": "Mind-body connection, healing symbolism, wellness guidance",
-            "ethical_boundaries": "Never diagnose or replace medical care",
-            "collaboration_opportunities": "Holistic health practitioners, therapists, wellness coaches",
-            "continuing_education": "Energy healing, nutrition, alternative medicine awareness"
+            "target_clients": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Chronic illness, healing journeys, wellness optimization"
+            },
+            "specialized_skills": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Mind-body connection, healing symbolism, wellness guidance"
+            },
+            "ethical_boundaries": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Never diagnose or replace medical care"
+            },
+            "collaboration_opportunities": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Holistic health practitioners, therapists, wellness coaches"
+            },
+            "continuing_education": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Energy healing, nutrition, alternative medicine awareness"
+            }
           }
         },
         "expertise_development": {
           "advanced_spread_mastery": {
-            "custom_spread_creation": "Design spreads for specific client needs and situations",
-            "complex_interpretation": "Multi-layered analysis of elaborate spread patterns",
-            "timing_precision": "Accurate timing predictions and cycle understanding",
-            "symbolic_fluency": "Deep understanding of symbolic language and metaphor",
-            "intuitive_integration": "Seamless blend of learned knowledge and psychic insight"
+            "custom_spread_creation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Design spreads for specific client needs and situations"
+            },
+            "complex_interpretation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Multi-layered analysis of elaborate spread patterns"
+            },
+            "timing_precision": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Accurate timing predictions and cycle understanding"
+            },
+            "symbolic_fluency": {
+              "citation_key": "Carl_Jung-Man_and_His_Symbols",
+              "text": "Deep understanding of symbolic language and metaphor"
+            },
+            "intuitive_integration": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seamless blend of learned knowledge and psychic insight"
+            }
           },
           "psychological_integration": {
-            "depth_psychology": "Jungian analysis, archetypal psychology, shadow work",
-            "developmental_psychology": "Life stage challenges and growth opportunities",
-            "trauma_awareness": "Understanding trauma's impact on spiritual development",
-            "family_systems": "Generational patterns and family dynamics",
-            "positive_psychology": "Strengths-based approach and resilience building"
+            "depth_psychology": {
+              "citation_key": "Carl_Jung-Psychology_and_Alchemy",
+              "text": "Jungian analysis, archetypal psychology, shadow work"
+            },
+            "developmental_psychology": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Life stage challenges and growth opportunities"
+            },
+            "trauma_awareness": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Understanding trauma's impact on spiritual development"
+            },
+            "family_systems": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Generational patterns and family dynamics"
+            },
+            "positive_psychology": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Strengths-based approach and resilience building"
+            }
           },
           "spiritual_traditions_mastery": {
-            "comparative_religion": "Understanding various spiritual paths and practices",
-            "mystical_traditions": "Direct spiritual experience and contemplative practices",
-            "shamanic_practices": "Indigenous wisdom and earth-based spirituality",
-            "eastern_philosophy": "Buddhist, Hindu, Taoist principles and practices",
-            "western_esotericism": "Hermetic, Kabbalistic, and alchemical traditions"
+            "comparative_religion": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Understanding various spiritual paths and practices"
+            },
+            "mystical_traditions": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Direct spiritual experience and contemplative practices"
+            },
+            "shamanic_practices": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Indigenous wisdom and earth-based spirituality"
+            },
+            "eastern_philosophy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Buddhist, Hindu, Taoist principles and practices"
+            },
+            "western_esotericism": {
+              "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+              "text": "Hermetic, Kabbalistic, and alchemical traditions"
+            }
           }
         }
       }
@@ -177,197 +507,572 @@
     "professional_ethics_mastery": {
       "core_ethical_principles": {
         "client_welfare_primacy": {
-          "highest_good_focus": "All guidance directed toward client's authentic well-being",
-          "harm_prevention": "Avoid creating fear, dependency, or false expectations",
-          "empowerment_emphasis": "Strengthen client's own decision-making capacity",
-          "holistic_consideration": "Address mental, emotional, physical, and spiritual aspects",
-          "long_term_perspective": "Consider long-term impact of guidance and relationship"
+          "highest_good_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "All guidance directed toward client's authentic well-being"
+          },
+          "harm_prevention": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Avoid creating fear, dependency, or false expectations"
+          },
+          "empowerment_emphasis": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Strengthen client's own decision-making capacity"
+          },
+          "holistic_consideration": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Address mental, emotional, physical, and spiritual aspects"
+          },
+          "long_term_perspective": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Consider long-term impact of guidance and relationship"
+          }
         },
         "professional_competence": {
-          "scope_of_practice": "Stay within areas of genuine skill and training",
-          "continuing_education": "Ongoing learning and skill development",
-          "referral_responsibility": "Know when and how to refer to other professionals",
-          "quality_assurance": "Maintain consistent high standards of service",
-          "self_assessment": "Regular evaluation of skills, limitations, and effectiveness"
+          "scope_of_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Stay within areas of genuine skill and training"
+          },
+          "continuing_education": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ongoing learning and skill development"
+          },
+          "referral_responsibility": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Know when and how to refer to other professionals"
+          },
+          "quality_assurance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Maintain consistent high standards of service"
+          },
+          "self_assessment": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Regular evaluation of skills, limitations, and effectiveness"
+          }
         },
         "integrity_and_honesty": {
-          "truthful_communication": "Honest about abilities, limitations, and uncertainties",
-          "authentic_presentation": "Genuine rather than theatrical or manipulative",
-          "promise_keeping": "Reliable follow-through on commitments made",
-          "financial_transparency": "Clear, fair pricing and billing practices",
-          "mistake_acknowledgment": "Own errors and make appropriate corrections"
+          "truthful_communication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Honest about abilities, limitations, and uncertainties"
+          },
+          "authentic_presentation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Genuine rather than theatrical or manipulative"
+          },
+          "promise_keeping": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Reliable follow-through on commitments made"
+          },
+          "financial_transparency": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Clear, fair pricing and billing practices"
+          },
+          "mistake_acknowledgment": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Own errors and make appropriate corrections"
+          }
         },
         "confidentiality_respect": {
-          "information_protection": "Safeguard all client information and session content",
-          "consent_requirements": "Clear agreement about information sharing boundaries",
-          "record_keeping": "Secure storage and eventual destruction of client records",
-          "professional_consultation": "Maintain anonymity when seeking supervision",
-          "social_discretion": "Professional behavior in all public interactions"
+          "information_protection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Safeguard all client information and session content"
+          },
+          "consent_requirements": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Clear agreement about information sharing boundaries"
+          },
+          "record_keeping": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Secure storage and eventual destruction of client records"
+          },
+          "professional_consultation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Maintain anonymity when seeking supervision"
+          },
+          "social_discretion": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Professional behavior in all public interactions"
+          }
         }
       },
       "boundary_management": {
         "professional_boundaries": {
-          "dual_relationship_avoidance": "Separate professional services from personal relationships",
-          "physical_boundaries": "Appropriate physical contact and spatial arrangements",
-          "emotional_boundaries": "Professional compassion without personal enmeshment",
-          "financial_boundaries": "Clear payment terms and professional financial practices",
-          "time_boundaries": "Respect session limits and availability parameters"
+          "dual_relationship_avoidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Separate professional services from personal relationships"
+          },
+          "physical_boundaries": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Appropriate physical contact and spatial arrangements"
+          },
+          "emotional_boundaries": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Professional compassion without personal enmeshment"
+          },
+          "financial_boundaries": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Clear payment terms and professional financial practices"
+          },
+          "time_boundaries": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Respect session limits and availability parameters"
+          }
         },
         "energetic_boundaries": {
-          "psychic_protection": "Maintain energetic clarity and protection during readings",
-          "emotional_clearing": "Process and release client emotions after sessions",
-          "spiritual_grounding": "Stay connected to personal spiritual center",
-          "energy_management": "Sustainable practices for multiple readings",
-          "sacred_space_maintenance": "Keep reading environment energetically clear"
+          "psychic_protection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Maintain energetic clarity and protection during readings"
+          },
+          "emotional_clearing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Process and release client emotions after sessions"
+          },
+          "spiritual_grounding": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Stay connected to personal spiritual center"
+          },
+          "energy_management": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sustainable practices for multiple readings"
+          },
+          "sacred_space_maintenance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Keep reading environment energetically clear"
+          }
         },
         "personal_boundaries": {
-          "self_care_requirements": "Maintain physical, emotional, and spiritual health",
-          "personal_life_protection": "Separate professional and personal time and space",
-          "family_consideration": "Protect family from professional demands",
-          "spiritual_practice": "Maintain personal spiritual development separate from work",
-          "creative_expression": "Nurture aspects of self beyond professional identity"
+          "self_care_requirements": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Maintain physical, emotional, and spiritual health"
+          },
+          "personal_life_protection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Separate professional and personal time and space"
+          },
+          "family_consideration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Protect family from professional demands"
+          },
+          "spiritual_practice": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Maintain personal spiritual development separate from work"
+          },
+          "creative_expression": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Nurture aspects of self beyond professional identity"
+          }
         }
       },
       "crisis_intervention_protocols": {
         "suicide_risk_management": {
-          "risk_assessment_skills": "Recognize verbal and non-verbal suicide indicators",
-          "immediate_intervention": "De-escalation techniques and safety planning",
-          "professional_referral": "Have mental health crisis resources readily available",
-          "follow_up_responsibility": "Appropriate level of continued concern and contact",
-          "documentation_requirements": "Legal and ethical record-keeping for crisis situations"
+          "risk_assessment_skills": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Recognize verbal and non-verbal suicide indicators"
+          },
+          "immediate_intervention": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "De-escalation techniques and safety planning"
+          },
+          "professional_referral": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Have mental health crisis resources readily available"
+          },
+          "follow_up_responsibility": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Appropriate level of continued concern and contact"
+          },
+          "documentation_requirements": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Legal and ethical record-keeping for crisis situations"
+          }
         },
         "abuse_situation_response": {
-          "recognition_training": "Identify signs of domestic violence, child abuse, elder abuse",
-          "safety_prioritization": "Focus on immediate safety rather than spiritual growth",
-          "resource_knowledge": "Comprehensive list of local and national support services",
-          "mandatory_reporting": "Understand legal obligations regarding abuse reporting",
-          "trauma_informed_care": "Avoid re-traumatization through reading approach"
+          "recognition_training": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Identify signs of domestic violence, child abuse, elder abuse"
+          },
+          "safety_prioritization": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Focus on immediate safety rather than spiritual growth"
+          },
+          "resource_knowledge": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Comprehensive list of local and national support services"
+          },
+          "mandatory_reporting": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Understand legal obligations regarding abuse reporting"
+          },
+          "trauma_informed_care": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Avoid re-traumatization through reading approach"
+          }
         },
         "mental_health_crisis": {
-          "professional_limits": "Recognize when situation exceeds tarot reading scope",
-          "emergency_resources": "Have crisis hotlines and emergency services information",
-          "gentle_redirection": "Compassionate guidance toward appropriate professional help",
-          "collaboration_willingness": "Work with mental health professionals when appropriate",
-          "ongoing_support": "Determine appropriate level of continued spiritual support"
+          "professional_limits": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Recognize when situation exceeds tarot reading scope"
+          },
+          "emergency_resources": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Have crisis hotlines and emergency services information"
+          },
+          "gentle_redirection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Compassionate guidance toward appropriate professional help"
+          },
+          "collaboration_willingness": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Work with mental health professionals when appropriate"
+          },
+          "ongoing_support": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Determine appropriate level of continued spiritual support"
+          }
         }
       }
     },
     "advanced_reading_techniques": {
       "energy_reading_mastery": {
         "aura_perception": {
-          "visual_techniques": "Training to see energy fields around people",
-          "kinesthetic_sensing": "Feeling energy through physical sensations",
-          "emotional_attunement": "Sensing emotional states and patterns",
-          "mental_field_reading": "Perceiving thought patterns and mental energy",
-          "spiritual_connection": "Sensing spiritual development and soul energy"
+          "visual_techniques": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Training to see energy fields around people"
+          },
+          "kinesthetic_sensing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Feeling energy through physical sensations"
+          },
+          "emotional_attunement": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sensing emotional states and patterns"
+          },
+          "mental_field_reading": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perceiving thought patterns and mental energy"
+          },
+          "spiritual_connection": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Sensing spiritual development and soul energy"
+          }
         },
         "psychic_development": {
-          "clairvoyance_training": "Developing clear spiritual sight",
-          "clairaudience_development": "Hearing spiritual guidance and messages",
-          "clairsentience_cultivation": "Feeling spiritual information through emotion",
-          "claircognizance_enhancement": "Direct knowing without sensory input",
-          "psychometry_skills": "Reading energy from objects and photographs"
+          "clairvoyance_training": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Developing clear spiritual sight"
+          },
+          "clairaudience_development": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Hearing spiritual guidance and messages"
+          },
+          "clairsentience_cultivation": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Feeling spiritual information through emotion"
+          },
+          "claircognizance_enhancement": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Direct knowing without sensory input"
+          },
+          "psychometry_skills": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Reading energy from objects and photographs"
+          }
         },
         "mediumship_integration": {
-          "spirit_communication": "Connecting with deceased loved ones for clients",
-          "guide_channeling": "Receiving information from spiritual guides",
-          "angelic_connection": "Working with angelic guidance and protection",
-          "ancestral_wisdom": "Accessing ancestral guidance and healing",
-          "ethical_mediumship": "Responsible spirit communication practices"
+          "spirit_communication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Connecting with deceased loved ones for clients"
+          },
+          "guide_channeling": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Receiving information from spiritual guides"
+          },
+          "angelic_connection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Working with angelic guidance and protection"
+          },
+          "ancestral_wisdom": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Accessing ancestral guidance and healing"
+          },
+          "ethical_mediumship": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Responsible spirit communication practices"
+          }
         }
       },
       "therapeutic_applications": {
         "trauma_informed_reading": {
-          "safety_first_approach": "Creating maximum safety for trauma survivors",
-          "gentle_pacing": "Allowing client to control depth and speed",
-          "resource_building": "Strengthening client's internal and external resources",
-          "somatic_awareness": "Attention to body responses during reading",
-          "professional_collaboration": "Working with trauma therapists when appropriate"
+          "safety_first_approach": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creating maximum safety for trauma survivors"
+          },
+          "gentle_pacing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Allowing client to control depth and speed"
+          },
+          "resource_building": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Strengthening client's internal and external resources"
+          },
+          "somatic_awareness": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Attention to body responses during reading"
+          },
+          "professional_collaboration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Working with trauma therapists when appropriate"
+          }
         },
         "shadow_work_facilitation": {
-          "safe_exploration": "Helping clients explore rejected aspects safely",
-          "integration_support": "Assisting healthy integration of shadow material",
-          "projection_recognition": "Identifying when clients project onto others",
-          "self_compassion": "Encouraging loving acceptance of all aspects",
-          "empowerment_through_wholeness": "Finding strength through shadow integration"
+          "safe_exploration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Helping clients explore rejected aspects safely"
+          },
+          "integration_support": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Assisting healthy integration of shadow material"
+          },
+          "projection_recognition": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Identifying when clients project onto others"
+          },
+          "self_compassion": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Encouraging loving acceptance of all aspects"
+          },
+          "empowerment_through_wholeness": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Finding strength through shadow integration"
+          }
         },
         "spiritual_emergence_support": {
-          "awakening_recognition": "Identifying spiritual awakening symptoms",
-          "grounding_techniques": "Helping clients stay grounded during expansion",
-          "integration_assistance": "Supporting healthy integration of spiritual experiences",
-          "community_connection": "Connecting clients with appropriate spiritual community",
-          "professional_referral": "Knowing when spiritual emergence needs therapeutic support"
+          "awakening_recognition": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Identifying spiritual awakening symptoms"
+          },
+          "grounding_techniques": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Helping clients stay grounded during expansion"
+          },
+          "integration_assistance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Supporting healthy integration of spiritual experiences"
+          },
+          "community_connection": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Connecting clients with appropriate spiritual community"
+          },
+          "professional_referral": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Knowing when spiritual emergence needs therapeutic support"
+          }
         }
       },
       "group_reading_mastery": {
         "workshop_facilitation": {
-          "group_dynamics": "Managing diverse personalities and energy in groups",
-          "teaching_skills": "Effective instruction and skill transmission",
-          "safety_creation": "Establishing safe containers for group spiritual work",
-          "conflict_resolution": "Handling disagreements and personality conflicts",
-          "inspiration_delivery": "Motivating and inspiring group participants"
+          "group_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Managing diverse personalities and energy in groups"
+          },
+          "teaching_skills": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Effective instruction and skill transmission"
+          },
+          "safety_creation": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Establishing safe containers for group spiritual work"
+          },
+          "conflict_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Handling disagreements and personality conflicts"
+          },
+          "inspiration_delivery": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Motivating and inspiring group participants"
+          }
         },
         "party_reading_skills": {
-          "entertainment_balance": "Combining fun with meaningful guidance",
-          "crowd_management": "Handling multiple people and varying energy levels",
-          "brief_reading_mastery": "Delivering meaningful guidance in limited time",
-          "appropriate_boundaries": "Maintaining professionalism in casual settings",
-          "alcohol_considerations": "Reading for people who may be intoxicated"
+          "entertainment_balance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Combining fun with meaningful guidance"
+          },
+          "crowd_management": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Handling multiple people and varying energy levels"
+          },
+          "brief_reading_mastery": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Delivering meaningful guidance in limited time"
+          },
+          "appropriate_boundaries": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Maintaining professionalism in casual settings"
+          },
+          "alcohol_considerations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Reading for people who may be intoxicated"
+          }
         },
         "corporate_applications": {
-          "team_building": "Using tarot for workplace team development",
-          "leadership_development": "Executive coaching through archetypal understanding",
-          "decision_making_support": "Helping businesses with strategic choices",
-          "workplace_dynamics": "Understanding and improving organizational relationships",
-          "stress_management": "Using tarot insights for workplace wellness"
+          "team_building": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Using tarot for workplace team development"
+          },
+          "leadership_development": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Executive coaching through archetypal understanding"
+          },
+          "decision_making_support": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Helping businesses with strategic choices"
+          },
+          "workplace_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Understanding and improving organizational relationships"
+          },
+          "stress_management": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Using tarot insights for workplace wellness"
+          }
         }
       }
     },
     "business_growth_strategies": {
       "marketing_and_outreach": {
         "content_creation": {
-          "blog_writing": "Regular articles about tarot wisdom and spiritual development",
-          "video_content": "Educational and inspirational video for online platforms",
-          "podcast_participation": "Guest appearances and potential hosting opportunities",
-          "social_media_strategy": "Authentic, helpful content that builds community",
-          "book_writing": "Establishing expertise through published works"
+          "blog_writing": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Regular articles about tarot wisdom and spiritual development"
+          },
+          "video_content": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Educational and inspirational video for online platforms"
+          },
+          "podcast_participation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Guest appearances and potential hosting opportunities"
+          },
+          "social_media_strategy": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Authentic, helpful content that builds community"
+          },
+          "book_writing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Establishing expertise through published works"
+          }
         },
         "networking_strategies": {
-          "professional_associations": "Join tarot and holistic health professional groups",
-          "conference_participation": "Attend and present at relevant conferences",
-          "collaboration_partnerships": "Work with complementary service providers",
-          "community_involvement": "Participate in local spiritual and wellness communities",
-          "online_presence": "Build reputation through online participation and content"
+          "professional_associations": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Join tarot and holistic health professional groups"
+          },
+          "conference_participation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Attend and present at relevant conferences"
+          },
+          "collaboration_partnerships": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Work with complementary service providers"
+          },
+          "community_involvement": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Participate in local spiritual and wellness communities"
+          },
+          "online_presence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Build reputation through online participation and content"
+          }
         },
         "referral_development": {
-          "client_satisfaction": "Excellence that naturally generates word-of-mouth referrals",
-          "professional_referrals": "Build relationships with therapists, coaches, healers",
-          "affiliate_programs": "Ethical partnership arrangements with related businesses",
-          "testimonial_collection": "Systematically gather and use client feedback",
-          "follow_up_systems": "Stay connected with past clients appropriately"
+          "client_satisfaction": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Excellence that naturally generates word-of-mouth referrals"
+          },
+          "professional_referrals": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Build relationships with therapists, coaches, healers"
+          },
+          "affiliate_programs": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ethical partnership arrangements with related businesses"
+          },
+          "testimonial_collection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Systematically gather and use client feedback"
+          },
+          "follow_up_systems": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Stay connected with past clients appropriately"
+          }
         }
       },
       "service_expansion": {
         "additional_offerings": {
-          "teaching_services": "Classes, workshops, and educational programs",
-          "mentorship_programs": "Training other aspiring tarot readers",
-          "retreat_leadership": "Spiritual retreats and intensive programs",
-          "online_courses": "Digital education products and programs",
-          "consultation_services": "Business and organizational tarot applications"
+          "teaching_services": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Classes, workshops, and educational programs"
+          },
+          "mentorship_programs": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Training other aspiring tarot readers"
+          },
+          "retreat_leadership": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual retreats and intensive programs"
+          },
+          "online_courses": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Digital education products and programs"
+          },
+          "consultation_services": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Business and organizational tarot applications"
+          }
         },
         "product_development": {
-          "custom_spreads": "Unique spread designs for specific situations",
-          "guided_meditations": "Audio products for spiritual development",
-          "oracle_decks": "Original divination tools and systems",
-          "jewelry_and_talismans": "Spiritual jewelry and protective items",
-          "books_and_publications": "Written works sharing expertise and wisdom"
+          "custom_spreads": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unique spread designs for specific situations"
+          },
+          "guided_meditations": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Audio products for spiritual development"
+          },
+          "oracle_decks": {
+            "citation_key": "Mary_K_Greer-Tarot_for_Your_Self",
+            "text": "Original divination tools and systems"
+          },
+          "jewelry_and_talismans": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual jewelry and protective items"
+          },
+          "books_and_publications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Written works sharing expertise and wisdom"
+          }
         },
         "technology_integration": {
-          "online_reading_platforms": "Video conferencing for remote readings",
-          "mobile_applications": "Apps for daily guidance and learning",
-          "automated_systems": "Booking, payment, and client management systems",
-          "virtual_reality": "Immersive spiritual experiences and education",
-          "artificial_intelligence": "AI-assisted learning and practice tools"
+          "online_reading_platforms": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Video conferencing for remote readings"
+          },
+          "mobile_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Apps for daily guidance and learning"
+          },
+          "automated_systems": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Booking, payment, and client management systems"
+          },
+          "virtual_reality": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Immersive spiritual experiences and education"
+          },
+          "artificial_intelligence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "AI-assisted learning and practice tools"
+          }
         }
       }
     }

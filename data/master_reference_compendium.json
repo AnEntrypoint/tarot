@@ -1,226 +1,833 @@
 {
   "master_reference_compendium": {
-    "description": "Ultimate reference guide integrating all tarot systems, correspondences, and practical applications into a unified wisdom tradition",
-    "quote": "The tarot is a complete book of wisdom, containing within its symbolic language the keys to understanding consciousness, cosmos, and the divine mysteries that connect all existence.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Ultimate reference guide integrating all tarot systems, correspondences, and practical applications into a unified wisdom tradition"
+    },
+    "quote": {
+      "citation_key": "Paul_Foster_Case-The_Tarot__A_Key_to_the_Wisdom_of_the_Ages",
+      "text": "The tarot is a complete book of wisdom, containing within its symbolic language the keys to understanding consciousness, cosmos, and the divine mysteries that connect all existence."
+    },
     "author": "Paul Foster Case",
     "source": "The Tarot: A Key to the Wisdom of the Ages",
     "complete_card_correspondences": {
       "major_arcana_master_correlations": {
         "0_the_fool": {
-          "hebrew_letter": "Aleph (Ox) - Divine breath, primordial energy",
-          "kabbalistic_path": "Kether to Chokmah - Crown to Wisdom",
-          "astrological_attribution": "Uranus - Revolutionary change, awakening, freedom",
-          "alchemical_principle": "Prima Materia - Raw material for transformation",
-          "psychological_archetype": "The Innocent - Pure potential and trust",
-          "mythological_correspondences": ["Parsifal", "Dionysus", "Green Man", "Divine Child"],
-          "elemental_association": "Air - Mental freedom and new thoughts",
+          "hebrew_letter": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Aleph (Ox) - Divine breath, primordial energy"
+          },
+          "kabbalistic_path": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Kether to Chokmah - Crown to Wisdom"
+          },
+          "astrological_attribution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Uranus - Revolutionary change, awakening, freedom"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Prima Materia - Raw material for transformation"
+          },
+          "psychological_archetype": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The Innocent - Pure potential and trust"
+          },
+          "mythological_correspondences": [
+            "Parsifal",
+            "Dionysus",
+            "Green Man",
+            "Divine Child"
+          ],
+          "elemental_association": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Air - Mental freedom and new thoughts"
+          },
           "numerical_vibration": "0 - Infinite potential, void, beginning",
-          "color_correspondences": ["Light yellow", "Sky blue", "White", "Iridescent"],
-          "gemstone_allies": ["Clear quartz", "Herkimer diamond", "Rainbow fluorite"],
-          "plant_allies": ["Daisy", "Dandelion", "Wild rose", "Morning glory"],
-          "animal_spirits": ["Butterfly", "Hummingbird", "Dolphin", "White dove"],
-          "chakra_activation": "Crown chakra - Divine connection and cosmic consciousness",
-          "body_correspondences": "Head, brain, nervous system, breath",
-          "healing_applications": "New beginnings, trust building, innocence restoration",
-          "timing_indicators": "Immediate action required, divine timing, spring energy",
-          "shadow_aspects": "Naivety, recklessness, avoidance of responsibility",
-          "integration_work": "Balancing innocence with wisdom, trust with discernment",
-          "spiritual_lessons": "Divine trust, beginner's mind, sacred foolishness",
-          "meditation_focus": "Pure awareness, open heart, unlimited possibility",
-          "affirmation": "I trust the divine process and step forward with faith",
-          "reversed_meaning": "Fear of new beginnings, lack of trust, poor judgment",
-          "professional_guidance": "Career change, new ventures, creative expression",
-          "relationship_guidance": "New love, renewed romance, childlike joy",
-          "financial_guidance": "New opportunities, calculated risks, beginner's luck",
-          "health_guidance": "Fresh start, new treatments, mental health focus",
-          "spiritual_guidance": "Spiritual awakening, new path, divine calling"
+          "color_correspondences": [
+            "Light yellow",
+            "Sky blue",
+            "White",
+            "Iridescent"
+          ],
+          "gemstone_allies": [
+            "Clear quartz",
+            "Herkimer diamond",
+            "Rainbow fluorite"
+          ],
+          "plant_allies": [
+            "Daisy",
+            "Dandelion",
+            "Wild rose",
+            "Morning glory"
+          ],
+          "animal_spirits": [
+            "Butterfly",
+            "Hummingbird",
+            "Dolphin",
+            "White dove"
+          ],
+          "chakra_activation": {
+            "citation_key": "Anodea_Judith-Wheels_of_Life",
+            "text": "Crown chakra - Divine connection and cosmic consciousness"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Head, brain, nervous system, breath"
+          },
+          "healing_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "New beginnings, trust building, innocence restoration"
+          },
+          "timing_indicators": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Immediate action required, divine timing, spring energy"
+          },
+          "shadow_aspects": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Naivety, recklessness, avoidance of responsibility"
+          },
+          "integration_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Balancing innocence with wisdom, trust with discernment"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine trust, beginner's mind, sacred foolishness"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pure awareness, open heart, unlimited possibility"
+          },
+          "affirmation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I trust the divine process and step forward with faith"
+          },
+          "reversed_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Fear of new beginnings, lack of trust, poor judgment"
+          },
+          "professional_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Career change, new ventures, creative expression"
+          },
+          "relationship_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "New love, renewed romance, childlike joy"
+          },
+          "financial_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "New opportunities, calculated risks, beginner's luck"
+          },
+          "health_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Fresh start, new treatments, mental health focus"
+          },
+          "spiritual_guidance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual awakening, new path, divine calling"
+          }
         },
         "1_the_magician": {
-          "hebrew_letter": "Beth (House) - Conscious dwelling, manifestation",
-          "kabbalistic_path": "Kether to Binah - Crown to Understanding",
-          "astrological_attribution": "Mercury - Communication, skill, versatility",
-          "alchemical_principle": "Solve - Dissolution and analysis",
-          "psychological_archetype": "The Creator - Conscious manifestation power",
-          "mythological_correspondences": ["Hermes", "Thoth", "Loki", "Prometheus"],
-          "elemental_association": "Air/Mercury - Mental agility and communication",
+          "hebrew_letter": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Beth (House) - Conscious dwelling, manifestation"
+          },
+          "kabbalistic_path": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Kether to Binah - Crown to Understanding"
+          },
+          "astrological_attribution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mercury - Communication, skill, versatility"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Solve - Dissolution and analysis"
+          },
+          "psychological_archetype": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The Creator - Conscious manifestation power"
+          },
+          "mythological_correspondences": [
+            "Hermes",
+            "Thoth",
+            "Loki",
+            "Prometheus"
+          ],
+          "elemental_association": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Air/Mercury - Mental agility and communication"
+          },
           "numerical_vibration": "1 - Unity, beginning, individual will",
-          "color_correspondences": ["Yellow", "Orange", "Red", "All colors present"],
-          "gemstone_allies": ["Citrine", "Tiger's eye", "Carnelian", "Agate"],
-          "plant_allies": ["Vervain", "Cinquefoil", "Palm", "Mercury herbs"],
-          "animal_spirits": ["Ibis", "Snake", "Monkey", "Magpie"],
-          "chakra_activation": "Solar plexus - Personal power and will",
-          "body_correspondences": "Hands, arms, nervous system, brain",
-          "healing_applications": "Skill development, confidence building, manifestation",
-          "timing_indicators": "Time for action, skill application, immediate results",
-          "shadow_aspects": "Manipulation, trickery, misuse of power, illusion",
-          "integration_work": "Ethical power use, skill with wisdom, service orientation",
-          "spiritual_lessons": "Conscious creation, divine will, magical thinking",
-          "meditation_focus": "Personal power, manifestation ability, divine connection",
-          "affirmation": "I have all the tools I need to create my reality",
-          "reversed_meaning": "Blocked power, manipulation, lack of skill or confidence",
-          "professional_guidance": "Skill mastery, communication, leadership development",
-          "relationship_guidance": "Taking initiative, clear communication, attraction",
-          "financial_guidance": "Money management, investment skill, earning power",
-          "health_guidance": "Healing power, medical skill, treatment success",
-          "spiritual_guidance": "Magical practice, manifestation work, divine service"
+          "color_correspondences": [
+            "Yellow",
+            "Orange",
+            "Red",
+            {
+              "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+              "text": "All colors present"
+            }
+          ],
+          "gemstone_allies": [
+            "Citrine",
+            "Tiger's eye",
+            "Carnelian",
+            "Agate"
+          ],
+          "plant_allies": [
+            "Vervain",
+            "Cinquefoil",
+            "Palm",
+            "Mercury herbs"
+          ],
+          "animal_spirits": [
+            "Ibis",
+            "Snake",
+            "Monkey",
+            "Magpie"
+          ],
+          "chakra_activation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Solar plexus - Personal power and will"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hands, arms, nervous system, brain"
+          },
+          "healing_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Skill development, confidence building, manifestation"
+          },
+          "timing_indicators": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Time for action, skill application, immediate results"
+          },
+          "shadow_aspects": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Manipulation, trickery, misuse of power, illusion"
+          },
+          "integration_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ethical power use, skill with wisdom, service orientation"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Conscious creation, divine will, magical thinking"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Personal power, manifestation ability, divine connection"
+          },
+          "affirmation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I have all the tools I need to create my reality"
+          },
+          "reversed_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Blocked power, manipulation, lack of skill or confidence"
+          },
+          "professional_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Skill mastery, communication, leadership development"
+          },
+          "relationship_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Taking initiative, clear communication, attraction"
+          },
+          "financial_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Money management, investment skill, earning power"
+          },
+          "health_guidance": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Healing power, medical skill, treatment success"
+          },
+          "spiritual_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Magical practice, manifestation work, divine service"
+          }
         },
         "21_the_world": {
-          "hebrew_letter": "Tau (Cross/Mark) - Completion, final attainment",
-          "kabbalistic_path": "Yesod to Malkuth - Foundation to Kingdom",
-          "astrological_attribution": "Saturn - Structure, completion, mastery",
-          "alchemical_principle": "Rebis - Perfect integration of opposites",
-          "psychological_archetype": "The Sage - Completed individuation",
-          "mythological_correspondences": ["Cosmic Dancer", "World Soul", "Completion Gods"],
-          "elemental_association": "Earth - Material completion and mastery",
-          "numerical_vibration": "21 (2+1=3) - Creative completion and synthesis",
-          "color_correspondences": ["Deep purple", "Indigo", "Gold", "All colors integrated"],
-          "gemstone_allies": ["Amethyst", "Lapis lazuli", "Diamond", "Tanzanite"],
-          "plant_allies": ["Oak", "Cedar", "Lotus", "World tree symbolism"],
-          "animal_spirits": ["Eagle", "Lion", "Bull", "Human - four fixed signs"],
-          "chakra_activation": "All chakras integrated, full energy system activation",
-          "body_correspondences": "Entire body integrated, complete health",
-          "healing_applications": "Complete healing, integration, wholeness",
-          "timing_indicators": "Completion time, cycle ending, mastery achieved",
-          "shadow_aspects": "Perfectionism, arrogance, completion resistance",
-          "integration_work": "Humble mastery, service through completion, new beginnings",
-          "spiritual_lessons": "Cosmic consciousness, divine completion, unity awareness",
-          "meditation_focus": "Universal consciousness, complete integration, divine unity",
-          "affirmation": "I am complete, whole, and one with all existence",
-          "reversed_meaning": "Incomplete projects, lack of integration, isolation",
-          "professional_guidance": "Career mastery, completion of major projects, recognition",
-          "relationship_guidance": "Committed partnership, family completion, harmony",
-          "financial_guidance": "Financial security, abundance, material completion",
-          "health_guidance": "Complete healing, optimal health, vitality",
-          "spiritual_guidance": "Enlightenment, cosmic consciousness, divine union"
+          "hebrew_letter": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Tau (Cross/Mark) - Completion, final attainment"
+          },
+          "kabbalistic_path": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Yesod to Malkuth - Foundation to Kingdom"
+          },
+          "astrological_attribution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Saturn - Structure, completion, mastery"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rebis - Perfect integration of opposites"
+          },
+          "psychological_archetype": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The Sage - Completed individuation"
+          },
+          "mythological_correspondences": [
+            "Cosmic Dancer",
+            "World Soul",
+            "Completion Gods"
+          ],
+          "elemental_association": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Earth - Material completion and mastery"
+          },
+          "numerical_vibration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "21 (2+1=3) - Creative completion and synthesis"
+          },
+          "color_correspondences": [
+            "Deep purple",
+            "Indigo",
+            "Gold",
+            {
+              "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+              "text": "All colors integrated"
+            }
+          ],
+          "gemstone_allies": [
+            "Amethyst",
+            "Lapis lazuli",
+            "Diamond",
+            "Tanzanite"
+          ],
+          "plant_allies": [
+            "Oak",
+            "Cedar",
+            "Lotus",
+            {
+              "citation_key": "Carl_Jung-Man_and_His_Symbols",
+              "text": "World tree symbolism"
+            }
+          ],
+          "animal_spirits": [
+            "Eagle",
+            "Lion",
+            "Bull",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Human - four fixed signs"
+            }
+          ],
+          "chakra_activation": {
+            "citation_key": "Anodea_Judith-Wheels_of_Life",
+            "text": "All chakras integrated, full energy system activation"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Entire body integrated, complete health"
+          },
+          "healing_applications": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Complete healing, integration, wholeness"
+          },
+          "timing_indicators": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Completion time, cycle ending, mastery achieved"
+          },
+          "shadow_aspects": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perfectionism, arrogance, completion resistance"
+          },
+          "integration_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Humble mastery, service through completion, new beginnings"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cosmic consciousness, divine completion, unity awareness"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Universal consciousness, complete integration, divine unity"
+          },
+          "affirmation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I am complete, whole, and one with all existence"
+          },
+          "reversed_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Incomplete projects, lack of integration, isolation"
+          },
+          "professional_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Career mastery, completion of major projects, recognition"
+          },
+          "relationship_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Committed partnership, family completion, harmony"
+          },
+          "financial_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Financial security, abundance, material completion"
+          },
+          "health_guidance": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Complete healing, optimal health, vitality"
+          },
+          "spiritual_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Enlightenment, cosmic consciousness, divine union"
+          }
         }
       },
       "minor_arcana_suit_mastery": {
         "wands_fire_element": {
-          "elemental_principle": "Fire - Energy, passion, creativity, spiritual will",
-          "consciousness_level": "Spiritual/Intuitive - Divine inspiration and creative fire",
-          "life_area_governance": "Career, creativity, passion, spiritual development",
-          "personality_types": "Leaders, creators, visionaries, entrepreneurs",
-          "seasonal_correspondence": "Spring/Summer - Growth and manifestation seasons",
-          "direction": "South - Place of power and manifestation",
-          "time_of_day": "Noon - Peak solar energy and activity",
-          "astrological_signs": "Aries, Leo, Sagittarius - Cardinal fire, fixed fire, mutable fire",
-          "chakra_correspondences": "Solar plexus, heart, crown - Power, love, inspiration",
-          "body_systems": "Muscular, circulatory, nervous - Energy and action systems",
-          "psychological_functions": "Intuition, will, inspiration, motivation",
-          "shadow_aspects": "Burnout, aggression, impatience, ego inflation",
-          "integration_work": "Sustainable passion, ethical leadership, service orientation",
-          "healing_applications": "Energy restoration, confidence building, passion recovery",
-          "professional_applications": "Leadership, creativity, entrepreneurship, performance",
-          "relationship_applications": "Passion, romance, sexual energy, shared vision",
-          "spiritual_applications": "Prayer, meditation, service, devotional practices",
-          "magical_correspondences": "Candle magic, sun magic, dragon energy, phoenix power"
+          "elemental_principle": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Fire - Energy, passion, creativity, spiritual will"
+          },
+          "consciousness_level": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual/Intuitive - Divine inspiration and creative fire"
+          },
+          "life_area_governance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Career, creativity, passion, spiritual development"
+          },
+          "personality_types": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Leaders, creators, visionaries, entrepreneurs"
+          },
+          "seasonal_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Spring/Summer - Growth and manifestation seasons"
+          },
+          "direction": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "South - Place of power and manifestation"
+          },
+          "time_of_day": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Noon - Peak solar energy and activity"
+          },
+          "astrological_signs": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Aries, Leo, Sagittarius - Cardinal fire, fixed fire, mutable fire"
+          },
+          "chakra_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Solar plexus, heart, crown - Power, love, inspiration"
+          },
+          "body_systems": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Muscular, circulatory, nervous - Energy and action systems"
+          },
+          "psychological_functions": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Intuition, will, inspiration, motivation"
+          },
+          "shadow_aspects": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Burnout, aggression, impatience, ego inflation"
+          },
+          "integration_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sustainable passion, ethical leadership, service orientation"
+          },
+          "healing_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Energy restoration, confidence building, passion recovery"
+          },
+          "professional_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Leadership, creativity, entrepreneurship, performance"
+          },
+          "relationship_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Passion, romance, sexual energy, shared vision"
+          },
+          "spiritual_applications": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Prayer, meditation, service, devotional practices"
+          },
+          "magical_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Candle magic, sun magic, dragon energy, phoenix power"
+          }
         },
         "cups_water_element": {
-          "elemental_principle": "Water - Emotion, intuition, love, psychic abilities",
-          "consciousness_level": "Emotional/Psychic - Heart wisdom and intuitive knowledge",
-          "life_area_governance": "Relationships, emotions, spirituality, healing",
-          "personality_types": "Healers, counselors, artists, mystics",
-          "seasonal_correspondence": "Summer/Autumn - Emotional depth seasons",
-          "direction": "West - Place of emotions and sunset reflection",
-          "time_of_day": "Evening/Twilight - Emotional and intuitive time",
-          "astrological_signs": "Cancer, Scorpio, Pisces - Cardinal water, fixed water, mutable water",
-          "chakra_correspondences": "Sacral, heart, third eye - Emotion, love, intuition",
-          "body_systems": "Lymphatic, reproductive, endocrine - Fluid and hormonal systems",
-          "psychological_functions": "Feeling, intuition, empathy, imagination",
-          "shadow_aspects": "Emotional overwhelm, depression, escapism, boundary issues",
-          "integration_work": "Emotional intelligence, healthy boundaries, practical compassion",
-          "healing_applications": "Emotional healing, relationship therapy, trauma recovery",
-          "professional_applications": "Counseling, healing arts, creative expression, service",
-          "relationship_applications": "Intimacy, empathy, emotional connection, family bonds",
-          "spiritual_applications": "Mysticism, devotion, compassion practices, psychic development",
-          "magical_correspondences": "Moon magic, water magic, love spells, healing rituals"
+          "elemental_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Water - Emotion, intuition, love, psychic abilities"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional/Psychic - Heart wisdom and intuitive knowledge"
+          },
+          "life_area_governance": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Relationships, emotions, spirituality, healing"
+          },
+          "personality_types": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Healers, counselors, artists, mystics"
+          },
+          "seasonal_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Summer/Autumn - Emotional depth seasons"
+          },
+          "direction": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "West - Place of emotions and sunset reflection"
+          },
+          "time_of_day": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Evening/Twilight - Emotional and intuitive time"
+          },
+          "astrological_signs": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cancer, Scorpio, Pisces - Cardinal water, fixed water, mutable water"
+          },
+          "chakra_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacral, heart, third eye - Emotion, love, intuition"
+          },
+          "body_systems": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Lymphatic, reproductive, endocrine - Fluid and hormonal systems"
+          },
+          "psychological_functions": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Feeling, intuition, empathy, imagination"
+          },
+          "shadow_aspects": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional overwhelm, depression, escapism, boundary issues"
+          },
+          "integration_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional intelligence, healthy boundaries, practical compassion"
+          },
+          "healing_applications": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Emotional healing, relationship therapy, trauma recovery"
+          },
+          "professional_applications": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Counseling, healing arts, creative expression, service"
+          },
+          "relationship_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Intimacy, empathy, emotional connection, family bonds"
+          },
+          "spiritual_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mysticism, devotion, compassion practices, psychic development"
+          },
+          "magical_correspondences": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Moon magic, water magic, love spells, healing rituals"
+          }
         },
         "swords_air_element": {
-          "elemental_principle": "Air - Thought, communication, truth, analysis",
-          "consciousness_level": "Mental/Intellectual - Rational mind and clear communication",
-          "life_area_governance": "Communication, learning, conflict, justice",
-          "personality_types": "Teachers, writers, lawyers, analysts",
-          "seasonal_correspondence": "Autumn/Winter - Mental clarity seasons",
-          "direction": "East - Place of new thoughts and dawn insights",
-          "time_of_day": "Dawn - Mental clarity and new ideas time",
-          "astrological_signs": "Gemini, Libra, Aquarius - Mutable air, cardinal air, fixed air",
-          "chakra_correspondences": "Throat, third eye, crown - Communication, wisdom, consciousness",
-          "body_systems": "Respiratory, nervous, circulatory - Breath and mental systems",
-          "psychological_functions": "Thinking, analyzing, communicating, judging",
-          "shadow_aspects": "Mental rigidity, overthinking, cruelty, cold logic",
-          "integration_work": "Compassionate thinking, wise communication, balanced analysis",
-          "healing_applications": "Mental health, communication therapy, trauma processing",
-          "professional_applications": "Teaching, writing, law, technology, research",
-          "relationship_applications": "Communication, conflict resolution, intellectual connection",
-          "spiritual_applications": "Study, contemplation, truth seeking, wisdom development",
-          "magical_correspondences": "Wind magic, word magic, incense, breath work"
+          "elemental_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Air - Thought, communication, truth, analysis"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental/Intellectual - Rational mind and clear communication"
+          },
+          "life_area_governance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Communication, learning, conflict, justice"
+          },
+          "personality_types": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Teachers, writers, lawyers, analysts"
+          },
+          "seasonal_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Autumn/Winter - Mental clarity seasons"
+          },
+          "direction": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "East - Place of new thoughts and dawn insights"
+          },
+          "time_of_day": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Dawn - Mental clarity and new ideas time"
+          },
+          "astrological_signs": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Gemini, Libra, Aquarius - Mutable air, cardinal air, fixed air"
+          },
+          "chakra_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Throat, third eye, crown - Communication, wisdom, consciousness"
+          },
+          "body_systems": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Respiratory, nervous, circulatory - Breath and mental systems"
+          },
+          "psychological_functions": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Thinking, analyzing, communicating, judging"
+          },
+          "shadow_aspects": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental rigidity, overthinking, cruelty, cold logic"
+          },
+          "integration_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Compassionate thinking, wise communication, balanced analysis"
+          },
+          "healing_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental health, communication therapy, trauma processing"
+          },
+          "professional_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Teaching, writing, law, technology, research"
+          },
+          "relationship_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Communication, conflict resolution, intellectual connection"
+          },
+          "spiritual_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Study, contemplation, truth seeking, wisdom development"
+          },
+          "magical_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wind magic, word magic, incense, breath work"
+          }
         },
         "pentacles_earth_element": {
-          "elemental_principle": "Earth - Material, practical, sensual, abundance",
-          "consciousness_level": "Physical/Material - Body wisdom and practical intelligence",
-          "life_area_governance": "Money, health, work, material security",
-          "personality_types": "Builders, healers, farmers, business people",
-          "seasonal_correspondence": "Winter/Spring - Grounding and growth seasons",
-          "direction": "North - Place of stability and material manifestation",
-          "time_of_day": "Midnight - Grounding and deep earth connection time",
-          "astrological_signs": "Taurus, Virgo, Capricorn - Fixed earth, mutable earth, cardinal earth",
-          "chakra_correspondences": "Root, sacral, solar plexus - Grounding, creativity, power",
-          "body_systems": "Skeletal, digestive, immune - Structure and nourishment systems",
-          "psychological_functions": "Sensing, building, nurturing, manifesting",
-          "shadow_aspects": "Materialism, greed, stubbornness, sensual excess",
-          "integration_work": "Sacred materialism, generous abundance, practical spirituality",
-          "healing_applications": "Physical healing, prosperity work, grounding practices",
-          "professional_applications": "Business, healthcare, agriculture, craftsmanship",
-          "relationship_applications": "Practical support, sensual connection, shared resources",
-          "spiritual_applications": "Embodied spirituality, nature connection, service work",
-          "magical_correspondences": "Earth magic, crystal work, herb magic, abundance rituals"
+          "elemental_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Earth - Material, practical, sensual, abundance"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Physical/Material - Body wisdom and practical intelligence"
+          },
+          "life_area_governance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Money, health, work, material security"
+          },
+          "personality_types": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Builders, healers, farmers, business people"
+          },
+          "seasonal_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Winter/Spring - Grounding and growth seasons"
+          },
+          "direction": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "North - Place of stability and material manifestation"
+          },
+          "time_of_day": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Midnight - Grounding and deep earth connection time"
+          },
+          "astrological_signs": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Taurus, Virgo, Capricorn - Fixed earth, mutable earth, cardinal earth"
+          },
+          "chakra_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Root, sacral, solar plexus - Grounding, creativity, power"
+          },
+          "body_systems": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Skeletal, digestive, immune - Structure and nourishment systems"
+          },
+          "psychological_functions": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sensing, building, nurturing, manifesting"
+          },
+          "shadow_aspects": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Materialism, greed, stubbornness, sensual excess"
+          },
+          "integration_work": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Sacred materialism, generous abundance, practical spirituality"
+          },
+          "healing_applications": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Physical healing, prosperity work, grounding practices"
+          },
+          "professional_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Business, healthcare, agriculture, craftsmanship"
+          },
+          "relationship_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Practical support, sensual connection, shared resources"
+          },
+          "spiritual_applications": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Embodied spirituality, nature connection, service work"
+          },
+          "magical_correspondences": {
+            "citation_key": "Melody-Love_Is_In_The_Earth",
+            "text": "Earth magic, crystal work, herb magic, abundance rituals"
+          }
         }
       },
       "court_card_personality_matrix": {
         "developmental_stages": {
           "page_level": {
-            "description": "Beginner energy, learning phase, youthful enthusiasm",
-            "psychological_development": "Late adolescence to early twenties consciousness",
-            "spiritual_development": "Beginning seeker, open to learning, enthusiastic",
-            "relationship_style": "Eager to please, learning boundaries, experimental",
-            "career_approach": "Entry level, learning skills, exploring possibilities",
-            "financial_behavior": "Learning money management, often impulsive spending",
-            "health_patterns": "Generally good health, learning self-care habits",
-            "shadow_tendencies": "Immaturity, unreliability, lack of follow-through",
-            "growth_direction": "Skill development, responsibility building, experience gaining"
+            "description": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Beginner energy, learning phase, youthful enthusiasm"
+            },
+            "psychological_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Late adolescence to early twenties consciousness"
+            },
+            "spiritual_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Beginning seeker, open to learning, enthusiastic"
+            },
+            "relationship_style": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eager to please, learning boundaries, experimental"
+            },
+            "career_approach": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Entry level, learning skills, exploring possibilities"
+            },
+            "financial_behavior": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Learning money management, often impulsive spending"
+            },
+            "health_patterns": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Generally good health, learning self-care habits"
+            },
+            "shadow_tendencies": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Immaturity, unreliability, lack of follow-through"
+            },
+            "growth_direction": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Skill development, responsibility building, experience gaining"
+            }
           },
           "knight_level": {
-            "description": "Active energy, pursuit phase, focused action",
-            "psychological_development": "Young adult to thirties consciousness",
-            "spiritual_development": "Active seeker, testing beliefs, building practice",
-            "relationship_style": "Pursuing, passionate, sometimes commitment-challenged",
-            "career_approach": "Building career, ambitious, action-oriented",
-            "financial_behavior": "Investment focused, sometimes risky financial choices",
-            "health_patterns": "Active lifestyle, may push physical limits",
-            "shadow_tendencies": "Impatience, recklessness, single-minded pursuit",
-            "growth_direction": "Balance building, patience development, wisdom integration"
+            "description": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Active energy, pursuit phase, focused action"
+            },
+            "psychological_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Young adult to thirties consciousness"
+            },
+            "spiritual_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Active seeker, testing beliefs, building practice"
+            },
+            "relationship_style": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Pursuing, passionate, sometimes commitment-challenged"
+            },
+            "career_approach": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Building career, ambitious, action-oriented"
+            },
+            "financial_behavior": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Investment focused, sometimes risky financial choices"
+            },
+            "health_patterns": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Active lifestyle, may push physical limits"
+            },
+            "shadow_tendencies": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Impatience, recklessness, single-minded pursuit"
+            },
+            "growth_direction": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Balance building, patience development, wisdom integration"
+            }
           },
           "queen_level": {
-            "description": "Receptive mastery, nurturing wisdom, emotional intelligence",
-            "psychological_development": "Mature adult consciousness, integrated feminine",
-            "spiritual_development": "Wisdom through experience, compassionate service",
-            "relationship_style": "Nurturing, supportive, emotionally intelligent",
-            "career_approach": "Collaborative leadership, mentoring, sustainable success",
-            "financial_behavior": "Security-focused, generous giving, wise investment",
-            "health_patterns": "Holistic health approach, stress management skills",
-            "shadow_tendencies": "Over-giving, martyrdom, emotional manipulation",
-            "growth_direction": "Boundary setting, self-care balance, empowered nurturing"
+            "description": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Receptive mastery, nurturing wisdom, emotional intelligence"
+            },
+            "psychological_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mature adult consciousness, integrated feminine"
+            },
+            "spiritual_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wisdom through experience, compassionate service"
+            },
+            "relationship_style": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Nurturing, supportive, emotionally intelligent"
+            },
+            "career_approach": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Collaborative leadership, mentoring, sustainable success"
+            },
+            "financial_behavior": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Security-focused, generous giving, wise investment"
+            },
+            "health_patterns": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Holistic health approach, stress management skills"
+            },
+            "shadow_tendencies": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Over-giving, martyrdom, emotional manipulation"
+            },
+            "growth_direction": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Boundary setting, self-care balance, empowered nurturing"
+            }
           },
           "king_level": {
-            "description": "Active mastery, authoritative wisdom, leadership skills",
-            "psychological_development": "Mature adult consciousness, integrated masculine",
-            "spiritual_development": "Wisdom through service, responsible leadership",
-            "relationship_style": "Protective, providing, steadfast commitment",
-            "career_approach": "Executive leadership, mentoring, legacy building",
-            "financial_behavior": "Wealth building, responsible stewardship, generous provision",
-            "health_patterns": "Preventive care, sustainable practices, stress management",
-            "shadow_tendencies": "Authoritarianism, rigidity, workaholic tendencies",
-            "growth_direction": "Flexibility development, delegation skills, humble service"
+            "description": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Active mastery, authoritative wisdom, leadership skills"
+            },
+            "psychological_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mature adult consciousness, integrated masculine"
+            },
+            "spiritual_development": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wisdom through service, responsible leadership"
+            },
+            "relationship_style": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Protective, providing, steadfast commitment"
+            },
+            "career_approach": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Executive leadership, mentoring, legacy building"
+            },
+            "financial_behavior": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wealth building, responsible stewardship, generous provision"
+            },
+            "health_patterns": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Preventive care, sustainable practices, stress management"
+            },
+            "shadow_tendencies": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Authoritarianism, rigidity, workaholic tendencies"
+            },
+            "growth_direction": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Flexibility development, delegation skills, humble service"
+            }
           }
         }
       }
@@ -230,38 +837,113 @@
         "soul_mission_mandala": {
           "description": "12-card spread revealing complete soul purpose and mission",
           "card_positions": {
-            "center": "Core soul essence and divine purpose",
-            "north": "Spiritual gifts and abilities",
-            "northeast": "Mental talents and intellectual contributions",
-            "east": "Communication gifts and teaching abilities",
-            "southeast": "Creative expression and artistic talents",
-            "south": "Practical skills and material contributions",
-            "southwest": "Healing abilities and therapeutic gifts",
-            "west": "Emotional wisdom and relationship skills",
-            "northwest": "Intuitive abilities and psychic gifts",
-            "above": "Higher guidance and spiritual direction",
-            "below": "Practical foundation and earthly expression",
-            "integration": "How to integrate all gifts in service"
+            "center": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Core soul essence and divine purpose"
+            },
+            "north": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual gifts and abilities"
+            },
+            "northeast": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mental talents and intellectual contributions"
+            },
+            "east": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Communication gifts and teaching abilities"
+            },
+            "southeast": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Creative expression and artistic talents"
+            },
+            "south": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Practical skills and material contributions"
+            },
+            "southwest": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Healing abilities and therapeutic gifts"
+            },
+            "west": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Emotional wisdom and relationship skills"
+            },
+            "northwest": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Intuitive abilities and psychic gifts"
+            },
+            "above": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Higher guidance and spiritual direction"
+            },
+            "below": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Practical foundation and earthly expression"
+            },
+            "integration": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "How to integrate all gifts in service"
+            }
           },
           "interpretation_guidelines": {
-            "elemental_balance": "Notice which directions are strongest for natural emphasis",
-            "gift_integration": "Look for patterns showing how gifts work together",
-            "service_direction": "Identify how personal gifts serve collective good",
-            "timing_indicators": "Cards may indicate timing for developing specific gifts"
+            "elemental_balance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Notice which directions are strongest for natural emphasis"
+            },
+            "gift_integration": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Look for patterns showing how gifts work together"
+            },
+            "service_direction": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Identify how personal gifts serve collective good"
+            },
+            "timing_indicators": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Cards may indicate timing for developing specific gifts"
+            }
           }
         },
         "dharma_discovery_spread": {
           "description": "9-card spread for understanding life's true calling",
           "card_positions": {
-            "1": "Current life situation and circumstances",
-            "2": "Soul gifts brought into this lifetime",
-            "3": "Life lessons to be learned and mastered",
-            "4": "Service to be provided to others",
-            "5": "Obstacles to overcome in fulfilling dharma",
-            "6": "Support available for dharmic work",
-            "7": "Signs of alignment with true purpose",
-            "8": "Consequences of ignoring dharmic calling",
-            "9": "Ultimate fulfillment through dharmic service"
+            "1": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Current life situation and circumstances"
+            },
+            "2": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Soul gifts brought into this lifetime"
+            },
+            "3": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Life lessons to be learned and mastered"
+            },
+            "4": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Service to be provided to others"
+            },
+            "5": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Obstacles to overcome in fulfilling dharma"
+            },
+            "6": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Support available for dharmic work"
+            },
+            "7": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Signs of alignment with true purpose"
+            },
+            "8": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Consequences of ignoring dharmic calling"
+            },
+            "9": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ultimate fulfillment through dharmic service"
+            }
           }
         }
       },
@@ -269,21 +951,66 @@
         "sacred_union_assessment": {
           "description": "15-card spread for deep relationship evaluation",
           "card_positions": {
-            "person_a_essence": "Core being and energy of first person",
-            "person_b_essence": "Core being and energy of second person",
-            "soul_connection": "Deeper spiritual bond between souls",
-            "past_life_influence": "Previous lifetime connections affecting current relationship",
-            "karmic_purpose": "What this relationship is meant to teach and heal",
-            "gifts_to_each_other": "What each person brings to the relationship",
-            "growth_challenges": "Areas requiring development and healing",
-            "communication_dynamic": "How the two communicate and understand each other",
-            "intimacy_potential": "Capacity for deep emotional and physical connection",
-            "shared_vision": "Common goals and life direction",
-            "family_potential": "Capacity for creating family or extended community",
-            "service_together": "How relationship serves larger purpose",
-            "obstacles_to_overcome": "External and internal challenges to navigate",
-            "divine_blessing": "How universe supports this union",
-            "highest_potential": "Ultimate possibility of relationship fulfillment"
+            "person_a_essence": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Core being and energy of first person"
+            },
+            "person_b_essence": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Core being and energy of second person"
+            },
+            "soul_connection": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Deeper spiritual bond between souls"
+            },
+            "past_life_influence": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Previous lifetime connections affecting current relationship"
+            },
+            "karmic_purpose": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "What this relationship is meant to teach and heal"
+            },
+            "gifts_to_each_other": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "What each person brings to the relationship"
+            },
+            "growth_challenges": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Areas requiring development and healing"
+            },
+            "communication_dynamic": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "How the two communicate and understand each other"
+            },
+            "intimacy_potential": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Capacity for deep emotional and physical connection"
+            },
+            "shared_vision": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Common goals and life direction"
+            },
+            "family_potential": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Capacity for creating family or extended community"
+            },
+            "service_together": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "How relationship serves larger purpose"
+            },
+            "obstacles_to_overcome": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "External and internal challenges to navigate"
+            },
+            "divine_blessing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "How universe supports this union"
+            },
+            "highest_potential": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ultimate possibility of relationship fulfillment"
+            }
           }
         }
       },
@@ -291,27 +1018,90 @@
         "complete_healing_assessment": {
           "description": "21-card spread for comprehensive healing evaluation",
           "card_positions": {
-            "physical_body": "Current physical health and needs",
-            "emotional_body": "Emotional patterns and healing needs",
-            "mental_body": "Thought patterns and mental health",
-            "spiritual_body": "Soul condition and spiritual development",
-            "energy_field": "Aura and energetic boundaries",
-            "root_cause": "Original source of current imbalance",
-            "genetic_inheritance": "Family patterns affecting health",
-            "past_life_influence": "Previous lifetime experiences affecting current health",
-            "environmental_factors": "External influences on health and well-being",
-            "lifestyle_factors": "Daily habits and choices affecting health",
-            "relationship_health": "How relationships support or drain health",
-            "work_life_impact": "How career and daily work affect well-being",
-            "spiritual_practice": "What spiritual practices support healing",
-            "medical_support": "What medical or therapeutic help is needed",
-            "healing_allies": "People who can support healing journey",
-            "healing_obstacles": "What blocks or slows healing process",
-            "healing_timeline": "Natural rhythm and timing for healing",
-            "prevention_wisdom": "How to maintain health going forward",
-            "service_through_healing": "How healed condition serves others",
-            "integration_work": "How to integrate healing into daily life",
-            "ultimate_wellness": "Vision of complete health and vitality"
+            "physical_body": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Current physical health and needs"
+            },
+            "emotional_body": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Emotional patterns and healing needs"
+            },
+            "mental_body": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Thought patterns and mental health"
+            },
+            "spiritual_body": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Soul condition and spiritual development"
+            },
+            "energy_field": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Aura and energetic boundaries"
+            },
+            "root_cause": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Original source of current imbalance"
+            },
+            "genetic_inheritance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Family patterns affecting health"
+            },
+            "past_life_influence": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Previous lifetime experiences affecting current health"
+            },
+            "environmental_factors": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "External influences on health and well-being"
+            },
+            "lifestyle_factors": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Daily habits and choices affecting health"
+            },
+            "relationship_health": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "How relationships support or drain health"
+            },
+            "work_life_impact": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "How career and daily work affect well-being"
+            },
+            "spiritual_practice": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "What spiritual practices support healing"
+            },
+            "medical_support": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "What medical or therapeutic help is needed"
+            },
+            "healing_allies": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "People who can support healing journey"
+            },
+            "healing_obstacles": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "What blocks or slows healing process"
+            },
+            "healing_timeline": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Natural rhythm and timing for healing"
+            },
+            "prevention_wisdom": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "How to maintain health going forward"
+            },
+            "service_through_healing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "How healed condition serves others"
+            },
+            "integration_work": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "How to integrate healing into daily life"
+            },
+            "ultimate_wellness": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Vision of complete health and vitality"
+            }
           }
         }
       }
@@ -319,33 +1109,96 @@
     "master_timing_system": {
       "comprehensive_timing_matrix": {
         "immediate_timing": {
-          "within_24_hours": "Aces, explosive cards like Tower, urgent Swords",
-          "within_week": "Pages, beginning numbers (2s, 3s), fast-moving Knights",
-          "within_month": "4s through 6s, developing situations, growing energy",
-          "within_season": "7s through 9s, maturing situations, harvest time",
-          "within_year": "10s, court card mastery, completion and new cycles"
+          "within_24_hours": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Aces, explosive cards like Tower, urgent Swords"
+          },
+          "within_week": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pages, beginning numbers (2s, 3s), fast-moving Knights"
+          },
+          "within_month": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "4s through 6s, developing situations, growing energy"
+          },
+          "within_season": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "7s through 9s, maturing situations, harvest time"
+          },
+          "within_year": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "10s, court card mastery, completion and new cycles"
+          }
         },
         "astrological_timing": {
-          "mercury_timing": "Communication, contracts, short trips - days to weeks",
-          "venus_timing": "Love, money, beauty - weeks to months",
-          "mars_timing": "Action, conflict, energy - immediate to weeks",
-          "jupiter_timing": "Expansion, growth, opportunities - months to year",
-          "saturn_timing": "Structure, limitation, mastery - years to decades",
-          "uranus_timing": "Sudden change, awakening - unexpected timing",
-          "neptune_timing": "Spirituality, confusion, dreams - gradual, unclear",
-          "pluto_timing": "Transformation, death-rebirth - years to decades"
+          "mercury_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Communication, contracts, short trips - days to weeks"
+          },
+          "venus_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Love, money, beauty - weeks to months"
+          },
+          "mars_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Action, conflict, energy - immediate to weeks"
+          },
+          "jupiter_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Expansion, growth, opportunities - months to year"
+          },
+          "saturn_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Structure, limitation, mastery - years to decades"
+          },
+          "uranus_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sudden change, awakening - unexpected timing"
+          },
+          "neptune_timing": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Spirituality, confusion, dreams - gradual, unclear"
+          },
+          "pluto_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Transformation, death-rebirth - years to decades"
+          }
         },
         "seasonal_timing": {
-          "spring_timing": "New projects, planting, beginning cycles",
-          "summer_timing": "Growth, manifestation, peak activity",
-          "autumn_timing": "Harvest, completion, gratitude, preparation",
-          "winter_timing": "Rest, planning, inner work, contemplation"
+          "spring_timing": {
+            "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs",
+            "text": "New projects, planting, beginning cycles"
+          },
+          "summer_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Growth, manifestation, peak activity"
+          },
+          "autumn_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Harvest, completion, gratitude, preparation"
+          },
+          "winter_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rest, planning, inner work, contemplation"
+          }
         },
         "lunar_timing": {
-          "new_moon": "New beginnings, intention setting - next 2 weeks",
-          "waxing_moon": "Building energy, growth - next week",
-          "full_moon": "Culmination, peak energy - within days",
-          "waning_moon": "Release, clearing - next 2 weeks"
+          "new_moon": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "New beginnings, intention setting - next 2 weeks"
+          },
+          "waxing_moon": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Building energy, growth - next week"
+          },
+          "full_moon": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Culmination, peak energy - within days"
+          },
+          "waning_moon": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Release, clearing - next 2 weeks"
+          }
         }
       }
     }
