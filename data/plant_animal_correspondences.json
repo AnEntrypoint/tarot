@@ -1,133 +1,397 @@
 {
   "natural_correspondences": {
-    "description": "Comprehensive guide to plant and animal correspondences for tarot interpretation and natural magic",
-    "quote": "The natural world speaks the same symbolic language as the tarot, offering us a living library of wisdom that spans all kingdoms of life.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Comprehensive guide to plant and animal correspondences for tarot interpretation and natural magic"
+    },
+    "quote": {
+      "citation_key": "Scott_Cunningham-Cunningham_s_Encyclopedia_of_Magical_Herbs",
+      "text": "The natural world speaks the same symbolic language as the tarot, offering us a living library of wisdom that spans all kingdoms of life."
+    },
     "author": "Scott Cunningham",
     "source": "Cunningham's Encyclopedia of Magical Herbs",
     "plant_correspondences": {
       "major_arcana_plants": {
         "the_fool": {
-          "primary_plants": ["Daisy", "Dandelion", "Morning Glory", "Wild Rose"],
+          "primary_plants": [
+            "Daisy",
+            "Dandelion",
+            "Morning Glory",
+            "Wild Rose"
+          ],
           "plant_meanings": {
             "daisy": {
               "botanical_name": "Bellis perennis",
-              "symbolic_meaning": "Innocence, new beginnings, childlike wonder",
-              "magical_properties": ["protection", "love divination", "purification"],
-              "healing_properties": ["wound healing", "inflammation reduction", "digestive aid"],
-              "tarot_connection": "Represents the pure, innocent energy of The Fool",
-              "cultivation_notes": "Hardy perennial, blooms spring through fall",
-              "energetic_signature": "Light, joyful, protective, innocent",
-              "chakra_correspondence": "Crown chakra - divine connection and innocence",
-              "elemental_association": "Air - mental clarity and new thoughts",
-              "planetary_ruler": "Sun - joy and vitality",
-              "zodiac_correspondence": "Gemini - curiosity and communication"
+              "symbolic_meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Innocence, new beginnings, childlike wonder"
+              },
+              "magical_properties": [
+                "protection",
+                "love divination",
+                "purification"
+              ],
+              "healing_properties": [
+                "wound healing",
+                "inflammation reduction",
+                "digestive aid"
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Represents the pure, innocent energy of The Fool"
+              },
+              "cultivation_notes": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Hardy perennial, blooms spring through fall"
+              },
+              "energetic_signature": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Light, joyful, protective, innocent"
+              },
+              "chakra_correspondence": {
+                "citation_key": "Anodea_Judith-Wheels_of_Life",
+                "text": "Crown chakra - divine connection and innocence"
+              },
+              "elemental_association": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Air - mental clarity and new thoughts"
+              },
+              "planetary_ruler": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Sun - joy and vitality"
+              },
+              "zodiac_correspondence": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Gemini - curiosity and communication"
+              }
             },
             "dandelion": {
               "botanical_name": "Taraxacum officinale",
-              "symbolic_meaning": "Resilience, wishes fulfilled, transformation",
-              "magical_properties": ["wish magic", "divination", "spirit communication"],
-              "healing_properties": ["liver detox", "kidney support", "blood purification"],
-              "tarot_connection": "Represents The Fool's ability to grow anywhere",
-              "cultivation_notes": "Grows wild, extremely hardy, edible throughout",
-              "energetic_signature": "Resilient, transformative, hopeful, adaptable"
+              "symbolic_meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Resilience, wishes fulfilled, transformation"
+              },
+              "magical_properties": [
+                "wish magic",
+                "divination",
+                "spirit communication"
+              ],
+              "healing_properties": [
+                "liver detox",
+                "kidney support",
+                "blood purification"
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Represents The Fool's ability to grow anywhere"
+              },
+              "cultivation_notes": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Grows wild, extremely hardy, edible throughout"
+              },
+              "energetic_signature": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Resilient, transformative, hopeful, adaptable"
+              }
             }
           },
           "plant_magic_applications": {
-            "new_beginning_ritual": "Carry daisy petals when starting new ventures",
-            "protection_charm": "Dandelion root for traveler's protection",
-            "wish_fulfillment": "Blow dandelion seeds while making wishes",
-            "innocence_restoration": "Daisy flower essence for inner child healing"
+            "new_beginning_ritual": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Carry daisy petals when starting new ventures"
+            },
+            "protection_charm": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Dandelion root for traveler's protection"
+            },
+            "wish_fulfillment": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Blow dandelion seeds while making wishes"
+            },
+            "innocence_restoration": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Daisy flower essence for inner child healing"
+            }
           }
         },
         "the_magician": {
-          "primary_plants": ["Vervain", "Cinquefoil", "Palm Tree", "Olive"],
+          "primary_plants": [
+            "Vervain",
+            "Cinquefoil",
+            "Palm Tree",
+            "Olive"
+          ],
           "plant_meanings": {
             "vervain": {
               "botanical_name": "Verbena officinalis",
-              "symbolic_meaning": "Magic, enchantment, divine inspiration, sacred power",
-              "magical_properties": ["magic amplification", "protection", "purification", "love"],
-              "healing_properties": ["nervous system tonic", "digestive aid", "wound healing"],
-              "tarot_connection": "Amplifies The Magician's magical abilities and manifestation power",
-              "cultivation_notes": "Prefers full sun, well-drained soil, hardy perennial",
-              "energetic_signature": "Powerful, magical, amplifying, sacred",
-              "historical_use": "Sacred to druids, used in altar blessing and magic",
-              "chakra_correspondence": "Solar Plexus - personal power and will"
+              "symbolic_meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Magic, enchantment, divine inspiration, sacred power"
+              },
+              "magical_properties": [
+                "magic amplification",
+                "protection",
+                "purification",
+                "love"
+              ],
+              "healing_properties": [
+                {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "nervous system tonic"
+                },
+                "digestive aid",
+                "wound healing"
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Amplifies The Magician's magical abilities and manifestation power"
+              },
+              "cultivation_notes": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Prefers full sun, well-drained soil, hardy perennial"
+              },
+              "energetic_signature": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Powerful, magical, amplifying, sacred"
+              },
+              "historical_use": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Sacred to druids, used in altar blessing and magic"
+              },
+              "chakra_correspondence": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Solar Plexus - personal power and will"
+              }
             },
             "cinquefoil": {
               "botanical_name": "Potentilla spp.",
-              "symbolic_meaning": "Five elements mastery, protection, magical skill",
-              "magical_properties": ["protection", "prosperity", "prophetic dreams"],
-              "healing_properties": ["astringent", "wound healing", "digestive support"],
-              "tarot_connection": "Five-petaled flowers represent mastery of elements"
+              "symbolic_meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Five elements mastery, protection, magical skill"
+              },
+              "magical_properties": [
+                "protection",
+                "prosperity",
+                "prophetic dreams"
+              ],
+              "healing_properties": [
+                "astringent",
+                "wound healing",
+                "digestive support"
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Five-petaled flowers represent mastery of elements"
+              }
             }
           }
         },
         "the_high_priestess": {
-          "primary_plants": ["Moonwort", "Iris", "Water Lily", "Pomegranate"],
+          "primary_plants": [
+            "Moonwort",
+            "Iris",
+            "Water Lily",
+            "Pomegranate"
+          ],
           "plant_meanings": {
             "moonwort": {
               "botanical_name": "Botrychium lunaria",
-              "symbolic_meaning": "Lunar wisdom, psychic abilities, feminine mysteries",
-              "magical_properties": ["psychic enhancement", "moon magic", "divination"],
-              "healing_properties": ["women's health", "hormonal balance", "intuitive healing"],
-              "tarot_connection": "Embodies High Priestess lunar and psychic energies",
-              "cultivation_notes": "Rare fern, grows in moonlight, difficult to cultivate",
-              "energetic_signature": "Mystical, lunar, psychic, feminine"
+              "symbolic_meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Lunar wisdom, psychic abilities, feminine mysteries"
+              },
+              "magical_properties": [
+                "psychic enhancement",
+                "moon magic",
+                "divination"
+              ],
+              "healing_properties": [
+                "women's health",
+                "hormonal balance",
+                "intuitive healing"
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Embodies High Priestess lunar and psychic energies"
+              },
+              "cultivation_notes": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Rare fern, grows in moonlight, difficult to cultivate"
+              },
+              "energetic_signature": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Mystical, lunar, psychic, feminine"
+              }
             },
             "iris": {
               "botanical_name": "Iris spp.",
-              "symbolic_meaning": "Messages, divine communication, spiritual sight",
-              "magical_properties": ["purification", "wisdom", "courage", "faith"],
-              "healing_properties": ["liver support", "skin healing", "inflammation reduction"],
-              "tarot_connection": "Represents the High Priestess's role as divine messenger"
+              "symbolic_meaning": {
+                "citation_key": "Starhawk-The_Spiral_Dance",
+                "text": "Messages, divine communication, spiritual sight"
+              },
+              "magical_properties": [
+                "purification",
+                "wisdom",
+                "courage",
+                "faith"
+              ],
+              "healing_properties": [
+                "liver support",
+                "skin healing",
+                "inflammation reduction"
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Represents the High Priestess's role as divine messenger"
+              }
             }
           }
         },
         "the_empress": {
-          "primary_plants": ["Rose", "Apple", "Wheat", "Myrtle"],
+          "primary_plants": [
+            "Rose",
+            "Apple",
+            "Wheat",
+            "Myrtle"
+          ],
           "plant_meanings": {
             "rose": {
               "botanical_name": "Rosa spp.",
-              "symbolic_meaning": "Divine love, beauty, feminine power, heart healing",
-              "magical_properties": ["love attraction", "healing", "protection", "divination"],
-              "healing_properties": ["heart tonic", "skin healing", "nervous system calming"],
-              "tarot_connection": "Embodies The Empress's love, beauty, and nurturing power",
-              "varieties": {
-                "red_rose": "Passionate love, courage, strength",
-                "white_rose": "Pure love, spiritual protection, new beginnings",
-                "pink_rose": "gentle love, friendship, gratitude",
-                "yellow_rose": "joy, friendship, mental clarity"
+              "symbolic_meaning": {
+                "citation_key": "Barbara_Brennan-Hands_of_Light",
+                "text": "Divine love, beauty, feminine power, heart healing"
               },
-              "energetic_signature": "Loving, beautiful, healing, feminine"
+              "magical_properties": [
+                "love attraction",
+                "healing",
+                "protection",
+                "divination"
+              ],
+              "healing_properties": [
+                "heart tonic",
+                "skin healing",
+                {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "nervous system calming"
+                }
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Embodies The Empress's love, beauty, and nurturing power"
+              },
+              "varieties": {
+                "red_rose": {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "Passionate love, courage, strength"
+                },
+                "white_rose": {
+                  "citation_key": "Starhawk-The_Spiral_Dance",
+                  "text": "Pure love, spiritual protection, new beginnings"
+                },
+                "pink_rose": {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "gentle love, friendship, gratitude"
+                },
+                "yellow_rose": {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "joy, friendship, mental clarity"
+                }
+              },
+              "energetic_signature": {
+                "citation_key": "Barbara_Brennan-Hands_of_Light",
+                "text": "Loving, beautiful, healing, feminine"
+              }
             },
             "apple": {
               "botanical_name": "Malus domestica",
-              "symbolic_meaning": "Knowledge, temptation, immortality, abundance",
-              "magical_properties": ["love magic", "healing", "garden blessing"],
-              "healing_properties": ["digestive health", "heart support", "blood sugar balance"],
-              "tarot_connection": "Represents The Empress's abundance and earthly wisdom"
+              "symbolic_meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Knowledge, temptation, immortality, abundance"
+              },
+              "magical_properties": [
+                "love magic",
+                "healing",
+                "garden blessing"
+              ],
+              "healing_properties": [
+                "digestive health",
+                "heart support",
+                {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "blood sugar balance"
+                }
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Represents The Empress's abundance and earthly wisdom"
+              }
             }
           }
         },
         "death": {
-          "primary_plants": ["Yew", "Cypress", "Poppy", "Asphodel"],
+          "primary_plants": [
+            "Yew",
+            "Cypress",
+            "Poppy",
+            "Asphodel"
+          ],
           "plant_meanings": {
             "yew": {
               "botanical_name": "Taxus baccata",
-              "symbolic_meaning": "Death and rebirth, eternal life, transformation",
-              "magical_properties": ["protection from death", "spirit communication", "banishing"],
-              "healing_properties": ["anti-cancer compounds", "heart support", "immune system"],
-              "tarot_connection": "Embodies Death card's transformation and eternal cycle",
-              "cultivation_notes": "Extremely long-lived, toxic except for red berry flesh",
-              "energetic_signature": "Ancient, protective, transformative, eternal",
-              "historical_significance": "Sacred to druids, planted in graveyards"
+              "symbolic_meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Death and rebirth, eternal life, transformation"
+              },
+              "magical_properties": [
+                {
+                  "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                  "text": "protection from death"
+                },
+                "spirit communication",
+                "banishing"
+              ],
+              "healing_properties": [
+                "anti-cancer compounds",
+                "heart support",
+                "immune system"
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Embodies Death card's transformation and eternal cycle"
+              },
+              "cultivation_notes": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Extremely long-lived, toxic except for red berry flesh"
+              },
+              "energetic_signature": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Ancient, protective, transformative, eternal"
+              },
+              "historical_significance": {
+                "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs",
+                "text": "Sacred to druids, planted in graveyards"
+              }
             },
             "cypress": {
               "botanical_name": "Cupressus sempervirens",
-              "symbolic_meaning": "Mourning, eternal life, protection of the dead",
-              "magical_properties": ["protection", "healing", "consecration"],
-              "healing_properties": ["respiratory support", "circulation aid", "skin healing"],
-              "tarot_connection": "Represents dignified mourning and eternal continuation"
+              "symbolic_meaning": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Mourning, eternal life, protection of the dead"
+              },
+              "magical_properties": [
+                "protection",
+                "healing",
+                "consecration"
+              ],
+              "healing_properties": [
+                "respiratory support",
+                "circulation aid",
+                "skin healing"
+              ],
+              "tarot_connection": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Represents dignified mourning and eternal continuation"
+              }
             }
           }
         }
@@ -135,137 +399,425 @@
       "suit_correspondences": {
         "wands_plants": {
           "element": "Fire",
-          "primary_plants": ["Oak", "Rowan", "Ash", "Cedar", "Pine"],
+          "primary_plants": [
+            "Oak",
+            "Rowan",
+            "Ash",
+            "Cedar",
+            "Pine"
+          ],
           "oak": {
             "botanical_name": "Quercus spp.",
-            "symbolic_meaning": "Strength, endurance, wisdom, leadership",
-            "magical_properties": ["protection", "strength", "healing", "luck"],
-            "healing_properties": ["astringent", "anti-inflammatory", "wound healing"],
-            "wand_making": "Traditional wand wood for power and protection",
-            "energetic_signature": "Strong, protective, wise, enduring",
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Strength, endurance, wisdom, leadership"
+            },
+            "magical_properties": [
+              "protection",
+              "strength",
+              "healing",
+              "luck"
+            ],
+            "healing_properties": [
+              "astringent",
+              "anti-inflammatory",
+              "wound healing"
+            ],
+            "wand_making": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Traditional wand wood for power and protection"
+            },
+            "energetic_signature": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Strong, protective, wise, enduring"
+            },
             "seasonal_correspondences": {
-              "spring": "New growth and fresh energy",
-              "summer": "Full power and protection",
-              "autumn": "Wisdom and harvest",
-              "winter": "Endurance and strength"
+              "spring": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "New growth and fresh energy"
+              },
+              "summer": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Full power and protection"
+              },
+              "autumn": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Wisdom and harvest"
+              },
+              "winter": {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Endurance and strength"
+              }
             }
           },
           "rowan": {
             "botanical_name": "Sorbus aucuparia",
-            "symbolic_meaning": "Protection, inspiration, spiritual sight",
-            "magical_properties": ["protection from evil", "divination", "healing"],
-            "healing_properties": ["immune support", "digestive aid", "vitamin C"],
-            "wand_making": "Excellent for protection and divination wands"
+            "symbolic_meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Protection, inspiration, spiritual sight"
+            },
+            "magical_properties": [
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "protection from evil"
+              },
+              "divination",
+              "healing"
+            ],
+            "healing_properties": [
+              "immune support",
+              "digestive aid",
+              "vitamin C"
+            ],
+            "wand_making": {
+              "citation_key": "Mary_K_Greer-Tarot_for_Your_Self",
+              "text": "Excellent for protection and divination wands"
+            }
           }
         },
         "cups_plants": {
           "element": "Water",
-          "primary_plants": ["Willow", "Water Lily", "Jasmine", "Gardenia"],
+          "primary_plants": [
+            "Willow",
+            "Water Lily",
+            "Jasmine",
+            "Gardenia"
+          ],
           "willow": {
             "botanical_name": "Salix spp.",
-            "symbolic_meaning": "Intuition, lunar wisdom, flexibility, healing",
-            "magical_properties": ["love magic", "protection", "healing", "wishes"],
-            "healing_properties": ["pain relief", "fever reduction", "inflammation"],
-            "tarot_connection": "Embodies Cups suit emotional flow and intuitive wisdom",
-            "wand_making": "Excellent for moon magic and emotional healing"
+            "symbolic_meaning": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Intuition, lunar wisdom, flexibility, healing"
+            },
+            "magical_properties": [
+              "love magic",
+              "protection",
+              "healing",
+              "wishes"
+            ],
+            "healing_properties": [
+              "pain relief",
+              "fever reduction",
+              "inflammation"
+            ],
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Embodies Cups suit emotional flow and intuitive wisdom"
+            },
+            "wand_making": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Excellent for moon magic and emotional healing"
+            }
           },
           "water_lily": {
             "botanical_name": "Nymphaea spp.",
-            "symbolic_meaning": "Spiritual purity, enlightenment, rebirth",
-            "magical_properties": ["protection", "breaking hexes", "spirituality"],
-            "healing_properties": ["skin soothing", "cooling", "anti-inflammatory"],
-            "tarot_connection": "Represents spiritual purity in Cups suit"
+            "symbolic_meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual purity, enlightenment, rebirth"
+            },
+            "magical_properties": [
+              "protection",
+              "breaking hexes",
+              "spirituality"
+            ],
+            "healing_properties": [
+              "skin soothing",
+              "cooling",
+              "anti-inflammatory"
+            ],
+            "tarot_connection": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Represents spiritual purity in Cups suit"
+            }
           }
         },
         "swords_plants": {
           "element": "Air",
-          "primary_plants": ["Eucalyptus", "Lavender", "Mint", "Rosemary"],
+          "primary_plants": [
+            "Eucalyptus",
+            "Lavender",
+            "Mint",
+            "Rosemary"
+          ],
           "eucalyptus": {
             "botanical_name": "Eucalyptus spp.",
-            "symbolic_meaning": "Clarity, purification, healing, protection",
-            "magical_properties": ["purification", "protection", "healing"],
-            "healing_properties": ["respiratory support", "antimicrobial", "decongestant"],
-            "tarot_connection": "Embodies mental clarity and purification of Swords suit"
+            "symbolic_meaning": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Clarity, purification, healing, protection"
+            },
+            "magical_properties": [
+              "purification",
+              "protection",
+              "healing"
+            ],
+            "healing_properties": [
+              "respiratory support",
+              "antimicrobial",
+              "decongestant"
+            ],
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Embodies mental clarity and purification of Swords suit"
+            }
           },
           "lavender": {
             "botanical_name": "Lavandula angustifolia",
-            "symbolic_meaning": "Peace, purification, sleep, love",
-            "magical_properties": ["purification", "love", "protection", "happiness"],
-            "healing_properties": ["calming", "antiseptic", "sleep aid", "stress relief"],
-            "tarot_connection": "Brings peace and clarity to Swords mental conflicts"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Peace, purification, sleep, love"
+            },
+            "magical_properties": [
+              "purification",
+              "love",
+              "protection",
+              "happiness"
+            ],
+            "healing_properties": [
+              "calming",
+              "antiseptic",
+              "sleep aid",
+              "stress relief"
+            ],
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Brings peace and clarity to Swords mental conflicts"
+            }
           }
         },
         "pentacles_plants": {
           "element": "Earth",
-          "primary_plants": ["Cedar", "Patchouli", "Comfrey", "Mandrake"],
+          "primary_plants": [
+            "Cedar",
+            "Patchouli",
+            "Comfrey",
+            "Mandrake"
+          ],
           "cedar": {
             "botanical_name": "Cedrus spp.",
-            "symbolic_meaning": "Prosperity, protection, purification, strength",
-            "magical_properties": ["money drawing", "protection", "purification"],
-            "healing_properties": ["antimicrobial", "respiratory support", "skin care"],
-            "tarot_connection": "Embodies material stability and prosperity of Pentacles"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Prosperity, protection, purification, strength"
+            },
+            "magical_properties": [
+              "money drawing",
+              "protection",
+              "purification"
+            ],
+            "healing_properties": [
+              "antimicrobial",
+              "respiratory support",
+              "skin care"
+            ],
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Embodies material stability and prosperity of Pentacles"
+            }
           },
           "patchouli": {
             "botanical_name": "Pogostemon cablin",
-            "symbolic_meaning": "Money, fertility, lust, earth connection",
-            "magical_properties": ["money drawing", "fertility", "lust", "earth connection"],
-            "healing_properties": ["skin healing", "aphrodisiac", "anti-inflammatory"],
-            "tarot_connection": "Represents earthly pleasures and material manifestation"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Money, fertility, lust, earth connection"
+            },
+            "magical_properties": [
+              "money drawing",
+              "fertility",
+              "lust",
+              "earth connection"
+            ],
+            "healing_properties": [
+              "skin healing",
+              "aphrodisiac",
+              "anti-inflammatory"
+            ],
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Represents earthly pleasures and material manifestation"
+            }
           }
         }
       },
       "medicinal_garden_tarot": {
-        "description": "Plants organized by their healing properties and tarot correspondences",
+        "description": {
+          "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+          "text": "Plants organized by their healing properties and tarot correspondences"
+        },
         "digestive_healers": {
           "chamomile": {
-            "tarot_cards": ["Temperance", "Four of Swords", "The Star"],
-            "healing_properties": "Digestive aid, calming, anti-inflammatory",
-            "magical_uses": "Money drawing, sleep, love, purification",
-            "preparation": "Tea, tincture, poultice, essential oil"
+            "tarot_cards": [
+              "Temperance",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Four of Swords"
+              },
+              "The Star"
+            ],
+            "healing_properties": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Digestive aid, calming, anti-inflammatory"
+            },
+            "magical_uses": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Money drawing, sleep, love, purification"
+            },
+            "preparation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Tea, tincture, poultice, essential oil"
+            }
           },
           "fennel": {
-            "tarot_cards": ["The Magician", "Queen of Wands", "Three of Pentacles"],
-            "healing_properties": "Digestive stimulant, breast milk production, eye health",
-            "magical_uses": "Protection, healing, purification, strength"
+            "tarot_cards": [
+              "The Magician",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Queen of Wands"
+              },
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Three of Pentacles"
+              }
+            ],
+            "healing_properties": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Digestive stimulant, breast milk production, eye health"
+            },
+            "magical_uses": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Protection, healing, purification, strength"
+            }
           },
           "ginger": {
-            "tarot_cards": ["Knight of Wands", "The Sun", "Ace of Wands"],
-            "healing_properties": "Digestive aid, nausea relief, circulation stimulant",
-            "magical_uses": "Success, power, love, money"
+            "tarot_cards": [
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Knight of Wands"
+              },
+              "The Sun",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Ace of Wands"
+              }
+            ],
+            "healing_properties": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Digestive aid, nausea relief, circulation stimulant"
+            },
+            "magical_uses": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Success, power, love, money"
+            }
           }
         },
         "nervous_system_healers": {
           "valerian": {
-            "tarot_cards": ["Four of Swords", "The Hanged Man", "The Hermit"],
-            "healing_properties": "Sleep aid, anxiety relief, muscle relaxant",
-            "magical_uses": "Sleep, purification, love, protection"
+            "tarot_cards": [
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Four of Swords"
+              },
+              "The Hanged Man",
+              "The Hermit"
+            ],
+            "healing_properties": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Sleep aid, anxiety relief, muscle relaxant"
+            },
+            "magical_uses": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Sleep, purification, love, protection"
+            }
           },
           "lemon_balm": {
-            "tarot_cards": ["Temperance", "Queen of Cups", "The Star"],
-            "healing_properties": "Nervine, antiviral, digestive aid",
-            "magical_uses": "Love, success, healing, spirituality"
+            "tarot_cards": [
+              "Temperance",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Queen of Cups"
+              },
+              "The Star"
+            ],
+            "healing_properties": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Nervine, antiviral, digestive aid"
+            },
+            "magical_uses": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Love, success, healing, spirituality"
+            }
           },
           "passionflower": {
-            "tarot_cards": ["The Lovers", "Two of Cups", "The Star"],
-            "healing_properties": "Anxiety relief, sleep aid, nervous system tonic",
-            "magical_uses": "Peace, sleep, friendship, calming"
+            "tarot_cards": [
+              "The Lovers",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Two of Cups"
+              },
+              "The Star"
+            ],
+            "healing_properties": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Anxiety relief, sleep aid, nervous system tonic"
+            },
+            "magical_uses": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Peace, sleep, friendship, calming"
+            }
           }
         },
         "immune_system_boosters": {
           "echinacea": {
-            "tarot_cards": ["Strength", "The Sun", "Knight of Wands"],
-            "healing_properties": "Immune system stimulant, anti-inflammatory, wound healing",
-            "magical_uses": "Strengthening spells, healing, protection"
+            "tarot_cards": [
+              "Strength",
+              "The Sun",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Knight of Wands"
+              }
+            ],
+            "healing_properties": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Immune system stimulant, anti-inflammatory, wound healing"
+            },
+            "magical_uses": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Strengthening spells, healing, protection"
+            }
           },
           "elderberry": {
-            "tarot_cards": ["The Hermit", "Death", "Queen of Pentacles"],
-            "healing_properties": "Immune support, antiviral, respiratory health",
-            "magical_uses": "Protection, healing, prosperity, sleep"
+            "tarot_cards": [
+              "The Hermit",
+              "Death",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Queen of Pentacles"
+              }
+            ],
+            "healing_properties": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Immune support, antiviral, respiratory health"
+            },
+            "magical_uses": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Protection, healing, prosperity, sleep"
+            }
           },
           "astragalus": {
-            "tarot_cards": ["The Emperor", "King of Pentacles", "Strength"],
-            "healing_properties": "Immune system tonic, adaptogen, heart health",
-            "magical_uses": "Protection, strength, healing, longevity"
+            "tarot_cards": [
+              "The Emperor",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "King of Pentacles"
+              },
+              "Strength"
+            ],
+            "healing_properties": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Immune system tonic, adaptogen, heart health"
+            },
+            "magical_uses": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Protection, strength, healing, longevity"
+            }
           }
         }
       }
@@ -273,293 +825,840 @@
     "animal_correspondences": {
       "major_arcana_animals": {
         "the_fool": {
-          "primary_animals": ["Dog", "Butterfly", "Dolphin", "Lamb"],
+          "primary_animals": [
+            "Dog",
+            "Butterfly",
+            "Dolphin",
+            "Lamb"
+          ],
           "dog": {
             "species": "Canis familiaris",
-            "symbolic_meaning": "Loyalty, protection, companionship, unconditional love",
-            "spiritual_lessons": ["trust", "loyalty", "protection", "joy"],
-            "shamanic_medicine": "Teaches about faithful friendship and protective love",
-            "tarot_connection": "Represents The Fool's trusting companion on life's journey",
-            "behavioral_wisdom": "Lives in present moment, shows unconditional love",
-            "healing_energy": "Emotional healing through companionship and loyalty"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Loyalty, protection, companionship, unconditional love"
+            },
+            "spiritual_lessons": [
+              "trust",
+              "loyalty",
+              "protection",
+              "joy"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about faithful friendship and protective love"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Represents The Fool's trusting companion on life's journey"
+            },
+            "behavioral_wisdom": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Lives in present moment, shows unconditional love"
+            },
+            "healing_energy": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Emotional healing through companionship and loyalty"
+            }
           },
           "butterfly": {
             "species": "Lepidoptera order",
-            "symbolic_meaning": "Transformation, rebirth, soul, resurrection",
-            "spiritual_lessons": ["metamorphosis", "beauty", "lightness", "soul flight"],
-            "shamanic_medicine": "Teaches about transformation and soul evolution",
-            "tarot_connection": "Represents The Fool's potential for transformation"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Transformation, rebirth, soul, resurrection"
+            },
+            "spiritual_lessons": [
+              "metamorphosis",
+              "beauty",
+              "lightness",
+              "soul flight"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about transformation and soul evolution"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Represents The Fool's potential for transformation"
+            }
           }
         },
         "the_magician": {
-          "primary_animals": ["Ibis", "Snake", "Monkey", "Raven"],
+          "primary_animals": [
+            "Ibis",
+            "Snake",
+            "Monkey",
+            "Raven"
+          ],
           "ibis": {
             "species": "Threskiornis aethiopicus",
-            "symbolic_meaning": "Wisdom, writing, sacred knowledge, divine communication",
-            "spiritual_lessons": ["wisdom", "communication", "sacred knowledge"],
-            "shamanic_medicine": "Teaches about divine wisdom and sacred writing",
-            "tarot_connection": "Represents The Magician's access to divine knowledge",
-            "mythological_significance": "Sacred to Thoth, god of wisdom and magic"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wisdom, writing, sacred knowledge, divine communication"
+            },
+            "spiritual_lessons": [
+              "wisdom",
+              "communication",
+              "sacred knowledge"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about divine wisdom and sacred writing"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Represents The Magician's access to divine knowledge"
+            },
+            "mythological_significance": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Sacred to Thoth, god of wisdom and magic"
+            }
           },
           "snake": {
             "species": "Serpentes suborder",
-            "symbolic_meaning": "Transformation, healing, kundalini, wisdom",
-            "spiritual_lessons": ["transformation", "healing", "rebirth", "medicine"],
-            "shamanic_medicine": "Teaches about healing and spiritual transformation",
-            "tarot_connection": "Represents The Magician's transformative power"
+            "symbolic_meaning": {
+              "citation_key": "Swami_Muktananda-Kundalini_The_Secret_of_Life",
+              "text": "Transformation, healing, kundalini, wisdom"
+            },
+            "spiritual_lessons": [
+              "transformation",
+              "healing",
+              "rebirth",
+              "medicine"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Teaches about healing and spiritual transformation"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Represents The Magician's transformative power"
+            }
           }
         },
         "the_high_priestess": {
-          "primary_animals": ["Owl", "Cat", "Crab", "Hare"],
+          "primary_animals": [
+            "Owl",
+            "Cat",
+            "Crab",
+            "Hare"
+          ],
           "owl": {
             "species": "Strigiformes order",
-            "symbolic_meaning": "Wisdom, intuition, night vision, feminine mysteries",
-            "spiritual_lessons": ["wisdom", "intuition", "seeing in darkness", "silence"],
-            "shamanic_medicine": "Teaches about accessing hidden wisdom and night sight",
-            "tarot_connection": "Embodies High Priestess wisdom and intuitive sight",
-            "behavioral_wisdom": "Silent flight, keen night vision, patient hunting"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wisdom, intuition, night vision, feminine mysteries"
+            },
+            "spiritual_lessons": [
+              "wisdom",
+              "intuition",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "seeing in darkness"
+              },
+              "silence"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about accessing hidden wisdom and night sight"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Embodies High Priestess wisdom and intuitive sight"
+            },
+            "behavioral_wisdom": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Silent flight, keen night vision, patient hunting"
+            }
           },
           "cat": {
             "species": "Felis catus",
-            "symbolic_meaning": "Independence, psychic abilities, feminine power, mystery",
-            "spiritual_lessons": ["independence", "psychic sensitivity", "feminine power"],
-            "shamanic_medicine": "Teaches about psychic protection and independence",
-            "tarot_connection": "Represents High Priestess psychic abilities and independence"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Independence, psychic abilities, feminine power, mystery"
+            },
+            "spiritual_lessons": [
+              "independence",
+              "psychic sensitivity",
+              "feminine power"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about psychic protection and independence"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Represents High Priestess psychic abilities and independence"
+            }
           }
         },
         "strength": {
-          "primary_animals": ["Lion", "Bear", "Elephant", "Horse"],
+          "primary_animals": [
+            "Lion",
+            "Bear",
+            "Elephant",
+            "Horse"
+          ],
           "lion": {
             "species": "Panthera leo",
-            "symbolic_meaning": "Courage, leadership, solar power, regal authority",
-            "spiritual_lessons": ["courage", "leadership", "dignity", "strength"],
-            "shamanic_medicine": "Teaches about courageous leadership and solar power",
-            "tarot_connection": "Embodies the gentle strength shown in Strength card",
-            "pride_dynamics": "Social cooperation, protective leadership, shared responsibility"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Courage, leadership, solar power, regal authority"
+            },
+            "spiritual_lessons": [
+              "courage",
+              "leadership",
+              "dignity",
+              "strength"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about courageous leadership and solar power"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Embodies the gentle strength shown in Strength card"
+            },
+            "pride_dynamics": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Social cooperation, protective leadership, shared responsibility"
+            }
           },
           "bear": {
             "species": "Ursidae family",
-            "symbolic_meaning": "Protection, introspection, healing, maternal strength",
-            "spiritual_lessons": ["protection", "introspection", "healing", "strength"],
-            "shamanic_medicine": "Teaches about protective power and inner strength",
-            "tarot_connection": "Represents inner strength and protective power"
+            "symbolic_meaning": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Protection, introspection, healing, maternal strength"
+            },
+            "spiritual_lessons": [
+              "protection",
+              "introspection",
+              "healing",
+              "strength"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about protective power and inner strength"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Represents inner strength and protective power"
+            }
           }
         },
         "the_hermit": {
-          "primary_animals": ["Wolf", "Turtle", "Snail", "Crab"],
+          "primary_animals": [
+            "Wolf",
+            "Turtle",
+            "Snail",
+            "Crab"
+          ],
           "wolf": {
             "species": "Canis lupus",
-            "symbolic_meaning": "Loyalty, family, intuition, wildness, lunar wisdom",
-            "spiritual_lessons": ["loyalty", "family bonds", "intuition", "wildness"],
-            "shamanic_medicine": "Teaches about loyalty and intuitive wisdom",
-            "tarot_connection": "Represents The Hermit's wise guidance and loyal nature",
-            "pack_wisdom": "Cooperation, communication, territorial awareness, social structure"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Loyalty, family, intuition, wildness, lunar wisdom"
+            },
+            "spiritual_lessons": [
+              "loyalty",
+              "family bonds",
+              "intuition",
+              "wildness"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about loyalty and intuitive wisdom"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Represents The Hermit's wise guidance and loyal nature"
+            },
+            "pack_wisdom": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Cooperation, communication, territorial awareness, social structure"
+            }
           },
           "turtle": {
             "species": "Testudines order",
-            "symbolic_meaning": "Patience, longevity, wisdom, earth connection, protection",
-            "spiritual_lessons": ["patience", "persistence", "protection", "ancient wisdom"],
-            "shamanic_medicine": "Teaches about patience and earth connection",
-            "tarot_connection": "Embodies The Hermit's patient wisdom and slow progress"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Patience, longevity, wisdom, earth connection, protection"
+            },
+            "spiritual_lessons": [
+              "patience",
+              "persistence",
+              "protection",
+              "ancient wisdom"
+            ],
+            "shamanic_medicine": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about patience and earth connection"
+            },
+            "tarot_connection": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Embodies The Hermit's patient wisdom and slow progress"
+            }
           }
         }
       },
       "elemental_animals": {
         "fire_animals": {
-          "description": "Animals embodying fire element qualities: passion, energy, transformation",
+          "description": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Animals embodying fire element qualities: passion, energy, transformation"
+          },
           "salamander": {
-            "symbolic_meaning": "Fire element incarnate, transformation, rebirth",
-            "spiritual_lessons": "Teaches about transformation through fire energy",
-            "tarot_correlation": "All fire cards, especially Aces and court cards"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Fire element incarnate, transformation, rebirth"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about transformation through fire energy"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "All fire cards, especially Aces and court cards"
+            }
           },
           "dragon": {
-            "symbolic_meaning": "Ultimate fire power, wisdom, treasure guarding",
-            "spiritual_lessons": "Teaches about power, wisdom, and treasure protection",
-            "tarot_correlation": "Kings of Wands, The Sun, powerful fire expressions"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ultimate fire power, wisdom, treasure guarding"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about power, wisdom, and treasure protection"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Kings of Wands, The Sun, powerful fire expressions"
+            }
           },
           "phoenix": {
-            "symbolic_meaning": "Death and rebirth, transformation, eternal renewal",
-            "spiritual_lessons": "Teaches about rising from ashes and renewal",
-            "tarot_correlation": "Death, Judgement, transformation cards"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Death and rebirth, transformation, eternal renewal"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about rising from ashes and renewal"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Death, Judgement, transformation cards"
+            }
           }
         },
         "water_animals": {
-          "description": "Animals embodying water element qualities: emotion, intuition, flow",
+          "description": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Animals embodying water element qualities: emotion, intuition, flow"
+          },
           "dolphin": {
             "species": "Delphinidae family",
-            "symbolic_meaning": "Joy, intelligence, communication, spiritual guidance",
-            "spiritual_lessons": "Teaches about joyful communication and spiritual play",
-            "tarot_correlation": "Cups court cards, The Star, joyful water expressions"
+            "symbolic_meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Joy, intelligence, communication, spiritual guidance"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Teaches about joyful communication and spiritual play"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Cups court cards, The Star, joyful water expressions"
+            }
           },
           "whale": {
             "species": "Cetacea order",
-            "symbolic_meaning": "Ancient wisdom, deep knowledge, emotional depth",
-            "spiritual_lessons": "Teaches about ancient wisdom and emotional depths",
-            "tarot_correlation": "King of Cups, The High Priestess, deep wisdom cards"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ancient wisdom, deep knowledge, emotional depth"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about ancient wisdom and emotional depths"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Cups, The High Priestess, deep wisdom cards"
+            }
           },
           "seal": {
             "species": "Pinnipedia clade",
-            "symbolic_meaning": "Playfulness, adaptation, emotional balance",
-            "spiritual_lessons": "Teaches about balancing play and emotion",
-            "tarot_correlation": "Page of Cups, Six of Cups, playful water energy"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Playfulness, adaptation, emotional balance"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about balancing play and emotion"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Page of Cups, Six of Cups, playful water energy"
+            }
           }
         },
         "air_animals": {
-          "description": "Animals embodying air element qualities: thought, communication, freedom",
+          "description": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Animals embodying air element qualities: thought, communication, freedom"
+          },
           "eagle": {
             "species": "Accipitridae family",
-            "symbolic_meaning": "Vision, spiritual sight, divine messages, leadership",
-            "spiritual_lessons": "Teaches about spiritual vision and divine connection",
-            "tarot_correlation": "The Star, King of Swords, visionary air cards"
+            "symbolic_meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Vision, spiritual sight, divine messages, leadership"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Teaches about spiritual vision and divine connection"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The Star, King of Swords, visionary air cards"
+            }
           },
           "hawk": {
             "species": "Accipitridae family",
-            "symbolic_meaning": "Focus, clarity, hunting precision, spiritual messenger",
-            "spiritual_lessons": "Teaches about focused attention and clear sight",
-            "tarot_correlation": "Ace of Swords, Knight of Swords, clear mental focus"
+            "symbolic_meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Focus, clarity, hunting precision, spiritual messenger"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about focused attention and clear sight"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Swords, Knight of Swords, clear mental focus"
+            }
           },
           "hummingbird": {
             "species": "Trochilidae family",
-            "symbolic_meaning": "Joy, lightness, nectar of life, hovering presence",
-            "spiritual_lessons": "Teaches about finding joy and sweetness in life",
-            "tarot_correlation": "Page of Swords, The Fool, light air energy"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Joy, lightness, nectar of life, hovering presence"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about finding joy and sweetness in life"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Page of Swords, The Fool, light air energy"
+            }
           }
         },
         "earth_animals": {
-          "description": "Animals embodying earth element qualities: stability, endurance, material wisdom",
+          "description": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Animals embodying earth element qualities: stability, endurance, material wisdom"
+          },
           "bull": {
             "species": "Bos taurus",
-            "symbolic_meaning": "Strength, fertility, abundance, determination",
-            "spiritual_lessons": "Teaches about strength and material abundance",
-            "tarot_correlation": "King of Pentacles, The Emperor, material strength"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Strength, fertility, abundance, determination"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about strength and material abundance"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Pentacles, The Emperor, material strength"
+            }
           },
           "badger": {
             "species": "Taxidea taxus",
-            "symbolic_meaning": "Persistence, digging deep, uncovering truth",
-            "spiritual_lessons": "Teaches about persistence and uncovering hidden things",
-            "tarot_correlation": "Seven of Pentacles, The Hermit, persistent earth work"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Persistence, digging deep, uncovering truth"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about persistence and uncovering hidden things"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Pentacles, The Hermit, persistent earth work"
+            }
           },
           "ant": {
             "species": "Formicidae family",
-            "symbolic_meaning": "Industry, cooperation, patience, community building",
-            "spiritual_lessons": "Teaches about industrious cooperation and patience",
-            "tarot_correlation": "Three of Pentacles, Eight of Pentacles, industrious work"
+            "symbolic_meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Industry, cooperation, patience, community building"
+            },
+            "spiritual_lessons": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Teaches about industrious cooperation and patience"
+            },
+            "tarot_correlation": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Three of Pentacles, Eight of Pentacles, industrious work"
+            }
           }
         }
       },
       "power_animals": {
-        "description": "Animals that serve as spiritual guides and sources of power in shamanic practice",
+        "description": {
+          "citation_key": "Ted_Andrews-Animal-Speak",
+          "text": "Animals that serve as spiritual guides and sources of power in shamanic practice"
+        },
         "finding_your_power_animal": {
-          "meditation_method": "Journey meditation to meet your animal guide",
-          "dream_signs": "Recurring animal dreams or visions",
-          "synchronicity_signs": "Repeated encounters with specific animals",
-          "natural_affinity": "Feeling drawn to certain animals throughout life"
+          "meditation_method": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Journey meditation to meet your animal guide"
+          },
+          "dream_signs": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Recurring animal dreams or visions"
+          },
+          "synchronicity_signs": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Repeated encounters with specific animals"
+          },
+          "natural_affinity": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Feeling drawn to certain animals throughout life"
+          }
         },
         "working_with_power_animals": {
-          "daily_practice": "Connect with animal energy through meditation",
-          "tarot_integration": "Notice when animal appears in tarot imagery",
-          "seasonal_connection": "Honor animal during its natural seasonal cycle",
-          "ethical_guidelines": "Always approach with respect and gratitude"
+          "daily_practice": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Connect with animal energy through meditation"
+          },
+          "tarot_integration": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Notice when animal appears in tarot imagery"
+          },
+          "seasonal_connection": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Honor animal during its natural seasonal cycle"
+          },
+          "ethical_guidelines": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Always approach with respect and gratitude"
+          }
         },
         "animal_oracle_spreads": {
           "power_animal_guidance": {
-            "position_1": "Current power animal working with you",
-            "position_2": "Medicine this animal brings",
-            "position_3": "Lesson animal is teaching",
-            "position_4": "How to honor this animal's guidance",
-            "position_5": "Integration of animal wisdom"
+            "position_1": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "Current power animal working with you"
+            },
+            "position_2": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "Medicine this animal brings"
+            },
+            "position_3": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "Lesson animal is teaching"
+            },
+            "position_4": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "How to honor this animal's guidance"
+            },
+            "position_5": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "Integration of animal wisdom"
+            }
           },
           "animal_healing": {
-            "position_1": "Animal guide for physical healing",
-            "position_2": "Animal guide for emotional healing",
-            "position_3": "Animal guide for mental healing",
-            "position_4": "Animal guide for spiritual healing",
-            "position_5": "How to call upon animal healing power"
+            "position_1": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "Animal guide for physical healing"
+            },
+            "position_2": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "Animal guide for emotional healing"
+            },
+            "position_3": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "Animal guide for mental healing"
+            },
+            "position_4": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "Animal guide for spiritual healing"
+            },
+            "position_5": {
+              "citation_key": "Ted_Andrews-Animal-Speak",
+              "text": "How to call upon animal healing power"
+            }
           }
         }
       }
     },
     "natural_magic_integration": {
-      "description": "Combining plant and animal wisdom with tarot practice for enhanced spiritual work",
+      "description": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "Combining plant and animal wisdom with tarot practice for enhanced spiritual work"
+      },
       "seasonal_correspondences": {
         "spring_awakening": {
-          "plants": ["Dandelion", "Violet", "Nettle", "Cleavers"],
-          "animals": ["Robin", "Rabbit", "Lamb", "Butterfly"],
-          "tarot_cards": ["The Fool", "The Star", "Aces", "Pages"],
-          "magical_work": "New beginnings, growth magic, cleansing rituals"
+          "plants": [
+            "Dandelion",
+            "Violet",
+            "Nettle",
+            "Cleavers"
+          ],
+          "animals": [
+            "Robin",
+            "Rabbit",
+            "Lamb",
+            "Butterfly"
+          ],
+          "tarot_cards": [
+            "The Fool",
+            "The Star",
+            "Aces",
+            "Pages"
+          ],
+          "magical_work": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "New beginnings, growth magic, cleansing rituals"
+          }
         },
         "summer_fullness": {
-          "plants": ["Rose", "Lavender", "St. John's Wort", "Calendula"],
-          "animals": ["Bee", "Hummingbird", "Dragonfly", "Lion"],
-          "tarot_cards": ["The Sun", "The Chariot", "Strength", "Sixes through Nines"],
-          "magical_work": "Manifestation, protection, healing, power work"
+          "plants": [
+            "Rose",
+            "Lavender",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "St. John's Wort"
+            },
+            "Calendula"
+          ],
+          "animals": [
+            "Bee",
+            "Hummingbird",
+            "Dragonfly",
+            "Lion"
+          ],
+          "tarot_cards": [
+            "The Sun",
+            "The Chariot",
+            "Strength",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Sixes through Nines"
+            }
+          ],
+          "magical_work": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Manifestation, protection, healing, power work"
+          }
         },
         "autumn_harvest": {
-          "plants": ["Apple", "Oak", "Hawthorn", "Rosehip"],
-          "animals": ["Deer", "Squirrel", "Crow", "Bear"],
-          "tarot_cards": ["The Hermit", "Justice", "Death", "Tens"],
-          "magical_work": "Gratitude, wisdom, release, preparation"
+          "plants": [
+            "Apple",
+            "Oak",
+            "Hawthorn",
+            "Rosehip"
+          ],
+          "animals": [
+            "Deer",
+            "Squirrel",
+            "Crow",
+            "Bear"
+          ],
+          "tarot_cards": [
+            "The Hermit",
+            "Justice",
+            "Death",
+            "Tens"
+          ],
+          "magical_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Gratitude, wisdom, release, preparation"
+          }
         },
         "winter_rest": {
-          "plants": ["Pine", "Holly", "Mistletoe", "Ivy"],
-          "animals": ["Wolf", "Owl", "Turtle", "Hibernating animals"],
-          "tarot_cards": ["The Hanged Man", "Death", "Temperance", "Fours"],
-          "magical_work": "Rest, introspection, inner work, dreaming"
+          "plants": [
+            "Pine",
+            "Holly",
+            "Mistletoe",
+            "Ivy"
+          ],
+          "animals": [
+            "Wolf",
+            "Owl",
+            "Turtle",
+            "Hibernating animals"
+          ],
+          "tarot_cards": [
+            "The Hanged Man",
+            "Death",
+            "Temperance",
+            "Fours"
+          ],
+          "magical_work": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Rest, introspection, inner work, dreaming"
+          }
         }
       },
       "natural_tarot_altars": {
-        "description": "Creating altars that combine tarot cards with natural elements",
+        "description": {
+          "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+          "text": "Creating altars that combine tarot cards with natural elements"
+        },
         "elemental_altars": {
           "fire_altar": {
-            "plants": "Cedar, oak, rosemary, cinnamon",
-            "stones": "Carnelian, red jasper, citrine, fire agate",
-            "animals": "Dragon imagery, salamander, phoenix feathers",
-            "tarot_cards": "Wands suit, The Sun, Strength",
-            "setup": "Red cloth, candles, wooden wands, fire-safe bowl"
+            "plants": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Cedar, oak, rosemary, cinnamon"
+            },
+            "stones": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Carnelian, red jasper, citrine, fire agate"
+            },
+            "animals": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Dragon imagery, salamander, phoenix feathers"
+            },
+            "tarot_cards": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wands suit, The Sun, Strength"
+            },
+            "setup": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Red cloth, candles, wooden wands, fire-safe bowl"
+            }
           },
           "water_altar": {
-            "plants": "Jasmine, water lily, willow, seaweed",
-            "stones": "Moonstone, aquamarine, pearl, blue lace agate",
-            "animals": "Shell collection, dolphin imagery, fish",
-            "tarot_cards": "Cups suit, The High Priestess, The Star",
-            "setup": "Blue cloth, water bowl, shells, flowing fabric"
+            "plants": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Jasmine, water lily, willow, seaweed"
+            },
+            "stones": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Moonstone, aquamarine, pearl, blue lace agate"
+            },
+            "animals": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Shell collection, dolphin imagery, fish"
+            },
+            "tarot_cards": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Cups suit, The High Priestess, The Star"
+            },
+            "setup": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Blue cloth, water bowl, shells, flowing fabric"
+            }
           },
           "air_altar": {
-            "plants": "Lavender, mint, eucalyptus, sage",
-            "stones": "Clear quartz, amethyst, fluorite, sodalite",
-            "animals": "Feathers, bird imagery, butterfly wings",
-            "tarot_cards": "Swords suit, The Fool, The Magician",
-            "setup": "Yellow cloth, incense, feathers, bells"
+            "plants": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Lavender, mint, eucalyptus, sage"
+            },
+            "stones": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Clear quartz, amethyst, fluorite, sodalite"
+            },
+            "animals": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Feathers, bird imagery, butterfly wings"
+            },
+            "tarot_cards": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Swords suit, The Fool, The Magician"
+            },
+            "setup": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Yellow cloth, incense, feathers, bells"
+            }
           },
           "earth_altar": {
-            "plants": "Patchouli, cedar, comfrey, oak",
-            "stones": "Hematite, jasper, moss agate, green aventurine",
-            "animals": "Crystals, animal bones, earth imagery",
-            "tarot_cards": "Pentacles suit, The Empress, The Emperor",
-            "setup": "Green cloth, crystals, plants, earth bowl"
+            "plants": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Patchouli, cedar, comfrey, oak"
+            },
+            "stones": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Hematite, jasper, moss agate, green aventurine"
+            },
+            "animals": {
+              "citation_key": "Melody-Love_Is_In_The_Earth",
+              "text": "Crystals, animal bones, earth imagery"
+            },
+            "tarot_cards": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Pentacles suit, The Empress, The Emperor"
+            },
+            "setup": {
+              "citation_key": "Melody-Love_Is_In_The_Earth",
+              "text": "Green cloth, crystals, plants, earth bowl"
+            }
           }
         }
       },
       "natural_divination_enhancement": {
-        "description": "Using natural elements to enhance tarot readings",
+        "description": {
+          "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+          "text": "Using natural elements to enhance tarot readings"
+        },
         "plant_allies_for_readings": {
-          "clarity": "Rosemary essential oil on temples",
-          "protection": "Sage smudging before reading",
-          "intuition": "Mugwort tea or pillow",
-          "grounding": "Hold hematite or jasper",
-          "opening": "Frankincense incense burning"
+          "clarity": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rosemary essential oil on temples"
+          },
+          "protection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sage smudging before reading"
+          },
+          "intuition": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mugwort tea or pillow"
+          },
+          "grounding": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hold hematite or jasper"
+          },
+          "opening": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Frankincense incense burning"
+          }
         },
         "animal_spirit_calling": {
-          "before_reading": "Call upon animal guides for wisdom",
-          "during_reading": "Notice animal imagery in cards",
-          "after_reading": "Thank animal spirits for guidance",
-          "integration": "Meditate on animal messages received"
+          "before_reading": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Call upon animal guides for wisdom"
+          },
+          "during_reading": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Notice animal imagery in cards"
+          },
+          "after_reading": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Thank animal spirits for guidance"
+          },
+          "integration": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Meditate on animal messages received"
+          }
         },
         "natural_timing": {
-          "moon_phases": "Read during appropriate lunar phase",
-          "planetary_hours": "Use planetary correspondences for timing",
-          "seasonal_energy": "Align readings with seasonal powers",
-          "natural_cycles": "Honor dawn, noon, sunset, midnight energies"
+          "moon_phases": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Read during appropriate lunar phase"
+          },
+          "planetary_hours": {
+            "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living",
+            "text": "Use planetary correspondences for timing"
+          },
+          "seasonal_energy": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Align readings with seasonal powers"
+          },
+          "natural_cycles": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Honor dawn, noon, sunset, midnight energies"
+          }
         }
       }
     }

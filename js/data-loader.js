@@ -275,7 +275,18 @@ class TarotDataLoader {
     _searchInObject(obj, searchTerm, source, path = '') {
         const results = [];
 
-        if (typeof obj === 'string' && obj.toLowerCase().includes(searchTerm)) {
+        if (typeof obj === 'object' && obj !== null && obj.citation_key && obj.text) {
+            // This is a citation object, search the text
+            if (obj.text.toLowerCase().includes(searchTerm)) {
+                results.push({
+                    source,
+                    path,
+                    content: obj, // Return the whole citation object
+                    type: 'text'
+                });
+            }
+        } else if (typeof obj === 'string' && obj.toLowerCase().includes(searchTerm)) {
+            // Keep this for searching non-converted strings (like keys or identifiers)
             results.push({
                 source,
                 path,
@@ -312,37 +323,35 @@ class TarotDataLoader {
     }
 
     /**
-     * Get all available quotes from academic sources
-     * @returns {Array} Array of quotes with attribution
+     * Get all available citations from academic sources
+     * @returns {Array} Array of citations with attribution
      */
-    getAllQuotes() {
+    getAllCitations() {
         if (!this.isLoaded) {
             throw new Error('Data not loaded yet. Call loadAllData() first.');
         }
 
-        const quotes = [];
+        const citations = [];
         
         Object.keys(this.dataCache).forEach(source => {
-            const sourceQuotes = this._extractQuotes(this.dataCache[source], source);
-            quotes.push(...sourceQuotes);
+            const sourceCitations = this._extractAllCitations(this.dataCache[source], source);
+            citations.push(...sourceCitations);
         });
 
-        return quotes;
+        return citations;
     }
 
     /**
-     * Extract quotes from an object recursively
+     * Extract citations from an object recursively
      * @private
      */
-    _extractQuotes(obj, source, path = '') {
-        const quotes = [];
+    _extractAllCitations(obj, source, path = '') {
+        const citations = [];
 
         if (typeof obj === 'object' && obj !== null && !Array.isArray(obj)) {
-            if (obj.quote && obj.author && obj.source) {
-                quotes.push({
-                    quote: obj.quote,
-                    author: obj.author,
-                    source: obj.source,
+            if (obj.citation_key && obj.text) {
+                citations.push({
+                    citation: obj,
                     database: source,
                     path: path
                 });
@@ -350,36 +359,36 @@ class TarotDataLoader {
 
             Object.keys(obj).forEach(key => {
                 const newPath = path ? `${path}.${key}` : key;
-                const nestedQuotes = this._extractQuotes(obj[key], source, newPath);
-                quotes.push(...nestedQuotes);
+                const nestedCitations = this._extractAllCitations(obj[key], source, newPath);
+                citations.push(...nestedCitations);
             });
         } else if (Array.isArray(obj)) {
             obj.forEach((item, index) => {
-                const nestedQuotes = this._extractQuotes(item, source, `${path}[${index}]`);
-                quotes.push(...nestedQuotes);
+                const nestedCitations = this._extractAllCitations(item, source, `${path}[${index}]`);
+                citations.push(...nestedCitations);
             });
         }
 
-        return quotes;
+        return citations;
     }
 
     /**
-     * Get random quote from any database
-     * @param {string} [source] - Optional specific source to get quote from
-     * @returns {Object} Random quote object
+     * Get random citation from any database
+     * @param {string} [source] - Optional specific source to get citation from
+     * @returns {Object} Random citation object
      */
-    getRandomQuote(source = null) {
-        const allQuotes = this.getAllQuotes();
-        const filteredQuotes = source ? 
-            allQuotes.filter(q => q.database === source) : 
-            allQuotes;
+    getRandomCitation(source = null) {
+        const allCitations = this.getAllCitations();
+        const filteredCitations = source ?
+            allCitations.filter(c => c.database === source) :
+            allCitations;
 
-        if (filteredQuotes.length === 0) {
+        if (filteredCitations.length === 0) {
             return null;
         }
 
-        const randomIndex = Math.floor(Math.random() * filteredQuotes.length);
-        return filteredQuotes[randomIndex];
+        const randomIndex = Math.floor(Math.random() * filteredCitations.length);
+        return filteredCitations[randomIndex];
     }
 
     /**
