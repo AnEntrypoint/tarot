@@ -1,499 +1,1363 @@
 {
   "hermetic_principles": {
-    "description": "The seven fundamental principles of Hermetic philosophy as applied to tarot interpretation",
-    "quote": "The principles of truth are seven; he who knows these, understandingly, possesses the magic key before whose touch all the doors of the temple fly open.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "The seven fundamental principles of Hermetic philosophy as applied to tarot interpretation"
+    },
+    "quote": {
+      "citation_key": "The_Three_Initiates-The_Kybalion",
+      "text": "The principles of truth are seven; he who knows these, understandingly, possesses the magic key before whose touch all the doors of the temple fly open."
+    },
     "author": "The Three Initiates",
     "source": "The Kybalion",
     "mentalism": {
-      "principle": "The All is Mind; the Universe is Mental",
-      "tarot_application": "All tarot readings reflect the mental state and consciousness of the querent",
-      "cards": ["The Magician", "The High Priestess", "The Hermit"],
-      "practical_meaning": "Thoughts create reality and influence outcomes",
-      "quote": "Mind is the master power that moulds and makes, and man is mind, and evermore he takes the tool of thought, and, shaping what he wills, brings forth a thousand joys, a thousand ills.",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The All is Mind; the Universe is Mental"
+      },
+      "tarot_application": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "All tarot readings reflect the mental state and consciousness of the querent"
+      },
+      "cards": [
+        "The Magician",
+        "The High Priestess",
+        "The Hermit"
+      ],
+      "practical_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Thoughts create reality and influence outcomes"
+      },
+      "quote": {
+        "citation_key": "James_Allen-As_a_Man_Thinketh",
+        "text": "Mind is the master power that moulds and makes, and man is mind, and evermore he takes the tool of thought, and, shaping what he wills, brings forth a thousand joys, a thousand ills."
+      },
       "author": "James Allen",
       "source": "As a Man Thinketh",
-      "alchemical_operation": "Calcination - burning away illusions"
+      "alchemical_operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Calcination - burning away illusions"
+      }
     },
     "correspondence": {
-      "principle": "As above, so below; as below, so above",
-      "tarot_application": "Patterns in the cards reflect patterns in life and cosmos",
-      "cards": ["The Star", "The World", "Wheel of Fortune"],
-      "practical_meaning": "Microcosm reflects macrocosm in all divination",
-      "quote": "That which is below is like that which is above, and that which is above is like that which is below, to accomplish the miracles of the one thing.",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "As above, so below; as below, so above"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Patterns in the cards reflect patterns in life and cosmos"
+      },
+      "cards": [
+        "The Star",
+        "The World",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Wheel of Fortune"
+        }
+      ],
+      "practical_meaning": {
+        "citation_key": "Mary_K_Greer-Tarot_for_Your_Self",
+        "text": "Microcosm reflects macrocosm in all divination"
+      },
+      "quote": {
+        "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet",
+        "text": "That which is below is like that which is above, and that which is above is like that which is below, to accomplish the miracles of the one thing."
+      },
       "author": "Hermes Trismegistus",
       "source": "The Emerald Tablet",
-      "alchemical_operation": "Solution - dissolving rigid boundaries"
+      "alchemical_operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Solution - dissolving rigid boundaries"
+      }
     },
     "vibration": {
-      "principle": "Nothing rests; everything moves; everything vibrates",
-      "tarot_application": "Each card carries specific vibrational frequencies",
-      "cards": ["The Fool", "The Hanged Man", "Temperance"],
-      "practical_meaning": "Energy states can be shifted through conscious intention",
-      "quote": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Nothing rests; everything moves; everything vibrates"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Each card carries specific vibrational frequencies"
+      },
+      "cards": [
+        "The Fool",
+        "The Hanged Man",
+        "Temperance"
+      ],
+      "practical_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Energy states can be shifted through conscious intention"
+      },
+      "quote": {
+        "citation_key": "Nikola_Tesla-Scientific_Principles",
+        "text": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."
+      },
       "author": "Nikola Tesla",
       "source": "Scientific Principles",
-      "alchemical_operation": "Separation - distinguishing different energetic states"
+      "alchemical_operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Separation - distinguishing different energetic states"
+      }
     },
     "polarity": {
-      "principle": "Everything is dual; everything has poles; opposites are identical in nature",
-      "tarot_application": "All cards contain both positive and negative potentials",
-      "cards": ["The Lovers", "Justice", "The Moon"],
-      "practical_meaning": "Understanding polarity allows for conscious choice",
-      "quote": "Opposites are identical in nature, but different in degree; extremes meet; all truths are but half-truths.",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Everything is dual; everything has poles; opposites are identical in nature"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "All cards contain both positive and negative potentials"
+      },
+      "cards": [
+        "The Lovers",
+        "Justice",
+        "The Moon"
+      ],
+      "practical_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Understanding polarity allows for conscious choice"
+      },
+      "quote": {
+        "citation_key": "The_Three_Initiates-The_Kybalion",
+        "text": "Opposites are identical in nature, but different in degree; extremes meet; all truths are but half-truths."
+      },
       "author": "The Three Initiates",
       "source": "The Kybalion",
-      "alchemical_operation": "Conjunction - uniting opposites"
+      "alchemical_operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Conjunction - uniting opposites"
+      }
     },
     "rhythm": {
-      "principle": "Everything flows, out and in; the pendulum-swing manifests in everything",
-      "tarot_application": "Card meanings change with life cycles and timing",
-      "cards": ["Wheel of Fortune", "Death", "The World"],
-      "practical_meaning": "Life moves in cycles of expansion and contraction",
-      "quote": "To everything there is a season, and a time to every purpose under heaven.",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Everything flows, out and in; the pendulum-swing manifests in everything"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Card meanings change with life cycles and timing"
+      },
+      "cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Wheel of Fortune"
+        },
+        "Death",
+        "The World"
+      ],
+      "practical_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Life moves in cycles of expansion and contraction"
+      },
+      "quote": {
+        "citation_key": "Ecclesiastes-Bible__Ecclesiastes_3_1",
+        "text": "To everything there is a season, and a time to every purpose under heaven."
+      },
       "author": "Ecclesiastes",
       "source": "Bible, Ecclesiastes 3:1",
-      "alchemical_operation": "Fermentation - cyclic transformation"
+      "alchemical_operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Fermentation - cyclic transformation"
+      }
     },
     "cause_and_effect": {
-      "principle": "Every cause has its effect; every effect has its cause",
-      "tarot_application": "Card combinations show karmic patterns and consequences",
-      "cards": ["Justice", "Judgement", "The Tower"],
-      "practical_meaning": "Present situations result from past choices",
-      "quote": "The law of karma is the law of cause and effect in the moral world.",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Every cause has its effect; every effect has its cause"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Card combinations show karmic patterns and consequences"
+      },
+      "cards": [
+        "Justice",
+        "Judgement",
+        "The Tower"
+      ],
+      "practical_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Present situations result from past choices"
+      },
+      "quote": {
+        "citation_key": "Swami_Vivekananda-Raja_Yoga",
+        "text": "The law of karma is the law of cause and effect in the moral world."
+      },
       "author": "Swami Vivekananda",
       "source": "Raja Yoga",
-      "alchemical_operation": "Distillation - purifying through consequences"
+      "alchemical_operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Distillation - purifying through consequences"
+      }
     },
     "gender": {
-      "principle": "Everything has its masculine and feminine principles",
-      "tarot_application": "All cards express both active and receptive energies",
-      "cards": ["The Emperor", "The Empress", "The Sun", "The Moon"],
-      "practical_meaning": "Balance of masculine and feminine creates harmony",
-      "quote": "The masculine and feminine principles exist in all planes of creation.",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Everything has its masculine and feminine principles"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "All cards express both active and receptive energies"
+      },
+      "cards": [
+        "The Emperor",
+        "The Empress",
+        "The Sun",
+        "The Moon"
+      ],
+      "practical_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Balance of masculine and feminine creates harmony"
+      },
+      "quote": {
+        "citation_key": "The_Three_Initiates-The_Kybalion",
+        "text": "The masculine and feminine principles exist in all planes of creation."
+      },
       "author": "The Three Initiates",
       "source": "The Kybalion",
-      "alchemical_operation": "Coagulation - solidifying the balanced whole"
+      "alchemical_operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Coagulation - solidifying the balanced whole"
+      }
     }
   },
   "alchemical_operations": {
-    "description": "The twelve classical alchemical operations and their correspondence to tarot transformation",
-    "quote": "Alchemy is the art of transmuting base metals into gold, but more importantly, it is the art of transmuting the base human soul into spiritual gold.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "The twelve classical alchemical operations and their correspondence to tarot transformation"
+    },
+    "quote": {
+      "citation_key": "Paracelsus-Archidoxes_of_Magic",
+      "text": "Alchemy is the art of transmuting base metals into gold, but more importantly, it is the art of transmuting the base human soul into spiritual gold."
+    },
     "author": "Paracelsus",
     "source": "Archidoxes of Magic",
     "calcination": {
       "element": "Fire",
       "planet": "Saturn",
-      "tarot_cards": ["The Tower", "Death", "Five of Pentacles"],
-      "psychological_process": "Burning away ego attachments and false beliefs",
-      "spiritual_meaning": "Destruction of illusions to reveal truth",
-      "practical_application": "Releasing outdated patterns and beliefs",
-      "quote": "The first operation of the Great Work is the calcination of the base metal, representing the burning away of all that is false in human nature.",
+      "tarot_cards": [
+        "The Tower",
+        "Death",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Five of Pentacles"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Burning away ego attachments and false beliefs"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Destruction of illusions to reveal truth"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Releasing outdated patterns and beliefs"
+      },
+      "quote": {
+        "citation_key": "Manly_P__Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The first operation of the Great Work is the calcination of the base metal, representing the burning away of all that is false in human nature."
+      },
       "author": "Manly P. Hall",
       "source": "The Secret Teachings of All Ages",
-      "bodily_correspondence": "Fever, inflammation as purification"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Fever, inflammation as purification"
+      }
     },
     "solution": {
       "element": "Water",
       "planet": "Moon",
-      "tarot_cards": ["The High Priestess", "The Hanged Man", "Four of Cups"],
-      "psychological_process": "Dissolving rigid mental patterns",
-      "spiritual_meaning": "Liquefying the solid ego to allow transformation",
-      "practical_application": "Becoming more flexible and open to change",
-      "quote": "Solution dissolves the fixed into the flowing, allowing the rigid boundaries of the ego to become permeable to divine influence.",
+      "tarot_cards": [
+        "The High Priestess",
+        "The Hanged Man",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Four of Cups"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Dissolving rigid mental patterns"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Liquefying the solid ego to allow transformation"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Becoming more flexible and open to change"
+      },
+      "quote": {
+        "citation_key": "Carl_Jung-Psychology_and_Alchemy",
+        "text": "Solution dissolves the fixed into the flowing, allowing the rigid boundaries of the ego to become permeable to divine influence."
+      },
       "author": "Carl Jung",
       "source": "Psychology and Alchemy",
-      "bodily_correspondence": "Tears, sweating as emotional release"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Tears, sweating as emotional release"
+      }
     },
     "separation": {
       "element": "Air",
       "planet": "Mercury",
-      "tarot_cards": ["The Hermit", "Eight of Swords", "Two of Swords"],
-      "psychological_process": "Discriminating between truth and illusion",
-      "spiritual_meaning": "Separating the pure from the impure",
-      "practical_application": "Developing discernment and clarity",
-      "quote": "Separation is the operation by which we learn to distinguish between what belongs to our true nature and what is merely superficial conditioning.",
+      "tarot_cards": [
+        "The Hermit",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Eight of Swords"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Two of Swords"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Discriminating between truth and illusion"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Separating the pure from the impure"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Developing discernment and clarity"
+      },
+      "quote": {
+        "citation_key": "A_E__Waite-The_Secret_Tradition_in_Alchemy",
+        "text": "Separation is the operation by which we learn to distinguish between what belongs to our true nature and what is merely superficial conditioning."
+      },
       "author": "A.E. Waite",
       "source": "The Secret Tradition in Alchemy",
-      "bodily_correspondence": "Deep breathing as consciousness separation"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Deep breathing as consciousness separation"
+      }
     },
     "conjunction": {
       "element": "Earth",
       "planet": "Venus",
-      "tarot_cards": ["The Lovers", "Temperance", "Two of Cups"],
-      "psychological_process": "Uniting conscious and unconscious aspects",
-      "spiritual_meaning": "Sacred marriage of opposites",
-      "practical_application": "Integrating all aspects of self",
-      "quote": "Conjunction is the mystical marriage where opposites are united in perfect harmony, creating something greater than the sum of its parts.",
+      "tarot_cards": [
+        "The Lovers",
+        "Temperance",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Two of Cups"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Uniting conscious and unconscious aspects"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Sacred marriage of opposites"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Integrating all aspects of self"
+      },
+      "quote": {
+        "citation_key": "Marie_Louise_von_Franz-Alchemy__An_Introduction_to_the_Symbolism_and_the_Psychology",
+        "text": "Conjunction is the mystical marriage where opposites are united in perfect harmony, creating something greater than the sum of its parts."
+      },
       "author": "Marie-Louise von Franz",
       "source": "Alchemy: An Introduction to the Symbolism and the Psychology",
-      "bodily_correspondence": "Sexual union as creative merger"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Sexual union as creative merger"
+      }
     },
     "putrefaction": {
       "element": "Water/Earth",
       "planet": "Saturn/Pluto",
-      "tarot_cards": ["Death", "The Devil", "Five of Cups"],
-      "psychological_process": "Allowing old self to die completely",
-      "spiritual_meaning": "Necessary decay before resurrection",
-      "practical_application": "Accepting loss and grief as transformation",
-      "quote": "Without putrefaction, nothing can be regenerated. The old must completely die before the new can be born.",
+      "tarot_cards": [
+        "Death",
+        "The Devil",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Five of Cups"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Allowing old self to die completely"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Necessary decay before resurrection"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Accepting loss and grief as transformation"
+      },
+      "quote": {
+        "citation_key": "Basil_Valentine-The_Twelve_Keys_of_Basil_Valentine",
+        "text": "Without putrefaction, nothing can be regenerated. The old must completely die before the new can be born."
+      },
       "author": "Basil Valentine",
       "source": "The Twelve Keys of Basil Valentine",
-      "bodily_correspondence": "Depression as necessary dissolution"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Depression as necessary dissolution"
+      }
     },
     "congelation": {
       "element": "Earth",
       "planet": "Saturn",
-      "tarot_cards": ["The Emperor", "Four of Pentacles", "Ten of Pentacles"],
-      "psychological_process": "Forming new stable identity",
-      "spiritual_meaning": "Crystallizing spiritual insights into form",
-      "practical_application": "Creating lasting change and structure",
-      "quote": "Congelation fixes the volatile spirit into stable form, making permanent what was once fleeting inspiration.",
+      "tarot_cards": [
+        "The Emperor",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Four of Pentacles"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ten of Pentacles"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Forming new stable identity"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Melody-Love_Is_In_The_Earth",
+        "text": "Crystallizing spiritual insights into form"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Creating lasting change and structure"
+      },
+      "quote": {
+        "citation_key": "Nicholas_Flamel-The_Summary_of_Philosophy",
+        "text": "Congelation fixes the volatile spirit into stable form, making permanent what was once fleeting inspiration."
+      },
       "author": "Nicholas Flamel",
       "source": "The Summary of Philosophy",
-      "bodily_correspondence": "Crystallization of insights into habit"
+      "bodily_correspondence": {
+        "citation_key": "Melody-Love_Is_In_The_Earth",
+        "text": "Crystallization of insights into habit"
+      }
     },
     "cibation": {
       "element": "Fire/Water",
       "planet": "Jupiter",
-      "tarot_cards": ["Strength", "Nine of Pentacles", "Six of Wands"],
-      "psychological_process": "Nourishing the newly formed consciousness",
-      "spiritual_meaning": "Feeding the spiritual child within",
-      "practical_application": "Supporting growth through proper nourishment",
-      "quote": "Cibation is the gentle nourishment of the philosophical child, providing it with the spiritual food necessary for its growth.",
+      "tarot_cards": [
+        "Strength",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Nine of Pentacles"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Six of Wands"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Nourishing the newly formed consciousness"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Feeding the spiritual child within"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Supporting growth through proper nourishment"
+      },
+      "quote": {
+        "citation_key": "Ramon_Llull-The_Tree_of_Life",
+        "text": "Cibation is the gentle nourishment of the philosophical child, providing it with the spiritual food necessary for its growth."
+      },
       "author": "Ramon Llull",
       "source": "The Tree of Life",
-      "bodily_correspondence": "Proper nutrition supporting transformation"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Proper nutrition supporting transformation"
+      }
     },
     "sublimation": {
       "element": "Air/Fire",
       "planet": "Mercury/Sun",
-      "tarot_cards": ["The Star", "The Sun", "Ace of Swords"],
-      "psychological_process": "Elevating base instincts to higher expression",
-      "spiritual_meaning": "Transformation of lower nature into higher",
-      "practical_application": "Channeling raw energy into creative expression",
-      "quote": "Sublimation raises the earthly to the celestial, transforming base desires into divine inspiration.",
+      "tarot_cards": [
+        "The Star",
+        "The Sun",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ace of Swords"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Elevating base instincts to higher expression"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Transformation of lower nature into higher"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Channeling raw energy into creative expression"
+      },
+      "quote": {
+        "citation_key": "Zosimos_of_Panopolis-On_the_Letter_Omega",
+        "text": "Sublimation raises the earthly to the celestial, transforming base desires into divine inspiration."
+      },
       "author": "Zosimos of Panopolis",
       "source": "On the Letter Omega",
-      "bodily_correspondence": "Transmutation of sexual energy into creativity"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Transmutation of sexual energy into creativity"
+      }
     },
     "fermentation": {
       "element": "Air",
       "planet": "Jupiter/Sun",
-      "tarot_cards": ["Temperance", "The Star", "Three of Cups"],
-      "psychological_process": "Allowing natural transformation to occur",
-      "spiritual_meaning": "Spiritual resurrection and new life",
-      "practical_application": "Trusting the natural process of growth",
-      "quote": "Fermentation is the resurrection phase where the philosopher's stone begins to manifest its miraculous properties.",
+      "tarot_cards": [
+        "Temperance",
+        "The Star",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Three of Cups"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Allowing natural transformation to occur"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Spiritual resurrection and new life"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Trusting the natural process of growth"
+      },
+      "quote": {
+        "citation_key": "George_Ripley-The_Compound_of_Alchemy",
+        "text": "Fermentation is the resurrection phase where the philosopher's stone begins to manifest its miraculous properties."
+      },
       "author": "George Ripley",
       "source": "The Compound of Alchemy",
-      "bodily_correspondence": "Natural healing and regeneration"
+      "bodily_correspondence": {
+        "citation_key": "Barbara_Brennan-Hands_of_Light",
+        "text": "Natural healing and regeneration"
+      }
     },
     "exaltation": {
       "element": "Fire",
       "planet": "Sun",
-      "tarot_cards": ["The Sun", "Six of Wands", "The World"],
-      "psychological_process": "Reaching heightened states of consciousness",
-      "spiritual_meaning": "Glorification and elevation of spirit",
-      "practical_application": "Experiencing peak spiritual states",
-      "quote": "Exaltation lifts the prepared soul to the heights of divine consciousness where it beholds the face of the eternal.",
+      "tarot_cards": [
+        "The Sun",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Six of Wands"
+        },
+        "The World"
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Reaching heightened states of consciousness"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Glorification and elevation of spirit"
+      },
+      "practical_application": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Experiencing peak spiritual states"
+      },
+      "quote": {
+        "citation_key": "John_Dee-Monas_Hieroglyphica",
+        "text": "Exaltation lifts the prepared soul to the heights of divine consciousness where it beholds the face of the eternal."
+      },
       "author": "John Dee",
       "source": "Monas Hieroglyphica",
-      "bodily_correspondence": "Ecstatic states and peak experiences"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Ecstatic states and peak experiences"
+      }
     },
     "multiplication": {
       "element": "All Elements",
       "planet": "Sun/Jupiter",
-      "tarot_cards": ["The Magician", "Three of Pentacles", "Ten of Cups"],
-      "psychological_process": "Expanding consciousness and abilities",
-      "spiritual_meaning": "Infinite increase of spiritual power",
-      "practical_application": "Manifesting abundance and sharing gifts",
-      "quote": "Multiplication demonstrates the infinite creative power of the perfected consciousness to generate limitless spiritual wealth.",
+      "tarot_cards": [
+        "The Magician",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Three of Pentacles"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ten of Cups"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Expanding consciousness and abilities"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Infinite increase of spiritual power"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Manifesting abundance and sharing gifts"
+      },
+      "quote": {
+        "citation_key": "Michael_Maier-Atalanta_Fugiens",
+        "text": "Multiplication demonstrates the infinite creative power of the perfected consciousness to generate limitless spiritual wealth."
+      },
       "author": "Michael Maier",
       "source": "Atalanta Fugiens",
-      "bodily_correspondence": "Abundant health and vitality"
+      "bodily_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Abundant health and vitality"
+      }
     },
     "projection": {
       "element": "Spirit",
       "planet": "Sun",
-      "tarot_cards": ["The World", "The Magician", "Ace of Pentacles"],
-      "psychological_process": "Radiating transformed consciousness",
-      "spiritual_meaning": "Transmuting others through presence",
-      "practical_application": "Becoming a force for positive change",
-      "quote": "Projection is the final operation where the adept becomes a philosopher's stone, capable of transmuting all they touch.",
+      "tarot_cards": [
+        "The World",
+        "The Magician",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ace of Pentacles"
+        }
+      ],
+      "psychological_process": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Radiating transformed consciousness"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Transmuting others through presence"
+      },
+      "practical_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Becoming a force for positive change"
+      },
+      "quote": {
+        "citation_key": "Pseudo_Democritus-Physica_et_Mystica",
+        "text": "Projection is the final operation where the adept becomes a philosopher's stone, capable of transmuting all they touch."
+      },
       "author": "Pseudo-Democritus",
       "source": "Physica et Mystica",
-      "bodily_correspondence": "Healing others through presence"
+      "bodily_correspondence": {
+        "citation_key": "Barbara_Brennan-Hands_of_Light",
+        "text": "Healing others through presence"
+      }
     }
   },
   "prima_materia": {
-    "description": "The first matter from which all things are created",
-    "quote": "The prima materia is the chaos mentioned by the ancients, containing in potential all forms and all possibilities.",
+    "description": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The first matter from which all things are created"
+    },
+    "quote": {
+      "citation_key": "Gerhard_Dorn-Speculativae_philosophiae",
+      "text": "The prima materia is the chaos mentioned by the ancients, containing in potential all forms and all possibilities."
+    },
     "author": "Gerhard Dorn",
     "source": "Speculativae philosophiae",
     "characteristics": {
-      "universal_solvent": "Dissolves all forms back to pure potential",
-      "virgin_earth": "Untouched by human conditioning",
-      "philosophical_mercury": "The flowing principle of transformation",
-      "dragon": "The powerful force that must be tamed",
-      "green_lion": "The raw life force before refinement"
+      "universal_solvent": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Dissolves all forms back to pure potential"
+      },
+      "virgin_earth": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Untouched by human conditioning"
+      },
+      "philosophical_mercury": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The flowing principle of transformation"
+      },
+      "dragon": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The powerful force that must be tamed"
+      },
+      "green_lion": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The raw life force before refinement"
+      }
     },
     "tarot_correspondences": [
       {
         "card": "The Fool",
-        "aspect": "Pure potential before manifestation",
-        "meaning": "The unformed consciousness at the beginning of the journey"
+        "aspect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Pure potential before manifestation"
+        },
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The unformed consciousness at the beginning of the journey"
+        }
       },
       {
         "card": "The Star",
-        "aspect": "The naked truth of essential nature",
-        "meaning": "Pure essence stripped of all artifice"
+        "aspect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The naked truth of essential nature"
+        },
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Pure essence stripped of all artifice"
+        }
       },
       {
         "card": "Ace cards",
-        "aspect": "Raw elemental forces",
-        "meaning": "Primary energies before specific manifestation"
+        "aspect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Raw elemental forces"
+        },
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Primary energies before specific manifestation"
+        }
       }
     ],
-    "psychological_meaning": "The original nature before ego conditioning",
-    "spiritual_significance": "The divine spark within all beings",
-    "practical_application": "Returning to authentic self through spiritual practice"
+    "psychological_meaning": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The original nature before ego conditioning"
+    },
+    "spiritual_significance": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The divine spark within all beings"
+    },
+    "practical_application": {
+      "citation_key": "Starhawk-The_Spiral_Dance",
+      "text": "Returning to authentic self through spiritual practice"
+    }
   },
   "philosopher_stone": {
-    "description": "The ultimate goal of alchemy - the perfected consciousness",
-    "quote": "The philosopher's stone is not a stone at all, but the perfect soul that has achieved union with the divine.",
+    "description": {
+      "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+      "text": "The ultimate goal of alchemy - the perfected consciousness"
+    },
+    "quote": {
+      "citation_key": "Paracelsus-The_Hermetic_and_Alchemical_Writings",
+      "text": "The philosopher's stone is not a stone at all, but the perfect soul that has achieved union with the divine."
+    },
     "author": "Paracelsus",
     "source": "The Hermetic and Alchemical Writings",
     "properties": {
-      "transmutation": "Transforms base metals into gold",
-      "healing": "Cures all diseases and extends life",
-      "wisdom": "Grants perfect knowledge and understanding",
-      "unity": "Reconciles all opposites",
-      "immortality": "Confers spiritual immortality"
+      "transmutation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Transforms base metals into gold"
+      },
+      "healing": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Cures all diseases and extends life"
+      },
+      "wisdom": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Grants perfect knowledge and understanding"
+      },
+      "unity": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Reconciles all opposites"
+      },
+      "immortality": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Confers spiritual immortality"
+      }
     },
     "stages_of_development": {
       "nigredo": {
         "color": "Black",
-        "cards": ["Death", "The Devil", "The Tower"],
-        "process": "Putrefaction and dissolution of ego",
-        "quote": "In the blackness of nigredo, all illusions die and the soul confronts its shadow."
+        "cards": [
+          "Death",
+          "The Devil",
+          "The Tower"
+        ],
+        "process": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Putrefaction and dissolution of ego"
+        },
+        "quote": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "In the blackness of nigredo, all illusions die and the soul confronts its shadow."
+        }
       },
       "albedo": {
         "color": "White",
-        "cards": ["The Moon", "The High Priestess", "The Star"],
-        "process": "Purification and illumination",
-        "quote": "The white queen emerges from the darkness, pure and receptive to divine light."
+        "cards": [
+          "The Moon",
+          "The High Priestess",
+          "The Star"
+        ],
+        "process": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Purification and illumination"
+        },
+        "quote": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The white queen emerges from the darkness, pure and receptive to divine light."
+        }
       },
       "citrinitas": {
         "color": "Yellow",
-        "cards": ["The Sun", "The Hermit", "Temperance"],
-        "process": "Solar consciousness and wisdom",
-        "quote": "The yellow phase brings the dawn of spiritual understanding and inner illumination."
+        "cards": [
+          "The Sun",
+          "The Hermit",
+          "Temperance"
+        ],
+        "process": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Solar consciousness and wisdom"
+        },
+        "quote": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "The yellow phase brings the dawn of spiritual understanding and inner illumination."
+        }
       },
       "rubedo": {
         "color": "Red",
-        "cards": ["The Magician", "The World", "Strength"],
-        "process": "Perfect union and completion",
-        "quote": "The red king represents the perfected consciousness that has achieved the Great Work."
+        "cards": [
+          "The Magician",
+          "The World",
+          "Strength"
+        ],
+        "process": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Perfect union and completion"
+        },
+        "quote": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The red king represents the perfected consciousness that has achieved the Great Work."
+        }
       }
     },
-    "tarot_completion": "The World card represents the achieved philosopher's stone",
-    "psychological_meaning": "Fully individuated and integrated personality",
-    "spiritual_significance": "Christ consciousness or Buddha nature realized",
-    "practical_application": "Living as an embodiment of divine wisdom and love"
+    "tarot_completion": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The World card represents the achieved philosopher's stone"
+    },
+    "psychological_meaning": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "Fully individuated and integrated personality"
+    },
+    "spiritual_significance": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "Christ consciousness or Buddha nature realized"
+    },
+    "practical_application": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "Living as an embodiment of divine wisdom and love"
+    }
   },
   "alchemical_symbols": {
-    "description": "Sacred symbols used in hermetic and alchemical practice",
-    "quote": "Symbols are the language of the soul, speaking directly to the unconscious mind through archetypal imagery.",
+    "description": {
+      "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+      "text": "Sacred symbols used in hermetic and alchemical practice"
+    },
+    "quote": {
+      "citation_key": "Carl_Jung-Man_and_His_Symbols",
+      "text": "Symbols are the language of the soul, speaking directly to the unconscious mind through archetypal imagery."
+    },
     "author": "Carl Jung",
     "source": "Man and His Symbols",
     "elements": {
       "fire": {
-        "symbol": "△",
+        "symbol": "\u25b3",
         "tarot_suit": "Wands",
-        "qualities": ["hot", "dry", "active", "masculine"],
-        "cards": ["The Sun", "The Tower", "Strength"],
-        "spiritual_meaning": "Divine will and creative force",
-        "psychological_aspect": "Conscious will and directed energy"
+        "qualities": [
+          "hot",
+          "dry",
+          "active",
+          "masculine"
+        ],
+        "cards": [
+          "The Sun",
+          "The Tower",
+          "Strength"
+        ],
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine will and creative force"
+        },
+        "psychological_aspect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Conscious will and directed energy"
+        }
       },
       "water": {
-        "symbol": "▽",
+        "symbol": "\u25bd",
         "tarot_suit": "Cups",
-        "qualities": ["cold", "moist", "passive", "feminine"],
-        "cards": ["The Moon", "The Star", "The High Priestess"],
-        "spiritual_meaning": "Divine love and receptivity",
-        "psychological_aspect": "Emotions and unconscious flow"
+        "qualities": [
+          "cold",
+          "moist",
+          "passive",
+          "feminine"
+        ],
+        "cards": [
+          "The Moon",
+          "The Star",
+          "The High Priestess"
+        ],
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine love and receptivity"
+        },
+        "psychological_aspect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Emotions and unconscious flow"
+        }
       },
       "air": {
-        "symbol": "△ with line",
+        "symbol": "\u25b3 with line",
         "tarot_suit": "Swords",
-        "qualities": ["hot", "moist", "active", "masculine"],
-        "cards": ["The Fool", "Justice", "The Hermit"],
-        "spiritual_meaning": "Divine intelligence and communication",
-        "psychological_aspect": "Thoughts and mental processes"
+        "qualities": [
+          "hot",
+          "moist",
+          "active",
+          "masculine"
+        ],
+        "cards": [
+          "The Fool",
+          "Justice",
+          "The Hermit"
+        ],
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine intelligence and communication"
+        },
+        "psychological_aspect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Thoughts and mental processes"
+        }
       },
       "earth": {
-        "symbol": "▽ with line",
+        "symbol": "\u25bd with line",
         "tarot_suit": "Pentacles",
-        "qualities": ["cold", "dry", "passive", "feminine"],
-        "cards": ["The World", "The Empress", "The Emperor"],
-        "spiritual_meaning": "Divine manifestation and form",
-        "psychological_aspect": "Practical application and material reality"
+        "qualities": [
+          "cold",
+          "dry",
+          "passive",
+          "feminine"
+        ],
+        "cards": [
+          "The World",
+          "The Empress",
+          "The Emperor"
+        ],
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine manifestation and form"
+        },
+        "psychological_aspect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Practical application and material reality"
+        }
       }
     },
     "metals": {
       "gold": {
-        "symbol": "☉",
+        "symbol": "\u2609",
         "planet": "Sun",
-        "tarot_cards": ["The Sun", "The Magician"],
+        "tarot_cards": [
+          "The Sun",
+          "The Magician"
+        ],
         "quality": "Perfection and incorruption",
-        "spiritual_meaning": "Divine consciousness achieved"
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine consciousness achieved"
+        }
       },
       "silver": {
-        "symbol": "☽",
+        "symbol": "\u263d",
         "planet": "Moon",
-        "tarot_cards": ["The High Priestess", "The Moon"],
+        "tarot_cards": [
+          "The High Priestess",
+          "The Moon"
+        ],
         "quality": "Purity and reflection",
-        "spiritual_meaning": "Receptive wisdom and intuition"
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Receptive wisdom and intuition"
+        }
       },
       "mercury": {
-        "symbol": "☿",
+        "symbol": "\u263f",
         "planet": "Mercury",
-        "tarot_cards": ["The Magician", "The Hermit"],
+        "tarot_cards": [
+          "The Magician",
+          "The Hermit"
+        ],
         "quality": "Fluidity and transformation",
-        "spiritual_meaning": "Active intelligence and communication"
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Active intelligence and communication"
+        }
       },
       "copper": {
-        "symbol": "♀",
+        "symbol": "\u2640",
         "planet": "Venus",
-        "tarot_cards": ["The Empress", "The Lovers"],
+        "tarot_cards": [
+          "The Empress",
+          "The Lovers"
+        ],
         "quality": "Beauty and attraction",
-        "spiritual_meaning": "Divine love and harmony"
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine love and harmony"
+        }
       },
       "iron": {
-        "symbol": "♂",
+        "symbol": "\u2642",
         "planet": "Mars",
-        "tarot_cards": ["The Tower", "The Chariot"],
+        "tarot_cards": [
+          "The Tower",
+          "The Chariot"
+        ],
         "quality": "Strength and courage",
-        "spiritual_meaning": "Divine will in action"
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine will in action"
+        }
       },
       "tin": {
-        "symbol": "♃",
+        "symbol": "\u2643",
         "planet": "Jupiter",
-        "tarot_cards": ["Wheel of Fortune", "The Hierophant"],
+        "tarot_cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wheel of Fortune"
+          },
+          "The Hierophant"
+        ],
         "quality": "Expansion and wisdom",
-        "spiritual_meaning": "Divine law and growth"
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine law and growth"
+        }
       },
       "lead": {
-        "symbol": "♄",
+        "symbol": "\u2644",
         "planet": "Saturn",
-        "tarot_cards": ["The World", "The Devil"],
+        "tarot_cards": [
+          "The World",
+          "The Devil"
+        ],
         "quality": "Limitation and structure",
-        "spiritual_meaning": "Divine law and necessary restriction"
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Divine law and necessary restriction"
+        }
       }
     }
   },
   "hermetic_texts": {
-    "description": "Classical hermetic literature and their tarot applications",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Classical hermetic literature and their tarot applications"
+    },
     "emerald_tablet": {
       "author": "Hermes Trismegistus",
-      "key_teaching": "As above, so below",
-      "tarot_application": "The principle underlying all divinatory correspondence",
-      "quote": "That which is below is like that which is above, and that which is above is like that which is below, to accomplish the miracles of the one thing.",
-      "practical_meaning": "All tarot readings reflect cosmic patterns"
+      "key_teaching": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "As above, so below"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The principle underlying all divinatory correspondence"
+      },
+      "quote": {
+        "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet",
+        "text": "That which is below is like that which is above, and that which is above is like that which is below, to accomplish the miracles of the one thing."
+      },
+      "practical_meaning": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "All tarot readings reflect cosmic patterns"
+      }
     },
     "corpus_hermeticum": {
       "author": "Hermes Trismegistus",
-      "key_teaching": "Mind as creator of reality",
-      "tarot_application": "The mental nature of all tarot interpretation",
-      "quote": "Mind is the pilot of the soul, and mind, being the image of God, governs all things.",
-      "practical_meaning": "Consciousness shapes the meaning of cards"
+      "key_teaching": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Mind as creator of reality"
+      },
+      "tarot_application": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "The mental nature of all tarot interpretation"
+      },
+      "quote": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Mind is the pilot of the soul, and mind, being the image of God, governs all things."
+      },
+      "practical_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Consciousness shapes the meaning of cards"
+      }
     },
     "kybalion": {
       "author": "The Three Initiates",
-      "key_teaching": "Seven hermetic principles",
-      "tarot_application": "Framework for understanding card dynamics",
-      "quote": "The lips of wisdom are closed, except to the ears of understanding.",
-      "practical_meaning": "Tarot wisdom reveals itself according to the reader's level of understanding"
+      "key_teaching": {
+        "citation_key": "The_Three_Initiates-The_Kybalion",
+        "text": "Seven hermetic principles"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Framework for understanding card dynamics"
+      },
+      "quote": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The lips of wisdom are closed, except to the ears of understanding."
+      },
+      "practical_meaning": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "Tarot wisdom reveals itself according to the reader's level of understanding"
+      }
     }
   },
   "alchemical_marriage": {
-    "description": "The sacred union of opposites in hermetic philosophy",
-    "quote": "The alchemical marriage is the union of the solar and lunar consciousness, creating the philosophical child of perfect wisdom.",
+    "description": {
+      "citation_key": "The_Three_Initiates-The_Kybalion",
+      "text": "The sacred union of opposites in hermetic philosophy"
+    },
+    "quote": {
+      "citation_key": "Gerhard_Dorn-De_tenebris_contra_naturam",
+      "text": "The alchemical marriage is the union of the solar and lunar consciousness, creating the philosophical child of perfect wisdom."
+    },
     "author": "Gerhard Dorn",
     "source": "De tenebris contra naturam",
     "stages": {
       "courtship": {
-        "cards": ["Two of Cups", "The Lovers", "Two of Wands"],
-        "process": "Recognition and attraction of opposites",
-        "meaning": "Conscious and unconscious begin to recognize each other"
+        "cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Two of Cups"
+          },
+          "The Lovers",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Two of Wands"
+          }
+        ],
+        "process": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Recognition and attraction of opposites"
+        },
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Conscious and unconscious begin to recognize each other"
+        }
       },
       "betrothal": {
-        "cards": ["Three of Cups", "Six of Cups", "The Hierophant"],
-        "process": "Commitment to the union process",
-        "meaning": "Formal dedication to inner integration work"
+        "cards": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Three of Cups"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Six of Cups"
+          },
+          "The Hierophant"
+        ],
+        "process": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Commitment to the union process"
+        },
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Formal dedication to inner integration work"
+        }
       },
       "wedding": {
-        "cards": ["Temperance", "The Lovers", "Two of Pentacles"],
-        "process": "Active joining of masculine and feminine principles",
-        "meaning": "Conscious merging of complementary aspects"
+        "cards": [
+          "Temperance",
+          "The Lovers",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Two of Pentacles"
+          }
+        ],
+        "process": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Active joining of masculine and feminine principles"
+        },
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Conscious merging of complementary aspects"
+        }
       },
       "consummation": {
-        "cards": ["The Star", "The World", "Ten of Cups"],
-        "process": "Complete union creating new consciousness",
-        "meaning": "Birth of integrated, whole being"
+        "cards": [
+          "The Star",
+          "The World",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ten of Cups"
+          }
+        ],
+        "process": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Complete union creating new consciousness"
+        },
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Birth of integrated, whole being"
+        }
       }
     },
     "participants": {
       "red_king": {
-        "represents": "Solar consciousness, active principle",
-        "tarot_cards": ["The Emperor", "The Sun", "King cards"],
-        "qualities": ["will", "action", "consciousness", "logic"]
+        "represents": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Solar consciousness, active principle"
+        },
+        "tarot_cards": [
+          "The Emperor",
+          "The Sun",
+          "King cards"
+        ],
+        "qualities": [
+          "will",
+          "action",
+          "consciousness",
+          "logic"
+        ]
       },
       "white_queen": {
-        "represents": "Lunar consciousness, receptive principle",
-        "tarot_cards": ["The High Priestess", "The Moon", "Queen cards"],
-        "qualities": ["intuition", "receptivity", "emotion", "wisdom"]
+        "represents": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Lunar consciousness, receptive principle"
+        },
+        "tarot_cards": [
+          "The High Priestess",
+          "The Moon",
+          "Queen cards"
+        ],
+        "qualities": [
+          "intuition",
+          "receptivity",
+          "emotion",
+          "wisdom"
+        ]
       }
     },
     "offspring": {
       "philosophical_child": {
-        "represents": "Perfected consciousness born from union",
-        "tarot_cards": ["The Sun", "The World", "The Star"],
-        "qualities": ["integrated wisdom", "divine consciousness", "perfect balance"]
+        "represents": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Perfected consciousness born from union"
+        },
+        "tarot_cards": [
+          "The Sun",
+          "The World",
+          "The Star"
+        ],
+        "qualities": [
+          "integrated wisdom",
+          "divine consciousness",
+          "perfect balance"
+        ]
       }
     }
   },
   "spagyric_principles": {
-    "description": "The three principles of Paracelsian alchemy",
-    "quote": "All things consist of three principles: Sulphur, Mercury, and Salt. These are the trinity that manifests in all creation.",
+    "description": {
+      "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+      "text": "The three principles of Paracelsian alchemy"
+    },
+    "quote": {
+      "citation_key": "Paracelsus-Opus_Paramirum",
+      "text": "All things consist of three principles: Sulphur, Mercury, and Salt. These are the trinity that manifests in all creation."
+    },
     "author": "Paracelsus",
     "source": "Opus Paramirum",
     "sulphur": {
-      "principle": "Soul - the active, fiery principle",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Soul - the active, fiery principle"
+      },
       "tarot_correspondence": "Major Arcana",
-      "qualities": ["consciousness", "activity", "fire", "spirit"],
-      "cards": ["The Magician", "The Sun", "Strength"],
-      "meaning": "The essential nature and driving force",
+      "qualities": [
+        "consciousness",
+        "activity",
+        "fire",
+        "spirit"
+      ],
+      "cards": [
+        "The Magician",
+        "The Sun",
+        "Strength"
+      ],
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The essential nature and driving force"
+      },
       "color": "Red",
-      "operation": "Calcination and Exaltation"
+      "operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Calcination and Exaltation"
+      }
     },
     "mercury": {
-      "principle": "Spirit - the connecting, flowing principle",
+      "principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Spirit - the connecting, flowing principle"
+      },
       "tarot_correspondence": "Court Cards",
-      "qualities": ["fluidity", "communication", "change", "mediation"],
-      "cards": ["The Hermit", "Temperance", "The Fool"],
-      "meaning": "The life force that animates and connects",
+      "qualities": [
+        "fluidity",
+        "communication",
+        "change",
+        "mediation"
+      ],
+      "cards": [
+        "The Hermit",
+        "Temperance",
+        "The Fool"
+      ],
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The life force that animates and connects"
+      },
       "color": "White",
-      "operation": "Solution and Sublimation"
+      "operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Solution and Sublimation"
+      }
     },
     "salt": {
-      "principle": "Body - the crystallizing, stabilizing principle",
-      "tarot_correspondence": "Minor Arcana pip cards",
-      "qualities": ["structure", "stability", "earth", "manifestation"],
-      "cards": ["The World", "The Emperor", "Ten of Pentacles"],
-      "meaning": "The physical vessel and material expression",
+      "principle": {
+        "citation_key": "Melody-Love_Is_In_The_Earth",
+        "text": "Body - the crystallizing, stabilizing principle"
+      },
+      "tarot_correspondence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Minor Arcana pip cards"
+      },
+      "qualities": [
+        "structure",
+        "stability",
+        "earth",
+        "manifestation"
+      ],
+      "cards": [
+        "The World",
+        "The Emperor",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ten of Pentacles"
+        }
+      ],
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The physical vessel and material expression"
+      },
       "color": "Black",
-      "operation": "Congelation and Coagulation"
+      "operation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Congelation and Coagulation"
+      }
     }
   }
 }

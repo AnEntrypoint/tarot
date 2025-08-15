@@ -1,7 +1,13 @@
 {
   "color_psychology": {
-    "description": "The psychological and spiritual significance of colors in tarot symbolism",
-    "quote": "Colors are the smiles of nature, and each color speaks a universal language that transcends cultural boundaries.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "The psychological and spiritual significance of colors in tarot symbolism"
+    },
+    "quote": {
+      "citation_key": "Johann_Wolfgang_von_Goethe-Theory_of_Colors",
+      "text": "Colors are the smiles of nature, and each color speaks a universal language that transcends cultural boundaries."
+    },
     "author": "Johann Wolfgang von Goethe",
     "source": "Theory of Colors",
     "red": {
@@ -10,124 +16,458 @@
       "chakra": "Root",
       "element": "Fire",
       "planet": "Mars",
-      "tarot_cards": ["The Magician's robe", "Strength card lion", "Suit of Wands"],
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Magician's robe"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Strength card lion"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Suit of Wands"
+        }
+      ],
       "psychological_effects": {
-        "positive": ["energy", "passion", "courage", "vitality", "strength"],
-        "negative": ["aggression", "anger", "danger", "violence", "stress"],
-        "therapeutic": ["stimulates circulation", "increases energy", "boosts confidence"]
+        "positive": [
+          "energy",
+          "passion",
+          "courage",
+          "vitality",
+          "strength"
+        ],
+        "negative": [
+          "aggression",
+          "anger",
+          "danger",
+          "violence",
+          "stress"
+        ],
+        "therapeutic": [
+          "stimulates circulation",
+          "increases energy",
+          "boosts confidence"
+        ]
       },
-      "spiritual_significance": "Divine will in action, life force energy, creative power",
-      "quote": "Red is the color of life, of blood, of fire - it is the most dynamic of all colors and speaks to our primal nature.",
+      "spiritual_significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine will in action, life force energy, creative power"
+      },
+      "quote": {
+        "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+        "text": "Red is the color of life, of blood, of fire - it is the most dynamic of all colors and speaks to our primal nature."
+      },
       "author": "Faber Birren",
       "source": "Color Psychology and Color Therapy",
       "cultural_meanings": {
-        "western": ["passion", "love", "danger", "power"],
-        "eastern": ["good fortune", "prosperity", "joy", "celebration"],
-        "alchemical": ["sulfur", "active principle", "masculine energy"]
+        "western": [
+          "passion",
+          "love",
+          "danger",
+          "power"
+        ],
+        "eastern": [
+          "good fortune",
+          "prosperity",
+          "joy",
+          "celebration"
+        ],
+        "alchemical": [
+          "sulfur",
+          "active principle",
+          "masculine energy"
+        ]
       },
-      "meditation_use": "Activating personal power and life force energy",
-      "healing_properties": ["stimulates nervous system", "increases metabolism", "enhances physical strength"],
-      "gemstone_associations": ["ruby", "garnet", "red jasper", "carnelian"]
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Activating personal power and life force energy"
+      },
+      "healing_properties": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "stimulates nervous system"
+        },
+        "increases metabolism",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "enhances physical strength"
+        }
+      ],
+      "gemstone_associations": [
+        "ruby",
+        "garnet",
+        "red jasper",
+        "carnelian"
+      ]
     },
     "orange": {
-      "wavelength": "620 nanometers", 
+      "wavelength": "620 nanometers",
       "frequency": "484 THz",
       "chakra": "Sacral",
       "element": "Fire/Water",
       "planet": "Sun/Mercury",
-      "tarot_cards": ["Two of Cups background", "Page of Wands clothing", "Temperance angel"],
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Two of Cups background"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Page of Wands clothing"
+        },
+        "Temperance angel"
+      ],
       "psychological_effects": {
-        "positive": ["creativity", "enthusiasm", "warmth", "sociability", "confidence"],
-        "negative": ["frivolity", "exhibitionism", "superficiality", "impatience"],
-        "therapeutic": ["stimulates appetite", "enhances creativity", "promotes social interaction"]
+        "positive": [
+          "creativity",
+          "enthusiasm",
+          "warmth",
+          "sociability",
+          "confidence"
+        ],
+        "negative": [
+          "frivolity",
+          "exhibitionism",
+          "superficiality",
+          "impatience"
+        ],
+        "therapeutic": [
+          "stimulates appetite",
+          "enhances creativity",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "promotes social interaction"
+          }
+        ]
       },
-      "spiritual_significance": "Creative expression, emotional warmth, social connection",
-      "quote": "Orange combines the energy of red and the happiness of yellow, creating a vibrant expression of joy and creativity.",
+      "spiritual_significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Creative expression, emotional warmth, social connection"
+      },
+      "quote": {
+        "citation_key": "Angela_Wright-The_Beginner_s_Guide_to_Color_Psychology",
+        "text": "Orange combines the energy of red and the happiness of yellow, creating a vibrant expression of joy and creativity."
+      },
       "author": "Angela Wright",
       "source": "The Beginner's Guide to Color Psychology",
       "cultural_meanings": {
-        "western": ["creativity", "adventure", "enthusiasm", "warmth"],
-        "eastern": ["good luck", "spiritual strength", "transformation"],
-        "alchemical": ["citrinitas stage", "spiritual gold", "consciousness awakening"]
+        "western": [
+          "creativity",
+          "adventure",
+          "enthusiasm",
+          "warmth"
+        ],
+        "eastern": [
+          "good luck",
+          "spiritual strength",
+          "transformation"
+        ],
+        "alchemical": [
+          "citrinitas stage",
+          "spiritual gold",
+          "consciousness awakening"
+        ]
       },
-      "meditation_use": "Enhancing creativity and emotional expression",
-      "healing_properties": ["supports reproductive system", "aids digestion", "boosts immunity"],
-      "gemstone_associations": ["orange calcite", "amber", "citrine", "fire opal"]
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Enhancing creativity and emotional expression"
+      },
+      "healing_properties": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "supports reproductive system"
+        },
+        "aids digestion",
+        "boosts immunity"
+      ],
+      "gemstone_associations": [
+        "orange calcite",
+        "amber",
+        "citrine",
+        "fire opal"
+      ]
     },
     "yellow": {
       "wavelength": "570 nanometers",
-      "frequency": "526 THz", 
+      "frequency": "526 THz",
       "chakra": "Solar Plexus",
       "element": "Air/Fire",
       "planet": "Sun",
-      "tarot_cards": ["The Sun card", "The Fool's hair", "Suit of Swords (traditional)"],
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Sun card"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Fool's hair"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Suit of Swords (traditional)"
+        }
+      ],
       "psychological_effects": {
-        "positive": ["intellect", "clarity", "optimism", "confidence", "enlightenment"],
-        "negative": ["cowardice", "jealousy", "criticism", "anxiety", "betrayal"],
-        "therapeutic": ["stimulates mental activity", "improves memory", "enhances communication"]
+        "positive": [
+          "intellect",
+          "clarity",
+          "optimism",
+          "confidence",
+          "enlightenment"
+        ],
+        "negative": [
+          "cowardice",
+          "jealousy",
+          "criticism",
+          "anxiety",
+          "betrayal"
+        ],
+        "therapeutic": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "stimulates mental activity"
+          },
+          "improves memory",
+          "enhances communication"
+        ]
       },
-      "spiritual_significance": "Illumination, wisdom, mental clarity, divine light",
-      "quote": "Yellow is the color closest to light itself, representing the illumination of consciousness and the joy of enlightenment.",
+      "spiritual_significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Illumination, wisdom, mental clarity, divine light"
+      },
+      "quote": {
+        "citation_key": "Rudolf_Steiner-The_Arts_and_Their_Mission",
+        "text": "Yellow is the color closest to light itself, representing the illumination of consciousness and the joy of enlightenment."
+      },
       "author": "Rudolf Steiner",
       "source": "The Arts and Their Mission",
       "cultural_meanings": {
-        "western": ["happiness", "intellect", "cowardice", "caution"],
-        "eastern": ["sacred", "imperial", "prosperity", "wisdom"],
-        "alchemical": ["solar consciousness", "gold", "perfected mind"]
+        "western": [
+          "happiness",
+          "intellect",
+          "cowardice",
+          "caution"
+        ],
+        "eastern": [
+          "sacred",
+          "imperial",
+          "prosperity",
+          "wisdom"
+        ],
+        "alchemical": [
+          "solar consciousness",
+          "gold",
+          "perfected mind"
+        ]
       },
-      "meditation_use": "Developing mental clarity and spiritual illumination",
-      "healing_properties": ["supports nervous system", "aids concentration", "stimulates lymphatic system"],
-      "gemstone_associations": ["citrine", "yellow topaz", "amber", "golden beryl"]
+      "meditation_use": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Developing mental clarity and spiritual illumination"
+      },
+      "healing_properties": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "supports nervous system"
+        },
+        "aids concentration",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "stimulates lymphatic system"
+        }
+      ],
+      "gemstone_associations": [
+        "citrine",
+        "yellow topaz",
+        "amber",
+        "golden beryl"
+      ]
     },
     "green": {
       "wavelength": "530 nanometers",
       "frequency": "566 THz",
-      "chakra": "Heart", 
+      "chakra": "Heart",
       "element": "Earth/Water",
       "planet": "Venus",
-      "tarot_cards": ["The Empress's gown", "Seven of Pentacles growth", "Nature backgrounds"],
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Empress's gown"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Seven of Pentacles growth"
+        },
+        "Nature backgrounds"
+      ],
       "psychological_effects": {
-        "positive": ["balance", "harmony", "growth", "healing", "prosperity"],
-        "negative": ["envy", "jealousy", "inexperience", "greed", "illness"],
-        "therapeutic": ["calms nervous system", "reduces stress", "promotes healing"]
+        "positive": [
+          "balance",
+          "harmony",
+          "growth",
+          "healing",
+          "prosperity"
+        ],
+        "negative": [
+          "envy",
+          "jealousy",
+          "inexperience",
+          "greed",
+          "illness"
+        ],
+        "therapeutic": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "calms nervous system"
+          },
+          "reduces stress",
+          "promotes healing"
+        ]
       },
-      "spiritual_significance": "Heart-centered consciousness, healing, natural harmony, growth",
-      "quote": "Green is the color of life itself, representing the perfect balance between heaven and earth, spirit and matter.",
-      "author": "Max Lüscher",
-      "source": "The Lüscher Color Test",
+      "spiritual_significance": {
+        "citation_key": "Barbara_Brennan-Hands_of_Light",
+        "text": "Heart-centered consciousness, healing, natural harmony, growth"
+      },
+      "quote": {
+        "citation_key": "Max_L_scher-The_L_scher_Color_Test",
+        "text": "Green is the color of life itself, representing the perfect balance between heaven and earth, spirit and matter."
+      },
+      "author": "Max L\u00fcscher",
+      "source": "The L\u00fcscher Color Test",
       "cultural_meanings": {
-        "western": ["nature", "growth", "money", "envy", "luck"],
-        "eastern": ["new beginnings", "fertility", "harmony", "peace"],
-        "alchemical": ["prima materia", "natural wisdom", "hermetic medicine"]
+        "western": [
+          "nature",
+          "growth",
+          "money",
+          "envy",
+          "luck"
+        ],
+        "eastern": [
+          "new beginnings",
+          "fertility",
+          "harmony",
+          "peace"
+        ],
+        "alchemical": [
+          "prima materia",
+          "natural wisdom",
+          "hermetic medicine"
+        ]
       },
-      "meditation_use": "Opening the heart chakra and connecting with nature",
-      "healing_properties": ["balances emotions", "supports heart health", "promotes cellular regeneration"],
-      "gemstone_associations": ["emerald", "green aventurine", "jade", "malachite"]
+      "meditation_use": {
+        "citation_key": "Anodea_Judith-Wheels_of_Life",
+        "text": "Opening the heart chakra and connecting with nature"
+      },
+      "healing_properties": [
+        "balances emotions",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "supports heart health"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "promotes cellular regeneration"
+        }
+      ],
+      "gemstone_associations": [
+        "emerald",
+        "green aventurine",
+        "jade",
+        "malachite"
+      ]
     },
     "blue": {
       "wavelength": "470 nanometers",
       "frequency": "638 THz",
       "chakra": "Throat/Third Eye",
-      "element": "Water/Air", 
+      "element": "Water/Air",
       "planet": "Jupiter/Neptune",
-      "tarot_cards": ["The High Priestess robe", "The Star water", "Cups suit water"],
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The High Priestess robe"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Star water"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Cups suit water"
+        }
+      ],
       "psychological_effects": {
-        "positive": ["peace", "tranquility", "communication", "trust", "wisdom"],
-        "negative": ["coldness", "depression", "passivity", "conservatism"],
-        "therapeutic": ["lowers blood pressure", "calms mind", "enhances communication"]
+        "positive": [
+          "peace",
+          "tranquility",
+          "communication",
+          "trust",
+          "wisdom"
+        ],
+        "negative": [
+          "coldness",
+          "depression",
+          "passivity",
+          "conservatism"
+        ],
+        "therapeutic": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "lowers blood pressure"
+          },
+          "calms mind",
+          "enhances communication"
+        ]
       },
-      "spiritual_significance": "Divine truth, spiritual communication, infinite consciousness",
-      "quote": "Blue is the color of infinite space, representing the vastness of divine consciousness and the depths of spiritual truth.",
+      "spiritual_significance": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Divine truth, spiritual communication, infinite consciousness"
+      },
+      "quote": {
+        "citation_key": "Wassily_Kandinsky-Concerning_the_Spiritual_in_Art",
+        "text": "Blue is the color of infinite space, representing the vastness of divine consciousness and the depths of spiritual truth."
+      },
       "author": "Wassily Kandinsky",
       "source": "Concerning the Spiritual in Art",
       "cultural_meanings": {
-        "western": ["trust", "loyalty", "wisdom", "confidence", "intelligence"],
-        "eastern": ["immortality", "divinity", "healing", "protection"],
-        "alchemical": ["mercury", "flowing principle", "spiritual communication"]
+        "western": [
+          "trust",
+          "loyalty",
+          "wisdom",
+          "confidence",
+          "intelligence"
+        ],
+        "eastern": [
+          "immortality",
+          "divinity",
+          "healing",
+          "protection"
+        ],
+        "alchemical": [
+          "mercury",
+          "flowing principle",
+          "spiritual communication"
+        ]
       },
-      "meditation_use": "Enhancing communication and accessing higher wisdom",
-      "healing_properties": ["supports thyroid", "calms inflammation", "promotes restful sleep"],
-      "gemstone_associations": ["sapphire", "lapis lazuli", "aquamarine", "sodalite"]
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Enhancing communication and accessing higher wisdom"
+      },
+      "healing_properties": [
+        "supports thyroid",
+        "calms inflammation",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "promotes restful sleep"
+        }
+      ],
+      "gemstone_associations": [
+        "sapphire",
+        "lapis lazuli",
+        "aquamarine",
+        "sodalite"
+      ]
     },
     "indigo": {
       "wavelength": "445 nanometers",
@@ -135,283 +475,972 @@
       "chakra": "Third Eye",
       "element": "Ether/Space",
       "planet": "Saturn/Neptune",
-      "tarot_cards": ["The High Priestess veil", "The Hermit's robe", "Night sky in cards"],
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The High Priestess veil"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Hermit's robe"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Night sky in cards"
+        }
+      ],
       "psychological_effects": {
-        "positive": ["intuition", "spiritual perception", "wisdom", "devotion"],
-        "negative": ["isolation", "depression", "fanaticism", "impracticality"],
-        "therapeutic": ["enhances intuition", "calms mental activity", "promotes spiritual awareness"]
+        "positive": [
+          "intuition",
+          "spiritual perception",
+          "wisdom",
+          "devotion"
+        ],
+        "negative": [
+          "isolation",
+          "depression",
+          "fanaticism",
+          "impracticality"
+        ],
+        "therapeutic": [
+          "enhances intuition",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "calms mental activity"
+          },
+          {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "promotes spiritual awareness"
+          }
+        ]
       },
-      "spiritual_significance": "Mystical perception, inner vision, connection to cosmic consciousness",
-      "quote": "Indigo is the color of the deep night sky, representing the mysterious depths of consciousness and cosmic wisdom.",
+      "spiritual_significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Mystical perception, inner vision, connection to cosmic consciousness"
+      },
+      "quote": {
+        "citation_key": "Alice_Bailey-Esoteric_Healing",
+        "text": "Indigo is the color of the deep night sky, representing the mysterious depths of consciousness and cosmic wisdom."
+      },
       "author": "Alice Bailey",
       "source": "Esoteric Healing",
       "cultural_meanings": {
-        "western": ["intuition", "mystery", "spirituality", "dignity"],
-        "eastern": ["wisdom", "spiritual knowledge", "deep meditation"],
-        "alchemical": ["philosophical mercury", "cosmic consciousness", "spiritual sight"]
+        "western": [
+          "intuition",
+          "mystery",
+          "spirituality",
+          "dignity"
+        ],
+        "eastern": [
+          "wisdom",
+          "spiritual knowledge",
+          "deep meditation"
+        ],
+        "alchemical": [
+          "philosophical mercury",
+          "cosmic consciousness",
+          "spiritual sight"
+        ]
       },
-      "meditation_use": "Developing psychic abilities and spiritual insight",
-      "healing_properties": ["supports pineal gland", "enhances intuition", "calms mental chatter"],
-      "gemstone_associations": ["indigo gabbro", "labradorite", "iolite", "tanzanite"]
+      "meditation_use": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Developing psychic abilities and spiritual insight"
+      },
+      "healing_properties": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "supports pineal gland"
+        },
+        "enhances intuition",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "calms mental chatter"
+        }
+      ],
+      "gemstone_associations": [
+        "indigo gabbro",
+        "labradorite",
+        "iolite",
+        "tanzanite"
+      ]
     },
     "violet": {
       "wavelength": "400 nanometers",
       "frequency": "750 THz",
       "chakra": "Crown",
       "element": "Spirit/Thought",
-      "planet": "Jupiter/Neptune", 
-      "tarot_cards": ["Temperance angel wings", "Justice robes", "Spiritual symbolism"],
+      "planet": "Jupiter/Neptune",
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Temperance angel wings"
+        },
+        "Justice robes",
+        "Spiritual symbolism"
+      ],
       "psychological_effects": {
-        "positive": ["spirituality", "transformation", "inspiration", "creativity"],
-        "negative": ["impracticality", "immaturity", "arrogance", "mourning"],
-        "therapeutic": ["calms nervous system", "enhances spiritual connection", "promotes transformation"]
+        "positive": [
+          "spirituality",
+          "transformation",
+          "inspiration",
+          "creativity"
+        ],
+        "negative": [
+          "impracticality",
+          "immaturity",
+          "arrogance",
+          "mourning"
+        ],
+        "therapeutic": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "calms nervous system"
+          },
+          {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "enhances spiritual connection"
+          },
+          "promotes transformation"
+        ]
       },
-      "spiritual_significance": "Divine connection, spiritual transformation, cosmic consciousness",
-      "quote": "Violet is the color of transmutation, representing the transformation of the soul and connection to divine consciousness.",
+      "spiritual_significance": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Divine connection, spiritual transformation, cosmic consciousness"
+      },
+      "quote": {
+        "citation_key": "Charles_Leadbeater-Man_Visible_and_Invisible",
+        "text": "Violet is the color of transmutation, representing the transformation of the soul and connection to divine consciousness."
+      },
       "author": "Charles Leadbeater",
       "source": "Man Visible and Invisible",
       "cultural_meanings": {
-        "western": ["royalty", "spirituality", "luxury", "creativity", "mystery"],
-        "eastern": ["spiritual power", "enlightenment", "transformation"],
-        "alchemical": ["philosophical gold", "spiritual perfection", "divine consciousness"]
+        "western": [
+          "royalty",
+          "spirituality",
+          "luxury",
+          "creativity",
+          "mystery"
+        ],
+        "eastern": [
+          "spiritual power",
+          "enlightenment",
+          "transformation"
+        ],
+        "alchemical": [
+          "philosophical gold",
+          "spiritual perfection",
+          "divine consciousness"
+        ]
       },
-      "meditation_use": "Connecting with divine consciousness and spiritual transformation",
-      "healing_properties": ["supports nervous system", "enhances spiritual awareness", "promotes psychic abilities"],
-      "gemstone_associations": ["amethyst", "charoite", "sugilite", "lepidolite"]
+      "meditation_use": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Connecting with divine consciousness and spiritual transformation"
+      },
+      "healing_properties": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "supports nervous system"
+        },
+        {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "enhances spiritual awareness"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "promotes psychic abilities"
+        }
+      ],
+      "gemstone_associations": [
+        "amethyst",
+        "charoite",
+        "sugilite",
+        "lepidolite"
+      ]
     },
     "white": {
-      "wavelength": "All visible spectrum",
-      "frequency": "All frequencies combined",
+      "wavelength": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "All visible spectrum"
+      },
+      "frequency": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "All frequencies combined"
+      },
       "chakra": "Crown/All chakras",
       "element": "Spirit/Pure consciousness",
       "planet": "Moon/Uranus",
-      "tarot_cards": ["The Fool's inner garment", "Temperance angel", "Purity symbols"],
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Fool's inner garment"
+        },
+        "Temperance angel",
+        "Purity symbols"
+      ],
       "psychological_effects": {
-        "positive": ["purity", "clarity", "simplicity", "peace", "new beginnings"],
-        "negative": ["sterility", "coldness", "isolation", "emptiness"],
-        "therapeutic": ["purifies energy", "enhances clarity", "promotes peace"]
+        "positive": [
+          "purity",
+          "clarity",
+          "simplicity",
+          "peace",
+          "new beginnings"
+        ],
+        "negative": [
+          "sterility",
+          "coldness",
+          "isolation",
+          "emptiness"
+        ],
+        "therapeutic": [
+          "purifies energy",
+          "enhances clarity",
+          "promotes peace"
+        ]
       },
-      "spiritual_significance": "Pure consciousness, divine light, spiritual perfection, unity",
-      "quote": "White contains all colors and represents the pure light of divine consciousness from which all creation emanates.",
+      "spiritual_significance": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Pure consciousness, divine light, spiritual perfection, unity"
+      },
+      "quote": {
+        "citation_key": "H_P__Blavatsky-The_Secret_Doctrine",
+        "text": "White contains all colors and represents the pure light of divine consciousness from which all creation emanates."
+      },
       "author": "H.P. Blavatsky",
       "source": "The Secret Doctrine",
       "cultural_meanings": {
-        "western": ["purity", "innocence", "peace", "cleanliness", "sterility"],
-        "eastern": ["mourning", "death", "rebirth", "spiritual purity"],
-        "alchemical": ["albedo stage", "purification", "lunar consciousness"]
+        "western": [
+          "purity",
+          "innocence",
+          "peace",
+          "cleanliness",
+          "sterility"
+        ],
+        "eastern": [
+          "mourning",
+          "death",
+          "rebirth",
+          "spiritual purity"
+        ],
+        "alchemical": [
+          "albedo stage",
+          "purification",
+          "lunar consciousness"
+        ]
       },
-      "meditation_use": "Purification and connection to divine light",
-      "healing_properties": ["purifies all systems", "enhances spiritual healing", "promotes clarity"],
-      "gemstone_associations": ["clear quartz", "selenite", "moonstone", "diamond"]
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Purification and connection to divine light"
+      },
+      "healing_properties": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "purifies all systems"
+        },
+        {
+          "citation_key": "Barbara_Brennan-Hands_of_Light",
+          "text": "enhances spiritual healing"
+        },
+        "promotes clarity"
+      ],
+      "gemstone_associations": [
+        "clear quartz",
+        "selenite",
+        "moonstone",
+        "diamond"
+      ]
     },
     "black": {
-      "wavelength": "Absorption of all wavelengths",
+      "wavelength": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Absorption of all wavelengths"
+      },
       "frequency": "Zero reflection",
       "chakra": "Root/Base",
       "element": "Earth/Void",
       "planet": "Saturn/Pluto",
-      "tarot_cards": ["Death's armor", "The Devil's darkness", "Night imagery"],
+      "tarot_cards": [
+        "Death's armor",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Devil's darkness"
+        },
+        "Night imagery"
+      ],
       "psychological_effects": {
-        "positive": ["protection", "mystery", "sophistication", "authority"],
-        "negative": ["depression", "mourning", "evil", "emptiness", "fear"],
-        "therapeutic": ["provides protection", "absorbs negative energy", "promotes introspection"]
+        "positive": [
+          "protection",
+          "mystery",
+          "sophistication",
+          "authority"
+        ],
+        "negative": [
+          "depression",
+          "mourning",
+          "evil",
+          "emptiness",
+          "fear"
+        ],
+        "therapeutic": [
+          "provides protection",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "absorbs negative energy"
+          },
+          "promotes introspection"
+        ]
       },
-      "spiritual_significance": "The void, mystery, protection, absorption of negativity, death/rebirth",
-      "quote": "Black is not the absence of color, but the presence of all possibilities - the fertile darkness from which all life emerges.",
+      "spiritual_significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The void, mystery, protection, absorption of negativity, death/rebirth"
+      },
+      "quote": {
+        "citation_key": "Carl_Jung-Memories__Dreams__Reflections",
+        "text": "Black is not the absence of color, but the presence of all possibilities - the fertile darkness from which all life emerges."
+      },
       "author": "Carl Jung",
       "source": "Memories, Dreams, Reflections",
       "cultural_meanings": {
-        "western": ["death", "mourning", "evil", "sophistication", "power"],
-        "eastern": ["mystery", "depth", "spiritual strength", "infinity"],
-        "alchemical": ["nigredo stage", "prima materia", "dissolution", "fertile void"]
+        "western": [
+          "death",
+          "mourning",
+          "evil",
+          "sophistication",
+          "power"
+        ],
+        "eastern": [
+          "mystery",
+          "depth",
+          "spiritual strength",
+          "infinity"
+        ],
+        "alchemical": [
+          "nigredo stage",
+          "prima materia",
+          "dissolution",
+          "fertile void"
+        ]
       },
-      "meditation_use": "Grounding, protection, and connecting with the void",
-      "healing_properties": ["absorbs negative energy", "provides grounding", "promotes deep rest"],
-      "gemstone_associations": ["obsidian", "black tourmaline", "hematite", "jet"]
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Grounding, protection, and connecting with the void"
+      },
+      "healing_properties": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "absorbs negative energy"
+        },
+        "provides grounding",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "promotes deep rest"
+        }
+      ],
+      "gemstone_associations": [
+        "obsidian",
+        "black tourmaline",
+        "hematite",
+        "jet"
+      ]
     },
     "gray": {
       "psychological_effects": {
-        "positive": ["neutrality", "balance", "compromise", "wisdom"],
-        "negative": ["indecision", "boredom", "depression", "lack of energy"],
-        "therapeutic": ["promotes neutrality", "calms extremes", "encourages contemplation"]
+        "positive": [
+          "neutrality",
+          "balance",
+          "compromise",
+          "wisdom"
+        ],
+        "negative": [
+          "indecision",
+          "boredom",
+          "depression",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "lack of energy"
+          }
+        ],
+        "therapeutic": [
+          "promotes neutrality",
+          "calms extremes",
+          "encourages contemplation"
+        ]
       },
-      "spiritual_significance": "Balance between light and dark, wisdom through experience",
-      "tarot_cards": ["The Hermit's cloak", "Clouds in background", "Neutral grounds"],
-      "meditation_use": "Finding balance and neutral perspective",
+      "spiritual_significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Balance between light and dark, wisdom through experience"
+      },
+      "tarot_cards": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Hermit's cloak"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Clouds in background"
+        },
+        "Neutral grounds"
+      ],
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Finding balance and neutral perspective"
+      },
       "cultural_meanings": {
-        "western": ["neutrality", "compromise", "wisdom", "age"],
-        "alchemical": ["balance of opposites", "philosophical neutral", "integration"]
+        "western": [
+          "neutrality",
+          "compromise",
+          "wisdom",
+          "age"
+        ],
+        "alchemical": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "balance of opposites"
+          },
+          "philosophical neutral",
+          "integration"
+        ]
       }
     }
   },
   "color_combinations": {
-    "description": "The interaction and meaning of color combinations in tarot imagery",
-    "quote": "Colors never appear in isolation but always in relationship to other colors, creating harmonies and tensions that speak to the soul.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "The interaction and meaning of color combinations in tarot imagery"
+    },
+    "quote": {
+      "citation_key": "Josef_Albers-Interaction_of_Color",
+      "text": "Colors never appear in isolation but always in relationship to other colors, creating harmonies and tensions that speak to the soul."
+    },
     "author": "Josef Albers",
     "source": "Interaction of Color",
     "complementary_pairs": {
       "red_green": {
-        "dynamic": "Passion balanced by harmony",
-        "tarot_example": "The Lovers card - passion (red) balanced by heart wisdom (green)",
-        "spiritual_meaning": "Integration of desire with spiritual growth",
-        "psychological_effect": "Creates visual vibration and emotional intensity"
+        "dynamic": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Passion balanced by harmony"
+        },
+        "tarot_example": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Lovers card - passion (red) balanced by heart wisdom (green)"
+        },
+        "spiritual_meaning": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Integration of desire with spiritual growth"
+        },
+        "psychological_effect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Creates visual vibration and emotional intensity"
+        }
       },
       "blue_orange": {
-        "dynamic": "Communication balanced by creativity",
-        "tarot_example": "Temperance - divine communication (blue) with creative flow (orange)",
-        "spiritual_meaning": "Heavenly wisdom expressed through earthly creativity",
-        "psychological_effect": "Balances introversion with extroversion"
+        "dynamic": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Communication balanced by creativity"
+        },
+        "tarot_example": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Temperance - divine communication (blue) with creative flow (orange)"
+        },
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Heavenly wisdom expressed through earthly creativity"
+        },
+        "psychological_effect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Balances introversion with extroversion"
+        }
       },
       "yellow_purple": {
-        "dynamic": "Intellect balanced by spirituality", 
-        "tarot_example": "The Star - mental illumination (yellow) with spiritual vision (purple)",
-        "spiritual_meaning": "Integration of rational mind with mystical experience",
-        "psychological_effect": "Stimulates both mental and spiritual faculties"
+        "dynamic": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Intellect balanced by spirituality"
+        },
+        "tarot_example": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "The Star - mental illumination (yellow) with spiritual vision (purple)"
+        },
+        "spiritual_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Integration of rational mind with mystical experience"
+        },
+        "psychological_effect": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Stimulates both mental and spiritual faculties"
+        }
       }
     },
     "triadic_harmonies": {
       "red_yellow_blue": {
-        "meaning": "Primary colors representing fundamental life forces",
-        "tarot_application": "Complete energy system in Major Arcana",
-        "spiritual_significance": "Body, mind, and spirit in perfect balance"
+        "meaning": {
+          "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+          "text": "Primary colors representing fundamental life forces"
+        },
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Complete energy system in Major Arcana"
+        },
+        "spiritual_significance": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Body, mind, and spirit in perfect balance"
+        }
       },
       "orange_green_violet": {
-        "meaning": "Secondary colors representing refined consciousness",
-        "tarot_application": "Advanced spiritual development stages",
-        "spiritual_significance": "Emotional, heart, and crown chakra alignment"
+        "meaning": {
+          "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+          "text": "Secondary colors representing refined consciousness"
+        },
+        "tarot_application": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Advanced spiritual development stages"
+        },
+        "spiritual_significance": {
+          "citation_key": "Anodea_Judith-Wheels_of_Life",
+          "text": "Emotional, heart, and crown chakra alignment"
+        }
       }
     },
     "analogous_harmonies": {
       "blue_blue_green_green": {
-        "meaning": "Cool, calming, flowing energy",
-        "tarot_application": "Cups suit water imagery",
-        "emotional_effect": "Peace, tranquility, emotional flow"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Cool, calming, flowing energy"
+        },
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Cups suit water imagery"
+        },
+        "emotional_effect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Peace, tranquility, emotional flow"
+        }
       },
       "red_red_orange_orange": {
-        "meaning": "Warm, energizing, active energy",
-        "tarot_application": "Wands suit fire imagery", 
-        "emotional_effect": "Passion, energy, creative fire"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Warm, energizing, active energy"
+        },
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Wands suit fire imagery"
+        },
+        "emotional_effect": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Passion, energy, creative fire"
+        }
       }
     }
   },
   "color_therapy": {
-    "description": "Therapeutic applications of color in spiritual and psychological healing",
-    "quote": "Color is a power which directly influences the soul, awakening spiritual vibrations and promoting healing on all levels.",
+    "description": {
+      "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+      "text": "Therapeutic applications of color in spiritual and psychological healing"
+    },
+    "quote": {
+      "citation_key": "Wassily_Kandinsky-Concerning_the_Spiritual_in_Art",
+      "text": "Color is a power which directly influences the soul, awakening spiritual vibrations and promoting healing on all levels."
+    },
     "author": "Wassily Kandinsky",
     "source": "Concerning the Spiritual in Art",
     "chromotherapy_principles": {
       "warm_colors": {
-        "range": ["Red", "Orange", "Yellow"],
-        "effects": ["Stimulating", "Energizing", "Activating"],
-        "therapeutic_use": ["Depression", "Lethargy", "Circulation problems"],
-        "tarot_correlation": "Fire and Earth suits for grounding and activation"
+        "range": [
+          "Red",
+          "Orange",
+          "Yellow"
+        ],
+        "effects": [
+          "Stimulating",
+          "Energizing",
+          "Activating"
+        ],
+        "therapeutic_use": [
+          "Depression",
+          "Lethargy",
+          "Circulation problems"
+        ],
+        "tarot_correlation": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Fire and Earth suits for grounding and activation"
+        }
       },
       "cool_colors": {
-        "range": ["Blue", "Indigo", "Violet"],
-        "effects": ["Calming", "Cooling", "Sedating"],
-        "therapeutic_use": ["Anxiety", "Inflammation", "Hyperactivity"],
-        "tarot_correlation": "Water and Air suits for emotional and mental balance"
+        "range": [
+          "Blue",
+          "Indigo",
+          "Violet"
+        ],
+        "effects": [
+          "Calming",
+          "Cooling",
+          "Sedating"
+        ],
+        "therapeutic_use": [
+          "Anxiety",
+          "Inflammation",
+          "Hyperactivity"
+        ],
+        "tarot_correlation": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Water and Air suits for emotional and mental balance"
+        }
       }
     },
     "specific_treatments": {
       "red_light_therapy": {
-        "conditions": ["Low energy", "Poor circulation", "Depression"],
-        "method": "Visualization or red light exposure",
-        "tarot_meditation": "Focus on red elements in Strength or Magician cards",
+        "conditions": [
+          "Low energy",
+          "Poor circulation",
+          "Depression"
+        ],
+        "method": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Visualization or red light exposure"
+        },
+        "tarot_meditation": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Focus on red elements in Strength or Magician cards"
+        },
         "duration": "10-15 minutes daily",
-        "precautions": "Avoid with high blood pressure or agitation"
+        "precautions": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Avoid with high blood pressure or agitation"
+        }
       },
       "blue_light_therapy": {
-        "conditions": ["Insomnia", "Anxiety", "Inflammation"],
-        "method": "Blue light meditation or visualization",
-        "tarot_meditation": "Focus on blue elements in High Priestess or Star cards",
+        "conditions": [
+          "Insomnia",
+          "Anxiety",
+          "Inflammation"
+        ],
+        "method": {
+          "citation_key": "Shakti_Gawain-Chakra_Meditation",
+          "text": "Blue light meditation or visualization"
+        },
+        "tarot_meditation": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Focus on blue elements in High Priestess or Star cards"
+        },
         "duration": "15-20 minutes daily",
-        "precautions": "May increase depression in some individuals"
+        "precautions": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "May increase depression in some individuals"
+        }
       },
       "green_healing": {
-        "conditions": ["Heart problems", "Stress", "Relationship issues"],
-        "method": "Green light visualization or nature immersion",
-        "tarot_meditation": "Focus on green in Empress or heart-centered cards",
+        "conditions": [
+          "Heart problems",
+          "Stress",
+          "Relationship issues"
+        ],
+        "method": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Green light visualization or nature immersion"
+        },
+        "tarot_meditation": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Focus on green in Empress or heart-centered cards"
+        },
         "duration": "20-30 minutes daily",
-        "precautions": "Generally safe for all conditions"
+        "precautions": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Generally safe for all conditions"
+        }
       }
     }
   },
   "cultural_color_meanings": {
-    "description": "How different cultures interpret colors in spiritual and symbolic contexts",
+    "description": {
+      "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+      "text": "How different cultures interpret colors in spiritual and symbolic contexts"
+    },
     "western_tradition": {
-      "white": ["Purity", "Innocence", "Peace", "Divinity"],
-      "black": ["Death", "Evil", "Mystery", "Power"],
-      "red": ["Love", "Passion", "Danger", "Power"],
-      "blue": ["Trust", "Loyalty", "Peace", "Divinity"],
-      "green": ["Nature", "Growth", "Money", "Envy"],
-      "yellow": ["Happiness", "Cowardice", "Intellect", "Caution"],
-      "purple": ["Royalty", "Spirituality", "Luxury", "Mystery"]
+      "white": [
+        "Purity",
+        "Innocence",
+        "Peace",
+        "Divinity"
+      ],
+      "black": [
+        "Death",
+        "Evil",
+        "Mystery",
+        "Power"
+      ],
+      "red": [
+        "Love",
+        "Passion",
+        "Danger",
+        "Power"
+      ],
+      "blue": [
+        "Trust",
+        "Loyalty",
+        "Peace",
+        "Divinity"
+      ],
+      "green": [
+        "Nature",
+        "Growth",
+        "Money",
+        "Envy"
+      ],
+      "yellow": [
+        "Happiness",
+        "Cowardice",
+        "Intellect",
+        "Caution"
+      ],
+      "purple": [
+        "Royalty",
+        "Spirituality",
+        "Luxury",
+        "Mystery"
+      ]
     },
     "eastern_tradition": {
-      "white": ["Death", "Mourning", "Purity", "Spiritual power"],
-      "black": ["Evil", "Destruction", "Formlessness", "Mystery"],
-      "red": ["Good fortune", "Joy", "Prosperity", "Life force"],
-      "blue": ["Immortality", "Healing", "Wisdom", "Tranquility"],
-      "green": ["New life", "Harmony", "Peace", "Fertility"],
-      "yellow": ["Sacred", "Imperial", "Center", "Earth"],
-      "purple": ["Spiritual transformation", "Enlightenment", "High rank"]
+      "white": [
+        "Death",
+        "Mourning",
+        "Purity",
+        "Spiritual power"
+      ],
+      "black": [
+        "Evil",
+        "Destruction",
+        "Formlessness",
+        "Mystery"
+      ],
+      "red": [
+        "Good fortune",
+        "Joy",
+        "Prosperity",
+        "Life force"
+      ],
+      "blue": [
+        "Immortality",
+        "Healing",
+        "Wisdom",
+        "Tranquility"
+      ],
+      "green": [
+        "New life",
+        "Harmony",
+        "Peace",
+        "Fertility"
+      ],
+      "yellow": [
+        "Sacred",
+        "Imperial",
+        "Center",
+        "Earth"
+      ],
+      "purple": [
+        "Spiritual transformation",
+        "Enlightenment",
+        "High rank"
+      ]
     },
     "native_american": {
-      "white": ["Purity", "North direction", "Wisdom", "Winter"],
-      "black": ["Introspection", "West direction", "Maturity", "Autumn"],
-      "red": ["Life force", "South direction", "Strength", "Summer"],
-      "blue": ["Sky father", "Wisdom", "Truth", "Spiritual connection"],
-      "green": ["Earth mother", "Healing", "Growth", "Fertility"],
-      "yellow": ["East direction", "New beginnings", "Spring", "Illumination"]
+      "white": [
+        "Purity",
+        "North direction",
+        "Wisdom",
+        "Winter"
+      ],
+      "black": [
+        "Introspection",
+        "West direction",
+        "Maturity",
+        "Autumn"
+      ],
+      "red": [
+        "Life force",
+        "South direction",
+        "Strength",
+        "Summer"
+      ],
+      "blue": [
+        "Sky father",
+        "Wisdom",
+        "Truth",
+        "Spiritual connection"
+      ],
+      "green": [
+        "Earth mother",
+        "Healing",
+        "Growth",
+        "Fertility"
+      ],
+      "yellow": [
+        "East direction",
+        "New beginnings",
+        "Spring",
+        "Illumination"
+      ]
     }
   },
   "gemstone_color_healing": {
-    "description": "Using colored gemstones for energy work and healing with tarot",
-    "quote": "Gemstones are crystallized light, holding within their structure the healing vibrations of specific color frequencies.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Using colored gemstones for energy work and healing with tarot"
+    },
+    "quote": {
+      "citation_key": "Melody-Love_Is_In_The_Earth",
+      "text": "Gemstones are crystallized light, holding within their structure the healing vibrations of specific color frequencies."
+    },
     "author": "Melody",
     "source": "Love Is In The Earth",
     "red_stones": {
-      "examples": ["Ruby", "Garnet", "Red Jasper", "Carnelian"],
-      "healing_properties": ["Vitality", "Courage", "Passion", "Grounding"],
-      "tarot_application": "Place on cards with red imagery for enhanced energy",
-      "chakra_work": "Root chakra activation and balancing"
+      "examples": [
+        "Ruby",
+        "Garnet",
+        "Red Jasper",
+        "Carnelian"
+      ],
+      "healing_properties": [
+        "Vitality",
+        "Courage",
+        "Passion",
+        "Grounding"
+      ],
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Place on cards with red imagery for enhanced energy"
+      },
+      "chakra_work": {
+        "citation_key": "Anodea_Judith-Wheels_of_Life",
+        "text": "Root chakra activation and balancing"
+      }
     },
     "orange_stones": {
-      "examples": ["Carnelian", "Orange Calcite", "Sunstone", "Fire Opal"],
-      "healing_properties": ["Creativity", "Sexuality", "Joy", "Confidence"],
-      "tarot_application": "Enhance creative interpretations and emotional insights",
-      "chakra_work": "Sacral chakra healing and creative flow"
+      "examples": [
+        "Carnelian",
+        "Orange Calcite",
+        "Sunstone",
+        "Fire Opal"
+      ],
+      "healing_properties": [
+        "Creativity",
+        "Sexuality",
+        "Joy",
+        "Confidence"
+      ],
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Enhance creative interpretations and emotional insights"
+      },
+      "chakra_work": {
+        "citation_key": "Anodea_Judith-Wheels_of_Life",
+        "text": "Sacral chakra healing and creative flow"
+      }
     },
     "yellow_stones": {
-      "examples": ["Citrine", "Yellow Topaz", "Amber", "Tiger's Eye"],
-      "healing_properties": ["Mental clarity", "Confidence", "Abundance", "Wisdom"],
-      "tarot_application": "Clarify mental aspects of card meanings",
-      "chakra_work": "Solar plexus empowerment and mental clarity"
+      "examples": [
+        "Citrine",
+        "Yellow Topaz",
+        "Amber",
+        "Tiger's Eye"
+      ],
+      "healing_properties": [
+        "Mental clarity",
+        "Confidence",
+        "Abundance",
+        "Wisdom"
+      ],
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Clarify mental aspects of card meanings"
+      },
+      "chakra_work": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Solar plexus empowerment and mental clarity"
+      }
     },
     "green_stones": {
-      "examples": ["Emerald", "Green Aventurine", "Jade", "Malachite"],
-      "healing_properties": ["Heart healing", "Abundance", "Growth", "Balance"],
-      "tarot_application": "Enhance love and relationship readings",
-      "chakra_work": "Heart chakra opening and emotional healing"
+      "examples": [
+        "Emerald",
+        "Green Aventurine",
+        "Jade",
+        "Malachite"
+      ],
+      "healing_properties": [
+        "Heart healing",
+        "Abundance",
+        "Growth",
+        "Balance"
+      ],
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Enhance love and relationship readings"
+      },
+      "chakra_work": {
+        "citation_key": "Anodea_Judith-Wheels_of_Life",
+        "text": "Heart chakra opening and emotional healing"
+      }
     },
     "blue_stones": {
-      "examples": ["Sapphire", "Lapis Lazuli", "Aquamarine", "Sodalite"],
-      "healing_properties": ["Communication", "Truth", "Peace", "Wisdom"],
-      "tarot_application": "Enhance communication and truth in readings",
-      "chakra_work": "Throat chakra expression and truth speaking"
+      "examples": [
+        "Sapphire",
+        "Lapis Lazuli",
+        "Aquamarine",
+        "Sodalite"
+      ],
+      "healing_properties": [
+        "Communication",
+        "Truth",
+        "Peace",
+        "Wisdom"
+      ],
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Enhance communication and truth in readings"
+      },
+      "chakra_work": {
+        "citation_key": "Anodea_Judith-Wheels_of_Life",
+        "text": "Throat chakra expression and truth speaking"
+      }
     },
     "indigo_stones": {
-      "examples": ["Indigo Gabbro", "Labradorite", "Iolite", "Tanzanite"],
-      "healing_properties": ["Intuition", "Psychic abilities", "Spiritual sight"],
-      "tarot_application": "Enhance psychic and intuitive aspects of readings",
-      "chakra_work": "Third eye activation and psychic development"
+      "examples": [
+        "Indigo Gabbro",
+        "Labradorite",
+        "Iolite",
+        "Tanzanite"
+      ],
+      "healing_properties": [
+        "Intuition",
+        "Psychic abilities",
+        "Spiritual sight"
+      ],
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Enhance psychic and intuitive aspects of readings"
+      },
+      "chakra_work": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Third eye activation and psychic development"
+      }
     },
     "purple_stones": {
-      "examples": ["Amethyst", "Charoite", "Sugilite", "Lepidolite"],
-      "healing_properties": ["Spiritual connection", "Transformation", "Peace"],
-      "tarot_application": "Enhance spiritual and transformational aspects",
-      "chakra_work": "Crown chakra connection and spiritual awakening"
+      "examples": [
+        "Amethyst",
+        "Charoite",
+        "Sugilite",
+        "Lepidolite"
+      ],
+      "healing_properties": [
+        "Spiritual connection",
+        "Transformation",
+        "Peace"
+      ],
+      "tarot_application": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Enhance spiritual and transformational aspects"
+      },
+      "chakra_work": {
+        "citation_key": "Anodea_Judith-Wheels_of_Life",
+        "text": "Crown chakra connection and spiritual awakening"
+      }
     }
   }
 }

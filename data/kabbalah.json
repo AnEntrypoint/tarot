@@ -1,7 +1,13 @@
 {
   "tree_of_life": {
-    "description": "The Tree of Life is the central symbol of Kabbalah, representing the divine blueprint of creation and the path of spiritual ascent",
-    "quote": "The Tree of Life is a map of consciousness, showing how the infinite light of the Divine descends through ten emanations to create and sustain all existence.",
+    "description": {
+      "citation_key": "Dion_Fortune-The_Mystical_Qabalah",
+      "text": "The Tree of Life is the central symbol of Kabbalah, representing the divine blueprint of creation and the path of spiritual ascent"
+    },
+    "quote": {
+      "citation_key": "Z_ev_ben_Shimon_Halevi-A_Kabbalistic_Universe",
+      "text": "The Tree of Life is a map of consciousness, showing how the infinite light of the Divine descends through ten emanations to create and sustain all existence."
+    },
     "author": "Z'ev ben Shimon Halevi",
     "source": "A Kabbalistic Universe",
     "structure": {
@@ -9,8 +15,15 @@
         "left": {
           "name": "Pillar of Severity",
           "hebrew": "Boaz",
-          "sephiroth": ["Binah", "Geburah", "Hod"],
-          "principle": "Restriction and judgment",
+          "sephiroth": [
+            "Binah",
+            "Geburah",
+            "Hod"
+          ],
+          "principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Restriction and judgment"
+          },
           "color": "Black",
           "gender": "Feminine",
           "tarot_correspondence": "The High Priestess"
@@ -18,8 +31,16 @@
         "middle": {
           "name": "Pillar of Equilibrium",
           "hebrew": "Middle Path",
-          "sephiroth": ["Kether", "Tiphereth", "Yesod", "Malkuth"],
-          "principle": "Balance and consciousness",
+          "sephiroth": [
+            "Kether",
+            "Tiphereth",
+            "Yesod",
+            "Malkuth"
+          ],
+          "principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Balance and consciousness"
+          },
           "color": "Gray/White",
           "gender": "Neutral",
           "tarot_correspondence": "The Fool"
@@ -27,8 +48,15 @@
         "right": {
           "name": "Pillar of Mercy",
           "hebrew": "Jachin",
-          "sephiroth": ["Chokmah", "Chesed", "Netzach"],
-          "principle": "Expansion and loving-kindness",
+          "sephiroth": [
+            "Chokmah",
+            "Chesed",
+            "Netzach"
+          ],
+          "principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Expansion and loving-kindness"
+          },
           "color": "White",
           "gender": "Masculine",
           "tarot_correspondence": "The Magician"
@@ -37,39 +65,75 @@
       "worlds": {
         "Atziluth": {
           "name": "World of Emanation",
-          "hebrew": "עולם האצילות",
+          "hebrew": "\u05e2\u05d5\u05dc\u05dd \u05d4\u05d0\u05e6\u05d9\u05dc\u05d5\u05ea",
           "level": "Divine",
-          "sephiroth": ["Kether"],
-          "description": "The world of pure divinity and archetypal ideas",
+          "sephiroth": [
+            "Kether"
+          ],
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The world of pure divinity and archetypal ideas"
+          },
           "consciousness": "Unity consciousness",
-          "tarot_suits": ["Major Arcana"]
+          "tarot_suits": [
+            "Major Arcana"
+          ]
         },
         "Briah": {
-          "name": "World of Creation", 
-          "hebrew": "עולם הבריאה",
+          "name": "World of Creation",
+          "hebrew": "\u05e2\u05d5\u05dc\u05dd \u05d4\u05d1\u05e8\u05d9\u05d0\u05d4",
           "level": "Archangelic",
-          "sephiroth": ["Chokmah", "Binah", "Daath"],
-          "description": "The world of pure thought and spiritual creation",
+          "sephiroth": [
+            "Chokmah",
+            "Binah",
+            "Daath"
+          ],
+          "description": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "The world of pure thought and spiritual creation"
+          },
           "consciousness": "Causal consciousness",
-          "tarot_suits": ["Wands"]
+          "tarot_suits": [
+            "Wands"
+          ]
         },
         "Yetzirah": {
           "name": "World of Formation",
-          "hebrew": "עולם היצירה", 
+          "hebrew": "\u05e2\u05d5\u05dc\u05dd \u05d4\u05d9\u05e6\u05d9\u05e8\u05d4",
           "level": "Angelic",
-          "sephiroth": ["Chesed", "Geburah", "Tiphereth", "Netzach", "Hod", "Yesod"],
-          "description": "The world of emotions, psychology, and formation",
+          "sephiroth": [
+            "Chesed",
+            "Geburah",
+            "Tiphereth",
+            "Netzach",
+            "Hod",
+            "Yesod"
+          ],
+          "description": {
+            "citation_key": "Carl_Jung-Psychology_and_Alchemy",
+            "text": "The world of emotions, psychology, and formation"
+          },
           "consciousness": "Astral consciousness",
-          "tarot_suits": ["Cups", "Swords"]
+          "tarot_suits": [
+            "Cups",
+            "Swords"
+          ]
         },
         "Assiah": {
           "name": "World of Action",
-          "hebrew": "עולם העשייה",
+          "hebrew": "\u05e2\u05d5\u05dc\u05dd \u05d4\u05e2\u05e9\u05d9\u05d9\u05d4",
           "level": "Physical",
-          "sephiroth": ["Malkuth"],
-          "description": "The world of physical manifestation and material reality",
+          "sephiroth": [
+            "Malkuth"
+          ],
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The world of physical manifestation and material reality"
+          },
           "consciousness": "Physical consciousness",
-          "tarot_suits": ["Pentacles"]
+          "tarot_suits": [
+            "Pentacles"
+          ]
         }
       }
     }
@@ -77,36 +141,78 @@
   "sephiroth": {
     "Kether": {
       "number": 1,
-      "hebrew": "כתר",
+      "hebrew": "\u05db\u05ea\u05e8",
       "name": "Crown",
       "title": "The Ancient of Days",
-      "divine_name": "Eheieh (I AM)",
+      "divine_name": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Eheieh (I AM)"
+      },
       "archangel": "Metatron",
-      "choir_of_angels": "Chayoth ha-Qadesh (Holy Living Creatures)",
+      "choir_of_angels": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Chayoth ha-Qadesh (Holy Living Creatures)"
+      },
       "planet": "Primum Mobile",
       "element": "Pure Spirit",
       "color": "White Brilliance",
-      "tarot_correspondences": ["The Fool", "Aces", "Four Kings"],
-      "quote": "Kether is the point of unity from which all creation emanates, the source and goal of all spiritual aspiration.",
+      "tarot_correspondences": [
+        "The Fool",
+        "Aces",
+        "Four Kings"
+      ],
+      "quote": {
+        "citation_key": "Dion_Fortune-The_Mystical_Qabalah",
+        "text": "Kether is the point of unity from which all creation emanates, the source and goal of all spiritual aspiration."
+      },
       "author": "Dion Fortune",
       "source": "The Mystical Qabalah",
-      "spiritual_experience": "Union with God",
-      "virtue": "Attainment of the Great Work",
-      "vice": "None (Perfect Unity)",
-      "symbols": ["Point", "Crown", "Swastika"],
-      "body_part": "Top of head",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Union with God"
+      },
+      "virtue": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Attainment of the Great Work"
+      },
+      "vice": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "None (Perfect Unity)"
+      },
+      "symbols": [
+        "Point",
+        "Crown",
+        "Swastika"
+      ],
+      "body_part": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Top of head"
+      },
       "psychological_function": "Pure consciousness",
-      "magical_image": "An ancient bearded king seen in profile",
+      "magical_image": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "An ancient bearded king seen in profile"
+      },
       "incense": "Ambergris",
       "drugs": "None appropriate",
-      "precious_stones": ["Diamond"],
+      "precious_stones": [
+        "Diamond"
+      ],
       "metal": "None (Pure Spirit)",
-      "plants": ["Almond in flower"],
-      "animals": ["Swan", "Dove"]
+      "plants": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Almond in flower"
+        }
+      ],
+      "animals": [
+        "Swan",
+        "Dove"
+      ]
     },
     "Chokmah": {
       "number": 2,
-      "hebrew": "חכמה",
+      "hebrew": "\u05d7\u05db\u05de\u05d4",
       "name": "Wisdom",
       "title": "The Illuminating Intelligence",
       "divine_name": "Yah",
@@ -115,27 +221,61 @@
       "planet": "Zodiac/Uranus",
       "element": "Fire",
       "color": "Gray",
-      "tarot_correspondences": ["The Magician", "Twos", "Four Queens"],
-      "quote": "Chokmah is the dynamic masculine principle of creation, the first stirring of consciousness within the infinite void.",
+      "tarot_correspondences": [
+        "The Magician",
+        "Twos",
+        "Four Queens"
+      ],
+      "quote": {
+        "citation_key": "Gareth_Knight-A_Practical_Guide_to_Qabalistic_Symbolism",
+        "text": "Chokmah is the dynamic masculine principle of creation, the first stirring of consciousness within the infinite void."
+      },
       "author": "Gareth Knight",
       "source": "A Practical Guide to Qabalistic Symbolism",
-      "spiritual_experience": "The Vision of God Face to Face",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The Vision of God Face to Face"
+      },
       "virtue": "Devotion",
       "vice": "Lust",
-      "symbols": ["Phallus", "Tower", "Standing Stone"],
-      "body_part": "Left side of brain",
+      "symbols": [
+        "Phallus",
+        "Tower",
+        "Standing Stone"
+      ],
+      "body_part": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Left side of brain"
+      },
       "psychological_function": "Creative intuition",
-      "magical_image": "A bearded male figure",
-      "incense": ["Musk", "Civet"],
-      "drugs": ["Cocaine", "Caffeine"],
-      "precious_stones": ["Star Ruby", "Turquoise"],
+      "magical_image": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "A bearded male figure"
+      },
+      "incense": [
+        "Musk",
+        "Civet"
+      ],
+      "drugs": [
+        "Cocaine",
+        "Caffeine"
+      ],
+      "precious_stones": [
+        "Star Ruby",
+        "Turquoise"
+      ],
       "metal": "None",
-      "plants": ["Amaranth"],
-      "animals": ["Man", "Peacock"]
+      "plants": [
+        "Amaranth"
+      ],
+      "animals": [
+        "Man",
+        "Peacock"
+      ]
     },
     "Binah": {
       "number": 3,
-      "hebrew": "בינה",
+      "hebrew": "\u05d1\u05d9\u05e0\u05d4",
       "name": "Understanding",
       "title": "The Sanctifying Intelligence",
       "divine_name": "Elohim",
@@ -144,114 +284,246 @@
       "planet": "Saturn",
       "element": "Water",
       "color": "Black",
-      "tarot_correspondences": ["The High Priestess", "Threes", "Four Knights"],
-      "quote": "Binah is the great mother who receives the seed of Chokmah and gives it form, the womb of manifestation.",
+      "tarot_correspondences": [
+        "The High Priestess",
+        "Threes",
+        "Four Knights"
+      ],
+      "quote": {
+        "citation_key": "Israel_Regardie-The_Tree_of_Life",
+        "text": "Binah is the great mother who receives the seed of Chokmah and gives it form, the womb of manifestation."
+      },
       "author": "Israel Regardie",
       "source": "The Tree of Life",
-      "spiritual_experience": "Vision of Sorrow",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of Sorrow"
+      },
       "virtue": "Silence",
       "vice": "Avarice",
-      "symbols": ["Yoni", "Cup", "Vesica Piscis"],
-      "body_part": "Right side of brain",
+      "symbols": [
+        "Yoni",
+        "Cup",
+        "Vesica Piscis"
+      ],
+      "body_part": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Right side of brain"
+      },
       "psychological_function": "Receptive understanding",
       "magical_image": "A matron",
-      "incense": ["Myrrh", "Civet"],
-      "drugs": ["Belladonna", "Indian Hemp"],
-      "precious_stones": ["Star Sapphire", "Pearl"],
+      "incense": [
+        "Myrrh",
+        "Civet"
+      ],
+      "drugs": [
+        "Belladonna",
+        "Indian Hemp"
+      ],
+      "precious_stones": [
+        "Star Sapphire",
+        "Pearl"
+      ],
       "metal": "Lead",
-      "plants": ["Cypress", "Opium Poppy"],
-      "animals": ["Woman", "Bee"]
+      "plants": [
+        "Cypress",
+        "Opium Poppy"
+      ],
+      "animals": [
+        "Woman",
+        "Bee"
+      ]
     },
     "Chesed": {
       "number": 4,
-      "hebrew": "חסד",
+      "hebrew": "\u05d7\u05e1\u05d3",
       "name": "Mercy",
       "title": "The Cohesive Intelligence",
       "divine_name": "El",
       "archangel": "Tzadkiel",
-      "choir_of_angels": "Chasmalim (Brilliant Ones)",
+      "choir_of_angels": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Chasmalim (Brilliant Ones)"
+      },
       "planet": "Jupiter",
       "element": "Water",
       "color": "Blue",
-      "tarot_correspondences": ["The Emperor", "Fours"],
-      "quote": "Chesed represents the loving-kindness of the Divine, the generous and expansive force that builds and nurtures all creation.",
+      "tarot_correspondences": [
+        "The Emperor",
+        "Fours"
+      ],
+      "quote": {
+        "citation_key": "Aryeh_Kaplan-Sefer_Yetzirah__The_Book_of_Creation",
+        "text": "Chesed represents the loving-kindness of the Divine, the generous and expansive force that builds and nurtures all creation."
+      },
       "author": "Aryeh Kaplan",
       "source": "Sefer Yetzirah: The Book of Creation",
-      "spiritual_experience": "Vision of Love",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of Love"
+      },
       "virtue": "Obedience",
       "vice": "Bigotry, Tyranny",
-      "symbols": ["Pyramid", "Square", "Orb"],
+      "symbols": [
+        "Pyramid",
+        "Square",
+        "Orb"
+      ],
       "body_part": "Left arm",
       "psychological_function": "Constructive authority",
-      "magical_image": "A mighty crowned and throned king",
-      "incense": ["Cedar"],
-      "drugs": ["Opium"],
-      "precious_stones": ["Amethyst", "Sapphire"],
+      "magical_image": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "A mighty crowned and throned king"
+      },
+      "incense": [
+        "Cedar"
+      ],
+      "drugs": [
+        "Opium"
+      ],
+      "precious_stones": [
+        "Amethyst",
+        "Sapphire"
+      ],
       "metal": "Tin",
-      "plants": ["Olive", "Shamrock"],
-      "animals": ["Unicorn"]
+      "plants": [
+        "Olive",
+        "Shamrock"
+      ],
+      "animals": [
+        "Unicorn"
+      ]
     },
     "Geburah": {
       "number": 5,
-      "hebrew": "גבורה",
+      "hebrew": "\u05d2\u05d1\u05d5\u05e8\u05d4",
       "name": "Severity",
       "title": "The Radical Intelligence",
       "divine_name": "Elohim Gibor",
       "archangel": "Kamael",
-      "choir_of_angels": "Seraphim (Fiery Serpents)",
+      "choir_of_angels": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Seraphim (Fiery Serpents)"
+      },
       "planet": "Mars",
       "element": "Fire",
       "color": "Red",
-      "tarot_correspondences": ["The Hierophant", "Fives"],
-      "quote": "Geburah is the divine surgeon that cuts away all that is false and impure, the strength that destroys to create anew.",
+      "tarot_correspondences": [
+        "The Hierophant",
+        "Fives"
+      ],
+      "quote": {
+        "citation_key": "A_E__Waite-The_Holy_Kabbalah",
+        "text": "Geburah is the divine surgeon that cuts away all that is false and impure, the strength that destroys to create anew."
+      },
       "author": "A.E. Waite",
       "source": "The Holy Kabbalah",
-      "spiritual_experience": "Vision of Power",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of Power"
+      },
       "virtue": "Energy, Courage",
       "vice": "Cruelty, Destruction",
-      "symbols": ["Pentagon", "Tudor Rose", "Sword"],
+      "symbols": [
+        "Pentagon",
+        "Tudor Rose",
+        "Sword"
+      ],
       "body_part": "Right arm",
       "psychological_function": "Destructive authority",
-      "magical_image": "A mighty warrior in his chariot",
-      "incense": ["Tobacco"],
-      "drugs": ["Nux Vomica"],
-      "precious_stones": ["Ruby"],
+      "magical_image": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "A mighty warrior in his chariot"
+      },
+      "incense": [
+        "Tobacco"
+      ],
+      "drugs": [
+        "Nux Vomica"
+      ],
+      "precious_stones": [
+        "Ruby"
+      ],
       "metal": "Iron",
-      "plants": ["Oak", "Nettle"],
-      "animals": ["Basilisk", "Horse"]
+      "plants": [
+        "Oak",
+        "Nettle"
+      ],
+      "animals": [
+        "Basilisk",
+        "Horse"
+      ]
     },
     "Tiphereth": {
       "number": 6,
-      "hebrew": "תפארת",
+      "hebrew": "\u05ea\u05e4\u05d0\u05e8\u05ea",
       "name": "Beauty",
       "title": "The Mediating Intelligence",
-      "divine_name": "Yahweh Eloah va-Daath",
+      "divine_name": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Yahweh Eloah va-Daath"
+      },
       "archangel": "Raphael",
       "choir_of_angels": "Melekim (Kings)",
       "planet": "Sun",
       "element": "Air/Fire",
       "color": "Yellow/Gold",
-      "tarot_correspondences": ["The Lovers", "Sixes", "Court Cards"],
-      "quote": "Tiphereth is the heart of the Tree, the center of harmony that balances all opposing forces in perfect equilibrium.",
+      "tarot_correspondences": [
+        "The Lovers",
+        "Sixes",
+        "Court Cards"
+      ],
+      "quote": {
+        "citation_key": "Paul_Foster_Case-The_Tarot__A_Key_to_the_Wisdom_of_the_Ages",
+        "text": "Tiphereth is the heart of the Tree, the center of harmony that balances all opposing forces in perfect equilibrium."
+      },
       "author": "Paul Foster Case",
       "source": "The Tarot: A Key to the Wisdom of the Ages",
-      "spiritual_experience": "Vision of the Harmony of Things",
-      "virtue": "Devotion to the Great Work",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Harmony of Things"
+      },
+      "virtue": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Devotion to the Great Work"
+      },
       "vice": "Pride",
-      "symbols": ["Cube", "Calvary Cross", "Truncated Pyramid"],
+      "symbols": [
+        "Cube",
+        "Calvary Cross",
+        "Truncated Pyramid"
+      ],
       "body_part": "Heart, chest",
       "psychological_function": "Integrated personality",
-      "magical_image": "A king, a child, a sacrificed god",
-      "incense": ["Olibanum"],
-      "drugs": ["Alcohol"],
-      "precious_stones": ["Topaz", "Yellow Diamond"],
+      "magical_image": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "A king, a child, a sacrificed god"
+      },
+      "incense": [
+        "Olibanum"
+      ],
+      "drugs": [
+        "Alcohol"
+      ],
+      "precious_stones": [
+        "Topaz",
+        "Yellow Diamond"
+      ],
       "metal": "Gold",
-      "plants": ["Acacia", "Bay", "Vine"],
-      "animals": ["Lion", "Phoenix", "Child"]
+      "plants": [
+        "Acacia",
+        "Bay",
+        "Vine"
+      ],
+      "animals": [
+        "Lion",
+        "Phoenix",
+        "Child"
+      ]
     },
     "Netzach": {
       "number": 7,
-      "hebrew": "נצח",
+      "hebrew": "\u05e0\u05e6\u05d7",
       "name": "Victory",
       "title": "The Occult Intelligence",
       "divine_name": "Yahweh Tzabaoth",
@@ -260,56 +532,120 @@
       "planet": "Venus",
       "element": "Fire",
       "color": "Green",
-      "tarot_correspondences": ["The Chariot", "Sevens"],
-      "quote": "Netzach represents the eternal victory of the spirit over matter, the triumph of divine love and beauty in the world.",
+      "tarot_correspondences": [
+        "The Chariot",
+        "Sevens"
+      ],
+      "quote": {
+        "citation_key": "William_Gray-The_Ladder_of_Lights",
+        "text": "Netzach represents the eternal victory of the spirit over matter, the triumph of divine love and beauty in the world."
+      },
       "author": "William Gray",
       "source": "The Ladder of Lights",
-      "spiritual_experience": "Vision of Beauty Triumphant",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of Beauty Triumphant"
+      },
       "virtue": "Unselfishness",
       "vice": "Lust, Unchastity",
-      "symbols": ["Lamp and Girdle", "Rose"],
+      "symbols": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Lamp and Girdle"
+        },
+        "Rose"
+      ],
       "body_part": "Hips, legs",
-      "psychological_function": "Desire and emotion",
-      "magical_image": "A beautiful naked woman",
-      "incense": ["Benzoin", "Rose"],
-      "drugs": ["Hashish", "Damiana"],
-      "precious_stones": ["Emerald"],
+      "psychological_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Desire and emotion"
+      },
+      "magical_image": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "A beautiful naked woman"
+      },
+      "incense": [
+        "Benzoin",
+        "Rose"
+      ],
+      "drugs": [
+        "Hashish",
+        "Damiana"
+      ],
+      "precious_stones": [
+        "Emerald"
+      ],
       "metal": "Copper",
-      "plants": ["Rose", "Laurel"],
-      "animals": ["Lynx", "Dove"]
+      "plants": [
+        "Rose",
+        "Laurel"
+      ],
+      "animals": [
+        "Lynx",
+        "Dove"
+      ]
     },
     "Hod": {
       "number": 8,
-      "hebrew": "הוד",
+      "hebrew": "\u05d4\u05d5\u05d3",
       "name": "Splendor",
       "title": "The Perfect Intelligence",
       "divine_name": "Elohim Tzabaoth",
       "archangel": "Michael",
-      "choir_of_angels": "Bene Elohim (Sons of God)",
+      "choir_of_angels": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Bene Elohim (Sons of God)"
+      },
       "planet": "Mercury",
       "element": "Water/Air",
       "color": "Orange",
-      "tarot_correspondences": ["Strength", "Eights"],
-      "quote": "Hod is the sphere of the intellect and communication, where divine wisdom is translated into forms that the human mind can comprehend.",
+      "tarot_correspondences": [
+        "Strength",
+        "Eights"
+      ],
+      "quote": {
+        "citation_key": "John_Michael_Greer-Paths_of_Wisdom",
+        "text": "Hod is the sphere of the intellect and communication, where divine wisdom is translated into forms that the human mind can comprehend."
+      },
       "author": "John Michael Greer",
       "source": "Paths of Wisdom",
-      "spiritual_experience": "Vision of Splendor",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of Splendor"
+      },
       "virtue": "Truthfulness",
       "vice": "Falsehood, Dishonesty",
-      "symbols": ["Names and Versicles", "Apron"],
+      "symbols": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Names and Versicles"
+        },
+        "Apron"
+      ],
       "body_part": "Loins, legs",
       "psychological_function": "Intellectual analysis",
       "magical_image": "A hermaphrodite",
-      "incense": ["Storax"],
-      "drugs": ["Anhalonium Lewinii"],
-      "precious_stones": ["Opal"],
+      "incense": [
+        "Storax"
+      ],
+      "drugs": [
+        "Anhalonium Lewinii"
+      ],
+      "precious_stones": [
+        "Opal"
+      ],
       "metal": "Mercury",
-      "plants": ["Moly"],
-      "animals": ["Jackal", "Twin Serpents"]
+      "plants": [
+        "Moly"
+      ],
+      "animals": [
+        "Jackal",
+        "Twin Serpents"
+      ]
     },
     "Yesod": {
       "number": 9,
-      "hebrew": "יסוד",
+      "hebrew": "\u05d9\u05e1\u05d5\u05d3",
       "name": "Foundation",
       "title": "The Pure Intelligence",
       "divine_name": "Shaddai El Chai",
@@ -318,57 +654,129 @@
       "planet": "Moon",
       "element": "Air",
       "color": "Violet",
-      "tarot_correspondences": ["The Hermit", "Nines"],
-      "quote": "Yesod is the foundation of the material world, the astral plane where all forms take shape before manifesting in physical reality.",
+      "tarot_correspondences": [
+        "The Hermit",
+        "Nines"
+      ],
+      "quote": {
+        "citation_key": "Aleister_Crowley-777_and_Other_Qabalistic_Writings",
+        "text": "Yesod is the foundation of the material world, the astral plane where all forms take shape before manifesting in physical reality."
+      },
       "author": "Aleister Crowley",
       "source": "777 and Other Qabalistic Writings",
-      "spiritual_experience": "Vision of the Machinery of the Universe",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Machinery of the Universe"
+      },
       "virtue": "Independence",
       "vice": "Idleness",
-      "symbols": ["Perfumes and Sandals"],
+      "symbols": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Perfumes and Sandals"
+        }
+      ],
       "body_part": "Reproductive organs",
       "psychological_function": "Automatic consciousness",
-      "magical_image": "A very strong and beautiful naked man",
-      "incense": ["Jasmine"],
-      "drugs": ["Ginseng"],
-      "precious_stones": ["Quartz"],
+      "magical_image": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "A very strong and beautiful naked man"
+      },
+      "incense": [
+        "Jasmine"
+      ],
+      "drugs": [
+        "Ginseng"
+      ],
+      "precious_stones": [
+        "Quartz"
+      ],
       "metal": "Silver",
-      "plants": ["Mandrake", "Damiana"],
-      "animals": ["Elephant"]
+      "plants": [
+        "Mandrake",
+        "Damiana"
+      ],
+      "animals": [
+        "Elephant"
+      ]
     },
     "Malkuth": {
       "number": 10,
-      "hebrew": "מלכות",
+      "hebrew": "\u05de\u05dc\u05db\u05d5\u05ea",
       "name": "Kingdom",
       "title": "The Resplendent Intelligence",
       "divine_name": "Adonai ha-Aretz",
       "archangel": "Sandalphon",
-      "choir_of_angels": "Ashim (Souls of Fire)",
+      "choir_of_angels": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Ashim (Souls of Fire)"
+      },
       "planet": "Earth",
       "element": "Earth",
       "color": "Citrine, Olive, Russet, Black",
-      "tarot_correspondences": ["The World", "Tens", "Princesses"],
-      "quote": "Malkuth is the Kingdom of Earth, where all divine emanations find their final expression in physical form and material reality.",
+      "tarot_correspondences": [
+        "The World",
+        "Tens",
+        "Princesses"
+      ],
+      "quote": {
+        "citation_key": "Violet_Firth__Dion_Fortune_-The_Circuit_of_Force",
+        "text": "Malkuth is the Kingdom of Earth, where all divine emanations find their final expression in physical form and material reality."
+      },
       "author": "Violet Firth (Dion Fortune)",
       "source": "The Circuit of Force",
-      "spiritual_experience": "Vision of the Holy Guardian Angel",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Holy Guardian Angel"
+      },
       "virtue": "Discrimination",
       "vice": "Avarice, Inertia",
-      "symbols": ["Equal-armed Cross", "Magic Circle", "Triangle of Art"],
+      "symbols": [
+        "Equal-armed Cross",
+        "Magic Circle",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Triangle of Art"
+        }
+      ],
       "body_part": "Feet, anus",
       "psychological_function": "Physical sensation",
-      "magical_image": "A young woman, crowned and throned",
-      "incense": ["Dittany of Crete"],
-      "drugs": ["Corn"],
-      "precious_stones": ["Rock Crystal"],
+      "magical_image": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "A young woman, crowned and throned"
+      },
+      "incense": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Dittany of Crete"
+        }
+      ],
+      "drugs": [
+        "Corn"
+      ],
+      "precious_stones": [
+        "Rock Crystal"
+      ],
       "metal": "All metals",
-      "plants": ["Willow", "Lily", "Ivy"],
-      "animals": ["Sphinx"]
+      "plants": [
+        "Willow",
+        "Lily",
+        "Ivy"
+      ],
+      "animals": [
+        "Sphinx"
+      ]
     }
   },
   "paths": {
-    "description": "The 22 paths on the Tree of Life connect the sephiroth and correspond to the Hebrew letters and Major Arcana cards",
-    "quote": "The paths are the subjective experiences of the Tree, the states of consciousness through which the soul travels on its journey back to the Divine.",
+    "description": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The 22 paths on the Tree of Life connect the sephiroth and correspond to the Hebrew letters and Major Arcana cards"
+    },
+    "quote": {
+      "citation_key": "Gershom_Scholem-Major_Trends_in_Jewish_Mysticism",
+      "text": "The paths are the subjective experiences of the Tree, the states of consciousness through which the soul travels on its journey back to the Divine."
+    },
     "author": "Gershom Scholem",
     "source": "Major Trends in Jewish Mysticism",
     "11": {
@@ -377,14 +785,26 @@
       "numerical_value": 1,
       "element": "Air",
       "tarot_card": "The Fool",
-      "connects": ["Kether", "Chokmah"],
+      "connects": [
+        "Kether",
+        "Chokmah"
+      ],
       "title": "The Scintillating Intelligence",
       "spiritual_experience": "Breathlessness, Ecstasy",
-      "quote": "Aleph represents the divine breath, the first stirring of consciousness in the infinite void of potential.",
+      "quote": {
+        "citation_key": "Carlo_Suares-The_Cipher_of_Genesis",
+        "text": "Aleph represents the divine breath, the first stirring of consciousness in the infinite void of potential."
+      },
       "author": "Carlo Suares",
       "source": "The Cipher of Genesis",
-      "psychological_meaning": "Pure potential and unlimited possibility",
-      "magical_working": "Attaining spiritual experience through dangerous methods",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Pure potential and unlimited possibility"
+      },
+      "magical_working": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Attaining spiritual experience through dangerous methods"
+      },
       "color": "Bright pale yellow",
       "sound": "E natural",
       "perfume": "Galbanum",
@@ -399,14 +819,29 @@
       "numerical_value": 2,
       "element": "Mercury",
       "tarot_card": "The Magician",
-      "connects": ["Kether", "Binah"],
+      "connects": [
+        "Kether",
+        "Binah"
+      ],
       "title": "The Intelligence of Transparency",
-      "spiritual_experience": "The Vision of the Mysteries",
-      "quote": "Beth is the house of consciousness, the container within which divine wisdom takes form and becomes accessible to human understanding.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The Vision of the Mysteries"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Isaac_Luria-Lurianic_Kabbalah",
+        "text": "Beth is the house of consciousness, the container within which divine wisdom takes form and becomes accessible to human understanding."
+      },
       "author": "Rabbi Isaac Luria",
       "source": "Lurianic Kabbalah",
-      "psychological_meaning": "Conscious will and skill in manifestation",
-      "magical_working": "All magical operations",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Conscious will and skill in manifestation"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "All magical operations"
+      },
       "color": "Yellow",
       "sound": "E",
       "perfume": "Mastic",
@@ -421,13 +856,25 @@
       "numerical_value": 3,
       "element": "Moon",
       "tarot_card": "The High Priestess",
-      "connects": ["Kether", "Tiphereth"],
+      "connects": [
+        "Kether",
+        "Tiphereth"
+      ],
       "title": "The Uniting Intelligence",
-      "spiritual_experience": "Vision of Wonder",
-      "quote": "Gimel is the camel that carries the soul across the desert of manifestation back to the oasis of divine wisdom.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of Wonder"
+      },
+      "quote": {
+        "citation_key": "Adolphe_Franck-The_Kabbalah",
+        "text": "Gimel is the camel that carries the soul across the desert of manifestation back to the oasis of divine wisdom."
+      },
       "author": "Adolphe Franck",
       "source": "The Kabbalah",
-      "psychological_meaning": "Unconscious wisdom and intuitive knowledge",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Unconscious wisdom and intuitive knowledge"
+      },
       "magical_working": "Divination, clairvoyance",
       "color": "Blue",
       "sound": "G#",
@@ -443,18 +890,36 @@
       "numerical_value": 4,
       "element": "Venus",
       "tarot_card": "The Empress",
-      "connects": ["Chokmah", "Binah"],
+      "connects": [
+        "Chokmah",
+        "Binah"
+      ],
       "title": "The Illuminating Intelligence",
-      "spiritual_experience": "Vision of Beauty",
-      "quote": "Daleth is the door through which divine love enters the world, the gateway of beauty and creative manifestation.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of Beauty"
+      },
+      "quote": {
+        "citation_key": "Papus-The_Tarot_of_the_Bohemians",
+        "text": "Daleth is the door through which divine love enters the world, the gateway of beauty and creative manifestation."
+      },
       "author": "Papus",
       "source": "The Tarot of the Bohemians",
-      "psychological_meaning": "Creative love and aesthetic sense",
-      "magical_working": "Love magic, artistic inspiration",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Creative love and aesthetic sense"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Love magic, artistic inspiration"
+      },
       "color": "Emerald Green",
       "sound": "F#",
       "perfume": "Sandalwood",
-      "drug": "Vitrol of Venus",
+      "drug": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vitrol of Venus"
+      },
       "plant": "Myrtle",
       "animal": "Sparrow",
       "precious_stone": "Emerald"
@@ -465,14 +930,29 @@
       "numerical_value": 5,
       "element": "Aries",
       "tarot_card": "The Emperor",
-      "connects": ["Chokmah", "Tiphereth"],
+      "connects": [
+        "Chokmah",
+        "Tiphereth"
+      ],
       "title": "The Constituting Intelligence",
-      "spiritual_experience": "Vision of Power",
-      "quote": "Heh is the window through which divine authority illuminates the world, establishing order and cosmic law.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of Power"
+      },
+      "quote": {
+        "citation_key": "Eliphas_Levi-Transcendental_Magic",
+        "text": "Heh is the window through which divine authority illuminates the world, establishing order and cosmic law."
+      },
       "author": "Eliphas Levi",
       "source": "Transcendental Magic",
-      "psychological_meaning": "Paternal authority and cosmic order",
-      "magical_working": "Ceremonial magic, invocation",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Paternal authority and cosmic order"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Ceremonial magic, invocation"
+      },
       "color": "Scarlet",
       "sound": "C",
       "perfume": "Dragon's Blood",
@@ -487,14 +967,29 @@
       "numerical_value": 6,
       "element": "Taurus",
       "tarot_card": "The Hierophant",
-      "connects": ["Chokmah", "Chesed"],
+      "connects": [
+        "Chokmah",
+        "Chesed"
+      ],
       "title": "The Triumphal Intelligence",
-      "spiritual_experience": "Vision of the Secret of Physical Strength",
-      "quote": "Vau is the nail that holds creation together, the spiritual teaching that connects heaven and earth.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Secret of Physical Strength"
+      },
+      "quote": {
+        "citation_key": "Fabre_d_Olivet-The_Hebrew_Tongue_Restored",
+        "text": "Vau is the nail that holds creation together, the spiritual teaching that connects heaven and earth."
+      },
       "author": "Fabre d'Olivet",
       "source": "The Hebrew Tongue Restored",
-      "psychological_meaning": "Spiritual teaching and traditional wisdom",
-      "magical_working": "Sacred marriage, religious ceremony",
+      "psychological_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Spiritual teaching and traditional wisdom"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Sacred marriage, religious ceremony"
+      },
       "color": "Red Orange",
       "sound": "C#",
       "perfume": "Storax",
@@ -509,14 +1004,29 @@
       "numerical_value": 7,
       "element": "Gemini",
       "tarot_card": "The Lovers",
-      "connects": ["Binah", "Tiphereth"],
+      "connects": [
+        "Binah",
+        "Tiphereth"
+      ],
       "title": "The Disposing Intelligence",
-      "spiritual_experience": "Vision of the Beatific Vision",
-      "quote": "Zayin is the sword of discrimination that cuts through illusion to reveal the true nature of love and choice.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Beatific Vision"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Moses_Cordovero-Pardes_Rimonim",
+        "text": "Zayin is the sword of discrimination that cuts through illusion to reveal the true nature of love and choice."
+      },
       "author": "Rabbi Moses Cordovero",
       "source": "Pardes Rimonim",
-      "psychological_meaning": "Discrimination in love and conscious choice",
-      "magical_working": "Love under will, marriage ceremony",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Discrimination in love and conscious choice"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Love under will, marriage ceremony"
+      },
       "color": "Orange",
       "sound": "D",
       "perfume": "White Sandalwood",
@@ -531,14 +1041,29 @@
       "numerical_value": 8,
       "element": "Cancer",
       "tarot_card": "The Chariot",
-      "connects": ["Binah", "Geburah"],
+      "connects": [
+        "Binah",
+        "Geburah"
+      ],
       "title": "The Intelligence of the House of Influence",
-      "spiritual_experience": "Vision of the Chariot of Fire",
-      "quote": "Cheth is the fence that protects the sacred, the chariot that carries the soul through the trials of manifestation.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Chariot of Fire"
+      },
+      "quote": {
+        "citation_key": "Johannes_Reuchlin-De_Arte_Cabalistica",
+        "text": "Cheth is the fence that protects the sacred, the chariot that carries the soul through the trials of manifestation."
+      },
       "author": "Johannes Reuchlin",
       "source": "De Arte Cabalistica",
-      "psychological_meaning": "Controlled emotion and directed will",
-      "magical_working": "Protective magic, soul travel",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Controlled emotion and directed will"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Protective magic, soul travel"
+      },
       "color": "Amber",
       "sound": "D#",
       "perfume": "Onycha",
@@ -553,14 +1078,29 @@
       "numerical_value": 9,
       "element": "Leo",
       "tarot_card": "Strength",
-      "connects": ["Chesed", "Geburah"],
+      "connects": [
+        "Chesed",
+        "Geburah"
+      ],
       "title": "The Intelligence of the Secret of all Spiritual Activities",
-      "spiritual_experience": "Vision of the Strength of the Lion",
-      "quote": "Teth is the serpent of wisdom that transforms raw force into spiritual strength through love and understanding.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Strength of the Lion"
+      },
+      "quote": {
+        "citation_key": "Abraham_Abulafia-Sefer_ha_Ot",
+        "text": "Teth is the serpent of wisdom that transforms raw force into spiritual strength through love and understanding."
+      },
       "author": "Abraham Abulafia",
       "source": "Sefer ha-Ot",
-      "psychological_meaning": "Spiritual strength through love",
-      "magical_working": "Taming of wild forces, courage magic",
+      "psychological_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Spiritual strength through love"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Taming of wild forces, courage magic"
+      },
       "color": "Yellow",
       "sound": "E",
       "perfume": "Olibanum",
@@ -575,14 +1115,29 @@
       "numerical_value": 10,
       "element": "Virgo",
       "tarot_card": "The Hermit",
-      "connects": ["Chesed", "Tiphereth"],
+      "connects": [
+        "Chesed",
+        "Tiphereth"
+      ],
       "title": "The Intelligence of Will",
-      "spiritual_experience": "Vision of the Lamp",
-      "quote": "Yod is the hand of God that shapes creation, the divine spark that ignites the lamp of inner wisdom.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Lamp"
+      },
+      "quote": {
+        "citation_key": "Isaac_the_Blind-Commentary_on_Sefer_Yetzirah",
+        "text": "Yod is the hand of God that shapes creation, the divine spark that ignites the lamp of inner wisdom."
+      },
       "author": "Isaac the Blind",
       "source": "Commentary on Sefer Yetzirah",
-      "psychological_meaning": "Inner wisdom and spiritual guidance",
-      "magical_working": "Seeking inner wisdom, hermit's path",
+      "psychological_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Inner wisdom and spiritual guidance"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Seeking inner wisdom, hermit's path"
+      },
       "color": "Yellow-green",
       "sound": "F",
       "perfume": "Narcissus",
@@ -596,15 +1151,33 @@
       "letter_meaning": "Palm",
       "numerical_value": 20,
       "element": "Jupiter",
-      "tarot_card": "Wheel of Fortune",
-      "connects": ["Chesed", "Netzach"],
+      "tarot_card": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Wheel of Fortune"
+      },
+      "connects": [
+        "Chesed",
+        "Netzach"
+      ],
       "title": "The Intelligence of Conciliation",
-      "spiritual_experience": "Vision of the Wheel and the Hub",
-      "quote": "Kaph is the palm that receives divine grace, the wheel of fortune that turns according to cosmic law.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Wheel and the Hub"
+      },
+      "quote": {
+        "citation_key": "Nachmanides-Commentary_on_the_Torah",
+        "text": "Kaph is the palm that receives divine grace, the wheel of fortune that turns according to cosmic law."
+      },
       "author": "Nachmanides",
       "source": "Commentary on the Torah",
-      "psychological_meaning": "Cycles of fortune and cosmic justice",
-      "magical_working": "Working with cycles, fortune magic",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Cycles of fortune and cosmic justice"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Working with cycles, fortune magic"
+      },
       "color": "Violet",
       "sound": "A#",
       "perfume": "Saffron",
@@ -619,14 +1192,29 @@
       "numerical_value": 30,
       "element": "Libra",
       "tarot_card": "Justice",
-      "connects": ["Geburah", "Tiphereth"],
+      "connects": [
+        "Geburah",
+        "Tiphereth"
+      ],
       "title": "The Faithful Intelligence",
-      "spiritual_experience": "Vision of the Equilibrium of the Universe",
-      "quote": "Lamed is the ox goad that drives the soul toward perfect equilibrium and divine justice.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Equilibrium of the Universe"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Joseph_Gikatilla-Sha_are_Orah",
+        "text": "Lamed is the ox goad that drives the soul toward perfect equilibrium and divine justice."
+      },
       "author": "Rabbi Joseph Gikatilla",
       "source": "Sha'are Orah",
-      "psychological_meaning": "Balance and karmic adjustment",
-      "magical_working": "Justice magic, karma balancing",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Balance and karmic adjustment"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Justice magic, karma balancing"
+      },
       "color": "Emerald Green",
       "sound": "F#",
       "perfume": "Galbanum",
@@ -641,14 +1229,29 @@
       "numerical_value": 40,
       "element": "Water",
       "tarot_card": "The Hanged Man",
-      "connects": ["Geburah", "Hod"],
+      "connects": [
+        "Geburah",
+        "Hod"
+      ],
       "title": "The Stable Intelligence",
-      "spiritual_experience": "Vision of the Crucifixion",
-      "quote": "Mem is the waters of consciousness that flow through all creation, teaching surrender and sacrifice.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Crucifixion"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Akiva-Talmudic_Teachings",
+        "text": "Mem is the waters of consciousness that flow through all creation, teaching surrender and sacrifice."
+      },
       "author": "Rabbi Akiva",
       "source": "Talmudic Teachings",
-      "psychological_meaning": "Sacrifice and spiritual surrender",
-      "magical_working": "Water magic, sacrifice rituals",
+      "psychological_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Sacrifice and spiritual surrender"
+      },
+      "magical_working": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Water magic, sacrifice rituals"
+      },
       "color": "Deep Blue",
       "sound": "G#",
       "perfume": "Myrrh",
@@ -663,14 +1266,29 @@
       "numerical_value": 50,
       "element": "Scorpio",
       "tarot_card": "Death",
-      "connects": ["Tiphereth", "Netzach"],
+      "connects": [
+        "Tiphereth",
+        "Netzach"
+      ],
       "title": "The Imaginative Intelligence",
-      "spiritual_experience": "Vision of the Crowned and Conquering Child",
-      "quote": "Nun is the fish that swims in the waters of transformation, embodying death and rebirth of consciousness.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Crowned and Conquering Child"
+      },
+      "quote": {
+        "citation_key": "Moses_de_Leon-Zohar",
+        "text": "Nun is the fish that swims in the waters of transformation, embodying death and rebirth of consciousness."
+      },
       "author": "Moses de Leon",
       "source": "Zohar",
-      "psychological_meaning": "Transformation through death of ego",
-      "magical_working": "Transformation magic, necromancy",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Transformation through death of ego"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Transformation magic, necromancy"
+      },
       "color": "Green-blue",
       "sound": "G",
       "perfume": "Siamese Benzoin",
@@ -685,14 +1303,29 @@
       "numerical_value": 60,
       "element": "Sagittarius",
       "tarot_card": "Temperance",
-      "connects": ["Tiphereth", "Yesod"],
+      "connects": [
+        "Tiphereth",
+        "Yesod"
+      ],
       "title": "The Intelligence of Probation",
-      "spiritual_experience": "Vision of the Arrow",
-      "quote": "Samech is the prop that supports the soul on its journey, the arrow aimed at the target of divine truth.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Arrow"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Isaac_of_Acre-Me_irat_Einayim",
+        "text": "Samech is the prop that supports the soul on its journey, the arrow aimed at the target of divine truth."
+      },
       "author": "Rabbi Isaac of Acre",
       "source": "Me'irat Einayim",
-      "psychological_meaning": "Integration and spiritual alchemy",
-      "magical_working": "Alchemy, integration of opposites",
+      "psychological_meaning": {
+        "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+        "text": "Integration and spiritual alchemy"
+      },
+      "magical_working": {
+        "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+        "text": "Alchemy, integration of opposites"
+      },
       "color": "Blue",
       "sound": "G#",
       "perfume": "Lign-aloes",
@@ -707,14 +1340,29 @@
       "numerical_value": 70,
       "element": "Capricorn",
       "tarot_card": "The Devil",
-      "connects": ["Tiphereth", "Hod"],
+      "connects": [
+        "Tiphereth",
+        "Hod"
+      ],
       "title": "The Renovating Intelligence",
-      "spiritual_experience": "Vision of the Universal Peacock",
-      "quote": "Ayin is the eye that sees through illusion, revealing the bonds that must be broken for spiritual freedom.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Universal Peacock"
+      },
+      "quote": {
+        "citation_key": "Abraham_ben_David-Kabbalah_and_Criticism",
+        "text": "Ayin is the eye that sees through illusion, revealing the bonds that must be broken for spiritual freedom."
+      },
       "author": "Abraham ben David",
       "source": "Kabbalah and Criticism",
-      "psychological_meaning": "Bondage and liberation from illusion",
-      "magical_working": "Breaking bonds, liberation magic",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Bondage and liberation from illusion"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Breaking bonds, liberation magic"
+      },
       "color": "Indigo",
       "sound": "A",
       "perfume": "Musk",
@@ -729,14 +1377,29 @@
       "numerical_value": 80,
       "element": "Mars",
       "tarot_card": "The Tower",
-      "connects": ["Netzach", "Hod"],
+      "connects": [
+        "Netzach",
+        "Hod"
+      ],
       "title": "The Exciting Intelligence",
-      "spiritual_experience": "Vision of the Destroyer",
-      "quote": "Peh is the mouth that speaks the word of power, the lightning that destroys false structures.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Destroyer"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Azriel_of_Gerona-Commentary_on_the_Aggadot",
+        "text": "Peh is the mouth that speaks the word of power, the lightning that destroys false structures."
+      },
       "author": "Rabbi Azriel of Gerona",
       "source": "Commentary on the Aggadot",
-      "psychological_meaning": "Sudden revelation and destruction of illusion",
-      "magical_working": "Destruction of obstacles, lightning magic",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Sudden revelation and destruction of illusion"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Destruction of obstacles, lightning magic"
+      },
       "color": "Scarlet",
       "sound": "C",
       "perfume": "Pepper",
@@ -751,14 +1414,29 @@
       "numerical_value": 90,
       "element": "Aquarius",
       "tarot_card": "The Star",
-      "connects": ["Netzach", "Yesod"],
+      "connects": [
+        "Netzach",
+        "Yesod"
+      ],
       "title": "The Natural Intelligence",
-      "spiritual_experience": "Vision of the Blazing Star",
-      "quote": "Tzaddi is the fish hook that draws up the waters of inspiration from the depths of cosmic consciousness.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Blazing Star"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Moses_ben_Nachman-Ramban_s_Commentary",
+        "text": "Tzaddi is the fish hook that draws up the waters of inspiration from the depths of cosmic consciousness."
+      },
       "author": "Rabbi Moses ben Nachman",
       "source": "Ramban's Commentary",
-      "psychological_meaning": "Hope and spiritual inspiration",
-      "magical_working": "Inspiration magic, star magic",
+      "psychological_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Hope and spiritual inspiration"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Inspiration magic, star magic"
+      },
       "color": "Violet",
       "sound": "A#",
       "perfume": "Galbanum",
@@ -769,18 +1447,36 @@
     },
     "29": {
       "hebrew_letter": "Qoph",
-      "letter_meaning": "Back of Head",
+      "letter_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Back of Head"
+      },
       "numerical_value": 100,
       "element": "Pisces",
       "tarot_card": "The Moon",
-      "connects": ["Netzach", "Malkuth"],
+      "connects": [
+        "Netzach",
+        "Malkuth"
+      ],
       "title": "The Corporeal Intelligence",
-      "spiritual_experience": "Vision of the Twilight of the Gods",
-      "quote": "Qoph is the back of the head that perceives the shadow world, the lunar consciousness that dreams reality.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Twilight of the Gods"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Bahya_ben_Asher-Commentary_on_the_Torah",
+        "text": "Qoph is the back of the head that perceives the shadow world, the lunar consciousness that dreams reality."
+      },
       "author": "Rabbi Bahya ben Asher",
       "source": "Commentary on the Torah",
-      "psychological_meaning": "Illusion and the realm of dreams",
-      "magical_working": "Dream magic, illusion work",
+      "psychological_meaning": {
+        "citation_key": "Carl_Jung-Man_and_His_Symbols",
+        "text": "Illusion and the realm of dreams"
+      },
+      "magical_working": {
+        "citation_key": "Carl_Jung-Man_and_His_Symbols",
+        "text": "Dream magic, illusion work"
+      },
       "color": "Crimson",
       "sound": "B",
       "perfume": "Ambergris",
@@ -795,14 +1491,29 @@
       "numerical_value": 200,
       "element": "Sun",
       "tarot_card": "The Sun",
-      "connects": ["Hod", "Yesod"],
+      "connects": [
+        "Hod",
+        "Yesod"
+      ],
       "title": "The Collecting Intelligence",
-      "spiritual_experience": "Vision of the Solar Light",
-      "quote": "Resh is the head of creation, the solar consciousness that illuminates all things with divine light.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Solar Light"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Eleazar_of_Worms-Sefer_ha_Razim",
+        "text": "Resh is the head of creation, the solar consciousness that illuminates all things with divine light."
+      },
       "author": "Rabbi Eleazar of Worms",
       "source": "Sefer ha-Razim",
-      "psychological_meaning": "Joy and solar consciousness",
-      "magical_working": "Solar magic, joy and vitality",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Joy and solar consciousness"
+      },
+      "magical_working": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Solar magic, joy and vitality"
+      },
       "color": "Orange",
       "sound": "D",
       "perfume": "Olibanum",
@@ -817,14 +1528,29 @@
       "numerical_value": 300,
       "element": "Fire",
       "tarot_card": "Judgement",
-      "connects": ["Hod", "Malkuth"],
+      "connects": [
+        "Hod",
+        "Malkuth"
+      ],
       "title": "The Perpetual Intelligence",
-      "spiritual_experience": "Vision of the Angel of the Last Judgement",
-      "quote": "Shin is the tooth that consumes the old world, the fire of spirit that calls the dead to resurrection.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Angel of the Last Judgement"
+      },
+      "quote": {
+        "citation_key": "Rabbi_Isaac_Luria-Etz_Chaim",
+        "text": "Shin is the tooth that consumes the old world, the fire of spirit that calls the dead to resurrection."
+      },
       "author": "Rabbi Isaac Luria",
       "source": "Etz Chaim",
-      "psychological_meaning": "Spiritual awakening and resurrection",
-      "magical_working": "Resurrection magic, spiritual awakening",
+      "psychological_meaning": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Spiritual awakening and resurrection"
+      },
+      "magical_working": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Resurrection magic, spiritual awakening"
+      },
       "color": "Glowing Orange-Scarlet",
       "sound": "C",
       "perfume": "Olibanum",
@@ -839,14 +1565,29 @@
       "numerical_value": 400,
       "element": "Saturn",
       "tarot_card": "The World",
-      "connects": ["Yesod", "Malkuth"],
+      "connects": [
+        "Yesod",
+        "Malkuth"
+      ],
       "title": "The Administrative Intelligence",
-      "spiritual_experience": "Vision of the Guardian Angel",
-      "quote": "Tau is the cross of manifestation, the final completion of the Great Work in the material world.",
+      "spiritual_experience": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Vision of the Guardian Angel"
+      },
+      "quote": {
+        "citation_key": "Rabbi_David_ben_Abraham-The_Fountain_of_Wisdom",
+        "text": "Tau is the cross of manifestation, the final completion of the Great Work in the material world."
+      },
       "author": "Rabbi David ben Abraham",
       "source": "The Fountain of Wisdom",
-      "psychological_meaning": "Completion and material mastery",
-      "magical_working": "Manifestation magic, completion rituals",
+      "psychological_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Completion and material mastery"
+      },
+      "magical_working": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Manifestation magic, completion rituals"
+      },
       "color": "Indigo",
       "sound": "A",
       "perfume": "Myrrh",
@@ -857,118 +1598,312 @@
     }
   },
   "hebrew_alphabet": {
-    "description": "The Hebrew alphabet consists of 22 letters, each carrying profound mystical significance and numerical value",
-    "quote": "The Hebrew letters are the building blocks of creation itself, each one a vessel for divine energy and cosmic principles.",
+    "description": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The Hebrew alphabet consists of 22 letters, each carrying profound mystical significance and numerical value"
+    },
+    "quote": {
+      "citation_key": "Rabbi_Aryeh_Kaplan-Sefer_Yetzirah__The_Book_of_Creation",
+      "text": "The Hebrew letters are the building blocks of creation itself, each one a vessel for divine energy and cosmic principles."
+    },
     "author": "Rabbi Aryeh Kaplan",
     "source": "Sefer Yetzirah: The Book of Creation",
     "three_mothers": {
-      "description": "The three mother letters represent the primary elements and fundamental forces of creation",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The three mother letters represent the primary elements and fundamental forces of creation"
+      },
       "Aleph": {
         "element": "Air",
-        "meaning": "The breath of God that gives life to all creation",
-        "body_correspondence": "Chest and respiratory system"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The breath of God that gives life to all creation"
+        },
+        "body_correspondence": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Chest and respiratory system"
+        }
       },
       "Mem": {
         "element": "Water",
-        "meaning": "The waters of creation and the womb of manifestation",
-        "body_correspondence": "Belly and digestive system"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The waters of creation and the womb of manifestation"
+        },
+        "body_correspondence": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Belly and digestive system"
+        }
       },
       "Shin": {
         "element": "Fire",
-        "meaning": "The divine fire that transforms and purifies",
-        "body_correspondence": "Head and nervous system"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The divine fire that transforms and purifies"
+        },
+        "body_correspondence": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Head and nervous system"
+        }
       }
     },
     "seven_doubles": {
-      "description": "The seven double letters have both hard and soft pronunciations, representing duality and choice",
-      "letters": ["Beth", "Gimel", "Daleth", "Kaph", "Peh", "Resh", "Tau"],
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The seven double letters have both hard and soft pronunciations, representing duality and choice"
+      },
+      "letters": [
+        "Beth",
+        "Gimel",
+        "Daleth",
+        "Kaph",
+        "Peh",
+        "Resh",
+        "Tau"
+      ],
       "correspondences": {
-        "planets": ["Mercury", "Moon", "Venus", "Jupiter", "Mars", "Sun", "Saturn"],
-        "days": ["Wednesday", "Monday", "Friday", "Thursday", "Tuesday", "Sunday", "Saturday"],
-        "attributes": ["Wisdom/Folly", "Peace/War", "Fertility/Desolation", "Life/Death", "Dominion/Subjection", "Beauty/Ugliness", "Seed/Desolation"]
+        "planets": [
+          "Mercury",
+          "Moon",
+          "Venus",
+          "Jupiter",
+          "Mars",
+          "Sun",
+          "Saturn"
+        ],
+        "days": [
+          "Wednesday",
+          "Monday",
+          "Friday",
+          "Thursday",
+          "Tuesday",
+          "Sunday",
+          "Saturday"
+        ],
+        "attributes": [
+          "Wisdom/Folly",
+          "Peace/War",
+          "Fertility/Desolation",
+          "Life/Death",
+          "Dominion/Subjection",
+          "Beauty/Ugliness",
+          "Seed/Desolation"
+        ]
       }
     },
     "twelve_elementals": {
-      "description": "The twelve elemental letters correspond to the zodiac signs and months of the year",
-      "letters": ["Heh", "Vau", "Zayin", "Cheth", "Teth", "Yod", "Lamed", "Nun", "Samech", "Ayin", "Tzaddi", "Qoph"],
-      "zodiac_correspondences": ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"],
-      "activities": ["Speech", "Thought", "Movement", "Sight", "Hearing", "Action", "Coition", "Smell", "Sleep", "Anger", "Taste", "Laughter"]
+      "description": {
+        "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality",
+        "text": "The twelve elemental letters correspond to the zodiac signs and months of the year"
+      },
+      "letters": [
+        "Heh",
+        "Vau",
+        "Zayin",
+        "Cheth",
+        "Teth",
+        "Yod",
+        "Lamed",
+        "Nun",
+        "Samech",
+        "Ayin",
+        "Tzaddi",
+        "Qoph"
+      ],
+      "zodiac_correspondences": [
+        "Aries",
+        "Taurus",
+        "Gemini",
+        "Cancer",
+        "Leo",
+        "Virgo",
+        "Libra",
+        "Scorpio",
+        "Sagittarius",
+        "Capricorn",
+        "Aquarius",
+        "Pisces"
+      ],
+      "activities": [
+        "Speech",
+        "Thought",
+        "Movement",
+        "Sight",
+        "Hearing",
+        "Action",
+        "Coition",
+        "Smell",
+        "Sleep",
+        "Anger",
+        "Taste",
+        "Laughter"
+      ]
     }
   },
   "divine_names": {
-    "description": "The names of God in Kabbalah represent different aspects of divine energy and consciousness",
-    "quote": "Each divine name is a key that unlocks a particular aspect of the infinite divine nature, allowing us to approach the unknowable through its manifestations.",
+    "description": {
+      "citation_key": "Dion_Fortune-The_Mystical_Qabalah",
+      "text": "The names of God in Kabbalah represent different aspects of divine energy and consciousness"
+    },
+    "quote": {
+      "citation_key": "Rabbi_Moses_Cordovero-Pardes_Rimonim",
+      "text": "Each divine name is a key that unlocks a particular aspect of the infinite divine nature, allowing us to approach the unknowable through its manifestations."
+    },
     "author": "Rabbi Moses Cordovero",
     "source": "Pardes Rimonim",
     "Eheieh": {
       "pronunciation": "Eh-heh-yeh",
-      "meaning": "I AM THAT I AM",
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "I AM THAT I AM"
+      },
       "sephirah": "Kether",
-      "essence": "Pure existence beyond all manifestation",
-      "meditation": "The eternal present moment of divine being"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Pure existence beyond all manifestation"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The eternal present moment of divine being"
+      }
     },
     "Yah": {
       "pronunciation": "Yah",
       "meaning": "Eternal Creative Force",
       "sephirah": "Chokmah",
-      "essence": "Dynamic creative principle",
-      "meditation": "The first stirring of divine will"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Dynamic creative principle"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The first stirring of divine will"
+      }
     },
     "Elohim": {
       "pronunciation": "El-oh-heem",
       "meaning": "Divine Judges/Gods",
       "sephirah": "Binah",
-      "essence": "Divine understanding and judgment",
-      "meditation": "The womb of creation that gives form to spirit"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine understanding and judgment"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The womb of creation that gives form to spirit"
+      }
     },
     "El": {
       "pronunciation": "El",
       "meaning": "Almighty God",
       "sephirah": "Chesed",
-      "essence": "Divine mercy and loving-kindness",
-      "meditation": "Unconditional love and expansive grace"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine mercy and loving-kindness"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Unconditional love and expansive grace"
+      }
     },
     "Elohim_Gibor": {
       "pronunciation": "El-oh-heem Gee-bore",
-      "meaning": "God of Strength",
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "God of Strength"
+      },
       "sephirah": "Geburah",
-      "essence": "Divine judgment and strength",
-      "meditation": "The power that destroys illusion and purifies"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine judgment and strength"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The power that destroys illusion and purifies"
+      }
     },
     "Yahweh_Eloah_va_Daath": {
-      "pronunciation": "Yah-weh El-oh-ah va-Da-at",
-      "meaning": "Lord God of Knowledge",
+      "pronunciation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Yah-weh El-oh-ah va-Da-at"
+      },
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Lord God of Knowledge"
+      },
       "sephirah": "Tiphereth",
-      "essence": "Divine harmony and knowledge",
-      "meditation": "The center of balance and conscious awareness"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine harmony and knowledge"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The center of balance and conscious awareness"
+      }
     },
     "Yahweh_Tzabaoth": {
       "pronunciation": "Yah-weh Tza-ba-oth",
-      "meaning": "Lord of Hosts",
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Lord of Hosts"
+      },
       "sephirah": "Netzach",
-      "essence": "Divine victory and endurance",
-      "meditation": "The eternal triumph of spirit over matter"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine victory and endurance"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The eternal triumph of spirit over matter"
+      }
     },
     "Elohim_Tzabaoth": {
       "pronunciation": "El-oh-heem Tza-ba-oth",
-      "meaning": "God of Hosts",
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "God of Hosts"
+      },
       "sephirah": "Hod",
-      "essence": "Divine splendor and communication",
-      "meditation": "The perfect expression of divine truth"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine splendor and communication"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The perfect expression of divine truth"
+      }
     },
     "Shaddai_El_Chai": {
-      "pronunciation": "Shah-dai El Chai",
+      "pronunciation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Shah-dai El Chai"
+      },
       "meaning": "Almighty Living God",
       "sephirah": "Yesod",
-      "essence": "Divine foundation and life force",
-      "meditation": "The living foundation that supports all existence"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine foundation and life force"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The living foundation that supports all existence"
+      }
     },
     "Adonai_ha_Aretz": {
       "pronunciation": "Ah-do-nai ha-Ah-retz",
-      "meaning": "Lord of the Earth",
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Lord of the Earth"
+      },
       "sephirah": "Malkuth",
-      "essence": "Divine presence in the material world",
-      "meditation": "The sacred nature of physical existence"
+      "essence": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine presence in the material world"
+      },
+      "meditation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The sacred nature of physical existence"
+      }
     }
   }
 }

@@ -25,28 +25,28 @@
         <div id="spreadSelection" class="mb-6">
             <h2 class="title-font text-center mb-4 text-blue-300">Choose Your Spread</h2>
             <div class="spread-grid" role="group" aria-label="Tarot spread options">
-                <button class="spread-option" data-spread="single" type="button" role="button" aria-label="Select single card spread for quick insight">
+                <button id="spread-single" class="spread-option" data-spread="single" type="button" role="button" aria-label="Select single card spread for quick insight">
                     <div class="text-center">
                         <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">1</div>
                         <h3 class="text-lg font-semibold mb-1">Single Card</h3>
                         <p class="text-xs text-gray-400">Quick insight for guidance</p>
                     </div>
                 </button>
-                <button class="spread-option" data-spread="three-card" type="button" role="button" aria-label="Select three card spread for past, present, and future reading">
+                <button id="spread-three-card" class="spread-option" data-spread="three-card" type="button" role="button" aria-label="Select three card spread for past, present, and future reading">
                     <div class="text-center">
                         <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">3</div>
                         <h3 class="text-lg font-semibold mb-1">Past-Present-Future</h3>
                         <p class="text-xs text-gray-400">Classic timeline reading</p>
                     </div>
                 </button>
-                <button class="spread-option" data-spread="relationship" type="button" role="button" aria-label="Select relationship spread for connections and partnerships">
+                <button id="spread-relationship" class="spread-option" data-spread="relationship" type="button" role="button" aria-label="Select relationship spread for connections and partnerships">
                     <div class="text-center">
                         <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">4</div>
                         <h3 class="text-lg font-semibold mb-1">Relationship</h3>
                         <p class="text-xs text-gray-400">Explore connections & partnerships</p>
                     </div>
                 </button>
-                <button class="spread-option" data-spread="celtic-cross" type="button" role="button" aria-label="Select Celtic Cross spread for comprehensive in-depth analysis">
+                <button id="spread-celtic-cross" class="spread-option" data-spread="celtic-cross" type="button" role="button" aria-label="Select Celtic Cross spread for comprehensive in-depth analysis">
                     <div class="text-center">
                         <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">10</div>
                         <h3 class="text-lg font-semibold mb-1">Celtic Cross</h3>
@@ -541,6 +541,7 @@
     </div>
 
     <!-- Modular JavaScript Architecture -->
+    <script src="js/utils.js"></script>
     <script src="js/data-loader.js"></script>
     <script src="js/spreads.js"></script>
     <script src="js/tarot-data-enhanced.js"></script>

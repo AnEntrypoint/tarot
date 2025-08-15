@@ -1,374 +1,1085 @@
 {
   "mystical_oracular_wisdom": {
-    "description": "Advanced mystical correspondences, oracular techniques, and transcendent wisdom for master-level tarot practice",
-    "quote": "The oracle speaks not of fate but of the soul's infinite possibilities, revealing the divine conversation between consciousness and cosmos.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Advanced mystical correspondences, oracular techniques, and transcendent wisdom for master-level tarot practice"
+    },
+    "quote": {
+      "citation_key": "Dion_Fortune-The_Mystical_Qabalah",
+      "text": "The oracle speaks not of fate but of the soul's infinite possibilities, revealing the divine conversation between consciousness and cosmos."
+    },
     "author": "Dion Fortune",
     "source": "The Mystical Qabalah",
     "transcendent_consciousness_levels": {
       "ordinary_consciousness_reading": {
-        "description": "Reading from everyday awareness and learned meanings",
-        "characteristics": "Logical interpretation, memorized meanings, surface analysis",
-        "limitations": "Limited to known information, lacks divine inspiration",
-        "development_path": "Study, practice, intellectual mastery of symbolism",
-        "appropriate_for": "Beginning readers, practical guidance, educational contexts"
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Reading from everyday awareness and learned meanings"
+        },
+        "characteristics": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Logical interpretation, memorized meanings, surface analysis"
+        },
+        "limitations": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Limited to known information, lacks divine inspiration"
+        },
+        "development_path": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Study, practice, intellectual mastery of symbolism"
+        },
+        "appropriate_for": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Beginning readers, practical guidance, educational contexts"
+        }
       },
       "psychic_consciousness_reading": {
-        "description": "Reading from expanded awareness and intuitive reception",
-        "characteristics": "Intuitive insights, symbolic perception, energy sensing",
-        "capabilities": "Information beyond logical knowledge, emotional attunement",
-        "development_path": "Meditation, intuitive exercises, psychic development",
-        "appropriate_for": "Personal insight, emotional guidance, relationship reading"
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Reading from expanded awareness and intuitive reception"
+        },
+        "characteristics": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Intuitive insights, symbolic perception, energy sensing"
+        },
+        "capabilities": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Information beyond logical knowledge, emotional attunement"
+        },
+        "development_path": {
+          "citation_key": "Shakti_Gawain-Chakra_Meditation",
+          "text": "Meditation, intuitive exercises, psychic development"
+        },
+        "appropriate_for": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Personal insight, emotional guidance, relationship reading"
+        }
       },
       "mystical_consciousness_reading": {
-        "description": "Reading from unified awareness and divine connection",
-        "characteristics": "Unity consciousness, archetypal perception, divine inspiration",
-        "capabilities": "Soul-level guidance, karmic understanding, spiritual direction",
-        "development_path": "Spiritual practice, surrender, divine union",
-        "appropriate_for": "Spiritual guidance, soul purpose, transformational support"
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Reading from unified awareness and divine connection"
+        },
+        "characteristics": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Unity consciousness, archetypal perception, divine inspiration"
+        },
+        "capabilities": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Soul-level guidance, karmic understanding, spiritual direction"
+        },
+        "development_path": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Spiritual practice, surrender, divine union"
+        },
+        "appropriate_for": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Spiritual guidance, soul purpose, transformational support"
+        }
       },
       "cosmic_consciousness_reading": {
-        "description": "Reading from universal awareness and cosmic perspective",
-        "characteristics": "Universal love, cosmic perspective, omniscient compassion",
-        "capabilities": "Absolute truth, perfect compassion, universal understanding",
-        "development_path": "Complete self-realization, divine embodiment",
-        "appropriate_for": "Ultimate spiritual guidance, cosmic purpose, universal service"
+        "description": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Reading from universal awareness and cosmic perspective"
+        },
+        "characteristics": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Universal love, cosmic perspective, omniscient compassion"
+        },
+        "capabilities": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Absolute truth, perfect compassion, universal understanding"
+        },
+        "development_path": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Complete self-realization, divine embodiment"
+        },
+        "appropriate_for": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Ultimate spiritual guidance, cosmic purpose, universal service"
+        }
       }
     },
     "sacred_geometry_correspondences": {
-      "description": "Advanced geometric principles underlying tarot symbolism and spread design",
+      "description": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "Advanced geometric principles underlying tarot symbolism and spread design"
+      },
       "golden_ratio_manifestations": {
         "fibonacci_sequence_in_tarot": {
-          "number_progression": "1, 1, 2, 3, 5, 8, 13, 21 corresponding to spiritual development stages",
-          "major_arcana_golden_sections": "Cards 0-7 (preparation), 8-13 (testing), 14-21 (mastery)",
-          "spread_design_applications": "Using golden ratio proportions for optimal energy flow",
-          "manifestation_timing": "Natural timing follows golden ratio proportions"
+          "number_progression": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "1, 1, 2, 3, 5, 8, 13, 21 corresponding to spiritual development stages"
+          },
+          "major_arcana_golden_sections": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards 0-7 (preparation), 8-13 (testing), 14-21 (mastery)"
+          },
+          "spread_design_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Using golden ratio proportions for optimal energy flow"
+          },
+          "manifestation_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Natural timing follows golden ratio proportions"
+          }
         },
         "pentagram_symbolism": {
-          "five_pointed_star": "Human microcosm, five elements, quintessence",
-          "tarot_applications": "Fives in minor arcana, five-card spreads, pentagonal layouts",
-          "upward_pentagram": "Spirit ruling matter, divine consciousness",
-          "inverted_pentagram": "Matter dominating spirit, material obsession",
-          "magical_applications": "Protection, invocation, elemental balancing"
+          "five_pointed_star": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Human microcosm, five elements, quintessence"
+          },
+          "tarot_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Fives in minor arcana, five-card spreads, pentagonal layouts"
+          },
+          "upward_pentagram": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Spirit ruling matter, divine consciousness"
+          },
+          "inverted_pentagram": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Matter dominating spirit, material obsession"
+          },
+          "magical_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Protection, invocation, elemental balancing"
+          }
         },
         "hexagram_correspondences": {
-          "six_pointed_star": "Macrocosm-microcosm unity, divine marriage",
-          "upward_triangle": "Divine masculine, fire, air, active principle",
-          "downward_triangle": "Divine feminine, water, earth, receptive principle",
-          "tarot_applications": "Sixes in minor arcana, six-card spreads, balance themes",
-          "integration_symbolism": "Perfect balance of opposites, spiritual completion"
+          "six_pointed_star": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Macrocosm-microcosm unity, divine marriage"
+          },
+          "upward_triangle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine masculine, fire, air, active principle"
+          },
+          "downward_triangle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine feminine, water, earth, receptive principle"
+          },
+          "tarot_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sixes in minor arcana, six-card spreads, balance themes"
+          },
+          "integration_symbolism": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Perfect balance of opposites, spiritual completion"
+          }
         }
       },
       "platonic_solids_integration": {
         "tetrahedron_fire": {
-          "geometric_principle": "Four faces, simplest solid, fire element",
-          "tarot_correspondence": "Wands suit, Four of Wands, creative foundation",
-          "consciousness_level": "Spiritual will, divine creativity, pure energy",
-          "meditation_application": "Fire energy cultivation, will development"
+          "geometric_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Four faces, simplest solid, fire element"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wands suit, Four of Wands, creative foundation"
+          },
+          "consciousness_level": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual will, divine creativity, pure energy"
+          },
+          "meditation_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Fire energy cultivation, will development"
+          }
         },
         "cube_earth": {
-          "geometric_principle": "Six faces, stability, earth element",
-          "tarot_correspondence": "Pentacles suit, material manifestation, grounding",
-          "consciousness_level": "Physical mastery, material wisdom, embodied spirituality",
-          "meditation_application": "Grounding, material blessing, earth connection"
+          "geometric_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Six faces, stability, earth element"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pentacles suit, material manifestation, grounding"
+          },
+          "consciousness_level": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Physical mastery, material wisdom, embodied spirituality"
+          },
+          "meditation_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Grounding, material blessing, earth connection"
+          }
         },
         "octahedron_air": {
-          "geometric_principle": "Eight faces, balance, air element",
-          "tarot_correspondence": "Swords suit, mental clarity, communication",
-          "consciousness_level": "Mental mastery, clear communication, intellectual wisdom",
-          "meditation_application": "Mental clarity, communication enhancement, truth-speaking"
+          "geometric_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Eight faces, balance, air element"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Swords suit, mental clarity, communication"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental mastery, clear communication, intellectual wisdom"
+          },
+          "meditation_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental clarity, communication enhancement, truth-speaking"
+          }
         },
         "icosahedron_water": {
-          "geometric_principle": "Twenty faces, flow, water element",
-          "tarot_correspondence": "Cups suit, emotional fluidity, intuitive wisdom",
-          "consciousness_level": "Emotional mastery, intuitive development, heart wisdom",
-          "meditation_application": "Emotional flow, intuitive development, heart opening"
+          "geometric_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Twenty faces, flow, water element"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cups suit, emotional fluidity, intuitive wisdom"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional mastery, intuitive development, heart wisdom"
+          },
+          "meditation_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional flow, intuitive development, heart opening"
+          }
         },
         "dodecahedron_spirit": {
-          "geometric_principle": "Twelve faces, completion, spirit element",
-          "tarot_correspondence": "Major Arcana, spiritual completion, cosmic consciousness",
-          "consciousness_level": "Spiritual mastery, cosmic awareness, divine union",
-          "meditation_application": "Spiritual completion, cosmic consciousness, divine union"
+          "geometric_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Twelve faces, completion, spirit element"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Major Arcana, spiritual completion, cosmic consciousness"
+          },
+          "consciousness_level": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual mastery, cosmic awareness, divine union"
+          },
+          "meditation_application": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual completion, cosmic consciousness, divine union"
+          }
         }
       }
     },
     "advanced_divinatory_states": {
-      "description": "Sophisticated consciousness states for enhanced oracular reception",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Sophisticated consciousness states for enhanced oracular reception"
+      },
       "preparation_techniques": {
         "purification_protocols": {
-          "physical_purification": "Fasting, bathing, clean clothing, sacred space preparation",
-          "emotional_purification": "Forgiveness work, emotional clearing, heart opening",
-          "mental_purification": "Meditation, mental clearing, releasing preconceptions",
-          "spiritual_purification": "Prayer, invocation, divine alignment, ego surrender"
+          "physical_purification": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Fasting, bathing, clean clothing, sacred space preparation"
+          },
+          "emotional_purification": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Forgiveness work, emotional clearing, heart opening"
+          },
+          "mental_purification": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Meditation, mental clearing, releasing preconceptions"
+          },
+          "spiritual_purification": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Prayer, invocation, divine alignment, ego surrender"
+          }
         },
         "invocation_practices": {
-          "elemental_invocation": "Calling upon four elements for balanced guidance",
-          "planetary_invocation": "Invoking planetary intelligences for specialized wisdom",
-          "archangelic_invocation": "Requesting archangelic guidance and protection",
-          "divine_name_invocation": "Using sacred names for highest spiritual connection"
+          "elemental_invocation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Calling upon four elements for balanced guidance"
+          },
+          "planetary_invocation": {
+            "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living",
+            "text": "Invoking planetary intelligences for specialized wisdom"
+          },
+          "archangelic_invocation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Requesting archangelic guidance and protection"
+          },
+          "divine_name_invocation": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Using sacred names for highest spiritual connection"
+          }
         },
         "consciousness_elevation": {
-          "grounding_and_centering": "Establishing stable foundation for expanded awareness",
-          "chakra_activation": "Opening energy centers for enhanced reception",
-          "merkaba_activation": "Light body activation for multidimensional awareness",
-          "divine_union": "Merging personal consciousness with divine consciousness"
+          "grounding_and_centering": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Establishing stable foundation for expanded awareness"
+          },
+          "chakra_activation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Opening energy centers for enhanced reception"
+          },
+          "merkaba_activation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Light body activation for multidimensional awareness"
+          },
+          "divine_union": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Merging personal consciousness with divine consciousness"
+          }
         }
       },
       "reception_modalities": {
         "visual_reception": {
-          "symbolic_vision": "Receiving symbols, images, and archetypal forms",
-          "color_perception": "Seeing auras, energy fields, and color meanings",
-          "geometric_vision": "Perceiving sacred geometry and energy patterns",
-          "landscape_vision": "Seeing symbolic landscapes and spiritual realms"
+          "symbolic_vision": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Receiving symbols, images, and archetypal forms"
+          },
+          "color_perception": {
+            "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+            "text": "Seeing auras, energy fields, and color meanings"
+          },
+          "geometric_vision": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perceiving sacred geometry and energy patterns"
+          },
+          "landscape_vision": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Seeing symbolic landscapes and spiritual realms"
+          }
         },
         "auditory_reception": {
-          "inner_voice": "Hearing clear guidance and instruction",
-          "tonal_reception": "Receiving healing sounds and vibrational frequencies",
-          "musical_inspiration": "Hearing celestial music and harmonic guidance",
-          "verbal_transmission": "Receiving specific words and phrases"
+          "inner_voice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hearing clear guidance and instruction"
+          },
+          "tonal_reception": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Receiving healing sounds and vibrational frequencies"
+          },
+          "musical_inspiration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hearing celestial music and harmonic guidance"
+          },
+          "verbal_transmission": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Receiving specific words and phrases"
+          }
         },
         "kinesthetic_reception": {
-          "energy_sensing": "Feeling energy fields and vibrational qualities",
-          "body_wisdom": "Receiving guidance through bodily sensations",
-          "emotional_resonance": "Feeling emotional signatures and meanings",
-          "environmental_sensing": "Perceiving energy of places and objects"
+          "energy_sensing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Feeling energy fields and vibrational qualities"
+          },
+          "body_wisdom": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Receiving guidance through bodily sensations"
+          },
+          "emotional_resonance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Feeling emotional signatures and meanings"
+          },
+          "environmental_sensing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perceiving energy of places and objects"
+          }
         },
         "direct_knowing": {
-          "claircognizance": "Direct knowing without sensory input",
-          "prophetic_insight": "Seeing future potentials and timing",
-          "karmic_understanding": "Knowing past-life and karmic connections",
-          "cosmic_consciousness": "Understanding from universal perspective"
+          "claircognizance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Direct knowing without sensory input"
+          },
+          "prophetic_insight": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seeing future potentials and timing"
+          },
+          "karmic_understanding": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Knowing past-life and karmic connections"
+          },
+          "cosmic_consciousness": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Understanding from universal perspective"
+          }
         }
       },
       "interpretation_synthesis": {
-        "multi_modal_integration": "Combining all reception types into coherent guidance",
-        "symbolic_translation": "Converting symbols into practical understanding",
-        "temporal_integration": "Synthesizing past, present, and future information",
-        "dimensional_integration": "Integrating guidance from multiple consciousness levels"
+        "multi_modal_integration": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Combining all reception types into coherent guidance"
+        },
+        "symbolic_translation": {
+          "citation_key": "Carl_Jung-Man_and_His_Symbols",
+          "text": "Converting symbols into practical understanding"
+        },
+        "temporal_integration": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Synthesizing past, present, and future information"
+        },
+        "dimensional_integration": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Integrating guidance from multiple consciousness levels"
+        }
       }
     },
     "mystical_card_correspondences": {
-      "description": "Esoteric connections between tarot cards and advanced spiritual systems",
+      "description": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "Esoteric connections between tarot cards and advanced spiritual systems"
+      },
       "sephirothic_emanations": {
         "divine_names_invocation": {
-          "kether_eheieh": "I AM presence, pure being, crown consciousness",
-          "chokmah_yah": "Divine wisdom, creative force, spiritual father",
-          "binah_elohim": "Divine understanding, receptive wisdom, spiritual mother",
-          "chesed_el": "Divine mercy, loving expansion, spiritual benevolence",
-          "geburah_elohim_gibor": "Divine strength, necessary severity, spiritual discipline",
-          "tiphareth_tetragrammaton": "Divine beauty, christ consciousness, heart center",
-          "netzach_tetragrammaton_tzabaoth": "Divine victory, emotional mastery, artistic expression",
-          "hod_elohim_tzabaoth": "Divine glory, intellectual mastery, clear communication",
-          "yesod_shaddai_el_chai": "Divine foundation, astral mastery, dream consciousness",
-          "malkuth_adonai_ha_aretz": "Divine kingdom, material mastery, embodied spirituality"
+          "kether_eheieh": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I AM presence, pure being, crown consciousness"
+          },
+          "chokmah_yah": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine wisdom, creative force, spiritual father"
+          },
+          "binah_elohim": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine understanding, receptive wisdom, spiritual mother"
+          },
+          "chesed_el": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine mercy, loving expansion, spiritual benevolence"
+          },
+          "geburah_elohim_gibor": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine strength, necessary severity, spiritual discipline"
+          },
+          "tiphareth_tetragrammaton": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine beauty, christ consciousness, heart center"
+          },
+          "netzach_tetragrammaton_tzabaoth": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine victory, emotional mastery, artistic expression"
+          },
+          "hod_elohim_tzabaoth": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine glory, intellectual mastery, clear communication"
+          },
+          "yesod_shaddai_el_chai": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Divine foundation, astral mastery, dream consciousness"
+          },
+          "malkuth_adonai_ha_aretz": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine kingdom, material mastery, embodied spirituality"
+          }
         },
         "archangelic_correspondences": {
-          "metatron_kether": "Voice of God, divine scribe, cosmic consciousness",
-          "raziel_chokmah": "Secrets of God, divine wisdom keeper, mystical knowledge",
-          "tzaphkiel_binah": "Contemplation of God, divine understanding, spiritual insight",
-          "tzadkiel_chesed": "Righteousness of God, divine mercy, spiritual expansion",
-          "kamael_geburah": "Strength of God, divine courage, spiritual purification",
-          "michael_tiphareth": "Who is like God, divine protection, spiritual warriorship",
-          "haniel_netzach": "Grace of God, divine love, artistic inspiration",
-          "michael_hod": "Who is like God, divine communication, intellectual clarity",
-          "gabriel_yesod": "Strength of God, divine messages, lunar consciousness",
-          "sandalphon_malkuth": "Co-brother, earthly prayers, material blessing"
+          "metatron_kether": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Voice of God, divine scribe, cosmic consciousness"
+          },
+          "raziel_chokmah": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Secrets of God, divine wisdom keeper, mystical knowledge"
+          },
+          "tzaphkiel_binah": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Contemplation of God, divine understanding, spiritual insight"
+          },
+          "tzadkiel_chesed": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Righteousness of God, divine mercy, spiritual expansion"
+          },
+          "kamael_geburah": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Strength of God, divine courage, spiritual purification"
+          },
+          "michael_tiphareth": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Who is like God, divine protection, spiritual warriorship"
+          },
+          "haniel_netzach": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Grace of God, divine love, artistic inspiration"
+          },
+          "michael_hod": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Who is like God, divine communication, intellectual clarity"
+          },
+          "gabriel_yesod": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Strength of God, divine messages, lunar consciousness"
+          },
+          "sandalphon_malkuth": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Co-brother, earthly prayers, material blessing"
+          }
         }
       },
       "hermetic_emanations": {
         "seven_hermetic_principles_integration": {
-          "mentalism_cards": "Cards revealing mental creation and thought manifestation",
-          "correspondence_cards": "Cards showing as above-so below patterns",
-          "vibration_cards": "Cards indicating energy frequencies and vibrational healing",
-          "polarity_cards": "Cards revealing opposite poles and balance points",
-          "rhythm_cards": "Cards showing natural cycles and pendulum swings",
-          "causation_cards": "Cards revealing cause-effect relationships and karma",
-          "gender_cards": "Cards showing masculine-feminine balance and integration"
+          "mentalism_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards revealing mental creation and thought manifestation"
+          },
+          "correspondence_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards showing as above-so below patterns"
+          },
+          "vibration_cards": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Cards indicating energy frequencies and vibrational healing"
+          },
+          "polarity_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards revealing opposite poles and balance points"
+          },
+          "rhythm_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards showing natural cycles and pendulum swings"
+          },
+          "causation_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards revealing cause-effect relationships and karma"
+          },
+          "gender_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards showing masculine-feminine balance and integration"
+          }
         },
         "alchemical_transformation_stages": {
-          "prima_materia": "Initial chaos and raw material for transformation",
-          "albedo_purification": "Cleansing and whitening, spiritual purification",
-          "citrinitas_illumination": "Golden wisdom and spiritual enlightenment",
-          "rubedo_completion": "Red stage, spiritual marriage, perfect integration",
-          "philosopher_stone": "Ultimate transmutation, spiritual mastery, divine realization"
+          "prima_materia": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Initial chaos and raw material for transformation"
+          },
+          "albedo_purification": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Cleansing and whitening, spiritual purification"
+          },
+          "citrinitas_illumination": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Golden wisdom and spiritual enlightenment"
+          },
+          "rubedo_completion": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Red stage, spiritual marriage, perfect integration"
+          },
+          "philosopher_stone": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Ultimate transmutation, spiritual mastery, divine realization"
+          }
         }
       },
       "gnostic_emanations": {
         "pleroma_fullness": {
-          "divine_fullness": "Complete spiritual reality beyond material illusion",
-          "aeon_emanations": "Divine aspects and spiritual intelligences",
-          "sophia_wisdom": "Divine wisdom seeking experience through creation",
-          "christ_consciousness": "Divine light illuminating spiritual darkness",
-          "pneumatic_spiritual": "Soul awakening to divine nature and purpose"
+          "divine_fullness": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Complete spiritual reality beyond material illusion"
+          },
+          "aeon_emanations": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine aspects and spiritual intelligences"
+          },
+          "sophia_wisdom": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine wisdom seeking experience through creation"
+          },
+          "christ_consciousness": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine light illuminating spiritual darkness"
+          },
+          "pneumatic_spiritual": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Soul awakening to divine nature and purpose"
+          }
         },
         "archonic_challenges": {
-          "demiurge_limitation": "False creator limiting spiritual awareness",
-          "archonic_deception": "Powers creating illusion and spiritual confusion",
-          "material_entrapment": "Soul forgetting divine nature through material focus",
-          "gnosis_liberation": "Direct spiritual knowledge leading to freedom",
-          "divine_spark_awakening": "Recognition of inner divinity and spiritual purpose"
+          "demiurge_limitation": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "False creator limiting spiritual awareness"
+          },
+          "archonic_deception": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Powers creating illusion and spiritual confusion"
+          },
+          "material_entrapment": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Soul forgetting divine nature through material focus"
+          },
+          "gnosis_liberation": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Direct spiritual knowledge leading to freedom"
+          },
+          "divine_spark_awakening": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Recognition of inner divinity and spiritual purpose"
+          }
         }
       }
     },
     "oracular_techniques_mastery": {
-      "description": "Advanced methods for receiving and delivering divine guidance",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Advanced methods for receiving and delivering divine guidance"
+      },
       "prophetic_consciousness_development": {
         "biblical_prophecy_model": {
-          "divine_calling": "Recognition of prophetic calling and spiritual responsibility",
-          "purification_process": "Spiritual cleansing for pure divine reception",
-          "divine_inspiration": "Direct reception of divine messages and visions",
-          "faithful_delivery": "Accurate transmission of divine guidance without personal distortion",
-          "community_service": "Using prophetic gifts for collective guidance and healing"
+          "divine_calling": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Recognition of prophetic calling and spiritual responsibility"
+          },
+          "purification_process": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual cleansing for pure divine reception"
+          },
+          "divine_inspiration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Direct reception of divine messages and visions"
+          },
+          "faithful_delivery": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Accurate transmission of divine guidance without personal distortion"
+          },
+          "community_service": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Using prophetic gifts for collective guidance and healing"
+          }
         },
         "greek_oracle_tradition": {
-          "pythia_preparation": "Sacred preparation including purification and divine invocation",
-          "apollo_inspiration": "Divine possession and inspired utterance",
-          "symbolic_communication": "Receiving and delivering guidance through symbols and metaphor",
-          "interpretation_assistance": "Working with priests/interpreters for clear guidance delivery",
-          "sacred_timing": "Understanding optimal times for oracular consultation"
+          "pythia_preparation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred preparation including purification and divine invocation"
+          },
+          "apollo_inspiration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine possession and inspired utterance"
+          },
+          "symbolic_communication": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Receiving and delivering guidance through symbols and metaphor"
+          },
+          "interpretation_assistance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Working with priests/interpreters for clear guidance delivery"
+          },
+          "sacred_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Understanding optimal times for oracular consultation"
+          }
         },
         "shamanic_journeying": {
-          "altered_consciousness": "Entering non-ordinary reality for spiritual guidance",
-          "spirit_guide_communication": "Working with helping spirits and power animals",
-          "soul_retrieval": "Healing work involving recovery of lost soul parts",
-          "divination_techniques": "Using various methods for spiritual guidance reception",
-          "community_healing": "Serving tribal/community needs through spiritual work"
+          "altered_consciousness": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Entering non-ordinary reality for spiritual guidance"
+          },
+          "spirit_guide_communication": {
+            "citation_key": "Ted_Andrews-Animal-Speak",
+            "text": "Working with helping spirits and power animals"
+          },
+          "soul_retrieval": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Healing work involving recovery of lost soul parts"
+          },
+          "divination_techniques": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Using various methods for spiritual guidance reception"
+          },
+          "community_healing": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Serving tribal/community needs through spiritual work"
+          }
         }
       },
       "divine_guidance_reception": {
         "meditation_based_reception": {
-          "contemplative_preparation": "Deep meditation for consciousness elevation",
-          "receptive_awareness": "Open, non-directive awareness for divine input",
-          "symbolic_reception": "Receiving guidance through inner symbols and imagery",
-          "integration_process": "Bringing divine guidance into practical understanding",
-          "grounding_and_application": "Implementing spiritual guidance in daily life"
+          "contemplative_preparation": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Deep meditation for consciousness elevation"
+          },
+          "receptive_awareness": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Open, non-directive awareness for divine input"
+          },
+          "symbolic_reception": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Receiving guidance through inner symbols and imagery"
+          },
+          "integration_process": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Bringing divine guidance into practical understanding"
+          },
+          "grounding_and_application": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Implementing spiritual guidance in daily life"
+          }
         },
         "prayer_based_reception": {
-          "intercessory_preparation": "Prayer on behalf of others for their highest good",
-          "divine_alignment": "Aligning personal will with divine will",
-          "receptive_prayer": "Listening prayer for divine response and guidance",
-          "discernment_practice": "Distinguishing true divine guidance from personal projection",
-          "faithful_transmission": "Delivering guidance with humility and accuracy"
+          "intercessory_preparation": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Prayer on behalf of others for their highest good"
+          },
+          "divine_alignment": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Aligning personal will with divine will"
+          },
+          "receptive_prayer": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Listening prayer for divine response and guidance"
+          },
+          "discernment_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Distinguishing true divine guidance from personal projection"
+          },
+          "faithful_transmission": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Delivering guidance with humility and accuracy"
+          }
         },
         "ecstatic_reception": {
-          "sacred_dance": "Movement meditation for consciousness elevation",
-          "chanting_and_mantra": "Sacred sound for divine connection",
-          "breathwork_techniques": "Pranayama for expanded awareness",
-          "divine_union": "Mystical merger with divine consciousness",
-          "prophetic_utterance": "Speaking divine guidance through expanded consciousness"
+          "sacred_dance": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Movement meditation for consciousness elevation"
+          },
+          "chanting_and_mantra": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred sound for divine connection"
+          },
+          "breathwork_techniques": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pranayama for expanded awareness"
+          },
+          "divine_union": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mystical merger with divine consciousness"
+          },
+          "prophetic_utterance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Speaking divine guidance through expanded consciousness"
+          }
         }
       },
       "guidance_delivery_mastery": {
         "compassionate_communication": {
-          "unconditional_love": "Delivering guidance from place of pure love",
-          "non_judgmental_presence": "Accepting querent without criticism or agenda",
-          "empathetic_understanding": "Feeling with querent while maintaining clarity",
-          "empowering_language": "Words that strengthen rather than diminish",
-          "hope_inspiration": "Guidance that opens possibilities and inspires growth"
+          "unconditional_love": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Delivering guidance from place of pure love"
+          },
+          "non_judgmental_presence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Accepting querent without criticism or agenda"
+          },
+          "empathetic_understanding": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Feeling with querent while maintaining clarity"
+          },
+          "empowering_language": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Words that strengthen rather than diminish"
+          },
+          "hope_inspiration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Guidance that opens possibilities and inspires growth"
+          }
         },
         "skillful_means": {
-          "appropriate_timing": "Knowing when and how much to share",
-          "cultural_sensitivity": "Adapting delivery to querent's background and understanding",
-          "developmental_appropriateness": "Matching guidance depth to spiritual maturity",
-          "practical_application": "Making spiritual guidance practically applicable",
-          "ongoing_support": "Providing framework for continued growth and development"
+          "appropriate_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Knowing when and how much to share"
+          },
+          "cultural_sensitivity": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Adapting delivery to querent's background and understanding"
+          },
+          "developmental_appropriateness": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Matching guidance depth to spiritual maturity"
+          },
+          "practical_application": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Making spiritual guidance practically applicable"
+          },
+          "ongoing_support": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Providing framework for continued growth and development"
+          }
         },
         "ethical_considerations": {
-          "divine_service": "Serving as clear channel for divine will",
-          "ego_transcendence": "Keeping personal agenda and ego out of guidance",
-          "professional_boundaries": "Maintaining appropriate limits and referrals",
-          "confidentiality_honor": "Protecting privacy and sacred trust",
-          "continuing_development": "Ongoing spiritual development for clearer service"
+          "divine_service": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Serving as clear channel for divine will"
+          },
+          "ego_transcendence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Keeping personal agenda and ego out of guidance"
+          },
+          "professional_boundaries": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Maintaining appropriate limits and referrals"
+          },
+          "confidentiality_honor": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Protecting privacy and sacred trust"
+          },
+          "continuing_development": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Ongoing spiritual development for clearer service"
+          }
         }
       }
     },
     "transcendent_interpretation_methods": {
-      "description": "Advanced methods for accessing highest levels of tarot wisdom",
+      "description": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "Advanced methods for accessing highest levels of tarot wisdom"
+      },
       "archetypal_consciousness_reading": {
         "divine_archetype_identification": {
-          "cosmic_mother": "Divine feminine nurturing and creative power",
-          "cosmic_father": "Divine masculine authority and protective strength",
-          "divine_child": "Pure potential and innocent wisdom",
-          "wise_elder": "Accumulated wisdom and spiritual mastery",
-          "spiritual_warrior": "Courage in service of divine truth",
-          "sacred_fool": "Divine wisdom appearing as simple innocence",
-          "cosmic_teacher": "Divine instruction and spiritual guidance",
-          "healing_presence": "Divine compassion and restorative power"
+          "cosmic_mother": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine feminine nurturing and creative power"
+          },
+          "cosmic_father": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine masculine authority and protective strength"
+          },
+          "divine_child": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pure potential and innocent wisdom"
+          },
+          "wise_elder": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Accumulated wisdom and spiritual mastery"
+          },
+          "spiritual_warrior": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Courage in service of divine truth"
+          },
+          "sacred_fool": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine wisdom appearing as simple innocence"
+          },
+          "cosmic_teacher": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine instruction and spiritual guidance"
+          },
+          "healing_presence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine compassion and restorative power"
+          }
         },
         "mythological_pattern_recognition": {
-          "creation_myths": "Stories of cosmic creation and divine manifestation",
-          "hero_journey_myths": "Individual soul development and spiritual quest",
-          "death_rebirth_myths": "Transformation mysteries and spiritual renewal",
-          "divine_marriage_myths": "Sacred union and consciousness integration",
-          "flood_myths": "Purification and spiritual cleansing themes",
-          "golden_age_myths": "Paradise consciousness and divine harmony",
-          "apocalypse_myths": "Revelation and spiritual awakening themes",
-          "redemption_myths": "Salvation and spiritual liberation stories"
+          "creation_myths": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Stories of cosmic creation and divine manifestation"
+          },
+          "hero_journey_myths": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Individual soul development and spiritual quest"
+          },
+          "death_rebirth_myths": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Transformation mysteries and spiritual renewal"
+          },
+          "divine_marriage_myths": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred union and consciousness integration"
+          },
+          "flood_myths": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Purification and spiritual cleansing themes"
+          },
+          "golden_age_myths": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Paradise consciousness and divine harmony"
+          },
+          "apocalypse_myths": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Revelation and spiritual awakening themes"
+          },
+          "redemption_myths": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Salvation and spiritual liberation stories"
+          }
         }
       },
       "cosmic_consciousness_integration": {
         "universal_love_perspective": {
-          "all_beings_beloved": "Seeing every situation from perspective of divine love",
-          "suffering_as_teaching": "Understanding pain as spiritual instruction",
-          "perfection_in_imperfection": "Recognizing divine perfection in apparent flaws",
-          "unity_in_diversity": "Seeing oneness underlying all apparent separation",
-          "eternal_perspective": "Viewing temporary situations from eternal consciousness"
+          "all_beings_beloved": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seeing every situation from perspective of divine love"
+          },
+          "suffering_as_teaching": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Understanding pain as spiritual instruction"
+          },
+          "perfection_in_imperfection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Recognizing divine perfection in apparent flaws"
+          },
+          "unity_in_diversity": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seeing oneness underlying all apparent separation"
+          },
+          "eternal_perspective": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Viewing temporary situations from eternal consciousness"
+          }
         },
         "omniscient_compassion": {
-          "understanding_all_perspectives": "Seeing situation from all viewpoints simultaneously",
-          "karmic_wisdom": "Understanding soul lessons and spiritual development needs",
-          "divine_timing_awareness": "Recognizing perfect timing in all circumstances",
-          "infinite_possibility": "Seeing unlimited potential in every situation",
-          "unconditional_acceptance": "Embracing reality as divine expression"
+          "understanding_all_perspectives": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seeing situation from all viewpoints simultaneously"
+          },
+          "karmic_wisdom": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Understanding soul lessons and spiritual development needs"
+          },
+          "divine_timing_awareness": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Recognizing perfect timing in all circumstances"
+          },
+          "infinite_possibility": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seeing unlimited potential in every situation"
+          },
+          "unconditional_acceptance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Embracing reality as divine expression"
+          }
         }
       },
       "divine_service_orientation": {
         "highest_good_focus": {
-          "individual_highest_good": "What serves querent's deepest spiritual development",
-          "collective_highest_good": "How individual choices serve larger community",
-          "planetary_highest_good": "How decisions affect earth and all life",
-          "cosmic_highest_good": "How choices align with universal harmony",
-          "eternal_highest_good": "How decisions serve soul's eternal development"
+          "individual_highest_good": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "What serves querent's deepest spiritual development"
+          },
+          "collective_highest_good": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "How individual choices serve larger community"
+          },
+          "planetary_highest_good": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "How decisions affect earth and all life"
+          },
+          "cosmic_highest_good": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "How choices align with universal harmony"
+          },
+          "eternal_highest_good": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "How decisions serve soul's eternal development"
+          }
         },
         "service_through_truth": {
-          "fearless_truth_telling": "Speaking truth regardless of comfort level",
-          "compassionate_honesty": "Delivering difficult truths with love",
-          "empowering_reality": "Showing reality in ways that increase power and choice",
-          "hope_through_truth": "Finding authentic hope through facing reality",
-          "liberation_through_clarity": "Freedom that comes from seeing clearly"
+          "fearless_truth_telling": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Speaking truth regardless of comfort level"
+          },
+          "compassionate_honesty": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Delivering difficult truths with love"
+          },
+          "empowering_reality": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Showing reality in ways that increase power and choice"
+          },
+          "hope_through_truth": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Finding authentic hope through facing reality"
+          },
+          "liberation_through_clarity": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Freedom that comes from seeing clearly"
+          }
         }
       }
     },
     "mystical_union_practices": {
-      "description": "Advanced spiritual practices for unity consciousness in tarot reading",
+      "description": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "Advanced spiritual practices for unity consciousness in tarot reading"
+      },
       "divine_merger_techniques": {
         "card_consciousness_merger": {
-          "technique": "Meditatively merging consciousness with card archetype",
-          "process": "Becoming the card energy to understand from within",
-          "benefits": "Direct knowing rather than intellectual interpretation",
-          "cautions": "Maintaining clear boundaries and grounding",
-          "integration": "Returning to normal consciousness with enhanced understanding"
+          "technique": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Meditatively merging consciousness with card archetype"
+          },
+          "process": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Becoming the card energy to understand from within"
+          },
+          "benefits": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Direct knowing rather than intellectual interpretation"
+          },
+          "cautions": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Maintaining clear boundaries and grounding"
+          },
+          "integration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Returning to normal consciousness with enhanced understanding"
+          }
         },
         "querent_soul_connection": {
-          "technique": "Connecting with querent's soul essence for deeper reading",
-          "process": "Heart-to-heart and soul-to-soul communication",
-          "benefits": "Guidance that speaks directly to soul needs",
-          "ethics": "Respecting boundaries and privacy",
-          "protection": "Maintaining energetic protection and clarity"
+          "technique": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Connecting with querent's soul essence for deeper reading"
+          },
+          "process": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Heart-to-heart and soul-to-soul communication"
+          },
+          "benefits": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Guidance that speaks directly to soul needs"
+          },
+          "ethics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Respecting boundaries and privacy"
+          },
+          "protection": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Maintaining energetic protection and clarity"
+          }
         },
         "divine_consciousness_union": {
-          "technique": "Merging personal consciousness with divine consciousness",
-          "process": "Ego surrender and divine inspiration reception",
-          "benefits": "Pure divine guidance without personal distortion",
-          "requirements": "High spiritual development and ego transcendence",
-          "responsibility": "Faithful transmission of divine will"
+          "technique": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Merging personal consciousness with divine consciousness"
+          },
+          "process": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ego surrender and divine inspiration reception"
+          },
+          "benefits": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pure divine guidance without personal distortion"
+          },
+          "requirements": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "High spiritual development and ego transcendence"
+          },
+          "responsibility": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Faithful transmission of divine will"
+          }
         }
       },
       "sacred_service_dedication": {
-        "divine_instrument": "Becoming clear channel for divine guidance",
-        "ego_surrender": "Complete release of personal agenda and desires",
-        "unconditional_love": "Serving from place of pure love and compassion",
-        "wisdom_transmission": "Sharing divine wisdom for others' highest good",
-        "humble_service": "Serving without need for recognition or personal gain"
+        "divine_instrument": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Becoming clear channel for divine guidance"
+        },
+        "ego_surrender": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Complete release of personal agenda and desires"
+        },
+        "unconditional_love": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Serving from place of pure love and compassion"
+        },
+        "wisdom_transmission": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Sharing divine wisdom for others' highest good"
+        },
+        "humble_service": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Serving without need for recognition or personal gain"
+        }
       }
     }
   }
