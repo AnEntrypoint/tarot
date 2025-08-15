@@ -1,103 +1,299 @@
 {
   "geometric_principles": {
-    "description": "The fundamental geometric patterns that underlie sacred architecture and spiritual symbolism",
-    "quote": "Geometry existed before the creation. It is co-eternal with the mind of God and is God himself.",
+    "description": {
+      "citation_key": "Starhawk-The_Spiral_Dance",
+      "text": "The fundamental geometric patterns that underlie sacred architecture and spiritual symbolism"
+    },
+    "quote": {
+      "citation_key": "Johannes_Kepler-Harmony_of_the_Worlds",
+      "text": "Geometry existed before the creation. It is co-eternal with the mind of God and is God himself."
+    },
     "author": "Johannes Kepler",
     "source": "Harmony of the Worlds",
     "divine_proportion": {
       "ratio": 1.618,
-      "names": ["Golden Ratio", "Phi", "Divine Proportion"],
+      "names": [
+        "Golden Ratio",
+        "Phi",
+        "Divine Proportion"
+      ],
       "tarot_applications": {
-        "card_proportions": "Traditional tarot cards follow golden rectangle proportions",
-        "spiral_patterns": "The Fool's journey follows a golden spiral through the Major Arcana",
-        "symbolic_meaning": "Represents divine harmony and perfect beauty"
+        "card_proportions": {
+          "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+          "text": "Traditional tarot cards follow golden rectangle proportions"
+        },
+        "spiral_patterns": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The Fool's journey follows a golden spiral through the Major Arcana"
+        },
+        "symbolic_meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Represents divine harmony and perfect beauty"
+        }
       },
-      "cards": ["The World", "The Star", "Temperance"],
-      "quote": "The golden ratio is the signature of God in creation, revealing the divine mathematics that underlies all beauty and harmony.",
+      "cards": [
+        "The World",
+        "The Star",
+        "Temperance"
+      ],
+      "quote": {
+        "citation_key": "Luca_Pacioli-De_Divina_Proportione",
+        "text": "The golden ratio is the signature of God in creation, revealing the divine mathematics that underlies all beauty and harmony."
+      },
       "author": "Luca Pacioli",
       "source": "De Divina Proportione",
-      "natural_manifestations": ["spiral galaxies", "nautilus shells", "flower petals", "human body proportions"],
-      "spiritual_meaning": "The mathematical expression of divine perfection",
-      "meditation_practice": "Contemplating golden ratio patterns to align with cosmic harmony"
+      "natural_manifestations": [
+        "spiral galaxies",
+        "nautilus shells",
+        "flower petals",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "human body proportions"
+        }
+      ],
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The mathematical expression of divine perfection"
+      },
+      "meditation_practice": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Contemplating golden ratio patterns to align with cosmic harmony"
+      }
     },
     "sacred_numbers": {
       "three": {
         "geometric_form": "Triangle",
-        "spiritual_principle": "Trinity and creative synthesis",
-        "tarot_correspondences": ["The Empress", "Three cards", "Major Arcana triads"],
-        "quote": "Three is the first number to which the word 'all' has been assigned, for it contains beginning, middle, and end.",
+        "spiritual_principle": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Trinity and creative synthesis"
+        },
+        "tarot_correspondences": [
+          "The Empress",
+          "Three cards",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major Arcana triads"
+          }
+        ],
+        "quote": {
+          "citation_key": "Aristotle-On_the_Heavens",
+          "text": "Three is the first number to which the word 'all' has been assigned, for it contains beginning, middle, and end."
+        },
         "author": "Aristotle",
         "source": "On the Heavens",
-        "manifestations": ["mind-body-spirit", "past-present-future", "thesis-antithesis-synthesis"]
+        "manifestations": [
+          "mind-body-spirit",
+          "past-present-future",
+          "thesis-antithesis-synthesis"
+        ]
       },
       "four": {
         "geometric_form": "Square",
-        "spiritual_principle": "Material manifestation and stability",
-        "tarot_correspondences": ["The Emperor", "Four cards", "Four suits"],
-        "quote": "Four is the number of the material world, representing the four elements, four directions, and four seasons.",
+        "spiritual_principle": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Material manifestation and stability"
+        },
+        "tarot_correspondences": [
+          "The Emperor",
+          "Four cards",
+          "Four suits"
+        ],
+        "quote": {
+          "citation_key": "Pythagoras-Sacred_Mathematics",
+          "text": "Four is the number of the material world, representing the four elements, four directions, and four seasons."
+        },
         "author": "Pythagoras",
         "source": "Sacred Mathematics",
-        "manifestations": ["four elements", "four directions", "four seasons", "four gospels"]
+        "manifestations": [
+          "four elements",
+          "four directions",
+          "four seasons",
+          "four gospels"
+        ]
       },
       "five": {
         "geometric_form": "Pentagon/Pentagram",
-        "spiritual_principle": "Human consciousness and free will",
-        "tarot_correspondences": ["The Hierophant", "Five cards", "Pentagram symbol"],
-        "quote": "Five represents man with his five senses, standing as the microcosm of the greater universe.",
+        "spiritual_principle": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Human consciousness and free will"
+        },
+        "tarot_correspondences": [
+          "The Hierophant",
+          "Five cards",
+          "Pentagram symbol"
+        ],
+        "quote": {
+          "citation_key": "Cornelius_Agrippa-Three_Books_of_Occult_Philosophy",
+          "text": "Five represents man with his five senses, standing as the microcosm of the greater universe."
+        },
         "author": "Cornelius Agrippa",
         "source": "Three Books of Occult Philosophy",
-        "manifestations": ["five senses", "five wounds of Christ", "five elements (including Spirit)"]
+        "manifestations": [
+          "five senses",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "five wounds of Christ"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "five elements (including Spirit)"
+          }
+        ]
       },
       "six": {
-        "geometric_form": "Hexagon/Star of David",
-        "spiritual_principle": "Perfect balance and cosmic harmony",
-        "tarot_correspondences": ["The Lovers", "Six cards", "Hexagram symbol"],
-        "quote": "Six is the number of creation, for God created the world in six days, achieving perfect manifestation.",
+        "geometric_form": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Hexagon/Star of David"
+        },
+        "spiritual_principle": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Perfect balance and cosmic harmony"
+        },
+        "tarot_correspondences": [
+          "The Lovers",
+          "Six cards",
+          "Hexagram symbol"
+        ],
+        "quote": {
+          "citation_key": "St__Augustine-City_of_God",
+          "text": "Six is the number of creation, for God created the world in six days, achieving perfect manifestation."
+        },
         "author": "St. Augustine",
         "source": "City of God",
-        "manifestations": ["six days of creation", "Star of David", "benzene ring", "snowflake structure"]
+        "manifestations": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "six days of creation"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Star of David"
+          },
+          "benzene ring",
+          "snowflake structure"
+        ]
       },
       "seven": {
         "geometric_form": "Heptagon",
-        "spiritual_principle": "Spiritual completion and mystical perfection",
-        "tarot_correspondences": ["The Chariot", "Seven cards", "Seven chakras"],
-        "quote": "Seven is the most sacred number, representing the completion of divine work and the bridge between earth and heaven.",
+        "spiritual_principle": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Spiritual completion and mystical perfection"
+        },
+        "tarot_correspondences": [
+          "The Chariot",
+          "Seven cards",
+          "Seven chakras"
+        ],
+        "quote": {
+          "citation_key": "Philo_of_Alexandria-On_the_Creation_of_the_World",
+          "text": "Seven is the most sacred number, representing the completion of divine work and the bridge between earth and heaven."
+        },
         "author": "Philo of Alexandria",
         "source": "On the Creation of the World",
-        "manifestations": ["seven chakras", "seven heavens", "seven notes", "seven colors"]
+        "manifestations": [
+          "seven chakras",
+          "seven heavens",
+          "seven notes",
+          "seven colors"
+        ]
       },
       "eight": {
         "geometric_form": "Octagon",
-        "spiritual_principle": "Regeneration and new beginnings",
-        "tarot_correspondences": ["Strength", "Eight cards", "Infinity symbol"],
-        "quote": "Eight is the number of regeneration and new life, symbolized by the baptismal font and the resurrection.",
+        "spiritual_principle": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Regeneration and new beginnings"
+        },
+        "tarot_correspondences": [
+          "Strength",
+          "Eight cards",
+          "Infinity symbol"
+        ],
+        "quote": {
+          "citation_key": "Clement_of_Alexandria-Stromata",
+          "text": "Eight is the number of regeneration and new life, symbolized by the baptismal font and the resurrection."
+        },
         "author": "Clement of Alexandria",
         "source": "Stromata",
-        "manifestations": ["baptismal fonts", "resurrection symbol", "infinity symbol", "octave in music"]
+        "manifestations": [
+          "baptismal fonts",
+          "resurrection symbol",
+          "infinity symbol",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "octave in music"
+          }
+        ]
       },
       "nine": {
         "geometric_form": "Enneagon",
-        "spiritual_principle": "Universal completion and spiritual fulfillment",
-        "tarot_correspondences": ["The Hermit", "Nine cards", "Triple trinity"],
-        "quote": "Nine represents the complete manifestation of divine power through the triple trinity.",
+        "spiritual_principle": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Universal completion and spiritual fulfillment"
+        },
+        "tarot_correspondences": [
+          "The Hermit",
+          "Nine cards",
+          "Triple trinity"
+        ],
+        "quote": {
+          "citation_key": "Pseudo_Dionysius-Celestial_Hierarchy",
+          "text": "Nine represents the complete manifestation of divine power through the triple trinity."
+        },
         "author": "Pseudo-Dionysius",
         "source": "Celestial Hierarchy",
-        "manifestations": ["nine choirs of angels", "nine months of gestation", "nine Muses"]
+        "manifestations": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "nine choirs of angels"
+          },
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "nine months of gestation"
+          },
+          "nine Muses"
+        ]
       },
       "ten": {
         "geometric_form": "Decagon",
-        "spiritual_principle": "Perfect completion and return to unity",
-        "tarot_correspondences": ["Wheel of Fortune", "Ten cards", "Tree of Life"],
-        "quote": "Ten contains all numbers and therefore all things, being the perfect completion of numerical series.",
+        "spiritual_principle": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Perfect completion and return to unity"
+        },
+        "tarot_correspondences": [
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wheel of Fortune"
+          },
+          "Ten cards",
+          {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Tree of Life"
+          }
+        ],
+        "quote": {
+          "citation_key": "Pythagoras-Mathematical_Principles",
+          "text": "Ten contains all numbers and therefore all things, being the perfect completion of numerical series."
+        },
         "author": "Pythagoras",
         "source": "Mathematical Principles",
-        "manifestations": ["ten Sephiroth", "ten commandments", "decimal system", "tetractys"]
+        "manifestations": [
+          "ten Sephiroth",
+          "ten commandments",
+          "decimal system",
+          "tetractys"
+        ]
       }
     }
   },
   "platonic_solids": {
-    "description": "The five regular polyhedra that represent the building blocks of reality",
-    "quote": "God ever geometrizes, and the Platonic solids reveal the mathematical perfection underlying all physical manifestation.",
+    "description": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The five regular polyhedra that represent the building blocks of reality"
+    },
+    "quote": {
+      "citation_key": "Plato-Timaeus",
+      "text": "God ever geometrizes, and the Platonic solids reveal the mathematical perfection underlying all physical manifestation."
+    },
     "author": "Plato",
     "source": "Timaeus",
     "tetrahedron": {
@@ -105,13 +301,32 @@
       "faces": 4,
       "vertices": 4,
       "edges": 6,
-      "tarot_cards": ["The Tower", "Ace of Wands", "The Sun"],
-      "spiritual_meaning": "Divine spark and creative fire",
-      "psychological_aspect": "Will and directed energy",
-      "quote": "The tetrahedron represents the fire element, the most penetrating and active of all forms.",
+      "tarot_cards": [
+        "The Tower",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ace of Wands"
+        },
+        "The Sun"
+      ],
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Divine spark and creative fire"
+      },
+      "psychological_aspect": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Will and directed energy"
+      },
+      "quote": {
+        "citation_key": "Plato-Timaeus",
+        "text": "The tetrahedron represents the fire element, the most penetrating and active of all forms."
+      },
       "author": "Plato",
       "source": "Timaeus",
-      "meditation_use": "Activating personal will and creative power",
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Activating personal will and creative power"
+      },
       "chakra_correspondence": "Solar Plexus",
       "color": "Red/Orange"
     },
@@ -120,13 +335,32 @@
       "faces": 6,
       "vertices": 8,
       "edges": 12,
-      "tarot_cards": ["The World", "Four of Pentacles", "The Emperor"],
-      "spiritual_meaning": "Stability and material manifestation",
-      "psychological_aspect": "Grounding and practical application",
-      "quote": "The cube represents earth in its stable, foundational aspect, providing the base for all construction.",
+      "tarot_cards": [
+        "The World",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Four of Pentacles"
+        },
+        "The Emperor"
+      ],
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Stability and material manifestation"
+      },
+      "psychological_aspect": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Grounding and practical application"
+      },
+      "quote": {
+        "citation_key": "Plato-Timaeus",
+        "text": "The cube represents earth in its stable, foundational aspect, providing the base for all construction."
+      },
       "author": "Plato",
       "source": "Timaeus",
-      "meditation_use": "Grounding spiritual insights into practical reality",
+      "meditation_use": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Grounding spiritual insights into practical reality"
+      },
       "chakra_correspondence": "Root",
       "color": "Brown/Green"
     },
@@ -135,13 +369,32 @@
       "faces": 8,
       "vertices": 6,
       "edges": 12,
-      "tarot_cards": ["The Fool", "Ace of Swords", "Justice"],
-      "spiritual_meaning": "Mental clarity and communication",
-      "psychological_aspect": "Thought and intellectual understanding",
-      "quote": "The octahedron embodies the air element, representing the realm of thought and communication.",
+      "tarot_cards": [
+        "The Fool",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ace of Swords"
+        },
+        "Justice"
+      ],
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Mental clarity and communication"
+      },
+      "psychological_aspect": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Thought and intellectual understanding"
+      },
+      "quote": {
+        "citation_key": "Plato-Timaeus",
+        "text": "The octahedron embodies the air element, representing the realm of thought and communication."
+      },
       "author": "Plato",
       "source": "Timaeus",
-      "meditation_use": "Clarifying thoughts and improving communication",
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Clarifying thoughts and improving communication"
+      },
       "chakra_correspondence": "Throat",
       "color": "Yellow/Blue"
     },
@@ -150,13 +403,32 @@
       "faces": 20,
       "vertices": 12,
       "edges": 30,
-      "tarot_cards": ["The Moon", "Ace of Cups", "The High Priestess"],
-      "spiritual_meaning": "Emotional flow and intuitive wisdom",
-      "psychological_aspect": "Feelings and unconscious processes",
-      "quote": "The icosahedron represents water in its flowing, adaptive nature, embodying emotional and intuitive wisdom.",
+      "tarot_cards": [
+        "The Moon",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Ace of Cups"
+        },
+        "The High Priestess"
+      ],
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Emotional flow and intuitive wisdom"
+      },
+      "psychological_aspect": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Feelings and unconscious processes"
+      },
+      "quote": {
+        "citation_key": "Plato-Timaeus",
+        "text": "The icosahedron represents water in its flowing, adaptive nature, embodying emotional and intuitive wisdom."
+      },
       "author": "Plato",
       "source": "Timaeus",
-      "meditation_use": "Enhancing emotional intelligence and intuition",
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Enhancing emotional intelligence and intuition"
+      },
       "chakra_correspondence": "Sacral",
       "color": "Blue/Silver"
     },
@@ -165,201 +437,533 @@
       "faces": 12,
       "vertices": 20,
       "edges": 30,
-      "tarot_cards": ["The World", "The Magician", "The Star"],
-      "spiritual_meaning": "Universal consciousness and divine connection",
-      "psychological_aspect": "Higher consciousness and spiritual awareness",
-      "quote": "The dodecahedron represents the fifth element, ether, which contains and transcends all other elements.",
+      "tarot_cards": [
+        "The World",
+        "The Magician",
+        "The Star"
+      ],
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Universal consciousness and divine connection"
+      },
+      "psychological_aspect": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Higher consciousness and spiritual awareness"
+      },
+      "quote": {
+        "citation_key": "Plato-Timaeus",
+        "text": "The dodecahedron represents the fifth element, ether, which contains and transcends all other elements."
+      },
       "author": "Plato",
       "source": "Timaeus",
-      "meditation_use": "Connecting with universal consciousness",
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Connecting with universal consciousness"
+      },
       "chakra_correspondence": "Crown",
       "color": "Violet/White"
     }
   },
   "sacred_patterns": {
     "flower_of_life": {
-      "description": "The fundamental pattern of creation containing all geometric forms",
-      "construction": "19 overlapping circles in hexagonal pattern",
-      "tarot_relevance": "Contains the structure of the Tree of Life and all Major Arcana relationships",
-      "quote": "The Flower of Life is the template of creation, containing within its simple pattern the blueprint for all existence.",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The fundamental pattern of creation containing all geometric forms"
+      },
+      "construction": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "19 overlapping circles in hexagonal pattern"
+      },
+      "tarot_relevance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Contains the structure of the Tree of Life and all Major Arcana relationships"
+      },
+      "quote": {
+        "citation_key": "Drunvalo_Melchizedek-The_Ancient_Secret_of_the_Flower_of_Life",
+        "text": "The Flower of Life is the template of creation, containing within its simple pattern the blueprint for all existence."
+      },
       "author": "Drunvalo Melchizedek",
       "source": "The Ancient Secret of the Flower of Life",
-      "contained_patterns": ["Tree of Life", "Platonic Solids", "Golden Ratio", "Seed of Life"],
-      "spiritual_meaning": "The fundamental pattern from which all creation emerges",
-      "meditation_practice": "Visualizing to connect with creative source energy",
+      "contained_patterns": [
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Tree of Life"
+        },
+        "Platonic Solids",
+        "Golden Ratio",
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Seed of Life"
+        }
+      ],
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The fundamental pattern from which all creation emerges"
+      },
+      "meditation_practice": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Visualizing to connect with creative source energy"
+      },
       "applications": {
-        "tarot_layout": "Cards can be arranged following Flower of Life pattern",
-        "energy_work": "Activates connection to universal life force",
-        "manifestation": "Supports bringing ideas into physical reality"
+        "tarot_layout": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Cards can be arranged following Flower of Life pattern"
+        },
+        "energy_work": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Activates connection to universal life force"
+        },
+        "manifestation": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Supports bringing ideas into physical reality"
+        }
       }
     },
     "seed_of_life": {
-      "description": "Seven overlapping circles representing the seven days of creation",
-      "construction": "Seven circles in hexagonal pattern",
-      "tarot_relevance": "Represents the seven stages of spiritual development",
-      "quote": "The Seed of Life contains the seven fundamental frequencies that create the notes, colors, and forms of existence.",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Seven overlapping circles representing the seven days of creation"
+      },
+      "construction": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Seven circles in hexagonal pattern"
+      },
+      "tarot_relevance": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Represents the seven stages of spiritual development"
+      },
+      "quote": {
+        "citation_key": "Jonathan_Goldman-Healing_Sounds",
+        "text": "The Seed of Life contains the seven fundamental frequencies that create the notes, colors, and forms of existence."
+      },
       "author": "Jonathan Goldman",
       "source": "Healing Sounds",
-      "spiritual_meaning": "The primordial pattern of creation and manifestation",
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The primordial pattern of creation and manifestation"
+      },
       "days_of_creation": [
-        "Day 1: Light/Consciousness - The Magician",
-        "Day 2: Heaven/Sky - The High Priestess", 
-        "Day 3: Earth/Sea - The Empress",
-        "Day 4: Sun/Moon/Stars - The Emperor",
-        "Day 5: Fish/Birds - The Hierophant",
-        "Day 6: Animals/Humans - The Lovers",
-        "Day 7: Rest/Completion - The Chariot"
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Day 1: Light/Consciousness - The Magician"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Day 2: Heaven/Sky - The High Priestess"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Day 3: Earth/Sea - The Empress"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Day 4: Sun/Moon/Stars - The Emperor"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Day 5: Fish/Birds - The Hierophant"
+        },
+        {
+          "citation_key": "Ted_Andrews-Animal-Speak",
+          "text": "Day 6: Animals/Humans - The Lovers"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Day 7: Rest/Completion - The Chariot"
+        }
       ]
     },
     "tree_of_life": {
-      "description": "The Kabbalistic diagram of divine emanation",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The Kabbalistic diagram of divine emanation"
+      },
       "sephiroth": 10,
       "paths": 22,
-      "tarot_correlation": "22 Major Arcana correspond to the 22 paths",
-      "quote": "The Tree of Life is the map of consciousness, showing the journey from divine unity to material manifestation.",
+      "tarot_correlation": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "22 Major Arcana correspond to the 22 paths"
+      },
+      "quote": {
+        "citation_key": "Dion_Fortune-The_Mystical_Qabalah",
+        "text": "The Tree of Life is the map of consciousness, showing the journey from divine unity to material manifestation."
+      },
       "author": "Dion Fortune",
       "source": "The Mystical Qabalah",
-      "geometric_base": "Based on overlapping circles and triangular relationships",
-      "sacred_geometry": "Contains golden ratio proportions and perfect geometric relationships",
-      "meditation_use": "Pathworking through the spheres for spiritual development"
+      "geometric_base": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Based on overlapping circles and triangular relationships"
+      },
+      "sacred_geometry": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Contains golden ratio proportions and perfect geometric relationships"
+      },
+      "meditation_use": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Pathworking through the spheres for spiritual development"
+      }
     },
     "sri_yantra": {
-      "description": "The most complex and powerful of all yantras",
-      "construction": "Nine interlocking triangles around central point",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The most complex and powerful of all yantras"
+      },
+      "construction": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Nine interlocking triangles around central point"
+      },
       "triangles": {
         "upward": 4,
         "downward": 5,
-        "meaning": "Union of Shiva (consciousness) and Shakti (energy)"
+        "meaning": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Union of Shiva (consciousness) and Shakti (energy)"
+        }
       },
-      "tarot_relevance": "Represents the complex interplay of forces in any reading",
-      "quote": "The Sri Yantra is the visual representation of the cosmic sound OM and contains within it all the secrets of creation.",
+      "tarot_relevance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Represents the complex interplay of forces in any reading"
+      },
+      "quote": {
+        "citation_key": "Swami_Satyananda_Saraswati-Yantra_Yoga",
+        "text": "The Sri Yantra is the visual representation of the cosmic sound OM and contains within it all the secrets of creation."
+      },
       "author": "Swami Satyananda Saraswati",
       "source": "Yantra Yoga",
-      "spiritual_purpose": "Meditation tool for attaining cosmic consciousness",
-      "geometric_significance": "Perfect mathematical relationships creating harmony"
+      "spiritual_purpose": {
+        "citation_key": "Shakti_Gawain-Chakra_Meditation",
+        "text": "Meditation tool for attaining cosmic consciousness"
+      },
+      "geometric_significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Perfect mathematical relationships creating harmony"
+      }
     },
     "vesica_piscis": {
-      "description": "The intersection of two circles representing divine birth",
-      "construction": "Two circles of same radius intersecting through centers",
-      "symbolism": "Portal between worlds, divine birth, Christ consciousness",
-      "tarot_cards": ["The High Priestess", "The World", "Temperance"],
-      "quote": "The Vesica Piscis is the womb of the universe, the geometric form through which divine consciousness enters manifestation.",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The intersection of two circles representing divine birth"
+      },
+      "construction": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Two circles of same radius intersecting through centers"
+      },
+      "symbolism": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Portal between worlds, divine birth, Christ consciousness"
+      },
+      "tarot_cards": [
+        "The High Priestess",
+        "The World",
+        "Temperance"
+      ],
+      "quote": {
+        "citation_key": "John_Michell-The_Dimensions_of_Paradise",
+        "text": "The Vesica Piscis is the womb of the universe, the geometric form through which divine consciousness enters manifestation."
+      },
       "author": "John Michell",
       "source": "The Dimensions of Paradise",
-      "mathematical_properties": "Contains square root of 3, basis for many sacred proportions",
-      "spiritual_meaning": "The intersection of spirit and matter",
-      "applications": "Used in sacred architecture and mystical meditation"
+      "mathematical_properties": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Contains square root of 3, basis for many sacred proportions"
+      },
+      "spiritual_meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The intersection of spirit and matter"
+      },
+      "applications": {
+        "citation_key": "Shakti_Gawain-Chakra_Meditation",
+        "text": "Used in sacred architecture and mystical meditation"
+      }
     }
   },
   "geometric_meditation": {
-    "description": "Using sacred geometric forms for spiritual development",
-    "quote": "Geometry is knowledge of the eternally existent, drawing the soul towards truth and producing philosophical understanding.",
+    "description": {
+      "citation_key": "Starhawk-The_Spiral_Dance",
+      "text": "Using sacred geometric forms for spiritual development"
+    },
+    "quote": {
+      "citation_key": "Plato-Republic",
+      "text": "Geometry is knowledge of the eternally existent, drawing the soul towards truth and producing philosophical understanding."
+    },
     "author": "Plato",
     "source": "Republic",
     "circle_meditation": {
       "form": "Circle",
-      "meaning": "Unity, wholeness, infinity",
-      "practice": "Visualizing expanding circles of light",
-      "tarot_application": "Understanding the cyclical nature of the Major Arcana",
-      "spiritual_benefit": "Connects with divine unity and completeness",
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Unity, wholeness, infinity"
+      },
+      "practice": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Visualizing expanding circles of light"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Understanding the cyclical nature of the Major Arcana"
+      },
+      "spiritual_benefit": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Connects with divine unity and completeness"
+      },
       "chakra_focus": "Crown"
     },
     "triangle_meditation": {
       "form": "Triangle",
-      "meaning": "Dynamic balance, trinity, ascension",
-      "practice": "Visualizing upward-pointing triangle of light",
-      "tarot_application": "Understanding the three levels of each card meaning",
-      "spiritual_benefit": "Activates spiritual ascension and balance",
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Dynamic balance, trinity, ascension"
+      },
+      "practice": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Visualizing upward-pointing triangle of light"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Understanding the three levels of each card meaning"
+      },
+      "spiritual_benefit": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Activates spiritual ascension and balance"
+      },
       "chakra_focus": "Heart"
     },
     "square_meditation": {
       "form": "Square",
-      "meaning": "Stability, manifestation, grounding",
-      "practice": "Visualizing cube of golden light",
-      "tarot_application": "Grounding spiritual insights into practical reality",
-      "spiritual_benefit": "Creates stability and manifestation power",
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Stability, manifestation, grounding"
+      },
+      "practice": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Visualizing cube of golden light"
+      },
+      "tarot_application": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Grounding spiritual insights into practical reality"
+      },
+      "spiritual_benefit": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Creates stability and manifestation power"
+      },
       "chakra_focus": "Root"
     },
     "spiral_meditation": {
       "form": "Golden Spiral",
-      "meaning": "Evolution, growth, divine proportion",
-      "practice": "Following spiral path in visualization",
-      "tarot_application": "Understanding the evolutionary journey through the cards",
-      "spiritual_benefit": "Aligns with natural growth and divine harmony",
-      "chakra_focus": "All chakras in sequence"
+      "meaning": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Evolution, growth, divine proportion"
+      },
+      "practice": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Following spiral path in visualization"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Understanding the evolutionary journey through the cards"
+      },
+      "spiritual_benefit": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Aligns with natural growth and divine harmony"
+      },
+      "chakra_focus": {
+        "citation_key": "Anodea_Judith-Wheels_of_Life",
+        "text": "All chakras in sequence"
+      }
     }
   },
   "architectural_sacred_geometry": {
-    "description": "Sacred geometric principles in spiritual architecture",
-    "quote": "Sacred architecture is frozen music, embodying in stone the mathematical harmonies of the divine order.",
+    "description": {
+      "citation_key": "Starhawk-The_Spiral_Dance",
+      "text": "Sacred geometric principles in spiritual architecture"
+    },
+    "quote": {
+      "citation_key": "Johann_Wolfgang_von_Goethe-On_Architecture",
+      "text": "Sacred architecture is frozen music, embodying in stone the mathematical harmonies of the divine order."
+    },
     "author": "Johann Wolfgang von Goethe",
     "source": "On Architecture",
     "pyramids": {
-      "geometric_principle": "Based on golden ratio and pi relationships",
-      "spiritual_function": "Consciousness amplification and preservation",
-      "tarot_relevance": "Represents the hierarchical journey of spiritual development",
-      "energy_properties": "Focuses and concentrates cosmic energy",
-      "meditation_use": "Pyramid visualization for spiritual ascension"
+      "geometric_principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Based on golden ratio and pi relationships"
+      },
+      "spiritual_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Consciousness amplification and preservation"
+      },
+      "tarot_relevance": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Represents the hierarchical journey of spiritual development"
+      },
+      "energy_properties": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Focuses and concentrates cosmic energy"
+      },
+      "meditation_use": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Pyramid visualization for spiritual ascension"
+      }
     },
     "gothic_cathedrals": {
-      "geometric_principle": "Based on vesica piscis and golden ratio",
-      "spiritual_function": "Elevating consciousness toward divine",
-      "tarot_relevance": "Architectural representation of the spiritual journey",
-      "design_elements": ["pointed arches", "rose windows", "sacred proportions"],
-      "energy_properties": "Creates upward flow of spiritual energy"
+      "geometric_principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Based on vesica piscis and golden ratio"
+      },
+      "spiritual_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Elevating consciousness toward divine"
+      },
+      "tarot_relevance": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Architectural representation of the spiritual journey"
+      },
+      "design_elements": [
+        "pointed arches",
+        "rose windows",
+        "sacred proportions"
+      ],
+      "energy_properties": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Creates upward flow of spiritual energy"
+      }
     },
     "stone_circles": {
-      "geometric_principle": "Circular form with astronomical alignments",
-      "spiritual_function": "Connection between earth and cosmic cycles",
-      "tarot_relevance": "Represents the eternal cycles shown in cards",
-      "energy_properties": "Amplifies earth energy and cosmic connection",
-      "meditation_use": "Circle walking for integration and completion"
+      "geometric_principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Circular form with astronomical alignments"
+      },
+      "spiritual_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Connection between earth and cosmic cycles"
+      },
+      "tarot_relevance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Represents the eternal cycles shown in cards"
+      },
+      "energy_properties": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Amplifies earth energy and cosmic connection"
+      },
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Circle walking for integration and completion"
+      }
     },
     "mandalas": {
-      "geometric_principle": "Radial symmetry around central point",
-      "spiritual_function": "Integration of consciousness and cosmic order",
-      "tarot_relevance": "The World card as ultimate mandala of completion",
-      "construction": "Based on circle, square, and triangle relationships",
-      "meditation_use": "Contemplation for psychological integration"
+      "geometric_principle": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Radial symmetry around central point"
+      },
+      "spiritual_function": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Integration of consciousness and cosmic order"
+      },
+      "tarot_relevance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "The World card as ultimate mandala of completion"
+      },
+      "construction": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Based on circle, square, and triangle relationships"
+      },
+      "meditation_use": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Contemplation for psychological integration"
+      }
     }
   },
   "numerical_geometry": {
-    "description": "The geometric forms that emerge from numerical relationships",
+    "description": {
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "The geometric forms that emerge from numerical relationships"
+    },
     "tetractys": {
-      "description": "Triangular figure of ten points arranged in four rows",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Triangular figure of ten points arranged in four rows"
+      },
       "construction": "1+2+3+4 = 10",
-      "significance": "Contains all numerical relationships",
-      "tarot_application": "Template for understanding suit progressions",
-      "quote": "The tetractys contains the harmonic ratios of the musical intervals and the secret of cosmic harmony.",
+      "significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Contains all numerical relationships"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Template for understanding suit progressions"
+      },
+      "quote": {
+        "citation_key": "Pythagoras-Sacred_Mathematics",
+        "text": "The tetractys contains the harmonic ratios of the musical intervals and the secret of cosmic harmony."
+      },
       "author": "Pythagoras",
       "source": "Sacred Mathematics",
       "rows_meaning": [
-        "1: Unity/Monad - Aces",
-        "2: Duality/Dyad - Twos", 
-        "3: Trinity/Triad - Threes",
-        "4: Material World/Tetrad - Fours"
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "1: Unity/Monad - Aces"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "2: Duality/Dyad - Twos"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "3: Trinity/Triad - Threes"
+        },
+        {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "4: Material World/Tetrad - Fours"
+        }
       ],
-      "meditation_practice": "Contemplating the progression from unity to manifestation"
+      "meditation_practice": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Contemplating the progression from unity to manifestation"
+      }
     },
     "magic_squares": {
-      "description": "Square arrays where rows, columns, and diagonals sum to same number",
-      "spiritual_significance": "Mathematical perfection reflecting divine order",
-      "tarot_application": "Understanding numerical relationships between cards",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Square arrays where rows, columns, and diagonals sum to same number"
+      },
+      "spiritual_significance": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Mathematical perfection reflecting divine order"
+      },
+      "tarot_application": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Understanding numerical relationships between cards"
+      },
       "types": {
         "3x3": {
           "magic_constant": 15,
           "planet": "Saturn",
-          "tarot_cards": ["The World", "Three cards", "Saturn-ruled cards"]
+          "tarot_cards": [
+            "The World",
+            "Three cards",
+            "Saturn-ruled cards"
+          ]
         },
         "4x4": {
           "magic_constant": 34,
-          "planet": "Jupiter", 
-          "tarot_cards": ["Wheel of Fortune", "Four cards", "Jupiter-ruled cards"]
+          "planet": "Jupiter",
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wheel of Fortune"
+            },
+            "Four cards",
+            "Jupiter-ruled cards"
+          ]
         },
         "5x5": {
           "magic_constant": 65,
           "planet": "Mars",
-          "tarot_cards": ["The Tower", "Five cards", "Mars-ruled cards"]
+          "tarot_cards": [
+            "The Tower",
+            "Five cards",
+            "Mars-ruled cards"
+          ]
         }
       }
     }

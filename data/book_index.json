@@ -1,0 +1,917 @@
+{
+  "The_Three_Initiates-The_Kybalion": {
+    "title": "The Kybalion",
+    "author": "The Three Initiates",
+    "url": "#"
+  },
+  "James_Allen-As_a_Man_Thinketh": {
+    "title": "As a Man Thinketh",
+    "author": "James Allen",
+    "url": "#"
+  },
+  "Hermes_Trismegistus-The_Emerald_Tablet": {
+    "title": "The Emerald Tablet",
+    "author": "Hermes Trismegistus",
+    "url": "#"
+  },
+  "Nikola_Tesla-Scientific_Principles": {
+    "title": "Scientific Principles",
+    "author": "Nikola Tesla",
+    "url": "#"
+  },
+  "Ecclesiastes-Bible_Ecclesiastes_31": {
+    "title": "Bible, Ecclesiastes 3:1",
+    "author": "Ecclesiastes",
+    "url": "#"
+  },
+  "Swami_Vivekananda-Raja_Yoga": {
+    "title": "Raja Yoga",
+    "author": "Swami Vivekananda",
+    "url": "#"
+  },
+  "Paracelsus-Archidoxes_of_Magic": {
+    "title": "Archidoxes of Magic",
+    "author": "Paracelsus",
+    "url": "#"
+  },
+  "Manly_P_Hall-The_Secret_Teachings_of_All_Ages": {
+    "title": "The Secret Teachings of All Ages",
+    "author": "Manly P. Hall",
+    "url": "#"
+  },
+  "Carl_Jung-Psychology_and_Alchemy": {
+    "title": "Psychology and Alchemy",
+    "author": "Carl Jung",
+    "url": "#"
+  },
+  "AE_Waite-The_Secret_Tradition_in_Alchemy": {
+    "title": "The Secret Tradition in Alchemy",
+    "author": "A.E. Waite",
+    "url": "#"
+  },
+  "Marie-Louise_von_Franz-Alchemy_An_Introduction_to_the_Symbolism_and_the_Psychology": {
+    "title": "Alchemy: An Introduction to the Symbolism and the Psychology",
+    "author": "Marie-Louise von Franz",
+    "url": "#"
+  },
+  "Basil_Valentine-The_Twelve_Keys_of_Basil_Valentine": {
+    "title": "The Twelve Keys of Basil Valentine",
+    "author": "Basil Valentine",
+    "url": "#"
+  },
+  "Nicholas_Flamel-The_Summary_of_Philosophy": {
+    "title": "The Summary of Philosophy",
+    "author": "Nicholas Flamel",
+    "url": "#"
+  },
+  "Ramon_Llull-The_Tree_of_Life": {
+    "title": "The Tree of Life",
+    "author": "Ramon Llull",
+    "url": "#"
+  },
+  "Zosimos_of_Panopolis-On_the_Letter_Omega": {
+    "title": "On the Letter Omega",
+    "author": "Zosimos of Panopolis",
+    "url": "#"
+  },
+  "George_Ripley-The_Compound_of_Alchemy": {
+    "title": "The Compound of Alchemy",
+    "author": "George Ripley",
+    "url": "#"
+  },
+  "John_Dee-Monas_Hieroglyphica": {
+    "title": "Monas Hieroglyphica",
+    "author": "John Dee",
+    "url": "#"
+  },
+  "Michael_Maier-Atalanta_Fugiens": {
+    "title": "Atalanta Fugiens",
+    "author": "Michael Maier",
+    "url": "#"
+  },
+  "Pseudo-Democritus-Physica_et_Mystica": {
+    "title": "Physica et Mystica",
+    "author": "Pseudo-Democritus",
+    "url": "#"
+  },
+  "Gerhard_Dorn-Speculativae_philosophiae": {
+    "title": "Speculativae philosophiae",
+    "author": "Gerhard Dorn",
+    "url": "#"
+  },
+  "Paracelsus-The_Hermetic_and_Alchemical_Writings": {
+    "title": "The Hermetic and Alchemical Writings",
+    "author": "Paracelsus",
+    "url": "#"
+  },
+  "Carl_Jung-Man_and_His_Symbols": {
+    "title": "Man and His Symbols",
+    "author": "Carl Jung",
+    "url": "#"
+  },
+  "Gerhard_Dorn-De_tenebris_contra_naturam": {
+    "title": "De tenebris contra naturam",
+    "author": "Gerhard Dorn",
+    "url": "#"
+  },
+  "Paracelsus-Opus_Paramirum": {
+    "title": "Opus Paramirum",
+    "author": "Paracelsus",
+    "url": "#"
+  },
+  "Ptolemy-Tetrabiblos": {
+    "title": "Tetrabiblos",
+    "author": "Ptolemy",
+    "url": "#"
+  },
+  "Al-Kindi-On_the_Stellar_Rays": {
+    "title": "On the Stellar Rays",
+    "author": "Al-Kindi",
+    "url": "#"
+  },
+  "Dane_Rudhyar-The_Astrological_Houses_The_Spectrum_of_Individual_Experience": {
+    "title": "The Astrological Houses: The Spectrum of Individual Experience",
+    "author": "Dane Rudhyar",
+    "url": "#"
+  },
+  "Liz_Greene-The_Art_of_Stealing_Fire_A_Re-visioning_of_the_Astrological_wheel": {
+    "title": "The Art of Stealing Fire: A Re-visioning of the Astrological wheel",
+    "author": "Liz Greene",
+    "url": "#"
+  },
+  "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living": {
+    "title": "Planets in Transit: Life Cycles for Living",
+    "author": "Robert Hand",
+    "url": "#"
+  },
+  "Mary_K_Greer-Tarot_for_Your_Self": {
+    "title": "Tarot for Your Self",
+    "author": "Mary K. Greer",
+    "url": "#"
+  },
+  "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom": {
+    "title": "Seventy-Eight Degrees of Wisdom",
+    "author": "Rachel Pollack",
+    "url": "#"
+  },
+  "Mary_K_Greer-Understanding_the_Tarot_Court": {
+    "title": "Understanding the Tarot Court",
+    "author": "Mary K. Greer",
+    "url": "#"
+  },
+  "Rachel_Pollack-Tarot_Wisdom": {
+    "title": "Tarot Wisdom",
+    "author": "Rachel Pollack",
+    "url": "#"
+  },
+  "Anodea_Judith-Wheels_of_Life": {
+    "title": "Wheels of Life",
+    "author": "Anodea Judith",
+    "url": "#"
+  },
+  "Caroline_Myss-Anatomy_of_the_Spirit": {
+    "title": "Anatomy of the Spirit",
+    "author": "Caroline Myss",
+    "url": "#"
+  },
+  "Anodea_Judith-Eastern_Body_Western_Mind": {
+    "title": "Eastern Body, Western Mind",
+    "author": "Anodea Judith",
+    "url": "#"
+  },
+  "Osho-Chakra_Meditation": {
+    "title": "Chakra Meditation",
+    "author": "Osho",
+    "url": "#"
+  },
+  "Deepak_Chopra-The_Seven_Spiritual_Laws_of_Success": {
+    "title": "The Seven Spiritual Laws of Success",
+    "author": "Deepak Chopra",
+    "url": "#"
+  },
+  "Shakti_Gawain-Chakra_Meditation": {
+    "title": "Chakra Meditation",
+    "author": "Shakti Gawain",
+    "url": "#"
+  },
+  "Paramahansa_Yogananda-Autobiography_of_a_Yogi": {
+    "title": "Autobiography of a Yogi",
+    "author": "Paramahansa Yogananda",
+    "url": "#"
+  },
+  "Swami_Muktananda-Play_of_Consciousness": {
+    "title": "Play of Consciousness",
+    "author": "Swami Muktananda",
+    "url": "#"
+  },
+  "Barbara_Brennan-Hands_of_Light": {
+    "title": "Hands of Light",
+    "author": "Barbara Brennan",
+    "url": "#"
+  },
+  "Barbara_Ann_Brennan-Light_Emerging": {
+    "title": "Light Emerging",
+    "author": "Barbara Ann Brennan",
+    "url": "#"
+  },
+  "Ted_Kaptchuk-The_Web_That_Has_No_Weaver": {
+    "title": "The Web That Has No Weaver",
+    "author": "Ted Kaptchuk",
+    "url": "#"
+  },
+  "Swami_Muktananda-Kundalini_The_Secret_of_Life": {
+    "title": "Kundalini: The Secret of Life",
+    "author": "Swami Muktananda",
+    "url": "#"
+  },
+  "Johann_Wolfgang_von_Goethe-Theory_of_Colors": {
+    "title": "Theory of Colors",
+    "author": "Johann Wolfgang von Goethe",
+    "url": "#"
+  },
+  "Faber_Birren-Color_Psychology_and_Color_Therapy": {
+    "title": "Color Psychology and Color Therapy",
+    "author": "Faber Birren",
+    "url": "#"
+  },
+  "Angela_Wright-The_Beginners_Guide_to_Color_Psychology": {
+    "title": "The Beginner's Guide to Color Psychology",
+    "author": "Angela Wright",
+    "url": "#"
+  },
+  "Rudolf_Steiner-The_Arts_and_Their_Mission": {
+    "title": "The Arts and Their Mission",
+    "author": "Rudolf Steiner",
+    "url": "#"
+  },
+  "Max_Luscher-The_Luscher_Color_Test": {
+    "title": "The Lüscher Color Test",
+    "author": "Max Lüscher",
+    "url": "#"
+  },
+  "Wassily_Kandinsky-Concerning_the_Spiritual_in_Art": {
+    "title": "Concerning the Spiritual in Art",
+    "author": "Wassily Kandinsky",
+    "url": "#"
+  },
+  "Alice_Bailey-Esoteric_Healing": {
+    "title": "Esoteric Healing",
+    "author": "Alice Bailey",
+    "url": "#"
+  },
+  "Charles_Leadbeater-Man_Visible_and_Invisible": {
+    "title": "Man Visible and Invisible",
+    "author": "Charles Leadbeater",
+    "url": "#"
+  },
+  "HP_Blavatsky-The_Secret_Doctrine": {
+    "title": "The Secret Doctrine",
+    "author": "H.P. Blavatsky",
+    "url": "#"
+  },
+  "Carl_Jung-Memories_Dreams_Reflections": {
+    "title": "Memories, Dreams, Reflections",
+    "author": "Carl Jung",
+    "url": "#"
+  },
+  "Josef_Albers-Interaction_of_Color": {
+    "title": "Interaction of Color",
+    "author": "Josef Albers",
+    "url": "#"
+  },
+  "Melody-Love_Is_In_The_Earth": {
+    "title": "Love Is In The Earth",
+    "author": "Melody",
+    "url": "#"
+  },
+  "Angeles_Arrien-The_Tarot_Handbook": {
+    "title": "The Tarot Handbook",
+    "author": "Angeles Arrien",
+    "url": "#"
+  },
+  "Carl_Gustav_Jung-Man_and_His_Symbols": {
+    "title": "Man and His Symbols",
+    "author": "Carl Gustav Jung",
+    "url": "#"
+  },
+  "EA_Wallis_Budge-Egyptian_Magic": {
+    "title": "Egyptian Magic",
+    "author": "E.A. Wallis Budge",
+    "url": "#"
+  },
+  "Miranda_Green-Celtic_Myths_and_Legends": {
+    "title": "Celtic Myths and Legends",
+    "author": "Miranda Green",
+    "url": "#"
+  },
+  "Swami_Satyananda_Saraswati-Yantra_Yoga": {
+    "title": "Yantra Yoga",
+    "author": "Swami Satyananda Saraswati",
+    "url": "#"
+  },
+  "Eva_Wong-Feng_Shui_The_Ancient_Wisdom_of_Harmonious_Living": {
+    "title": "Feng Shui: The Ancient Wisdom of Harmonious Living",
+    "author": "Eva Wong",
+    "url": "#"
+  },
+  "Sun_Bear-The_Medicine_Wheel": {
+    "title": "The Medicine Wheel",
+    "author": "Sun Bear",
+    "url": "#"
+  },
+  "Jason_Lotterhand-The_Thursday_Night_Tarot": {
+    "title": "The Thursday Night Tarot",
+    "author": "Jason Lotterhand",
+    "url": "#"
+  },
+  "Sigmund_Freud_adapted-The_Interpretation_of_Dreams": {
+    "title": "The Interpretation of Dreams",
+    "author": "Sigmund Freud (adapted)",
+    "url": "#"
+  },
+  "Gaston_Bachelard-Water_and_Dreams": {
+    "title": "Water and Dreams",
+    "author": "Gaston Bachelard",
+    "url": "#"
+  },
+  "Marie-Louise_von_Franz-Dreams_and_Death": {
+    "title": "Dreams and Death",
+    "author": "Marie-Louise von Franz",
+    "url": "#"
+  },
+  "Jeremy_Taylor-Where_People_Fly_and_Water_Runs_Uphill": {
+    "title": "Where People Fly and Water Runs Uphill",
+    "author": "Jeremy Taylor",
+    "url": "#"
+  },
+  "Stephen_LaBerge-Exploring_the_World_of_Lucid_Dreaming": {
+    "title": "Exploring the World of Lucid Dreaming",
+    "author": "Stephen LaBerge",
+    "url": "#"
+  },
+  "Patricia_Garfield-Creative_Dreaming": {
+    "title": "Creative Dreaming",
+    "author": "Patricia Garfield",
+    "url": "#"
+  },
+  "Edgar_Cayce-Dreams_and_Visions": {
+    "title": "Dreams and Visions",
+    "author": "Edgar Cayce",
+    "url": "#"
+  },
+  "Agrippa-Three_Books_of_Occult_Philosophy": {
+    "title": "Three Books of Occult Philosophy",
+    "author": "Agrippa",
+    "url": "#"
+  },
+  "Carl_Jung-The_Archetypes_and_the_Collective_Unconscious": {
+    "title": "The Archetypes and the Collective Unconscious",
+    "author": "Carl Jung",
+    "url": "#"
+  },
+  "Aristotle-Meteorology": {
+    "title": "Meteorology",
+    "author": "Aristotle",
+    "url": "#"
+  },
+  "Golden_Dawn_Tradition-The_Complete_Golden_Dawn_System_of_Magic": {
+    "title": "The Complete Golden Dawn System of Magic",
+    "author": "Golden Dawn Tradition",
+    "url": "#"
+  },
+  "Judith_Herman-Trauma_and_Recovery": {
+    "title": "Trauma and Recovery",
+    "author": "Judith Herman",
+    "url": "#"
+  },
+  "Thomas_Moore-Care_of_the_Soul": {
+    "title": "Care of the Soul",
+    "author": "Thomas Moore",
+    "url": "#"
+  },
+  "Gabor_Mate-In_the_Realm_of_Hungry_Ghosts": {
+    "title": "In the Realm of Hungry Ghosts",
+    "author": "Gabor Maté",
+    "url": "#"
+  },
+  "Marianne_Williamson-A_Return_to_Love": {
+    "title": "A Return to Love",
+    "author": "Marianne Williamson",
+    "url": "#"
+  },
+  "Zev_ben_Shimon_Halevi-A_Kabbalistic_Universe": {
+    "title": "A Kabbalistic Universe",
+    "author": "Z'ev ben Shimon Halevi",
+    "url": "#"
+  },
+  "Dion_Fortune-The_Mystical_Qabalah": {
+    "title": "The Mystical Qabalah",
+    "author": "Dion Fortune",
+    "url": "#"
+  },
+  "Gareth_Knight-A_Practical_Guide_to_Qabalistic_Symbolism": {
+    "title": "A Practical Guide to Qabalistic Symbolism",
+    "author": "Gareth Knight",
+    "url": "#"
+  },
+  "Israel_Regardie-The_Tree_of_Life": {
+    "title": "The Tree of Life",
+    "author": "Israel Regardie",
+    "url": "#"
+  },
+  "Aryeh_Kaplan-Sefer_Yetzirah_The_Book_of_Creation": {
+    "title": "Sefer Yetzirah: The Book of Creation",
+    "author": "Aryeh Kaplan",
+    "url": "#"
+  },
+  "AE_Waite-The_Holy_Kabbalah": {
+    "title": "The Holy Kabbalah",
+    "author": "A.E. Waite",
+    "url": "#"
+  },
+  "Paul_Foster_Case-The_Tarot_A_Key_to_the_Wisdom_of_the_Ages": {
+    "title": "The Tarot: A Key to the Wisdom of the Ages",
+    "author": "Paul Foster Case",
+    "url": "#"
+  },
+  "William_Gray-The_Ladder_of_Lights": {
+    "title": "The Ladder of Lights",
+    "author": "William Gray",
+    "url": "#"
+  },
+  "John_Michael_Greer-Paths_of_Wisdom": {
+    "title": "Paths of Wisdom",
+    "author": "John Michael Greer",
+    "url": "#"
+  },
+  "Aleister_Crowley-777_and_Other_Qabalistic_Writings": {
+    "title": "777 and Other Qabalistic Writings",
+    "author": "Aleister Crowley",
+    "url": "#"
+  },
+  "Violet_Firth_Dion_Fortune-The_Circuit_of_Force": {
+    "title": "The Circuit of Force",
+    "author": "Violet Firth (Dion Fortune)",
+    "url": "#"
+  },
+  "Gershom_Scholem-Major_Trends_in_Jewish_Mysticism": {
+    "title": "Major Trends in Jewish Mysticism",
+    "author": "Gershom Scholem",
+    "url": "#"
+  },
+  "Carlo_Suares-The_Cipher_of_Genesis": {
+    "title": "The Cipher of Genesis",
+    "author": "Carlo Suares",
+    "url": "#"
+  },
+  "Rabbi_Isaac_Luria-Lurianic_Kabbalah": {
+    "title": "Lurianic Kabbalah",
+    "author": "Rabbi Isaac Luria",
+    "url": "#"
+  },
+  "Adolphe_Franck-The_Kabbalah": {
+    "title": "The Kabbalah",
+    "author": "Adolphe Franck",
+    "url": "#"
+  },
+  "Papus-The_Tarot_of_the_Bohemians": {
+    "title": "The Tarot of the Bohemians",
+    "author": "Papus",
+    "url": "#"
+  },
+  "Eliphas_Levi-Transcendental_Magic": {
+    "title": "Transcendental Magic",
+    "author": "Eliphas Levi",
+    "url": "#"
+  },
+  "Fabre_dOlivet-The_Hebrew_Tongue_Restored": {
+    "title": "The Hebrew Tongue Restored",
+    "author": "Fabre d'Olivet",
+    "url": "#"
+  },
+  "Rabbi_Moses_Cordovero-Pardes_Rimonim": {
+    "title": "Pardes Rimonim",
+    "author": "Rabbi Moses Cordovero",
+    "url": "#"
+  },
+  "Johannes_Reuchlin-De_Arte_Cabalistica": {
+    "title": "De Arte Cabalistica",
+    "author": "Johannes Reuchlin",
+    "url": "#"
+  },
+  "Abraham_Abulafia-Sefer_ha-Ot": {
+    "title": "Sefer ha-Ot",
+    "author": "Abraham Abulafia",
+    "url": "#"
+  },
+  "Isaac_the_Blind-Commentary_on_Sefer_Yetzirah": {
+    "title": "Commentary on Sefer Yetzirah",
+    "author": "Isaac the Blind",
+    "url": "#"
+  },
+  "Nachmanides-Commentary_on_the_Torah": {
+    "title": "Commentary on the Torah",
+    "author": "Nachmanides",
+    "url": "#"
+  },
+  "Rabbi_Joseph_Gikatilla-Shaare_Orah": {
+    "title": "Sha'are Orah",
+    "author": "Rabbi Joseph Gikatilla",
+    "url": "#"
+  },
+  "Rabbi_Akiva-Talmudic_Teachings": {
+    "title": "Talmudic Teachings",
+    "author": "Rabbi Akiva",
+    "url": "#"
+  },
+  "Moses_de_Leon-Zohar": {
+    "title": "Zohar",
+    "author": "Moses de Leon",
+    "url": "#"
+  },
+  "Rabbi_Isaac_of_Acre-Meirat_Einayim": {
+    "title": "Me'irat Einayim",
+    "author": "Rabbi Isaac of Acre",
+    "url": "#"
+  },
+  "Abraham_ben_David-Kabbalah_and_Criticism": {
+    "title": "Kabbalah and Criticism",
+    "author": "Abraham ben David",
+    "url": "#"
+  },
+  "Rabbi_Azriel_of_Gerona-Commentary_on_the_Aggadot": {
+    "title": "Commentary on the Aggadot",
+    "author": "Rabbi Azriel of Gerona",
+    "url": "#"
+  },
+  "Rabbi_Moses_ben_Nachman-Rambans_Commentary": {
+    "title": "Ramban's Commentary",
+    "author": "Rabbi Moses ben Nachman",
+    "url": "#"
+  },
+  "Rabbi_Bahya_ben_Asher-Commentary_on_the_Torah": {
+    "title": "Commentary on the Torah",
+    "author": "Rabbi Bahya ben Asher",
+    "url": "#"
+  },
+  "Rabbi_Eleazar_of_Worms-Sefer_ha-Razim": {
+    "title": "Sefer ha-Razim",
+    "author": "Rabbi Eleazar of Worms",
+    "url": "#"
+  },
+  "Rabbi_Isaac_Luria-Etz_Chaim": {
+    "title": "Etz Chaim",
+    "author": "Rabbi Isaac Luria",
+    "url": "#"
+  },
+  "Rabbi_David_ben_Abraham-The_Fountain_of_Wisdom": {
+    "title": "The Fountain of Wisdom",
+    "author": "Rabbi David ben Abraham",
+    "url": "#"
+  },
+  "Angeles_Arrien-The_Tarot_Handbook_Practical_Applications_of_Ancient_Visual_Symbols": {
+    "title": "The Tarot Handbook: Practical Applications of Ancient Visual Symbols",
+    "author": "Angeles Arrien",
+    "url": "#"
+  },
+  "Joseph_Campbell-The_Hero_with_a_Thousand_Faces": {
+    "title": "The Hero with a Thousand Faces",
+    "author": "Joseph Campbell",
+    "url": "#"
+  },
+  "Carl_Gustav_Jung-Commentary_on_The_Secret_of_the_Golden_Flower": {
+    "title": "Commentary on The Secret of the Golden Flower",
+    "author": "Carl Gustav Jung",
+    "url": "#"
+  },
+  "EA_Wallis_Budge-The_Book_of_the_Dead": {
+    "title": "The Book of the Dead",
+    "author": "E.A. Wallis Budge",
+    "url": "#"
+  },
+  "Rudolf_Simek-Dictionary_of_Northern_Mythology": {
+    "title": "Dictionary of Northern Mythology",
+    "author": "Rudolf Simek",
+    "url": "#"
+  },
+  "Chandogya_Upanishad-Ancient_Vedic_Texts": {
+    "title": "Ancient Vedic Texts",
+    "author": "Chandogya Upanishad",
+    "url": "#"
+  },
+  "Buddha-Dhammapada": {
+    "title": "Dhammapada",
+    "author": "Buddha",
+    "url": "#"
+  },
+  "Native_American_Proverb-Traditional_Wisdom": {
+    "title": "Traditional Wisdom",
+    "author": "Native American Proverb",
+    "url": "#"
+  },
+  "Alice_Bailey-Esoteric_Astrology": {
+    "title": "Esoteric Astrology",
+    "author": "Alice Bailey",
+    "url": "#"
+  },
+  "John-Gospel_of_John_11": {
+    "title": "Gospel of John 1:1",
+    "author": "John",
+    "url": "#"
+  },
+  "Carl_Gustav_Jung-The_Psychology_of_the_Transference": {
+    "title": "The Psychology of the Transference",
+    "author": "Carl Gustav Jung",
+    "url": "#"
+  },
+  "Pythagoras-Sacred_Mathematics_of_the_Ancients": {
+    "title": "Sacred Mathematics of the Ancients",
+    "author": "Pythagoras",
+    "url": "#"
+  },
+  "Rudolf_Steiner-Spiritual_Science_and_Anthroposophy": {
+    "title": "Spiritual Science and Anthroposophy",
+    "author": "Rudolf Steiner",
+    "url": "#"
+  },
+  "Dane_Rudhyar-The_Astrology_of_Personality": {
+    "title": "The Astrology of Personality",
+    "author": "Dane Rudhyar",
+    "url": "#"
+  },
+  "Helena_P_Blavatsky-The_Secret_Doctrine": {
+    "title": "The Secret Doctrine",
+    "author": "Helena P. Blavatsky",
+    "url": "#"
+  },
+  "Alice_Bailey-Esoteric_Numerology": {
+    "title": "Esoteric Numerology",
+    "author": "Alice Bailey",
+    "url": "#"
+  },
+  "Max_Heindel-The_Rosicrucian_Cosmo-Conception": {
+    "title": "The Rosicrucian Cosmo-Conception",
+    "author": "Max Heindel",
+    "url": "#"
+  },
+  "Corinne_Heline-Sacred_Science_of_Numbers": {
+    "title": "Sacred Science of Numbers",
+    "author": "Corinne Heline",
+    "url": "#"
+  },
+  "Edgar_Cayce-Edgar_Cayce_on_Numbers": {
+    "title": "Edgar Cayce on Numbers",
+    "author": "Edgar Cayce",
+    "url": "#"
+  },
+  "Glynis_McCants-Glynis_Has_Your_Number": {
+    "title": "Glynis Has Your Number",
+    "author": "Glynis McCants",
+    "url": "#"
+  },
+  "Doreen_Virtue-Angel_Numbers_101": {
+    "title": "Angel Numbers 101",
+    "author": "Doreen Virtue",
+    "url": "#"
+  },
+  "Pythagoras-Fragments_and_testimonies": {
+    "title": "Fragments and testimonies",
+    "author": "Pythagoras",
+    "url": "#"
+  },
+  "Nikola_Tesla-On_the_Nature_of_Vibration": {
+    "title": "On the Nature of Vibration",
+    "author": "Nikola Tesla",
+    "url": "#"
+  },
+  "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs": {
+    "title": "Cunningham's Encyclopedia of Magical Herbs",
+    "author": "Scott Cunningham",
+    "url": "#"
+  },
+  "Marie-Louise_von_Franz-The_Interpretation_of_Fairy_Tales": {
+    "title": "The Interpretation of Fairy Tales",
+    "author": "Marie-Louise von Franz",
+    "url": "#"
+  },
+  "Clarissa_Pinkola_Estes-Women_Who_Run_With_the_Wolves": {
+    "title": "Women Who Run With the Wolves",
+    "author": "Clarissa Pinkola Estés",
+    "url": "#"
+  },
+  "Jean_Shinoda_Bolen-Goddesses_in_Everywoman": {
+    "title": "Goddesses in Everywoman",
+    "author": "Jean Shinoda Bolen",
+    "url": "#"
+  },
+  "Robert_Moore-King_Warrior_Magician_Lover": {
+    "title": "King, Warrior, Magician, Lover",
+    "author": "Robert Moore",
+    "url": "#"
+  },
+  "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life": {
+    "title": "Finding Meaning in the Second Half of Life",
+    "author": "James Hollis",
+    "url": "#"
+  },
+  "Verena_Kast-The_Nature_of_Loving": {
+    "title": "The Nature of Loving",
+    "author": "Verena Kast",
+    "url": "#"
+  },
+  "Aniela_Jaffe-The_Myth_of_Meaning": {
+    "title": "The Myth of Meaning",
+    "author": "Aniela Jaffé",
+    "url": "#"
+  },
+  "James_Hillman-Re-Visioning_Psychology": {
+    "title": "Re-Visioning Psychology",
+    "author": "James Hillman",
+    "url": "#"
+  },
+  "Edward_Edinger-The_Christian_Archetype": {
+    "title": "The Christian Archetype",
+    "author": "Edward Edinger",
+    "url": "#"
+  },
+  "Stanislav_Grof-Psychology_of_the_Future": {
+    "title": "Psychology of the Future",
+    "author": "Stanislav Grof",
+    "url": "#"
+  },
+  "Robert_Johnson-Owning_Your_Own_Shadow": {
+    "title": "Owning Your Own Shadow",
+    "author": "Robert Johnson",
+    "url": "#"
+  },
+  "John_Sanford-The_Man_Who_Wrestled_with_God": {
+    "title": "The Man Who Wrestled with God",
+    "author": "John Sanford",
+    "url": "#"
+  },
+  "Marion_Woodman-The_Pregnant_Virgin": {
+    "title": "The Pregnant Virgin",
+    "author": "Marion Woodman",
+    "url": "#"
+  },
+  "Marie-Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales": {
+    "title": "The Psychological Meaning of Redemption Motifs in Fairytales",
+    "author": "Marie-Louise von Franz",
+    "url": "#"
+  },
+  "John_Sanford-Mystical_Christianity": {
+    "title": "Mystical Christianity",
+    "author": "John Sanford",
+    "url": "#"
+  },
+  "Joseph_Campbell-A_Joseph_Campbell_Companion": {
+    "title": "A Joseph Campbell Companion",
+    "author": "Joseph Campbell",
+    "url": "#"
+  },
+  "Carl_Gustav_Jung-Psychology_and_Religion": {
+    "title": "Psychology and Religion",
+    "author": "Carl Gustav Jung",
+    "url": "#"
+  },
+  "Johannes_Kepler-Harmony_of_the_Worlds": {
+    "title": "Harmony of the Worlds",
+    "author": "Johannes Kepler",
+    "url": "#"
+  },
+  "Luca_Pacioli-De_Divina_Proportione": {
+    "title": "De Divina Proportione",
+    "author": "Luca Pacioli",
+    "url": "#"
+  },
+  "Aristotle-On_the_Heavens": {
+    "title": "On the Heavens",
+    "author": "Aristotle",
+    "url": "#"
+  },
+  "Pythagoras-Sacred_Mathematics": {
+    "title": "Sacred Mathematics",
+    "author": "Pythagoras",
+    "url": "#"
+  },
+  "St_Augustine-City_of_God": {
+    "title": "City of God",
+    "author": "St. Augustine",
+    "url": "#"
+  },
+  "Philo_of_Alexandria-On_the_Creation_of_the_World": {
+    "title": "On the Creation of the World",
+    "author": "Philo of Alexandria",
+    "url": "#"
+  },
+  "Clement_of_Alexandria-Stromata": {
+    "title": "Stromata",
+    "author": "Clement of Alexandria",
+    "url": "#"
+  },
+  "Pseudo-Dionysius-Celestial_Hierarchy": {
+    "title": "Celestial Hierarchy",
+    "author": "Pseudo-Dionysius",
+    "url": "#"
+  },
+  "Pythagoras-Mathematical_Principles": {
+    "title": "Mathematical Principles",
+    "author": "Pythagoras",
+    "url": "#"
+  },
+  "Plato-Timaeus": {
+    "title": "Timaeus",
+    "author": "Plato",
+    "url": "#"
+  },
+  "Drunvalo_Melchizedek-The_Ancient_Secret_of_the_Flower_of_Life": {
+    "title": "The Ancient Secret of the Flower of Life",
+    "author": "Drunvalo Melchizedek",
+    "url": "#"
+  },
+  "Jonathan_Goldman-Healing_Sounds": {
+    "title": "Healing Sounds",
+    "author": "Jonathan Goldman",
+    "url": "#"
+  },
+  "John_Michell-The_Dimensions_of_Paradise": {
+    "title": "The Dimensions of Paradise",
+    "author": "John Michell",
+    "url": "#"
+  },
+  "Plato-Republic": {
+    "title": "Republic",
+    "author": "Plato",
+    "url": "#"
+  },
+  "Johann_Wolfgang_von_Goethe-On_Architecture": {
+    "title": "On Architecture",
+    "author": "Johann Wolfgang von Goethe",
+    "url": "#"
+  },
+  "Mary_K_Greer-21_Ways_to_Read_a_Tarot_Card": {
+    "title": "21 Ways to Read a Tarot Card",
+    "author": "Mary K. Greer",
+    "url": "#"
+  },
+  "Rudolf_Steiner-The_Four_Temperaments": {
+    "title": "The Four Temperaments",
+    "author": "Rudolf Steiner",
+    "url": "#"
+  },
+  "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation": {
+    "title": "The Emerald Tablet: Alchemy for Personal Transformation",
+    "author": "Dennis William Hauck",
+    "url": "#"
+  },
+  "Hermes_Trismegistus-Corpus_Hermeticum": {
+    "title": "Corpus Hermeticum",
+    "author": "Hermes Trismegistus",
+    "url": "#"
+  },
+  "Liz_Greene-The_Astrology_of_Fate": {
+    "title": "The Astrology of Fate",
+    "author": "Liz Greene",
+    "url": "#"
+  },
+  "Stephen_Arroyo-Astrology_Psychology_and_the_Four_Elements": {
+    "title": "Astrology, Psychology and the Four Elements",
+    "author": "Stephen Arroyo",
+    "url": "#"
+  },
+  "Howard_Sasportas-The_Gods_of_Change": {
+    "title": "The Gods of Change",
+    "author": "Howard Sasportas",
+    "url": "#"
+  },
+  "Charles_Harvey-Mundane_Astrology": {
+    "title": "Mundane Astrology",
+    "author": "Charles Harvey",
+    "url": "#"
+  },
+  "Erin_Sullivan-Saturn_in_Transit": {
+    "title": "Saturn in Transit",
+    "author": "Erin Sullivan",
+    "url": "#"
+  },
+  "Richard_Tarnas-Prometheus_the_Awakener": {
+    "title": "Prometheus the Awakener",
+    "author": "Richard Tarnas",
+    "url": "#"
+  },
+  "Donna_Cunningham-An_Astrological_Guide_to_Self-Awareness": {
+    "title": "An Astrological Guide to Self-Awareness",
+    "author": "Donna Cunningham",
+    "url": "#"
+  },
+  "Jeff_Green-Pluto_The_Evolutionary_Journey_of_the_Soul": {
+    "title": "Pluto: The Evolutionary Journey of the Soul",
+    "author": "Jeff Green",
+    "url": "#"
+  },
+  "Ted_Andrews-Animal-Speak": {
+    "title": "Animal-Speak: The Spiritual & Magical Powers of Creatures Great & Small",
+    "author": "Ted Andrews",
+    "url": "#"
+  }
+}

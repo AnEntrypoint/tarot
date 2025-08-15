@@ -1,553 +1,1878 @@
 {
   "comprehensive_esoteric_system": {
-    "description": "Complete integration of all esoteric correspondences for advanced tarot practice and spiritual development",
-    "quote": "All spiritual traditions speak the same language when viewed through the lens of universal symbolism and cosmic correspondence.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Complete integration of all esoteric correspondences for advanced tarot practice and spiritual development"
+    },
+    "quote": {
+      "citation_key": "Manly_P__Hall-The_Secret_Teachings_of_All_Ages",
+      "text": "All spiritual traditions speak the same language when viewed through the lens of universal symbolism and cosmic correspondence."
+    },
     "author": "Manly P. Hall",
     "source": "The Secret Teachings of All Ages",
     "hermetic_principles": {
-      "description": "The seven Hermetic principles as they apply to tarot interpretation and spiritual development",
-      "quote": "As above, so below; as within, so without - the microcosm reflects the macrocosm in perfect correspondence.",
+      "description": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "The seven Hermetic principles as they apply to tarot interpretation and spiritual development"
+      },
+      "quote": {
+        "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet",
+        "text": "As above, so below; as within, so without - the microcosm reflects the macrocosm in perfect correspondence."
+      },
       "author": "Hermes Trismegistus",
       "source": "The Emerald Tablet",
       "principle_of_mentalism": {
-        "axiom": "The All is Mind; the Universe is Mental",
-        "tarot_application": "All cards represent mental states and thought forms manifesting reality",
-        "major_arcana_examples": {
-          "the_magician": "Pure mind directing universal forces through focused will",
-          "the_high_priestess": "Receptive mind accessing universal wisdom and intuition",
-          "the_hermit": "Individual mind seeking truth through inner contemplation",
-          "the_moon": "Subconscious mind processing and projecting reality"
+        "axiom": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "The All is Mind; the Universe is Mental"
         },
-        "practical_application": "Understand that external circumstances reflect internal mental states",
-        "manifestation_technique": "Change mental patterns to change external reality",
-        "healing_approach": "Heal mental patterns to heal physical and emotional conditions",
-        "divination_insight": "Cards reveal mental patterns creating current circumstances"
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "All cards represent mental states and thought forms manifesting reality"
+        },
+        "major_arcana_examples": {
+          "the_magician": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pure mind directing universal forces through focused will"
+          },
+          "the_high_priestess": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Receptive mind accessing universal wisdom and intuition"
+          },
+          "the_hermit": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Individual mind seeking truth through inner contemplation"
+          },
+          "the_moon": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Subconscious mind processing and projecting reality"
+          }
+        },
+        "practical_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Understand that external circumstances reflect internal mental states"
+        },
+        "manifestation_technique": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Change mental patterns to change external reality"
+        },
+        "healing_approach": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Heal mental patterns to heal physical and emotional conditions"
+        },
+        "divination_insight": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Cards reveal mental patterns creating current circumstances"
+        }
       },
       "principle_of_correspondence": {
-        "axiom": "As above, so below; as below, so above",
-        "tarot_application": "Each card contains multiple levels of meaning reflecting cosmic, psychological, and practical dimensions",
-        "correspondence_levels": {
-          "cosmic_level": "Universal archetypal energies and cosmic forces",
-          "planetary_level": "Astrological correspondences and planetary influences",
-          "terrestrial_level": "Earthly manifestations and material expressions",
-          "human_level": "Psychological states and personality aspects",
-          "cellular_level": "Energetic patterns and vibrational frequencies"
+        "axiom": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "As above, so below; as below, so above"
         },
-        "reading_technique": "Interpret cards on multiple corresponding levels simultaneously",
-        "manifestation_approach": "Work with correspondences to align all levels for manifestation"
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Each card contains multiple levels of meaning reflecting cosmic, psychological, and practical dimensions"
+        },
+        "correspondence_levels": {
+          "cosmic_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Universal archetypal energies and cosmic forces"
+          },
+          "planetary_level": {
+            "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living",
+            "text": "Astrological correspondences and planetary influences"
+          },
+          "terrestrial_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Earthly manifestations and material expressions"
+          },
+          "human_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Psychological states and personality aspects"
+          },
+          "cellular_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Energetic patterns and vibrational frequencies"
+          }
+        },
+        "reading_technique": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Interpret cards on multiple corresponding levels simultaneously"
+        },
+        "manifestation_approach": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Work with correspondences to align all levels for manifestation"
+        }
       },
       "principle_of_vibration": {
-        "axiom": "Nothing rests; everything moves; everything vibrates",
-        "tarot_application": "Each card represents specific vibrational frequencies and energy signatures",
-        "vibrational_hierarchy": {
-          "highest_vibration": "The World, The Sun, The Star - cosmic consciousness",
-          "high_vibration": "Major Arcana generally - archetypal frequencies",
-          "medium_vibration": "Court cards - personality vibrational patterns",
-          "dense_vibration": "Lower numbered cards - material world frequencies"
+        "axiom": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Nothing rests; everything moves; everything vibrates"
         },
-        "energy_reading_technique": "Feel the vibrational signature of cards before interpreting",
-        "vibrational_healing": "Use high-vibration cards to raise frequency of situation",
-        "manifestation_method": "Match personal vibration to desired outcome cards"
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Each card represents specific vibrational frequencies and energy signatures"
+        },
+        "vibrational_hierarchy": {
+          "highest_vibration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The World, The Sun, The Star - cosmic consciousness"
+          },
+          "high_vibration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major Arcana generally - archetypal frequencies"
+          },
+          "medium_vibration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Court cards - personality vibrational patterns"
+          },
+          "dense_vibration": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Lower numbered cards - material world frequencies"
+          }
+        },
+        "energy_reading_technique": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Feel the vibrational signature of cards before interpreting"
+        },
+        "vibrational_healing": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Use high-vibration cards to raise frequency of situation"
+        },
+        "manifestation_method": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Match personal vibration to desired outcome cards"
+        }
       },
       "principle_of_polarity": {
-        "axiom": "Everything is dual; everything has poles; opposites are identical in nature but different in degree",
-        "tarot_application": "Every card contains its opposite potential; reversed cards show polarity shift",
-        "polarity_examples": {
-          "fool_hermit": "Innocence-Wisdom polarity of spiritual seeking",
-          "magician_high_priestess": "Active-Receptive polarity of manifestation",
-          "tower_star": "Destruction-Renewal polarity of transformation",
-          "devil_temperance": "Bondage-Freedom polarity of spiritual development"
+        "axiom": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Everything is dual; everything has poles; opposites are identical in nature but different in degree"
         },
-        "healing_technique": "Transform negative polarities by moving toward opposite pole",
-        "balance_approach": "Seek middle point between polarities for harmony"
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Every card contains its opposite potential; reversed cards show polarity shift"
+        },
+        "polarity_examples": {
+          "fool_hermit": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Innocence-Wisdom polarity of spiritual seeking"
+          },
+          "magician_high_priestess": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Active-Receptive polarity of manifestation"
+          },
+          "tower_star": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Destruction-Renewal polarity of transformation"
+          },
+          "devil_temperance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Bondage-Freedom polarity of spiritual development"
+          }
+        },
+        "healing_technique": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Transform negative polarities by moving toward opposite pole"
+        },
+        "balance_approach": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Seek middle point between polarities for harmony"
+        }
       },
       "principle_of_rhythm": {
-        "axiom": "Everything flows, out and in; everything has its tides",
-        "tarot_application": "Card meanings shift based on natural rhythms and cycles",
-        "cyclical_correspondences": {
-          "daily_rhythms": "Cards have different meanings at different times of day",
-          "lunar_cycles": "Card interpretations shift with moon phases",
-          "seasonal_cycles": "Cards express differently through seasonal energies",
-          "life_cycles": "Card meanings evolve with personal development stages"
+        "axiom": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Everything flows, out and in; everything has its tides"
         },
-        "timing_technique": "Consider rhythmic influences when interpreting cards",
-        "manifestation_timing": "Align actions with appropriate rhythmic cycles"
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Card meanings shift based on natural rhythms and cycles"
+        },
+        "cyclical_correspondences": {
+          "daily_rhythms": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards have different meanings at different times of day"
+          },
+          "lunar_cycles": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Card interpretations shift with moon phases"
+          },
+          "seasonal_cycles": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cards express differently through seasonal energies"
+          },
+          "life_cycles": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Card meanings evolve with personal development stages"
+          }
+        },
+        "timing_technique": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Consider rhythmic influences when interpreting cards"
+        },
+        "manifestation_timing": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Align actions with appropriate rhythmic cycles"
+        }
       },
       "principle_of_cause_and_effect": {
-        "axiom": "Every cause has its effect; every effect has its cause",
-        "tarot_application": "Cards reveal causal chains and karmic patterns",
-        "karmic_reading_technique": "Trace causes and effects through card sequences",
-        "past_life_connections": "Use cards to understand karmic causes of current effects",
-        "future_prediction": "Predict effects based on current causal patterns shown in cards"
+        "axiom": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Every cause has its effect; every effect has its cause"
+        },
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Cards reveal causal chains and karmic patterns"
+        },
+        "karmic_reading_technique": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Trace causes and effects through card sequences"
+        },
+        "past_life_connections": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Use cards to understand karmic causes of current effects"
+        },
+        "future_prediction": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Predict effects based on current causal patterns shown in cards"
+        }
       },
       "principle_of_gender": {
-        "axiom": "Gender is in everything; everything has its masculine and feminine principles",
-        "tarot_application": "Every card contains both masculine and feminine aspects",
-        "gender_balance_in_cards": {
-          "masculine_emphasis": "Wands and Swords - active, projective, analytical",
-          "feminine_emphasis": "Cups and Pentacles - receptive, nurturing, intuitive",
-          "balanced_cards": "Major Arcana showing integration of both principles"
+        "axiom": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Gender is in everything; everything has its masculine and feminine principles"
         },
-        "integration_work": "Balance masculine and feminine aspects within self and situations"
+        "tarot_application": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Every card contains both masculine and feminine aspects"
+        },
+        "gender_balance_in_cards": {
+          "masculine_emphasis": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wands and Swords - active, projective, analytical"
+          },
+          "feminine_emphasis": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cups and Pentacles - receptive, nurturing, intuitive"
+          },
+          "balanced_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major Arcana showing integration of both principles"
+          }
+        },
+        "integration_work": {
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Balance masculine and feminine aspects within self and situations"
+        }
       }
     },
     "advanced_astrological_integration": {
-      "description": "Deep astrological correspondences for precise timing and interpretation",
+      "description": {
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+        "text": "Deep astrological correspondences for precise timing and interpretation"
+      },
       "planetary_hours_detailed": {
         "sun_hours": {
-          "optimal_cards": ["The Sun", "Six of Wands", "King of Wands", "The Magician"],
-          "manifestation_power": "Success, leadership, vitality, recognition",
-          "healing_applications": "Solar plexus healing, confidence building, vitality restoration",
-          "business_timing": "Presentations, leadership roles, public recognition",
-          "spiritual_work": "Solar meditation, masculine energy balancing, will development",
-          "avoid_during": "Ego-driven activities, overshadowing others, prideful actions"
+          "optimal_cards": [
+            "The Sun",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Wands"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Wands"
+            },
+            "The Magician"
+          ],
+          "manifestation_power": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Success, leadership, vitality, recognition"
+          },
+          "healing_applications": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Solar plexus healing, confidence building, vitality restoration"
+          },
+          "business_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Presentations, leadership roles, public recognition"
+          },
+          "spiritual_work": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Solar meditation, masculine energy balancing, will development"
+          },
+          "avoid_during": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ego-driven activities, overshadowing others, prideful actions"
+          }
         },
         "moon_hours": {
-          "optimal_cards": ["The Moon", "The High Priestess", "Queen of Cups", "Two of Cups"],
-          "manifestation_power": "Intuition, dreams, psychic abilities, emotional healing",
-          "healing_applications": "Emotional healing, women's health, psychic development",
-          "spiritual_work": "Moon meditation, feminine energy work, dream incubation",
-          "timing_precision": "Varies by moon phase - new moon for beginnings, full moon for completion"
+          "optimal_cards": [
+            "The Moon",
+            "The High Priestess",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Queen of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two of Cups"
+            }
+          ],
+          "manifestation_power": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Intuition, dreams, psychic abilities, emotional healing"
+          },
+          "healing_applications": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Emotional healing, women's health, psychic development"
+          },
+          "spiritual_work": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Moon meditation, feminine energy work, dream incubation"
+          },
+          "timing_precision": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Varies by moon phase - new moon for beginnings, full moon for completion"
+          }
         },
         "mercury_hours": {
-          "optimal_cards": ["The Magician", "Eight of Pentacles", "Page of Swords", "Ace of Swords"],
-          "manifestation_power": "Communication, learning, technology, trade",
-          "business_applications": "Negotiations, contracts, learning, networking",
-          "healing_work": "Nervous system healing, communication therapy, learning disabilities"
+          "optimal_cards": [
+            "The Magician",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Page of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Swords"
+            }
+          ],
+          "manifestation_power": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Communication, learning, technology, trade"
+          },
+          "business_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Negotiations, contracts, learning, networking"
+          },
+          "healing_work": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Nervous system healing, communication therapy, learning disabilities"
+          }
         },
         "venus_hours": {
-          "optimal_cards": ["The Empress", "The Lovers", "Two of Cups", "Queen of Pentacles"],
-          "manifestation_power": "Love, beauty, art, harmony, money",
-          "relationship_work": "Love spells, relationship healing, artistic creation",
-          "healing_applications": "Heart healing, kidney health, aesthetic therapy"
+          "optimal_cards": [
+            "The Empress",
+            "The Lovers",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Queen of Pentacles"
+            }
+          ],
+          "manifestation_power": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Love, beauty, art, harmony, money"
+          },
+          "relationship_work": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Love spells, relationship healing, artistic creation"
+          },
+          "healing_applications": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Heart healing, kidney health, aesthetic therapy"
+          }
         },
         "mars_hours": {
-          "optimal_cards": ["The Tower", "Five of Wands", "Knight of Wands", "Seven of Wands"],
-          "manifestation_power": "Courage, protection, competition, energy",
-          "protection_work": "Banishing, protection spells, courage building",
-          "healing_applications": "Immune system strengthening, muscle building, energy restoration"
+          "optimal_cards": [
+            "The Tower",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Wands"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Knight of Wands"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Wands"
+            }
+          ],
+          "manifestation_power": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Courage, protection, competition, energy"
+          },
+          "protection_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Banishing, protection spells, courage building"
+          },
+          "healing_applications": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Immune system strengthening, muscle building, energy restoration"
+          }
         },
         "jupiter_hours": {
-          "optimal_cards": ["Wheel of Fortune", "The Hierophant", "Ten of Pentacles", "Four of Wands"],
-          "manifestation_power": "Expansion, prosperity, wisdom, legal matters",
-          "business_timing": "Investments, legal matters, teaching, publishing",
-          "spiritual_work": "Wisdom seeking, philosophical study, abundance work"
+          "optimal_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wheel of Fortune"
+            },
+            "The Hierophant",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Four of Wands"
+            }
+          ],
+          "manifestation_power": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Expansion, prosperity, wisdom, legal matters"
+          },
+          "business_timing": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Investments, legal matters, teaching, publishing"
+          },
+          "spiritual_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wisdom seeking, philosophical study, abundance work"
+          }
         },
         "saturn_hours": {
-          "optimal_cards": ["The World", "The Devil", "Four of Pentacles", "Ten of Swords"],
-          "manifestation_power": "Discipline, structure, banishing, binding",
-          "magical_work": "Banishing spells, binding work, discipline building",
-          "healing_applications": "Bone healing, chronic conditions, structural issues"
+          "optimal_cards": [
+            "The World",
+            "The Devil",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Four of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Swords"
+            }
+          ],
+          "manifestation_power": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Discipline, structure, banishing, binding"
+          },
+          "magical_work": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Banishing spells, binding work, discipline building"
+          },
+          "healing_applications": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Bone healing, chronic conditions, structural issues"
+          }
         }
       },
       "zodiacal_correspondences_advanced": {
         "aries_season": {
-          "dominant_cards": ["The Emperor", "King of Wands", "Two through Four of Wands"],
-          "energy_signature": "Initiating, pioneering, leading, assertive",
-          "shadow_challenges": "Impulsiveness, aggression, selfishness, impatience",
-          "spiritual_lessons": "Leadership through courage, balanced assertion",
-          "body_correspondences": "Head, brain, eyes, muscular system",
-          "healing_focus": "Headache relief, eye care, energy balancing",
-          "manifestation_peak": "New projects, leadership roles, competitive activities"
+          "dominant_cards": [
+            "The Emperor",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Wands"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two through Four of Wands"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Initiating, pioneering, leading, assertive"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Impulsiveness, aggression, selfishness, impatience"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Leadership through courage, balanced assertion"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Head, brain, eyes, muscular system"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Headache relief, eye care, energy balancing"
+          },
+          "manifestation_peak": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "New projects, leadership roles, competitive activities"
+          }
         },
         "taurus_season": {
-          "dominant_cards": ["The Hierophant", "King of Pentacles", "Five through Seven of Pentacles"],
-          "energy_signature": "Stabilizing, building, sensual, practical",
-          "shadow_challenges": "Stubbornness, materialism, resistance to change",
-          "spiritual_lessons": "Sacred embodiment, practical spirituality",
-          "body_correspondences": "Throat, neck, thyroid, vocal cords",
-          "healing_focus": "Throat chakra work, thyroid health, voice healing"
+          "dominant_cards": [
+            "The Hierophant",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five through Seven of Pentacles"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Stabilizing, building, sensual, practical"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Stubbornness, materialism, resistance to change"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Sacred embodiment, practical spirituality"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Throat, neck, thyroid, vocal cords"
+          },
+          "healing_focus": {
+            "citation_key": "Anodea_Judith-Wheels_of_Life",
+            "text": "Throat chakra work, thyroid health, voice healing"
+          }
         },
         "gemini_season": {
-          "dominant_cards": ["The Lovers", "Knight of Swords", "Eight through Ten of Swords"],
-          "energy_signature": "Communicating, learning, connecting, versatile",
-          "shadow_challenges": "Superficiality, indecision, scattered energy",
-          "spiritual_lessons": "Sacred communication, divine curiosity",
-          "body_correspondences": "Lungs, arms, hands, nervous system",
-          "healing_focus": "Respiratory health, nervous system calming"
+          "dominant_cards": [
+            "The Lovers",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Knight of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight through Ten of Swords"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Communicating, learning, connecting, versatile"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Superficiality, indecision, scattered energy"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred communication, divine curiosity"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Lungs, arms, hands, nervous system"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Respiratory health, nervous system calming"
+          }
         },
         "cancer_season": {
-          "dominant_cards": ["The Chariot", "Queen of Cups", "Two through Four of Cups"],
-          "energy_signature": "Nurturing, protecting, feeling, intuitive",
-          "shadow_challenges": "Moodiness, over-protection, emotional manipulation",
-          "spiritual_lessons": "Divine nurturing, emotional wisdom",
-          "body_correspondences": "Stomach, digestive system, breasts, lymphatic",
-          "healing_focus": "Digestive health, emotional release, lymphatic drainage"
+          "dominant_cards": [
+            "The Chariot",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Queen of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two through Four of Cups"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Nurturing, protecting, feeling, intuitive"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Moodiness, over-protection, emotional manipulation"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine nurturing, emotional wisdom"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Stomach, digestive system, breasts, lymphatic"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Digestive health, emotional release, lymphatic drainage"
+          }
         },
         "leo_season": {
-          "dominant_cards": ["Strength", "The Sun", "Five through Seven of Wands"],
-          "energy_signature": "Creating, performing, leading, generous",
-          "shadow_challenges": "Ego inflation, attention-seeking, pride",
-          "spiritual_lessons": "Authentic self-expression, generous leadership",
-          "body_correspondences": "Heart, circulation, spine, solar plexus",
-          "healing_focus": "Heart health, circulation improvement, spine alignment"
+          "dominant_cards": [
+            "Strength",
+            "The Sun",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five through Seven of Wands"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creating, performing, leading, generous"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ego inflation, attention-seeking, pride"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Authentic self-expression, generous leadership"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Heart, circulation, spine, solar plexus"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Heart health, circulation improvement, spine alignment"
+          }
         },
         "virgo_season": {
-          "dominant_cards": ["The Hermit", "Knight of Pentacles", "Eight through Ten of Pentacles"],
-          "energy_signature": "Analyzing, perfecting, serving, healing",
-          "shadow_challenges": "Perfectionism, criticism, worry, service without boundaries",
-          "spiritual_lessons": "Sacred service, practical wisdom",
-          "body_correspondences": "Digestive system, intestines, nervous system",
-          "healing_focus": "Digestive healing, nervous system balancing"
+          "dominant_cards": [
+            "The Hermit",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Knight of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight through Ten of Pentacles"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Analyzing, perfecting, serving, healing"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perfectionism, criticism, worry, service without boundaries"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred service, practical wisdom"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Digestive system, intestines, nervous system"
+          },
+          "healing_focus": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Digestive healing, nervous system balancing"
+          }
         },
         "libra_season": {
-          "dominant_cards": ["Justice", "Queen of Swords", "Two through Four of Swords"],
-          "energy_signature": "Balancing, harmonizing, relating, choosing",
-          "shadow_challenges": "Indecision, people-pleasing, superficial harmony",
-          "spiritual_lessons": "Divine justice, sacred relationship",
-          "body_correspondences": "Kidneys, skin, lower back, endocrine system",
-          "healing_focus": "Kidney health, skin care, hormonal balance"
+          "dominant_cards": [
+            "Justice",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Queen of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two through Four of Swords"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Balancing, harmonizing, relating, choosing"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Indecision, people-pleasing, superficial harmony"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine justice, sacred relationship"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Kidneys, skin, lower back, endocrine system"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Kidney health, skin care, hormonal balance"
+          }
         },
         "scorpio_season": {
-          "dominant_cards": ["Death", "King of Cups", "Five through Seven of Cups"],
-          "energy_signature": "Transforming, deepening, investigating, healing",
-          "shadow_challenges": "Obsession, manipulation, destructiveness, secrecy",
-          "spiritual_lessons": "Sacred transformation, death-rebirth mysteries",
-          "body_correspondences": "Reproductive system, elimination, immune system",
-          "healing_focus": "Reproductive health, detoxification, immune strengthening"
+          "dominant_cards": [
+            "Death",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five through Seven of Cups"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Transforming, deepening, investigating, healing"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Obsession, manipulation, destructiveness, secrecy"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred transformation, death-rebirth mysteries"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Reproductive system, elimination, immune system"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Reproductive health, detoxification, immune strengthening"
+          }
         },
         "sagittarius_season": {
-          "dominant_cards": ["Temperance", "Knight of Wands", "Eight through Ten of Wands"],
-          "energy_signature": "Expanding, teaching, exploring, philosophizing",
-          "shadow_challenges": "Dogmatism, excess, restlessness, preaching",
-          "spiritual_lessons": "Sacred wisdom, spiritual expansion",
-          "body_correspondences": "Hips, thighs, liver, sciatic nerve",
-          "healing_focus": "Hip mobility, liver health, sciatic relief"
+          "dominant_cards": [
+            "Temperance",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Knight of Wands"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight through Ten of Wands"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Expanding, teaching, exploring, philosophizing"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Dogmatism, excess, restlessness, preaching"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Sacred wisdom, spiritual expansion"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hips, thighs, liver, sciatic nerve"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hip mobility, liver health, sciatic relief"
+          }
         },
         "capricorn_season": {
-          "dominant_cards": ["The Devil", "Queen of Pentacles", "Two through Four of Pentacles"],
-          "energy_signature": "Achieving, structuring, mastering, building",
-          "shadow_challenges": "Materialism, rigidity, authoritarian control",
-          "spiritual_lessons": "Sacred structure, divine authority",
-          "body_correspondences": "Bones, joints, skin, knees",
-          "healing_focus": "Bone health, joint mobility, skin care"
+          "dominant_cards": [
+            "The Devil",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Queen of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two through Four of Pentacles"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Achieving, structuring, mastering, building"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Materialism, rigidity, authoritarian control"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred structure, divine authority"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Bones, joints, skin, knees"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Bone health, joint mobility, skin care"
+          }
         },
         "aquarius_season": {
-          "dominant_cards": ["The Star", "King of Swords", "Five through Seven of Swords"],
-          "energy_signature": "Innovating, liberating, networking, visioning",
-          "shadow_challenges": "Detachment, rebellion, eccentricity, alienation",
-          "spiritual_lessons": "Sacred innovation, collective consciousness",
-          "body_correspondences": "Circulatory system, ankles, nervous system",
-          "healing_focus": "Circulation improvement, nervous system healing"
+          "dominant_cards": [
+            "The Star",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five through Seven of Swords"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Innovating, liberating, networking, visioning"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Detachment, rebellion, eccentricity, alienation"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred innovation, collective consciousness"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Circulatory system, ankles, nervous system"
+          },
+          "healing_focus": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Circulation improvement, nervous system healing"
+          }
         },
         "pisces_season": {
-          "dominant_cards": ["The Moon", "Page of Cups", "Eight through Ten of Cups"],
-          "energy_signature": "Dissolving, dreaming, compassion, surrendering",
-          "shadow_challenges": "Escapism, victim mentality, boundary issues, addiction",
-          "spiritual_lessons": "Sacred surrender, universal compassion",
-          "body_correspondences": "Feet, lymphatic system, immune system",
-          "healing_focus": "Foot care, lymphatic drainage, immune support"
+          "dominant_cards": [
+            "The Moon",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Page of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Eight through Ten of Cups"
+            }
+          ],
+          "energy_signature": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Dissolving, dreaming, compassion, surrendering"
+          },
+          "shadow_challenges": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Escapism, victim mentality, boundary issues, addiction"
+          },
+          "spiritual_lessons": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred surrender, universal compassion"
+          },
+          "body_correspondences": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Feet, lymphatic system, immune system"
+          },
+          "healing_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Foot care, lymphatic drainage, immune support"
+          }
         }
       }
     },
     "kabbalistic_tree_integration": {
-      "description": "Complete Tree of Life correspondences for advanced spiritual work",
+      "description": {
+        "citation_key": "Starhawk-The_Spiral_Dance",
+        "text": "Complete Tree of Life correspondences for advanced spiritual work"
+      },
       "four_worlds_correspondences": {
         "atziluth_archetypal": {
-          "description": "Divine archetypal world of pure spirit",
-          "tarot_correspondence": "Major Arcana Aces represent pure archetypal energy",
-          "consciousness_level": "Unity consciousness, divine will",
-          "meditation_practice": "Contemplation of divine names and pure archetypes",
-          "manifestation_stage": "Pure intention and divine will"
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine archetypal world of pure spirit"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major Arcana Aces represent pure archetypal energy"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unity consciousness, divine will"
+          },
+          "meditation_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Contemplation of divine names and pure archetypes"
+          },
+          "manifestation_stage": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Pure intention and divine will"
+          }
         },
         "briah_creative": {
-          "description": "Creative world of divine intellect and formation",
-          "tarot_correspondence": "Major Arcana 2-10 represent creative forces",
-          "consciousness_level": "Cosmic consciousness, divine creativity",
-          "meditation_practice": "Archangelic invocation and creative visualization",
-          "manifestation_stage": "Divine ideas taking form"
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creative world of divine intellect and formation"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major Arcana 2-10 represent creative forces"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cosmic consciousness, divine creativity"
+          },
+          "meditation_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Archangelic invocation and creative visualization"
+          },
+          "manifestation_stage": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine ideas taking form"
+          }
         },
         "yetzirah_formative": {
-          "description": "Formative world of angels and astral forces",
-          "tarot_correspondence": "Court cards represent formative personalities",
-          "consciousness_level": "Psychic consciousness, astral awareness",
-          "meditation_practice": "Angelic communication and astral work",
-          "manifestation_stage": "Ideas forming into patterns"
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Formative world of angels and astral forces"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Court cards represent formative personalities"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Psychic consciousness, astral awareness"
+          },
+          "meditation_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Angelic communication and astral work"
+          },
+          "manifestation_stage": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ideas forming into patterns"
+          }
         },
         "assiah_material": {
-          "description": "Material world of physical manifestation",
-          "tarot_correspondence": "Minor Arcana represent material expressions",
-          "consciousness_level": "Physical consciousness, material awareness",
-          "meditation_practice": "Embodied spirituality and material blessing",
-          "manifestation_stage": "Physical manifestation and completion"
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Material world of physical manifestation"
+          },
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Minor Arcana represent material expressions"
+          },
+          "consciousness_level": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Physical consciousness, material awareness"
+          },
+          "meditation_practice": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Embodied spirituality and material blessing"
+          },
+          "manifestation_stage": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Physical manifestation and completion"
+          }
         }
       },
       "sephirothic_correspondences_detailed": {
         "kether_crown": {
-          "divine_name": "Eheieh (I Am)",
+          "divine_name": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Eheieh (I Am)"
+          },
           "archangel": "Metatron",
-          "angelic_order": "Chayot ha-Qadesh (Holy Living Creatures)",
-          "planetary_correspondence": "Primum Mobile (First Swirling)",
-          "tarot_cards": ["The four Aces", "The Crown symbols in court cards"],
-          "body_correspondence": "Crown of head, thousand-petaled lotus",
-          "meditation_focus": "Unity consciousness, divine will",
-          "spiritual_practice": "Contemplation of divine unity",
-          "healing_application": "Crown chakra opening, spiritual connection"
+          "angelic_order": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Chayot ha-Qadesh (Holy Living Creatures)"
+          },
+          "planetary_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Primum Mobile (First Swirling)"
+          },
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Aces"
+            },
+            {
+              "citation_key": "Carl_Jung-Man_and_His_Symbols",
+              "text": "The Crown symbols in court cards"
+            }
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Crown of head, thousand-petaled lotus"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unity consciousness, divine will"
+          },
+          "spiritual_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Contemplation of divine unity"
+          },
+          "healing_application": {
+            "citation_key": "Anodea_Judith-Wheels_of_Life",
+            "text": "Crown chakra opening, spiritual connection"
+          }
         },
         "chokmah_wisdom": {
           "divine_name": "Yah (Lord)",
           "archangel": "Raziel",
           "angelic_order": "Auphanim (Wheels)",
-          "planetary_correspondence": "Sphere of the Zodiac",
-          "tarot_cards": ["The four Twos", "The Magician"],
-          "body_correspondence": "Right brain, creative hemisphere",
-          "meditation_focus": "Divine wisdom, creative inspiration",
-          "spiritual_practice": "Wisdom seeking, creative expression",
-          "healing_application": "Right brain activation, creativity enhancement"
+          "planetary_correspondence": {
+            "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality",
+            "text": "Sphere of the Zodiac"
+          },
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Twos"
+            },
+            "The Magician"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Right brain, creative hemisphere"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine wisdom, creative inspiration"
+          },
+          "spiritual_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wisdom seeking, creative expression"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Right brain activation, creativity enhancement"
+          }
         },
         "binah_understanding": {
           "divine_name": "Elohim (God)",
           "archangel": "Tzaphkiel",
           "angelic_order": "Aralim (Thrones)",
           "planetary_correspondence": "Saturn",
-          "tarot_cards": ["The four Threes", "The High Priestess"],
-          "body_correspondence": "Left brain, analytical hemisphere",
-          "meditation_focus": "Divine understanding, form creation",
-          "spiritual_practice": "Deep contemplation, form meditation",
-          "healing_application": "Left brain balancing, structural healing"
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Threes"
+            },
+            "The High Priestess"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Left brain, analytical hemisphere"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine understanding, form creation"
+          },
+          "spiritual_practice": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Deep contemplation, form meditation"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Left brain balancing, structural healing"
+          }
         },
         "chesed_mercy": {
-          "divine_name": "El (God the Merciful)",
+          "divine_name": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "El (God the Merciful)"
+          },
           "archangel": "Tzadkiel",
-          "angelic_order": "Chashmalim (Brilliant Ones)",
+          "angelic_order": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Chashmalim (Brilliant Ones)"
+          },
           "planetary_correspondence": "Jupiter",
-          "tarot_cards": ["The four Fours", "The Emperor"],
-          "body_correspondence": "Right arm, liver",
-          "meditation_focus": "Divine mercy, expansion",
-          "spiritual_practice": "Loving-kindness, expansion work",
-          "healing_application": "Heart opening, liver healing"
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Fours"
+            },
+            "The Emperor"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Right arm, liver"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine mercy, expansion"
+          },
+          "spiritual_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Loving-kindness, expansion work"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Heart opening, liver healing"
+          }
         },
         "geburah_severity": {
-          "divine_name": "Elohim Gibor (God of Strength)",
+          "divine_name": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Elohim Gibor (God of Strength)"
+          },
           "archangel": "Kamael",
-          "angelic_order": "Seraphim (Burning Ones)",
+          "angelic_order": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Seraphim (Burning Ones)"
+          },
           "planetary_correspondence": "Mars",
-          "tarot_cards": ["The four Fives", "The Hierophant"],
-          "body_correspondence": "Left arm, gall bladder",
-          "meditation_focus": "Divine strength, purification",
-          "spiritual_practice": "Purification work, strength building",
-          "healing_application": "Immune strengthening, purification"
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Fives"
+            },
+            "The Hierophant"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Left arm, gall bladder"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine strength, purification"
+          },
+          "spiritual_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Purification work, strength building"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Immune strengthening, purification"
+          }
         },
         "tiphareth_beauty": {
-          "divine_name": "Tetragrammaton Aloah va-Daath (Lord God of Knowledge)",
+          "divine_name": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Tetragrammaton Aloah va-Daath (Lord God of Knowledge)"
+          },
           "archangel": "Michael",
           "angelic_order": "Malachim (Kings/Angels)",
           "planetary_correspondence": "Sun",
-          "tarot_cards": ["The four Sixes", "The Lovers"],
-          "body_correspondence": "Heart center, solar plexus",
-          "meditation_focus": "Divine beauty, Christ consciousness",
-          "spiritual_practice": "Heart-centered meditation, beauty contemplation",
-          "healing_application": "Heart healing, solar plexus balancing"
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Sixes"
+            },
+            "The Lovers"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Heart center, solar plexus"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine beauty, Christ consciousness"
+          },
+          "spiritual_practice": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Heart-centered meditation, beauty contemplation"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Heart healing, solar plexus balancing"
+          }
         },
         "netzach_victory": {
-          "divine_name": "Tetragrammaton Tzabaoth (Lord of Hosts)",
+          "divine_name": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Tetragrammaton Tzabaoth (Lord of Hosts)"
+          },
           "archangel": "Haniel",
           "angelic_order": "Elohim (Gods)",
           "planetary_correspondence": "Venus",
-          "tarot_cards": ["The four Sevens", "The Chariot"],
-          "body_correspondence": "Right hip, reproductive system",
-          "meditation_focus": "Divine victory, emotional mastery",
-          "spiritual_practice": "Emotional development, artistic expression",
-          "healing_application": "Emotional healing, reproductive health"
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Sevens"
+            },
+            "The Chariot"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Right hip, reproductive system"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine victory, emotional mastery"
+          },
+          "spiritual_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional development, artistic expression"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Emotional healing, reproductive health"
+          }
         },
         "hod_glory": {
-          "divine_name": "Elohim Tzabaoth (God of Hosts)",
+          "divine_name": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Elohim Tzabaoth (God of Hosts)"
+          },
           "archangel": "Michael",
-          "angelic_order": "Beni Elohim (Sons of God)",
+          "angelic_order": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Beni Elohim (Sons of God)"
+          },
           "planetary_correspondence": "Mercury",
-          "tarot_cards": ["The four Eights", "Strength"],
-          "body_correspondence": "Left hip, nervous system",
-          "meditation_focus": "Divine glory, intellectual development",
-          "spiritual_practice": "Study, communication development",
-          "healing_application": "Nervous system healing, learning enhancement"
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Eights"
+            },
+            "Strength"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Left hip, nervous system"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine glory, intellectual development"
+          },
+          "spiritual_practice": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Study, communication development"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Nervous system healing, learning enhancement"
+          }
         },
         "yesod_foundation": {
-          "divine_name": "Shaddai El Chai (Almighty Living God)",
+          "divine_name": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Shaddai El Chai (Almighty Living God)"
+          },
           "archangel": "Gabriel",
-          "angelic_order": "Cherubim (Strong Ones)",
+          "angelic_order": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cherubim (Strong Ones)"
+          },
           "planetary_correspondence": "Moon",
-          "tarot_cards": ["The four Nines", "The Hermit"],
-          "body_correspondence": "Reproductive organs, astral body",
-          "meditation_focus": "Divine foundation, astral development",
-          "spiritual_practice": "Dream work, astral travel, foundation building",
-          "healing_application": "Reproductive health, psychic development"
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Nines"
+            },
+            "The Hermit"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Reproductive organs, astral body"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine foundation, astral development"
+          },
+          "spiritual_practice": {
+            "citation_key": "Carl_Jung-Man_and_His_Symbols",
+            "text": "Dream work, astral travel, foundation building"
+          },
+          "healing_application": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Reproductive health, psychic development"
+          }
         },
         "malkuth_kingdom": {
-          "divine_name": "Adonai ha-Aretz (Lord of Earth)",
+          "divine_name": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Adonai ha-Aretz (Lord of Earth)"
+          },
           "archangel": "Sandalphon",
-          "angelic_order": "Ashim (Souls of Fire)",
+          "angelic_order": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ashim (Souls of Fire)"
+          },
           "planetary_correspondence": "Earth/Elements",
-          "tarot_cards": ["The four Tens", "The World"],
-          "body_correspondence": "Feet, physical body",
-          "meditation_focus": "Divine manifestation, earthly completion",
-          "spiritual_practice": "Embodied spirituality, service work",
-          "healing_application": "Physical healing, grounding work"
+          "tarot_cards": [
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "The four Tens"
+            },
+            "The World"
+          ],
+          "body_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Feet, physical body"
+          },
+          "meditation_focus": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine manifestation, earthly completion"
+          },
+          "spiritual_practice": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Embodied spirituality, service work"
+          },
+          "healing_application": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Physical healing, grounding work"
+          }
         }
       }
     },
     "alchemical_correspondences_advanced": {
-      "description": "Deep alchemical processes and their tarot manifestations",
+      "description": {
+        "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+        "text": "Deep alchemical processes and their tarot manifestations"
+      },
       "seven_planetary_metals": {
         "gold_sun": {
-          "tarot_correspondence": "The Sun, King of Wands",
-          "alchemical_principle": "Perfection, incorruption, spiritual gold",
-          "healing_properties": "Heart healing, vitality restoration, spiritual illumination",
-          "meditation_use": "Solar plexus activation, confidence building",
-          "spiritual_significance": "Christ consciousness, illuminated mind"
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The Sun, King of Wands"
+          },
+          "alchemical_principle": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Perfection, incorruption, spiritual gold"
+          },
+          "healing_properties": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Heart healing, vitality restoration, spiritual illumination"
+          },
+          "meditation_use": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Solar plexus activation, confidence building"
+          },
+          "spiritual_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Christ consciousness, illuminated mind"
+          }
         },
         "silver_moon": {
-          "tarot_correspondence": "The Moon, Queen of Cups",
-          "alchemical_principle": "Reflection, receptivity, lunar consciousness",
-          "healing_properties": "Feminine healing, intuitive development, emotional balance",
-          "meditation_use": "Third eye activation, psychic development",
-          "spiritual_significance": "Divine feminine, lunar wisdom"
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The Moon, Queen of Cups"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Reflection, receptivity, lunar consciousness"
+          },
+          "healing_properties": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Feminine healing, intuitive development, emotional balance"
+          },
+          "meditation_use": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Third eye activation, psychic development"
+          },
+          "spiritual_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine feminine, lunar wisdom"
+          }
         },
         "mercury_quicksilver": {
-          "tarot_correspondence": "The Magician, Knight of Swords",
-          "alchemical_principle": "Volatility, communication, transformation",
-          "healing_properties": "Nervous system healing, communication enhancement",
-          "meditation_use": "Mental clarity, learning acceleration",
-          "spiritual_significance": "Divine messenger, transformative wisdom"
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The Magician, Knight of Swords"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Volatility, communication, transformation"
+          },
+          "healing_properties": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Nervous system healing, communication enhancement"
+          },
+          "meditation_use": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental clarity, learning acceleration"
+          },
+          "spiritual_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine messenger, transformative wisdom"
+          }
         },
         "copper_venus": {
-          "tarot_correspondence": "The Empress, Queen of Pentacles",
-          "alchemical_principle": "Love, beauty, harmony, attraction",
-          "healing_properties": "Heart healing, kidney health, aesthetic therapy",
-          "meditation_use": "Heart chakra opening, love cultivation",
-          "spiritual_significance": "Divine love, sacred beauty"
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The Empress, Queen of Pentacles"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Love, beauty, harmony, attraction"
+          },
+          "healing_properties": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Heart healing, kidney health, aesthetic therapy"
+          },
+          "meditation_use": {
+            "citation_key": "Anodea_Judith-Wheels_of_Life",
+            "text": "Heart chakra opening, love cultivation"
+          },
+          "spiritual_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine love, sacred beauty"
+          }
         },
         "iron_mars": {
-          "tarot_correspondence": "The Tower, Knight of Wands",
-          "alchemical_principle": "Strength, courage, will, protection",
-          "healing_properties": "Blood strengthening, immune boosting, energy building",
-          "meditation_use": "Will development, courage building",
-          "spiritual_significance": "Spiritual warrior, divine protection"
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The Tower, Knight of Wands"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Strength, courage, will, protection"
+          },
+          "healing_properties": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Blood strengthening, immune boosting, energy building"
+          },
+          "meditation_use": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Will development, courage building"
+          },
+          "spiritual_significance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual warrior, divine protection"
+          }
         },
         "tin_jupiter": {
-          "tarot_correspondence": "Wheel of Fortune, King of Cups",
-          "alchemical_principle": "Expansion, wisdom, prosperity, growth",
-          "healing_properties": "Liver health, wisdom development, abundance healing",
-          "meditation_use": "Expansion consciousness, wisdom seeking",
-          "spiritual_significance": "Divine wisdom, spiritual expansion"
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Wheel of Fortune, King of Cups"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Expansion, wisdom, prosperity, growth"
+          },
+          "healing_properties": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Liver health, wisdom development, abundance healing"
+          },
+          "meditation_use": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Expansion consciousness, wisdom seeking"
+          },
+          "spiritual_significance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Divine wisdom, spiritual expansion"
+          }
         },
         "lead_saturn": {
-          "tarot_correspondence": "The World, King of Pentacles",
-          "alchemical_principle": "Structure, limitation, transformation potential",
-          "healing_properties": "Bone healing, structural work, chronic conditions",
-          "meditation_use": "Discipline building, structure meditation",
-          "spiritual_significance": "Divine law, necessary limitations"
+          "tarot_correspondence": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The World, King of Pentacles"
+          },
+          "alchemical_principle": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Structure, limitation, transformation potential"
+          },
+          "healing_properties": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Bone healing, structural work, chronic conditions"
+          },
+          "meditation_use": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Discipline building, structure meditation"
+          },
+          "spiritual_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine law, necessary limitations"
+          }
         }
       },
       "four_stages_of_alchemy": {
         "nigredo_blackening": {
-          "tarot_cards": ["Death", "The Devil", "Five of Cups", "Ten of Swords"],
-          "psychological_process": "Depression, despair, ego breakdown, shadow confrontation",
-          "spiritual_significance": "Dark night of the soul, spiritual purification",
-          "healing_approach": "Accept darkness, allow breakdown, seek support",
-          "transformation_potential": "Necessary destruction preceding rebirth"
+          "tarot_cards": [
+            "Death",
+            "The Devil",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Five of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Swords"
+            }
+          ],
+          "psychological_process": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Depression, despair, ego breakdown, shadow confrontation"
+          },
+          "spiritual_significance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Dark night of the soul, spiritual purification"
+          },
+          "healing_approach": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Accept darkness, allow breakdown, seek support"
+          },
+          "transformation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Necessary destruction preceding rebirth"
+          }
         },
         "albedo_whitening": {
-          "tarot_cards": ["The Star", "Temperance", "The Hermit", "Six of Swords"],
-          "psychological_process": "Purification, clarity, spiritual insight, hope renewal",
-          "spiritual_significance": "Spiritual cleansing, divine guidance reception",
-          "healing_approach": "Purification practices, spiritual guidance seeking",
-          "transformation_potential": "Clarity and hope emerging from darkness"
+          "tarot_cards": [
+            "The Star",
+            "Temperance",
+            "The Hermit",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Six of Swords"
+            }
+          ],
+          "psychological_process": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Purification, clarity, spiritual insight, hope renewal"
+          },
+          "spiritual_significance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual cleansing, divine guidance reception"
+          },
+          "healing_approach": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Purification practices, spiritual guidance seeking"
+          },
+          "transformation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Clarity and hope emerging from darkness"
+          }
         },
         "citrinitas_yellowing": {
-          "tarot_cards": ["The Sun", "The Magician", "Three of Wands", "Ace of Wands"],
-          "psychological_process": "Illumination, understanding, creative expression, joy",
-          "spiritual_significance": "Spiritual illumination, creative power activation",
-          "healing_approach": "Creative expression, solar practices, joy cultivation",
-          "transformation_potential": "Creative power and understanding manifesting"
+          "tarot_cards": [
+            "The Sun",
+            "The Magician",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Three of Wands"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Wands"
+            }
+          ],
+          "psychological_process": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Illumination, understanding, creative expression, joy"
+          },
+          "spiritual_significance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual illumination, creative power activation"
+          },
+          "healing_approach": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creative expression, solar practices, joy cultivation"
+          },
+          "transformation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creative power and understanding manifesting"
+          }
         },
         "rubedo_reddening": {
-          "tarot_cards": ["The World", "The Lovers", "Ten of Cups", "Four of Wands"],
-          "psychological_process": "Integration, completion, unified consciousness, celebration",
-          "spiritual_significance": "Spiritual marriage, divine union, completion",
-          "healing_approach": "Integration practices, celebration, service",
-          "transformation_potential": "Complete transformation and spiritual mastery"
+          "tarot_cards": [
+            "The World",
+            "The Lovers",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ten of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Four of Wands"
+            }
+          ],
+          "psychological_process": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Integration, completion, unified consciousness, celebration"
+          },
+          "spiritual_significance": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual marriage, divine union, completion"
+          },
+          "healing_approach": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Integration practices, celebration, service"
+          },
+          "transformation_potential": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Complete transformation and spiritual mastery"
+          }
         }
       }
     },
     "advanced_color_correspondences": {
       "chakra_color_healing": {
         "red_root_chakra": {
-          "tarot_cards": ["The Emperor", "King of Pentacles", "Ace of Wands"],
-          "healing_properties": "Grounding, survival, physical vitality, material security",
-          "gemstone_allies": "Red jasper, garnet, hematite, black tourmaline",
-          "essential_oils": "Patchouli, vetiver, cedarwood, sandalwood",
-          "yoga_practices": "Standing poses, earth connection, root lock",
-          "affirmations": "I am safe, supported, and grounded in divine love"
+          "tarot_cards": [
+            "The Emperor",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Pentacles"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Wands"
+            }
+          ],
+          "healing_properties": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Grounding, survival, physical vitality, material security"
+          },
+          "gemstone_allies": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Red jasper, garnet, hematite, black tourmaline"
+          },
+          "essential_oils": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Patchouli, vetiver, cedarwood, sandalwood"
+          },
+          "yoga_practices": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Standing poses, earth connection, root lock"
+          },
+          "affirmations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I am safe, supported, and grounded in divine love"
+          }
         },
         "orange_sacral_chakra": {
-          "tarot_cards": ["The Empress", "Two of Cups", "Queen of Cups"],
-          "healing_properties": "Creativity, sexuality, emotional flow, pleasure",
-          "gemstone_allies": "Carnelian, orange calcite, moonstone, coral",
-          "essential_oils": "Sweet orange, ylang-ylang, sandalwood, jasmine",
-          "yoga_practices": "Hip opening, flowing movement, sacral breathing",
-          "affirmations": "I create with joy and express my emotions freely"
+          "tarot_cards": [
+            "The Empress",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two of Cups"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Queen of Cups"
+            }
+          ],
+          "healing_properties": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creativity, sexuality, emotional flow, pleasure"
+          },
+          "gemstone_allies": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Carnelian, orange calcite, moonstone, coral"
+          },
+          "essential_oils": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sweet orange, ylang-ylang, sandalwood, jasmine"
+          },
+          "yoga_practices": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hip opening, flowing movement, sacral breathing"
+          },
+          "affirmations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I create with joy and express my emotions freely"
+          }
         },
         "yellow_solar_plexus": {
-          "tarot_cards": ["The Sun", "Strength", "Three of Wands"],
-          "healing_properties": "Personal power, confidence, will, digestion",
-          "gemstone_allies": "Citrine, yellow jasper, tiger's eye, amber",
-          "essential_oils": "Lemon, grapefruit, ginger, rosemary",
-          "yoga_practices": "Core strengthening, twists, fire breathing",
-          "affirmations": "I am confident, powerful, and worthy of success"
+          "tarot_cards": [
+            "The Sun",
+            "Strength",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Three of Wands"
+            }
+          ],
+          "healing_properties": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Personal power, confidence, will, digestion"
+          },
+          "gemstone_allies": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Citrine, yellow jasper, tiger's eye, amber"
+          },
+          "essential_oils": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Lemon, grapefruit, ginger, rosemary"
+          },
+          "yoga_practices": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Core strengthening, twists, fire breathing"
+          },
+          "affirmations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I am confident, powerful, and worthy of success"
+          }
         },
         "green_heart_chakra": {
-          "tarot_cards": ["The Lovers", "Temperance", "Two of Cups"],
-          "healing_properties": "Love, compassion, connection, emotional healing",
-          "gemstone_allies": "Rose quartz, green aventurine, emerald, jade",
-          "essential_oils": "Rose, geranium, eucalyptus, pine",
-          "yoga_practices": "Heart opening, arm movements, loving-kindness",
-          "affirmations": "I give and receive love freely and unconditionally"
+          "tarot_cards": [
+            "The Lovers",
+            "Temperance",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Two of Cups"
+            }
+          ],
+          "healing_properties": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Love, compassion, connection, emotional healing"
+          },
+          "gemstone_allies": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rose quartz, green aventurine, emerald, jade"
+          },
+          "essential_oils": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rose, geranium, eucalyptus, pine"
+          },
+          "yoga_practices": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Heart opening, arm movements, loving-kindness"
+          },
+          "affirmations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I give and receive love freely and unconditionally"
+          }
         },
         "blue_throat_chakra": {
-          "tarot_cards": ["The Hierophant", "King of Swords", "Ace of Swords"],
-          "healing_properties": "Communication, truth, expression, creativity",
-          "gemstone_allies": "Blue lace agate, sodalite, lapis lazuli, aquamarine",
-          "essential_oils": "Eucalyptus, peppermint, chamomile, lavender",
-          "yoga_practices": "Neck rolls, chanting, breath work, sound healing",
-          "affirmations": "I speak my truth with love and clarity"
+          "tarot_cards": [
+            "The Hierophant",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "King of Swords"
+            },
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ace of Swords"
+            }
+          ],
+          "healing_properties": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Communication, truth, expression, creativity"
+          },
+          "gemstone_allies": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Blue lace agate, sodalite, lapis lazuli, aquamarine"
+          },
+          "essential_oils": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Eucalyptus, peppermint, chamomile, lavender"
+          },
+          "yoga_practices": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Neck rolls, chanting, breath work, sound healing"
+          },
+          "affirmations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I speak my truth with love and clarity"
+          }
         },
         "indigo_third_eye": {
-          "tarot_cards": ["The High Priestess", "The Hermit", "Seven of Cups"],
-          "healing_properties": "Intuition, wisdom, psychic sight, imagination",
-          "gemstone_allies": "Amethyst, fluorite, labradorite, sodalite",
-          "essential_oils": "Frankincense, sandalwood, juniper, clary sage",
-          "yoga_practices": "Meditation, visualization, eye exercises, pranayama",
-          "affirmations": "I trust my intuition and see clearly with inner vision"
+          "tarot_cards": [
+            "The High Priestess",
+            "The Hermit",
+            {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Seven of Cups"
+            }
+          ],
+          "healing_properties": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Intuition, wisdom, psychic sight, imagination"
+          },
+          "gemstone_allies": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Amethyst, fluorite, labradorite, sodalite"
+          },
+          "essential_oils": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Frankincense, sandalwood, juniper, clary sage"
+          },
+          "yoga_practices": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Meditation, visualization, eye exercises, pranayama"
+          },
+          "affirmations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I trust my intuition and see clearly with inner vision"
+          }
         },
         "violet_crown_chakra": {
-          "tarot_cards": ["The World", "The Star", "The Fool"],
-          "healing_properties": "Spiritual connection, consciousness, enlightenment",
-          "gemstone_allies": "Clear quartz, amethyst, selenite, diamond",
-          "essential_oils": "Frankincense, myrrh, lotus, rose",
-          "yoga_practices": "Meditation, crown breathing, silence, contemplation",
-          "affirmations": "I am connected to divine wisdom and infinite love"
+          "tarot_cards": [
+            "The World",
+            "The Star",
+            "The Fool"
+          ],
+          "healing_properties": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual connection, consciousness, enlightenment"
+          },
+          "gemstone_allies": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Clear quartz, amethyst, selenite, diamond"
+          },
+          "essential_oils": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Frankincense, myrrh, lotus, rose"
+          },
+          "yoga_practices": {
+            "citation_key": "Shakti_Gawain-Chakra_Meditation",
+            "text": "Meditation, crown breathing, silence, contemplation"
+          },
+          "affirmations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "I am connected to divine wisdom and infinite love"
+          }
         }
       }
     },
     "synthesis_practices": {
       "multi_system_integration": {
-        "description": "Combining multiple esoteric systems for comprehensive spiritual practice",
+        "description": {
+          "citation_key": "Starhawk-The_Spiral_Dance",
+          "text": "Combining multiple esoteric systems for comprehensive spiritual practice"
+        },
         "daily_practice_integration": {
-          "morning_alignment": "Astrological timing + Chakra meditation + Tarot guidance",
-          "work_application": "Hermetic principles + Practical manifestation + Card wisdom",
-          "evening_integration": "Kabbalistic contemplation + Alchemical reflection + Dream preparation"
+          "morning_alignment": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Astrological timing + Chakra meditation + Tarot guidance"
+          },
+          "work_application": {
+            "citation_key": "The_Three_Initiates-The_Kybalion",
+            "text": "Hermetic principles + Practical manifestation + Card wisdom"
+          },
+          "evening_integration": {
+            "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+            "text": "Kabbalistic contemplation + Alchemical reflection + Dream preparation"
+          }
         },
         "advanced_manifestation": {
-          "step_1": "Astrological timing selection for optimal energy",
-          "step_2": "Kabbalistic pathworking for spiritual alignment",
-          "step_3": "Alchemical process understanding for transformation",
-          "step_4": "Hermetic correspondence for multi-level manifestation",
-          "step_5": "Tarot guidance for practical steps and timing"
+          "step_1": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Astrological timing selection for optimal energy"
+          },
+          "step_2": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Kabbalistic pathworking for spiritual alignment"
+          },
+          "step_3": {
+            "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+            "text": "Alchemical process understanding for transformation"
+          },
+          "step_4": {
+            "citation_key": "The_Three_Initiates-The_Kybalion",
+            "text": "Hermetic correspondence for multi-level manifestation"
+          },
+          "step_5": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Tarot guidance for practical steps and timing"
+          }
         },
         "healing_integration": {
-          "assessment": "Chakra analysis + Astrological health indicators + Tarot guidance",
-          "treatment": "Color therapy + Gemstone healing + Herbal allies + Energy work",
-          "integration": "Alchemical understanding + Kabbalistic spiritual practice + Tarot follow-up"
+          "assessment": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Chakra analysis + Astrological health indicators + Tarot guidance"
+          },
+          "treatment": {
+            "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
+            "text": "Color therapy + Gemstone healing + Herbal allies + Energy work"
+          },
+          "integration": {
+            "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+            "text": "Alchemical understanding + Kabbalistic spiritual practice + Tarot follow-up"
+          }
         }
       }
     }

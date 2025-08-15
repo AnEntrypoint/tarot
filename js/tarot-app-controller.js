@@ -53,6 +53,7 @@ class TarotAppController {
     }
 
     selectSpread(option) {
+        console.log("Spread selected:", option.dataset.spread);
         // Remove previous selection
         document.querySelectorAll('.spread-option').forEach(opt => opt.classList.remove('selected'));
         
@@ -66,7 +67,7 @@ class TarotAppController {
         // Update UI
         this.showButton('startReadingBtn');
         this.updateInstructionText(
-            `You've selected the ${this.currentSpread.name}. Click "Begin Reading" to start your journey into the cards' wisdom.`
+            `You've selected the ${getText(this.currentSpread.name)}. Click "Begin Reading" to start your journey into the cards' wisdom.`
         );
     }
 
@@ -216,8 +217,8 @@ class TarotAppController {
         
         let summaryHTML = `
             <div class="reading-header">
-                <h4 class="text-xl font-semibold mb-2 text-teal-400">${this.currentSpread.name}</h4>
-                <p class="text-gray-300 mb-4">${this.currentSpread.interpretation}</p>
+                <h4 class="text-xl font-semibold mb-2 text-teal-400">${getText(this.currentSpread.name)}</h4>
+                <p class="text-gray-300 mb-4">${getText(this.currentSpread.interpretation)}</p>
                 
                 <!-- Quick Stats -->
                 <div class="reading-stats grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
@@ -254,8 +255,8 @@ class TarotAppController {
                             <span class="position-number">${index + 1}</span>
                         </div>
                         <div class="card-title-section">
-                            <h5 class="font-semibold text-blue-300">${card.position.name}</h5>
-                            <p class="text-sm text-gray-400">${card.position.description}</p>
+                            <h5 class="font-semibold text-blue-300">${getText(card.position.name)}</h5>
+                            <p class="text-sm text-gray-400">${getText(card.position.description)}</p>
                         </div>
                         <div class="card-energy-indicator ${card.element?.toLowerCase() || 'neutral'}">
                             ${this.getElementSymbol(card.element)}
@@ -269,7 +270,7 @@ class TarotAppController {
                                 <span class="metadata-item">${card.suit}</span>
                                 ${card.number ? `<span class="metadata-item">Number ${card.number}</span>` : ''}
                                 ${card.element ? `<span class="metadata-item">${card.element}</span>` : ''}
-                                ${card.astrology ? `<span class="metadata-item">${card.astrology}</span>` : ''}
+                                ${card.astrology ? `<span class="metadata-item">${getText(card.astrology)}</span>` : ''}
                             </div>
                         </div>
                         
@@ -490,13 +491,13 @@ class TarotAppController {
     }
     
     getDetailedCardAnalysis(card) {
-        const primaryMeaning = card.isReversed ? 
+        const primaryMeaning = getText(card.isReversed ?
             card.meanings.reversed.general : 
-            card.meanings.upright.general;
+            card.meanings.upright.general);
         
-        const keywords = card.isReversed ? 
+        const keywords = (card.isReversed ?
             card.keywords.reversed : 
-            card.keywords.upright;
+            card.keywords.upright).map(kw => getText(kw));
         
         const positionSpecific = this.getPositionSpecificMeaning(card, card.position);
         const energeticInfluence = this.getEnergeticInfluence(card);
@@ -634,8 +635,8 @@ class TarotAppController {
     }
     
     getPositionSpecificMeaning(card, position) {
-        const meaning = card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general;
-        return `In the ${position.name} position, ${card.name} specifically addresses ${this.getPositionContext(position.name, card)}. ${meaning.substring(0, 150)}...`;
+        const meaningText = getText(card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general);
+        return `In the ${getText(position.name)} position, ${card.name} specifically addresses ${this.getPositionContext(position.name, card)}. ${meaningText.substring(0, 150)}...`;
     }
     
     getPositionContext(positionName, card) {
@@ -2185,7 +2186,7 @@ class TarotAppController {
     
     startDrawMode() {
         this.showElement('deckContainer');
-        this.updateInstructionText(`Draw ${this.currentSpread.cardCount} card(s) for your ${this.currentSpread.name} reading. Click the deck to draw your first card.`);
+        this.updateInstructionText(`Draw ${this.currentSpread.cardCount} card(s) for your ${getText(this.currentSpread.name)} reading. Click the deck to draw your first card.`);
         this.enableDeckInteraction();
         // Add ready-to-draw class to show "CLICK TO DRAW" text
         const deckCard = document.querySelector('.deck-card');
@@ -2223,7 +2224,7 @@ class TarotAppController {
             <div class="card-picker-content">
                 <div class="card-picker-header">
                     <h3 class="text-xl font-semibold text-teal-400">Select ${cardsNeeded} Card${cardsNeeded > 1 ? 's' : ''}</h3>
-                    <p class="text-sm text-gray-300">Position: ${this.currentSpread.positions[this.drawnCards.length].name}</p>
+                    <p class="text-sm text-gray-300">Position: ${getText(this.currentSpread.positions[this.drawnCards.length].name)}</p>
                     <button id="closeCardPicker" class="close-picker-btn">×</button>
                 </div>
                 <div class="card-picker-suits">
