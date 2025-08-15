@@ -67,7 +67,7 @@ class TarotAppController {
         // Update UI
         this.showButton('startReadingBtn');
         this.updateInstructionText(
-            `You've selected the ${getText(this.currentSpread.name)}. Click "Begin Reading" to start your journey into the cards' wisdom.`
+            `You've selected the ${renderTextWithCitation(this.currentSpread.name, getText(this.currentSpread.name))}. Click "Begin Reading" to start your journey into the cards' wisdom.`
         );
     }
 
@@ -217,8 +217,8 @@ class TarotAppController {
         
         let summaryHTML = `
             <div class="reading-header">
-                <h4 class="text-xl font-semibold mb-2 text-teal-400">${getText(this.currentSpread.name)}</h4>
-                <p class="text-gray-300 mb-4">${getText(this.currentSpread.interpretation)}</p>
+                <h4 class="text-xl font-semibold mb-2 text-teal-400">${renderTextWithCitation(this.currentSpread.name, getText(this.currentSpread.name))}</h4>
+                <p class="text-gray-300 mb-4">${renderTextWithCitation(this.currentSpread.interpretation, getText(this.currentSpread.interpretation))}</p>
                 
                 <!-- Quick Stats -->
                 <div class="reading-stats grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
@@ -255,8 +255,8 @@ class TarotAppController {
                             <span class="position-number">${index + 1}</span>
                         </div>
                         <div class="card-title-section">
-                            <h5 class="font-semibold text-blue-300">${getText(card.position.name)}</h5>
-                            <p class="text-sm text-gray-400">${getText(card.position.description)}</p>
+                            <h5 class="font-semibold text-blue-300">${renderTextWithCitation(card.position.name, getText(card.position.name))}</h5>
+                            <p class="text-sm text-gray-400">${renderTextWithCitation(card.position.description, getText(card.position.description))}</p>
                         </div>
                         <div class="card-energy-indicator ${card.element?.toLowerCase() || 'neutral'}">
                             ${this.getElementSymbol(card.element)}
@@ -270,7 +270,7 @@ class TarotAppController {
                                 <span class="metadata-item">${card.suit}</span>
                                 ${card.number ? `<span class="metadata-item">Number ${card.number}</span>` : ''}
                                 ${card.element ? `<span class="metadata-item">${card.element}</span>` : ''}
-                                ${card.astrology ? `<span class="metadata-item">${getText(card.astrology)}</span>` : ''}
+                                ${card.astrology ? `<span class="metadata-item">${renderTextWithCitation(card.astrology, getText(card.astrology))}</span>` : ''}
                             </div>
                         </div>
                         
@@ -491,13 +491,14 @@ class TarotAppController {
     }
     
     getDetailedCardAnalysis(card) {
-        const primaryMeaning = getText(card.isReversed ?
-            card.meanings.reversed.general : 
-            card.meanings.upright.general);
+        const primaryMeaning = renderTextWithCitation(
+            card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general,
+            getText(card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general)
+        );
         
         const keywords = (card.isReversed ?
             card.keywords.reversed : 
-            card.keywords.upright).map(kw => getText(kw));
+            card.keywords.upright).map(kw => renderTextWithCitation(kw, getText(kw)));
         
         const positionSpecific = this.getPositionSpecificMeaning(card, card.position);
         const energeticInfluence = this.getEnergeticInfluence(card);
@@ -635,8 +636,14 @@ class TarotAppController {
     }
     
     getPositionSpecificMeaning(card, position) {
-        const meaningText = getText(card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general);
-        return `In the ${getText(position.name)} position, ${card.name} specifically addresses ${this.getPositionContext(position.name, card)}. ${meaningText.substring(0, 150)}...`;
+        const meaningDataField = card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general;
+        const meaningText = getText(meaningDataField);
+
+        const positionNameText = renderTextWithCitation(position.name, getText(position.name));
+
+        // We don't add a citation to the truncated meaning here to avoid breaking HTML.
+        // The full, cited meaning is available in the card detail modal.
+        return `In the ${positionNameText} position, ${card.name} specifically addresses ${this.getPositionContext(position.name, card)}. ${meaningText.substring(0, 150)}...`;
     }
     
     getPositionContext(positionName, card) {

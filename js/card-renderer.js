@@ -124,7 +124,7 @@ class CardRenderer {
                             <strong>Element:</strong> ${card.element || 'Unknown'}
                         </div>
                         <div class="meta-item">
-                            <strong>Astrology:</strong> ${card.astrology ? `${card.astrology} ${this.getAstroSymbol(card.astrology)}` : 'N/A'}
+                            <strong>Astrology:</strong> ${card.astrology ? `${renderTextWithCitation(card.astrology, getText(card.astrology))} ${this.getAstroSymbol(getText(card.astrology))}` : 'N/A'}
                         </div>
                         <div class="meta-item">
                             <strong>Numerology:</strong> ${card.numerology !== null ? card.numerology : 'N/A'}
@@ -135,22 +135,22 @@ class CardRenderer {
                 <div class="modal-meanings">
                     <div class="meaning-section">
                         <h4>General Meaning</h4>
-                        <p>${card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general}</p>
+                        <p>${renderTextWithCitation(card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general, getText(card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general))}</p>
                     </div>
                     
                     <div class="meaning-section">
                         <h4>Love & Relationships</h4>
-                        <p>${card.isReversed ? card.meanings.reversed.love : card.meanings.upright.love}</p>
+                        <p>${renderTextWithCitation(card.isReversed ? card.meanings.reversed.love : card.meanings.upright.love, getText(card.isReversed ? card.meanings.reversed.love : card.meanings.upright.love))}</p>
                     </div>
                     
                     <div class="meaning-section">
                         <h4>Career & Finance</h4>
-                        <p>${card.isReversed ? card.meanings.reversed.career : card.meanings.upright.career}</p>
+                        <p>${renderTextWithCitation(card.isReversed ? card.meanings.reversed.career : card.meanings.upright.career, getText(card.isReversed ? card.meanings.reversed.career : card.meanings.upright.career))}</p>
                     </div>
                     
                     <div class="meaning-section">
                         <h4>Spiritual Guidance</h4>
-                        <p>${card.isReversed ? card.meanings.reversed.spiritual : card.meanings.upright.spiritual}</p>
+                        <p>${renderTextWithCitation(card.isReversed ? card.meanings.reversed.spiritual : card.meanings.upright.spiritual, getText(card.isReversed ? card.meanings.reversed.spiritual : card.meanings.upright.spiritual))}</p>
                     </div>
                 </div>
                 
@@ -160,13 +160,13 @@ class CardRenderer {
                         <div class="keywords-column">
                             <h5>Upright</h5>
                             <div class="keywords">
-                                ${card.keywords.upright.map(k => `<span class="keyword">${k}</span>`).join('')}
+                                ${card.keywords.upright.map(k => `<span class="keyword">${renderTextWithCitation(k, getText(k))}</span>`).join('')}
                             </div>
                         </div>
                         <div class="keywords-column">
                             <h5>Reversed</h5>
                             <div class="keywords">
-                                ${card.keywords.reversed.map(k => `<span class="keyword reversed">${k}</span>`).join('')}
+                                ${card.keywords.reversed.map(k => `<span class="keyword reversed">${renderTextWithCitation(k, getText(k))}</span>`).join('')}
                             </div>
                         </div>
                     </div>
