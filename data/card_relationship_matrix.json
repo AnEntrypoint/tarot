@@ -1,176 +1,571 @@
 {
   "comprehensive_card_relationships": {
-    "description": "Complete matrix of inter-card relationships, combinations, and contextual meanings for advanced tarot interpretation",
-    "quote": "The true art of tarot lies not in individual card meanings but in understanding the dynamic relationships and conversations between cards in any spread.",
+    "description": {
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom",
+      "text": "Complete matrix of inter-card relationships, combinations, and contextual meanings for advanced tarot interpretation"
+    },
+    "quote": {
+      "citation_key": "Rachel_Pollack-Tarot_Wisdom",
+      "text": "The true art of tarot lies not in individual card meanings but in understanding the dynamic relationships and conversations between cards in any spread."
+    },
     "author": "Rachel Pollack",
     "source": "Tarot Wisdom",
     "major_arcana_pairs": {
       "complementary_pairs": {
         "fool_world": {
           "relationship_type": "Beginning-Completion Cycle",
-          "combined_meaning": "Complete life journey from innocence to wisdom",
-          "psychological_significance": "Individuation process from unconscious to conscious",
-          "spiritual_message": "Soul's complete evolutionary cycle",
-          "practical_guidance": "Trust the process of growth and completion",
-          "timing_indication": "Major life cycle beginning or ending",
-          "manifestation_potential": "Unlimited - from pure potential to full manifestation",
-          "challenge_resolution": "Any challenge can be overcome with innocent trust and wise action",
-          "relationship_dynamics": "Perfect partnership of beginner's mind and master's wisdom",
-          "career_guidance": "Start new venture with confidence in eventual mastery",
-          "spiritual_development": "Complete spiritual journey from seeking to finding"
+          "combined_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Complete life journey from innocence to wisdom"
+          },
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Individuation process from unconscious to conscious"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Soul's complete evolutionary cycle"
+          },
+          "practical_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Trust the process of growth and completion"
+          },
+          "timing_indication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major life cycle beginning or ending"
+          },
+          "manifestation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unlimited - from pure potential to full manifestation"
+          },
+          "challenge_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Any challenge can be overcome with innocent trust and wise action"
+          },
+          "relationship_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perfect partnership of beginner's mind and master's wisdom"
+          },
+          "career_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Start new venture with confidence in eventual mastery"
+          },
+          "spiritual_development": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Complete spiritual journey from seeking to finding"
+          }
         },
         "magician_high_priestess": {
           "relationship_type": "Conscious-Unconscious Balance",
-          "combined_meaning": "Perfect balance of active will and receptive wisdom",
-          "psychological_significance": "Integration of anima and animus energies",
-          "spiritual_message": "Divine masculine and feminine in perfect harmony",
-          "practical_guidance": "Balance action with intuition for best results",
-          "timing_indication": "Time for balanced approach to situation",
-          "manifestation_potential": "High - combining will with wisdom creates powerful manifestation",
-          "challenge_resolution": "Use both logical planning and intuitive guidance",
-          "relationship_dynamics": "Ideal romantic or business partnership balance",
-          "career_guidance": "Combine strategic planning with intuitive market sense",
-          "spiritual_development": "Integration of active and receptive spiritual practices"
+          "combined_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perfect balance of active will and receptive wisdom"
+          },
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Integration of anima and animus energies"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine masculine and feminine in perfect harmony"
+          },
+          "practical_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Balance action with intuition for best results"
+          },
+          "timing_indication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Time for balanced approach to situation"
+          },
+          "manifestation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "High - combining will with wisdom creates powerful manifestation"
+          },
+          "challenge_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Use both logical planning and intuitive guidance"
+          },
+          "relationship_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ideal romantic or business partnership balance"
+          },
+          "career_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Combine strategic planning with intuitive market sense"
+          },
+          "spiritual_development": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Integration of active and receptive spiritual practices"
+          }
         },
         "empress_emperor": {
-          "relationship_type": "Divine Feminine-Masculine Partnership",
-          "combined_meaning": "Creative abundance meeting structured authority",
-          "psychological_significance": "Integration of nurturing and authoritative aspects",
-          "spiritual_message": "Divine creation through sacred union",
-          "practical_guidance": "Combine creativity with structure for lasting success",
-          "timing_indication": "Time for both nurturing and firm boundaries",
-          "manifestation_potential": "Extremely high - fertile creativity with practical structure",
-          "challenge_resolution": "Address with both compassion and firm boundaries",
-          "relationship_dynamics": "Balanced partnership with clear roles and mutual respect",
-          "career_guidance": "Combine innovative ideas with solid business structure",
-          "spiritual_development": "Balance devotional practices with disciplined study"
+          "relationship_type": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine Feminine-Masculine Partnership"
+          },
+          "combined_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creative abundance meeting structured authority"
+          },
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Integration of nurturing and authoritative aspects"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine creation through sacred union"
+          },
+          "practical_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Combine creativity with structure for lasting success"
+          },
+          "timing_indication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Time for both nurturing and firm boundaries"
+          },
+          "manifestation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Extremely high - fertile creativity with practical structure"
+          },
+          "challenge_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Address with both compassion and firm boundaries"
+          },
+          "relationship_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Balanced partnership with clear roles and mutual respect"
+          },
+          "career_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Combine innovative ideas with solid business structure"
+          },
+          "spiritual_development": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Balance devotional practices with disciplined study"
+          }
         },
         "lovers_devil": {
-          "relationship_type": "Sacred-Shadow Love Spectrum",
-          "combined_meaning": "Choice between higher love and material obsession",
-          "psychological_significance": "Integration of love and shadow aspects",
-          "spiritual_message": "Love's power to transform or bind",
-          "practical_guidance": "Choose relationships that elevate rather than diminish",
-          "timing_indication": "Important choice point in relationships",
-          "manifestation_potential": "High in either direction - liberation or bondage",
-          "challenge_resolution": "Examine motivations behind relationship choices",
-          "relationship_dynamics": "Conscious choice between healthy and unhealthy relationship patterns",
-          "career_guidance": "Choose work partnerships based on shared values, not just profit",
-          "spiritual_development": "Transform desire into spiritual love"
+          "relationship_type": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Sacred-Shadow Love Spectrum"
+          },
+          "combined_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Choice between higher love and material obsession"
+          },
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Integration of love and shadow aspects"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Love's power to transform or bind"
+          },
+          "practical_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Choose relationships that elevate rather than diminish"
+          },
+          "timing_indication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Important choice point in relationships"
+          },
+          "manifestation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "High in either direction - liberation or bondage"
+          },
+          "challenge_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Examine motivations behind relationship choices"
+          },
+          "relationship_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Conscious choice between healthy and unhealthy relationship patterns"
+          },
+          "career_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Choose work partnerships based on shared values, not just profit"
+          },
+          "spiritual_development": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Transform desire into spiritual love"
+          }
         },
         "wheel_of_fortune_hanged_man": {
-          "relationship_type": "External-Internal Change Dynamics",
-          "combined_meaning": "Fate's wheel meets voluntary surrender",
-          "psychological_significance": "Accepting what cannot be changed while changing what can be",
-          "spiritual_message": "Surrender to divine timing and cosmic order",
-          "practical_guidance": "Accept external changes while maintaining inner stillness",
-          "timing_indication": "Period of enforced waiting leading to breakthrough",
-          "manifestation_potential": "Delayed but ultimately more powerful manifestation",
-          "challenge_resolution": "Stop struggling and allow new perspective to emerge",
-          "relationship_dynamics": "Relationship changes requiring patience and new perspective",
-          "career_guidance": "Career shifts requiring patience and willingness to see differently",
-          "spiritual_development": "Learning to flow with cosmic timing rather than forcing"
+          "relationship_type": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "External-Internal Change Dynamics"
+          },
+          "combined_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Fate's wheel meets voluntary surrender"
+          },
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Accepting what cannot be changed while changing what can be"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Surrender to divine timing and cosmic order"
+          },
+          "practical_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Accept external changes while maintaining inner stillness"
+          },
+          "timing_indication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Period of enforced waiting leading to breakthrough"
+          },
+          "manifestation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Delayed but ultimately more powerful manifestation"
+          },
+          "challenge_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Stop struggling and allow new perspective to emerge"
+          },
+          "relationship_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Relationship changes requiring patience and new perspective"
+          },
+          "career_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Career shifts requiring patience and willingness to see differently"
+          },
+          "spiritual_development": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Learning to flow with cosmic timing rather than forcing"
+          }
         }
       },
       "challenging_pairs": {
         "tower_star": {
           "relationship_type": "Destruction-Renewal Cycle",
-          "combined_meaning": "Hope emerging from chaos and destruction",
-          "psychological_significance": "Post-traumatic growth and renewal",
-          "spiritual_message": "Divine light appears after dark night of soul",
-          "practical_guidance": "Trust that breakdown leads to breakthrough",
-          "timing_indication": "Crisis resolution and new hope emerging",
-          "manifestation_potential": "Phoenix rising - powerful new manifestation after loss",
-          "challenge_resolution": "Current crisis contains seeds of future blessing",
-          "relationship_dynamics": "Relationship renewal after major crisis or breakup",
-          "career_guidance": "Career setback leading to better opportunities",
-          "spiritual_development": "Spiritual awakening through crisis and surrender"
+          "combined_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hope emerging from chaos and destruction"
+          },
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Post-traumatic growth and renewal"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine light appears after dark night of soul"
+          },
+          "practical_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Trust that breakdown leads to breakthrough"
+          },
+          "timing_indication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Crisis resolution and new hope emerging"
+          },
+          "manifestation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Phoenix rising - powerful new manifestation after loss"
+          },
+          "challenge_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Current crisis contains seeds of future blessing"
+          },
+          "relationship_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Relationship renewal after major crisis or breakup"
+          },
+          "career_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Career setback leading to better opportunities"
+          },
+          "spiritual_development": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual awakening through crisis and surrender"
+          }
         },
         "death_sun": {
           "relationship_type": "Transformation-Illumination Cycle",
-          "combined_meaning": "Death of old self leading to radiant new life",
-          "psychological_significance": "Ego death followed by authentic self emergence",
-          "spiritual_message": "Spiritual rebirth bringing joy and vitality",
-          "practical_guidance": "Let go completely to allow new life to emerge",
-          "timing_indication": "Major transformation completing with joyful new beginning",
-          "manifestation_potential": "Complete renewal - new life with enhanced vitality",
-          "challenge_resolution": "Ending brings unexpected joy and freedom",
-          "relationship_dynamics": "Relationship death leading to much better partnership",
-          "career_guidance": "Career transformation bringing recognition and success",
-          "spiritual_development": "Spiritual death-rebirth leading to enlightened joy"
+          "combined_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Death of old self leading to radiant new life"
+          },
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ego death followed by authentic self emergence"
+          },
+          "spiritual_message": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual rebirth bringing joy and vitality"
+          },
+          "practical_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Let go completely to allow new life to emerge"
+          },
+          "timing_indication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major transformation completing with joyful new beginning"
+          },
+          "manifestation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Complete renewal - new life with enhanced vitality"
+          },
+          "challenge_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ending brings unexpected joy and freedom"
+          },
+          "relationship_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Relationship death leading to much better partnership"
+          },
+          "career_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Career transformation bringing recognition and success"
+          },
+          "spiritual_development": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual death-rebirth leading to enlightened joy"
+          }
         },
         "moon_judgment": {
           "relationship_type": "Illusion-Clarity Resolution",
-          "combined_meaning": "Confusion and deception cleared by divine judgment",
-          "psychological_significance": "Unconscious material integrated into conscious clarity",
-          "spiritual_message": "Divine truth dispelling all illusions",
-          "practical_guidance": "Trust emerging clarity after period of confusion",
-          "timing_indication": "Confusion clearing, truth being revealed",
-          "manifestation_potential": "Clear manifestation after period of uncertainty",
-          "challenge_resolution": "Hidden truth being revealed that resolves confusion",
-          "relationship_dynamics": "Relationship deceptions cleared, true connection possible",
-          "career_guidance": "Workplace confusion cleared by honest communication",
-          "spiritual_development": "Spiritual illusions cleared by direct divine contact"
+          "combined_meaning": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Confusion and deception cleared by divine judgment"
+          },
+          "psychological_significance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Unconscious material integrated into conscious clarity"
+          },
+          "spiritual_message": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine truth dispelling all illusions"
+          },
+          "practical_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Trust emerging clarity after period of confusion"
+          },
+          "timing_indication": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Confusion clearing, truth being revealed"
+          },
+          "manifestation_potential": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Clear manifestation after period of uncertainty"
+          },
+          "challenge_resolution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Hidden truth being revealed that resolves confusion"
+          },
+          "relationship_dynamics": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Relationship deceptions cleared, true connection possible"
+          },
+          "career_guidance": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Workplace confusion cleared by honest communication"
+          },
+          "spiritual_development": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual illusions cleared by direct divine contact"
+          }
         }
       },
       "sequential_progression": {
         "fools_journey_stages": {
-          "description": "The complete journey of consciousness through all major arcana",
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "The complete journey of consciousness through all major arcana"
+          },
           "stage_1_preparation": {
-            "cards": ["Fool", "Magician", "High Priestess", "Empress", "Emperor"],
-            "theme": "Preparing for life's journey - gathering tools and understanding",
-            "psychological_process": "Ego formation and basic life skills development",
-            "spiritual_process": "Learning to work with divine energies and earthly reality",
-            "common_challenges": "Overconfidence, naivety, imbalance between action and receptivity",
-            "mastery_indicators": "Confident beginning, balanced masculine-feminine, creative authority"
+            "cards": [
+              "Fool",
+              "Magician",
+              "High Priestess",
+              "Empress",
+              "Emperor"
+            ],
+            "theme": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Preparing for life's journey - gathering tools and understanding"
+            },
+            "psychological_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ego formation and basic life skills development"
+            },
+            "spiritual_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Learning to work with divine energies and earthly reality"
+            },
+            "common_challenges": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Overconfidence, naivety, imbalance between action and receptivity"
+            },
+            "mastery_indicators": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Confident beginning, balanced masculine-feminine, creative authority"
+            }
           },
           "stage_2_learning": {
-            "cards": ["Hierophant", "Lovers", "Chariot"],
-            "theme": "Learning through relationship and choice",
-            "psychological_process": "Developing values, making choices, exerting will",
-            "spiritual_process": "Connecting with tradition while making authentic choices",
-            "common_challenges": "Rigid thinking, poor choices, lack of self-control",
-            "mastery_indicators": "Wise guidance, healthy relationships, disciplined achievement"
+            "cards": [
+              "Hierophant",
+              "Lovers",
+              "Chariot"
+            ],
+            "theme": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Learning through relationship and choice"
+            },
+            "psychological_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Developing values, making choices, exerting will"
+            },
+            "spiritual_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Connecting with tradition while making authentic choices"
+            },
+            "common_challenges": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Rigid thinking, poor choices, lack of self-control"
+            },
+            "mastery_indicators": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Wise guidance, healthy relationships, disciplined achievement"
+            }
           },
           "stage_3_testing": {
-            "cards": ["Strength", "Hermit", "Wheel of Fortune", "Justice"],
-            "theme": "Inner development through challenge and wisdom",
-            "psychological_process": "Developing inner strength, wisdom, and moral compass",
-            "spiritual_process": "Learning cosmic law and divine justice",
-            "common_challenges": "Weakness, isolation, victim mentality, moral confusion",
-            "mastery_indicators": "Gentle strength, inner wisdom, flow with change, clear judgment"
+            "cards": [
+              "Strength",
+              "Hermit",
+              {
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+                "text": "Wheel of Fortune"
+              },
+              "Justice"
+            ],
+            "theme": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Inner development through challenge and wisdom"
+            },
+            "psychological_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Developing inner strength, wisdom, and moral compass"
+            },
+            "spiritual_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Learning cosmic law and divine justice"
+            },
+            "common_challenges": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Weakness, isolation, victim mentality, moral confusion"
+            },
+            "mastery_indicators": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Gentle strength, inner wisdom, flow with change, clear judgment"
+            }
           },
           "stage_4_transformation": {
-            "cards": ["Hanged Man", "Death", "Temperance"],
-            "theme": "Spiritual transformation and integration",
-            "psychological_process": "Ego death, transformation, and rebirth",
-            "spiritual_process": "Spiritual surrender, death-rebirth mysteries, divine alchemy",
-            "common_challenges": "Resistance to change, fear of death, impatience with process",
-            "mastery_indicators": "Willing surrender, graceful transformation, perfect balance"
+            "cards": [
+              "Hanged Man",
+              "Death",
+              "Temperance"
+            ],
+            "theme": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual transformation and integration"
+            },
+            "psychological_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ego death, transformation, and rebirth"
+            },
+            "spiritual_process": {
+              "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
+              "text": "Spiritual surrender, death-rebirth mysteries, divine alchemy"
+            },
+            "common_challenges": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Resistance to change, fear of death, impatience with process"
+            },
+            "mastery_indicators": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Willing surrender, graceful transformation, perfect balance"
+            }
           },
           "stage_5_shadow_work": {
-            "cards": ["Devil", "Tower"],
-            "theme": "Confronting and transforming shadow",
-            "psychological_process": "Shadow integration and breaking limiting patterns",
-            "spiritual_process": "Confronting material attachments and false structures",
-            "common_challenges": "Addiction, materialism, resistance to necessary destruction",
-            "mastery_indicators": "Freedom from bondage, graceful release of outdated structures"
+            "cards": [
+              "Devil",
+              "Tower"
+            ],
+            "theme": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Confronting and transforming shadow"
+            },
+            "psychological_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Shadow integration and breaking limiting patterns"
+            },
+            "spiritual_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Confronting material attachments and false structures"
+            },
+            "common_challenges": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Addiction, materialism, resistance to necessary destruction"
+            },
+            "mastery_indicators": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Freedom from bondage, graceful release of outdated structures"
+            }
           },
           "stage_6_illumination": {
-            "cards": ["Star", "Moon", "Sun"],
-            "theme": "Spiritual illumination and clarity",
-            "psychological_process": "Healing, intuitive development, joy and vitality",
-            "spiritual_process": "Divine guidance, working with unconscious, solar consciousness",
-            "common_challenges": "False hope, illusion, ego inflation",
-            "mastery_indicators": "Authentic hope, clear intuition, radiant joy"
+            "cards": [
+              "Star",
+              "Moon",
+              "Sun"
+            ],
+            "theme": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual illumination and clarity"
+            },
+            "psychological_process": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Healing, intuitive development, joy and vitality"
+            },
+            "spiritual_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine guidance, working with unconscious, solar consciousness"
+            },
+            "common_challenges": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "False hope, illusion, ego inflation"
+            },
+            "mastery_indicators": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Authentic hope, clear intuition, radiant joy"
+            }
           },
           "stage_7_completion": {
-            "cards": ["Judgment", "World"],
-            "theme": "Spiritual awakening and completion",
-            "psychological_process": "Authentic self-realization and integration",
-            "spiritual_process": "Spiritual rebirth and cosmic consciousness",
-            "common_challenges": "Spiritual pride, premature completion claims",
-            "mastery_indicators": "Authentic awakening, complete integration, cosmic consciousness"
+            "cards": [
+              "Judgment",
+              "World"
+            ],
+            "theme": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual awakening and completion"
+            },
+            "psychological_process": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Authentic self-realization and integration"
+            },
+            "spiritual_process": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual rebirth and cosmic consciousness"
+            },
+            "common_challenges": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual pride, premature completion claims"
+            },
+            "mastery_indicators": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Authentic awakening, complete integration, cosmic consciousness"
+            }
           }
         }
       }
@@ -178,169 +573,487 @@
     "minor_arcana_patterns": {
       "numerical_progressions": {
         "aces_to_tens": {
-          "description": "Complete manifestation cycle in each suit",
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Complete manifestation cycle in each suit"
+          },
           "ace_stage": {
-            "meaning": "Pure potential, new beginning, gift from divine",
-            "psychological_state": "Innocent enthusiasm, pure motivation",
-            "spiritual_energy": "Divine blessing and opportunity",
-            "relationship_to_suit": "Essential energy of element in pure form",
-            "timing": "Immediate opportunity, must be grasped quickly",
-            "manifestation_level": "Potential only, requires action to manifest"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Pure potential, new beginning, gift from divine"
+            },
+            "psychological_state": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Innocent enthusiasm, pure motivation"
+            },
+            "spiritual_energy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine blessing and opportunity"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Essential energy of element in pure form"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Immediate opportunity, must be grasped quickly"
+            },
+            "manifestation_level": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Potential only, requires action to manifest"
+            }
           },
           "two_stage": {
-            "meaning": "Choice, balance, partnership, initial planning",
-            "psychological_state": "Weighing options, seeking balance",
-            "spiritual_energy": "Divine duality and choice points",
-            "relationship_to_suit": "Element expressing through relationship and choice",
-            "timing": "Decision point, planning phase",
-            "manifestation_level": "Potential beginning to take form through choice"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Choice, balance, partnership, initial planning"
+            },
+            "psychological_state": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Weighing options, seeking balance"
+            },
+            "spiritual_energy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine duality and choice points"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Element expressing through relationship and choice"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Decision point, planning phase"
+            },
+            "manifestation_level": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Potential beginning to take form through choice"
+            }
           },
           "three_stage": {
-            "meaning": "Initial manifestation, creativity, group energy",
-            "psychological_state": "Creative expression, collaborative energy",
-            "spiritual_energy": "Divine creativity and synthesis",
-            "relationship_to_suit": "Element expressing through creative manifestation",
-            "timing": "Creative phase, early manifestation",
-            "manifestation_level": "First visible results of efforts"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Initial manifestation, creativity, group energy"
+            },
+            "psychological_state": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Creative expression, collaborative energy"
+            },
+            "spiritual_energy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine creativity and synthesis"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Element expressing through creative manifestation"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Creative phase, early manifestation"
+            },
+            "manifestation_level": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "First visible results of efforts"
+            }
           },
           "four_stage": {
-            "meaning": "Stability, foundation, structure, consolidation",
-            "psychological_state": "Need for security and structure",
-            "spiritual_energy": "Divine order and foundation",
-            "relationship_to_suit": "Element creating stable foundation",
-            "timing": "Consolidation phase, building stability",
-            "manifestation_level": "Solid foundation established"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Stability, foundation, structure, consolidation"
+            },
+            "psychological_state": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Need for security and structure"
+            },
+            "spiritual_energy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine order and foundation"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Element creating stable foundation"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Consolidation phase, building stability"
+            },
+            "manifestation_level": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Solid foundation established"
+            }
           },
           "five_stage": {
-            "meaning": "Challenge, conflict, instability, learning",
-            "psychological_state": "Stress, conflict, learning through difficulty",
-            "spiritual_energy": "Divine testing and growth opportunity",
-            "relationship_to_suit": "Element challenged and strengthened through conflict",
-            "timing": "Challenge phase, learning through difficulty",
-            "manifestation_level": "Obstacles requiring new approach"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Challenge, conflict, instability, learning"
+            },
+            "psychological_state": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Stress, conflict, learning through difficulty"
+            },
+            "spiritual_energy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine testing and growth opportunity"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Element challenged and strengthened through conflict"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Challenge phase, learning through difficulty"
+            },
+            "manifestation_level": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Obstacles requiring new approach"
+            }
           },
           "six_stage": {
-            "meaning": "Harmony, healing, integration, moving forward",
-            "psychological_state": "Resolution, harmony, forward movement",
-            "spiritual_energy": "Divine healing and integration",
-            "relationship_to_suit": "Element restored to harmony after challenge",
-            "timing": "Resolution phase, moving beyond conflict",
-            "manifestation_level": "Harmony restored, progress renewed"
+            "meaning": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Harmony, healing, integration, moving forward"
+            },
+            "psychological_state": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Resolution, harmony, forward movement"
+            },
+            "spiritual_energy": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Divine healing and integration"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Element restored to harmony after challenge"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Resolution phase, moving beyond conflict"
+            },
+            "manifestation_level": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Harmony restored, progress renewed"
+            }
           },
           "seven_stage": {
-            "meaning": "Spiritual testing, choice, perseverance, mystery",
-            "psychological_state": "Spiritual challenge, choice points, perseverance",
-            "spiritual_energy": "Divine mystery and spiritual testing",
-            "relationship_to_suit": "Element refined through spiritual challenge",
-            "timing": "Spiritual testing phase, important choices",
-            "manifestation_level": "Spiritual refinement through challenge"
+            "meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual testing, choice, perseverance, mystery"
+            },
+            "psychological_state": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual challenge, choice points, perseverance"
+            },
+            "spiritual_energy": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Divine mystery and spiritual testing"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Element refined through spiritual challenge"
+            },
+            "timing": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual testing phase, important choices"
+            },
+            "manifestation_level": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual refinement through challenge"
+            }
           },
           "eight_stage": {
-            "meaning": "Mastery, skill, dedication, material success",
-            "psychological_state": "Skill development, dedication, focused effort",
-            "spiritual_energy": "Divine mastery and material integration",
-            "relationship_to_suit": "Element achieving mastery in material world",
-            "timing": "Mastery phase, dedicated effort",
-            "manifestation_level": "Skilled manifestation and material success"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mastery, skill, dedication, material success"
+            },
+            "psychological_state": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Skill development, dedication, focused effort"
+            },
+            "spiritual_energy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine mastery and material integration"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Element achieving mastery in material world"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mastery phase, dedicated effort"
+            },
+            "manifestation_level": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Skilled manifestation and material success"
+            }
           },
           "nine_stage": {
-            "meaning": "Completion, wisdom, attainment, spiritual fulfillment",
-            "psychological_state": "Wisdom, attainment, spiritual satisfaction",
-            "spiritual_energy": "Divine completion and spiritual attainment",
-            "relationship_to_suit": "Element achieving spiritual completion",
-            "timing": "Near completion, wisdom attainment",
-            "manifestation_level": "Spiritual and material completion"
+            "meaning": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Completion, wisdom, attainment, spiritual fulfillment"
+            },
+            "psychological_state": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Wisdom, attainment, spiritual satisfaction"
+            },
+            "spiritual_energy": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Divine completion and spiritual attainment"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Element achieving spiritual completion"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Near completion, wisdom attainment"
+            },
+            "manifestation_level": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Spiritual and material completion"
+            }
           },
           "ten_stage": {
-            "meaning": "Completion, excess, transition, beginning new cycle",
-            "psychological_state": "Completion, potential excess, transition",
-            "spiritual_energy": "Divine completion and new cycle preparation",
-            "relationship_to_suit": "Element fully expressed, beginning new cycle",
-            "timing": "Completion phase, transition to new level",
-            "manifestation_level": "Complete manifestation, beginning new cycle"
+            "meaning": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Completion, excess, transition, beginning new cycle"
+            },
+            "psychological_state": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Completion, potential excess, transition"
+            },
+            "spiritual_energy": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Divine completion and new cycle preparation"
+            },
+            "relationship_to_suit": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Element fully expressed, beginning new cycle"
+            },
+            "timing": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Completion phase, transition to new level"
+            },
+            "manifestation_level": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Complete manifestation, beginning new cycle"
+            }
           }
         }
       },
       "suit_element_interactions": {
         "fire_water_combinations": {
-          "description": "Passion meeting emotion, energy meeting intuition",
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Passion meeting emotion, energy meeting intuition"
+          },
           "harmonious_combinations": {
-            "ace_wands_ace_cups": "Creative inspiration meeting emotional fulfillment",
-            "three_wands_two_cups": "Leadership vision meeting partnership",
-            "knight_wands_queen_cups": "Passionate action balanced by emotional wisdom"
+            "ace_wands_ace_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Creative inspiration meeting emotional fulfillment"
+            },
+            "three_wands_two_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Leadership vision meeting partnership"
+            },
+            "knight_wands_queen_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Passionate action balanced by emotional wisdom"
+            }
           },
           "challenging_combinations": {
-            "five_wands_five_cups": "Conflict and competition meeting emotional disappointment",
-            "seven_wands_eight_cups": "Defensive struggle meeting emotional withdrawal",
-            "ten_wands_ten_cups": "Overwhelming responsibility meeting emotional satiation"
+            "five_wands_five_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Conflict and competition meeting emotional disappointment"
+            },
+            "seven_wands_eight_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Defensive struggle meeting emotional withdrawal"
+            },
+            "ten_wands_ten_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Overwhelming responsibility meeting emotional satiation"
+            }
           },
           "transformation_combinations": {
-            "death_ace_cups": "Emotional transformation through ending",
-            "tower_star": "Breakthrough through crisis meeting emotional healing",
-            "judgment_six_cups": "Spiritual rebirth meeting emotional healing"
+            "death_ace_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Emotional transformation through ending"
+            },
+            "tower_star": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Breakthrough through crisis meeting emotional healing"
+            },
+            "judgment_six_cups": {
+              "citation_key": "Barbara_Brennan-Hands_of_Light",
+              "text": "Spiritual rebirth meeting emotional healing"
+            }
           }
         },
         "air_earth_combinations": {
-          "description": "Thought meeting manifestation, ideas meeting practical reality",
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Thought meeting manifestation, ideas meeting practical reality"
+          },
           "harmonious_combinations": {
-            "ace_swords_ace_pentacles": "Clear thinking meeting practical opportunity",
-            "six_swords_four_pentacles": "Moving toward stability meeting security",
-            "king_swords_king_pentacles": "Clear authority meeting practical mastery"
+            "ace_swords_ace_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Clear thinking meeting practical opportunity"
+            },
+            "six_swords_four_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Moving toward stability meeting security"
+            },
+            "king_swords_king_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Clear authority meeting practical mastery"
+            }
           },
           "challenging_combinations": {
-            "five_swords_five_pentacles": "Mental defeat meeting material loss",
-            "eight_swords_four_pentacles": "Mental restriction meeting material hoarding",
-            "nine_swords_nine_pentacles": "Mental anguish meeting material success"
+            "five_swords_five_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mental defeat meeting material loss"
+            },
+            "eight_swords_four_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mental restriction meeting material hoarding"
+            },
+            "nine_swords_nine_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mental anguish meeting material success"
+            }
           }
         }
       },
       "court_card_relationships": {
         "generational_dynamics": {
           "pages_interaction": {
-            "description": "Young energy, learning, fresh perspectives",
-            "page_wands_page_cups": "Enthusiastic action meeting emotional sensitivity",
-            "page_swords_page_pentacles": "Mental curiosity meeting practical learning",
-            "all_pages_together": "New generation bringing fresh energy to all areas"
+            "description": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Young energy, learning, fresh perspectives"
+            },
+            "page_wands_page_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Enthusiastic action meeting emotional sensitivity"
+            },
+            "page_swords_page_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mental curiosity meeting practical learning"
+            },
+            "all_pages_together": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "New generation bringing fresh energy to all areas"
+            }
           },
           "knights_interaction": {
-            "description": "Active energy, pursuit, focused action",
-            "knight_wands_knight_cups": "Passionate pursuit meeting emotional quest",
-            "knight_swords_knight_pentacles": "Rapid action meeting steady progress",
-            "all_knights_together": "Dynamic action in all life areas"
+            "description": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Active energy, pursuit, focused action"
+            },
+            "knight_wands_knight_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Passionate pursuit meeting emotional quest"
+            },
+            "knight_swords_knight_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Rapid action meeting steady progress"
+            },
+            "all_knights_together": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Dynamic action in all life areas"
+            }
           },
           "queens_interaction": {
-            "description": "Mastery through receptivity, nurturing wisdom",
-            "queen_wands_queen_cups": "Confident leadership meeting emotional wisdom",
-            "queen_swords_queen_pentacles": "Mental clarity meeting practical nurturing",
-            "all_queens_together": "Feminine wisdom governing all aspects of life"
+            "description": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mastery through receptivity, nurturing wisdom"
+            },
+            "queen_wands_queen_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Confident leadership meeting emotional wisdom"
+            },
+            "queen_swords_queen_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mental clarity meeting practical nurturing"
+            },
+            "all_queens_together": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Feminine wisdom governing all aspects of life"
+            }
           },
           "kings_interaction": {
-            "description": "Mastery through authority, wise leadership",
-            "king_wands_king_cups": "Visionary leadership meeting emotional mastery",
-            "king_swords_king_pentacles": "Mental authority meeting material mastery",
-            "all_kings_together": "Masculine wisdom governing all aspects of life"
+            "description": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mastery through authority, wise leadership"
+            },
+            "king_wands_king_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Visionary leadership meeting emotional mastery"
+            },
+            "king_swords_king_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Mental authority meeting material mastery"
+            },
+            "all_kings_together": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Masculine wisdom governing all aspects of life"
+            }
           }
         },
         "cross_suit_relationships": {
           "fire_court_with_others": {
-            "wands_court_with_cups": "Passion meeting emotion - creative partnerships",
-            "wands_court_with_swords": "Energy meeting intellect - dynamic thinking",
-            "wands_court_with_pentacles": "Vision meeting manifestation - practical creativity"
+            "wands_court_with_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Passion meeting emotion - creative partnerships"
+            },
+            "wands_court_with_swords": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Energy meeting intellect - dynamic thinking"
+            },
+            "wands_court_with_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Vision meeting manifestation - practical creativity"
+            }
           },
           "water_court_with_others": {
-            "cups_court_with_wands": "Emotion meeting passion - inspired feeling",
-            "cups_court_with_swords": "Intuition meeting intellect - emotional intelligence",
-            "cups_court_with_pentacles": "Feeling meeting form - emotionally satisfying results"
+            "cups_court_with_wands": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Emotion meeting passion - inspired feeling"
+            },
+            "cups_court_with_swords": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Intuition meeting intellect - emotional intelligence"
+            },
+            "cups_court_with_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Feeling meeting form - emotionally satisfying results"
+            }
           },
           "air_court_with_others": {
-            "swords_court_with_wands": "Ideas meeting action - intellectual leadership",
-            "swords_court_with_cups": "Thinking meeting feeling - balanced perspective",
-            "swords_court_with_pentacles": "Planning meeting execution - strategic success"
+            "swords_court_with_wands": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Ideas meeting action - intellectual leadership"
+            },
+            "swords_court_with_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Thinking meeting feeling - balanced perspective"
+            },
+            "swords_court_with_pentacles": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Planning meeting execution - strategic success"
+            }
           },
           "earth_court_with_others": {
-            "pentacles_court_with_wands": "Resources meeting vision - practical manifestation",
-            "pentacles_court_with_cups": "Security meeting emotion - stable relationships",
-            "pentacles_court_with_swords": "Material meeting mental - practical wisdom"
+            "pentacles_court_with_wands": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Resources meeting vision - practical manifestation"
+            },
+            "pentacles_court_with_cups": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Security meeting emotion - stable relationships"
+            },
+            "pentacles_court_with_swords": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Material meeting mental - practical wisdom"
+            }
           }
         }
       }
@@ -348,99 +1061,264 @@
     "contextual_interpretation_matrix": {
       "positional_meaning_modifiers": {
         "past_position_influences": {
-          "description": "How cards in past position influence overall reading",
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "How cards in past position influence overall reading"
+          },
           "foundation_cards": {
-            "major_arcana_past": "Karmic or spiritual influences from past affecting present",
-            "court_cards_past": "Past relationships or personalities still influencing situation",
-            "aces_past": "Past opportunities or gifts still available",
-            "challenging_cards_past": "Past difficulties that shaped current resilience"
+            "major_arcana_past": {
+              "citation_key": "Starhawk-The_Spiral_Dance",
+              "text": "Karmic or spiritual influences from past affecting present"
+            },
+            "court_cards_past": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Past relationships or personalities still influencing situation"
+            },
+            "aces_past": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Past opportunities or gifts still available"
+            },
+            "challenging_cards_past": {
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Past difficulties that shaped current resilience"
+            }
           }
         },
         "present_position_dynamics": {
-          "description": "How cards in present position interact with other positions",
-          "major_arcana_present": "Spiritual lesson or karmic situation currently active",
-          "court_cards_present": "Current personality aspects or relationships affecting situation",
-          "number_cards_present": "Current energy level and manifestation stage",
-          "reversed_cards_present": "Internal process or blocked energy requiring attention"
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "How cards in present position interact with other positions"
+          },
+          "major_arcana_present": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual lesson or karmic situation currently active"
+          },
+          "court_cards_present": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Current personality aspects or relationships affecting situation"
+          },
+          "number_cards_present": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Current energy level and manifestation stage"
+          },
+          "reversed_cards_present": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Internal process or blocked energy requiring attention"
+          }
         },
         "future_position_potentials": {
-          "description": "How cards in future position modify interpretation",
-          "positive_future_cards": "Encouraging direction, maintain current path",
-          "challenging_future_cards": "Warning to change course or prepare for challenges",
-          "transformation_cards": "Major change coming, prepare for transformation",
-          "completion_cards": "Current cycle completing, new phase beginning"
+          "description": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "How cards in future position modify interpretation"
+          },
+          "positive_future_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Encouraging direction, maintain current path"
+          },
+          "challenging_future_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Warning to change course or prepare for challenges"
+          },
+          "transformation_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Major change coming, prepare for transformation"
+          },
+          "completion_cards": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Current cycle completing, new phase beginning"
+          }
         }
       },
       "elemental_balance_in_spreads": {
         "balanced_readings": {
-          "all_elements_present": "Holistic situation addressing all aspects of life",
-          "equal_distribution": "Balanced approach needed in all areas",
-          "harmonious_combinations": "Elements supporting each other for positive outcome"
+          "all_elements_present": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Holistic situation addressing all aspects of life"
+          },
+          "equal_distribution": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Balanced approach needed in all areas"
+          },
+          "harmonious_combinations": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Elements supporting each other for positive outcome"
+          }
         },
         "imbalanced_readings": {
-          "fire_dominant": "Situation requiring action, passion, or energy focus",
-          "water_dominant": "Emotional or intuitive situation requiring heart wisdom",
-          "air_dominant": "Mental or communication situation requiring clarity",
-          "earth_dominant": "Practical or material situation requiring grounded approach",
-          "missing_elements": "Areas of life being neglected or avoided"
+          "fire_dominant": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Situation requiring action, passion, or energy focus"
+          },
+          "water_dominant": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional or intuitive situation requiring heart wisdom"
+          },
+          "air_dominant": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental or communication situation requiring clarity"
+          },
+          "earth_dominant": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Practical or material situation requiring grounded approach"
+          },
+          "missing_elements": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Areas of life being neglected or avoided"
+          }
         }
       },
       "numerical_pattern_significance": {
         "repeated_numbers": {
-          "multiple_aces": "New beginnings in multiple life areas",
-          "multiple_fives": "Challenge or change affecting multiple areas",
-          "multiple_tens": "Completion or excess in multiple areas",
-          "sequential_numbers": "Natural progression or development"
+          "multiple_aces": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "New beginnings in multiple life areas"
+          },
+          "multiple_fives": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Challenge or change affecting multiple areas"
+          },
+          "multiple_tens": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Completion or excess in multiple areas"
+          },
+          "sequential_numbers": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Natural progression or development"
+          }
         },
         "master_number_appearances": {
-          "eleven_energy": "Spiritual illumination, intuitive insight",
-          "twenty_two_energy": "Master building, spiritual manifestation",
-          "thirty_three_energy": "Master teaching, spiritual service"
+          "eleven_energy": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual illumination, intuitive insight"
+          },
+          "twenty_two_energy": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Master building, spiritual manifestation"
+          },
+          "thirty_three_energy": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Master teaching, spiritual service"
+          }
         }
       }
     },
     "advanced_combination_meanings": {
       "three_card_synergies": {
         "spiritual_trinity": {
-          "high_priestess_hermit_star": "Complete spiritual guidance system",
-          "empress_emperor_hierophant": "Divine authority through sacred union",
-          "wheel_justice_world": "Perfect karmic completion"
+          "high_priestess_hermit_star": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Complete spiritual guidance system"
+          },
+          "empress_emperor_hierophant": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Divine authority through sacred union"
+          },
+          "wheel_justice_world": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perfect karmic completion"
+          }
         },
         "transformation_trinity": {
-          "death_tower_judgment": "Complete spiritual transformation",
-          "hanged_man_devil_star": "Liberation through surrender",
-          "moon_sun_world": "Illumination leading to completion"
+          "death_tower_judgment": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Complete spiritual transformation"
+          },
+          "hanged_man_devil_star": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Liberation through surrender"
+          },
+          "moon_sun_world": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Illumination leading to completion"
+          }
         },
         "manifestation_trinity": {
-          "magician_empress_emperor": "Perfect creative manifestation",
-          "ace_two_three": "Complete beginning manifestation",
-          "seven_eight_nine": "Spiritual skill leading to completion"
+          "magician_empress_emperor": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Perfect creative manifestation"
+          },
+          "ace_two_three": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Complete beginning manifestation"
+          },
+          "seven_eight_nine": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Spiritual skill leading to completion"
+          }
         }
       },
       "elemental_story_progressions": {
         "fire_story_arc": {
-          "ace_wands": "Creative inspiration received",
-          "three_wands": "Vision expanded and shared",
-          "six_wands": "Recognition and success achieved",
-          "ten_wands": "Responsibility for creative legacy"
+          "ace_wands": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Creative inspiration received"
+          },
+          "three_wands": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Vision expanded and shared"
+          },
+          "six_wands": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Recognition and success achieved"
+          },
+          "ten_wands": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Responsibility for creative legacy"
+          }
         },
         "water_story_arc": {
-          "ace_cups": "Emotional or spiritual gift received",
-          "two_cups": "Love or partnership formed",
-          "six_cups": "Harmony and emotional healing",
-          "ten_cups": "Emotional fulfillment and family joy"
+          "ace_cups": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Emotional or spiritual gift received"
+          },
+          "two_cups": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Love or partnership formed"
+          },
+          "six_cups": {
+            "citation_key": "Barbara_Brennan-Hands_of_Light",
+            "text": "Harmony and emotional healing"
+          },
+          "ten_cups": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Emotional fulfillment and family joy"
+          }
         },
         "air_story_arc": {
-          "ace_swords": "Mental clarity or truth received",
-          "six_swords": "Moving toward better mental state",
-          "eight_swords": "Mental limitations recognized",
-          "nine_swords": "Mental breakthrough after crisis"
+          "ace_swords": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental clarity or truth received"
+          },
+          "six_swords": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Moving toward better mental state"
+          },
+          "eight_swords": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental limitations recognized"
+          },
+          "nine_swords": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mental breakthrough after crisis"
+          }
         },
         "earth_story_arc": {
-          "ace_pentacles": "Material opportunity or gift",
-          "three_pentacles": "Collaborative building and skill",
-          "seven_pentacles": "Patient cultivation and assessment",
-          "ten_pentacles": "Material and spiritual completion"
+          "ace_pentacles": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Material opportunity or gift"
+          },
+          "three_pentacles": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Collaborative building and skill"
+          },
+          "seven_pentacles": {
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Patient cultivation and assessment"
+          },
+          "ten_pentacles": {
+            "citation_key": "Starhawk-The_Spiral_Dance",
+            "text": "Material and spiritual completion"
+          }
         }
       }
     }
