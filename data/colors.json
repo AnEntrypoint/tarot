@@ -11,11 +11,26 @@
     "author": "Johann Wolfgang von Goethe",
     "source": "Theory of Colors",
     "red": {
-      "wavelength": "700 nanometers",
-      "frequency": "430 THz",
-      "chakra": "Root",
-      "element": "Fire",
-      "planet": "Mars",
+      "wavelength": {
+        "text": "700 nanometers",
+        "citation_key": "Default-Citation-Key"
+      },
+      "frequency": {
+        "text": "430 THz",
+        "citation_key": "Default-Citation-Key"
+      },
+      "chakra": {
+        "text": "Root",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Fire",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Mars",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -32,23 +47,62 @@
       ],
       "psychological_effects": {
         "positive": [
-          "energy",
-          "passion",
-          "courage",
-          "vitality",
-          "strength"
+          {
+            "text": "energy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "passion",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "courage",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "vitality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "strength",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "aggression",
-          "anger",
-          "danger",
-          "violence",
-          "stress"
+          {
+            "text": "aggression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "anger",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "danger",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "violence",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "stress",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
-          "stimulates circulation",
-          "increases energy",
-          "boosts confidence"
+          {
+            "text": "stimulates circulation",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "increases energy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "boosts confidence",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -63,21 +117,54 @@
       "source": "Color Psychology and Color Therapy",
       "cultural_meanings": {
         "western": [
-          "passion",
-          "love",
-          "danger",
-          "power"
+          {
+            "text": "passion",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "love",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "danger",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "power",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "good fortune",
-          "prosperity",
-          "joy",
-          "celebration"
+          {
+            "text": "good fortune",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "prosperity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "joy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "celebration",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "sulfur",
-          "active principle",
-          "masculine energy"
+          {
+            "text": "sulfur",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "active principle",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "masculine energy",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -89,25 +176,55 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "stimulates nervous system"
         },
-        "increases metabolism",
+        {
+          "text": "increases metabolism",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "enhances physical strength"
         }
       ],
       "gemstone_associations": [
-        "ruby",
-        "garnet",
-        "red jasper",
-        "carnelian"
+        {
+          "text": "ruby",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "garnet",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "red jasper",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "carnelian",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "orange": {
-      "wavelength": "620 nanometers",
-      "frequency": "484 THz",
-      "chakra": "Sacral",
-      "element": "Fire/Water",
-      "planet": "Sun/Mercury",
+      "wavelength": {
+        "text": "620 nanometers",
+        "citation_key": "Default-Citation-Key"
+      },
+      "frequency": {
+        "text": "484 THz",
+        "citation_key": "Default-Citation-Key"
+      },
+      "chakra": {
+        "text": "Sacral",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Fire/Water",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Sun/Mercury",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -117,25 +234,61 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Page of Wands clothing"
         },
-        "Temperance angel"
+        {
+          "text": "Temperance angel",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "psychological_effects": {
         "positive": [
-          "creativity",
-          "enthusiasm",
-          "warmth",
-          "sociability",
-          "confidence"
+          {
+            "text": "creativity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "enthusiasm",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "warmth",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "sociability",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "confidence",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "frivolity",
-          "exhibitionism",
-          "superficiality",
-          "impatience"
+          {
+            "text": "frivolity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "exhibitionism",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "superficiality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "impatience",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
-          "stimulates appetite",
-          "enhances creativity",
+          {
+            "text": "stimulates appetite",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "enhances creativity",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "promotes social interaction"
@@ -154,20 +307,50 @@
       "source": "The Beginner's Guide to Color Psychology",
       "cultural_meanings": {
         "western": [
-          "creativity",
-          "adventure",
-          "enthusiasm",
-          "warmth"
+          {
+            "text": "creativity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "adventure",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "enthusiasm",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "warmth",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "good luck",
-          "spiritual strength",
-          "transformation"
+          {
+            "text": "good luck",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual strength",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "transformation",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "citrinitas stage",
-          "spiritual gold",
-          "consciousness awakening"
+          {
+            "text": "citrinitas stage",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual gold",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "consciousness awakening",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -179,22 +362,55 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "supports reproductive system"
         },
-        "aids digestion",
-        "boosts immunity"
+        {
+          "text": "aids digestion",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "boosts immunity",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "gemstone_associations": [
-        "orange calcite",
-        "amber",
-        "citrine",
-        "fire opal"
+        {
+          "text": "orange calcite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "amber",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "citrine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "fire opal",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "yellow": {
-      "wavelength": "570 nanometers",
-      "frequency": "526 THz",
-      "chakra": "Solar Plexus",
-      "element": "Air/Fire",
-      "planet": "Sun",
+      "wavelength": {
+        "text": "570 nanometers",
+        "citation_key": "Default-Citation-Key"
+      },
+      "frequency": {
+        "text": "526 THz",
+        "citation_key": "Default-Citation-Key"
+      },
+      "chakra": {
+        "text": "Solar Plexus",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Air/Fire",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Sun",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -211,26 +427,62 @@
       ],
       "psychological_effects": {
         "positive": [
-          "intellect",
-          "clarity",
-          "optimism",
-          "confidence",
-          "enlightenment"
+          {
+            "text": "intellect",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "clarity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "optimism",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "confidence",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "enlightenment",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "cowardice",
-          "jealousy",
-          "criticism",
-          "anxiety",
-          "betrayal"
+          {
+            "text": "cowardice",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "jealousy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "criticism",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "anxiety",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "betrayal",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "stimulates mental activity"
           },
-          "improves memory",
-          "enhances communication"
+          {
+            "text": "improves memory",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "enhances communication",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -245,21 +497,54 @@
       "source": "The Arts and Their Mission",
       "cultural_meanings": {
         "western": [
-          "happiness",
-          "intellect",
-          "cowardice",
-          "caution"
+          {
+            "text": "happiness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "intellect",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "cowardice",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "caution",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "sacred",
-          "imperial",
-          "prosperity",
-          "wisdom"
+          {
+            "text": "sacred",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "imperial",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "prosperity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "wisdom",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "solar consciousness",
-          "gold",
-          "perfected mind"
+          {
+            "text": "solar consciousness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "gold",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "perfected mind",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -271,25 +556,55 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "supports nervous system"
         },
-        "aids concentration",
+        {
+          "text": "aids concentration",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "stimulates lymphatic system"
         }
       ],
       "gemstone_associations": [
-        "citrine",
-        "yellow topaz",
-        "amber",
-        "golden beryl"
+        {
+          "text": "citrine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "yellow topaz",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "amber",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "golden beryl",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "green": {
-      "wavelength": "530 nanometers",
-      "frequency": "566 THz",
-      "chakra": "Heart",
-      "element": "Earth/Water",
-      "planet": "Venus",
+      "wavelength": {
+        "text": "530 nanometers",
+        "citation_key": "Default-Citation-Key"
+      },
+      "frequency": {
+        "text": "566 THz",
+        "citation_key": "Default-Citation-Key"
+      },
+      "chakra": {
+        "text": "Heart",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Earth/Water",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Venus",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -299,30 +614,69 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Seven of Pentacles growth"
         },
-        "Nature backgrounds"
+        {
+          "text": "Nature backgrounds",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "psychological_effects": {
         "positive": [
-          "balance",
-          "harmony",
-          "growth",
-          "healing",
-          "prosperity"
+          {
+            "text": "balance",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "harmony",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "growth",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "healing",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "prosperity",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "envy",
-          "jealousy",
-          "inexperience",
-          "greed",
-          "illness"
+          {
+            "text": "envy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "jealousy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "inexperience",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "greed",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "illness",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "calms nervous system"
           },
-          "reduces stress",
-          "promotes healing"
+          {
+            "text": "reduces stress",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "promotes healing",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -333,26 +687,62 @@
         "citation_key": "Max_L_scher-The_L_scher_Color_Test",
         "text": "Green is the color of life itself, representing the perfect balance between heaven and earth, spirit and matter."
       },
-      "author": "Max L\u00fcscher",
-      "source": "The L\u00fcscher Color Test",
+      "author": "Max Lüscher",
+      "source": "The Lüscher Color Test",
       "cultural_meanings": {
         "western": [
-          "nature",
-          "growth",
-          "money",
-          "envy",
-          "luck"
+          {
+            "text": "nature",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "growth",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "money",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "envy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "luck",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "new beginnings",
-          "fertility",
-          "harmony",
-          "peace"
+          {
+            "text": "new beginnings",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "fertility",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "harmony",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "peace",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "prima materia",
-          "natural wisdom",
-          "hermetic medicine"
+          {
+            "text": "prima materia",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "natural wisdom",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "hermetic medicine",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -360,7 +750,10 @@
         "text": "Opening the heart chakra and connecting with nature"
       },
       "healing_properties": [
-        "balances emotions",
+        {
+          "text": "balances emotions",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "supports heart health"
@@ -371,18 +764,45 @@
         }
       ],
       "gemstone_associations": [
-        "emerald",
-        "green aventurine",
-        "jade",
-        "malachite"
+        {
+          "text": "emerald",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "green aventurine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "jade",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "malachite",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "blue": {
-      "wavelength": "470 nanometers",
-      "frequency": "638 THz",
-      "chakra": "Throat/Third Eye",
-      "element": "Water/Air",
-      "planet": "Jupiter/Neptune",
+      "wavelength": {
+        "text": "470 nanometers",
+        "citation_key": "Default-Citation-Key"
+      },
+      "frequency": {
+        "text": "638 THz",
+        "citation_key": "Default-Citation-Key"
+      },
+      "chakra": {
+        "text": "Throat/Third Eye",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Water/Air",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Jupiter/Neptune",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -399,25 +819,58 @@
       ],
       "psychological_effects": {
         "positive": [
-          "peace",
-          "tranquility",
-          "communication",
-          "trust",
-          "wisdom"
+          {
+            "text": "peace",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "tranquility",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "communication",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "trust",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "wisdom",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "coldness",
-          "depression",
-          "passivity",
-          "conservatism"
+          {
+            "text": "coldness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "depression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "passivity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "conservatism",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "lowers blood pressure"
           },
-          "calms mind",
-          "enhances communication"
+          {
+            "text": "calms mind",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "enhances communication",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -432,22 +885,58 @@
       "source": "Concerning the Spiritual in Art",
       "cultural_meanings": {
         "western": [
-          "trust",
-          "loyalty",
-          "wisdom",
-          "confidence",
-          "intelligence"
+          {
+            "text": "trust",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "loyalty",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "wisdom",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "confidence",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "intelligence",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "immortality",
-          "divinity",
-          "healing",
-          "protection"
+          {
+            "text": "immortality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "divinity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "healing",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "protection",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "mercury",
-          "flowing principle",
-          "spiritual communication"
+          {
+            "text": "mercury",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "flowing principle",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual communication",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -455,26 +944,59 @@
         "text": "Enhancing communication and accessing higher wisdom"
       },
       "healing_properties": [
-        "supports thyroid",
-        "calms inflammation",
+        {
+          "text": "supports thyroid",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "calms inflammation",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "promotes restful sleep"
         }
       ],
       "gemstone_associations": [
-        "sapphire",
-        "lapis lazuli",
-        "aquamarine",
-        "sodalite"
+        {
+          "text": "sapphire",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "lapis lazuli",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "aquamarine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "sodalite",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "indigo": {
-      "wavelength": "445 nanometers",
-      "frequency": "674 THz",
-      "chakra": "Third Eye",
-      "element": "Ether/Space",
-      "planet": "Saturn/Neptune",
+      "wavelength": {
+        "text": "445 nanometers",
+        "citation_key": "Default-Citation-Key"
+      },
+      "frequency": {
+        "text": "674 THz",
+        "citation_key": "Default-Citation-Key"
+      },
+      "chakra": {
+        "text": "Third Eye",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Ether/Space",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Saturn/Neptune",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -491,19 +1013,46 @@
       ],
       "psychological_effects": {
         "positive": [
-          "intuition",
-          "spiritual perception",
-          "wisdom",
-          "devotion"
+          {
+            "text": "intuition",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual perception",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "wisdom",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "devotion",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "isolation",
-          "depression",
-          "fanaticism",
-          "impracticality"
+          {
+            "text": "isolation",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "depression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "fanaticism",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "impracticality",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
-          "enhances intuition",
+          {
+            "text": "enhances intuition",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "calms mental activity"
@@ -526,20 +1075,50 @@
       "source": "Esoteric Healing",
       "cultural_meanings": {
         "western": [
-          "intuition",
-          "mystery",
-          "spirituality",
-          "dignity"
+          {
+            "text": "intuition",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mystery",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spirituality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "dignity",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "wisdom",
-          "spiritual knowledge",
-          "deep meditation"
+          {
+            "text": "wisdom",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual knowledge",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "deep meditation",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "philosophical mercury",
-          "cosmic consciousness",
-          "spiritual sight"
+          {
+            "text": "philosophical mercury",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "cosmic consciousness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual sight",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -551,45 +1130,105 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "supports pineal gland"
         },
-        "enhances intuition",
+        {
+          "text": "enhances intuition",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "calms mental chatter"
         }
       ],
       "gemstone_associations": [
-        "indigo gabbro",
-        "labradorite",
-        "iolite",
-        "tanzanite"
+        {
+          "text": "indigo gabbro",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "labradorite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "iolite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "tanzanite",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "violet": {
-      "wavelength": "400 nanometers",
-      "frequency": "750 THz",
-      "chakra": "Crown",
-      "element": "Spirit/Thought",
-      "planet": "Jupiter/Neptune",
+      "wavelength": {
+        "text": "400 nanometers",
+        "citation_key": "Default-Citation-Key"
+      },
+      "frequency": {
+        "text": "750 THz",
+        "citation_key": "Default-Citation-Key"
+      },
+      "chakra": {
+        "text": "Crown",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Spirit/Thought",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Jupiter/Neptune",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Temperance angel wings"
         },
-        "Justice robes",
-        "Spiritual symbolism"
+        {
+          "text": "Justice robes",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Spiritual symbolism",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "psychological_effects": {
         "positive": [
-          "spirituality",
-          "transformation",
-          "inspiration",
-          "creativity"
+          {
+            "text": "spirituality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "transformation",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "inspiration",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "creativity",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "impracticality",
-          "immaturity",
-          "arrogance",
-          "mourning"
+          {
+            "text": "impracticality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "immaturity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "arrogance",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mourning",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
           {
@@ -600,7 +1239,10 @@
             "citation_key": "Starhawk-The_Spiral_Dance",
             "text": "enhances spiritual connection"
           },
-          "promotes transformation"
+          {
+            "text": "promotes transformation",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -615,21 +1257,54 @@
       "source": "Man Visible and Invisible",
       "cultural_meanings": {
         "western": [
-          "royalty",
-          "spirituality",
-          "luxury",
-          "creativity",
-          "mystery"
+          {
+            "text": "royalty",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spirituality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "luxury",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "creativity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mystery",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "spiritual power",
-          "enlightenment",
-          "transformation"
+          {
+            "text": "spiritual power",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "enlightenment",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "transformation",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "philosophical gold",
-          "spiritual perfection",
-          "divine consciousness"
+          {
+            "text": "philosophical gold",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual perfection",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "divine consciousness",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -651,10 +1326,22 @@
         }
       ],
       "gemstone_associations": [
-        "amethyst",
-        "charoite",
-        "sugilite",
-        "lepidolite"
+        {
+          "text": "amethyst",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "charoite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "sugilite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "lepidolite",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "white": {
@@ -666,35 +1353,86 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "All frequencies combined"
       },
-      "chakra": "Crown/All chakras",
-      "element": "Spirit/Pure consciousness",
-      "planet": "Moon/Uranus",
+      "chakra": {
+        "text": "Crown/All chakras",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Spirit/Pure consciousness",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Moon/Uranus",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "The Fool's inner garment"
         },
-        "Temperance angel",
-        "Purity symbols"
+        {
+          "text": "Temperance angel",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Purity symbols",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "psychological_effects": {
         "positive": [
-          "purity",
-          "clarity",
-          "simplicity",
-          "peace",
-          "new beginnings"
+          {
+            "text": "purity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "clarity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "simplicity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "peace",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "new beginnings",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "sterility",
-          "coldness",
-          "isolation",
-          "emptiness"
+          {
+            "text": "sterility",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "coldness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "isolation",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "emptiness",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
-          "purifies energy",
-          "enhances clarity",
-          "promotes peace"
+          {
+            "text": "purifies energy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "enhances clarity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "promotes peace",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -709,22 +1447,58 @@
       "source": "The Secret Doctrine",
       "cultural_meanings": {
         "western": [
-          "purity",
-          "innocence",
-          "peace",
-          "cleanliness",
-          "sterility"
+          {
+            "text": "purity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "innocence",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "peace",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "cleanliness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "sterility",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "mourning",
-          "death",
-          "rebirth",
-          "spiritual purity"
+          {
+            "text": "mourning",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "death",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "rebirth",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual purity",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "albedo stage",
-          "purification",
-          "lunar consciousness"
+          {
+            "text": "albedo stage",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "purification",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "lunar consciousness",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -740,13 +1514,28 @@
           "citation_key": "Barbara_Brennan-Hands_of_Light",
           "text": "enhances spiritual healing"
         },
-        "promotes clarity"
+        {
+          "text": "promotes clarity",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "gemstone_associations": [
-        "clear quartz",
-        "selenite",
-        "moonstone",
-        "diamond"
+        {
+          "text": "clear quartz",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "selenite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "moonstone",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "diamond",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "black": {
@@ -754,39 +1543,90 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Absorption of all wavelengths"
       },
-      "frequency": "Zero reflection",
-      "chakra": "Root/Base",
-      "element": "Earth/Void",
-      "planet": "Saturn/Pluto",
+      "frequency": {
+        "text": "Zero reflection",
+        "citation_key": "Default-Citation-Key"
+      },
+      "chakra": {
+        "text": "Root/Base",
+        "citation_key": "Default-Citation-Key"
+      },
+      "element": {
+        "text": "Earth/Void",
+        "citation_key": "Default-Citation-Key"
+      },
+      "planet": {
+        "text": "Saturn/Pluto",
+        "citation_key": "Default-Citation-Key"
+      },
       "tarot_cards": [
-        "Death's armor",
+        {
+          "text": "Death's armor",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "The Devil's darkness"
         },
-        "Night imagery"
+        {
+          "text": "Night imagery",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "psychological_effects": {
         "positive": [
-          "protection",
-          "mystery",
-          "sophistication",
-          "authority"
+          {
+            "text": "protection",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mystery",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "sophistication",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "authority",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "depression",
-          "mourning",
-          "evil",
-          "emptiness",
-          "fear"
+          {
+            "text": "depression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mourning",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "evil",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "emptiness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "fear",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic": [
-          "provides protection",
+          {
+            "text": "provides protection",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "absorbs negative energy"
           },
-          "promotes introspection"
+          {
+            "text": "promotes introspection",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -801,23 +1641,62 @@
       "source": "Memories, Dreams, Reflections",
       "cultural_meanings": {
         "western": [
-          "death",
-          "mourning",
-          "evil",
-          "sophistication",
-          "power"
+          {
+            "text": "death",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mourning",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "evil",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "sophistication",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "power",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "eastern": [
-          "mystery",
-          "depth",
-          "spiritual strength",
-          "infinity"
+          {
+            "text": "mystery",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "depth",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "spiritual strength",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "infinity",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
-          "nigredo stage",
-          "prima materia",
-          "dissolution",
-          "fertile void"
+          {
+            "text": "nigredo stage",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "prima materia",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "dissolution",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "fertile void",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "meditation_use": {
@@ -829,40 +1708,85 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "absorbs negative energy"
         },
-        "provides grounding",
+        {
+          "text": "provides grounding",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "promotes deep rest"
         }
       ],
       "gemstone_associations": [
-        "obsidian",
-        "black tourmaline",
-        "hematite",
-        "jet"
+        {
+          "text": "obsidian",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "black tourmaline",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "hematite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "jet",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "gray": {
       "psychological_effects": {
         "positive": [
-          "neutrality",
-          "balance",
-          "compromise",
-          "wisdom"
+          {
+            "text": "neutrality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "balance",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "compromise",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "wisdom",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "indecision",
-          "boredom",
-          "depression",
+          {
+            "text": "indecision",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "boredom",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "depression",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "lack of energy"
           }
         ],
         "therapeutic": [
-          "promotes neutrality",
-          "calms extremes",
-          "encourages contemplation"
+          {
+            "text": "promotes neutrality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "calms extremes",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "encourages contemplation",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -878,7 +1802,10 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Clouds in background"
         },
-        "Neutral grounds"
+        {
+          "text": "Neutral grounds",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "meditation_use": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -886,18 +1813,36 @@
       },
       "cultural_meanings": {
         "western": [
-          "neutrality",
-          "compromise",
-          "wisdom",
-          "age"
+          {
+            "text": "neutrality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "compromise",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "wisdom",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "age",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "alchemical": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "balance of opposites"
           },
-          "philosophical neutral",
-          "integration"
+          {
+            "text": "philosophical neutral",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "integration",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       }
     }
@@ -1044,19 +1989,46 @@
     "chromotherapy_principles": {
       "warm_colors": {
         "range": [
-          "Red",
-          "Orange",
-          "Yellow"
+          {
+            "text": "Red",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Orange",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Yellow",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "effects": [
-          "Stimulating",
-          "Energizing",
-          "Activating"
+          {
+            "text": "Stimulating",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Energizing",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Activating",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic_use": [
-          "Depression",
-          "Lethargy",
-          "Circulation problems"
+          {
+            "text": "Depression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Lethargy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Circulation problems",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "tarot_correlation": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1065,19 +2037,46 @@
       },
       "cool_colors": {
         "range": [
-          "Blue",
-          "Indigo",
-          "Violet"
+          {
+            "text": "Blue",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Indigo",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Violet",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "effects": [
-          "Calming",
-          "Cooling",
-          "Sedating"
+          {
+            "text": "Calming",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Cooling",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Sedating",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "therapeutic_use": [
-          "Anxiety",
-          "Inflammation",
-          "Hyperactivity"
+          {
+            "text": "Anxiety",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Inflammation",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Hyperactivity",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "tarot_correlation": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1088,9 +2087,18 @@
     "specific_treatments": {
       "red_light_therapy": {
         "conditions": [
-          "Low energy",
-          "Poor circulation",
-          "Depression"
+          {
+            "text": "Low energy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Poor circulation",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Depression",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "method": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1100,7 +2108,10 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Focus on red elements in Strength or Magician cards"
         },
-        "duration": "10-15 minutes daily",
+        "duration": {
+          "text": "10-15 minutes daily",
+          "citation_key": "Default-Citation-Key"
+        },
         "precautions": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Avoid with high blood pressure or agitation"
@@ -1108,9 +2119,18 @@
       },
       "blue_light_therapy": {
         "conditions": [
-          "Insomnia",
-          "Anxiety",
-          "Inflammation"
+          {
+            "text": "Insomnia",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Anxiety",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Inflammation",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "method": {
           "citation_key": "Shakti_Gawain-Chakra_Meditation",
@@ -1120,7 +2140,10 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Focus on blue elements in High Priestess or Star cards"
         },
-        "duration": "15-20 minutes daily",
+        "duration": {
+          "text": "15-20 minutes daily",
+          "citation_key": "Default-Citation-Key"
+        },
         "precautions": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "May increase depression in some individuals"
@@ -1128,9 +2151,18 @@
       },
       "green_healing": {
         "conditions": [
-          "Heart problems",
-          "Stress",
-          "Relationship issues"
+          {
+            "text": "Heart problems",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Stress",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Relationship issues",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "method": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1140,7 +2172,10 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Focus on green in Empress or heart-centered cards"
         },
-        "duration": "20-30 minutes daily",
+        "duration": {
+          "text": "20-30 minutes daily",
+          "citation_key": "Default-Citation-Key"
+        },
         "precautions": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Generally safe for all conditions"
@@ -1155,127 +2190,364 @@
     },
     "western_tradition": {
       "white": [
-        "Purity",
-        "Innocence",
-        "Peace",
-        "Divinity"
+        {
+          "text": "Purity",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Innocence",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Peace",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Divinity",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "black": [
-        "Death",
-        "Evil",
-        "Mystery",
-        "Power"
+        {
+          "text": "Death",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Evil",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Mystery",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Power",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "red": [
-        "Love",
-        "Passion",
-        "Danger",
-        "Power"
+        {
+          "text": "Love",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Passion",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Danger",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Power",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "blue": [
-        "Trust",
-        "Loyalty",
-        "Peace",
-        "Divinity"
+        {
+          "text": "Trust",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Loyalty",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Peace",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Divinity",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "green": [
-        "Nature",
-        "Growth",
-        "Money",
-        "Envy"
+        {
+          "text": "Nature",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Growth",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Money",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Envy",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "yellow": [
-        "Happiness",
-        "Cowardice",
-        "Intellect",
-        "Caution"
+        {
+          "text": "Happiness",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Cowardice",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Intellect",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Caution",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "purple": [
-        "Royalty",
-        "Spirituality",
-        "Luxury",
-        "Mystery"
+        {
+          "text": "Royalty",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Spirituality",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Luxury",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Mystery",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "eastern_tradition": {
       "white": [
-        "Death",
-        "Mourning",
-        "Purity",
-        "Spiritual power"
+        {
+          "text": "Death",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Mourning",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Purity",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Spiritual power",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "black": [
-        "Evil",
-        "Destruction",
-        "Formlessness",
-        "Mystery"
+        {
+          "text": "Evil",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Destruction",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Formlessness",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Mystery",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "red": [
-        "Good fortune",
-        "Joy",
-        "Prosperity",
-        "Life force"
+        {
+          "text": "Good fortune",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Joy",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Prosperity",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Life force",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "blue": [
-        "Immortality",
-        "Healing",
-        "Wisdom",
-        "Tranquility"
+        {
+          "text": "Immortality",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Healing",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Wisdom",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Tranquility",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "green": [
-        "New life",
-        "Harmony",
-        "Peace",
-        "Fertility"
+        {
+          "text": "New life",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Harmony",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Peace",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Fertility",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "yellow": [
-        "Sacred",
-        "Imperial",
-        "Center",
-        "Earth"
+        {
+          "text": "Sacred",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Imperial",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Center",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Earth",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "purple": [
-        "Spiritual transformation",
-        "Enlightenment",
-        "High rank"
+        {
+          "text": "Spiritual transformation",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Enlightenment",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "High rank",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     },
     "native_american": {
       "white": [
-        "Purity",
-        "North direction",
-        "Wisdom",
-        "Winter"
+        {
+          "text": "Purity",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "North direction",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Wisdom",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Winter",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "black": [
-        "Introspection",
-        "West direction",
-        "Maturity",
-        "Autumn"
+        {
+          "text": "Introspection",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "West direction",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Maturity",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Autumn",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "red": [
-        "Life force",
-        "South direction",
-        "Strength",
-        "Summer"
+        {
+          "text": "Life force",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "South direction",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Strength",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Summer",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "blue": [
-        "Sky father",
-        "Wisdom",
-        "Truth",
-        "Spiritual connection"
+        {
+          "text": "Sky father",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Wisdom",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Truth",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Spiritual connection",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "green": [
-        "Earth mother",
-        "Healing",
-        "Growth",
-        "Fertility"
+        {
+          "text": "Earth mother",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Healing",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Growth",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Fertility",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "yellow": [
-        "East direction",
-        "New beginnings",
-        "Spring",
-        "Illumination"
+        {
+          "text": "East direction",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "New beginnings",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Spring",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Illumination",
+          "citation_key": "Default-Citation-Key"
+        }
       ]
     }
   },
@@ -1292,16 +2564,40 @@
     "source": "Love Is In The Earth",
     "red_stones": {
       "examples": [
-        "Ruby",
-        "Garnet",
-        "Red Jasper",
-        "Carnelian"
+        {
+          "text": "Ruby",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Garnet",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Red Jasper",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Carnelian",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "healing_properties": [
-        "Vitality",
-        "Courage",
-        "Passion",
-        "Grounding"
+        {
+          "text": "Vitality",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Courage",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Passion",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Grounding",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_application": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1314,16 +2610,40 @@
     },
     "orange_stones": {
       "examples": [
-        "Carnelian",
-        "Orange Calcite",
-        "Sunstone",
-        "Fire Opal"
+        {
+          "text": "Carnelian",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Orange Calcite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Sunstone",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Fire Opal",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "healing_properties": [
-        "Creativity",
-        "Sexuality",
-        "Joy",
-        "Confidence"
+        {
+          "text": "Creativity",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Sexuality",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Joy",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Confidence",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_application": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1336,16 +2656,40 @@
     },
     "yellow_stones": {
       "examples": [
-        "Citrine",
-        "Yellow Topaz",
-        "Amber",
-        "Tiger's Eye"
+        {
+          "text": "Citrine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Yellow Topaz",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Amber",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Tiger's Eye",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "healing_properties": [
-        "Mental clarity",
-        "Confidence",
-        "Abundance",
-        "Wisdom"
+        {
+          "text": "Mental clarity",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Confidence",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Abundance",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Wisdom",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_application": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1358,16 +2702,40 @@
     },
     "green_stones": {
       "examples": [
-        "Emerald",
-        "Green Aventurine",
-        "Jade",
-        "Malachite"
+        {
+          "text": "Emerald",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Green Aventurine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Jade",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Malachite",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "healing_properties": [
-        "Heart healing",
-        "Abundance",
-        "Growth",
-        "Balance"
+        {
+          "text": "Heart healing",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Abundance",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Growth",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Balance",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_application": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1380,16 +2748,40 @@
     },
     "blue_stones": {
       "examples": [
-        "Sapphire",
-        "Lapis Lazuli",
-        "Aquamarine",
-        "Sodalite"
+        {
+          "text": "Sapphire",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Lapis Lazuli",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Aquamarine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Sodalite",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "healing_properties": [
-        "Communication",
-        "Truth",
-        "Peace",
-        "Wisdom"
+        {
+          "text": "Communication",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Truth",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Peace",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Wisdom",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_application": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1402,15 +2794,36 @@
     },
     "indigo_stones": {
       "examples": [
-        "Indigo Gabbro",
-        "Labradorite",
-        "Iolite",
-        "Tanzanite"
+        {
+          "text": "Indigo Gabbro",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Labradorite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Iolite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Tanzanite",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "healing_properties": [
-        "Intuition",
-        "Psychic abilities",
-        "Spiritual sight"
+        {
+          "text": "Intuition",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Psychic abilities",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Spiritual sight",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_application": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1423,15 +2836,36 @@
     },
     "purple_stones": {
       "examples": [
-        "Amethyst",
-        "Charoite",
-        "Sugilite",
-        "Lepidolite"
+        {
+          "text": "Amethyst",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Charoite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Sugilite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Lepidolite",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "healing_properties": [
-        "Spiritual connection",
-        "Transformation",
-        "Peace"
+        {
+          "text": "Spiritual connection",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Transformation",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Peace",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_application": {
         "citation_key": "Starhawk-The_Spiral_Dance",

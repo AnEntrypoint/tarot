@@ -640,27 +640,18 @@ class TarotAppController {
         const meaningText = getText(meaningDataField);
 
         const positionNameText = renderTextWithCitation(position.name, getText(position.name));
+        const positionContextObject = this.getPositionContext(position.name, card);
+        const positionContextText = getText(positionContextObject) || 'the specific area of focus in your life';
+        const positionContextHTML = renderTextWithCitation(positionContextObject, positionContextText);
 
         // We don't add a citation to the truncated meaning here to avoid breaking HTML.
         // The full, cited meaning is available in the card detail modal.
-        return `In the ${positionNameText} position, ${card.name} specifically addresses ${this.getPositionContext(position.name, card)}. ${meaningText.substring(0, 150)}...`;
+        return `In the ${positionNameText} position, ${card.name} specifically addresses ${positionContextHTML}. ${meaningText.substring(0, 150)}...`;
     }
     
     getPositionContext(positionName, card) {
-        const contexts = {
-            'Past': 'the foundational influences and experiences that have led to the current situation',
-            'Present': 'the immediate circumstances and energies surrounding you now',
-            'Future': 'the potential outcomes and directions available to you',
-            'Conscious': 'what you are actively aware of and can directly influence',
-            'Subconscious': 'hidden influences, desires, and unconscious patterns',
-            'Self': 'your inner nature, core identity, and personal power',
-            'Situation': 'the external circumstances and environmental factors',
-            'Challenges': 'obstacles to overcome and lessons to learn',
-            'Action': 'the steps you need to take and decisions to make',
-            'Outcome': 'the ultimate resolution and transformation available'
-        };
-        
-        return contexts[positionName] || 'the specific area of focus in your life';
+        const contexts = window.tarotDataLoader.getData('positional_contexts');
+        return contexts[positionName];
     }
     
     getEnergeticInfluence(card) {
