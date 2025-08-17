@@ -8,8 +8,8 @@
       "citation_key": "Mary_K__Greer-Tarot_for_Your_Self",
       "text": "When two archetypes meet in a reading, they create a third energy that is greater than the sum of its parts - a new story that speaks to the deepest layers of human experience."
     },
-    "author": "Mary K. Greer",
-    "source": "Tarot for Your Self",
+    "author": { "text": "Mary K. Greer", "citation_key": "Mary_K__Greer-Tarot_for_Your_Self" },
+    "source": { "text": "Tarot for Your Self", "citation_key": "Mary_K__Greer-Tarot_for_Your_Self" },
     "fool_combinations": {
       "fool_magician": {
         "keywords": [
@@ -17,8 +17,8 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "new beginning with focused intent"
           },
-          "naive power",
-          "unlimited potential"
+          { "text": "naive power", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "unlimited potential", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -57,12 +57,12 @@
           "text": "New job or project where you can use your natural talents and acquired skills"
         },
         "shadow_aspects": [
-          "overconfidence",
+          { "text": "overconfidence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "manipulation of innocence"
           },
-          "spiritual materialism"
+          { "text": "spiritual materialism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -75,9 +75,9 @@
       },
       "fool_high_priestess": {
         "keywords": [
-          "intuitive beginning",
-          "unconscious wisdom",
-          "mystical journey"
+          { "text": "intuitive beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "unconscious wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "mystical journey", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Starhawk-The_Spiral_Dance",
@@ -116,9 +116,9 @@
           "text": "Work involving intuition, healing, or spiritual services calling to you"
         },
         "shadow_aspects": [
-          "spiritual bypassing",
-          "avoiding reality",
-          "psychic inflation"
+          { "text": "spiritual bypassing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "avoiding reality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "psychic inflation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -131,9 +131,9 @@
       },
       "fool_empress": {
         "keywords": [
-          "creative fertility",
-          "abundant beginning",
-          "natural manifestation"
+          { "text": "creative fertility", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "abundant beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "natural manifestation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -172,8 +172,8 @@
           "text": "Creative work, nurturing professions, or businesses involving natural products"
         },
         "shadow_aspects": [
-          "overindulgence",
-          "smothering creativity",
+          { "text": "overindulgence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "smothering creativity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "jealousy of others' success"
@@ -190,9 +190,9 @@
       },
       "fool_emperor": {
         "keywords": [
-          "structured beginning",
-          "authoritative guidance",
-          "disciplined potential"
+          { "text": "structured beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "authoritative guidance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "disciplined potential", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -231,12 +231,12 @@
           "text": "Starting in a structured environment, or taking on leadership responsibilities"
         },
         "shadow_aspects": [
-          "authoritarian control",
+          { "text": "authoritarian control", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "loss of innocence"
           },
-          "rigid thinking"
+          { "text": "rigid thinking", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -249,9 +249,9 @@
       },
       "fool_hierophant": {
         "keywords": [
-          "spiritual education",
-          "traditional wisdom",
-          "guided learning"
+          { "text": "spiritual education", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "traditional wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "guided learning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Starhawk-The_Spiral_Dance",
@@ -290,8 +290,8 @@
           "text": "Formal education, religious calling, or work requiring certification and training"
         },
         "shadow_aspects": [
-          "dogmatic thinking",
-          "spiritual dependency",
+          { "text": "dogmatic thinking", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "spiritual dependency", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "avoiding personal responsibility"
@@ -312,8 +312,8 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "choice in innocence"
           },
-          "pure love",
-          "moral decision"
+          { "text": "pure love", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "moral decision", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -360,7 +360,7 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "choosing based on ego"
           },
-          "avoiding commitment"
+          { "text": "avoiding commitment", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -373,9 +373,9 @@
       },
       "fool_chariot": {
         "keywords": [
-          "determined journey",
-          "willful progress",
-          "controlled adventure"
+          { "text": "determined journey", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "willful progress", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "controlled adventure", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -414,8 +414,8 @@
           "text": "Competitive field requiring strong will and determination to succeed"
         },
         "shadow_aspects": [
-          "aggressive ambition",
-          "forcing outcomes",
+          { "text": "aggressive ambition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "forcing outcomes", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "steamrolling over others"
@@ -432,8 +432,8 @@
       },
       "fool_strength": {
         "keywords": [
-          "gentle power",
-          "courageous innocence",
+          { "text": "gentle power", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "courageous innocence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "taming the beast"
@@ -476,8 +476,8 @@
           "text": "Work requiring emotional intelligence and gentle leadership"
         },
         "shadow_aspects": [
-          "passive aggression",
-          "hidden anger",
+          { "text": "passive aggression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "hidden anger", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "avoiding necessary confrontation"
@@ -494,9 +494,9 @@
       },
       "fool_hermit": {
         "keywords": [
-          "solitary seeking",
-          "inner guidance",
-          "wisdom quest"
+          { "text": "solitary seeking", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "inner guidance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "wisdom quest", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -535,9 +535,9 @@
           "text": "Work requiring independent research, contemplation, or spiritual guidance"
         },
         "shadow_aspects": [
-          "narcissistic isolation",
-          "avoiding reality",
-          "spiritual superiority"
+          { "text": "narcissistic isolation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "avoiding reality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "spiritual superiority", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -550,9 +550,9 @@
       },
       "fool_wheel": {
         "keywords": [
-          "fated beginning",
-          "karmic opportunity",
-          "cyclical change"
+          { "text": "fated beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "karmic opportunity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "cyclical change", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -591,9 +591,9 @@
           "text": "Opportunity arising through synchronicity or unexpected circumstances"
         },
         "shadow_aspects": [
-          "passive fatalism",
-          "gambling mentality",
-          "avoiding responsibility"
+          { "text": "passive fatalism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "gambling mentality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "avoiding responsibility", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Anodea_Judith-Wheels_of_Life",
@@ -606,9 +606,9 @@
       },
       "fool_justice": {
         "keywords": [
-          "fair beginning",
-          "balanced choice",
-          "karmic accounting"
+          { "text": "fair beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "balanced choice", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "karmic accounting", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -647,8 +647,8 @@
           "text": "Work in legal field, or ensuring ethical practices in new venture"
         },
         "shadow_aspects": [
-          "harsh judgment",
-          "perfectionism",
+          { "text": "harsh judgment", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "perfectionism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "avoiding necessary decisions"
@@ -665,9 +665,9 @@
       },
       "fool_hanged_man": {
         "keywords": [
-          "suspended beginning",
-          "patient waiting",
-          "sacrificial start"
+          { "text": "suspended beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "patient waiting", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "sacrificial start", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -706,9 +706,9 @@
           "text": "Career change requiring sacrifice of current security for future growth"
         },
         "shadow_aspects": [
-          "martyrdom complex",
-          "passive victimhood",
-          "avoiding action"
+          { "text": "martyrdom complex", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "passive victimhood", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "avoiding action", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -721,12 +721,12 @@
       },
       "fool_death": {
         "keywords": [
-          "transformative beginning",
+          { "text": "transformative beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "death before rebirth"
           },
-          "profound change"
+          { "text": "profound change", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -773,7 +773,7 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "fear of change"
           },
-          "destructive urges"
+          { "text": "destructive urges", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -786,9 +786,9 @@
       },
       "fool_temperance": {
         "keywords": [
-          "balanced beginning",
-          "moderate approach",
-          "healing integration"
+          { "text": "balanced beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "moderate approach", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "healing integration", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Barbara_Brennan-Hands_of_Light",
@@ -827,12 +827,12 @@
           "text": "Work involving healing, counseling, or bringing opposing forces together"
         },
         "shadow_aspects": [
-          "bland mediocrity",
+          { "text": "bland mediocrity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "avoiding necessary extremes"
           },
-          "false peace"
+          { "text": "false peace", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -845,9 +845,9 @@
       },
       "fool_devil": {
         "keywords": [
-          "tempting beginning",
-          "shadow encounter",
-          "material binding"
+          { "text": "tempting beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "shadow encounter", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "material binding", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -894,7 +894,7 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "denial of shadow"
           },
-          "spiritual bypassing"
+          { "text": "spiritual bypassing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -907,9 +907,9 @@
       },
       "fool_tower": {
         "keywords": [
-          "shocking awakening",
-          "sudden revelation",
-          "destructive liberation"
+          { "text": "shocking awakening", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "sudden revelation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "destructive liberation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -948,9 +948,9 @@
           "text": "Unexpected job loss or change that opens new opportunities"
         },
         "shadow_aspects": [
-          "destructive urges",
-          "chaos addiction",
-          "avoiding rebuilding"
+          { "text": "destructive urges", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "chaos addiction", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "avoiding rebuilding", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -963,12 +963,12 @@
       },
       "fool_star": {
         "keywords": [
-          "hopeful beginning",
+          { "text": "hopeful beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "guided by stars"
           },
-          "spiritual inspiration"
+          { "text": "spiritual inspiration", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1007,9 +1007,9 @@
           "text": "Work that inspires you and serves your highest calling"
         },
         "shadow_aspects": [
-          "false hope",
-          "unrealistic expectations",
-          "spiritual bypassing"
+          { "text": "false hope", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "unrealistic expectations", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "spiritual bypassing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1022,9 +1022,9 @@
       },
       "fool_moon": {
         "keywords": [
-          "mysterious beginning",
-          "unconscious guidance",
-          "illusory path"
+          { "text": "mysterious beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "unconscious guidance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "illusory path", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1063,12 +1063,12 @@
           "text": "Work involving the unconscious, dreams, or navigating unclear situations"
         },
         "shadow_aspects": [
-          "paranoid delusions",
+          { "text": "paranoid delusions", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "being lost in fantasies"
           },
-          "avoiding clarity"
+          { "text": "avoiding clarity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1081,9 +1081,9 @@
       },
       "fool_sun": {
         "keywords": [
-          "joyful beginning",
-          "illuminated path",
-          "conscious awakening"
+          { "text": "joyful beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "illuminated path", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "conscious awakening", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1122,8 +1122,8 @@
           "text": "Work that brings joy and recognition, or leadership roles"
         },
         "shadow_aspects": [
-          "ego inflation",
-          "showing off",
+          { "text": "ego inflation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "showing off", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "burning others with intensity"
@@ -1140,12 +1140,12 @@
       },
       "fool_judgement": {
         "keywords": [
-          "awakened beginning",
+          { "text": "awakened beginning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "called to purpose"
           },
-          "spiritual rebirth"
+          { "text": "spiritual rebirth", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Starhawk-The_Spiral_Dance",
@@ -1184,8 +1184,8 @@
           "text": "Calling to spiritual work or service that serves higher purpose"
         },
         "shadow_aspects": [
-          "spiritual superiority",
-          "judging others",
+          { "text": "spiritual superiority", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "judging others", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "avoiding earthly responsibilities"
@@ -1202,9 +1202,9 @@
       },
       "fool_world": {
         "keywords": [
-          "completed innocence",
-          "cyclical mastery",
-          "integrated wholeness"
+          { "text": "completed innocence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "cyclical mastery", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "integrated wholeness", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1243,8 +1243,8 @@
           "text": "Starting new venture from place of mastery and accumulated expertise"
         },
         "shadow_aspects": [
-          "complacency",
-          "know-it-all attitude",
+          { "text": "complacency", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "know-it-all attitude", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "fear of new challenges"
@@ -1267,8 +1267,8 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "conscious meets unconscious"
           },
-          "balanced manifestation",
-          "integrated wisdom"
+          { "text": "balanced manifestation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "integrated wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1311,8 +1311,8 @@
             "citation_key": "Starhawk-The_Spiral_Dance",
             "text": "manipulation through pseudo-spirituality"
           },
-          "intellectual superiority",
-          "emotional manipulation"
+          { "text": "intellectual superiority", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "emotional manipulation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "chakra_interaction": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1325,9 +1325,9 @@
       },
       "magician_empress": {
         "keywords": [
-          "creative manifestation",
-          "fertile will",
-          "abundant creation"
+          { "text": "creative manifestation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "fertile will", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "abundant creation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1366,8 +1366,8 @@
           "text": "Creative fields, business involving growth or nurturing, artistic manifestation"
         },
         "shadow_aspects": [
-          "forcing creation",
-          "materialistic manipulation",
+          { "text": "forcing creation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "materialistic manipulation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "depleting creative resources"
@@ -1384,9 +1384,9 @@
       },
       "magician_emperor": {
         "keywords": [
-          "structured power",
-          "authoritative manifestation",
-          "disciplined will"
+          { "text": "structured power", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "authoritative manifestation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "disciplined will", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1425,8 +1425,8 @@
           "text": "Leadership positions, structured environments, or building lasting institutions"
         },
         "shadow_aspects": [
-          "tyrannical control",
-          "rigid authoritarianism",
+          { "text": "tyrannical control", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "rigid authoritarianism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "power without wisdom"
@@ -1544,8 +1544,8 @@
       "citation_key": "Rachel_Pollack-Seventy_Eight_Degrees_of_Wisdom",
       "text": "The numbered cards tell the story of each element's journey from pure potential to complete manifestation, revealing the hidden psychology of human development."
     },
-    "author": "Rachel Pollack",
-    "source": "Seventy-Eight Degrees of Wisdom",
+    "author": { "text": "Rachel Pollack", "citation_key": "Rachel_Pollack-Seventy_Eight_Degrees_of_Wisdom" },
+    "source": { "text": "Seventy-Eight Degrees of Wisdom", "citation_key": "Rachel_Pollack-Seventy_Eight_Degrees_of_Wisdom" },
     "ace_progressions": {
       "ace_to_ten_journey": {
         "overview": {
@@ -2322,8 +2322,8 @@
       "citation_key": "Mary_K__Greer-Understanding_the_Tarot_Court",
       "text": "The court cards represent not just personality types, but the entire spectrum of human relationship dynamics and psychological development stages."
     },
-    "author": "Mary K. Greer",
-    "source": "Understanding the Tarot Court",
+    "author": { "text": "Mary K. Greer", "citation_key": "Mary_K__Greer-Understanding_the_Tarot_Court" },
+    "source": { "text": "Understanding the Tarot Court", "citation_key": "Mary_K__Greer-Understanding_the_Tarot_Court" },
     "personality_matrices": {
       "age_and_development": {
         "pages": {
@@ -2419,10 +2419,10 @@
         "fire_personalities": {
           "page_of_wands": {
             "core_traits": [
-              "enthusiastic",
-              "creative",
-              "impulsive",
-              "optimistic"
+              { "text": "enthusiastic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "creative", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "impulsive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "optimistic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2434,17 +2434,17 @@
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "Other fire types"
                 },
-                "Air personalities",
-                "Earth pages/queens"
+                { "text": "Air personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth pages/queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Water queens",
-                "Earth kings"
+                { "text": "Water queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Water knights/kings",
-                "Earth knights",
-                "Air knights"
+                { "text": "Water knights/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -2458,10 +2458,10 @@
           },
           "knight_of_wands": {
             "core_traits": [
-              "impulsive",
-              "adventurous",
-              "passionate",
-              "restless"
+              { "text": "impulsive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "adventurous", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "passionate", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "restless", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2469,17 +2469,17 @@
             },
             "compatibility": {
               "high": [
-                "Fire pages",
-                "Air pages/knights",
-                "adventurous types"
+                { "text": "Fire pages", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air pages/knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "adventurous types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Fire queens/kings",
-                "Air queens"
+                { "text": "Fire queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Water types",
-                "Earth types",
+                { "text": "Water types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "overly structured personalities"
@@ -2497,10 +2497,10 @@
           },
           "queen_of_wands": {
             "core_traits": [
-              "confident",
-              "charismatic",
-              "warm",
-              "protective"
+              { "text": "confident", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "charismatic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "warm", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "protective", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2512,15 +2512,15 @@
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "All fire types"
                 },
-                "Earth queens/kings",
-                "Air queens"
+                { "text": "Earth queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Water queens",
-                "Air kings"
+                { "text": "Water queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Water knights",
+                { "text": "Water knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "overly critical or cold personalities"
@@ -2538,10 +2538,10 @@
           },
           "king_of_wands": {
             "core_traits": [
-              "natural leader",
-              "visionary",
-              "generous",
-              "commanding"
+              { "text": "natural leader", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "visionary", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "generous", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "commanding", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2549,16 +2549,16 @@
             },
             "compatibility": {
               "high": [
-                "Fire queens",
-                "Earth queens/kings",
-                "Air pages/queens"
+                { "text": "Fire queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air pages/queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Fire pages/knights",
-                "Air kings"
+                { "text": "Fire pages/knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Water knights/kings",
+                { "text": "Water knights/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "other strong leaders"
@@ -2582,10 +2582,10 @@
         "water_personalities": {
           "page_of_cups": {
             "core_traits": [
-              "sensitive",
-              "intuitive",
-              "artistic",
-              "dreamy"
+              { "text": "sensitive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "intuitive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "artistic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "dreamy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2593,18 +2593,18 @@
             },
             "compatibility": {
               "high": [
-                "Water types",
-                "Earth queens",
-                "Air pages"
+                { "text": "Water types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air pages", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Fire queens",
-                "Earth pages"
+                { "text": "Fire queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth pages", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Fire knights/kings",
-                "Air knights/kings",
-                "harsh personalities"
+                { "text": "Fire knights/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air knights/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "harsh personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -2618,10 +2618,10 @@
           },
           "knight_of_cups": {
             "core_traits": [
-              "romantic",
-              "idealistic",
-              "moody",
-              "artistic"
+              { "text": "romantic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "idealistic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "moody", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "artistic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2629,18 +2629,18 @@
             },
             "compatibility": {
               "high": [
-                "Water queens",
-                "Earth queens",
-                "Air pages/queens"
+                { "text": "Water queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air pages/queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Water pages",
-                "Fire queens"
+                { "text": "Water pages", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Fire queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Fire knights/kings",
-                "Air kings",
-                "practical-only personalities"
+                { "text": "Fire knights/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "practical-only personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -2654,10 +2654,10 @@
           },
           "queen_of_cups": {
             "core_traits": [
-              "empathetic",
-              "intuitive",
-              "nurturing",
-              "psychic"
+              { "text": "empathetic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "intuitive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "nurturing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "psychic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Starhawk-The_Spiral_Dance",
@@ -2669,16 +2669,16 @@
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "All water types"
                 },
-                "Earth types",
-                "sensitive personalities"
+                { "text": "Earth types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "sensitive personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Fire queens",
-                "Air queens"
+                { "text": "Fire queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Fire knights",
-                "Air knights/kings",
+                { "text": "Fire knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air knights/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "emotionally unavailable types"
@@ -2696,10 +2696,10 @@
           },
           "king_of_cups": {
             "core_traits": [
-              "emotionally balanced",
-              "wise",
-              "compassionate",
-              "controlled"
+              { "text": "emotionally balanced", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "wise", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "compassionate", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "controlled", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2707,16 +2707,16 @@
             },
             "compatibility": {
               "high": [
-                "Water queens",
-                "Earth queens/kings",
-                "Air queens/kings"
+                { "text": "Water queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Water pages/knights",
-                "Fire queens"
+                { "text": "Water pages/knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Fire queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Fire knights",
+                { "text": "Fire knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "overly emotional or overly cold personalities"
@@ -2736,10 +2736,10 @@
         "air_personalities": {
           "page_of_swords": {
             "core_traits": [
-              "curious",
-              "quick-witted",
-              "communicative",
-              "restless"
+              { "text": "curious", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "quick-witted", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "communicative", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "restless", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2747,21 +2747,21 @@
             },
             "compatibility": {
               "high": [
-                "Air types",
-                "Fire pages/queens",
+                { "text": "Air types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Fire pages/queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "intellectually curious types"
                 }
               ],
               "medium": [
-                "Water pages",
-                "Earth pages"
+                { "text": "Water pages", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth pages", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Earth knights/kings",
-                "Water knights",
-                "anti-intellectual types"
+                { "text": "Earth knights/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Water knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "anti-intellectual types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -2775,10 +2775,10 @@
           },
           "knight_of_swords": {
             "core_traits": [
-              "intellectual",
-              "aggressive",
-              "truth-seeking",
-              "impatient"
+              { "text": "intellectual", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "aggressive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "truth-seeking", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "impatient", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2786,17 +2786,17 @@
             },
             "compatibility": {
               "high": [
-                "Air types",
-                "Fire knights"
+                { "text": "Air types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Fire knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Fire queens/kings",
-                "Earth kings"
+                { "text": "Fire queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Water types",
-                "Earth queens",
-                "emotionally-driven personalities"
+                { "text": "Water types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "emotionally-driven personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -2810,10 +2810,10 @@
           },
           "queen_of_swords": {
             "core_traits": [
-              "intelligent",
-              "independent",
-              "direct",
-              "perceptive"
+              { "text": "intelligent", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "independent", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "direct", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "perceptive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2821,20 +2821,20 @@
             },
             "compatibility": {
               "high": [
-                "Air kings",
-                "Fire queens/kings",
+                { "text": "Air kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Fire queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "intellectually honest types"
                 }
               ],
               "medium": [
-                "Air pages/knights",
-                "Earth kings"
+                { "text": "Air pages/knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Water knights",
-                "dishonest types",
+                { "text": "Water knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "dishonest types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "overly emotional personalities"
@@ -2852,10 +2852,10 @@
           },
           "king_of_swords": {
             "core_traits": [
-              "authoritative",
-              "logical",
-              "fair",
-              "detached"
+              { "text": "authoritative", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "logical", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "fair", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "detached", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2863,18 +2863,18 @@
             },
             "compatibility": {
               "high": [
-                "Air queens",
-                "Fire kings",
-                "Earth kings"
+                { "text": "Air queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Fire kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Earth kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Air pages/knights",
-                "Fire queens"
+                { "text": "Air pages/knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Fire queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Water types",
-                "emotional personalities",
-                "illogical types"
+                { "text": "Water types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "emotional personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "illogical types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -2890,10 +2890,10 @@
         "earth_personalities": {
           "page_of_pentacles": {
             "core_traits": [
-              "practical",
-              "studious",
-              "reliable",
-              "cautious"
+              { "text": "practical", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "studious", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "reliable", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "cautious", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2901,18 +2901,18 @@
             },
             "compatibility": {
               "high": [
-                "Earth types",
-                "Water types",
-                "stable personalities"
+                { "text": "Earth types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Water types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "stable personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Fire queens",
-                "Air pages"
+                { "text": "Fire queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air pages", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Fire knights",
-                "Air knights",
-                "unstable personalities"
+                { "text": "Fire knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "unstable personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -2926,10 +2926,10 @@
           },
           "knight_of_pentacles": {
             "core_traits": [
-              "methodical",
-              "persistent",
-              "hardworking",
-              "stubborn"
+              { "text": "methodical", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "persistent", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "hardworking", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "stubborn", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2937,17 +2937,17 @@
             },
             "compatibility": {
               "high": [
-                "Earth types",
-                "Water queens/kings"
+                { "text": "Earth types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Water queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Fire queens/kings",
-                "Air queens"
+                { "text": "Fire queens/kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Fire knights",
-                "Air knights",
-                "impatient personalities"
+                { "text": "Fire knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "impatient personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -2961,10 +2961,10 @@
           },
           "queen_of_pentacles": {
             "core_traits": [
-              "nurturing",
-              "practical",
-              "resourceful",
-              "grounded"
+              { "text": "nurturing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "practical", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "resourceful", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "grounded", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2976,17 +2976,17 @@
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "All earth types"
                 },
-                "Water types",
-                "family-oriented personalities"
+                { "text": "Water types", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "family-oriented personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Fire queens",
-                "Air queens"
+                { "text": "Fire queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Fire knights",
-                "Air knights",
-                "unstable personalities"
+                { "text": "Fire knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "unstable personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -3000,10 +3000,10 @@
           },
           "king_of_pentacles": {
             "core_traits": [
-              "successful",
-              "generous",
-              "practical",
-              "authoritative"
+              { "text": "successful", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "generous", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "practical", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "authoritative", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "relationship_needs": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -3011,18 +3011,18 @@
             },
             "compatibility": {
               "high": [
-                "Earth queens",
-                "Water kings",
-                "Fire kings"
+                { "text": "Earth queens", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Water kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Fire kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "medium": [
-                "Earth pages/knights",
-                "Air kings"
+                { "text": "Earth pages/knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air kings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ],
               "challenging": [
-                "Fire knights",
-                "Air knights",
-                "impractical personalities"
+                { "text": "Fire knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "Air knights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+                { "text": "impractical personalities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
               ]
             },
             "communication_style": {
@@ -3045,13 +3045,13 @@
             "text": "Passionate and energetic but potentially combustible"
           },
           "strengths": [
-            "intense attraction",
-            "shared enthusiasm",
-            "mutual inspiration"
+            { "text": "intense attraction", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "shared enthusiasm", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "mutual inspiration", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
-            "competition",
-            "burnout",
+            { "text": "competition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "burnout", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "lack of emotional depth"
@@ -3068,17 +3068,17 @@
             "text": "Emotionally deep but potentially stagnant"
           },
           "strengths": [
-            "emotional intimacy",
-            "intuitive understanding",
-            "spiritual connection"
+            { "text": "emotional intimacy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "intuitive understanding", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "spiritual connection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
-            "emotional overwhelm",
+            { "text": "emotional overwhelm", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "lack of action"
             },
-            "codependency"
+            { "text": "codependency", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "advice": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -3091,13 +3091,13 @@
             "text": "Intellectually stimulating but potentially detached"
           },
           "strengths": [
-            "mental compatibility",
-            "excellent communication",
-            "shared interests"
+            { "text": "mental compatibility", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "excellent communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "shared interests", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
-            "emotional distance",
-            "over-analysis",
+            { "text": "emotional distance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "over-analysis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "lack of grounding"
@@ -3114,9 +3114,9 @@
             "text": "Stable and practical but potentially boring"
           },
           "strengths": [
-            "security",
-            "shared values",
-            "practical partnership"
+            { "text": "security", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "shared values", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "practical partnership", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
             {
@@ -3127,7 +3127,7 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "resistance to change"
             },
-            "emotional suppression"
+            { "text": "emotional suppression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "advice": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -3144,13 +3144,13 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "passion meets depth"
             },
-            "emotional healing",
-            "creative transformation"
+            { "text": "emotional healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "creative transformation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
-            "emotional volatility",
-            "steam burns",
-            "mutual annihilation"
+            { "text": "emotional volatility", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "steam burns", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "mutual annihilation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "advice": {
             "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation",
@@ -3163,17 +3163,17 @@
             "text": "Exciting and inspiring with mutual enhancement"
           },
           "strengths": [
-            "intellectual passion",
-            "shared adventures",
-            "mutual inspiration"
+            { "text": "intellectual passion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "shared adventures", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "mutual inspiration", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "lack of grounding"
             },
-            "superficiality",
-            "burnout"
+            { "text": "superficiality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "burnout", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "advice": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -3194,12 +3194,12 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "passion meets stability"
             },
-            "creative manifestation"
+            { "text": "creative manifestation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
-            "different paces",
-            "frustration",
-            "value conflicts"
+            { "text": "different paces", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "frustration", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "value conflicts", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "advice": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -3212,17 +3212,17 @@
             "text": "Emotionally complex requiring integration"
           },
           "strengths": [
-            "emotional intelligence",
-            "intuitive communication",
-            "artistic collaboration"
+            { "text": "emotional intelligence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "intuitive communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "artistic collaboration", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
-            "emotional confusion",
+            { "text": "emotional confusion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "over-analysis of feelings"
             },
-            "instability"
+            { "text": "instability", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "advice": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -3235,17 +3235,17 @@
             "text": "Naturally harmonious and fertile"
           },
           "strengths": [
-            "emotional security",
-            "nurturing relationship",
-            "practical love"
+            { "text": "emotional security", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "nurturing relationship", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "practical love", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
-            "stagnation",
+            { "text": "stagnation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "resistance to change"
             },
-            "over-protection"
+            { "text": "over-protection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "advice": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -3262,13 +3262,13 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "ideas meet practical application"
             },
-            "mental stimulation",
-            "grounded communication"
+            { "text": "mental stimulation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "grounded communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "challenges": [
-            "different values",
-            "pace conflicts",
-            "misunderstanding"
+            { "text": "different values", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "pace conflicts", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "misunderstanding", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "advice": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
