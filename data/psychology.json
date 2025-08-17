@@ -6,25 +6,55 @@
     },
     "quote": {
       "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious",
-      "text": "The archetype is a tendency to form representations of a motif\u2014representations that can vary a great deal in detail without losing their basic pattern."
+      "text": "The archetype is a tendency to form representations of a motif—representations that can vary a great deal in detail without losing their basic pattern."
     },
-    "author": "Carl Gustav Jung",
-    "source": "The Archetypes and the Collective Unconscious",
+    "author": {
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+    },
+    "source": {
+      "text": "The Archetypes and the Collective Unconscious",
+      "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+    },
+    },
+    "source": {
+      "text": "The Archetypes and the Collective Unconscious",
+      "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+    },
     "major_arcana_correspondences": {
       "The Fool": {
-        "primary_archetype": "The Innocent",
+        "primary_archetype": {
+          "text": "The Innocent",
+          "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+        },
         "secondary_archetypes": [
-          "The Dreamer",
-          "The Child"
+          {
+            "text": "The Dreamer",
+            "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+          },
+          {
+            "text": "The Child",
+            "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Beginning of individuation journey"
         },
         "shadow_aspects": [
-          "Naivety",
-          "Recklessness",
-          "Denial"
+          {
+            "text": "Naivety",
+            "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+          },
+          {
+            "text": "Recklessness",
+            "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+          },
+          {
+            "text": "Denial",
+            "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -34,14 +64,35 @@
           "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales",
           "text": "The fool represents the state of tabula rasa, the blank slate of pure potential that exists before the personality forms."
         },
-        "author": "Marie-Louise von Franz",
-        "source": "The Interpretation of Fairy Tales",
-        "anima_animus_aspect": "Undifferentiated libido",
-        "developmental_stage": "Pre-ego",
-        "chakra_correspondence": "Crown",
+        "author": {
+          "text": "Marie-Louise von Franz",
+          "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+        },
+        "source": {
+          "text": "The Interpretation of Fairy Tales",
+          "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+        },
+        "anima_animus_aspect": {
+          "text": "Undifferentiated libido",
+          "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+        },
+        "developmental_stage": {
+          "text": "Pre-ego",
+          "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+        },
+        "chakra_correspondence": {
+          "text": "Crown",
+          "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+        },
         "psychological_disorders": [
-          "Borderline personality",
-          "Dissociative disorders"
+          {
+            "text": "Borderline personality",
+            "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+          },
+          {
+            "text": "Dissociative disorders",
+            "citation_key": "Marie_Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -53,19 +104,37 @@
         }
       },
       "The Magician": {
-        "primary_archetype": "The Magician",
+        "primary_archetype": {
+          "text": "The Magician",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
         "secondary_archetypes": [
-          "The Creator",
-          "The Transformer"
+          {
+            "text": "The Creator",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          },
+          {
+            "text": "The Transformer",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Conscious will and manifestation"
         },
         "shadow_aspects": [
-          "Manipulation",
-          "Megalomania",
-          "Trickery"
+          {
+            "text": "Manipulation",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          },
+          {
+            "text": "Megalomania",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          },
+          {
+            "text": "Trickery",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -75,17 +144,35 @@
           "citation_key": "Edward_Edinger-Ego_and_Archetype",
           "text": "The magician represents the ego's capacity to direct the energies of the unconscious toward conscious goals."
         },
-        "author": "Edward Edinger",
-        "source": "Ego and Archetype",
+        "author": {
+          "text": "Edward Edinger",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
+        "source": {
+          "text": "Ego and Archetype",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Logos principle (masculine creativity)"
         },
-        "developmental_stage": "Ego formation",
-        "chakra_correspondence": "Solar Plexus",
+        "developmental_stage": {
+          "text": "Ego formation",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
+        "chakra_correspondence": {
+          "text": "Solar Plexus",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
         "psychological_disorders": [
-          "Narcissistic personality",
-          "Manic episodes"
+          {
+            "text": "Narcissistic personality",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          },
+          {
+            "text": "Manic episodes",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -97,19 +184,37 @@
         }
       },
       "The High Priestess": {
-        "primary_archetype": "The Wise Woman",
+        "primary_archetype": {
+          "text": "The Wise Woman",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "secondary_archetypes": [
-          "The Oracle",
-          "The Mother"
+          {
+            "text": "The Oracle",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "The Mother",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Unconscious wisdom and intuition"
         },
         "shadow_aspects": [
-          "Withdrawal",
-          "Passive aggression",
-          "Secretiveness"
+          {
+            "text": "Withdrawal",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Passive aggression",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Secretiveness",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -119,8 +224,14 @@
           "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves",
           "text": "The High Priestess embodies the anima in her function as mediator between the conscious mind and the unconscious."
         },
-        "author": "Clarissa Pinkola Est\u00e9s",
-        "source": "Women Who Run With the Wolves",
+        "author": {
+          "text": "Clarissa Pinkola Estés",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
+        "source": {
+          "text": "Women Who Run With the Wolves",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Anima (inner feminine wisdom)"
@@ -129,10 +240,19 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Connection to unconscious"
         },
-        "chakra_correspondence": "Third Eye",
+        "chakra_correspondence": {
+          "text": "Third Eye",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "psychological_disorders": [
-          "Avoidant personality",
-          "Depression"
+          {
+            "text": "Avoidant personality",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Depression",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Carl_Jung-Psychology_and_Alchemy",
@@ -144,19 +264,37 @@
         }
       },
       "The Empress": {
-        "primary_archetype": "The Mother",
+        "primary_archetype": {
+          "text": "The Mother",
+          "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+        },
         "secondary_archetypes": [
-          "The Creator",
-          "The Nurturer"
+          {
+            "text": "The Creator",
+            "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+          },
+          {
+            "text": "The Nurturer",
+            "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Fertility, creativity, and nurturing"
         },
         "shadow_aspects": [
-          "Smothering",
-          "Possessiveness",
-          "Dependency"
+          {
+            "text": "Smothering",
+            "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+          },
+          {
+            "text": "Possessiveness",
+            "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+          },
+          {
+            "text": "Dependency",
+            "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -166,17 +304,35 @@
           "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman",
           "text": "The Empress represents the positive mother archetype, the source of all life and nourishment."
         },
-        "author": "Jean Shinoda Bolen",
-        "source": "Goddesses in Everywoman",
+        "author": {
+          "text": "Jean Shinoda Bolen",
+          "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+        },
+        "source": {
+          "text": "Goddesses in Everywoman",
+          "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Great Mother archetype"
         },
-        "developmental_stage": "Generativity",
-        "chakra_correspondence": "Heart",
+        "developmental_stage": {
+          "text": "Generativity",
+          "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+        },
+        "chakra_correspondence": {
+          "text": "Heart",
+          "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+        },
         "psychological_disorders": [
-          "Codependency",
-          "Eating disorders"
+          {
+            "text": "Codependency",
+            "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+          },
+          {
+            "text": "Eating disorders",
+            "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -188,19 +344,37 @@
         }
       },
       "The Emperor": {
-        "primary_archetype": "The Father",
+        "primary_archetype": {
+          "text": "The Father",
+          "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+        },
         "secondary_archetypes": [
-          "The Ruler",
-          "The Authority"
+          {
+            "text": "The Ruler",
+            "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+          },
+          {
+            "text": "The Authority",
+            "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Structure, order, and paternal authority"
         },
         "shadow_aspects": [
-          "Tyranny",
-          "Rigidity",
-          "Domination"
+          {
+            "text": "Tyranny",
+            "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+          },
+          {
+            "text": "Rigidity",
+            "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+          },
+          {
+            "text": "Domination",
+            "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -210,8 +384,14 @@
           "citation_key": "Robert_Moore-King__Warrior__Magician__Lover",
           "text": "The Emperor embodies the positive father archetype, providing structure and protection for growth."
         },
-        "author": "Robert Moore",
-        "source": "King, Warrior, Magician, Lover",
+        "author": {
+          "text": "Robert Moore",
+          "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+        },
+        "source": {
+          "text": "King, Warrior, Magician, Lover",
+          "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Animus (inner masculine authority)"
@@ -220,10 +400,19 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Establishment of order"
         },
-        "chakra_correspondence": "Solar Plexus",
+        "chakra_correspondence": {
+          "text": "Solar Plexus",
+          "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+        },
         "psychological_disorders": [
-          "Authoritarian personality",
-          "Control issues"
+          {
+            "text": "Authoritarian personality",
+            "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+          },
+          {
+            "text": "Control issues",
+            "citation_key": "Robert_Moore-King__Warrior__Magician__Lover"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -235,19 +424,37 @@
         }
       },
       "The Hierophant": {
-        "primary_archetype": "The Sage",
+        "primary_archetype": {
+          "text": "The Sage",
+          "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+        },
         "secondary_archetypes": [
-          "The Teacher",
-          "The Spiritual Guide"
+          {
+            "text": "The Teacher",
+            "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+          },
+          {
+            "text": "The Spiritual Guide",
+            "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+          }
         ],
         "psychological_function": {
           "citation_key": "Starhawk-The_Spiral_Dance",
           "text": "Spiritual teaching and tradition"
         },
         "shadow_aspects": [
-          "Dogmatism",
-          "Spiritual bypassing",
-          "Orthodoxy"
+          {
+            "text": "Dogmatism",
+            "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+          },
+          {
+            "text": "Spiritual bypassing",
+            "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+          },
+          {
+            "text": "Orthodoxy",
+            "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -257,17 +464,35 @@
           "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life",
           "text": "The Hierophant represents the need for meaning and the search for a spiritual framework to understand existence."
         },
-        "author": "James Hollis",
-        "source": "Finding Meaning in the Second Half of Life",
+        "author": {
+          "text": "James Hollis",
+          "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+        },
+        "source": {
+          "text": "Finding Meaning in the Second Half of Life",
+          "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Wise Old Man archetype"
         },
-        "developmental_stage": "Meaning-making",
-        "chakra_correspondence": "Throat",
+        "developmental_stage": {
+          "text": "Meaning-making",
+          "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+        },
+        "chakra_correspondence": {
+          "text": "Throat",
+          "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+        },
         "psychological_disorders": [
-          "Religious obsession",
-          "Spiritual bypassing"
+          {
+            "text": "Religious obsession",
+            "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+          },
+          {
+            "text": "Spiritual bypassing",
+            "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -279,19 +504,37 @@
         }
       },
       "The Lovers": {
-        "primary_archetype": "The Lover",
+        "primary_archetype": {
+          "text": "The Lover",
+          "citation_key": "Verena_Kast-The_Nature_of_Loving"
+        },
         "secondary_archetypes": [
-          "The Partner",
-          "The Choice Maker"
+          {
+            "text": "The Partner",
+            "citation_key": "Verena_Kast-The_Nature_of_Loving"
+          },
+          {
+            "text": "The Choice Maker",
+            "citation_key": "Verena_Kast-The_Nature_of_Loving"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Love, choice, and union of opposites"
         },
         "shadow_aspects": [
-          "Codependency",
-          "Infidelity",
-          "Indecision"
+          {
+            "text": "Codependency",
+            "citation_key": "Verena_Kast-The_Nature_of_Loving"
+          },
+          {
+            "text": "Infidelity",
+            "citation_key": "Verena_Kast-The_Nature_of_Loving"
+          },
+          {
+            "text": "Indecision",
+            "citation_key": "Verena_Kast-The_Nature_of_Loving"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -301,8 +544,14 @@
           "citation_key": "Verena_Kast-The_Nature_of_Loving",
           "text": "The Lovers represents the crucial psychological task of choosing between opposites and integrating them within oneself."
         },
-        "author": "Verena Kast",
-        "source": "The Nature of Loving",
+        "author": {
+          "text": "Verena Kast",
+          "citation_key": "Verena_Kast-The_Nature_of_Loving"
+        },
+        "source": {
+          "text": "The Nature of Loving",
+          "citation_key": "Verena_Kast-The_Nature_of_Loving"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Sacred marriage (hieros gamos)"
@@ -311,10 +560,19 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Intimacy vs. isolation"
         },
-        "chakra_correspondence": "Heart",
+        "chakra_correspondence": {
+          "text": "Heart",
+          "citation_key": "Verena_Kast-The_Nature_of_Loving"
+        },
         "psychological_disorders": [
-          "Relationship addiction",
-          "Avoidant attachment"
+          {
+            "text": "Relationship addiction",
+            "citation_key": "Verena_Kast-The_Nature_of_Loving"
+          },
+          {
+            "text": "Avoidant attachment",
+            "citation_key": "Verena_Kast-The_Nature_of_Loving"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -326,19 +584,37 @@
         }
       },
       "The Chariot": {
-        "primary_archetype": "The Hero",
+        "primary_archetype": {
+          "text": "The Hero",
+          "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+        },
         "secondary_archetypes": [
-          "The Warrior",
-          "The Conqueror"
+          {
+            "text": "The Warrior",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "The Conqueror",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Controlled will and determination"
         },
         "shadow_aspects": [
-          "Aggression",
-          "Ruthlessness",
-          "Grandiosity"
+          {
+            "text": "Aggression",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "Ruthlessness",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "Grandiosity",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -348,13 +624,31 @@
           "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
           "text": "The Chariot represents the ego's mastery over the conflicting forces of the psyche through disciplined will."
         },
-        "author": "Joseph Campbell",
-        "source": "The Hero with a Thousand Faces",
-        "anima_animus_aspect": "Hero's journey",
-        "developmental_stage": "Identity achievement",
-        "chakra_correspondence": "Solar Plexus",
+        "author": {
+          "text": "Joseph Campbell",
+          "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+        },
+        "source": {
+          "text": "The Hero with a Thousand Faces",
+          "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+        },
+        "anima_animus_aspect": {
+          "text": "Hero's journey",
+          "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+        },
+        "developmental_stage": {
+          "text": "Identity achievement",
+          "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+        },
+        "chakra_correspondence": {
+          "text": "Solar Plexus",
+          "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+        },
         "psychological_disorders": [
-          "Antisocial personality",
+          {
+            "text": "Antisocial personality",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Impulse control disorders"
@@ -370,19 +664,37 @@
         }
       },
       "Strength": {
-        "primary_archetype": "The Warrior",
+        "primary_archetype": {
+          "text": "The Warrior",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "secondary_archetypes": [
-          "The Healer",
-          "The Gentle Giant"
+          {
+            "text": "The Healer",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "The Gentle Giant",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Inner strength and self-mastery"
         },
         "shadow_aspects": [
-          "Weakness",
-          "Aggression",
-          "Repression"
+          {
+            "text": "Weakness",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Aggression",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Repression",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -392,17 +704,35 @@
           "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves",
           "text": "Strength represents the integration of our animal nature with our spiritual nature through love and understanding."
         },
-        "author": "Clarissa Pinkola Est\u00e9s",
-        "source": "Women Who Run With the Wolves",
+        "author": {
+          "text": "Clarissa Pinkola Estés",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
+        "source": {
+          "text": "Women Who Run With the Wolves",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Taming of the beast within"
         },
-        "developmental_stage": "Self-regulation",
-        "chakra_correspondence": "Heart",
+        "developmental_stage": {
+          "text": "Self-regulation",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
+        "chakra_correspondence": {
+          "text": "Heart",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "psychological_disorders": [
-          "Anger disorders",
-          "Self-harm behaviors"
+          {
+            "text": "Anger disorders",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Self-harm behaviors",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -414,19 +744,37 @@
         }
       },
       "The Hermit": {
-        "primary_archetype": "The Seeker",
+        "primary_archetype": {
+          "text": "The Seeker",
+          "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+        },
         "secondary_archetypes": [
-          "The Wise Old Man",
-          "The Guide"
+          {
+            "text": "The Wise Old Man",
+            "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+          },
+          {
+            "text": "The Guide",
+            "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+          }
         ],
         "psychological_function": {
           "citation_key": "Starhawk-The_Spiral_Dance",
           "text": "Inner wisdom and spiritual seeking"
         },
         "shadow_aspects": [
-          "Isolation",
-          "Withdrawal",
-          "Misanthropy"
+          {
+            "text": "Isolation",
+            "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+          },
+          {
+            "text": "Withdrawal",
+            "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+          },
+          {
+            "text": "Misanthropy",
+            "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -436,8 +784,14 @@
           "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning",
           "text": "The Hermit represents the withdrawal necessary for inner development and the emergence of wisdom."
         },
-        "author": "Aniela Jaff\u00e9",
-        "source": "The Myth of Meaning",
+        "author": {
+          "text": "Aniela Jaffé",
+          "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+        },
+        "source": {
+          "text": "The Myth of Meaning",
+          "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Wise Old Man archetype"
@@ -446,10 +800,19 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Introspection and wisdom-gathering"
         },
-        "chakra_correspondence": "Third Eye",
+        "chakra_correspondence": {
+          "text": "Third Eye",
+          "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+        },
         "psychological_disorders": [
-          "Schizoid personality",
-          "Social anxiety"
+          {
+            "text": "Schizoid personality",
+            "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+          },
+          {
+            "text": "Social anxiety",
+            "citation_key": "Aniela_Jaff_-The_Myth_of_Meaning"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Shakti_Gawain-Chakra_Meditation",
@@ -461,19 +824,37 @@
         }
       },
       "Wheel of Fortune": {
-        "primary_archetype": "The Innocent",
+        "primary_archetype": {
+          "text": "The Innocent",
+          "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+        },
         "secondary_archetypes": [
-          "The Fatalist",
-          "The Opportunist"
+          {
+            "text": "The Fatalist",
+            "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+          },
+          {
+            "text": "The Opportunist",
+            "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Cycles, fate, and karmic patterns"
         },
         "shadow_aspects": [
-          "Victimhood",
-          "Gambling addiction",
-          "Fatalism"
+          {
+            "text": "Victimhood",
+            "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+          },
+          {
+            "text": "Gambling addiction",
+            "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+          },
+          {
+            "text": "Fatalism",
+            "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -483,8 +864,14 @@
           "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity",
           "text": "The Wheel represents the Self's organizing principle that brings meaning to the apparent randomness of existence."
         },
-        "author": "Marie-Louise von Franz",
-        "source": "On Divination and Synchronicity",
+        "author": {
+          "text": "Marie-Louise von Franz",
+          "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+        },
+        "source": {
+          "text": "On Divination and Synchronicity",
+          "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Self as organizing principle"
@@ -493,10 +880,19 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Understanding of cycles"
         },
-        "chakra_correspondence": "Crown",
+        "chakra_correspondence": {
+          "text": "Crown",
+          "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+        },
         "psychological_disorders": [
-          "Gambling addiction",
-          "Learned helplessness"
+          {
+            "text": "Gambling addiction",
+            "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+          },
+          {
+            "text": "Learned helplessness",
+            "citation_key": "Marie_Louise_von_Franz-On_Divination_and_Synchronicity"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -508,19 +904,37 @@
         }
       },
       "Justice": {
-        "primary_archetype": "The Judge",
+        "primary_archetype": {
+          "text": "The Judge",
+          "citation_key": "James_Hillman-Re_Visioning_Psychology"
+        },
         "secondary_archetypes": [
-          "The Balancer",
-          "The Truth Seeker"
+          {
+            "text": "The Balancer",
+            "citation_key": "James_Hillman-Re_Visioning_Psychology"
+          },
+          {
+            "text": "The Truth Seeker",
+            "citation_key": "James_Hillman-Re_Visioning_Psychology"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Balance, fairness, and karmic adjustment"
         },
         "shadow_aspects": [
-          "Harsh judgment",
-          "Unforgiveness",
-          "Rigidity"
+          {
+            "text": "Harsh judgment",
+            "citation_key": "James_Hillman-Re_Visioning_Psychology"
+          },
+          {
+            "text": "Unforgiveness",
+            "citation_key": "James_Hillman-Re_Visioning_Psychology"
+          },
+          {
+            "text": "Rigidity",
+            "citation_key": "James_Hillman-Re_Visioning_Psychology"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -530,14 +944,35 @@
           "citation_key": "James_Hillman-Re_Visioning_Psychology",
           "text": "Justice represents the psyche's innate need for balance and the moral function that evaluates our actions."
         },
-        "author": "James Hillman",
-        "source": "Re-Visioning Psychology",
-        "anima_animus_aspect": "Moral conscience",
-        "developmental_stage": "Moral development",
-        "chakra_correspondence": "Heart",
+        "author": {
+          "text": "James Hillman",
+          "citation_key": "James_Hillman-Re_Visioning_Psychology"
+        },
+        "source": {
+          "text": "Re-Visioning Psychology",
+          "citation_key": "James_Hillman-Re_Visioning_Psychology"
+        },
+        "anima_animus_aspect": {
+          "text": "Moral conscience",
+          "citation_key": "James_Hillman-Re_Visioning_Psychology"
+        },
+        "developmental_stage": {
+          "text": "Moral development",
+          "citation_key": "James_Hillman-Re_Visioning_Psychology"
+        },
+        "chakra_correspondence": {
+          "text": "Heart",
+          "citation_key": "James_Hillman-Re_Visioning_Psychology"
+        },
         "psychological_disorders": [
-          "Obsessive-compulsive personality",
-          "Moral scrupulosity"
+          {
+            "text": "Obsessive-compulsive personality",
+            "citation_key": "James_Hillman-Re_Visioning_Psychology"
+          },
+          {
+            "text": "Moral scrupulosity",
+            "citation_key": "James_Hillman-Re_Visioning_Psychology"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -549,19 +984,37 @@
         }
       },
       "The Hanged Man": {
-        "primary_archetype": "The Sacrifice",
+        "primary_archetype": {
+          "text": "The Sacrifice",
+          "citation_key": "Edward_Edinger-The_Christian_Archetype"
+        },
         "secondary_archetypes": [
-          "The Mystic",
-          "The Surrender"
+          {
+            "text": "The Mystic",
+            "citation_key": "Edward_Edinger-The_Christian_Archetype"
+          },
+          {
+            "text": "The Surrender",
+            "citation_key": "Edward_Edinger-The_Christian_Archetype"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Surrender, sacrifice, and new perspective"
         },
         "shadow_aspects": [
-          "Martyrdom",
-          "Passivity",
-          "Victimhood"
+          {
+            "text": "Martyrdom",
+            "citation_key": "Edward_Edinger-The_Christian_Archetype"
+          },
+          {
+            "text": "Passivity",
+            "citation_key": "Edward_Edinger-The_Christian_Archetype"
+          },
+          {
+            "text": "Victimhood",
+            "citation_key": "Edward_Edinger-The_Christian_Archetype"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -571,8 +1024,14 @@
           "citation_key": "Edward_Edinger-The_Christian_Archetype",
           "text": "The Hanged Man represents the necessary sacrifice of ego consciousness to gain access to a higher perspective."
         },
-        "author": "Edward Edinger",
-        "source": "The Christian Archetype",
+        "author": {
+          "text": "Edward Edinger",
+          "citation_key": "Edward_Edinger-The_Christian_Archetype"
+        },
+        "source": {
+          "text": "The Christian Archetype",
+          "citation_key": "Edward_Edinger-The_Christian_Archetype"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Dying god archetype"
@@ -581,10 +1040,19 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Ego death and rebirth"
         },
-        "chakra_correspondence": "Crown",
+        "chakra_correspondence": {
+          "text": "Crown",
+          "citation_key": "Edward_Edinger-The_Christian_Archetype"
+        },
         "psychological_disorders": [
-          "Martyrdom complex",
-          "Learned helplessness"
+          {
+            "text": "Martyrdom complex",
+            "citation_key": "Edward_Edinger-The_Christian_Archetype"
+          },
+          {
+            "text": "Learned helplessness",
+            "citation_key": "Edward_Edinger-The_Christian_Archetype"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -596,18 +1064,33 @@
         }
       },
       "Death": {
-        "primary_archetype": "The Destroyer",
+        "primary_archetype": {
+          "text": "The Destroyer",
+          "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+        },
         "secondary_archetypes": [
-          "The Transformer",
-          "The Liberator"
+          {
+            "text": "The Transformer",
+            "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+          },
+          {
+            "text": "The Liberator",
+            "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Transformation and psychological death/rebirth"
         },
         "shadow_aspects": [
-          "Destruction",
-          "Morbidity",
+          {
+            "text": "Destruction",
+            "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+          },
+          {
+            "text": "Morbidity",
+            "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Resistance to change"
@@ -621,17 +1104,35 @@
           "citation_key": "Stanislav_Grof-Psychology_of_the_Future",
           "text": "Death represents the fundamental psychological process of transformation through the dissolution of old patterns."
         },
-        "author": "Stanislav Grof",
-        "source": "Psychology of the Future",
-        "anima_animus_aspect": "Death-rebirth archetype",
+        "author": {
+          "text": "Stanislav Grof",
+          "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+        },
+        "source": {
+          "text": "Psychology of the Future",
+          "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+        },
+        "anima_animus_aspect": {
+          "text": "Death-rebirth archetype",
+          "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+        },
         "developmental_stage": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Major life transitions"
         },
-        "chakra_correspondence": "Root",
+        "chakra_correspondence": {
+          "text": "Root",
+          "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+        },
         "psychological_disorders": [
-          "Depression",
-          "Suicidal ideation"
+          {
+            "text": "Depression",
+            "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+          },
+          {
+            "text": "Suicidal ideation",
+            "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -643,19 +1144,37 @@
         }
       },
       "Temperance": {
-        "primary_archetype": "The Healer",
+        "primary_archetype": {
+          "text": "The Healer",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
         "secondary_archetypes": [
-          "The Alchemist",
-          "The Integrator"
+          {
+            "text": "The Alchemist",
+            "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+          },
+          {
+            "text": "The Integrator",
+            "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+          }
         ],
         "psychological_function": {
           "citation_key": "Barbara_Brennan-Hands_of_Light",
           "text": "Integration, healing, and moderation"
         },
         "shadow_aspects": [
-          "Extremism",
-          "Imbalance",
-          "Addiction"
+          {
+            "text": "Extremism",
+            "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+          },
+          {
+            "text": "Imbalance",
+            "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+          },
+          {
+            "text": "Addiction",
+            "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -665,17 +1184,35 @@
           "citation_key": "Carl_Gustav_Jung-Psychological_Types",
           "text": "Temperance represents the transcendent function that unites conscious and unconscious contents in a new synthesis."
         },
-        "author": "Carl Gustav Jung",
-        "source": "Psychological Types",
-        "anima_animus_aspect": "Transcendent function",
+        "author": {
+          "text": "Carl Gustav Jung",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
+        "source": {
+          "text": "Psychological Types",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
+        "anima_animus_aspect": {
+          "text": "Transcendent function",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
         "developmental_stage": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Integration of opposites"
         },
-        "chakra_correspondence": "Heart",
+        "chakra_correspondence": {
+          "text": "Heart",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
         "psychological_disorders": [
-          "Addictions",
-          "Bipolar disorder"
+          {
+            "text": "Addictions",
+            "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+          },
+          {
+            "text": "Bipolar disorder",
+            "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -687,19 +1224,37 @@
         }
       },
       "The Devil": {
-        "primary_archetype": "The Shadow",
+        "primary_archetype": {
+          "text": "The Shadow",
+          "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+        },
         "secondary_archetypes": [
-          "The Tempter",
-          "The Bound"
+          {
+            "text": "The Tempter",
+            "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+          },
+          {
+            "text": "The Bound",
+            "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Shadow confrontation and liberation from bondage"
         },
         "shadow_aspects": [
-          "Addiction",
-          "Materialism",
-          "Unconsciousness"
+          {
+            "text": "Addiction",
+            "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+          },
+          {
+            "text": "Materialism",
+            "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+          },
+          {
+            "text": "Unconsciousness",
+            "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -709,14 +1264,35 @@
           "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow",
           "text": "The Devil represents the shadow side of the psyche that must be acknowledged and integrated for wholeness."
         },
-        "author": "Robert Johnson",
-        "source": "Owning Your Own Shadow",
-        "anima_animus_aspect": "Shadow archetype",
-        "developmental_stage": "Shadow work",
-        "chakra_correspondence": "Root",
+        "author": {
+          "text": "Robert Johnson",
+          "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+        },
+        "source": {
+          "text": "Owning Your Own Shadow",
+          "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+        },
+        "anima_animus_aspect": {
+          "text": "Shadow archetype",
+          "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+        },
+        "developmental_stage": {
+          "text": "Shadow work",
+          "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+        },
+        "chakra_correspondence": {
+          "text": "Root",
+          "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+        },
         "psychological_disorders": [
-          "Addictions",
-          "Personality disorders"
+          {
+            "text": "Addictions",
+            "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+          },
+          {
+            "text": "Personality disorders",
+            "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -728,19 +1304,37 @@
         }
       },
       "The Tower": {
-        "primary_archetype": "The Destroyer",
+        "primary_archetype": {
+          "text": "The Destroyer",
+          "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+        },
         "secondary_archetypes": [
-          "The Awakener",
-          "The Liberator"
+          {
+            "text": "The Awakener",
+            "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+          },
+          {
+            "text": "The Liberator",
+            "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Sudden awakening and ego destruction"
         },
         "shadow_aspects": [
-          "Chaos",
-          "Destruction",
-          "Trauma"
+          {
+            "text": "Chaos",
+            "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+          },
+          {
+            "text": "Destruction",
+            "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+          },
+          {
+            "text": "Trauma",
+            "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -750,16 +1344,31 @@
           "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God",
           "text": "The Tower represents the necessary destruction of false ego structures to allow authentic self to emerge."
         },
-        "author": "John Sanford",
-        "source": "The Man Who Wrestled with God",
-        "anima_animus_aspect": "Divine intervention",
+        "author": {
+          "text": "John Sanford",
+          "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+        },
+        "source": {
+          "text": "The Man Who Wrestled with God",
+          "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+        },
+        "anima_animus_aspect": {
+          "text": "Divine intervention",
+          "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+        },
         "developmental_stage": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Crisis and breakthrough"
         },
-        "chakra_correspondence": "Crown",
+        "chakra_correspondence": {
+          "text": "Crown",
+          "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+        },
         "psychological_disorders": [
-          "PTSD",
+          {
+            "text": "PTSD",
+            "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Acute stress reactions"
@@ -775,19 +1384,37 @@
         }
       },
       "The Star": {
-        "primary_archetype": "The Visionary",
+        "primary_archetype": {
+          "text": "The Visionary",
+          "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+        },
         "secondary_archetypes": [
-          "The Healer",
-          "The Hope Bringer"
+          {
+            "text": "The Healer",
+            "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+          },
+          {
+            "text": "The Hope Bringer",
+            "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+          }
         ],
         "psychological_function": {
           "citation_key": "Starhawk-The_Spiral_Dance",
           "text": "Hope, inspiration, and spiritual guidance"
         },
         "shadow_aspects": [
-          "False hope",
-          "Unrealistic expectations",
-          "Spiritual bypassing"
+          {
+            "text": "False hope",
+            "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+          },
+          {
+            "text": "Unrealistic expectations",
+            "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+          },
+          {
+            "text": "Spiritual bypassing",
+            "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -797,17 +1424,35 @@
           "citation_key": "Marion_Woodman-The_Pregnant_Virgin",
           "text": "The Star represents the Self as guiding light, offering hope and direction after the dark night of the soul."
         },
-        "author": "Marion Woodman",
-        "source": "The Pregnant Virgin",
+        "author": {
+          "text": "Marion Woodman",
+          "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+        },
+        "source": {
+          "text": "The Pregnant Virgin",
+          "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Self as guiding light"
         },
-        "developmental_stage": "Spiritual awakening",
-        "chakra_correspondence": "Crown",
+        "developmental_stage": {
+          "text": "Spiritual awakening",
+          "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+        },
+        "chakra_correspondence": {
+          "text": "Crown",
+          "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+        },
         "psychological_disorders": [
-          "Spiritual emergency",
-          "Manic episodes"
+          {
+            "text": "Spiritual emergency",
+            "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+          },
+          {
+            "text": "Manic episodes",
+            "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Starhawk-The_Spiral_Dance",
@@ -819,19 +1464,37 @@
         }
       },
       "The Moon": {
-        "primary_archetype": "The Mystic",
+        "primary_archetype": {
+          "text": "The Mystic",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "secondary_archetypes": [
-          "The Illusionist",
-          "The Dreamer"
+          {
+            "text": "The Illusionist",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "The Dreamer",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Unconscious fears and illusions"
         },
         "shadow_aspects": [
-          "Deception",
-          "Mental illness",
-          "Confusion"
+          {
+            "text": "Deception",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Mental illness",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Confusion",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -841,17 +1504,35 @@
           "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves",
           "text": "The Moon represents the realm of the unconscious where fears and fantasies intermingle with profound wisdom."
         },
-        "author": "Clarissa Pinkola Est\u00e9s",
-        "source": "Women Who Run With the Wolves",
-        "anima_animus_aspect": "Unconscious feminine",
+        "author": {
+          "text": "Clarissa Pinkola Estés",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
+        "source": {
+          "text": "Women Who Run With the Wolves",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
+        "anima_animus_aspect": {
+          "text": "Unconscious feminine",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "developmental_stage": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Facing unconscious fears"
         },
-        "chakra_correspondence": "Sacral",
+        "chakra_correspondence": {
+          "text": "Sacral",
+          "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+        },
         "psychological_disorders": [
-          "Anxiety disorders",
-          "Psychotic episodes"
+          {
+            "text": "Anxiety disorders",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          },
+          {
+            "text": "Psychotic episodes",
+            "citation_key": "Clarissa_Pinkola_Est_s-Women_Who_Run_With_the_Wolves"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Carl_Jung-Man_and_His_Symbols",
@@ -863,19 +1544,37 @@
         }
       },
       "The Sun": {
-        "primary_archetype": "The Child",
+        "primary_archetype": {
+          "text": "The Child",
+          "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+        },
         "secondary_archetypes": [
-          "The Innocent",
-          "The Joyful"
+          {
+            "text": "The Innocent",
+            "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+          },
+          {
+            "text": "The Joyful",
+            "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Joy, vitality, and consciousness"
         },
         "shadow_aspects": [
-          "Naivety",
-          "Overconfidence",
-          "Childishness"
+          {
+            "text": "Naivety",
+            "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+          },
+          {
+            "text": "Overconfidence",
+            "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+          },
+          {
+            "text": "Childishness",
+            "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -885,17 +1584,35 @@
           "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales",
           "text": "The Sun represents the achievement of consciousness and the joy that comes from self-realization."
         },
-        "author": "Marie-Louise von Franz",
-        "source": "The Psychological Meaning of Redemption Motifs in Fairytales",
+        "author": {
+          "text": "Marie-Louise von Franz",
+          "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+        },
+        "source": {
+          "text": "The Psychological Meaning of Redemption Motifs in Fairytales",
+          "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+        },
         "anima_animus_aspect": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Divine child archetype"
         },
-        "developmental_stage": "Self-realization",
-        "chakra_correspondence": "Solar Plexus",
+        "developmental_stage": {
+          "text": "Self-realization",
+          "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+        },
+        "chakra_correspondence": {
+          "text": "Solar Plexus",
+          "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+        },
         "psychological_disorders": [
-          "Manic episodes",
-          "Grandiosity"
+          {
+            "text": "Manic episodes",
+            "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+          },
+          {
+            "text": "Grandiosity",
+            "citation_key": "Marie_Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -907,19 +1624,37 @@
         }
       },
       "Judgement": {
-        "primary_archetype": "The Transformer",
+        "primary_archetype": {
+          "text": "The Transformer",
+          "citation_key": "John_Sanford-Mystical_Christianity"
+        },
         "secondary_archetypes": [
-          "The Reborn",
-          "The Called"
+          {
+            "text": "The Reborn",
+            "citation_key": "John_Sanford-Mystical_Christianity"
+          },
+          {
+            "text": "The Called",
+            "citation_key": "John_Sanford-Mystical_Christianity"
+          }
         ],
         "psychological_function": {
           "citation_key": "Starhawk-The_Spiral_Dance",
           "text": "Spiritual awakening and rebirth"
         },
         "shadow_aspects": [
-          "Harsh self-judgment",
-          "Spiritual superiority",
-          "Fanaticism"
+          {
+            "text": "Harsh self-judgment",
+            "citation_key": "John_Sanford-Mystical_Christianity"
+          },
+          {
+            "text": "Spiritual superiority",
+            "citation_key": "John_Sanford-Mystical_Christianity"
+          },
+          {
+            "text": "Fanaticism",
+            "citation_key": "John_Sanford-Mystical_Christianity"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -929,14 +1664,35 @@
           "citation_key": "John_Sanford-Mystical_Christianity",
           "text": "Judgement represents the process of spiritual rebirth where the individual awakens to their true calling."
         },
-        "author": "John Sanford",
-        "source": "Mystical Christianity",
-        "anima_animus_aspect": "Spiritual calling",
-        "developmental_stage": "Spiritual awakening",
-        "chakra_correspondence": "Throat",
+        "author": {
+          "text": "John Sanford",
+          "citation_key": "John_Sanford-Mystical_Christianity"
+        },
+        "source": {
+          "text": "Mystical Christianity",
+          "citation_key": "John_Sanford-Mystical_Christianity"
+        },
+        "anima_animus_aspect": {
+          "text": "Spiritual calling",
+          "citation_key": "John_Sanford-Mystical_Christianity"
+        },
+        "developmental_stage": {
+          "text": "Spiritual awakening",
+          "citation_key": "John_Sanford-Mystical_Christianity"
+        },
+        "chakra_correspondence": {
+          "text": "Throat",
+          "citation_key": "John_Sanford-Mystical_Christianity"
+        },
         "psychological_disorders": [
-          "Spiritual emergency",
-          "Religious delusions"
+          {
+            "text": "Spiritual emergency",
+            "citation_key": "John_Sanford-Mystical_Christianity"
+          },
+          {
+            "text": "Religious delusions",
+            "citation_key": "John_Sanford-Mystical_Christianity"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Starhawk-The_Spiral_Dance",
@@ -948,19 +1704,37 @@
         }
       },
       "The World": {
-        "primary_archetype": "The Sage",
+        "primary_archetype": {
+          "text": "The Sage",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
         "secondary_archetypes": [
-          "The Accomplished",
-          "The Integrated"
+          {
+            "text": "The Accomplished",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          },
+          {
+            "text": "The Integrated",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          }
         ],
         "psychological_function": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Completion and integration"
         },
         "shadow_aspects": [
-          "Perfectionism",
-          "Stagnation",
-          "Complacency"
+          {
+            "text": "Perfectionism",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          },
+          {
+            "text": "Stagnation",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          },
+          {
+            "text": "Complacency",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          }
         ],
         "integration_task": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -970,14 +1744,35 @@
           "citation_key": "Edward_Edinger-Ego_and_Archetype",
           "text": "The World represents the achievement of the Self, the integration of all aspects of the personality into a unified whole."
         },
-        "author": "Edward Edinger",
-        "source": "Ego and Archetype",
-        "anima_animus_aspect": "Self-realization",
-        "developmental_stage": "Individuation completion",
-        "chakra_correspondence": "Crown",
+        "author": {
+          "text": "Edward Edinger",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
+        "source": {
+          "text": "Ego and Archetype",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
+        "anima_animus_aspect": {
+          "text": "Self-realization",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
+        "developmental_stage": {
+          "text": "Individuation completion",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
+        "chakra_correspondence": {
+          "text": "Crown",
+          "citation_key": "Edward_Edinger-Ego_and_Archetype"
+        },
         "psychological_disorders": [
-          "Narcissistic completion",
-          "Spiritual pride"
+          {
+            "text": "Narcissistic completion",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          },
+          {
+            "text": "Spiritual pride",
+            "citation_key": "Edward_Edinger-Ego_and_Archetype"
+          }
         ],
         "therapeutic_approach": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -999,8 +1794,14 @@
       "citation_key": "Carl_Gustav_Jung-Psychological_Types",
       "text": "The four functions are somewhat like the four points of the compass; they are just as arbitrary and just as indispensable."
     },
-    "author": "Carl Gustav Jung",
-    "source": "Psychological Types",
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+    },
+    "source": {
+      "text": "Psychological Types",
+      "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+    },
     "thinking": {
       "tarot_suit": "Swords",
       "description": {
@@ -1020,8 +1821,14 @@
         "text": "Integrating feeling and values into decision-making"
       },
       "psychological_disorders": [
-        "Obsessive thinking",
-        "Analysis paralysis"
+        {
+          "text": "Obsessive thinking",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
+        {
+          "text": "Analysis paralysis",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        }
       ],
       "therapeutic_approaches": [
         {
@@ -1053,11 +1860,20 @@
         "text": "Learning to think through emotions and set healthy boundaries"
       },
       "psychological_disorders": [
-        "Emotional dysregulation",
-        "Codependency"
+        {
+          "text": "Emotional dysregulation",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
+        {
+          "text": "Codependency",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        }
       ],
       "therapeutic_approaches": [
-        "Emotion-focused therapy",
+        {
+          "text": "Emotion-focused therapy",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Dialectical behavior therapy"
@@ -1083,12 +1899,24 @@
         "text": "Developing intuition and openness to possibilities"
       },
       "psychological_disorders": [
-        "Obsessive-compulsive behaviors",
-        "Materialism"
+        {
+          "text": "Obsessive-compulsive behaviors",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
+        {
+          "text": "Materialism",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        }
       ],
       "therapeutic_approaches": [
-        "Somatic therapy",
-        "Mindfulness practices"
+        {
+          "text": "Somatic therapy",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
+        {
+          "text": "Mindfulness practices",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        }
       ]
     },
     "intuition": {
@@ -1110,12 +1938,24 @@
         "text": "Grounding visions in practical reality"
       },
       "psychological_disorders": [
-        "Attention deficits",
-        "Manic episodes"
+        {
+          "text": "Attention deficits",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
+        {
+          "text": "Manic episodes",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        }
       ],
       "therapeutic_approaches": [
-        "Creative therapy",
-        "Grounding techniques"
+        {
+          "text": "Creative therapy",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        },
+        {
+          "text": "Grounding techniques",
+          "citation_key": "Carl_Gustav_Jung-Psychological_Types"
+        }
       ]
     }
   },
@@ -1134,19 +1974,46 @@
         "text": "Organized, efficient, logical leaders who focus on external systems"
       },
       "strengths": [
-        "Organizational ability",
-        "Logical decision-making",
-        "Leadership"
+        {
+          "text": "Organizational ability",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Logical decision-making",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "weaknesses": [
-        "Emotional detachment",
-        "Rigidity",
-        "Insensitivity"
+        {
+          "text": "Emotional detachment",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Rigidity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Insensitivity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "development_needs": [
-        "Emotional awareness",
-        "Flexibility",
-        "Empathy"
+        {
+          "text": "Emotional awareness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Flexibility",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Empathy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "introverted_thinking": {
@@ -1159,19 +2026,46 @@
         "text": "Independent thinkers who develop internal logical systems"
       },
       "strengths": [
-        "Deep analysis",
-        "Independence",
-        "Objectivity"
+        {
+          "text": "Deep analysis",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Independence",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Objectivity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "weaknesses": [
-        "Social isolation",
-        "Impracticality",
-        "Stubbornness"
+        {
+          "text": "Social isolation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Impracticality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Stubbornness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "development_needs": [
-        "Social connection",
-        "Practical application",
-        "Emotional expression"
+        {
+          "text": "Social connection",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Practical application",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Emotional expression",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "extraverted_feeling": {
@@ -1184,19 +2078,46 @@
         "text": "Harmonious people-oriented individuals who focus on group values"
       },
       "strengths": [
-        "Empathy",
-        "Harmony-building",
-        "Social awareness"
+        {
+          "text": "Empathy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Harmony-building",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Social awareness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "weaknesses": [
-        "People-pleasing",
-        "Conflict avoidance",
-        "Self-neglect"
+        {
+          "text": "People-pleasing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Conflict avoidance",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Self-neglect",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "development_needs": [
-        "Self-care",
-        "Boundary setting",
-        "Assertiveness"
+        {
+          "text": "Self-care",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Boundary setting",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Assertiveness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "introverted_feeling": {
@@ -1209,19 +2130,46 @@
         "text": "Deeply empathetic individuals with strong personal values"
       },
       "strengths": [
-        "Authenticity",
-        "Compassion",
-        "Artistic sensitivity"
+        {
+          "text": "Authenticity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Compassion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Artistic sensitivity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "weaknesses": [
-        "Oversensitivity",
-        "Withdrawal",
-        "Idealism"
+        {
+          "text": "Oversensitivity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Withdrawal",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Idealism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "development_needs": [
-        "Emotional resilience",
-        "Social engagement",
-        "Practical grounding"
+        {
+          "text": "Emotional resilience",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Social engagement",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Practical grounding",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "extraverted_sensation": {
@@ -1234,22 +2182,46 @@
         "text": "Practical, realistic individuals focused on immediate reality"
       },
       "strengths": [
-        "Practicality",
-        "Reliability",
-        "Material success"
+        {
+          "text": "Practicality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Reliability",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Material success",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "weaknesses": [
-        "Materialism",
+        {
+          "text": "Materialism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Resistance to change"
         },
-        "Limited vision"
+        {
+          "text": "Limited vision",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "development_needs": [
-        "Vision development",
-        "Spiritual awareness",
-        "Flexibility"
+        {
+          "text": "Vision development",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Spiritual awareness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Flexibility",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "introverted_sensation": {
@@ -1262,22 +2234,46 @@
         "text": "Careful, methodical individuals with strong attention to detail"
       },
       "strengths": [
-        "Precision",
-        "Reliability",
-        "Thoroughness"
+        {
+          "text": "Precision",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Reliability",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Thoroughness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "weaknesses": [
-        "Rigidity",
-        "Pessimism",
+        {
+          "text": "Rigidity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Pessimism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Resistance to innovation"
         }
       ],
       "development_needs": [
-        "Optimism",
-        "Flexibility",
-        "Vision"
+        {
+          "text": "Optimism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Flexibility",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Vision",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "extraverted_intuition": {
@@ -1290,25 +2286,46 @@
         "text": "Visionary leaders who inspire others with possibilities"
       },
       "strengths": [
-        "Innovation",
-        "Inspiration",
-        "Leadership"
+        {
+          "text": "Innovation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Inspiration",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "weaknesses": [
-        "Impracticality",
-        "Inconsistency",
+        {
+          "text": "Impracticality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Inconsistency",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Neglect of details"
         }
       ],
       "development_needs": [
-        "Follow-through",
+        {
+          "text": "Follow-through",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Attention to detail"
         },
-        "Grounding"
+        {
+          "text": "Grounding",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "introverted_intuition": {
@@ -1321,22 +2338,46 @@
         "text": "Insightful individuals with strong inner vision"
       },
       "strengths": [
-        "Deep insight",
-        "Spiritual awareness",
-        "Creativity"
+        {
+          "text": "Deep insight",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Spiritual awareness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Creativity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "weaknesses": [
-        "Impracticality",
-        "Isolation",
+        {
+          "text": "Impracticality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Isolation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Misunderstanding by others"
         }
       ],
       "development_needs": [
-        "Practical application",
-        "Communication skills",
-        "Social connection"
+        {
+          "text": "Practical application",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Communication skills",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Social connection",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     }
   },
@@ -1349,10 +2390,19 @@
       "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion",
       "text": "The privilege of a lifetime is being who you are."
     },
-    "author": "Joseph Campbell",
-    "source": "A Joseph Campbell Companion",
+    "author": {
+      "text": "Joseph Campbell",
+      "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+    },
+    "source": {
+      "text": "A Joseph Campbell Companion",
+      "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+    },
     "ace": {
-      "stage": "Birth/Beginning",
+      "stage": {
+        "text": "Birth/Beginning",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Establishing basic trust"
@@ -1370,10 +2420,16 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Basic trust issues"
         },
-        "Attachment disorders"
+        {
+          "text": "Attachment disorders",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "therapeutic_focus": [
-        "Safety establishment",
+        {
+          "text": "Safety establishment",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Basic trust building"
@@ -1381,7 +2437,10 @@
       ]
     },
     "two": {
-      "stage": "Duality/Choice",
+      "stage": {
+        "text": "Duality/Choice",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to relate and choose"
@@ -1390,35 +2449,74 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Autonomy vs. Shame"
       },
-      "jungian_aspect": "Confronting opposites",
+      "jungian_aspect": {
+        "text": "Confronting opposites",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "potential_issues": [
-        "Codependency",
-        "Decision paralysis"
+        {
+          "text": "Codependency",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Decision paralysis",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ],
       "therapeutic_focus": [
-        "Boundary work",
-        "Decision-making skills"
+        {
+          "text": "Boundary work",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Decision-making skills",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     },
     "three": {
-      "stage": "Creation/Expression",
-      "psychological_task": "Creative self-expression",
+      "stage": {
+        "text": "Creation/Expression",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
+      "psychological_task": {
+        "text": "Creative self-expression",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "erikson_stage": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Initiative vs. Guilt"
       },
-      "jungian_aspect": "Creative synthesis",
+      "jungian_aspect": {
+        "text": "Creative synthesis",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "potential_issues": [
-        "Creative blocks",
-        "Performance anxiety"
+        {
+          "text": "Creative blocks",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Performance anxiety",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ],
       "therapeutic_focus": [
-        "Creative expression",
-        "Guilt resolution"
+        {
+          "text": "Creative expression",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Guilt resolution",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     },
     "four": {
-      "stage": "Structure/Foundation",
+      "stage": {
+        "text": "Structure/Foundation",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Building stable foundations"
@@ -1427,18 +2525,36 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Industry vs. Inferiority"
       },
-      "jungian_aspect": "Establishing order",
+      "jungian_aspect": {
+        "text": "Establishing order",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "potential_issues": [
-        "Rigidity",
-        "Inferiority complex"
+        {
+          "text": "Rigidity",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Inferiority complex",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ],
       "therapeutic_focus": [
-        "Skill development",
-        "Self-worth building"
+        {
+          "text": "Skill development",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Self-worth building",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     },
     "five": {
-      "stage": "Challenge/Conflict",
+      "stage": {
+        "text": "Challenge/Conflict",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Dealing with conflict and change"
@@ -1452,16 +2568,31 @@
         "text": "Crisis and growth"
       },
       "potential_issues": [
-        "Identity crisis",
-        "Chronic conflict"
+        {
+          "text": "Identity crisis",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Chronic conflict",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ],
       "therapeutic_focus": [
-        "Identity formation",
-        "Conflict resolution"
+        {
+          "text": "Identity formation",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Conflict resolution",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     },
     "six": {
-      "stage": "Harmony/Integration",
+      "stage": {
+        "text": "Harmony/Integration",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Achieving balance and harmony"
@@ -1470,18 +2601,36 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Intimacy vs. Isolation"
       },
-      "jungian_aspect": "Successful integration",
+      "jungian_aspect": {
+        "text": "Successful integration",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "potential_issues": [
-        "Isolation",
-        "Intimacy fears"
+        {
+          "text": "Isolation",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Intimacy fears",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ],
       "therapeutic_focus": [
-        "Relationship skills",
-        "Intimacy development"
+        {
+          "text": "Relationship skills",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Intimacy development",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     },
     "seven": {
-      "stage": "Testing/Perseverance",
+      "stage": {
+        "text": "Testing/Perseverance",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Defending values and persevering"
@@ -1495,16 +2644,31 @@
         "text": "Testing of achievements"
       },
       "potential_issues": [
-        "Stagnation",
-        "Burnout"
+        {
+          "text": "Stagnation",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Burnout",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ],
       "therapeutic_focus": [
-        "Value clarification",
-        "Endurance building"
+        {
+          "text": "Value clarification",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Endurance building",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     },
     "eight": {
-      "stage": "Mastery/Skill",
+      "stage": {
+        "text": "Mastery/Skill",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Developing mastery and expertise"
@@ -1513,18 +2677,36 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Generativity vs. Stagnation"
       },
-      "jungian_aspect": "Skill development",
+      "jungian_aspect": {
+        "text": "Skill development",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "potential_issues": [
-        "Perfectionism",
-        "Workaholism"
+        {
+          "text": "Perfectionism",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Workaholism",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ],
       "therapeutic_focus": [
-        "Balance",
-        "Self-compassion"
+        {
+          "text": "Balance",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Self-compassion",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     },
     "nine": {
-      "stage": "Completion/Wisdom",
+      "stage": {
+        "text": "Completion/Wisdom",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Approaching completion and sharing wisdom"
@@ -1533,18 +2715,36 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Integrity vs. Despair"
       },
-      "jungian_aspect": "Near completion",
+      "jungian_aspect": {
+        "text": "Near completion",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "potential_issues": [
-        "Despair",
-        "Regret"
+        {
+          "text": "Despair",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Regret",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ],
       "therapeutic_focus": [
-        "Life review",
-        "Meaning-making"
+        {
+          "text": "Life review",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Meaning-making",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     },
     "ten": {
-      "stage": "Fulfillment/Transition",
+      "stage": {
+        "text": "Fulfillment/Transition",
+        "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+      },
       "psychological_task": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Completing cycle and preparing for new beginning"
@@ -1568,8 +2768,14 @@
         }
       ],
       "therapeutic_focus": [
-        "Transition work",
-        "Acceptance"
+        {
+          "text": "Transition work",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        },
+        {
+          "text": "Acceptance",
+          "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+        }
       ]
     }
   },
@@ -1582,8 +2788,14 @@
       "citation_key": "Carl_Gustav_Jung-Psychology_and_Religion",
       "text": "Everyone carries a shadow, and the less it is embodied in the individual's conscious life, the blacker and denser it is."
     },
-    "author": "Carl Gustav Jung",
-    "source": "Psychology and Religion",
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-Psychology_and_Religion"
+    },
+    "source": {
+      "text": "Psychology and Religion",
+      "citation_key": "Carl_Gustav_Jung-Psychology_and_Religion"
+    },
     "identification_techniques": {
       "projection": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1656,11 +2868,20 @@
       "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious",
       "text": "The anima and animus are the bridge to the unconscious and thus to the self."
     },
-    "author": "Carl Gustav Jung",
-    "source": "The Archetypes and the Collective Unconscious",
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+    },
+    "source": {
+      "text": "The Archetypes and the Collective Unconscious",
+      "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+    },
     "anima_development": {
       "eve": {
-        "stage": "Biological/Instinctual",
+        "stage": {
+          "text": "Biological/Instinctual",
+          "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+        },
         "tarot_cards": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1678,7 +2899,10 @@
         }
       },
       "helen": {
-        "stage": "Aesthetic/Romantic",
+        "stage": {
+          "text": "Aesthetic/Romantic",
+          "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+        },
         "tarot_cards": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1696,7 +2920,10 @@
         }
       },
       "mary": {
-        "stage": "Spiritual/Religious",
+        "stage": {
+          "text": "Spiritual/Religious",
+          "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+        },
         "tarot_cards": [
           "The High Priestess",
           "The Star"
@@ -1711,7 +2938,10 @@
         }
       },
       "sophia": {
-        "stage": "Wisdom/Transcendent",
+        "stage": {
+          "text": "Wisdom/Transcendent",
+          "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+        },
         "tarot_cards": [
           "The World",
           "Temperance"
@@ -1728,7 +2958,10 @@
     },
     "animus_development": {
       "tarzan": {
-        "stage": "Physical/Power",
+        "stage": {
+          "text": "Physical/Power",
+          "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+        },
         "tarot_cards": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1746,7 +2979,10 @@
         }
       },
       "byron": {
-        "stage": "Romantic/Adventurous",
+        "stage": {
+          "text": "Romantic/Adventurous",
+          "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+        },
         "tarot_cards": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1764,7 +3000,10 @@
         }
       },
       "lloyd_george": {
-        "stage": "Word/Meaning",
+        "stage": {
+          "text": "Word/Meaning",
+          "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+        },
         "tarot_cards": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1782,7 +3021,10 @@
         }
       },
       "hermes": {
-        "stage": "Spiritual/Transcendent",
+        "stage": {
+          "text": "Spiritual/Transcendent",
+          "citation_key": "Carl_Gustav_Jung-The_Archetypes_and_the_Collective_Unconscious"
+        },
         "tarot_cards": [
           "The Magician",
           "The Hermit"

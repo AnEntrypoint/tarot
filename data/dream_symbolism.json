@@ -32,8 +32,14 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ace of Cups"
             },
-            "The Star",
-            "Temperance"
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Temperance",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -76,7 +82,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Seven of Cups"
             },
-            "The Moon",
+            {
+              "text": "The Moon",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Five of Cups"
@@ -109,7 +118,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Six of Swords"
             },
-            "The Chariot",
+            {
+              "text": "The Chariot",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Wheel of Fortune"
@@ -138,7 +150,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ten of Swords"
             },
-            "The Tower",
+            {
+              "text": "The Tower",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Five of Pentacles"
@@ -171,8 +186,14 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "King of Cups"
             },
-            "Strength",
-            "The World"
+            {
+              "text": "Strength",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The World",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -199,9 +220,18 @@
             "text": "Spiritual mastery, freedom from limitations, transcendent consciousness"
           },
           "tarot_correlations": [
-            "The World",
-            "The Star",
-            "The Fool"
+            {
+              "text": "The World",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Fool",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -226,7 +256,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Eight of Swords"
             },
-            "The Devil",
+            {
+              "text": "The Devil",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Five of Pentacles"
@@ -251,12 +284,18 @@
             "text": "Loss of spiritual control, fear of heights, grounding needed"
           },
           "tarot_correlations": [
-            "The Tower",
+            {
+              "text": "The Tower",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ten of Swords"
             },
-            "The Hanged Man"
+            {
+              "text": "The Hanged Man",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Starhawk-The_Spiral_Dance",
@@ -284,8 +323,14 @@
               "text": "Feminine intuition, independence, mystery, psychic abilities"
             },
             "tarot_correlations": [
-              "The High Priestess",
-              "The Moon",
+              {
+                "text": "The High Priestess",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "The Moon",
+                "citation_key": "Default-Citation-Key"
+              },
               {
                 "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                 "text": "Queen of Cups"
@@ -322,8 +367,14 @@
               "text": "Loyalty, protection, companionship, unconditional love"
             },
             "tarot_correlations": [
-              "The Fool",
-              "Strength",
+              {
+                "text": "The Fool",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "Strength",
+                "citation_key": "Default-Citation-Key"
+              },
               {
                 "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                 "text": "Six of Cups"
@@ -360,8 +411,14 @@
               "text": "Power, freedom, sexual energy, spiritual journey"
             },
             "tarot_correlations": [
-              "The Chariot",
-              "The Sun",
+              {
+                "text": "The Chariot",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "The Sun",
+                "citation_key": "Default-Citation-Key"
+              },
               {
                 "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                 "text": "Knight of Wands"
@@ -401,9 +458,18 @@
                 "text": "Courage, leadership, solar power, spiritual authority"
               },
               "tarot_correlations": [
-                "Strength",
-                "The Sun",
-                "The Emperor"
+                {
+                  "text": "Strength",
+                  "citation_key": "Default-Citation-Key"
+                },
+                {
+                  "text": "The Sun",
+                  "citation_key": "Default-Citation-Key"
+                },
+                {
+                  "text": "The Emperor",
+                  "citation_key": "Default-Citation-Key"
+                }
               ],
               "psychological_significance": {
                 "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -424,12 +490,18 @@
                 "text": "Personal power, passion, controlled aggression, spiritual strength"
               },
               "tarot_correlations": [
-                "Strength",
+                {
+                  "text": "Strength",
+                  "citation_key": "Default-Citation-Key"
+                },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "Knight of Wands"
                 },
-                "The Chariot"
+                {
+                  "text": "The Chariot",
+                  "citation_key": "Default-Citation-Key"
+                }
               ],
               "psychological_significance": {
                 "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -450,12 +522,18 @@
                 "text": "Stealth, patience, spotted wisdom, hidden power"
               },
               "tarot_correlations": [
-                "The Hermit",
+                {
+                  "text": "The Hermit",
+                  "citation_key": "Default-Citation-Key"
+                },
                 {
                   "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                   "text": "Seven of Swords"
                 },
-                "The High Priestess"
+                {
+                  "text": "The High Priestess",
+                  "citation_key": "Default-Citation-Key"
+                }
               ],
               "psychological_significance": {
                 "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -477,9 +555,18 @@
               "text": "Protective power, hibernation wisdom, earth connection, maternal strength"
             },
             "tarot_correlations": [
-              "The Empress",
-              "Strength",
-              "The Hermit"
+              {
+                "text": "The Empress",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "Strength",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "The Hermit",
+                "citation_key": "Default-Citation-Key"
+              }
             ],
             "psychological_significance": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -512,9 +599,18 @@
               "text": "Pack wisdom, wild instincts, loyalty, moon connection"
             },
             "tarot_correlations": [
-              "The Moon",
-              "The Hermit",
-              "Strength"
+              {
+                "text": "The Moon",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "The Hermit",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "Strength",
+                "citation_key": "Default-Citation-Key"
+              }
             ],
             "psychological_significance": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -545,8 +641,14 @@
               "text": "Vision, spiritual sight, divine messages, higher perspective"
             },
             "tarot_correlations": [
-              "The Star",
-              "The Hermit",
+              {
+                "text": "The Star",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "The Hermit",
+                "citation_key": "Default-Citation-Key"
+              },
               {
                 "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
                 "text": "Ace of Swords"
@@ -571,9 +673,18 @@
               "text": "Wisdom, night vision, death mysteries, feminine wisdom"
             },
             "tarot_correlations": [
-              "The High Priestess",
-              "Death",
-              "The Hermit"
+              {
+                "text": "The High Priestess",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "Death",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "The Hermit",
+                "citation_key": "Default-Citation-Key"
+              }
             ],
             "psychological_significance": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -594,9 +705,18 @@
               "text": "Magic, prophecy, death messages, transformation"
             },
             "tarot_correlations": [
-              "Death",
-              "The Tower",
-              "The High Priestess"
+              {
+                "text": "Death",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "The Tower",
+                "citation_key": "Default-Citation-Key"
+              },
+              {
+                "text": "The High Priestess",
+                "citation_key": "Default-Citation-Key"
+              }
             ],
             "psychological_significance": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -630,9 +750,18 @@
             "text": "Major life transformation, ego death, spiritual rebirth"
           },
           "tarot_correlations": [
-            "Death",
-            "Judgement",
-            "The Tower"
+            {
+              "text": "Death",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Judgement",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Tower",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -661,7 +790,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Five of Cups"
             },
-            "Death",
+            {
+              "text": "Death",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Six of Cups"
@@ -686,9 +818,18 @@
             "text": "Unknown aspects dying, shadow death, collective transformation"
           },
           "tarot_correlations": [
-            "Death",
-            "The Hermit",
-            "The Moon"
+            {
+              "text": "Death",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Hermit",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Moon",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -709,9 +850,18 @@
             "text": "Spiritual rebirth, renewal after death, phoenix energy"
           },
           "tarot_correlations": [
-            "Judgement",
-            "The Sun",
-            "The World"
+            {
+              "text": "Judgement",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Sun",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The World",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -738,8 +888,14 @@
             "text": "Unconscious mind, repressed material, foundational issues"
           },
           "tarot_correlations": [
-            "The Moon",
-            "The Devil",
+            {
+              "text": "The Moon",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Devil",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Eight of Swords"
@@ -764,9 +920,18 @@
             "text": "Higher consciousness, stored memories, spiritual aspirations"
           },
           "tarot_correlations": [
-            "The Star",
-            "The Hermit",
-            "The High Priestess"
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Hermit",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The High Priestess",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -787,7 +952,10 @@
             "text": "Nourishment, transformation, family dynamics, creative cooking"
           },
           "tarot_correlations": [
-            "The Empress",
+            {
+              "text": "The Empress",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Queen of Pentacles"
@@ -816,7 +984,10 @@
             "text": "Intimacy, rest, sexual energy, private self"
           },
           "tarot_correlations": [
-            "The Lovers",
+            {
+              "text": "The Lovers",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Four of Swords"
@@ -845,9 +1016,18 @@
             "text": "Cleansing, elimination, privacy, purification"
           },
           "tarot_correlations": [
-            "Temperance",
-            "The Star",
-            "Death"
+            {
+              "text": "Temperance",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Death",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -868,9 +1048,18 @@
             "text": "New aspects of self, unexplored potential, consciousness expansion"
           },
           "tarot_correlations": [
-            "The Fool",
-            "Ace cards",
-            "The Star"
+            {
+              "text": "The Fool",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Ace cards",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -913,7 +1102,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Five of Swords"
             },
-            "The Moon"
+            {
+              "text": "The Moon",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -938,12 +1130,18 @@
             "text": "Pursuing rejected aspects, trying to reclaim power"
           },
           "tarot_correlations": [
-            "The Chariot",
+            {
+              "text": "The Chariot",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Seven of Wands"
             },
-            "Strength"
+            {
+              "text": "Strength",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -965,12 +1163,18 @@
           "text": "Loss of control, fear of failure, grounding needs"
         },
         "tarot_correlations": [
-          "The Tower",
+          {
+            "text": "The Tower",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Ten of Swords"
           },
-          "The Hanged Man"
+          {
+            "text": "The Hanged Man",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "psychological_significance": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -995,9 +1199,18 @@
           "text": "Shadow projections, repressed fears, power reclamation"
         },
         "tarot_correlations": [
-          "The Devil",
-          "Strength",
-          "The Moon"
+          {
+            "text": "The Devil",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Strength",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "The Moon",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "psychological_significance": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1022,8 +1235,14 @@
           "text": "Major life changes, collective fears, transformation anxiety"
         },
         "tarot_correlations": [
-          "The Tower",
-          "Death",
+          {
+            "text": "The Tower",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Death",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Wheel of Fortune"
@@ -1175,12 +1394,18 @@
             "text": "Learning required, tests of development, knowledge integration"
           },
           "tarot_correlations": [
-            "The Hierophant",
+            {
+              "text": "The Hierophant",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Eight of Pentacles"
             },
-            "Page cards"
+            {
+              "text": "Page cards",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1205,8 +1430,14 @@
             "text": "Life tests, preparedness anxiety, evaluation fears"
           },
           "tarot_correlations": [
-            "Justice",
-            "Judgement",
+            {
+              "text": "Justice",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Judgement",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Seven of Swords"
@@ -1231,12 +1462,18 @@
             "text": "Direction confusion, identity crisis, spiritual wandering"
           },
           "tarot_correlations": [
-            "The Moon",
+            {
+              "text": "The Moon",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Seven of Cups"
             },
-            "The Hermit"
+            {
+              "text": "The Hermit",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "psychological_significance": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1261,7 +1498,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Six of Cups"
             },
-            "The Moon",
+            {
+              "text": "The Moon",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Four of Cups"
@@ -1300,7 +1540,10 @@
             "text": "Alerts about potential problems or dangers"
           },
           "tarot_correlations": [
-            "The Tower",
+            {
+              "text": "The Tower",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Seven of Swords"
@@ -1329,9 +1572,18 @@
             "text": "Divine guidance for important decisions"
           },
           "tarot_correlations": [
-            "The Star",
-            "The Hermit",
-            "The High Priestess"
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Hermit",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The High Priestess",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "validation_signs": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1352,8 +1604,14 @@
             "text": "Information about healing approaches and methods"
           },
           "tarot_correlations": [
-            "Temperance",
-            "The Star",
+            {
+              "text": "Temperance",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ace of Cups"
@@ -1382,8 +1640,14 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Six of Cups"
             },
-            "Judgement",
-            "The High Priestess"
+            {
+              "text": "Judgement",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The High Priestess",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "validation_signs": {
             "citation_key": "Carl_Jung-Man_and_His_Symbols",
@@ -1412,8 +1676,14 @@
             "text": "Spiritual illumination, prayer, sacred flame"
           },
           "tarot_correlations": [
-            "The Hermit",
-            "Temperance",
+            {
+              "text": "The Hermit",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Temperance",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ace of Wands"
@@ -1454,7 +1724,10 @@
             "text": "Uncontrolled transformation, destructive passion, spiritual emergency"
           },
           "tarot_correlations": [
-            "The Tower",
+            {
+              "text": "The Tower",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Five of Wands"
@@ -1475,8 +1748,14 @@
             "text": "Consciousness, divine masculine, vitality, success"
           },
           "tarot_correlations": [
-            "The Sun",
-            "The Magician",
+            {
+              "text": "The Sun",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Magician",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Six of Wands"
@@ -1499,8 +1778,14 @@
             "text": "Vast unconscious, emotional depths, spiritual infinity"
           },
           "tarot_correlations": [
-            "The High Priestess",
-            "The Moon",
+            {
+              "text": "The High Priestess",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Moon",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "King of Cups"
@@ -1517,7 +1802,10 @@
             "text": "Life flow, time passage, emotional journey"
           },
           "tarot_correlations": [
-            "Temperance",
+            {
+              "text": "Temperance",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Six of Swords"
@@ -1542,7 +1830,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Three of Swords"
             },
-            "The Star",
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ace of Cups"
@@ -1559,8 +1850,14 @@
             "text": "Emotional cooling, purity, spiritual silence"
           },
           "tarot_correlations": [
-            "The Hermit",
-            "The Star",
+            {
+              "text": "The Hermit",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Four of Swords"
@@ -1583,7 +1880,10 @@
             "text": "Change, inspiration, mental movement, spiritual breath"
           },
           "tarot_correlations": [
-            "The Fool",
+            {
+              "text": "The Fool",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Page of Swords"
@@ -1604,7 +1904,10 @@
             "text": "Mental turbulence, conflicting thoughts, spiritual test"
           },
           "tarot_correlations": [
-            "The Tower",
+            {
+              "text": "The Tower",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Five of Swords"
@@ -1625,12 +1928,18 @@
             "text": "Freedom thoughts, spiritual messages, transcendence"
           },
           "tarot_correlations": [
-            "The Star",
+            {
+              "text": "The Star",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ace of Swords"
             },
-            "The Fool"
+            {
+              "text": "The Fool",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "healing_application": {
             "citation_key": "Starhawk-The_Spiral_Dance",
@@ -1643,7 +1952,10 @@
             "text": "Unclear thinking, temporary obscuration, shifting perspectives"
           },
           "tarot_correlations": [
-            "The Moon",
+            {
+              "text": "The Moon",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Seven of Cups"
@@ -1670,8 +1982,14 @@
             "text": "Spiritual achievement, challenges, higher perspective"
           },
           "tarot_correlations": [
-            "The Hermit",
-            "The Emperor",
+            {
+              "text": "The Hermit",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Emperor",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ten of Pentacles"
@@ -1688,12 +2006,18 @@
             "text": "Growth, connection, wisdom, life force"
           },
           "tarot_correlations": [
-            "The World",
+            {
+              "text": "The World",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Ace of Pentacles"
             },
-            "The Empress"
+            {
+              "text": "The Empress",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "healing_application": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1706,7 +2030,10 @@
             "text": "Cultivated growth, nurturing, creative manifestation"
           },
           "tarot_correlations": [
-            "The Empress",
+            {
+              "text": "The Empress",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Seven of Pentacles"
@@ -1727,9 +2054,18 @@
             "text": "Inner exploration, hidden treasures, womb wisdom"
           },
           "tarot_correlations": [
-            "The Hermit",
-            "The High Priestess",
-            "The Devil"
+            {
+              "text": "The Hermit",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The High Priestess",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "The Devil",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "healing_application": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
