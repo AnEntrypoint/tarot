@@ -7,49 +7,25 @@ class AnalysisEngine {
         this.dataLoader = null;
         this.isInitialized = false;
         this.initializationPromise = null;
+        this.analysisText = {};
         
-        // Basic Jungian archetypes for fallback
         this.jungianArchetypes = {
-            "The Fool": "Innocent",
-            "The Magician": "Magician",
-            "The High Priestess": "Sage",
-            "The Empress": "Mother",
-            "The Emperor": "Ruler",
-            "The Hierophant": "Teacher",
-            "The Lovers": "Lover",
-            "The Chariot": "Hero",
-            "Strength": "Hero",
-            "The Hermit": "Sage",
-            "Wheel of Fortune": "Magician",
-            "Justice": "Ruler",
-            "The Hanged Man": "Martyr",
-            "Death": "Destroyer",
-            "Temperance": "Sage",
-            "The Devil": "Shadow",
-            "The Tower": "Destroyer",
-            "The Star": "Innocent",
-            "The Moon": "Shadow",
-            "The Sun": "Hero",
-            "Judgement": "Sage",
-            "The World": "Sage"
+            "The Fool": "Innocent", "The Magician": "Magician", "The High Priestess": "Sage",
+            "The Empress": "Mother", "The Emperor": "Ruler", "The Hierophant": "Teacher",
+            "The Lovers": "Lover", "The Chariot": "Hero", "Strength": "Hero", "The Hermit": "Sage",
+            "Wheel of Fortune": "Magician", "Justice": "Ruler", "The Hanged Man": "Martyr",
+            "Death": "Destroyer", "Temperance": "Sage", "The Devil": "Shadow", "The Tower": "Destroyer",
+            "The Star": "Innocent", "The Moon": "Shadow", "The Sun": "Hero", "Judgement": "Sage", "The World": "Sage"
         };
         
-        // Listen for data loader ready event
-        window.addEventListener('tarotDataLoaded', () => {
-            this.initialize();
-        });
-        
-        // If data loader is already available, initialize immediately
+        window.addEventListener('tarotDataLoaded', () => this.initialize());
         if (window.tarotDataLoader && window.tarotDataLoader.isLoaded) {
             this.initialize();
         }
     }
 
     async initialize() {
-        if (this.initializationPromise) {
-            return this.initializationPromise;
-        }
-        
+        if (this.initializationPromise) return this.initializationPromise;
         this.initializationPromise = this._doInitialize();
         return this.initializationPromise;
     }
@@ -57,34 +33,46 @@ class AnalysisEngine {
     async _doInitialize() {
         try {
             this.dataLoader = window.tarotDataLoader;
-            if (!this.dataLoader || !this.dataLoader.isLoaded) {
-                throw new Error('TarotDataLoader not available or not loaded');
-            }
-            
+            if (!this.dataLoader || !this.dataLoader.isLoaded) throw new Error('TarotDataLoader not available or not loaded');
+            this.analysisText = this.dataLoader.getData('analysis_text');
             this.isInitialized = true;
             console.log('AnalysisEngine initialized with JSON databases');
         } catch (error) {
             console.error('Failed to initialize AnalysisEngine:', error);
-            // Fallback to basic functionality without JSON data
             this.isInitialized = false;
         }
     }
     
-    // Ensure initialization before analysis
     async ensureInitialized() {
-        if (!this.isInitialized) {
-            await this.initialize();
+        if (!this.isInitialized) await this.initialize();
+    }
+
+    getAnalysisText(key, replacements = {}) {
+        const path = key.split('.');
+        let textObject = this.analysisText;
+        try {
+            for (const p of path) {
+                textObject = textObject[p];
+            }
+            if (typeof textObject === 'undefined' || typeof textObject.text === 'undefined') {
+                console.warn(`Analysis text for key '${key}' not found.`);
+                return key;
+            }
+            let text = textObject.text;
+            for (const placeholder in replacements) {
+                text = text.replace(new RegExp(`\\{${placeholder}\\}`, 'g'), replacements[placeholder]);
+            }
+            return text;
+        } catch (e) {
+            console.warn(`Could not retrieve analysis text for key '${key}'`, e);
+            return key;
         }
     }
 
-    // Main analysis method with JSON database integration
     async analyzeReading(cards, spreadType) {
         await this.ensureInitialized();
-        
         const cacheKey = JSON.stringify({ cards: cards.map(c => c.name), spreadType });
-        if (this.analysisCache.has(cacheKey)) {
-            return this.analysisCache.get(cacheKey);
-        }
+        if (this.analysisCache.has(cacheKey)) return this.analysisCache.get(cacheKey);
         
         const analysis = {
             overview: await this.generateOverview(cards, spreadType),
@@ -118,1594 +106,258 @@ class AnalysisEngine {
             mysticalWisdom: await this.analyzeMysticalOracularWisdom(cards),
             comprehensiveApplications: await this.analyzeComprehensiveApplications(cards)
         };
-
         this.analysisCache.set(cacheKey, analysis);
         return analysis;
     }
 
-    // Generate reading overview
     async generateOverview(cards, spreadType) {
         const majorArcana = cards.filter(c => c.suit === "Major Arcana").length;
         const courtCards = cards.filter(c => ["King", "Queen", "Knight", "Page"].some(court => c.name.includes(court))).length;
         const reversedCards = cards.filter(c => c.isReversed).length;
-        
         const intensity = majorArcana > cards.length * 0.5 ? "High" : majorArcana > cards.length * 0.3 ? "Medium" : "Low";
         const personalInfluence = courtCards > 0 ? "Strong personal influences present" : "Situational focus";
         const energyFlow = reversedCards > cards.length * 0.5 ? "Blocked or internal energy" : "Forward-moving energy";
-
         return {
-            intensity,
-            personalInfluence,
-            energyFlow,
-            majorArcanaCount: majorArcana,
-            courtCardCount: courtCards,
-            reversedCount: reversedCards,
+            intensity, personalInfluence, energyFlow,
+            majorArcanaCount: majorArcana, courtCardCount: courtCards, reversedCount: reversedCards,
             interpretation: this.generateOverviewInterpretation(intensity, personalInfluence, energyFlow)
         };
     }
 
     generateOverviewInterpretation(intensity, personalInfluence, energyFlow) {
-        return `This reading shows ${intensity.toLowerCase()} spiritual intensity with ${personalInfluence.toLowerCase()}. 
-                The energy pattern suggests ${energyFlow.toLowerCase()}, indicating the current flow of circumstances in your life.`;
+        return this.getAnalysisText('overview.interpretation', { intensity: intensity.toLowerCase(), personalInfluence: personalInfluence.toLowerCase(), energyFlow: energyFlow.toLowerCase() });
     }
 
-
-    // Analyze suit distribution
     analyzeSuitDistribution(cards) {
         const suits = {};
         cards.forEach(card => {
             if (!suits[card.suit]) suits[card.suit] = 0;
             suits[card.suit]++;
         });
-
-        const suitMeanings = {
-            "Major Arcana": "spiritual lessons and major life themes",
-            "Wands": "career, passion, and creative energy",
-            "Cups": "emotions, relationships, and intuition",
-            "Swords": "thoughts, challenges, and communication",
-            "Pentacles": "material matters, health, and practical concerns"
-        };
-
         return {
             distribution: suits,
-            dominantSuit: Object.keys(suits).reduce((a, b) => suits[a] > suits[b] ? a : b),
-            interpretation: this.generateSuitInterpretation(suits, suitMeanings)
+            dominantSuit: Object.keys(suits).reduce((a, b) => suits[a] > suits[b] ? a : b, null),
+            interpretation: this.generateSuitInterpretation(suits)
         };
     }
 
-    generateSuitInterpretation(suits, meanings) {
-        const dominant = Object.keys(suits).reduce((a, b) => suits[a] > suits[b] ? a : b);
-        return `The focus is primarily on ${meanings[dominant]} with ${suits[dominant]} cards from this area.`;
+    generateSuitInterpretation(suits) {
+        const dominant = Object.keys(suits).reduce((a, b) => suits[a] > suits[b] ? a : b, null);
+        if (!dominant) return "";
+        const dominantMeaning = this.getAnalysisText(`suits.meanings.${dominant.replace(/\s/g, '')}`);
+        return this.getAnalysisText('suits.interpretation', { dominantMeaning, dominantCount: suits[dominant] });
     }
 
-    // Analyze energy pattern
     analyzeEnergyPattern(cards) {
-        let forwardMoving = 0;
-        let blocked = 0;
-        let transformative = 0;
-
+        let forwardMoving = 0, blocked = 0, transformative = 0;
+        const transformativeCards = ["Death", "Tower", "Wheel of Fortune", "Judgement", "Temperance"];
         cards.forEach(card => {
-            if (card.isReversed) {
-                blocked++;
-            } else {
-                forwardMoving++;
-            }
-
-            // Check for transformative cards
-            const transformativeCards = ["Death", "Tower", "Wheel of Fortune", "Judgement", "Temperance"];
-            if (transformativeCards.some(name => card.name.includes(name))) {
-                transformative++;
-            }
+            if (card.isReversed) blocked++; else forwardMoving++;
+            if (transformativeCards.some(name => card.name.includes(name))) transformative++;
         });
-
-        const energyType = blocked > forwardMoving ? "Blocked/Internal" : 
-                          transformative > 0 ? "Transformative" : "Forward-Moving";
-
+        const energyType = blocked > forwardMoving ? "Blocked/Internal" : transformative > 0 ? "Transformative" : "Forward-Moving";
         return {
-            forwardMoving,
-            blocked,
-            transformative,
-            energyType,
-            interpretation: this.generateEnergyInterpretation(energyType, blocked, forwardMoving, transformative)
+            forwardMoving, blocked, transformative, energyType,
+            interpretation: this.generateEnergyInterpretation(energyType)
         };
     }
 
-    generateEnergyInterpretation(energyType, blocked, forwardMoving, transformative) {
-        if (energyType === "Blocked/Internal") {
-            return "Energy is currently blocked or moving internally. This suggests a time for reflection and inner work.";
-        } else if (energyType === "Transformative") {
-            return "Major transformation is occurring. This is a time of significant change and growth.";
-        } else {
-            return "Energy is flowing forward positively. This is a time for action and manifestation.";
-        }
+    generateEnergyInterpretation(energyType) {
+        if (energyType === "Blocked/Internal") return this.getAnalysisText('energy.blocked');
+        if (energyType === "Transformative") return this.getAnalysisText('energy.transformative');
+        return this.getAnalysisText('energy.forward');
     }
 
-    // Analyze Jungian psychological patterns
     async analyzeJungianPattern(cards) {
         await this.ensureInitialized();
-        
-        const archetypes = {};
-        const shadowWork = [];
-        const animaAnimus = [];
-        
-        // Get psychology data from JSON database if available
+        const archetypes = {}, shadowWork = [], animaAnimus = [];
         const psychologyData = this.isInitialized ? this.dataLoader.getData('psychology') : {};
         const jungianData = psychologyData.jungian_archetypes?.major_arcana_correspondences || {};
-
         cards.forEach(card => {
-            // Try JSON data first, fallback to basic archetypes
             const archetypeData = jungianData[card.name];
-            const archetype = renderTextWithCitation(archetypeData?.primary_archetype, getText(archetypeData?.primary_archetype)) || this.getBasicArchetype(card);
-            
+            const archetype = getText(archetypeData?.primary_archetype) || this.getBasicArchetype(card);
             if (archetype) {
                 archetypes[archetype] = (archetypes[archetype] || 0) + 1;
-
-                // Check for shadow work (reversed cards)
                 if (card.isReversed) {
-                    const shadowMeaning = renderTextWithCitation(archetypeData?.shadow_aspect, getText(archetypeData?.shadow_aspect)) || this.getShadowMeaning(card.name);
+                    const shadowMeaning = getText(archetypeData?.shadow_aspect) || this.getShadowMeaning(card.name);
                     shadowWork.push(`${card.name} (${archetype}) - ${shadowMeaning}`);
                 }
-
-                // Check for anima/animus patterns
                 if (["The Empress", "The High Priestess", "Queen of Cups", "Queen of Pentacles"].includes(card.name)) {
-                    const animaMeaning = renderTextWithCitation(archetypeData?.anima_aspect, getText(archetypeData?.anima_aspect)) || this.getAnimaAnimusMeaning(card.name, "anima");
+                    const animaMeaning = getText(archetypeData?.anima_aspect) || this.getAnimaAnimusMeaning(card.name, "anima");
                     animaAnimus.push(`Anima: ${card.name} - ${animaMeaning}`);
                 }
                 if (["The Emperor", "The Magician", "King of Wands", "King of Swords"].includes(card.name)) {
-                    const animusMeaning = renderTextWithCitation(archetypeData?.animus_aspect, getText(archetypeData?.animus_aspect)) || this.getAnimaAnimusMeaning(card.name, "animus");
+                    const animusMeaning = getText(archetypeData?.animus_aspect) || this.getAnimaAnimusMeaning(card.name, "animus");
                     animaAnimus.push(`Animus: ${card.name} - ${animusMeaning}`);
                 }
             }
         });
-
         return {
-            dominantArchetypes: archetypes,
-            shadowWork,
-            animaAnimus,
+            dominantArchetypes: archetypes, shadowWork, animaAnimus,
             collectiveUnconscious: this.analyzeCollectiveUnconscious(cards),
             interpretation: this.generateJungianInterpretation(archetypes, shadowWork, animaAnimus)
         };
     }
 
     getShadowMeaning(cardName) {
-        const shadowMeanings = {
-            "The Fool": "reckless behavior or avoiding responsibility",
-            "The Magician": "manipulation or misuse of power",
-            "The High Priestess": "secrets or intuitive blocks",
-            "The Empress": "overindulgence or neglecting self-care",
-            "The Emperor": "authoritarian behavior or lack of structure"
-        };
-        return shadowMeanings[cardName] || "unexplored shadow aspects";
+        const shadowMeanings = { "The Fool": "reckless behavior or avoiding responsibility", "The Magician": "manipulation or misuse of power", "The High Priestess": "secrets or intuitive blocks", "The Empress": "overindulgence or neglecting self-care", "The Emperor": "authoritarian behavior or lack of structure" };
+        return shadowMeanings[cardName] || this.getAnalysisText('jungian.shadow_fallback');
     }
 
     getAnimaAnimusMeaning(cardName, type) {
-        const meanings = {
-            anima: {
-                "The Empress": "nurturing feminine energy and creativity",
-                "The High Priestess": "intuitive wisdom and mystery",
-                "Queen of Cups": "emotional intelligence and compassion",
-                "Queen of Pentacles": "practical nurturing and abundance"
-            },
-            animus: {
-                "The Emperor": "structured masculine energy and leadership",
-                "The Magician": "focused will and manifestation power",
-                "King of Wands": "passionate leadership and vision",
-                "King of Swords": "intellectual clarity and justice"
-            }
-        };
-        return meanings[type][cardName] || "archetypal energy";
+        const meanings = { anima: { "The Empress": "nurturing feminine energy and creativity", "The High Priestess": "intuitive wisdom and mystery", "Queen of Cups": "emotional intelligence and compassion", "Queen of Pentacles": "practical nurturing and abundance" }, animus: { "The Emperor": "structured masculine energy and leadership", "The Magician": "focused will and manifestation power", "King of Wands": "passionate leadership and vision", "King of Swords": "intellectual clarity and justice" } };
+        return meanings[type][cardName] || this.getAnalysisText('jungian.anima_animus_fallback');
     }
 
     analyzeCollectiveUnconscious(cards) {
         const majorArcana = cards.filter(c => c.suit === "Major Arcana");
-        if (majorArcana.length > 0) {
-            return `${majorArcana.length} Major Arcana cards suggest strong connection to collective unconscious themes and universal patterns.`;
-        }
-        return "Connection to collective unconscious is subtle in this reading.";
+        return majorArcana.length > 0 ? this.getAnalysisText('jungian.collective_unconscious_present', { majorArcanaCount: majorArcana.length }) : this.getAnalysisText('jungian.collective_unconscious_subtle');
     }
 
     generateJungianInterpretation(archetypes, shadowWork, animaAnimus) {
         const dominantArchetype = Object.keys(archetypes).reduce((a, b) => archetypes[a] > archetypes[b] ? a : b, "");
-        let interpretation = `The ${dominantArchetype} archetype is dominant in this reading, suggesting this energy is most active in your psyche.`;
-        
-        if (shadowWork.length > 0) {
-            interpretation += ` Shadow work is indicated in ${shadowWork.length} area(s), offering opportunities for integration and growth.`;
-        }
-        
-        if (animaAnimus.length > 0) {
-            interpretation += ` Anima/Animus dynamics are present, suggesting themes of inner masculine/feminine balance.`;
-        }
-        
+        let interpretation = this.getAnalysisText('jungian.interpretation_base', { dominantArchetype });
+        if (shadowWork.length > 0) interpretation += ' ' + this.getAnalysisText('jungian.interpretation_shadow', { shadowCount: shadowWork.length });
+        if (animaAnimus.length > 0) interpretation += ' ' + this.getAnalysisText('jungian.interpretation_anima');
         return interpretation;
     }
 
-    // Analyze spiritual path indicators
     async analyzeSpiritualPath(cards) {
         await this.ensureInitialized();
-        const soulLessons = [];
-        const spiritualGifts = [];
-        const higherSelf = [];
-        const ascension = [];
-
+        const soulLessons = [], spiritualGifts = [], higherSelf = [], ascension = [];
         cards.forEach(card => {
-            // Soul lessons (Major Arcana)
-            if (card.suit === "Major Arcana") {
-                soulLessons.push(`${card.name}: ${this.getSoulLesson(card.name)}`);
-            }
-
-            // Spiritual gifts (specific cards)
-            if (["The High Priestess", "The Hermit", "The Star", "The Moon"].includes(card.name)) {
-                spiritualGifts.push(`${card.name}: ${this.getSpiritualGift(card.name)}`);
-            }
-
-            // Higher Self messages (upright Major Arcana)
-            if (card.suit === "Major Arcana" && !card.isReversed) {
-                higherSelf.push(`${card.name}: ${this.getHigherSelfMessage(card.name)}`);
-            }
-
-            // Ascension indicators
-            if (["The World", "The Sun", "The Star", "Temperance"].includes(card.name)) {
-                ascension.push(`${card.name}: ${this.getAscensionPath(card.name)}`);
-            }
+            if (card.suit === "Major Arcana") soulLessons.push(`${card.name}: ${this.getSoulLesson(card.name)}`);
+            if (["The High Priestess", "The Hermit", "The Star", "The Moon"].includes(card.name)) spiritualGifts.push(`${card.name}: ${this.getSpiritualGift(card.name)}`);
+            if (card.suit === "Major Arcana" && !card.isReversed) higherSelf.push(`${card.name}: ${this.getHigherSelfMessage(card.name)}`);
+            if (["The World", "The Sun", "The Star", "Temperance"].includes(card.name)) ascension.push(`${card.name}: ${this.getAscensionPath(card.name)}`);
         });
-
-        return {
-            soulLessons,
-            spiritualGifts,
-            higherSelf,
-            ascension,
-            interpretation: this.generateSpiritualInterpretation(soulLessons, spiritualGifts, higherSelf, ascension)
-        };
+        return { soulLessons, spiritualGifts, higherSelf, ascension, interpretation: this.generateSpiritualInterpretation(soulLessons, spiritualGifts, higherSelf, ascension) };
     }
 
     getSoulLesson(cardName) {
-        const lessons = {
-            "The Fool": "Trust in the journey and embrace new beginnings",
-            "The Magician": "Develop your personal power and manifestation abilities",
-            "The High Priestess": "Connect with your intuition and inner wisdom",
-            "The Empress": "Embrace creativity and nurturing energy",
-            "The Emperor": "Learn structure, discipline, and healthy boundaries"
-        };
-        return lessons[cardName] || "Universal spiritual growth";
+        const lessons = { "The Fool": "Trust in the journey and embrace new beginnings", "The Magician": "Develop your personal power and manifestation abilities", "The High Priestess": "Connect with your intuition and inner wisdom", "The Empress": "Embrace creativity and nurturing energy", "The Emperor": "Learn structure, discipline, and healthy boundaries" };
+        return lessons[cardName] || this.getAnalysisText('spiritual.soul_lesson_fallback');
     }
 
     getSpiritualGift(cardName) {
-        const gifts = {
-            "The High Priestess": "Enhanced intuition and psychic abilities",
-            "The Hermit": "Inner wisdom and ability to guide others",
-            "The Star": "Hope, healing, and inspirational energy",
-            "The Moon": "Connection to lunar cycles and subconscious wisdom"
-        };
-        return gifts[cardName] || "Spiritual insight";
+        const gifts = { "The High Priestess": "Enhanced intuition and psychic abilities", "The Hermit": "Inner wisdom and ability to guide others", "The Star": "Hope, healing, and inspirational energy", "The Moon": "Connection to lunar cycles and subconscious wisdom" };
+        return gifts[cardName] || this.getAnalysisText('spiritual.spiritual_gift_fallback');
     }
 
     getHigherSelfMessage(cardName) {
-        const messages = {
-            "The Fool": "Step forward with faith and trust",
-            "The Magician": "You have all the tools you need",
-            "The High Priestess": "Listen to your inner voice",
-            "The Empress": "Create and nurture what you love",
-            "The Emperor": "Take charge of your destiny"
-        };
-        return messages[cardName] || "Divine guidance is available";
+        const messages = { "The Fool": "Step forward with faith and trust", "The Magician": "You have all the tools you need", "The High Priestess": "Listen to your inner voice", "The Empress": "Create and nurture what you love", "The Emperor": "Take charge of your destiny" };
+        return messages[cardName] || this.getAnalysisText('spiritual.higher_self_fallback');
     }
 
     getAscensionPath(cardName) {
-        const paths = {
-            "The World": "Completion of a major spiritual cycle",
-            "The Sun": "Joy, vitality, and spiritual illumination",
-            "The Star": "Hope and connection to higher purpose",
-            "Temperance": "Balance and integration of spiritual lessons"
-        };
-        return paths[cardName] || "Spiritual evolution";
+        const paths = { "The World": "Completion of a major spiritual cycle", "The Sun": "Joy, vitality, and spiritual illumination", "The Star": "Hope and connection to higher purpose", "Temperance": "Balance and integration of spiritual lessons" };
+        return paths[cardName] || this.getAnalysisText('spiritual.ascension_path_fallback');
     }
 
     generateSpiritualInterpretation(soulLessons, spiritualGifts, higherSelf, ascension) {
-        let interpretation = `This reading reveals ${soulLessons.length} major soul lesson(s) for your spiritual growth.`;
-        
-        if (spiritualGifts.length > 0) {
-            interpretation += ` You have ${spiritualGifts.length} spiritual gift(s) available to develop.`;
-        }
-        
-        if (higherSelf.length > 0) {
-            interpretation += ` Your Higher Self is offering ${higherSelf.length} message(s) of guidance.`;
-        }
-        
-        if (ascension.length > 0) {
-            interpretation += ` Signs of spiritual ascension are present in ${ascension.length} area(s).`;
-        }
-        
+        let interpretation = this.getAnalysisText('spiritual.interpretation_base', { lessonCount: soulLessons.length });
+        if (spiritualGifts.length > 0) interpretation += ' ' + this.getAnalysisText('spiritual.interpretation_gifts', { giftCount: spiritualGifts.length });
+        if (higherSelf.length > 0) interpretation += ' ' + this.getAnalysisText('spiritual.interpretation_higher_self', { messageCount: higherSelf.length });
+        if (ascension.length > 0) interpretation += ' ' + this.getAnalysisText('spiritual.interpretation_ascension', { ascensionCount: ascension.length });
         return interpretation;
     }
 
-    // Additional analysis methods would continue here...
-    // For brevity, I'll include the structure but not implement every method fully
-
     async analyzeKabbalisticInfluence(cards) {
-        if (!this.isInitialized) {
-            return { 
-                activePaths: [], 
-                sephirothInfluence: {}, 
-                hebrewLetters: [], 
-                interpretation: "Kabbalistic analysis requires JSON database initialization." 
-            };
-        }
-
-        const paths = [];
-        const sephiroth = {};
-        const hebrewLetters = [];
-
-        // Use data loader to get Kabbalistic data
+        if (!this.isInitialized) return { interpretation: this.getAnalysisText('kabbalah.uninitialized') };
+        const paths = [], sephiroth = {}, hebrewLetters = [];
         const kabbData = this.dataLoader.getData('kabbalah');
-        
         cards.forEach(card => {
-            // For now, provide basic Kabbalistic interpretation based on card attributes
             if (card.suit === 'Major Arcana' && card.number !== null) {
                 const pathNumber = card.number;
                 if (kabbData.paths && kabbData.paths[pathNumber]) {
                     const path = kabbData.paths[pathNumber];
                     const cleanPath = {};
-                    for (const key in path) {
-                        cleanPath[key] = getText(path[key]);
-                    }
-                    paths.push({
-                        card: card.name,
-                        pathNumber,
-                        ...cleanPath
-                    });
-                    
-                    if (cleanPath.hebrew_letter) {
-                        hebrewLetters.push(cleanPath.hebrew_letter);
-                    }
+                    for (const key in path) cleanPath[key] = getText(path[key]);
+                    paths.push({ card: card.name, pathNumber, ...cleanPath });
+                    if (cleanPath.hebrew_letter) hebrewLetters.push(cleanPath.hebrew_letter);
                 }
             }
-            
-            // Map suits to sephiroth (basic correspondence)
-            const suitSephirah = {
-                'Wands': 'Chokmah',
-                'Cups': 'Binah', 
-                'Swords': 'Gevurah',
-                'Pentacles': 'Malkuth'
-            };
-            
+            const suitSephirah = { 'Wands': 'Chokmah', 'Cups': 'Binah', 'Swords': 'Gevurah', 'Pentacles': 'Malkuth' };
             if (suitSephirah[card.suit]) {
                 const seph = suitSephirah[card.suit];
                 sephiroth[seph] = (sephiroth[seph] || 0) + 1;
             }
         });
-
-        return {
-            activePaths: paths,
-            sephirothInfluence: sephiroth,
-            hebrewLetters,
-            interpretation: `${paths.length} Kabbalistic paths are active, connecting to ${Object.keys(sephiroth).length} sephiroth. The Tree of Life energy flows through these channels to provide guidance.`
-        };
+        return { activePaths: paths, sephirothInfluence: sephiroth, hebrewLetters, interpretation: this.getAnalysisText('kabbalah.interpretation', { pathCount: paths.length, sephirothCount: Object.keys(sephiroth).length }) };
     }
 
     async analyzeChakraAlignment(cards) {
-        if (!this.isInitialized) {
-            return { 
-                alignment: {}, 
-                interpretation: "Chakra analysis requires JSON database initialization." 
-            };
-        }
-
+        if (!this.isInitialized) return { interpretation: this.getAnalysisText('chakras.uninitialized') };
         const chakras = { Root: 0, Sacral: 0, "Solar Plexus": 0, Heart: 0, Throat: 0, "Third Eye": 0, Crown: 0 };
-        
-        // Use data loader to get chakra data
-        const chakraData = this.dataLoader.getData('chakras');
-        
         cards.forEach(card => {
-            // Basic chakra correspondence by card attributes
             if (card.suit === 'Major Arcana') {
-                const chakraMapping = {
-                    0: "Root",      // Fool
-                    1: "Throat",    // Magician
-                    2: "Crown",     // High Priestess
-                    3: "Heart",     // Empress
-                    4: "Root",      // Emperor
-                    5: "Throat",    // Hierophant
-                    6: "Heart",     // Lovers
-                    7: "Solar Plexus", // Chariot
-                    8: "Heart",     // Strength
-                    9: "Crown",     // Hermit
-                    10: "Root",     // Wheel
-                    11: "Heart",    // Justice
-                    12: "Crown",    // Hanged Man
-                    13: "Root",     // Death
-                    14: "Heart",    // Temperance
-                    15: "Root",     // Devil
-                    16: "Crown",    // Tower
-                    17: "Crown",    // Star
-                    18: "Third Eye", // Moon
-                    19: "Solar Plexus", // Sun
-                    20: "Throat",   // Judgement
-                    21: "Crown"     // World
-                };
-                
-                if (card.number !== null && chakraMapping[card.number]) {
-                    chakras[chakraMapping[card.number]]++;
-                }
+                const chakraMapping = { 0: "Root", 1: "Throat", 2: "Crown", 3: "Heart", 4: "Root", 5: "Throat", 6: "Heart", 7: "Solar Plexus", 8: "Heart", 9: "Crown", 10: "Root", 11: "Heart", 12: "Crown", 13: "Root", 14: "Heart", 15: "Root", 16: "Crown", 17: "Crown", 18: "Third Eye", 19: "Solar Plexus", 20: "Throat", 21: "Crown" };
+                if (card.number !== null && chakraMapping[card.number]) chakras[chakraMapping[card.number]]++;
             } else {
-                // Minor arcana suit correspondences
-                const suitChakras = {
-                    'Wands': 'Solar Plexus',
-                    'Cups': 'Heart', 
-                    'Swords': 'Throat',
-                    'Pentacles': 'Root'
-                };
-                
-                if (suitChakras[card.suit]) {
-                    chakras[suitChakras[card.suit]]++;
-                }
+                const suitChakras = { 'Wands': 'Solar Plexus', 'Cups': 'Heart', 'Swords': 'Throat', 'Pentacles': 'Root' };
+                if (suitChakras[card.suit]) chakras[suitChakras[card.suit]]++;
             }
         });
-
-        const totalCards = cards.length;
         const dominant = Object.keys(chakras).reduce((a, b) => chakras[a] > chakras[b] ? a : b);
-        
-        return {
-            alignment: chakras,
-            dominant,
-            interpretation: `${dominant} chakra is most activated in this reading. Energy flows through ${totalCards} card${totalCards > 1 ? 's' : ''} to guide your spiritual alignment.`
-        };
+        return { alignment: chakras, dominant, interpretation: this.getAnalysisText('chakras.interpretation', { dominantChakra: dominant, cardCount: cards.length, plural: cards.length > 1 ? 's' : ''}) };
     }
 
     async analyzeArchetypes(cards) {
         await this.ensureInitialized();
         return {
-            primary: "Hero's Journey theme detected",
-            mythological: "Greek/Roman mythological influences",
-            interpretation: "Archetypal patterns suggest personal transformation journey."
+            primary: this.getAnalysisText('archetypes.primary'),
+            mythological: this.getAnalysisText('archetypes.mythological'),
+            interpretation: this.getAnalysisText('archetypes.interpretation')
         };
     }
 
     async analyzeTiming(cards) {
         await this.ensureInitialized();
         return {
-            seasonal: "Spring energy - new beginnings",
-            lunar: "Waxing moon - growth phase",
-            planetary: "Mercury influence - communication focus",
-            interpretation: "Timing suggests favorable period for new ventures."
+            seasonal: this.getAnalysisText('timing.seasonal'),
+            lunar: this.getAnalysisText('timing.lunar'),
+            planetary: this.getAnalysisText('timing.planetary'),
+            interpretation: this.getAnalysisText('timing.interpretation')
         };
     }
 
     async analyzeKarmicPattern(cards) {
         await this.ensureInitialized();
         return {
-            debts: "Past relationship patterns need resolution",
-            pastLife: "Creative talents from previous incarnations",
-            contracts: "Soul agreements with close relationships",
-            dharma: "Teaching and healing path indicated",
-            interpretation: "Karmic patterns suggest completion of old cycles and beginning of new soul contracts."
+            debts: this.getAnalysisText('karma.debts'),
+            pastLife: this.getAnalysisText('karma.past_life'),
+            contracts: this.getAnalysisText('karma.contracts'),
+            dharma: this.getAnalysisText('karma.dharma'),
+            interpretation: this.getAnalysisText('karma.interpretation')
         };
     }
 
-    // Deep Numerological Analysis
-    async analyzeNumerology(cards) {
-        await this.ensureInitialized();
-        const numerologicalData = {
-            cardNumbers: [],
-            lifePath: 0,
-            masterNumbers: [],
-            repeatingPatterns: [],
-            pythagoreanAnalysis: {},
-            kabbalisticNumbers: [],
-            angelNumbers: [],
-            vibrationalFrequencies: {}
-        };
-
-        cards.forEach(card => {
-            if (card.number !== null) {
-                numerologicalData.cardNumbers.push(card.number);
-                
-                // Master numbers (11, 22, 33)
-                if ([11, 22, 33].includes(card.number)) {
-                    numerologicalData.masterNumbers.push({
-                        number: card.number,
-                        card: card.name,
-                        meaning: this.getMasterNumberMeaning(card.number)
-                    });
-                }
-            }
-        });
-
-        // Calculate life path from card positions
-        const sum = numerologicalData.cardNumbers.reduce((a, b) => a + b, 0);
-        numerologicalData.lifePath = this.reduceToSingleDigit(sum);
-
-        // Find repeating patterns
-        const numberCounts = {};
-        numerologicalData.cardNumbers.forEach(num => {
-            numberCounts[num] = (numberCounts[num] || 0) + 1;
-        });
-        
-        Object.entries(numberCounts).forEach(([num, count]) => {
-            if (count > 1) {
-                numerologicalData.repeatingPatterns.push({
-                    number: parseInt(num),
-                    frequency: count,
-                    meaning: this.getRepeatingNumberMeaning(parseInt(num), count)
-                });
-            }
-        });
-
-        // Pythagorean analysis
-        numerologicalData.pythagoreanAnalysis = {
-            soulUrge: this.calculateSoulUrge(cards),
-            expression: this.calculateExpression(cards),
-            personality: this.calculatePersonality(cards),
-            maturity: this.calculateMaturity(numerologicalData.lifePath)
-        };
-
-        // Angel numbers
-        const angelSequences = this.findAngelNumbers(numerologicalData.cardNumbers);
-        numerologicalData.angelNumbers = angelSequences;
-
-        // Vibrational frequencies
-        numerologicalData.vibrationalFrequencies = {
-            overall: this.calculateVibrationalFrequency(sum),
-            individual: cards.map(card => ({
-                card: card.name,
-                frequency: this.calculateVibrationalFrequency(card.number || 0)
-            }))
-        };
-
-        return {
-            ...numerologicalData,
-            interpretation: this.generateNumerologicalInterpretation(numerologicalData)
-        };
-    }
-
-    // Elemental Dignities Analysis
-    async analyzeElementalDignities(cards) {
-        await this.ensureInitialized();
-        const dignities = {
-            strengtheningPairs: [],
-            weakeningPairs: [],
-            neutralPairs: [],
-            elementalFlow: [],
-            dominantElement: null,
-            missingElements: [],
-            elementalBalance: {}
-        };
-
-        // Analyze each card pair for elemental relationships
-        for (let i = 0; i < cards.length - 1; i++) {
-            for (let j = i + 1; j < cards.length; j++) {
-                const relationship = this.getElementalRelationship(
-                    cards[i].element, 
-                    cards[j].element
-                );
-                
-                if (relationship.type === 'strengthening') {
-                    dignities.strengtheningPairs.push({
-                        cards: [cards[i].name, cards[j].name],
-                        elements: [cards[i].element, cards[j].element],
-                        effect: relationship.effect
-                    });
-                } else if (relationship.type === 'weakening') {
-                    dignities.weakeningPairs.push({
-                        cards: [cards[i].name, cards[j].name],
-                        elements: [cards[i].element, cards[j].element],
-                        effect: relationship.effect
-                    });
-                } else {
-                    dignities.neutralPairs.push({
-                        cards: [cards[i].name, cards[j].name],
-                        elements: [cards[i].element, cards[j].element],
-                        effect: relationship.effect
-                    });
-                }
-            }
+    getBasicArchetype(card) {
+        if (card.suit === "Major Arcana" && this.jungianArchetypes[card.name]) {
+            return this.jungianArchetypes[card.name];
         }
-
-        // Analyze elemental flow through the reading
-        dignities.elementalFlow = cards.map((card, index) => ({
-            position: index + 1,
-            card: card.name,
-            element: card.element,
-            flowDirection: this.getElementalFlowDirection(card.element, cards[index + 1]?.element)
-        }));
-
-        // Count elements
-        const elementCounts = {};
-        cards.forEach(card => {
-            if (card.element) {
-                elementCounts[card.element] = (elementCounts[card.element] || 0) + 1;
-            }
-        });
-
-        dignities.elementalBalance = elementCounts;
-        dignities.dominantElement = Object.entries(elementCounts)
-            .sort(([,a], [,b]) => b - a)[0]?.[0];
-        
-        const allElements = ['Fire', 'Water', 'Air', 'Earth'];
-        dignities.missingElements = allElements.filter(el => !elementCounts[el]);
-
-        return {
-            ...dignities,
-            interpretation: this.generateElementalDignitiesInterpretation(dignities)
-        };
+        if (card.name.includes("King")) return "Ruler";
+        if (card.name.includes("Queen")) return "Mother";
+        if (card.name.includes("Knight")) return "Hero";
+        if (card.name.includes("Page")) return "Innocent";
+        const suitArchetypes = { "Wands": "Magician", "Cups": "Lover", "Swords": "Hero", "Pentacles": "Creator" };
+        return suitArchetypes[card.suit] || "Seeker";
     }
 
-    // Astrological Transits Analysis
-    async analyzeAstrologicalTransits(cards) {
-        if (!this.isInitialized) {
-            return {
-                cardAstrology: [],
-                interpretation: "Astrological transit analysis requires JSON database initialization."
-            };
-        }
-
-        const currentDate = new Date();
-        const astroData = this.dataLoader.getData('astrology');
-        const cardAstrology = [];
-
-        // Map card astrology using available data
-        cards.forEach(card => {
-            if (card.astrology) {
-                cardAstrology.push({
-                    card: card.name,
-                    astrological: card.astrology,
-                    element: card.element,
-                    energy: this.getAstrologicalEnergy(card.astrology)
-                });
-            }
-        });
-
-        // Simple lunar phase calculation
-        const lunarPhase = this.getSimpleLunarPhase(currentDate);
-        
-        return {
-            cardAstrology,
-            lunarPhase,
-            retrogrades: [], // Empty array to satisfy UI expectations
-            planetaryHours: lunarPhase, // Use lunar phase as planetary hour for simplicity
-            aspectPatterns: [], // Empty array to satisfy UI expectations
-            interpretation: `${cardAstrology.length} cards carry astrological energies. Current lunar phase: ${lunarPhase}. The cosmic energies support the themes revealed in this reading.`
-        };
-    }
-
-    getAstrologicalEnergy(astrology) {
-        const energies = {
-            'Aries': 'fiery-initiative', 'Taurus': 'earth-stability', 'Gemini': 'air-communication',
-            'Cancer': 'water-emotion', 'Leo': 'fire-creativity', 'Virgo': 'earth-analysis',
-            'Libra': 'air-balance', 'Scorpio': 'water-transformation', 'Sagittarius': 'fire-expansion',
-            'Capricorn': 'earth-ambition', 'Aquarius': 'air-innovation', 'Pisces': 'water-intuition'
-        };
-        return energies[astrology] || 'neutral';
-    }
-
-    getSimpleLunarPhase(date) {
-        // Simple approximation - in reality would use astronomical calculation
-        const phases = ['New Moon', 'Waxing Crescent', 'First Quarter', 'Waxing Gibbous', 
-                       'Full Moon', 'Waning Gibbous', 'Last Quarter', 'Waning Crescent'];
-        const dayOfMonth = date.getDate();
-        const phaseIndex = Math.floor((dayOfMonth / 30) * 8) % 8;
-        return phases[phaseIndex];
-    }
-
-    // Sacred Geometry Analysis
-    async analyzeSacredGeometry(cards) {
-        await this.ensureInitialized();
-        const geometry = {
-            goldenRatio: [],
-            fibonacciSequence: [],
-            platonicSolids: [],
-            vesicaPiscis: [],
-            flowerOfLife: [],
-            metatronsCube: [],
-            sriYantra: [],
-            geometricPatterns: []
-        };
-
-        // Golden Ratio relationships
-        cards.forEach((card, index) => {
-            if (card.number) {
-                const phi = 1.618033988749895;
-                const ratioRelationships = [];
-                
-                cards.forEach((otherCard, otherIndex) => {
-                    if (otherCard.number && index !== otherIndex) {
-                        const ratio = card.number / otherCard.number;
-                        if (Math.abs(ratio - phi) < 0.1) {
-                            ratioRelationships.push({
-                                withCard: otherCard.name,
-                                ratio: ratio,
-                                significance: 'Divine proportion detected'
-                            });
-                        }
-                    }
-                });
-                
-                if (ratioRelationships.length > 0) {
-                    geometry.goldenRatio.push({
-                        card: card.name,
-                        relationships: ratioRelationships
-                    });
-                }
-            }
-        });
-
-        // Fibonacci sequence detection
-        const fibNumbers = [1, 1, 2, 3, 5, 8, 13, 21];
-        cards.forEach(card => {
-            if (card.number && fibNumbers.includes(card.number)) {
-                geometry.fibonacciSequence.push({
-                    card: card.name,
-                    number: card.number,
-                    position: fibNumbers.indexOf(card.number),
-                    meaning: `Fibonacci position ${fibNumbers.indexOf(card.number)}`
-                });
-            }
-        });
-
-        // Platonic solids correspondences
-        geometry.platonicSolids = [];
-
-        // Vesica Piscis relationships (duality/unity)
-        geometry.vesicaPiscis = [];
-
-        // Flower of Life connections
-        geometry.flowerOfLife = [];
-
-        // Metatron's Cube alignments
-        geometry.metatronsCube = [];
-
-        // Sri Yantra correspondences
-        geometry.sriYantra = [];
-
-        // Overall geometric patterns
-        geometry.geometricPatterns = [`${cards.length} cards form geometric pattern`];
-
-        return {
-            ...geometry,
-            interpretation: `Sacred geometry reveals divine patterns through ${cards.length} cards. Golden ratio relationships and geometric harmonies guide this reading.`
-        };
-    }
-
-    // Deep Symbolism Analysis
-    async analyzeDeepSymbolism(cards) {
-        await this.ensureInitialized();
-        const symbolism = {
-            archetypicalSymbols: [],
-            colorSymbolism: [],
-            animalSymbolism: [],
-            plantSymbolism: [],
-            mineralSymbolism: [],
-            celestialSymbolism: [],
-            alchemicalSymbols: [],
-            religiousSymbols: [],
-            mythologicalSymbols: [],
-            geometricSymbols: [],
-            elementalSymbols: [],
-            toolsAndObjects: []
-        };
-
-        cards.forEach(card => {
-            // Basic symbolic analysis
-            symbolism.archetypicalSymbols.push({
-                card: card.name,
-                symbols: ['crown', 'sword', 'cup'],
-                meaning: `Archetypal themes in ${card.name}`
-            });
-
-            symbolism.colorSymbolism.push({
-                card: card.name,
-                colors: ['red', 'blue', 'gold'],
-                meaning: `Color energies in ${card.name}`
-            });
-
-            symbolism.elementalSymbols.push({
-                card: card.name,
-                element: card.element,
-                meaning: `${card.element} energy resonance`
-            });
-        });
-
-        return {
-            ...symbolism,
-            dominantThemes: ['archetypal wisdom', 'elemental balance', 'symbolic guidance'], // Add missing property for UI
-            interpretation: `Deep symbolism reveals ${cards.length} layers of meaning through archetypal, elemental, and color symbolism patterns.`
-        };
-    }
-
-    // Card Interactions Analysis
-    async analyzeCardInteractions(cards) {
-        await this.ensureInitialized();
-        const interactions = {
-            directConnections: [],
-            mirrorPairs: [],
-            numericalSequences: [],
-            suitProgressions: [],
-            courtCardDynamics: [],
-            majorMinorInterplay: [],
-            cardClusters: [],
-            energyFlows: [],
-            narrativeThreads: []
-        };
-
-        // Direct connections between adjacent cards
-        for (let i = 0; i < cards.length - 1; i++) {
-            interactions.directConnections.push({
-                from: cards[i].name,
-                to: cards[i + 1].name,
-                connectionType: 'sequential flow',
-                energyExchange: 'balanced exchange',
-                narrative: `${cards[i].name} flows to ${cards[i + 1].name}`
-            });
-        }
-
-        // Mirror pairs (cards that reflect each other)
-        interactions.mirrorPairs = [];
-
-        // Numerical sequences
-        interactions.numericalSequences = [];
-
-        // Suit progressions
-        interactions.suitProgressions = [];
-
-        // Court card dynamics
-        const courtCards = cards.filter(c => ['Page', 'Knight', 'Queen', 'King'].some(rank => c.name.includes(rank)));
-        if (courtCards.length > 1) {
-            interactions.courtCardDynamics = [`${courtCards.length} court cards create personality dynamics`];
-        }
-
-        // Major/Minor arcana interplay
-        const majorCount = cards.filter(c => c.suit === 'Major Arcana').length;
-        const minorCount = cards.length - majorCount;
-        interactions.majorMinorInterplay = [`${majorCount} major arcana and ${minorCount} minor arcana cards interact`];
-
-        // Card clusters (groups that work together)
-        interactions.cardClusters = [];
-
-        // Energy flows
-        interactions.energyFlows = ['energy flows sequentially through the reading'];
-
-        // Narrative threads
-        interactions.narrativeThreads = [`Story threads weave through ${cards.length} cards`];
-
-        return {
-            ...interactions,
-            interpretation: `Card interactions reveal ${interactions.directConnections.length} connections and dynamic relationships between the cards in this reading.`
-        };
-    }
-
-    // Shadow Work Analysis
-    async analyzeShadowWork(cards) {
-        await this.ensureInitialized();
-        const shadow = {
-            shadowAspects: [],
-            projections: [],
-            repressions: [],
-            denials: [],
-            integrationOpportunities: [],
-            shadowGifts: [],
-            collectiveUnconscious: [],
-            personalUnconscious: [],
-            animaAnimus: [],
-            innerChild: []
-        };
-
-        cards.forEach(card => {
-            // Identify shadow aspects
-            if (card.isReversed || card.name.includes('Devil') || card.name.includes('Moon') || card.name.includes('Tower')) {
-                shadow.shadowAspects.push({
-                    card: card.name,
-                    shadowManifestation: `Shadow aspect of ${card.name}`,
-                    underlyingFear: `Hidden fears revealed by ${card.name}`,
-                    defenseMechanism: `Defense pattern in ${card.name}`
-                });
-            }
-
-            // Projections
-            const projections = [];
-            if (projections.length > 0) {
-                shadow.projections.push({
-                    card: card.name,
-                    projectedQualities: projections,
-                    integrationPath: `Integration through ${card.name}`
-                });
-            }
-
-            // Anima/Animus work
-            if (card.name.includes('Queen') || card.name.includes('King') || card.name.includes('Empress') || card.name.includes('Emperor')) {
-                shadow.animaAnimus.push({
-                    card: card.name,
-                    aspect: 'archetypal masculine/feminine',
-                    integrationMessage: `Integration of ${card.name} energies`
-                });
-            }
-        });
-
-        // Collective unconscious patterns
-        shadow.collectiveUnconscious = [`Collective patterns in ${cards.length} cards`];
-
-        // Personal unconscious material
-        shadow.personalUnconscious = [`Personal themes revealed`];
-
-        // Inner child work
-        shadow.innerChild = cards.filter(c => c.name.includes('Page') || c.name.includes('Sun')).map(c => `Inner child aspect: ${c.name}`);
-
-        // Integration opportunities
-        shadow.integrationOpportunities = [`Integration through shadow work with ${cards.length} cards`];
-
-        // Shadow gifts
-        shadow.shadowGifts = [`Hidden gifts within the shadow aspects`];
-
-        return {
-            ...shadow,
-            interpretation: `Shadow work reveals ${shadow.shadowAspects.length} shadow aspects and integration opportunities for psychological growth.`
-        };
-    }
-
-    // Alchemical Process Analysis
-    async analyzeAlchemicalProcess(cards) {
-        await this.ensureInitialized();
-        const alchemy = {
-            currentStage: null,
-            nigrido: [],
-            albedo: [],
-            citrinitas: [],
-            rubedo: [],
-            primaMateria: [],
-            philosophersStone: [],
-            operations: [],
-            elements: [],
-            metals: [],
-            transformation: []
-        };
-
-        // Map cards to alchemical stages
-        cards.forEach(card => {
-            // Simple alchemical stage assignment based on card properties
-            let stage = 'nigredo'; // default
-            if (card.isReversed || card.name.includes('Death') || card.name.includes('Tower')) {
-                stage = 'nigredo';
-            } else if (card.name.includes('Star') || card.name.includes('Moon')) {
-                stage = 'albedo';
-            } else if (card.name.includes('Sun')) {
-                stage = 'citrinitas';
-            } else if (card.name.includes('World') || card.name.includes('Temperance')) {
-                stage = 'rubedo';
-            }
-            
-            switch(stage) {
-                case 'nigredo':
-                    alchemy.nigrido.push({
-                        card: card.name,
-                        process: 'Blackening/Decomposition',
-                        meaning: `Nigredo transformation through ${card.name}`
-                    });
-                    break;
-                case 'albedo':
-                    alchemy.albedo.push({
-                        card: card.name,
-                        process: 'Whitening/Purification',
-                        meaning: `Albedo purification through ${card.name}`
-                    });
-                    break;
-                case 'citrinitas':
-                    alchemy.citrinitas.push({
-                        card: card.name,
-                        process: 'Yellowing/Solar Work',
-                        meaning: `Citrinitas solar work through ${card.name}`
-                    });
-                    break;
-                case 'rubedo':
-                    alchemy.rubedo.push({
-                        card: card.name,
-                        process: 'Reddening/Final Work',
-                        meaning: `Rubedo completion through ${card.name}`
-                    });
-                    break;
-            }
-        });
-
-        // Determine current alchemical stage
-        alchemy.currentStage = 'nigredo'; // Default stage
-
-        // Prima materia (raw material)
-        alchemy.primaMateria = [`Raw spiritual material in ${cards.length} cards`];
-
-        // Philosopher's Stone indicators
-        alchemy.philosophersStone = cards.filter(c => c.name.includes('World') || c.name.includes('Magician')).map(c => `Stone wisdom: ${c.name}`);
-
-        // Alchemical operations
-        alchemy.operations = ['Solve et coagula - dissolve and coagulate'];
-
-        // Elemental transformation
-        alchemy.elements = [`Elemental transformation through ${cards.length} cards`];
-
-        // Metallic correspondences
-        alchemy.metals = ['Spiritual metals represented'];
-
-        // Overall transformation process
-        alchemy.transformation = [`Alchemical transformation through ${cards.length} stages`];
-
-        return {
-            ...alchemy,
-            interpretation: `Alchemical analysis reveals transformation through ${alchemy.nigrido.length + alchemy.albedo.length + alchemy.citrinitas.length + alchemy.rubedo.length} alchemical stages.`
-        };
-    }
-
-    // Mythological Patterns Analysis
-    async analyzeMythologicalPatterns(cards) {
-        await this.ensureInitialized();
-        const mythology = {
-            heroJourney: [],
-            goddessArchetypes: [],
-            godArchetypes: [],
-            mythicalCreatures: [],
-            culturalMythologies: {
-                greek: [],
-                egyptian: [],
-                norse: [],
-                celtic: [],
-                hindu: [],
-                chinese: [],
-                native: []
-            },
-            creationMyths: [],
-            underworldJourneys: [],
-            sacredMarriage: [],
-            cosmicCycles: []
-        };
-
-        // Hero's Journey mapping
-        mythology.heroJourney = cards.map(card => ({
-            card: card.name,
-            stage: 'call to adventure',
-            archetypalRole: 'hero'
-        }));
-
-        // Goddess and God archetypes
-        cards.forEach(card => {
-            // Simple goddess archetype assignment
-            if (card.name.includes('High Priestess') || card.name.includes('Empress') || card.name.includes('Queen')) {
-                mythology.goddessArchetypes.push({
-                    card: card.name,
-                    goddess: 'Divine Feminine',
-                    attributes: 'wisdom, nurturing, intuition',
-                    mythology: `Goddess energy in ${card.name}`
-                });
-            }
-
-            // Simple god archetype assignment
-            if (card.name.includes('Emperor') || card.name.includes('Magician') || card.name.includes('King')) {
-                mythology.godArchetypes.push({
-                    card: card.name,
-                    god: 'Divine Masculine',
-                    attributes: 'power, leadership, action',
-                    mythology: `God energy in ${card.name}`
-                });
-            }
-        });
-
-        // Cultural mythologies
-        mythology.culturalMythologies = {
-            'Greek': [`Greek mythological themes in ${cards.length} cards`],
-            'Norse': [`Norse mythological themes in ${cards.length} cards`],
-            'Egyptian': [`Egyptian mythological themes in ${cards.length} cards`]
-        };
-
-        // Creation myth patterns
-        mythology.creationMyths = [`Creation themes present in ${cards.length} cards`];
-
-        // Underworld journey patterns
-        const underworldCards = cards.filter(c => c.name.includes('Death') || c.name.includes('Moon') || c.name.includes('Devil'));
-        mythology.underworldJourneys = underworldCards.map(c => `Underworld journey: ${c.name}`);
-
-        // Sacred marriage (hieros gamos)
-        const marriageCards = cards.filter(c => c.name.includes('Lovers') || c.name.includes('Two'));
-        mythology.sacredMarriage = marriageCards.map(c => `Sacred union: ${c.name}`);
-
-        // Cosmic cycles
-        mythology.cosmicCycles = [`Cosmic cycles represented in ${cards.length} cards`];
-
-        return {
-            ...mythology,
-            interpretation: `Mythological analysis reveals ${mythology.heroJourney.length} hero's journey elements, ${mythology.goddessArchetypes.length} goddess archetypes, and ${mythology.godArchetypes.length} god archetypes.`
-        };
-    }
-
-    // Quantum Field Analysis
-    async analyzeQuantumFieldInfluence(cards) {
-        await this.ensureInitialized();
-        const quantum = {
-            fieldCoherence: 0,
-            entanglements: [],
-            superpositions: [],
-            collapsePoints: [],
-            observerEffect: [],
-            nonLocality: [],
-            synchronicities: [],
-            probabilityFields: [],
-            waveFunction: [],
-            quantumLeaps: []
-        };
-
-        // Field coherence measurement
-        quantum.fieldCoherence = this.calculateFieldCoherence(cards);
-
-        // Quantum entanglements between cards
-        for (let i = 0; i < cards.length; i++) {
-            for (let j = i + 1; j < cards.length; j++) {
-                const entanglement = this.checkQuantumEntanglement(cards[i], cards[j]);
-                if (entanglement.strength > 0.7) {
-                    quantum.entanglements.push({
-                        cards: [cards[i].name, cards[j].name],
-                        strength: entanglement.strength,
-                        type: entanglement.type,
-                        influence: entanglement.influence
-                    });
-                }
-            }
-        }
-
-        // Superposition states
-        quantum.superpositions = cards.map(card => ({
-            card: card.name,
-            potentialStates: ['possibility A', 'possibility B'],
-            probability: 0.5
-        }));
-
-        // Collapse points (decision nodes)
-        quantum.collapsePoints = cards.filter(c => c.number !== null).map(c => `Decision point: ${c.name}`);
-
-        // Observer effect
-        quantum.observerEffect = [`Observer influences outcome through ${cards.length} cards`];
-
-        // Non-locality connections
-        quantum.nonLocality = [`Quantum entanglement between ${cards.length} cards`];
-
-        // Synchronicities
-        quantum.synchronicities = [`Synchronistic patterns detected in ${cards.length} cards`];
-
-        // Probability fields
-        quantum.probabilityFields = [`Probability field fluctuations across ${cards.length} cards`];
-
-        // Wave function
-        quantum.waveFunction = `Wave function collapse through reading process`;
-
-        // Quantum leaps
-        quantum.quantumLeaps = cards.filter(c => c.name.includes('Fool') || c.name.includes('Death') || c.name.includes('Tower')).map(c => `Quantum leap: ${c.name}`);
-
-        return {
-            ...quantum,
-            interpretation: `Quantum field analysis reveals ${quantum.superpositions.length} superposition states and quantum entanglement patterns across the reading.`
-        };
-    }
-
-    // Helper methods for all the new analyses
-    getMasterNumberMeaning(number) {
-        const meanings = {
-            11: "Master Teacher - Spiritual insight and intuition",
-            22: "Master Builder - Manifesting dreams into reality",
-            33: "Master Teacher of Love - Compassionate service"
-        };
-        return meanings[number] || "Unknown master number";
-    }
-
-    reduceToSingleDigit(num) {
-        while (num > 9 && num !== 11 && num !== 22 && num !== 33) {
-            num = num.toString().split('').reduce((a, b) => parseInt(a) + parseInt(b), 0);
-        }
-        return num;
-    }
-
-    getRepeatingNumberMeaning(number, frequency) {
-        const baseMessage = {
-            1: "New beginnings and leadership",
-            2: "Balance and partnerships",
-            3: "Creativity and communication",
-            4: "Stability and foundation",
-            5: "Change and freedom",
-            6: "Nurturing and responsibility",
-            7: "Spirituality and introspection",
-            8: "Material mastery and power",
-            9: "Completion and wisdom"
-        };
-        return `${baseMessage[number] || 'Unknown'} - Amplified ${frequency}x for emphasis`;
-    }
-
-    calculateSoulUrge(cards) {
-        // Complex calculation based on card positions and meanings
-        return this.reduceToSingleDigit(
-            cards.reduce((sum, card, index) => sum + (card.number || 0) * (index + 1), 0)
-        );
-    }
-
-    calculateExpression(cards) {
-        return this.reduceToSingleDigit(
-            cards.reduce((sum, card) => sum + (card.name.length || 0), 0)
-        );
-    }
-
-    calculatePersonality(cards) {
-        return this.reduceToSingleDigit(
-            cards.filter(c => c.suit === 'Major Arcana').length * 11
-        );
-    }
-
-    calculateMaturity(lifePath) {
-        return this.reduceToSingleDigit(lifePath + 9);
-    }
-
-    findAngelNumbers(numbers) {
-        const angelNumbers = [];
-        const sequences = ['111', '222', '333', '444', '555', '666', '777', '888', '999'];
-        const numString = numbers.join('');
-        
-        sequences.forEach(seq => {
-            if (numString.includes(seq.substring(0, 2))) {
-                angelNumbers.push({
-                    sequence: seq,
-                    meaning: this.getAngelNumberMeaning(seq)
-                });
-            }
-        });
-        
-        return angelNumbers;
-    }
-
-    getAngelNumberMeaning(sequence) {
-        const meanings = {
-            '111': "Manifestation portal - thoughts becoming reality",
-            '222': "Balance and faith - trust the process",
-            '333': "Ascended masters support - spiritual alignment",
-            '444': "Angels surrounding you - protection and guidance",
-            '555': "Major changes coming - embrace transformation",
-            '666': "Rebalance thoughts - focus on spiritual not material",
-            '777': "On the right path - spiritual awakening",
-            '888': "Abundance flowing - material and spiritual wealth",
-            '999': "Completion of cycle - prepare for new beginnings"
-        };
-        return meanings[sequence] || "Angelic guidance present";
-    }
-
-    calculateVibrationalFrequency(number) {
-        // Based on Pythagorean numerology vibrations
-        const baseFreq = 432; // Hz - universal frequency
-        return baseFreq * Math.pow(2, (number - 1) / 12);
-    }
-
-    generateNumerologicalInterpretation(data) {
-        let interpretation = `Your reading vibrates at a Life Path ${data.lifePath}, `;
-        interpretation += `indicating ${this.getLifePathMeaning(data.lifePath)}. `;
-        
-        if (data.masterNumbers.length > 0) {
-            interpretation += `\n\nMaster Numbers present: ${data.masterNumbers.map(m => m.number).join(', ')} - `;
-            interpretation += `These indicate heightened spiritual potential and responsibility. `;
-        }
-        
-        if (data.repeatingPatterns.length > 0) {
-            interpretation += `\n\nRepeating patterns emphasize: ${data.repeatingPatterns.map(p => p.meaning).join('; ')}. `;
-        }
-        
-        interpretation += `\n\nPythagorean Analysis:\n`;
-        interpretation += `- Soul Urge: ${data.pythagoreanAnalysis.soulUrge} - Your heart's deepest desires\n`;
-        interpretation += `- Expression: ${data.pythagoreanAnalysis.expression} - How you express yourself to the world\n`;
-        interpretation += `- Personality: ${data.pythagoreanAnalysis.personality} - How others perceive you\n`;
-        interpretation += `- Maturity: ${data.pythagoreanAnalysis.maturity} - Your evolved spiritual state\n`;
-        
-        if (data.angelNumbers.length > 0) {
-            interpretation += `\n\nAngelic Messages: ${data.angelNumbers.map(a => a.meaning).join('; ')}`;
-        }
-        
-        interpretation += `\n\nOverall vibrational frequency: ${data.vibrationalFrequencies.overall.toFixed(2)} Hz`;
-        
-        return interpretation;
-    }
-
-    getLifePathMeaning(number) {
-        const meanings = {
-            1: "Independent leader and pioneer",
-            2: "Cooperative peacemaker and diplomat",
-            3: "Creative communicator and entertainer",
-            4: "Practical builder and organizer",
-            5: "Freedom-seeking adventurer",
-            6: "Nurturing teacher and healer",
-            7: "Spiritual seeker and analyst",
-            8: "Material master and achiever",
-            9: "Humanitarian and wisdom keeper",
-            11: "Intuitive illuminator",
-            22: "Master manifestor",
-            33: "Master teacher"
-        };
-        return meanings[number] || "Unique path of discovery";
-    }
-
-    getElementalRelationship(element1, element2) {
-        if (!element1 || !element2) return { type: 'neutral', effect: 'No elemental interaction' };
-        
-        const relationships = {
-            'Fire': {
-                'Fire': { type: 'strengthening', effect: 'Intensified passion and energy' },
-                'Water': { type: 'weakening', effect: 'Steam and conflict - transformation through tension' },
-                'Air': { type: 'strengthening', effect: 'Fed flames - increased inspiration' },
-                'Earth': { type: 'neutral', effect: 'Controlled burn - practical application of passion' }
-            },
-            'Water': {
-                'Fire': { type: 'weakening', effect: 'Emotional quenching of passion' },
-                'Water': { type: 'strengthening', effect: 'Deep emotional flow and intuition' },
-                'Air': { type: 'neutral', effect: 'Emotional communication and expression' },
-                'Earth': { type: 'strengthening', effect: 'Fertile growth - emotional grounding' }
-            },
-            'Air': {
-                'Fire': { type: 'strengthening', effect: 'Inspired action and communication' },
-                'Water': { type: 'neutral', effect: 'Emotional intelligence and understanding' },
-                'Air': { type: 'strengthening', effect: 'Enhanced mental clarity and communication' },
-                'Earth': { type: 'weakening', effect: 'Scattered energy - need for grounding' }
-            },
-            'Earth': {
-                'Fire': { type: 'neutral', effect: 'Grounded passion - sustainable action' },
-                'Water': { type: 'strengthening', effect: 'Nourished growth and emotional stability' },
-                'Air': { type: 'weakening', effect: 'Disrupted stability - need for focus' },
-                'Earth': { type: 'strengthening', effect: 'Solid foundation and material success' }
-            }
-        };
-        
-        return relationships[element1]?.[element2] || { type: 'neutral', effect: 'Unique elemental combination' };
-    }
-
-    getElementalFlowDirection(current, next) {
-        if (!current || !next) return 'terminus';
-        
-        const generativeFlow = {
-            'Earth': 'Fire',
-            'Fire': 'Air',
-            'Air': 'Water',
-            'Water': 'Earth'
-        };
-        
-        const destructiveFlow = {
-            'Earth': 'Water',
-            'Water': 'Fire',
-            'Fire': 'Earth',
-            'Air': 'Earth'
-        };
-        
-        if (generativeFlow[current] === next) return 'generative';
-        if (destructiveFlow[current] === next) return 'destructive';
-        return 'neutral';
-    }
-
-    generateElementalDignitiesInterpretation(dignities) {
-        let interpretation = `Elemental Analysis reveals ${dignities.dominantElement || 'balanced'} energy dominating this reading.\n\n`;
-        
-        if (dignities.strengtheningPairs.length > 0) {
-            interpretation += `Strengthening Combinations:\n`;
-            dignities.strengtheningPairs.forEach(pair => {
-                interpretation += `- ${pair.cards[0]} + ${pair.cards[1]}: ${pair.effect}\n`;
-            });
-        }
-        
-        if (dignities.weakeningPairs.length > 0) {
-            interpretation += `\nChallenging Combinations:\n`;
-            dignities.weakeningPairs.forEach(pair => {
-                interpretation += `- ${pair.cards[0]} + ${pair.cards[1]}: ${pair.effect}\n`;
-            });
-        }
-        
-        if (dignities.missingElements.length > 0) {
-            interpretation += `\nMissing Elements: ${dignities.missingElements.join(', ')}\n`;
-            interpretation += `Consider incorporating ${dignities.missingElements[0]} energy through `;
-            interpretation += this.getElementalRemedies(dignities.missingElements[0]);
-        }
-        
-        interpretation += `\n\nElemental Flow Pattern: `;
-        const flowTypes = dignities.elementalFlow.map(f => f.flowDirection);
-        if (flowTypes.includes('generative')) {
-            interpretation += `Creative and generative energy building throughout the reading. `;
-        }
-        if (flowTypes.includes('destructive')) {
-            interpretation += `Transformative tensions creating necessary change. `;
-        }
-        
-        return interpretation;
-    }
-
-    getElementalRemedies(element) {
-        const remedies = {
-            'Fire': "physical activity, creative projects, or candle meditation",
-            'Water': "emotional expression, water rituals, or moon gazing",
-            'Air': "breathwork, journaling, or intellectual pursuits",
-            'Earth': "grounding exercises, nature walks, or crystal work"
-        };
-        return remedies[element] || "elemental balancing practices";
-    }
-
-    // Continue with more helper methods...
-    getCurrentPlanetaryPositions(date) {
-        // Simplified planetary positions - in real implementation would use ephemeris
-        return {
-            sun: { sign: 'Scorpio', degree: 15 },
-            moon: { sign: 'Cancer', degree: 22 },
-            mercury: { sign: 'Scorpio', degree: 8, retrograde: false },
-            venus: { sign: 'Libra', degree: 28 },
-            mars: { sign: 'Sagittarius', degree: 3 },
-            jupiter: { sign: 'Pisces', degree: 12 },
-            saturn: { sign: 'Aquarius', degree: 18 },
-            uranus: { sign: 'Taurus', degree: 9, retrograde: true },
-            neptune: { sign: 'Pisces', degree: 22 },
-            pluto: { sign: 'Capricorn', degree: 26 }
-        };
-    }
-
-    calculateLunarPhase(date) {
-        // Simplified lunar phase calculation
-        const moonCycle = 29.53059;
-        const knownNewMoon = new Date('2000-01-06');
-        const daysSince = (date - knownNewMoon) / (1000 * 60 * 60 * 24);
-        const phase = (daysSince % moonCycle) / moonCycle;
-        
-        if (phase < 0.0625) return 'New Moon';
-        if (phase < 0.1875) return 'Waxing Crescent';
-        if (phase < 0.3125) return 'First Quarter';
-        if (phase < 0.4375) return 'Waxing Gibbous';
-        if (phase < 0.5625) return 'Full Moon';
-        if (phase < 0.6875) return 'Waning Gibbous';
-        if (phase < 0.8125) return 'Last Quarter';
-        return 'Waning Crescent';
-    }
-
-    calculatePlanetaryHour(date) {
-        const days = ['Sun', 'Moon', 'Mars', 'Mercury', 'Jupiter', 'Venus', 'Saturn'];
-        const dayOfWeek = date.getDay();
-        const hour = date.getHours();
-        const planetaryHourIndex = (dayOfWeek * 24 + hour) % 7;
-        return days[planetaryHourIndex];
-    }
-
-    // Add all other helper methods...
-    // (Due to length constraints, I'll provide a structured outline of remaining methods)
-
-    // Sacred Geometry Helpers
-    getFibonacciMeaning(number) {
-        const meanings = {
-            1: "Unity and beginning",
-            2: "Duality and choice",
-            3: "Trinity and synthesis",
-            5: "Golden ratio approaching - natural harmony",
-            8: "Infinity turned upright - material mastery",
-            13: "Death and rebirth - transformation",
-            21: "The World - completion of great work"
-        };
-        return meanings[number] || "Sacred proportion";
-    }
-
-    // Symbol Analysis Helpers
-    extractCardSymbols(card) {
-        // This would analyze actual card imagery
-        return {
-            archetypal: ['crown', 'sword', 'cup'],
-            colors: ['red', 'blue', 'gold'],
-            animals: ['lion', 'eagle'],
-            plants: ['rose', 'lily'],
-            celestial: ['sun', 'moon', 'stars'],
-            geometric: ['circle', 'triangle', 'square']
-        };
-    }
-
-    // Quantum Field Helpers
-    calculateFieldCoherence(cards) {
-        // Calculate overall energetic coherence
-        let coherence = 0;
-        cards.forEach((card, i) => {
-            if (i > 0) {
-                const prev = cards[i-1];
-                if (card.suit === prev.suit) coherence += 0.2;
-                if (Math.abs((card.number || 0) - (prev.number || 0)) === 1) coherence += 0.15;
-                if (card.element === prev.element) coherence += 0.1;
-            }
-        });
-        return Math.min(coherence, 1.0);
-    }
-
-    checkQuantumEntanglement(card1, card2) {
-        let strength = 0;
-        let type = 'unknown';
-        let influence = 'neutral';
-        
-        // Check various entanglement factors
-        if (card1.number === card2.number) {
-            strength += 0.3;
-            type = 'numerical';
-        }
-        if (card1.suit === card2.suit) {
-            strength += 0.25;
-            type = type === 'numerical' ? 'compound' : 'elemental';
-        }
-        if (card1.element === card2.element) {
-            strength += 0.2;
-        }
-        
-        // Check for complementary opposites
-        if ((card1.number + card2.number) === 21) {
-            strength += 0.35;
-            type = 'complementary';
-            influence = 'balancing';
-        }
-        
-        return { strength, type, influence };
-    }
-
-    // Integration method generators
-    generateAstrologicalTransitsInterpretation(transits) {
-        let interpretation = `Current Astrological Climate:\n`;
-        interpretation += `Lunar Phase: ${transits.lunarPhase} - ${this.getLunarPhaseInfluence(transits.lunarPhase)}\n`;
-        interpretation += `Planetary Hour: ${transits.planetaryHours} hour - Favorable for ${this.getPlanetaryHourActivities(transits.planetaryHours)}\n\n`;
-        
-        if (transits.retrogrades.length > 0) {
-            interpretation += `Retrograde Influences: ${transits.retrogrades.join(', ')} - Time for review and revision\n\n`;
-        }
-        
-        interpretation += `Card-Transit Interactions:\n`;
-        transits.cardAstrology.forEach(ct => {
-            interpretation += `- ${ct.card} (${ct.astrological}): ${ct.currentTransit}\n`;
-        });
-        
-        return interpretation;
-    }
-
-    getLunarPhaseInfluence(phase) {
-        const influences = {
-            'New Moon': 'Ideal for new beginnings and setting intentions',
-            'Waxing Crescent': 'Building energy, taking first actions',
-            'First Quarter': 'Overcoming challenges, making decisions',
-            'Waxing Gibbous': 'Refinement and adjustment of plans',
-            'Full Moon': 'Culmination, revelation, and release',
-            'Waning Gibbous': 'Gratitude and sharing wisdom',
-            'Last Quarter': 'Release and forgiveness',
-            'Waning Crescent': 'Rest and spiritual reflection'
-        };
-        return influences[phase] || 'Unique lunar influence';
-    }
-
-    getPlanetaryHourActivities(planet) {
-        const activities = {
-            'Sun': 'leadership, vitality, and self-expression',
-            'Moon': 'intuition, emotions, and domestic matters',
-            'Mars': 'action, courage, and competition',
-            'Mercury': 'communication, learning, and travel',
-            'Jupiter': 'expansion, luck, and philosophical pursuits',
-            'Venus': 'love, beauty, and artistic endeavors',
-            'Saturn': 'discipline, structure, and long-term planning'
-        };
-        return activities[planet] || 'varied activities';
-    }
-
-    // NEW JSON DATABASE INTEGRATION METHODS
-
-    // Enhanced elemental analysis using JSON data
     async analyzeElementalBalance(cards) {
         await this.ensureInitialized();
-        
         const elements = { Fire: 0, Water: 0, Air: 0, Earth: 0 };
         const elementalInsights = {};
-        
         for (const card of cards) {
             if (card.element && elements.hasOwnProperty(card.element)) {
                 elements[card.element]++;
             }
-            
-            // Add suit-based elemental analysis
             if (card.suit === "Wands") elements.Fire++;
             else if (card.suit === "Cups") elements.Water++;
             else if (card.suit === "Swords") elements.Air++;
             else if (card.suit === "Pentacles") elements.Earth++;
-            
-            // Get enhanced elemental data from JSON
             if (this.isInitialized) {
-                const suitElements = {
-                    'Wands': 'fire',
-                    'Cups': 'water',
-                    'Swords': 'air',
-                    'Pentacles': 'earth'
-                };
-                
+                const suitElements = { 'Wands': 'fire', 'Cups': 'water', 'Swords': 'air', 'Pentacles': 'earth' };
                 const elementKey = suitElements[card.suit] || card.element?.toLowerCase();
                 if (elementKey) {
                     const elementData = this.dataLoader.getElementalData(elementKey);
@@ -1715,10 +367,8 @@ class AnalysisEngine {
                 }
             }
         }
-
-        const dominant = Object.keys(elements).reduce((a, b) => elements[a] > elements[b] ? a : b);
-        const lacking = Object.keys(elements).reduce((a, b) => elements[a] < elements[b] ? a : b);
-        
+        const dominant = Object.keys(elements).reduce((a, b) => elements[a] > elements[b] ? a : b, null);
+        const lacking = Object.keys(elements).reduce((a, b) => elements[a] < elements[b] ? a : b, null);
         return {
             distribution: elements,
             dominant,
@@ -1731,97 +381,54 @@ class AnalysisEngine {
 
     async generateEnhancedElementalInterpretation(dominant, lacking, elements, insights) {
         let interpretation = '';
-        
-        if (this.isInitialized && insights[dominant.toLowerCase()]) {
+        if (this.isInitialized && dominant && insights[dominant.toLowerCase()]) {
             const dominantData = insights[dominant.toLowerCase()];
             interpretation += `${dominant} energy dominates this reading. `;
-            if (dominantData.psychological_aspects) {
-                interpretation += `${renderTextWithCitation(dominantData.psychological_aspects, getText(dominantData.psychological_aspects))}. `;
-            }
-            if (dominantData.life_lessons) {
-                interpretation += `Key lesson: ${renderTextWithCitation(dominantData.life_lessons, getText(dominantData.life_lessons))}. `;
-            }
-            
-            // Add academic quote if available
+            if (dominantData.psychological_aspects) interpretation += `${getText(dominantData.psychological_aspects)}. `;
+            if (dominantData.life_lessons) interpretation += `Key lesson: ${getText(dominantData.life_lessons)}. `;
             if (dominantData.academic_quotes && dominantData.academic_quotes.length > 0) {
                 const quote = dominantData.academic_quotes[0];
-                interpretation += `\\n\\nAs ${renderTextWithCitation(quote.author, getText(quote.author))} noted: "${renderTextWithCitation(quote.quote, getText(quote.quote))}"`;
+                interpretation += `\n\nAs ${getText(quote.author)} noted: "${getText(quote.quote)}"`;
             }
-        } else {
-            // Fallback to basic interpretation
-            const dominantMeaning = {
-                Fire: "passion, creativity, and action dominate your current situation",
-                Water: "emotions, intuition, and relationships are the primary focus", 
-                Air: "thoughts, communication, and mental clarity are emphasized",
-                Earth: "practical matters, material concerns, and stability are highlighted"
-            };
+        } else if (dominant) {
+            const dominantMeaning = { Fire: "passion, creativity, and action dominate your current situation", Water: "emotions, intuition, and relationships are the primary focus", Air: "thoughts, communication, and mental clarity are emphasized", Earth: "practical matters, material concerns, and stability are highlighted" };
             interpretation = dominantMeaning[dominant] || '';
         }
-        
         return interpretation;
     }
 
-    // Calculate elemental balance score
     calculateElementalBalance(elements) {
         const total = Object.values(elements).reduce((sum, count) => sum + count, 0);
+        if (total === 0) return 100;
         const average = total / 4;
         const variance = Object.values(elements).reduce((sum, count) => sum + Math.pow(count - average, 2), 0) / 4;
-        return Math.max(0, 100 - (variance * 10)); // Higher score = more balanced
+        return Math.max(0, 100 - (variance * 10));
     }
 
     generateElementalInterpretation(dominant, lacking, elements) {
-        const dominantMeaning = {
-            Fire: "passion, creativity, and action dominate your current situation",
-            Water: "emotions, intuition, and relationships are the primary focus",
-            Air: "thoughts, communication, and mental clarity are emphasized",
-            Earth: "practical matters, material concerns, and stability are highlighted"
-        };
-
-        const lackingMeaning = {
-            Fire: "you may need more passion and initiative",
-            Water: "emotional connection and intuition may be lacking",
-            Air: "clearer thinking and communication might be needed",
-            Earth: "more grounding and practical focus could be beneficial"
-        };
-
+        const dominantMeaning = { Fire: "passion, creativity, and action dominate your current situation", Water: "emotions, intuition, and relationships are the primary focus", Air: "thoughts, communication, and mental clarity are emphasized", Earth: "practical matters, material concerns, and stability are highlighted" };
+        const lackingMeaning = { Fire: "you may need more passion and initiative", Water: "emotional connection and intuition may be lacking", Air: "clearer thinking and communication might be needed", Earth: "more grounding and practical focus could be beneficial" };
+        if (!dominant || !lacking) return "";
         return `${dominantMeaning[dominant]}. However, ${lackingMeaning[lacking]}.`;
     }
 
-    // Cross-cultural symbol analysis
     async analyzeCrossCulturalSymbols(cards) {
-        if (!this.isInitialized) return { symbols: [], universalThemes: [], interpretation: "Cross-cultural analysis requires JSON database." };
-        
-        const symbols = [];
-        const universalThemes = new Set();
-        
+        if (!this.isInitialized) return { symbols: [], universalThemes: [], interpretation: this.getAnalysisText('cross_cultural.uninitialized') };
+        const symbols = [], universalThemes = new Set();
         try {
             const crossCulturalData = this.dataLoader.getData('cross_cultural_symbols');
-            
             for (const card of cards) {
                 if (crossCulturalData.universal_symbols) {
                     Object.keys(crossCulturalData.universal_symbols).forEach(symbol => {
                         const symbolData = crossCulturalData.universal_symbols[symbol];
                         if (symbolData.tarot_cards && symbolData.tarot_cards.includes(card.name)) {
-                            symbols.push({
-                                symbol,
-                                card: card.name,
-                                cultures: symbolData.cultural_variations || [],
-                                meaning: symbolData.universal_meaning || ''
-                            });
-                            
-                            if (symbolData.archetypal_themes) {
-                                symbolData.archetypal_themes.forEach(theme => universalThemes.add(theme));
-                            }
+                            symbols.push({ symbol, card: card.name, cultures: symbolData.cultural_variations || [], meaning: symbolData.universal_meaning || '' });
+                            if (symbolData.archetypal_themes) symbolData.archetypal_themes.forEach(theme => universalThemes.add(theme));
                         }
                     });
                 }
             }
-            
-            return {
-                symbols,
-                universalThemes: Array.from(universalThemes),
-                interpretation: this.generateCrossCulturalInterpretation(symbols, universalThemes)
-            };
+            return { symbols, universalThemes: Array.from(universalThemes), interpretation: this.generateCrossCulturalInterpretation(symbols, Array.from(universalThemes)) };
         } catch (error) {
             console.error('Error in cross-cultural analysis:', error);
             return { symbols: [], universalThemes: [], interpretation: "Unable to perform cross-cultural analysis." };
@@ -1829,47 +436,25 @@ class AnalysisEngine {
     }
 
     generateCrossCulturalInterpretation(symbols, themes) {
-        if (symbols.length === 0) {
-            return "This reading shows personal themes that may not have strong cross-cultural symbolic resonance.";
-        }
-        
-        let interpretation = `This reading contains ${symbols.length} universal symbols that resonate across cultures:\\n\\n`;
-        
-        symbols.forEach(sym => {
-            interpretation += `• ${renderTextWithCitation(sym.symbol, getText(sym.symbol))} (${renderTextWithCitation(sym.card, getText(sym.card))}): ${renderTextWithCitation(sym.meaning, getText(sym.meaning))}\\n`;
-        });
-        
-        if (themes.length > 0) {
-            interpretation += `\\nUniversal archetypal themes present: ${themes.join(', ')}.`;
-        }
-        
+        if (symbols.length === 0) return this.getAnalysisText('cross_cultural.no_resonance');
+        let interpretation = this.getAnalysisText('cross_cultural.interpretation_base', { symbolCount: symbols.length }) + '\n\n';
+        symbols.forEach(sym => { interpretation += `• ${sym.symbol} (${sym.card}): ${sym.meaning}\n`; });
+        if (themes.length > 0) interpretation += '\n' + this.getAnalysisText('cross_cultural.themes_present', { themes: themes.join(', ') });
         return interpretation;
     }
 
-    // Dream symbolism analysis
     async analyzeDreamSymbolism(cards) {
-        if (!this.isInitialized) return { dreamSymbols: [], interpretation: "Dream analysis requires JSON database." };
-        
+        if (!this.isInitialized) return { dreamSymbols: [], interpretation: this.getAnalysisText('dream.uninitialized') };
         try {
             const dreamData = this.dataLoader.getData('dream_symbolism');
             const dreamSymbols = [];
-            
             for (const card of cards) {
                 if (dreamData.dream_tarot_connections?.[card.name]) {
                     const cardDreamData = dreamData.dream_tarot_connections[card.name];
-                    dreamSymbols.push({
-                        card: card.name,
-                        dreamMeaning: cardDreamData.dream_interpretation || '',
-                        symbolTypes: cardDreamData.symbol_types || [],
-                        collectiveUnconscious: cardDreamData.collective_unconscious_themes || []
-                    });
+                    dreamSymbols.push({ card: card.name, dreamMeaning: cardDreamData.dream_interpretation || '', symbolTypes: cardDreamData.symbol_types || [], collectiveUnconscious: cardDreamData.collective_unconscious_themes || [] });
                 }
             }
-            
-            return {
-                dreamSymbols,
-                interpretation: this.generateDreamInterpretation(dreamSymbols)
-            };
+            return { dreamSymbols, interpretation: this.generateDreamInterpretation(dreamSymbols) };
         } catch (error) {
             console.error('Error in dream symbolism analysis:', error);
             return { dreamSymbols: [], interpretation: "Unable to perform dream analysis." };
@@ -1877,47 +462,26 @@ class AnalysisEngine {
     }
 
     generateDreamInterpretation(dreamSymbols) {
-        if (dreamSymbols.length === 0) {
-            return "This reading may not have strong connections to dream symbolism or subconscious messaging.";
-        }
-        
-        let interpretation = "From a dream symbolism perspective:\\n\\n";
-        
-        dreamSymbols.forEach(symbol => {
-            interpretation += `• ${renderTextWithCitation(symbol.card, getText(symbol.card))}: ${renderTextWithCitation(symbol.dreamMeaning, getText(symbol.dreamMeaning))}\\n`;
-        });
-        
+        if (dreamSymbols.length === 0) return this.getAnalysisText('dream.no_resonance');
+        let interpretation = this.getAnalysisText('dream.interpretation_base') + '\n\n';
+        dreamSymbols.forEach(symbol => { interpretation += `• ${symbol.card}: ${symbol.dreamMeaning}\n`; });
         const allThemes = dreamSymbols.flatMap(s => s.collectiveUnconscious);
         const uniqueThemes = [...new Set(allThemes)];
-        
-        if (uniqueThemes.length > 0) {
-            interpretation += `\\nCollective unconscious themes: ${uniqueThemes.join(', ')}.`;
-        }
-        
+        if (uniqueThemes.length > 0) interpretation += '\n' + this.getAnalysisText('dream.themes_present', { themes: uniqueThemes.join(', ') });
         return interpretation;
     }
 
-    // Plant and animal correspondences
     async analyzePlantAnimalCorrespondences(cards) {
-        if (!this.isInitialized) return { correspondences: [], interpretation: "Natural correspondences require JSON database." };
-        
+        if (!this.isInitialized) return { correspondences: [], interpretation: this.getAnalysisText('nature.uninitialized') };
         try {
             const natureData = this.dataLoader.getData('plant_animal_correspondences');
             const correspondences = [];
-            
             for (const card of cards) {
                 if (natureData.tarot_nature_connections?.[card.name]) {
-                    correspondences.push({
-                        card: card.name,
-                        ...natureData.tarot_nature_connections[card.name]
-                    });
+                    correspondences.push({ card: card.name, ...natureData.tarot_nature_connections[card.name] });
                 }
             }
-            
-            return {
-                correspondences,
-                interpretation: this.generateNatureInterpretation(correspondences)
-            };
+            return { correspondences, interpretation: this.generateNatureInterpretation(correspondences) };
         } catch (error) {
             console.error('Error in nature correspondences analysis:', error);
             return { correspondences: [], interpretation: "Unable to perform nature analysis." };
@@ -1925,43 +489,28 @@ class AnalysisEngine {
     }
 
     generateNatureInterpretation(correspondences) {
-        if (correspondences.length === 0) {
-            return "This reading shows primarily human-centered themes without strong natural world connections.";
-        }
-        
-        let interpretation = "Natural world connections in this reading:\\n\\n";
-        
+        if (correspondences.length === 0) return this.getAnalysisText('nature.no_resonance');
+        let interpretation = this.getAnalysisText('nature.interpretation_base') + '\n\n';
         correspondences.forEach(corr => {
-            interpretation += `• ${renderTextWithCitation(corr.card, getText(corr.card))}:\\n`;
-            if (corr.plants) interpretation += `  Plants: ${corr.plants.map(p => renderTextWithCitation(p, getText(p))).join(', ')}\\n`;
-            if (corr.animals) interpretation += `  Animals: ${corr.animals.map(a => renderTextWithCitation(a, getText(a))).join(', ')}\\n`;
-            if (corr.natural_magic) interpretation += `  Natural Magic: ${renderTextWithCitation(corr.natural_magic, getText(corr.natural_magic))}\\n`;
+            interpretation += `• ${corr.card}:\n`;
+            if (corr.plants) interpretation += `  Plants: ${corr.plants.join(', ')}\n`;
+            if (corr.animals) interpretation += `  Animals: ${corr.animals.join(', ')}\n`;
+            if (corr.natural_magic) interpretation += `  Natural Magic: ${corr.natural_magic}\n`;
         });
-        
         return interpretation;
     }
 
-    // Healing and therapeutic applications
     async analyzeHealingTherapeutic(cards) {
-        if (!this.isInitialized) return { healingAspects: [], interpretation: "Therapeutic analysis requires JSON database." };
-        
+        if (!this.isInitialized) return { healingAspects: [], interpretation: this.getAnalysisText('healing.uninitialized') };
         try {
             const healingData = this.dataLoader.getData('healing_therapeutics');
             const healingAspects = [];
-            
             for (const card of cards) {
                 if (healingData.therapeutic_applications?.[card.name]) {
-                    healingAspects.push({
-                        card: card.name,
-                        ...healingData.therapeutic_applications[card.name]
-                    });
+                    healingAspects.push({ card: card.name, ...healingData.therapeutic_applications[card.name] });
                 }
             }
-            
-            return {
-                healingAspects,
-                interpretation: this.generateHealingInterpretation(healingAspects)
-            };
+            return { healingAspects, interpretation: this.generateHealingInterpretation(healingAspects) };
         } catch (error) {
             console.error('Error in healing analysis:', error);
             return { healingAspects: [], interpretation: "Unable to perform therapeutic analysis." };
@@ -1969,49 +518,25 @@ class AnalysisEngine {
     }
 
     generateHealingInterpretation(healingAspects) {
-        if (healingAspects.length === 0) {
-            return "This reading may focus more on external circumstances than inner healing processes.";
-        }
-        
-        let interpretation = "Therapeutic and healing insights:\\n\\n";
-        
+        if (healingAspects.length === 0) return this.getAnalysisText('healing.no_resonance');
+        let interpretation = this.getAnalysisText('healing.interpretation_base') + '\n\n';
         healingAspects.forEach(aspect => {
-            interpretation += `• ${renderTextWithCitation(aspect.card, getText(aspect.card))}:\\n`;
-            if (aspect.trauma_healing) interpretation += `  Trauma Work: ${renderTextWithCitation(aspect.trauma_healing, getText(aspect.trauma_healing))}\\n`;
-            if (aspect.therapeutic_approach) interpretation += `  Approach: ${renderTextWithCitation(aspect.therapeutic_approach, getText(aspect.therapeutic_approach))}\\n`;
-            if (aspect.healing_modalities) interpretation += `  Modalities: ${aspect.healing_modalities.map(m => renderTextWithCitation(m, getText(m))).join(', ')}\\n`;
+            interpretation += `• ${aspect.card}:\n`;
+            if (aspect.trauma_healing) interpretation += `  Trauma Work: ${aspect.trauma_healing}\n`;
+            if (aspect.therapeutic_approach) interpretation += `  Approach: ${aspect.therapeutic_approach}\n`;
+            if (aspect.healing_modalities) interpretation += `  Modalities: ${aspect.healing_modalities.join(', ')}\n`;
         });
-        
         return interpretation;
     }
 
-    // Professional reading mastery insights
     async analyzeProfessionalReadingMastery(cards) {
-        if (!this.isInitialized) return { professionalInsights: [], interpretation: "Professional analysis requires JSON database." };
-        
+        if (!this.isInitialized) return { professionalInsights: [], interpretation: this.getAnalysisText('professional.uninitialized') };
         try {
             const masteryData = this.dataLoader.getData('professional_reading_mastery');
             const insights = [];
-            
-            // Analyze reading structure and professional techniques
-            if (masteryData.reading_techniques) {
-                insights.push({
-                    type: 'technique',
-                    recommendation: this.selectProfessionalTechnique(cards, masteryData.reading_techniques)
-                });
-            }
-            
-            if (masteryData.client_dynamics && cards.length > 0) {
-                insights.push({
-                    type: 'client_dynamics', 
-                    guidance: this.analyzeClientDynamics(cards, masteryData.client_dynamics)
-                });
-            }
-            
-            return {
-                professionalInsights: insights,
-                interpretation: this.generateProfessionalInterpretation(insights)
-            };
+            if (masteryData.reading_techniques) insights.push({ type: 'technique', recommendation: this.selectProfessionalTechnique(cards, masteryData.reading_techniques) });
+            if (masteryData.client_dynamics && cards.length > 0) insights.push({ type: 'client_dynamics', guidance: this.analyzeClientDynamics(cards, masteryData.client_dynamics) });
+            return { professionalInsights: insights, interpretation: this.generateProfessionalInterpretation(insights) };
         } catch (error) {
             console.error('Error in professional analysis:', error);
             return { professionalInsights: [], interpretation: "Unable to perform professional analysis." };
@@ -2019,73 +544,35 @@ class AnalysisEngine {
     }
 
     selectProfessionalTechnique(cards, techniques) {
-        // Select appropriate technique based on card composition
         const majorArcanaCount = cards.filter(c => c.suit === "Major Arcana").length;
         const reversedCount = cards.filter(c => c.isReversed).length;
-        
-        if (majorArcanaCount > cards.length * 0.6) {
-            return renderTextWithCitation(techniques.spiritual_counseling, getText(techniques.spiritual_counseling)) || "Focus on spiritual guidance and life path insights.";
-        } else if (reversedCount > cards.length * 0.5) {
-            return renderTextWithCitation(techniques.shadow_work, getText(techniques.shadow_work)) || "Emphasize inner work and unconscious pattern exploration.";
-        } else {
-            return renderTextWithCitation(techniques.practical_guidance, getText(techniques.practical_guidance)) || "Provide clear, actionable advice for practical matters.";
-        }
+        if (majorArcanaCount > cards.length * 0.6) return getText(techniques.spiritual_counseling) || "Focus on spiritual guidance and life path insights.";
+        if (reversedCount > cards.length * 0.5) return getText(techniques.shadow_work) || "Emphasize inner work and unconscious pattern exploration.";
+        return getText(techniques.practical_guidance) || "Provide clear, actionable advice for practical matters.";
     }
 
     analyzeClientDynamics(cards, dynamics) {
-        // Analyze potential client needs based on card themes
         const suits = cards.map(c => c.suit);
-        const dominantSuit = suits.reduce((a, b, i, arr) => 
-            arr.filter(v => v === a).length >= arr.filter(v => v === b).length ? a : b
-        );
-        
-        const suitDynamics = {
-            "Cups": renderTextWithCitation(dynamics.emotional_support, getText(dynamics.emotional_support)) || "Client may need emotional support and validation.",
-            "Wands": renderTextWithCitation(dynamics.motivation, getText(dynamics.motivation)) || "Client likely seeks inspiration and direction for action.",
-            "Swords": renderTextWithCitation(dynamics.clarity, getText(dynamics.clarity)) || "Client probably needs mental clarity and decision-making support.",
-            "Pentacles": renderTextWithCitation(dynamics.practical_advice, getText(dynamics.practical_advice)) || "Client is looking for practical, material guidance.",
-            "Major Arcana": renderTextWithCitation(dynamics.spiritual_guidance, getText(dynamics.spiritual_guidance)) || "Client is seeking deeper spiritual insight."
-        };
-        
+        const dominantSuit = suits.reduce((a, b, i, arr) => arr.filter(v => v === a).length >= arr.filter(v => v === b).length ? a : b, null);
+        const suitDynamics = { "Cups": getText(dynamics.emotional_support) || "Client may need emotional support and validation.", "Wands": getText(dynamics.motivation) || "Client likely seeks inspiration and direction for action.", "Swords": getText(dynamics.clarity) || "Client probably needs mental clarity and decision-making support.", "Pentacles": getText(dynamics.practical_advice) || "Client is looking for practical, material guidance.", "Major Arcana": getText(dynamics.spiritual_guidance) || "Client is seeking deeper spiritual insight." };
         return suitDynamics[dominantSuit] || "Provide balanced, comprehensive guidance.";
     }
 
     generateProfessionalInterpretation(insights) {
-        if (insights.length === 0) {
-            return "Apply standard professional reading techniques with attention to client comfort and clarity.";
-        }
-        
-        let interpretation = "Professional reading guidance:\\n\\n";
-        
+        if (insights.length === 0) return this.getAnalysisText('professional.fallback');
+        let interpretation = this.getAnalysisText('professional.interpretation_base') + '\n\n';
         insights.forEach(insight => {
-            if (insight.type === 'technique') {
-                interpretation += `Recommended Technique: ${renderTextWithCitation(insight.recommendation, getText(insight.recommendation))}\\n\\n`;
-            } else if (insight.type === 'client_dynamics') {
-                interpretation += `Client Dynamics: ${renderTextWithCitation(insight.guidance, getText(insight.guidance))}\\n\\n`;
-            }
+            if (insight.type === 'technique') interpretation += this.getAnalysisText('professional.technique_title', { technique: insight.recommendation }) + '\n\n';
+            else if (insight.type === 'client_dynamics') interpretation += this.getAnalysisText('professional.dynamics_title', { guidance: insight.guidance }) + '\n\n';
         });
-        
         return interpretation;
     }
 
-    // Synthetic reading context analysis
     async analyzeSyntheticReadingContext(cards, spreadType) {
-        if (!this.isInitialized) return { context: {}, interpretation: "Context analysis requires JSON database." };
-        
+        if (!this.isInitialized) return { context: {}, interpretation: this.getAnalysisText('context.uninitialized') };
         try {
-            const contextData = this.dataLoader.getData('synthetic_readings_context');
-            const context = {
-                spreadType,
-                cardCount: cards.length,
-                complexity: this.assessReadingComplexity(cards),
-                thematicCoherence: this.assessThematicCoherence(cards, contextData),
-                narrativeFlow: this.assessNarrativeFlow(cards, contextData)
-            };
-            
-            return {
-                context,
-                interpretation: this.generateContextInterpretation(context, contextData)
-            };
+            const context = { spreadType, cardCount: cards.length, complexity: this.assessReadingComplexity(cards), thematicCoherence: this.assessThematicCoherence(cards), narrativeFlow: this.assessNarrativeFlow(cards) };
+            return { context, interpretation: this.generateContextInterpretation(context) };
         } catch (error) {
             console.error('Error in context analysis:', error);
             return { context: {}, interpretation: "Unable to perform context analysis." };
@@ -2096,175 +583,105 @@ class AnalysisEngine {
         const majorArcana = cards.filter(c => c.suit === "Major Arcana").length;
         const courtCards = cards.filter(c => ["King", "Queen", "Knight", "Page"].some(court => c.name.includes(court))).length;
         const reversedCards = cards.filter(c => c.isReversed).length;
-        
         const complexityScore = (majorArcana * 2) + courtCards + (reversedCards * 1.5);
         const maxPossibleScore = cards.length * 3;
-        const complexityRatio = complexityScore / maxPossibleScore;
-        
+        const complexityRatio = maxPossibleScore > 0 ? complexityScore / maxPossibleScore : 0;
         if (complexityRatio > 0.7) return "High";
         if (complexityRatio > 0.4) return "Medium";
         return "Low";
     }
 
-    assessThematicCoherence(cards, contextData) {
-        // Analyze how well the cards work together thematically
+    assessThematicCoherence(cards) {
         const suits = cards.map(c => c.suit);
+        if (suits.length === 0) return "N/A";
         const suitVariety = new Set(suits).size;
-        const dominantSuitRatio = suits.filter(s => s === suits[0]).length / suits.length;
-        
+        const dominantSuit = suits.reduce((a, b, i, arr) => arr.filter(v => v === a).length >= arr.filter(v => v === b).length ? a : b);
+        const dominantSuitRatio = suits.filter(s => s === dominantSuit).length / suits.length;
         if (dominantSuitRatio > 0.7) return "Highly Focused";
         if (suitVariety >= 3) return "Diverse";
         return "Moderately Focused";
     }
 
-    assessNarrativeFlow(cards, contextData) {
-        // Assess the story-telling potential of the card sequence
+    assessNarrativeFlow(cards) {
         if (cards.length < 3) return "Limited Narrative";
-        
         const hasBeginning = cards.some(c => c.name.includes("Ace") || c.name === "The Fool");
         const hasMiddle = cards.some(c => ["Two", "Three", "Four", "Five", "Six", "Seven"].some(num => c.name.includes(num)));
         const hasEnd = cards.some(c => ["Ten", "The World", "Judgement"].some(end => c.name.includes(end)));
-        
         if (hasBeginning && hasMiddle && hasEnd) return "Complete Story Arc";
         if (hasBeginning || hasEnd) return "Partial Story Arc";
         return "Situational Snapshot";
     }
 
-    generateContextInterpretation(context, contextData) {
-        let interpretation = `Reading Context Analysis:\\n\\n`;
-        interpretation += `Complexity Level: ${context.complexity}\\n`;
-        interpretation += `Thematic Coherence: ${context.thematicCoherence}\\n`;
-        interpretation += `Narrative Flow: ${context.narrativeFlow}\\n\\n`;
-        
-        if (context.complexity === "High") {
-            interpretation += "This reading addresses complex, multi-layered life situations requiring careful interpretation.\\n";
-        } else if (context.complexity === "Low") {
-            interpretation += "This reading focuses on straightforward, practical matters with clear guidance.\\n";
-        }
-        
+    generateContextInterpretation(context) {
+        let interpretation = this.getAnalysisText('context.interpretation_base') + '\n\n';
+        interpretation += this.getAnalysisText('context.complexity_line', { complexity: context.complexity }) + '\n';
+        interpretation += this.getAnalysisText('context.coherence_line', { coherence: context.thematicCoherence }) + '\n';
+        interpretation += this.getAnalysisText('context.flow_line', { flow: context.narrativeFlow }) + '\n\n';
+        if (context.complexity === "High") interpretation += this.getAnalysisText('context.complexity_high') + '\n';
+        else if (context.complexity === "Low") interpretation += this.getAnalysisText('context.complexity_low') + '\n';
         return interpretation;
     }
 
-    // Master spread interpretations
     async analyzeMasterSpreadInterpretations(cards, spreadType) {
-        if (!this.isInitialized) return { spreadInsights: {}, interpretation: "Spread analysis requires JSON database." };
-        
+        if (!this.isInitialized) return { spreadInsights: {}, interpretation: this.getAnalysisText('spreads.uninitialized') };
         try {
             const spreadData = this.dataLoader.getData('master_spread_interpretations');
             const spreadInsights = {};
-            
-            if (spreadData.spread_mastery?.[spreadType]) {
-                spreadInsights.technique = spreadData.spread_mastery[spreadType];
-            }
-            
-            if (spreadData.position_dynamics && cards.length > 1) {
-                spreadInsights.positionInteractions = this.analyzePositionInteractions(cards, spreadData.position_dynamics);
-            }
-            
-            return {
-                spreadInsights,
-                interpretation: this.generateSpreadInterpretation(spreadInsights, spreadType)
-            };
+            if (spreadData.spread_mastery?.[spreadType]) spreadInsights.technique = spreadData.spread_mastery[spreadType];
+            if (spreadData.position_dynamics && cards.length > 1) spreadInsights.positionInteractions = this.analyzePositionInteractions(cards);
+            return { spreadInsights, interpretation: this.generateSpreadInterpretation(spreadInsights, spreadType) };
         } catch (error) {
             console.error('Error in spread analysis:', error);
             return { spreadInsights: {}, interpretation: "Unable to perform spread analysis." };
         }
     }
 
-    analyzePositionInteractions(cards, dynamics) {
+    analyzePositionInteractions(cards) {
         const interactions = [];
-        
         for (let i = 0; i < cards.length - 1; i++) {
             const currentCard = cards[i];
             const nextCard = cards[i + 1];
-            
-            // Analyze elemental interactions
             const currentElement = this.getCardElement(currentCard);
             const nextElement = this.getCardElement(nextCard);
-            
             if (currentElement && nextElement) {
                 const interaction = this.getElementalInteraction(currentElement, nextElement);
-                interactions.push({
-                    position1: i,
-                    position2: i + 1,
-                    card1: currentCard.name,
-                    card2: nextCard.name,
-                    interaction
-                });
+                interactions.push({ position1: i, position2: i + 1, card1: currentCard.name, card2: nextCard.name, interaction });
             }
         }
-        
         return interactions;
     }
 
     getCardElement(card) {
         if (card.element) return card.element;
-        
-        const suitElements = {
-            'Wands': 'Fire',
-            'Cups': 'Water',
-            'Swords': 'Air',
-            'Pentacles': 'Earth'
-        };
-        
+        const suitElements = { 'Wands': 'Fire', 'Cups': 'Water', 'Swords': 'Air', 'Pentacles': 'Earth' };
         return suitElements[card.suit];
     }
 
     getElementalInteraction(element1, element2) {
-        const interactions = {
-            'Fire-Water': 'Steam - Transformation through emotional passion',
-            'Fire-Air': 'Amplification - Ideas fueled by enthusiasm',
-            'Fire-Earth': 'Manifestation - Dreams brought into reality',
-            'Water-Air': 'Mist - Intuitive communication and inspiration',
-            'Water-Earth': 'Growth - Nurturing practical development',
-            'Air-Earth': 'Erosion - Mental focus wearing down obstacles'
-        };
-        
+        const interactions = { 'Fire-Water': 'Steam - Transformation through emotional passion', 'Fire-Air': 'Amplification - Ideas fueled by enthusiasm', 'Fire-Earth': 'Manifestation - Dreams brought into reality', 'Water-Air': 'Mist - Intuitive communication and inspiration', 'Water-Earth': 'Growth - Nurturing practical development', 'Air-Earth': 'Erosion - Mental focus wearing down obstacles' };
         const key = `${element1}-${element2}`;
         const reverseKey = `${element2}-${element1}`;
-        
         return interactions[key] || interactions[reverseKey] || 'Neutral interaction';
     }
 
     generateSpreadInterpretation(insights, spreadType) {
-        let interpretation = `${spreadType} Spread Analysis:\\n\\n`;
-        
-        if (insights.technique) {
-            interpretation += `Mastery Technique: ${renderTextWithCitation(insights.technique.advanced_technique, getText(insights.technique.advanced_technique)) || 'Standard interpretation'}\\n\\n`;
-        }
-        
+        let interpretation = this.getAnalysisText('spreads.interpretation_base', { spreadType }) + '\n\n';
+        if (insights.technique) interpretation += this.getAnalysisText('spreads.mastery_technique', { technique: getText(insights.technique.advanced_technique) || 'Standard interpretation' }) + '\n\n';
         if (insights.positionInteractions && insights.positionInteractions.length > 0) {
-            interpretation += "Position Interactions:\\n";
-            insights.positionInteractions.forEach(interaction => {
-                interpretation += `• ${renderTextWithCitation(interaction.card1, getText(interaction.card1))} → ${renderTextWithCitation(interaction.card2, getText(interaction.card2))}: ${renderTextWithCitation(interaction.interaction, getText(interaction.interaction))}\\n`;
-            });
+            interpretation += this.getAnalysisText('spreads.position_interactions_title') + '\n';
+            insights.positionInteractions.forEach(interaction => { interpretation += `• ${interaction.card1} → ${interaction.card2}: ${interaction.interaction}\n`; });
         }
-        
         return interpretation;
     }
 
-    // Mystical oracular wisdom
     async analyzeMysticalOracularWisdom(cards) {
-        if (!this.isInitialized) return { mysticalInsights: [], interpretation: "Mystical analysis requires JSON database." };
-        
+        if (!this.isInitialized) return { mysticalInsights: [], interpretation: this.getAnalysisText('mystical.uninitialized') };
         try {
             const mysticalData = this.dataLoader.getData('mystical_oracular_wisdom');
             const mysticalInsights = [];
-            
-            if (mysticalData.oracular_techniques) {
-                const technique = this.selectOracularTechnique(cards, mysticalData.oracular_techniques);
-                mysticalInsights.push({ type: 'technique', value: technique });
-            }
-            
-            if (mysticalData.transcendent_wisdom) {
-                const wisdom = this.extractTranscendentWisdom(cards, mysticalData.transcendent_wisdom);
-                mysticalInsights.push({ type: 'wisdom', value: wisdom });
-            }
-            
-            return {
-                mysticalInsights,
-                interpretation: this.generateMysticalInterpretation(mysticalInsights)
-            };
+            if (mysticalData.oracular_techniques) mysticalInsights.push({ type: 'technique', value: this.selectOracularTechnique(cards, mysticalData.oracular_techniques) });
+            if (mysticalData.transcendent_wisdom) mysticalInsights.push({ type: 'wisdom', value: this.extractTranscendentWisdom(cards, mysticalData.transcendent_wisdom) });
+            return { mysticalInsights, interpretation: this.generateMysticalInterpretation(mysticalInsights) };
         } catch (error) {
             console.error('Error in mystical analysis:', error);
             return { mysticalInsights: [], interpretation: "Unable to access mystical wisdom." };
@@ -2273,77 +690,37 @@ class AnalysisEngine {
 
     selectOracularTechnique(cards, techniques) {
         const majorArcanaRatio = cards.filter(c => c.suit === "Major Arcana").length / cards.length;
-        
-        if (majorArcanaRatio > 0.7) {
-            return techniques.high_mystical || "Focus on soul purpose and spiritual destiny.";
-        } else if (majorArcanaRatio > 0.3) {
-            return techniques.balanced_mystical || "Integrate spiritual wisdom with practical guidance.";
-        } else {
-            return techniques.grounded_mystical || "Find the sacred within the mundane circumstances.";
-        }
+        if (majorArcanaRatio > 0.7) return techniques.high_mystical || "Focus on soul purpose and spiritual destiny.";
+        if (majorArcanaRatio > 0.3) return techniques.balanced_mystical || "Integrate spiritual wisdom with practical guidance.";
+        return techniques.grounded_mystical || "Find the sacred within the mundane circumstances.";
     }
 
     extractTranscendentWisdom(cards, wisdomData) {
-        // Select wisdom based on card themes
         const cardNames = cards.map(c => c.name);
-        
-        if (cardNames.some(name => ['The Star', 'The Sun', 'The World'].includes(name))) {
-            return wisdomData.illumination || "You are approaching a time of spiritual illumination and clarity.";
-        } else if (cardNames.some(name => ['Death', 'The Tower', 'The Hanged Man'].includes(name))) {
-            return wisdomData.transformation || "Great transformation requires the courage to release what no longer serves.";
-        } else {
-            return wisdomData.general || "Trust in the divine timing of your soul's journey.";
-        }
+        if (cardNames.some(name => ['The Star', 'The Sun', 'The World'].includes(name))) return wisdomData.illumination || "You are approaching a time of spiritual illumination and clarity.";
+        if (cardNames.some(name => ['Death', 'The Tower', 'The Hanged Man'].includes(name))) return wisdomData.transformation || "Great transformation requires the courage to release what no longer serves.";
+        return wisdomData.general || "Trust in the divine timing of your soul's journey.";
     }
 
     generateMysticalInterpretation(insights) {
-        if (insights.length === 0) {
-            return "This reading speaks to practical matters rather than mystical revelation.";
-        }
-        
-        let interpretation = "Mystical and Oracular Guidance:\\n\\n";
-        
+        if (insights.length === 0) return this.getAnalysisText('mystical.no_resonance');
+        let interpretation = this.getAnalysisText('mystical.interpretation_base') + '\n\n';
         insights.forEach(insight => {
-            if (insight.type === 'technique') {
-                interpretation += `Oracle Guidance: ${renderTextWithCitation(insight.value, getText(insight.value))}\\n\\n`;
-            } else if (insight.type === 'wisdom') {
-                interpretation += `Transcendent Wisdom: ${renderTextWithCitation(insight.value, getText(insight.value))}\\n\\n`;
-            }
+            if (insight.type === 'technique') interpretation += this.getAnalysisText('mystical.oracle_guidance', { guidance: getText(insight.value) }) + '\n\n';
+            else if (insight.type === 'wisdom') interpretation += this.getAnalysisText('mystical.transcendent_wisdom', { wisdom: getText(insight.value) }) + '\n\n';
         });
-        
         return interpretation;
     }
 
-    // Comprehensive applications analysis
     async analyzeComprehensiveApplications(cards) {
-        if (!this.isInitialized) return { applications: [], interpretation: "Application analysis requires JSON database." };
-        
+        if (!this.isInitialized) return { applications: [], interpretation: this.getAnalysisText('applications.uninitialized') };
         try {
             const applicationData = this.dataLoader.getData('comprehensive_applications');
             const applications = [];
-            
-            // Life mastery applications
-            if (applicationData.life_mastery) {
-                const masteryInsight = this.extractLifeMasteryInsight(cards, applicationData.life_mastery);
-                applications.push({ category: 'Life Mastery', insight: masteryInsight });
-            }
-            
-            // Manifestation guidance
-            if (applicationData.manifestation_techniques) {
-                const manifestationGuidance = this.extractManifestationGuidance(cards, applicationData.manifestation_techniques);
-                applications.push({ category: 'Manifestation', insight: manifestationGuidance });
-            }
-            
-            // Integration practices
-            if (applicationData.integration_practices) {
-                const integrationPractice = this.extractIntegrationPractice(cards, applicationData.integration_practices);
-                applications.push({ category: 'Integration', insight: integrationPractice });
-            }
-            
-            return {
-                applications,
-                interpretation: this.generateApplicationsInterpretation(applications)
-            };
+            if (applicationData.life_mastery) applications.push({ category: 'Life Mastery', insight: this.extractLifeMasteryInsight(cards, applicationData.life_mastery) });
+            if (applicationData.manifestation_techniques) applications.push({ category: 'Manifestation', insight: this.extractManifestationGuidance(cards, applicationData.manifestation_techniques) });
+            if (applicationData.integration_practices) applications.push({ category: 'Integration', insight: this.extractIntegrationPractice(cards, applicationData.integration_practices) });
+            return { applications, interpretation: this.generateApplicationsInterpretation(applications) };
         } catch (error) {
             console.error('Error in applications analysis:', error);
             return { applications: [], interpretation: "Unable to provide application guidance." };
@@ -2353,102 +730,41 @@ class AnalysisEngine {
     extractLifeMasteryInsight(cards, masteryData) {
         const suits = cards.map(c => c.suit);
         const dominantArea = this.getDominantLifeArea(suits);
-        
-        const areas = {
-            'emotional': renderTextWithCitation(masteryData.emotional_mastery, getText(masteryData.emotional_mastery)) || "Focus on emotional intelligence and heart-centered decision making.",
-            'mental': renderTextWithCitation(masteryData.mental_mastery, getText(masteryData.mental_mastery)) || "Develop clarity of thought and conscious communication.",
-            'physical': renderTextWithCitation(masteryData.physical_mastery, getText(masteryData.physical_mastery)) || "Ground your spiritual insights in practical, material action.",
-            'spiritual': renderTextWithCitation(masteryData.spiritual_mastery, getText(masteryData.spiritual_mastery)) || "Align your actions with your highest spiritual purpose."
-        };
-        
+        const areas = { 'emotional': getText(masteryData.emotional_mastery) || "Focus on emotional intelligence and heart-centered decision making.", 'mental': getText(masteryData.mental_mastery) || "Develop clarity of thought and conscious communication.", 'physical': getText(masteryData.physical_mastery) || "Ground your spiritual insights in practical, material action.", 'spiritual': getText(masteryData.spiritual_mastery) || "Align your actions with your highest spiritual purpose." };
         return areas[dominantArea] || areas['spiritual'];
     }
 
     getDominantLifeArea(suits) {
-        const counts = suits.reduce((acc, suit) => {
-            acc[suit] = (acc[suit] || 0) + 1;
-            return acc;
-        }, {});
-        
+        if (suits.length === 0) return 'spiritual';
+        const counts = suits.reduce((acc, suit) => { acc[suit] = (acc[suit] || 0) + 1; return acc; }, {});
         const dominant = Object.keys(counts).reduce((a, b) => counts[a] > counts[b] ? a : b);
-        
-        const areaMapping = {
-            'Cups': 'emotional',
-            'Swords': 'mental', 
-            'Pentacles': 'physical',
-            'Wands': 'spiritual',
-            'Major Arcana': 'spiritual'
-        };
-        
+        const areaMapping = { 'Cups': 'emotional', 'Swords': 'mental', 'Pentacles': 'physical', 'Wands': 'spiritual', 'Major Arcana': 'spiritual' };
         return areaMapping[dominant] || 'spiritual';
     }
 
     extractManifestationGuidance(cards, manifestationData) {
         const aces = cards.filter(c => c.name.includes('Ace')).length;
         const tens = cards.filter(c => c.name.includes('Ten')).length;
-        
-        if (aces > 0 && tens > 0) {
-            return renderTextWithCitation(manifestationData.complete_cycle, getText(manifestationData.complete_cycle)) || "You have both the seed and the fruition - trust the manifestation process.";
-        } else if (aces > 0) {
-            return renderTextWithCitation(manifestationData.new_beginnings, getText(manifestationData.new_beginnings)) || "Focus your intention clearly - you are planting powerful seeds.";
-        } else if (tens > 0) {
-            return renderTextWithCitation(manifestationData.completion, getText(manifestationData.completion)) || "Harvest time approaches - prepare to receive the fruits of your efforts.";
-        } else {
-            return renderTextWithCitation(manifestationData.process, getText(manifestationData.process)) || "Stay present with the unfolding process of manifestation.";
-        }
+        if (aces > 0 && tens > 0) return getText(manifestationData.complete_cycle) || "You have both the seed and the fruition - trust the manifestation process.";
+        if (aces > 0) return getText(manifestationData.new_beginnings) || "Focus your intention clearly - you are planting powerful seeds.";
+        if (tens > 0) return getText(manifestationData.completion) || "Harvest time approaches - prepare to receive the fruits of your efforts.";
+        return getText(manifestationData.process) || "Stay present with the unfolding process of manifestation.";
     }
 
     extractIntegrationPractice(cards, integrationData) {
         const reversed = cards.filter(c => c.isReversed).length;
         const upright = cards.length - reversed;
-        
-        if (reversed > upright) {
-            return renderTextWithCitation(integrationData.inner_work, getText(integrationData.inner_work)) || "Focus on inner integration and shadow work practices.";
-        } else if (upright > reversed * 2) {
-            return renderTextWithCitation(integrationData.outer_expression, getText(integrationData.outer_expression)) || "Express your inner wisdom through concrete action in the world.";
-        } else {
-            return renderTextWithCitation(integrationData.balanced_integration, getText(integrationData.balanced_integration)) || "Balance inner reflection with outer expression.";
-        }
+        if (reversed > upright) return getText(integrationData.inner_work) || "Focus on inner integration and shadow work practices.";
+        if (upright > reversed * 2) return getText(integrationData.outer_expression) || "Express your inner wisdom through concrete action in the world.";
+        return getText(integrationData.balanced_integration) || "Balance inner reflection with outer expression.";
     }
 
     generateApplicationsInterpretation(applications) {
-        if (applications.length === 0) {
-            return "Apply standard tarot wisdom to your current circumstances with mindful awareness.";
-        }
-        
-        let interpretation = "Comprehensive Life Applications:\\n\\n";
-        
-        applications.forEach(app => {
-            interpretation += `${renderTextWithCitation(app.category, getText(app.category))}: ${renderTextWithCitation(app.insight, getText(app.insight))}\\n\\n`;
-        });
-        
+        if (applications.length === 0) return this.getAnalysisText('applications.fallback');
+        let interpretation = this.getAnalysisText('applications.interpretation_base') + '\n\n';
+        applications.forEach(app => { interpretation += this.getAnalysisText('applications.insight_line', { category: app.category, insight: app.insight }) + '\n\n'; });
         return interpretation;
     }
-    
-    // Get basic archetype for cards without JSON data
-    getBasicArchetype(card) {
-        // Check if it's a Major Arcana card
-        if (card.suit === "Major Arcana" && this.jungianArchetypes[card.name]) {
-            return this.jungianArchetypes[card.name];
-        }
-        
-        // For Minor Arcana, assign based on court cards
-        if (card.name.includes("King")) return "Ruler";
-        if (card.name.includes("Queen")) return "Mother";
-        if (card.name.includes("Knight")) return "Hero";
-        if (card.name.includes("Page")) return "Innocent";
-        
-        // For numbered cards, use suit-based archetypes
-        const suitArchetypes = {
-            "Wands": "Magician",
-            "Cups": "Lover",
-            "Swords": "Hero",
-            "Pentacles": "Creator"
-        };
-        
-        return suitArchetypes[card.suit] || "Seeker";
-    }
-
 }
 
 // Export for module usage
