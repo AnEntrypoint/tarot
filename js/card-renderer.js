@@ -61,13 +61,14 @@ class CardRenderer {
     // Render keywords as badges
     renderKeywords(card, isReversed) {
         const keywords = isReversed ? card.keywords.reversed : card.keywords.upright;
-        return keywords.map(keyword => `<span class="keyword">${keyword}</span>`).join('');
+        return keywords.map(keyword => `<span class="keyword">${getText(keyword)}</span>`).join('');
     }
 
     // Render basic meaning
     renderBasicMeaning(card, isReversed) {
         const meaning = isReversed ? card.meanings.reversed.general : card.meanings.upright.general;
-        return `<p class="meaning-text">${meaning.substring(0, 150)}...</p>`;
+        const text = getText(meaning);
+        return `<p class="meaning-text">${text.substring(0, 150)}...</p>`;
     }
 
     // Get suit symbol
