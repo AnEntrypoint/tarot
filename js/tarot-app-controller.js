@@ -13,13 +13,18 @@ class TarotAppController {
         this.currentAnalysis = null;
         this.readingMode = 'draw'; // 'draw' or 'manual'
         this.cardSelectionInProgress = false;
+        this.uiText = {};
         
         this.initializeEventListeners();
-        this.loadSavedReadings();
-        this.initializeUI();
     }
 
     initializeEventListeners() {
+        // Wait for data to be loaded before initializing UI
+        window.addEventListener('tarotDataLoaded', () => {
+            this.uiText = window.tarotDataLoader.getData('ui_text');
+            this.loadSavedReadings();
+            this.initializeUI();
+        });
         // Spread selection
         document.querySelectorAll('.spread-option').forEach(option => {
             option.addEventListener('click', (e) => this.selectSpread(e.target.closest('.spread-option')));
@@ -47,7 +52,7 @@ class TarotAppController {
     }
 
     initializeUI() {
-        this.updateInstructionText("Select a spread type to begin your mystical journey");
+        this.updateInstructionText(this.getUIText('instructions.select_spread'));
         this.hideAllButtons();
         this.clearReadingArea();
     }
@@ -66,9 +71,9 @@ class TarotAppController {
         
         // Update UI
         this.showButton('startReadingBtn');
-        this.updateInstructionText(
-            `You've selected the ${renderTextWithCitation(this.currentSpread.name, getText(this.currentSpread.name))}. Click "Begin Reading" to start your journey into the cards' wisdom.`
-        );
+        const spreadNameHTML = renderTextWithCitation(this.currentSpread.name, getText(this.currentSpread.name));
+        const instructionText = this.getUIText('instructions.spread_selected', { spreadName: spreadNameHTML });
+        this.updateInstructionText(instructionText, true);
     }
 
     startReading() {
@@ -176,7 +181,7 @@ class TarotAppController {
         const remaining = this.currentSpread.cardCount - this.drawnCards.length;
         if (remaining > 0) {
             this.updateInstructionText(
-                `${remaining} more card${remaining > 1 ? 's' : ''} to draw. Click the deck to continue your reading.`
+                this.getUIText('instructions.draw_cards', { remaining, plural: remaining > 1 ? 's' : '' })
             );
         }
     }
@@ -201,9 +206,7 @@ class TarotAppController {
         // Automatically run analysis when reading is complete
         setTimeout(() => this.analyzeReading(), 500); // Small delay for smooth UX
         
-        this.updateInstructionText(
-            "Your reading is complete! Explore the detailed meanings by clicking on individual cards, or use the analysis tools for deeper insights."
-        );
+        this.updateInstructionText(this.getUIText('instructions.reading_complete'));
     }
 
     generateReadingSummary() {
@@ -937,7 +940,7 @@ class TarotAppController {
             this.showElement('analysisPanel');
         } catch (error) {
             console.error('Error analyzing reading:', error);
-            alert('Error analyzing reading. Please try again.');
+            alert(this.getUIText('messages.analysis_error'));
         }
     }
 
@@ -1875,7 +1878,7 @@ class TarotAppController {
         this.loadSavedReadings();
         
         // Show success message
-        this.showTemporaryMessage('Reading saved successfully!', 'success');
+        this.showTemporaryMessage(this.getUIText('messages.reading_saved'), 'success');
     }
 
     loadSavedReadings() {
@@ -1883,7 +1886,7 @@ class TarotAppController {
         if (!container) return;
 
         if (this.savedReadings.length === 0) {
-            container.innerHTML = '<p class="text-gray-400 text-center py-8">No saved readings yet. Complete a reading and save it to see it here.</p>';
+            container.innerHTML = `<p class="text-gray-400 text-center py-8">${this.getUIText('saved_readings.no_readings')}</p>`;
             return;
         }
 
@@ -1938,7 +1941,7 @@ class TarotAppController {
             this.displayAnalysis();
         }
         
-        this.showTemporaryMessage('Reading loaded successfully!', 'success');
+        this.showTemporaryMessage(this.getUIText('messages.reading_loaded'), 'success');
     }
 
     displaySavedReading() {
@@ -1971,17 +1974,17 @@ class TarotAppController {
         this.generateReadingSummary();
         
         // Update instruction
-        this.updateInstructionText("Saved reading loaded. Click on cards for detailed meanings or use the analysis tools.");
+        this.updateInstructionText(this.getUIText('instructions.saved_reading_loaded'));
     }
 
     deleteSavedReading(readingId) {
-        if (!confirm('Are you sure you want to delete this reading?')) return;
+        if (!confirm(this.getUIText('saved_readings.confirm_delete'))) return;
         
         this.savedReadings = this.savedReadings.filter(r => r.id !== readingId);
         localStorage.setItem('tarotReadings', JSON.stringify(this.savedReadings));
         this.loadSavedReadings();
         
-        this.showTemporaryMessage('Reading deleted successfully!', 'success');
+        this.showTemporaryMessage(this.getUIText('messages.reading_deleted'), 'success');
     }
 
     resetReading() {
@@ -2007,7 +2010,7 @@ class TarotAppController {
         // Clear selections
         document.querySelectorAll('.spread-option').forEach(opt => opt.classList.remove('selected'));
         
-        this.updateInstructionText("Select a spread type to begin your mystical journey");
+        this.updateInstructionText(this.getUIText('instructions.select_spread'));
     }
 
     shuffleDeck(deck) {
@@ -2083,9 +2086,39 @@ class TarotAppController {
         if (readingArea) readingArea.innerHTML = '';
     }
 
-    updateInstructionText(text) {
+    updateInstructionText(text, isHTML = false) {
         const instructionElement = document.getElementById('instructionText');
-        if (instructionElement) instructionElement.textContent = text;
+        if (instructionElement) {
+            if (isHTML) {
+                instructionElement.innerHTML = text;
+            } else {
+                instructionElement.textContent = text;
+            }
+        }
+    }
+
+    getUIText(key, replacements = {}) {
+        const path = key.split('.');
+        let textObject = this.uiText;
+        try {
+            for (const p of path) {
+                textObject = textObject[p];
+            }
+
+            if (typeof textObject === 'undefined' || typeof textObject.text === 'undefined') {
+                console.warn(`UI text for key '${key}' not found.`);
+                return key;
+            }
+
+            let text = textObject.text;
+            for (const placeholder in replacements) {
+                text = text.replace(new RegExp(`\\{${placeholder}\\}`, 'g'), replacements[placeholder]);
+            }
+            return text;
+        } catch (e) {
+            console.warn(`Could not retrieve UI text for key '${key}'`, e);
+            return key;
+        }
     }
 
     enableDeckInteraction() {
@@ -2142,17 +2175,17 @@ class TarotAppController {
         modalDiv.className = 'mode-selection-modal';
         modalDiv.innerHTML = `
             <div class="mode-selection-content">
-                <h3 class="text-xl font-semibold mb-4 text-teal-400">Choose Your Reading Method</h3>
+                <h3 class="text-xl font-semibold mb-4 text-teal-400">${this.getUIText('modals.mode_selection_header')}</h3>
                 <div class="mode-options">
                     <button class="mode-option-btn" data-mode="draw">
                         <div class="mode-icon">🎴</div>
-                        <h4 class="text-lg font-semibold mb-2">Draw Cards</h4>
-                        <p class="text-sm text-gray-300">Let fate guide your reading by randomly drawing cards from the deck</p>
+                        <h4 class="text-lg font-semibold mb-2">${this.getUIText('modals.mode_draw_title')}</h4>
+                        <p class="text-sm text-gray-300">${this.getUIText('modals.mode_draw_desc')}</p>
                     </button>
                     <button class="mode-option-btn" data-mode="manual">
                         <div class="mode-icon">🔮</div>
-                        <h4 class="text-lg font-semibold mb-2">Select Cards</h4>
-                        <p class="text-sm text-gray-300">Choose specific cards from the deck for your reading</p>
+                        <h4 class="text-lg font-semibold mb-2">${this.getUIText('modals.mode_manual_title')}</h4>
+                        <p class="text-sm text-gray-300">${this.getUIText('modals.mode_manual_desc')}</p>
                     </button>
                 </div>
             </div>
@@ -2184,7 +2217,12 @@ class TarotAppController {
     
     startDrawMode() {
         this.showElement('deckContainer');
-        this.updateInstructionText(`Draw ${this.currentSpread.cardCount} card(s) for your ${getText(this.currentSpread.name)} reading. Click the deck to draw your first card.`);
+        const instructionText = this.getUIText('instructions.draw_mode_start', {
+            cardCount: this.currentSpread.cardCount,
+            plural: this.currentSpread.cardCount > 1 ? 's' : '',
+            spreadName: getText(this.currentSpread.name)
+        });
+        this.updateInstructionText(instructionText);
         this.enableDeckInteraction();
         // Add ready-to-draw class to show "CLICK TO DRAW" text
         const deckCard = document.querySelector('.deck-card');
@@ -2221,7 +2259,7 @@ class TarotAppController {
         pickerDiv.innerHTML = `
             <div class="card-picker-content">
                 <div class="card-picker-header">
-                    <h3 class="text-xl font-semibold text-teal-400">Select ${cardsNeeded} Card${cardsNeeded > 1 ? 's' : ''}</h3>
+                    <h3 class="text-xl font-semibold text-teal-400">${this.getUIText('modals.card_picker_header', { cardsNeeded, plural: cardsNeeded > 1 ? 's' : '' })}</h3>
                     <p class="text-sm text-gray-300">Position: ${getText(this.currentSpread.positions[this.drawnCards.length].name)}</p>
                     <button id="closeCardPicker" class="close-picker-btn">×</button>
                 </div>
@@ -2244,7 +2282,7 @@ class TarotAppController {
                 <div class="card-picker-footer">
                     <label class="reversed-option">
                         <input type="checkbox" id="reverseCardOption">
-                        <span>Draw as reversed</span>
+                        <span>${this.getUIText('modals.card_picker_reversed_label')}</span>
                     </label>
                 </div>
             </div>

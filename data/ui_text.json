@@ -1,0 +1,86 @@
+{
+    "instructions": {
+        "select_spread": {
+            "text": "Select a spread type to begin your mystical journey",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "spread_selected": {
+            "text": "You've selected the {spreadName}. Click \"Begin Reading\" to start your journey into the cards' wisdom.",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "draw_cards": {
+            "text": "{remaining} more card{plural} to draw. Click the deck to continue your reading.",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "reading_complete": {
+            "text": "Your reading is complete! Explore the detailed meanings by clicking on individual cards, or use the analysis tools for deeper insights.",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "draw_mode_start": {
+            "text": "Draw {cardCount} card{plural} for your {spreadName} reading. Click the deck to draw your first card.",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "saved_reading_loaded": {
+            "text": "Saved reading loaded. Click on cards for detailed meanings or use the analysis tools.",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
+    },
+    "messages": {
+        "reading_saved": {
+            "text": "Reading saved successfully!",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "reading_loaded": {
+            "text": "Reading loaded successfully!",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "reading_deleted": {
+            "text": "Reading deleted successfully!",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "analysis_error": {
+            "text": "Error analyzing reading. Please try again.",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
+    },
+    "modals": {
+        "mode_selection_header": {
+            "text": "Choose Your Reading Method",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "mode_draw_title": {
+            "text": "Draw Cards",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "mode_draw_desc": {
+            "text": "Let fate guide your reading by randomly drawing cards from the deck",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "mode_manual_title": {
+            "text": "Select Cards",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "mode_manual_desc": {
+            "text": "Choose specific cards from the deck for your reading",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "card_picker_header": {
+            "text": "Select {cardsNeeded} Card{plural}",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "card_picker_reversed_label": {
+            "text": "Draw as reversed",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
+    },
+    "saved_readings": {
+        "no_readings": {
+            "text": "No saved readings yet. Complete a reading and save it to see it here.",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        "confirm_delete": {
+            "text": "Are you sure you want to delete this reading?",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
+    }
+}
