@@ -1,0 +1,154 @@
+{
+    "overview": {
+        "interpretation": { "text": "This reading shows {intensity} spiritual intensity with {personalInfluence}. The energy pattern suggests {energyFlow}, indicating the current flow of circumstances in your life.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "suits": {
+        "interpretation": { "text": "The focus is primarily on {dominantMeaning} with {dominantCount} cards from this area.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "meanings": {
+            "Major Arcana": { "text": "spiritual lessons and major life themes", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            "Wands": { "text": "career, passion, and creative energy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            "Cups": { "text": "emotions, relationships, and intuition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            "Swords": { "text": "thoughts, challenges, and communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            "Pentacles": { "text": "material matters, health, and practical concerns", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+        }
+    },
+    "energy": {
+        "blocked": { "text": "Energy is currently blocked or moving internally. This suggests a time for reflection and inner work.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "transformative": { "text": "Major transformation is occurring. This is a time of significant change and growth.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "forward": { "text": "Energy is flowing forward positively. This is a time for action and manifestation.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "jungian": {
+        "interpretation_base": { "text": "The {dominantArchetype} archetype is dominant in this reading, suggesting this energy is most active in your psyche.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_shadow": { "text": "Shadow work is indicated in {shadowCount} area(s), offering opportunities for integration and growth.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_anima": { "text": "Anima/Animus dynamics are present, suggesting themes of inner masculine/feminine balance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "collective_unconscious_present": { "text": "{majorArcanaCount} Major Arcana cards suggest strong connection to collective unconscious themes and universal patterns.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "collective_unconscious_subtle": { "text": "Connection to collective unconscious is subtle in this reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "shadow_fallback": { "text": "unexplored shadow aspects", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "anima_animus_fallback": { "text": "archetypal energy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "spiritual": {
+        "interpretation_base": { "text": "This reading reveals {lessonCount} major soul lesson(s) for your spiritual growth.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_gifts": { "text": "You have {giftCount} spiritual gift(s) available to develop.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_higher_self": { "text": "Your Higher Self is offering {messageCount} message(s) of guidance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_ascension": { "text": "Signs of spiritual ascension are present in {ascensionCount} area(s).", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "soul_lesson_fallback": { "text": "Universal spiritual growth", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "spiritual_gift_fallback": { "text": "Spiritual insight", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "higher_self_fallback": { "text": "Divine guidance is available", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "ascension_path_fallback": { "text": "Spiritual evolution", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "kabbalah": {
+        "uninitialized": { "text": "Kabbalistic analysis requires JSON database initialization.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "{pathCount} Kabbalistic paths are active, connecting to {sephirothCount} sephiroth. The Tree of Life energy flows through these channels to provide guidance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "chakras": {
+        "uninitialized": { "text": "Chakra analysis requires JSON database initialization.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "{dominantChakra} chakra is most activated in this reading. Energy flows through {cardCount} card{plural} to guide your spiritual alignment.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "archetypes": {
+        "primary": { "text": "Hero's Journey theme detected", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "mythological": { "text": "Greek/Roman mythological influences", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "Archetypal patterns suggest personal transformation journey.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "timing": {
+        "seasonal": { "text": "Spring energy - new beginnings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "lunar": { "text": "Waxing moon - growth phase", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "planetary": { "text": "Mercury influence - communication focus", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "Timing suggests favorable period for new ventures.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "karma": {
+        "debts": { "text": "Past relationship patterns need resolution", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "past_life": { "text": "Creative talents from previous incarnations", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "contracts": { "text": "Soul agreements with close relationships", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "dharma": { "text": "Teaching and healing path indicated", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "Karmic patterns suggest completion of old cycles and beginning of new soul contracts.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "elemental_dignities": {
+        "remedy_fire": { "text": "physical activity, creative projects, or candle meditation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "remedy_water": { "text": "emotional expression, water rituals, or moon gazing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "remedy_air": { "text": "breathwork, journaling, or intellectual pursuits", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "remedy_earth": { "text": "grounding exercises, nature walks, or crystal work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "remedy_fallback": { "text": "elemental balancing practices", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "astrology": {
+        "uninitialized": { "text": "Astrological transit analysis requires JSON database initialization.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "{cardCount} cards carry astrological energies. Current lunar phase: {lunarPhase}. The cosmic energies support the themes revealed in this reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "sacred_geometry": {
+        "interpretation": { "text": "Sacred geometry reveals divine patterns through {cardCount} cards. Golden ratio relationships and geometric harmonies guide this reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "symbolism": {
+        "interpretation": { "text": "Deep symbolism reveals {cardCount} layers of meaning through archetypal, elemental, and color symbolism patterns.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "interactions": {
+        "interpretation": { "text": "Card interactions reveal {connectionCount} connections and dynamic relationships between the cards in this reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "shadow_work": {
+        "interpretation": { "text": "Shadow work reveals {aspectCount} shadow aspects and integration opportunities for psychological growth.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "alchemy": {
+        "interpretation": { "text": "Alchemical analysis reveals transformation through {stageCount} alchemical stages.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "mythology": {
+        "interpretation": { "text": "Mythological analysis reveals {heroJourneyCount} hero's journey elements, {goddessCount} goddess archetypes, and {godCount} god archetypes.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "quantum": {
+        "interpretation": { "text": "Quantum field analysis reveals {superpositionCount} superposition states and quantum entanglement patterns across the reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "cross_cultural": {
+        "uninitialized": { "text": "Cross-cultural analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading shows personal themes that may not have strong cross-cultural symbolic resonance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "This reading contains {symbolCount} universal symbols that resonate across cultures:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "themes_present": { "text": "Universal archetypal themes present: {themes}.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "dream": {
+        "uninitialized": { "text": "Dream analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading may not have strong connections to dream symbolism or subconscious messaging.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "From a dream symbolism perspective:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "themes_present": { "text": "Collective unconscious themes: {themes}.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "nature": {
+        "uninitialized": { "text": "Natural correspondences require JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading shows primarily human-centered themes without strong natural world connections.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Natural world connections in this reading:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "healing": {
+        "uninitialized": { "text": "Therapeutic analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading may focus more on external circumstances than inner healing processes.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Therapeutic and healing insights:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "professional": {
+        "uninitialized": { "text": "Professional analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "fallback": { "text": "Apply standard professional reading techniques with attention to client comfort and clarity.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Professional reading guidance:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "technique_title": { "text": "Recommended Technique: {technique}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "dynamics_title": { "text": "Client Dynamics: {guidance}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "context": {
+        "uninitialized": { "text": "Context analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Reading Context Analysis:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "complexity_line": { "text": "Complexity Level: {complexity}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "coherence_line": { "text": "Thematic Coherence: {coherence}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "flow_line": { "text": "Narrative Flow: {flow}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "complexity_high": { "text": "This reading addresses complex, multi-layered life situations requiring careful interpretation.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "complexity_low": { "text": "This reading focuses on straightforward, practical matters with clear guidance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "spreads": {
+        "uninitialized": { "text": "Spread analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "{spreadType} Spread Analysis:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "mastery_technique": { "text": "Mastery Technique: {technique}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "position_interactions_title": { "text": "Position Interactions:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "mystical": {
+        "uninitialized": { "text": "Mystical analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading speaks to practical matters rather than mystical revelation.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Mystical and Oracular Guidance:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "oracle_guidance": { "text": "Oracle Guidance: {guidance}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "transcendent_wisdom": { "text": "Transcendent Wisdom: {wisdom}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "applications": {
+        "uninitialized": { "text": "Application analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "fallback": { "text": "Apply standard tarot wisdom to your current circumstances with mindful awareness.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Comprehensive Life Applications:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "insight_line": { "text": "{category}: {insight}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    }
+}
