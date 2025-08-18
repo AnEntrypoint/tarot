@@ -54,7 +54,9 @@ class TarotDataLoader {
             'comprehensive_applications',
             'professional_reading_mastery',
             'master_reference_compendium',
-            'positional_contexts'
+            'positional_contexts',
+            'ui_text',
+            'analysis_text'
         ];
 
         const loadPromises = dataSources.map(source => this._loadJSONFile(source));
