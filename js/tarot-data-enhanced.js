@@ -2123,6 +2123,9 @@ const completeTarotDeck = [
 // Use the complete deck as the main tarot cards export
 const tarotCards = completeTarotDeck;
 
+// Make tarotCards available globally
+window.tarotCards = tarotCards;
+
 // Minor Arcana structure with similar depth
 const minorArcana = {
     wands: {

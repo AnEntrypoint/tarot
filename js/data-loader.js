@@ -56,7 +56,9 @@ class TarotDataLoader {
             'master_reference_compendium',
             'positional_contexts',
             'ui_text',
-            'analysis_text'
+            'analysis_text',
+            'psychological_aspects',
+            'spiritual_messages'
         ];
 
         const loadPromises = dataSources.map(source => this._loadJSONFile(source));
