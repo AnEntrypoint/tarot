@@ -1,86 +1,63 @@
 {
     "instructions": {
-        "select_spread": {
-            "text": "Select a spread type to begin your mystical journey",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "spread_selected": {
-            "text": "You've selected the {spreadName}. Click \"Begin Reading\" to start your journey into the cards' wisdom.",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "draw_cards": {
-            "text": "{remaining} more card{plural} to draw. Click the deck to continue your reading.",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "reading_complete": {
-            "text": "Your reading is complete! Explore the detailed meanings by clicking on individual cards, or use the analysis tools for deeper insights.",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "draw_mode_start": {
-            "text": "Draw {cardCount} card{plural} for your {spreadName} reading. Click the deck to draw your first card.",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "saved_reading_loaded": {
-            "text": "Saved reading loaded. Click on cards for detailed meanings or use the analysis tools.",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        }
+        "select_spread": { "text": "Select a spread type to begin your mystical journey", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "spread_selected": { "text": "You've selected the {spreadName}. Click \"Begin Reading\" to start your journey into the cards' wisdom.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "draw_cards": { "text": "{remaining} more card{plural} to draw. Click the deck to continue your reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reading_complete": { "text": "Your reading is complete! Explore the detailed meanings by clicking on individual cards, or use the analysis tools for deeper insights.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "draw_mode_start": { "text": "Draw {cardCount} card{plural} for your {spreadName} reading. Click the deck to draw your first card.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "saved_reading_loaded": { "text": "Saved reading loaded. Click on cards for detailed meanings or use the analysis tools.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
     },
     "messages": {
-        "reading_saved": {
-            "text": "Reading saved successfully!",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "reading_loaded": {
-            "text": "Reading loaded successfully!",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "reading_deleted": {
-            "text": "Reading deleted successfully!",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "analysis_error": {
-            "text": "Error analyzing reading. Please try again.",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        }
+        "reading_saved": { "text": "Reading saved successfully!", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reading_loaded": { "text": "Reading loaded successfully!", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reading_deleted": { "text": "Reading deleted successfully!", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "analysis_error": { "text": "Error analyzing reading. Please try again.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
     },
     "modals": {
-        "mode_selection_header": {
-            "text": "Choose Your Reading Method",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "mode_draw_title": {
-            "text": "Draw Cards",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "mode_draw_desc": {
-            "text": "Let fate guide your reading by randomly drawing cards from the deck",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "mode_manual_title": {
-            "text": "Select Cards",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "mode_manual_desc": {
-            "text": "Choose specific cards from the deck for your reading",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "card_picker_header": {
-            "text": "Select {cardsNeeded} Card{plural}",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "card_picker_reversed_label": {
-            "text": "Draw as reversed",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        }
+        "mode_selection_header": { "text": "Choose Your Reading Method", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "mode_draw_title": { "text": "Draw Cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "mode_draw_desc": { "text": "Let fate guide your reading by randomly drawing cards from the deck", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "mode_manual_title": { "text": "Select Cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "mode_manual_desc": { "text": "Choose specific cards from the deck for your reading", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "card_picker_header": { "text": "Select {cardsNeeded} Card{plural}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "card_picker_reversed_label": { "text": "Draw as reversed", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "card_picker_position_label": { "text": "Position: {positionName}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "card_picker_used_label": { "text": "Used", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
     },
     "saved_readings": {
-        "no_readings": {
-            "text": "No saved readings yet. Complete a reading and save it to see it here.",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        },
-        "confirm_delete": {
-            "text": "Are you sure you want to delete this reading?",
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
-        }
+        "no_readings": { "text": "No saved readings yet. Complete a reading and save it to see it here.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "confirm_delete": { "text": "Are you sure you want to delete this reading?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "cards_drawn_label": { "text": "{cardCount} cards drawn", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "load_button": { "text": "Load", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "delete_button": { "text": "Delete", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "card_rendering": {
+        "reversed_suffix": { "text": " (Reversed)", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "stats_labels": {
+        "major_arcana": { "text": "Major Arcana", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reversed": { "text": "Reversed", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "dominant_element": { "text": "Dominant Element", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energy_level": { "text": "Energy Level", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "detailed_card_analysis": { "text": "Detailed Card Analysis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "primary_meaning": { "text": "Primary Meaning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "position_specific_interpretation": { "text": "Position-Specific Interpretation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "keywords": { "text": "Keywords", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence": { "text": "Energetic Influence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "psychological_aspect": { "text": "Psychological Aspect", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "spiritual_message": { "text": "Spiritual Message", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reversed_significance": { "text": "Reversed Significance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "templates": {
+        "position_specific_meaning": { "text": "In the {positionName} position, {cardName} specifically addresses {positionContext}. {meaningText}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence_base": { "text": "This card radiates {element} energy, ", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence_major": { "text": "carrying universal archetypal power that operates beyond personal will.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence_wands": { "text": "igniting passion and creative fire within your spirit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence_cups": { "text": "opening emotional depths and enhancing intuitive receptivity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence_swords": { "text": "sharpening mental clarity and cutting through illusion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence_pentacles": { "text": "grounding aspirations into tangible, practical reality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence_fallback": { "text": "bringing specific directional energy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_influence_reversed": { "text": " The reversed orientation suggests this energy is internalized, blocked, or in transition.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reversed_significance": { "text": "The reversed orientation of {cardName} indicates that its energy is operating internally, suggesting a need for inner work, patience, or a different approach than the upright meaning would suggest. This may represent blocked energy, shadow work, or a period of gestation before external manifestation.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
     }
 }

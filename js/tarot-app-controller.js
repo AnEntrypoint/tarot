@@ -14,6 +14,9 @@ class TarotAppController {
         this.readingMode = 'draw'; // 'draw' or 'manual'
         this.cardSelectionInProgress = false;
         this.uiText = {};
+        this.positionalContexts = {};
+        this.psychologicalAspects = {};
+        this.spiritualMessages = {};
         
         this.initializeEventListeners();
     }
@@ -22,6 +25,9 @@ class TarotAppController {
         // Wait for data to be loaded before initializing UI
         window.addEventListener('tarotDataLoaded', () => {
             this.uiText = window.tarotDataLoader.getData('ui_text');
+            this.positionalContexts = window.tarotDataLoader.getData('positional_contexts');
+            this.psychologicalAspects = window.tarotDataLoader.getData('psychological_aspects');
+            this.spiritualMessages = window.tarotDataLoader.getData('spiritual_messages');
             this.loadSavedReadings();
             this.initializeUI();
         });
@@ -67,7 +73,7 @@ class TarotAppController {
         
         // Get spread configuration
         const spreadType = option.dataset.spread;
-        this.currentSpread = { ...spreads[spreadType], type: spreadType };
+        this.currentSpread = Object.assign({}, spreads[spreadType], { type: spreadType });
         
         // Update UI
         this.showButton('startReadingBtn');
@@ -227,25 +233,25 @@ class TarotAppController {
                 <div class="reading-stats grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
                     <div class="stat-card">
                         <span class="stat-value">${this.drawnCards.filter(c => c.suit === 'Major Arcana').length}</span>
-                        <span class="stat-label">Major Arcana</span>
+                        <span class="stat-label">${this.getUIText('stats_labels.major_arcana')}</span>
                     </div>
                     <div class="stat-card">
                         <span class="stat-value">${this.drawnCards.filter(c => c.isReversed).length}</span>
-                        <span class="stat-label">Reversed</span>
+                        <span class="stat-label">${this.getUIText('stats_labels.reversed')}</span>
                     </div>
                     <div class="stat-card">
                         <span class="stat-value">${elementalStats.dominant}</span>
-                        <span class="stat-label">Dominant Element</span>
+                        <span class="stat-label">${this.getUIText('stats_labels.dominant_element')}</span>
                     </div>
                     <div class="stat-card">
                         <span class="stat-value">${energeticStats.overall}</span>
-                        <span class="stat-label">Energy Level</span>
+                        <span class="stat-label">${this.getUIText('stats_labels.energy_level')}</span>
                     </div>
                 </div>
             </div>
             
             <div class="cards-overview">
-                <h5 class="font-semibold text-purple-300 mb-4">Detailed Card Analysis</h5>
+                <h5 class="font-semibold text-purple-300 mb-4">${this.getUIText('stats_labels.detailed_card_analysis')}</h5>
                 <div class="grid grid-cols-1 gap-4">
         `;
         
@@ -268,7 +274,7 @@ class TarotAppController {
                     
                     <div class="card-main-info">
                         <div class="card-name-section">
-                            <p class="font-medium text-white text-lg">${card.name}${card.isReversed ? ' (Reversed)' : ''}</p>
+                            <p class="font-medium text-white text-lg">${card.name}${card.isReversed ? this.getUIText('card_rendering.reversed_suffix') : ''}</p>
                             <div class="card-metadata">
                                 <span class="metadata-item">${card.suit}</span>
                                 ${card.number ? `<span class="metadata-item">Number ${card.number}</span>` : ''}
@@ -279,40 +285,40 @@ class TarotAppController {
                         
                         <div class="card-analysis-grid">
                             <div class="analysis-section">
-                                <h6 class="analysis-title">Primary Meaning</h6>
+                                <h6 class="analysis-title">${this.getUIText('stats_labels.primary_meaning')}</h6>
                                 <p class="text-sm text-gray-300">${cardAnalysis.primaryMeaning}</p>
                             </div>
                             
                             <div class="analysis-section">
-                                <h6 class="analysis-title">Position-Specific Interpretation</h6>
+                                <h6 class="analysis-title">${this.getUIText('stats_labels.position_specific_interpretation')}</h6>
                                 <p class="text-sm text-gray-300">${cardAnalysis.positionSpecific}</p>
                             </div>
                             
                             <div class="analysis-section">
-                                <h6 class="analysis-title">Keywords</h6>
+                                <h6 class="analysis-title">${this.getUIText('stats_labels.keywords')}</h6>
                                 <div class="keywords-list">
                                     ${cardAnalysis.keywords.map(kw => `<span class="keyword-tag">${kw}</span>`).join('')}
                                 </div>
                             </div>
                             
                             <div class="analysis-section">
-                                <h6 class="analysis-title">Energetic Influence</h6>
+                                <h6 class="analysis-title">${this.getUIText('stats_labels.energetic_influence')}</h6>
                                 <p class="text-sm text-gray-300">${cardAnalysis.energeticInfluence}</p>
                             </div>
                             
                             <div class="analysis-section">
-                                <h6 class="analysis-title">Psychological Aspect</h6>
+                                <h6 class="analysis-title">${this.getUIText('stats_labels.psychological_aspect')}</h6>
                                 <p class="text-sm text-gray-300">${cardAnalysis.psychological}</p>
                             </div>
                             
                             <div class="analysis-section">
-                                <h6 class="analysis-title">Spiritual Message</h6>
+                                <h6 class="analysis-title">${this.getUIText('stats_labels.spiritual_message')}</h6>
                                 <p class="text-sm text-gray-300">${cardAnalysis.spiritual}</p>
                             </div>
                             
                             ${card.isReversed ? `
                                 <div class="analysis-section reversed-analysis">
-                                    <h6 class="analysis-title">Reversed Significance</h6>
+                                    <h6 class="analysis-title">${this.getUIText('stats_labels.reversed_significance')}</h6>
                                     <p class="text-sm text-gray-300">${cardAnalysis.reversedSignificance}</p>
                                 </div>
                             ` : ''}
@@ -327,11 +333,11 @@ class TarotAppController {
             </div>
             
             <div class="comprehensive-insights mt-8">
-                <h5 class="font-semibold text-purple-300 mb-4">Comprehensive Reading Insights</h5>
+                <h5 class="font-semibold text-purple-300 mb-4">${this.getUIText('insights_titles.comprehensive')}</h5>
                 
                 <div class="insights-grid">
                     <div class="insight-section">
-                        <h6 class="insight-title">Elemental Analysis</h6>
+                        <h6 class="insight-title">${this.getUIText('insights_titles.elemental_analysis')}</h6>
                         <p class="text-sm text-gray-300">${elementalStats.analysis}</p>
                         <div class="element-breakdown">
                             ${Object.entries(elementalStats.breakdown).map(([element, count]) => 
@@ -345,7 +351,7 @@ class TarotAppController {
                     </div>
                     
                     <div class="insight-section">
-                        <h6 class="insight-title">Numerical Significance</h6>
+                        <h6 class="insight-title">${this.getUIText('insights_titles.numerical_significance')}</h6>
                         <p class="text-sm text-gray-300">${numericalStats.analysis}</p>
                         <div class="numerical-patterns">
                             ${numericalStats.patterns.map(pattern => 
@@ -355,7 +361,7 @@ class TarotAppController {
                     </div>
                     
                     <div class="insight-section">
-                        <h6 class="insight-title">Energetic Flow</h6>
+                        <h6 class="insight-title">${this.getUIText('insights_titles.energetic_flow')}</h6>
                         <p class="text-sm text-gray-300">${energeticStats.analysis}</p>
                         <div class="energy-flow-map">
                             ${this.drawnCards.map((card, i) => 
@@ -368,12 +374,12 @@ class TarotAppController {
                     </div>
                     
                     <div class="insight-section full-width">
-                        <h6 class="insight-title">Overall Reading Synthesis</h6>
+                        <h6 class="insight-title">${this.getUIText('insights_titles.overall_synthesis')}</h6>
                         <p class="text-gray-300">${this.generateComprehensiveInsight()}</p>
                     </div>
                     
                     <div class="insight-section full-width">
-                        <h6 class="insight-title">Practical Guidance</h6>
+                        <h6 class="insight-title">${this.getUIText('insights_titles.practical_guidance')}</h6>
                         <div class="guidance-list">
                             ${this.generatePracticalGuidance().map(guidance => 
                                 `<div class="guidance-item">
@@ -385,7 +391,7 @@ class TarotAppController {
                     </div>
                     
                     <div class="insight-section full-width">
-                        <h6 class="insight-title">Questions for Reflection</h6>
+                        <h6 class="insight-title">${this.getUIText('insights_titles.reflection_questions')}</h6>
                         <div class="reflection-questions">
                             ${this.generateReflectionQuestions().map(question => 
                                 `<div class="reflection-question">
@@ -405,12 +411,12 @@ class TarotAppController {
 
     getCardSummary(card) {
         const meaning = card.isReversed ? card.meanings.reversed.general : card.meanings.upright.general;
-        return meaning.substring(0, 120) + '...';
+        return meaning.substring(0, 120) + this.getUIText('general.truncation_suffix');
     }
 
     getElementalStats() {
         const breakdown = {};
-        let dominant = 'Balanced';
+        let dominant = this.getUIText('stats_labels.balanced');
         let maxCount = 0;
         
         this.drawnCards.forEach(card => {
@@ -453,20 +459,23 @@ class TarotAppController {
         if (currentSeq.length > 1) sequences.push(currentSeq);
         
         if (sequences.length > 0) {
-            patterns.push(`Sequential pattern: ${sequences.map(seq => seq.join('-')).join(', ')}`);
+            patterns.push(this.getUIText('numerical_stats.sequential_pattern', { sequences: sequences.map(seq => seq.join('-')).join(', ') }));
         }
         
-        patterns.push(`Average numerical value: ${average}`);
-        patterns.push(`Total numerical sum: ${sum}`);
+        patterns.push(this.getUIText('numerical_stats.average_value', { average }));
+        patterns.push(this.getUIText('numerical_stats.total_sum', { sum }));
         
         // Check for master numbers
         const masterNumbers = numbers.filter(n => [11, 22, 33].includes(n));
         if (masterNumbers.length > 0) {
-            patterns.push(`Master numbers present: ${masterNumbers.join(', ')}`);
+            patterns.push(this.getUIText('numerical_stats.master_numbers_present', { numbers: masterNumbers.join(', ') }));
         }
         
-        const analysis = `The numerical frequency suggests ${this.getNumericalFrequencyMeaning(average)}. ` +
-                        `With a total sum of ${sum}, the reading vibrates at ${this.getNumericalVibrationMeaning(sum)}.`;
+        const analysis = this.getUIText('numerical_stats.analysis', {
+            frequency_meaning: this.getNumericalFrequencyMeaning(average),
+            sum,
+            vibration_meaning: this.getNumericalVibrationMeaning(sum)
+        });
         
         return { patterns, analysis, average, sum };
     }
@@ -643,18 +652,21 @@ class TarotAppController {
         const meaningText = getText(meaningDataField);
 
         const positionNameText = renderTextWithCitation(position.name, getText(position.name));
-        const positionContextObject = this.getPositionContext(position.name, card);
-        const positionContextText = getText(positionContextObject) || 'the specific area of focus in your life';
-        const positionContextHTML = renderTextWithCitation(positionContextObject, positionContextText);
+        const truncatedMeaning = meaningText.substring(0, 150) + this.getUIText('general.truncation_suffix');
 
         // We don't add a citation to the truncated meaning here to avoid breaking HTML.
         // The full, cited meaning is available in the card detail modal.
-        return `In the ${positionNameText} position, ${card.name} specifically addresses ${positionContextHTML}. ${meaningText.substring(0, 150)}...`;
+        return this.getUIText('position_specific_meaning_template', {
+            positionName: positionNameText,
+            cardName: card.name,
+            context: this.getPositionContext(position.name, card),
+            meaning: truncatedMeaning
+        });
     }
     
     getPositionContext(positionName, card) {
-        const contexts = window.tarotDataLoader.getData('positional_contexts');
-        return contexts[positionName];
+        const contextData = this.positionalContexts[positionName] || this.positionalContexts['default'];
+        return getText(contextData);
     }
     
     getEnergeticInfluence(card) {
@@ -662,91 +674,47 @@ class TarotAppController {
         const suit = card.suit;
         const isReversed = card.isReversed;
         
-        let influence = `This card radiates ${element || 'balanced'} energy, `;
+        let influence = this.getUIText('energetic_influence.radiates_energy_template', {
+            element: element || this.getUIText('stats_labels.balanced')
+        });
         
         if (suit === 'Major Arcana') {
-            influence += 'carrying universal archetypal power that operates beyond personal will. ';
+            influence += this.getUIText('energetic_influence.major_arcana');
         } else {
-            const suitInfluences = {
-                'Wands': 'igniting passion and creative fire within your spirit',
-                'Cups': 'opening emotional depths and enhancing intuitive receptivity',
-                'Swords': 'sharpening mental clarity and cutting through illusion',
-                'Pentacles': 'grounding aspirations into tangible, practical reality'
-            };
-            influence += suitInfluences[suit] || 'bringing specific directional energy';
+            const suitKey = `energetic_influence.${suit.toLowerCase()}`;
+            influence += this.getUIText(suitKey) || this.getUIText('energetic_influence.default_suit');
         }
         
         if (isReversed) {
-            influence += ' The reversed orientation suggests this energy is internalized, blocked, or in transition.';
+            influence += this.getUIText('energetic_influence.reversed_suffix');
         }
         
         return influence;
     }
     
     getPsychologicalAspect(card) {
-        // Map to Jungian concepts
-        const majorArcanaMappe = {
-            'The Fool': 'Embracing the innocent, spontaneous aspect of the psyche',
-            'The Magician': 'Activating personal will and conscious manifestation',
-            'The High Priestess': 'Accessing the anima and intuitive wisdom',
-            'The Empress': 'Nurturing the creative, fertile aspects of consciousness',
-            'The Emperor': 'Establishing order, structure, and paternal authority',
-            'The Hierophant': 'Seeking wisdom through tradition and collective knowledge',
-            'The Lovers': 'Integrating opposites and making conscious choices',
-            'The Chariot': 'Directing willpower toward a specific goal',
-            'Strength': 'Balancing instinct with conscious control',
-            'The Hermit': 'Turning inward for self-discovery and enlightenment',
-            'Wheel of Fortune': 'Understanding cycles and surrendering to greater forces',
-            'Justice': 'Seeking balance and examining consequences',
-            'The Hanged Man': 'Surrendering ego for higher perspective',
-            'Death': 'Transforming through letting go of outdated patterns',
-            'Temperance': 'Harmonizing opposing forces within the psyche',
-            'The Devil': 'Confronting shadow aspects and material attachments',
-            'The Tower': 'Breaking through rigid mental structures',
-            'The Star': 'Connecting with hope and spiritual guidance',
-            'The Moon': 'Navigating the unconscious and facing illusions',
-            'The Sun': 'Achieving integration and conscious illumination',
-            'Judgement': 'Experiencing spiritual awakening and rebirth',
-            'The World': 'Achieving wholeness and completion of a cycle'
-        };
-        
         if (card.suit === 'Major Arcana') {
-            return majorArcanaMappe[card.name] || 'Working with archetypal energies to integrate aspects of the collective unconscious';
+            const aspectData = this.psychologicalAspects.major_arcana[card.name] || this.psychologicalAspects.defaults.major_arcana;
+            return getText(aspectData);
         }
         
-        const suitPsychology = {
-            'Wands': 'Exploring motivation, passion, and the drive for self-expression',
-            'Cups': 'Processing emotions, relationships, and the feeling function',
-            'Swords': 'Engaging with thoughts, communication, and mental challenges',
-            'Pentacles': 'Focusing on sensation, security, and material manifestation'
-        };
-        
-        return suitPsychology[card.suit] || 'Integrating practical life experiences into psychological growth';
+        const aspectData = this.psychologicalAspects.suits[card.suit] || this.psychologicalAspects.defaults.suit;
+        return getText(aspectData);
     }
     
     getSpiritualMessage(card) {
-        // Enhanced spiritual interpretations
-        const spiritualMessages = {
-            'Major Arcana': 'This card carries a message from your higher self about your spiritual evolution and soul\'s journey.',
-            'Wands': 'Your spirit calls for creative expression and passionate engagement with your life\'s purpose.',
-            'Cups': 'Divine love flows through your emotional experiences, offering healing and spiritual nourishment.',
-            'Swords': 'Truth and clarity are being revealed to cut through illusion and align with your authentic path.',
-            'Pentacles': 'The material world serves as a temple for spiritual growth and conscious manifestation.'
-        };
-        
-        let message = spiritualMessages[card.suit] || spiritualMessages['Major Arcana'];
+        const messageData = this.spiritualMessages.suits[card.suit] || this.spiritualMessages.default;
+        let message = getText(messageData);
         
         if (card.isReversed) {
-            message += ' The reversed energy suggests an invitation to look within for the spiritual lesson being offered.';
+            message += getText(this.spiritualMessages.reversed_suffix);
         }
         
         return message;
     }
     
     getReversedSignificance(card) {
-        return `The reversed orientation of ${card.name} indicates that its energy is operating internally, suggesting a need for ` +
-               `inner work, patience, or a different approach than the upright meaning would suggest. This may represent ` +
-               `blocked energy, shadow work, or a period of gestation before external manifestation.`;
+        return this.getUIText('reversed_significance_template', { cardName: card.name });
     }
     
     generateComprehensiveInsight() {
@@ -760,32 +728,27 @@ class TarotAppController {
             }
         });
         
-        let insight = 'This reading reveals ';
+        let insight = this.getUIText('comprehensive_insight.intro');
         
         if (majorArcanaCount > this.drawnCards.length / 2) {
-            insight += 'a powerful spiritual awakening and major life themes demanding attention. The universe is actively guiding you through significant transformations. ';
+            insight += this.getUIText('comprehensive_insight.major_arcana_dominant');
         } else if (majorArcanaCount === 0) {
-            insight += 'a focus on practical, day-to-day matters and personal development within your current life circumstances. ';
+            insight += this.getUIText('comprehensive_insight.major_arcana_none');
         } else {
-            insight += 'a balanced blend of spiritual guidance and practical considerations, suggesting both inner work and outer action are needed. ';
+            insight += this.getUIText('comprehensive_insight.major_arcana_balanced');
         }
         
         if (reversedCount > this.drawnCards.length / 2) {
-            insight += 'The predominance of reversed cards indicates a time of internal processing, reflection, and shadow work. ';
+            insight += this.getUIText('comprehensive_insight.reversed_dominant');
         }
         
         const dominantElement = Object.entries(elements).sort(([,a], [,b]) => b - a)[0];
         if (dominantElement) {
-            const elementInsights = {
-                'Fire': 'Your path forward requires courage, creativity, and bold action.',
-                'Water': 'Trust your intuition and allow emotions to guide you toward healing.',
-                'Air': 'Mental clarity and honest communication will illuminate your way.',
-                'Earth': 'Focus on practical steps and building solid foundations for lasting success.'
-            };
-            insight += elementInsights[dominantElement[0]] || '';
+            const elementKey = `comprehensive_insight.elemental_${dominantElement[0].toLowerCase()}`;
+            insight += this.getUIText(elementKey) || '';
         }
         
-        insight += ' This reading encourages you to integrate all aspects of your experience—spiritual, emotional, mental, and physical—for holistic growth and authentic self-expression.';
+        insight += this.getUIText('comprehensive_insight.conclusion');
         
         return insight;
     }
@@ -803,32 +766,27 @@ class TarotAppController {
         // Element-based guidance
         Object.entries(elements).forEach(([element, count]) => {
             if (count >= 2) {
-                const elementGuidance = {
-                    'Fire': 'Take bold action on your creative projects and trust your passionate impulses.',
-                    'Water': 'Honor your emotional needs and create space for intuitive reflection.',
-                    'Air': 'Engage in meaningful conversations and seek new learning opportunities.',
-                    'Earth': 'Focus on practical steps, financial planning, and physical wellness.'
-                };
-                guidance.push(elementGuidance[element]);
+                const elementKey = `practical_guidance.${element.toLowerCase()}`;
+                guidance.push(this.getUIText(elementKey));
             }
         });
         
         // Reversed card guidance
         const reversedCount = this.drawnCards.filter(c => c.isReversed).length;
         if (reversedCount > 0) {
-            guidance.push('Practice patience and self-reflection before taking major external actions.');
+            guidance.push(this.getUIText('practical_guidance.reversed'));
         }
         
         // Major Arcana guidance
         const majorCount = this.drawnCards.filter(c => c.suit === 'Major Arcana').length;
         if (majorCount > 0) {
-            guidance.push('Pay attention to synchronicities and spiritual signs guiding your path.');
+            guidance.push(this.getUIText('practical_guidance.major_arcana'));
         }
         
         // Default guidance
         if (guidance.length === 0) {
-            guidance.push('Trust the process and remain open to unexpected opportunities.');
-            guidance.push('Balance action with reflection for optimal results.');
+            guidance.push(this.getUIText('practical_guidance.default1'));
+            guidance.push(this.getUIText('practical_guidance.default2'));
         }
         
         return guidance;
@@ -844,40 +802,40 @@ class TarotAppController {
         });
         
         if (themes.has('Major Arcana')) {
-            questions.push('What major life lesson is the universe trying to teach me right now?');
-            questions.push('How can I align more closely with my soul\'s purpose?');
+            questions.push(this.getUIText('reflection_questions.major_arcana1'));
+            questions.push(this.getUIText('reflection_questions.major_arcana2'));
         }
         
         if (themes.has('Wands')) {
-            questions.push('What creative project or passion deserves more of my energy?');
-            questions.push('Where in my life do I need to take more initiative?');
+            questions.push(this.getUIText('reflection_questions.wands1'));
+            questions.push(this.getUIText('reflection_questions.wands2'));
         }
         
         if (themes.has('Cups')) {
-            questions.push('What emotions am I avoiding that need to be felt and healed?');
-            questions.push('How can I nurture my relationships and emotional well-being?');
+            questions.push(this.getUIText('reflection_questions.cups1'));
+            questions.push(this.getUIText('reflection_questions.cups2'));
         }
         
         if (themes.has('Swords')) {
-            questions.push('What mental patterns or beliefs need to be examined and possibly released?');
-            questions.push('Where do I need more clarity or honest communication in my life?');
+            questions.push(this.getUIText('reflection_questions.swords1'));
+            questions.push(this.getUIText('reflection_questions.swords2'));
         }
         
         if (themes.has('Pentacles')) {
-            questions.push('How can I better manifest my goals in the physical world?');
-            questions.push('What practical steps will move me toward greater security and abundance?');
+            questions.push(this.getUIText('reflection_questions.pentacles1'));
+            questions.push(this.getUIText('reflection_questions.pentacles2'));
         }
         
         if (themes.has('shadow')) {
-            questions.push('What hidden aspects of myself are seeking integration and acceptance?');
-            questions.push('How might current challenges be gifts in disguise?');
+            questions.push(this.getUIText('reflection_questions.shadow1'));
+            questions.push(this.getUIText('reflection_questions.shadow2'));
         }
         
         // Ensure we have at least 3 questions
         if (questions.length < 3) {
-            questions.push('What is my highest priority for personal growth right now?');
-            questions.push('How can I trust my inner wisdom more fully?');
-            questions.push('What would love do in this situation?');
+            questions.push(this.getUIText('reflection_questions.default1'));
+            questions.push(this.getUIText('reflection_questions.default2'));
+            questions.push(this.getUIText('reflection_questions.default3'));
         }
         
         return questions.slice(0, 5); // Return max 5 questions
@@ -940,7 +898,7 @@ class TarotAppController {
             this.showElement('analysisPanel');
         } catch (error) {
             console.error('Error analyzing reading:', error);
-            alert(this.getUIText('messages.analysis_error'));
+            alert('Error analyzing reading. Please try again.');
         }
     }
 
@@ -1878,7 +1836,7 @@ class TarotAppController {
         this.loadSavedReadings();
         
         // Show success message
-        this.showTemporaryMessage(this.getUIText('messages.reading_saved'), 'success');
+        this.showTemporaryMessage('Reading saved successfully!', 'success');
     }
 
     loadSavedReadings() {
@@ -1886,7 +1844,7 @@ class TarotAppController {
         if (!container) return;
 
         if (this.savedReadings.length === 0) {
-            container.innerHTML = `<p class="text-gray-400 text-center py-8">${this.getUIText('saved_readings.no_readings')}</p>`;
+            container.innerHTML = '<p class="text-gray-400 text-center py-8">No saved readings yet. Complete a reading and save it to see it here.</p>';
             return;
         }
 
@@ -1941,7 +1899,7 @@ class TarotAppController {
             this.displayAnalysis();
         }
         
-        this.showTemporaryMessage(this.getUIText('messages.reading_loaded'), 'success');
+        this.showTemporaryMessage('Reading loaded successfully!', 'success');
     }
 
     displaySavedReading() {
@@ -1974,17 +1932,17 @@ class TarotAppController {
         this.generateReadingSummary();
         
         // Update instruction
-        this.updateInstructionText(this.getUIText('instructions.saved_reading_loaded'));
+        this.updateInstructionText("Saved reading loaded. Click on cards for detailed meanings or use the analysis tools.");
     }
 
     deleteSavedReading(readingId) {
-        if (!confirm(this.getUIText('saved_readings.confirm_delete'))) return;
+        if (!confirm('Are you sure you want to delete this reading?')) return;
         
         this.savedReadings = this.savedReadings.filter(r => r.id !== readingId);
         localStorage.setItem('tarotReadings', JSON.stringify(this.savedReadings));
         this.loadSavedReadings();
         
-        this.showTemporaryMessage(this.getUIText('messages.reading_deleted'), 'success');
+        this.showTemporaryMessage('Reading deleted successfully!', 'success');
     }
 
     resetReading() {
@@ -2010,7 +1968,7 @@ class TarotAppController {
         // Clear selections
         document.querySelectorAll('.spread-option').forEach(opt => opt.classList.remove('selected'));
         
-        this.updateInstructionText(this.getUIText('instructions.select_spread'));
+        this.updateInstructionText("Select a spread type to begin your mystical journey");
     }
 
     shuffleDeck(deck) {
@@ -2175,17 +2133,17 @@ class TarotAppController {
         modalDiv.className = 'mode-selection-modal';
         modalDiv.innerHTML = `
             <div class="mode-selection-content">
-                <h3 class="text-xl font-semibold mb-4 text-teal-400">${this.getUIText('modals.mode_selection_header')}</h3>
+                <h3 class="text-xl font-semibold mb-4 text-teal-400">Choose Your Reading Method</h3>
                 <div class="mode-options">
                     <button class="mode-option-btn" data-mode="draw">
                         <div class="mode-icon">🎴</div>
-                        <h4 class="text-lg font-semibold mb-2">${this.getUIText('modals.mode_draw_title')}</h4>
-                        <p class="text-sm text-gray-300">${this.getUIText('modals.mode_draw_desc')}</p>
+                        <h4 class="text-lg font-semibold mb-2">Draw Cards</h4>
+                        <p class="text-sm text-gray-300">Let fate guide your reading by randomly drawing cards from the deck</p>
                     </button>
                     <button class="mode-option-btn" data-mode="manual">
                         <div class="mode-icon">🔮</div>
-                        <h4 class="text-lg font-semibold mb-2">${this.getUIText('modals.mode_manual_title')}</h4>
-                        <p class="text-sm text-gray-300">${this.getUIText('modals.mode_manual_desc')}</p>
+                        <h4 class="text-lg font-semibold mb-2">Select Cards</h4>
+                        <p class="text-sm text-gray-300">Choose specific cards from the deck for your reading</p>
                     </button>
                 </div>
             </div>
@@ -2217,12 +2175,7 @@ class TarotAppController {
     
     startDrawMode() {
         this.showElement('deckContainer');
-        const instructionText = this.getUIText('instructions.draw_mode_start', {
-            cardCount: this.currentSpread.cardCount,
-            plural: this.currentSpread.cardCount > 1 ? 's' : '',
-            spreadName: getText(this.currentSpread.name)
-        });
-        this.updateInstructionText(instructionText);
+        this.updateInstructionText(`Draw ${this.currentSpread.cardCount} card(s) for your ${getText(this.currentSpread.name)} reading. Click the deck to draw your first card.`);
         this.enableDeckInteraction();
         // Add ready-to-draw class to show "CLICK TO DRAW" text
         const deckCard = document.querySelector('.deck-card');
@@ -2259,7 +2212,7 @@ class TarotAppController {
         pickerDiv.innerHTML = `
             <div class="card-picker-content">
                 <div class="card-picker-header">
-                    <h3 class="text-xl font-semibold text-teal-400">${this.getUIText('modals.card_picker_header', { cardsNeeded, plural: cardsNeeded > 1 ? 's' : '' })}</h3>
+                    <h3 class="text-xl font-semibold text-teal-400">Select ${cardsNeeded} Card${cardsNeeded > 1 ? 's' : ''}</h3>
                     <p class="text-sm text-gray-300">Position: ${getText(this.currentSpread.positions[this.drawnCards.length].name)}</p>
                     <button id="closeCardPicker" class="close-picker-btn">×</button>
                 </div>
@@ -2282,7 +2235,7 @@ class TarotAppController {
                 <div class="card-picker-footer">
                     <label class="reversed-option">
                         <input type="checkbox" id="reverseCardOption">
-                        <span>${this.getUIText('modals.card_picker_reversed_label')}</span>
+                        <span>Draw as reversed</span>
                     </label>
                 </div>
             </div>
