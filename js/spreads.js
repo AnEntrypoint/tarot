@@ -95,3 +95,6 @@ const advancedSpreads = {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { spreads, advancedSpreads };
 }
+
+// Make spreads available globally for the controller
+window.spreads = spreads;
