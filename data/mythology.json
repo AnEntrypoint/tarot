@@ -8,8 +8,14 @@
       "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
       "text": "A hero ventures forth from the world of common day into a region of supernatural wonder: fabulous forces are there encountered and a decisive victory is won."
     },
-    "author": "Joseph Campbell",
-    "source": "The Hero with a Thousand Faces",
+    "author": {
+      "text": "Joseph Campbell",
+      "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+    },
+    "source": {
+      "text": "The Hero with a Thousand Faces",
+      "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+    },
     "stages": {
       "ordinary_world": {
         "tarot_cards": [
@@ -32,15 +38,15 @@
         },
         "mythological_examples": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Bilbo in the Shire"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Luke on Tatooine"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Dorothy in Kansas"
           }
         ],
@@ -70,12 +76,18 @@
           "text": "Emergence of new consciousness"
         },
         "mythological_examples": [
-          "Gandalf's visit",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Gandalf's visit",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Princess Leia's message"
           },
-          "Tornado approaching"
+          {
+            "text": "Tornado approaching",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          }
         ],
         "challenges": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -106,12 +118,18 @@
           "text": "Ego resistance to transformation"
         },
         "mythological_examples": [
-          "Bilbo's reluctance",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Bilbo's reluctance",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Luke's initial refusal"
           },
-          "Dorothy's disbelief"
+          {
+            "text": "Dorothy's disbelief",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          }
         ],
         "challenges": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -136,10 +154,16 @@
           "text": "Connection with inner wisdom"
         },
         "mythological_examples": [
-          "Gandalf",
-          "Obi-Wan Kenobi",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Gandalf",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "Obi-Wan Kenobi",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Glinda the Good Witch"
           }
         ],
@@ -169,9 +193,18 @@
           "text": "Commitment to transformation"
         },
         "mythological_examples": [
-          "Leaving Bag End",
-          "Leaving Tatooine",
-          "Entering Oz"
+          {
+            "text": "Leaving Bag End",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "Leaving Tatooine",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "Entering Oz",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          }
         ],
         "challenges": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -207,12 +240,15 @@
         },
         "mythological_examples": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Moria and Rivendell"
           },
-          "Cantina scene",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Cantina scene",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Meeting Scarecrow, Tin Man, Lion"
           }
         ],
@@ -242,12 +278,18 @@
           "text": "Confronting deepest fears"
         },
         "mythological_examples": [
-          "Approaching Mordor",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Approaching Mordor",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Death Star approach"
           },
-          "Witch's castle"
+          {
+            "text": "Witch's castle",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          }
         ],
         "challenges": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -272,13 +314,16 @@
           "text": "Ego death and transformation"
         },
         "mythological_examples": [
-          "Mount Doom",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Mount Doom",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Death Star battle"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Melting the witch"
           }
         ],
@@ -308,12 +353,18 @@
           "text": "Integration of new consciousness"
         },
         "mythological_examples": [
-          "Ring destroyed",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Ring destroyed",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Death Star destroyed"
           },
-          "Ruby slippers"
+          {
+            "text": "Ruby slippers",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          }
         ],
         "challenges": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -345,12 +396,15 @@
         },
         "mythological_examples": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Return to Shire"
           },
-          "Rebel escape",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Rebel escape",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Return to Kansas"
           }
         ],
@@ -380,9 +434,18 @@
           "text": "Final integration and rebirth"
         },
         "mythological_examples": [
-          "Frodo's sacrifice",
-          "Luke's forgiveness",
-          "Dorothy's awakening"
+          {
+            "text": "Frodo's sacrifice",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "Luke's forgiveness",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "Dorothy's awakening",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          }
         ],
         "challenges": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -410,10 +473,16 @@
           "text": "Service from integrated wisdom"
         },
         "mythological_examples": [
-          "Shire restoration",
-          "New Republic",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Shire restoration",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "text": "New Republic",
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+          },
+          {
+            "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
             "text": "Appreciation of home"
           }
         ],
@@ -437,8 +506,14 @@
       "citation_key": "Carl_Gustav_Jung-Commentary_on_The_Secret_of_the_Golden_Flower",
       "text": "The gods have become diseases; Zeus no longer rules Olympus but rather the solar plexus."
     },
-    "author": "Carl Gustav Jung",
-    "source": "Commentary on The Secret of the Golden Flower",
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-Commentary_on_The_Secret_of_the_Golden_Flower"
+    },
+    "source": {
+      "text": "Commentary on The Secret of the Golden Flower",
+      "citation_key": "Carl_Gustav_Jung-Commentary_on_The_Secret_of_the_Golden_Flower"
+    },
     "creator_god": {
       "tarot_cards": [
         "The Magician",
@@ -448,43 +523,112 @@
         }
       ],
       "universal_names": [
-        "Brahma",
-        "Ptah",
-        "Quetzalcoatl",
-        "Odin",
-        "Atum"
+        {
+          "text": "Brahma",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Ptah",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Quetzalcoatl",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Odin",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Atum",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Creation",
-        "Word",
-        "Manifestation",
-        "Divine Will"
+        {
+          "text": "Creation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Word",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Manifestation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Divine Will",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Creative impulse and manifestation ability"
       },
       "shadow_aspects": [
-        "Destructive creation",
-        "Megalomania",
-        "Playing God"
+        {
+          "text": "Destructive creation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Megalomania",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Playing God",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Creative visualization",
-        "Manifestation rituals",
-        "Word magic"
+        {
+          "text": "Creative visualization",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Manifestation rituals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Word magic",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Creative works",
-        "New projects",
-        "Innovation"
+        {
+          "text": "Creative works",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "New projects",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Innovation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "sacred_symbols": [
-        "Wand",
-        "Rod",
-        "Pen",
-        "Word",
-        "Light"
+        {
+          "text": "Wand",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Rod",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Pen",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Word",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Light",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "great_mother": {
@@ -496,48 +640,120 @@
         }
       ],
       "universal_names": [
-        "Gaia",
-        "Isis",
-        "Pachamama",
-        "Quan Yin",
-        "Devi"
+        {
+          "text": "Gaia",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Isis",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Pachamama",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Quan Yin",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Devi",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Nurturing",
-        "Fertility",
-        "Unconditional Love",
-        "Protection"
+        {
+          "text": "Nurturing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Fertility",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Unconditional Love",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Protection",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Nurturing and creative feminine principle"
       },
       "shadow_aspects": [
-        "Smothering",
-        "Possessiveness",
-        "Devouring mother"
+        {
+          "text": "Smothering",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Possessiveness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Devouring mother",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Earth honoring",
-        "Fertility rituals",
-        "Maternal devotion"
+        {
+          "text": "Earth honoring",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Fertility rituals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Maternal devotion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Flowers",
-        "Fruits",
-        "Milk",
-        "Honey",
+        {
+          "text": "Flowers",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Fruits",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Milk",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Honey",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Care for others"
         }
       ],
       "sacred_symbols": [
-        "Cup",
-        "Womb",
-        "Moon",
-        "Corn",
-        "Rose"
+        {
+          "text": "Cup",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Womb",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Moon",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Corn",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Rose",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "sky_father": {
@@ -549,45 +765,120 @@
         }
       ],
       "universal_names": [
-        "Zeus",
-        "Jupiter",
-        "Indra",
-        "Jade Emperor",
-        "Odin"
+        {
+          "text": "Zeus",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Jupiter",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Indra",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Jade Emperor",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Odin",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Authority",
-        "Justice",
-        "Law",
-        "Protection",
-        "Order"
+        {
+          "text": "Authority",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Justice",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Law",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Protection",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Order",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Paternal authority and cosmic order"
       },
       "shadow_aspects": [
-        "Tyranny",
-        "Rigidity",
-        "Authoritarian control"
+        {
+          "text": "Tyranny",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Rigidity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Authoritarian control",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Ceremonial rituals",
-        "Oath-making",
-        "Legal proceedings"
+        {
+          "text": "Ceremonial rituals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Oath-making",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Legal proceedings",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Formal ceremonies",
-        "Oaths",
-        "Justice work",
-        "Leadership"
+        {
+          "text": "Formal ceremonies",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Oaths",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Justice work",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "sacred_symbols": [
-        "Crown",
-        "Scepter",
-        "Eagle",
-        "Thunder",
-        "Mountain"
+        {
+          "text": "Crown",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Scepter",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Eagle",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Thunder",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Mountain",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "wise_woman": {
@@ -599,47 +890,128 @@
         }
       ],
       "universal_names": [
-        "Athena",
-        "Saraswati",
-        "Sophia",
-        "Brigid",
-        "Tara"
+        {
+          "text": "Athena",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Saraswati",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Sophia",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Brigid",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Tara",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Wisdom",
-        "Strategy",
-        "Healing",
-        "Magic",
-        "Knowledge"
+        {
+          "text": "Wisdom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Strategy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Healing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Magic",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Knowledge",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Intuitive wisdom and spiritual insight"
       },
       "shadow_aspects": [
-        "Manipulation",
-        "Secretiveness",
-        "Cold intellectualism"
+        {
+          "text": "Manipulation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Secretiveness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Cold intellectualism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Study",
-        "Meditation",
-        "Divination",
-        "Healing work"
+        {
+          "text": "Study",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Meditation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Divination",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Healing work",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Books",
-        "Herbs",
-        "Crystals",
-        "Poetry",
-        "Wisdom teachings"
+        {
+          "text": "Books",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Herbs",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Crystals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Poetry",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Wisdom teachings",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "sacred_symbols": [
-        "Owl",
-        "Book",
-        "Crescent Moon",
-        "Veil",
-        "Mirror"
+        {
+          "text": "Owl",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Book",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Crescent Moon",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Veil",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Mirror",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "warrior_hero": {
@@ -651,35 +1023,86 @@
         }
       ],
       "universal_names": [
-        "Ares",
-        "Mars",
-        "Tyr",
-        "Hanuman",
-        "Michael"
+        {
+          "text": "Ares",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Mars",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Tyr",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Hanuman",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Michael",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Courage",
-        "Protection",
-        "Victory",
-        "Honor",
-        "Strength"
+        {
+          "text": "Courage",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Protection",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Victory",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Honor",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Strength",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Warrior spirit and protective instinct"
       },
       "shadow_aspects": [
-        "Aggression",
-        "Violence",
-        "Berserker rage"
+        {
+          "text": "Aggression",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Violence",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Berserker rage",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Martial arts",
-        "Protection rituals",
-        "Courage building"
+        {
+          "text": "Martial arts",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Protection rituals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Courage building",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Physical training",
+        {
+          "text": "Physical training",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Protection of others"
@@ -690,11 +1113,26 @@
         }
       ],
       "sacred_symbols": [
-        "Sword",
-        "Shield",
-        "Armor",
-        "Horse",
-        "Fire"
+        {
+          "text": "Sword",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Shield",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Armor",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Horse",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Fire",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "trickster": {
@@ -706,46 +1144,124 @@
         }
       ],
       "universal_names": [
-        "Loki",
-        "Hermes",
-        "Coyote",
-        "Anansi",
-        "Kokopelli"
+        {
+          "text": "Loki",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Hermes",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Coyote",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Anansi",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Kokopelli",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Change",
-        "Humor",
-        "Teaching",
-        "Boundary crossing",
-        "Transformation"
+        {
+          "text": "Change",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Humor",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Teaching",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Boundary crossing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Transformation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Agent of change and consciousness expansion"
       },
       "shadow_aspects": [
-        "Chaos",
-        "Deception",
-        "Destructive pranks"
+        {
+          "text": "Chaos",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Deception",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Destructive pranks",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Humor",
-        "Improvisation",
-        "Breaking rules",
-        "Creative chaos"
+        {
+          "text": "Humor",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Improvisation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Breaking rules",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Creative chaos",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Jokes",
-        "Spontaneous acts",
-        "Rule breaking",
-        "Creative expression"
+        {
+          "text": "Jokes",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Spontaneous acts",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Rule breaking",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Creative expression",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "sacred_symbols": [
-        "Mask",
-        "Staff",
-        "Crossroads",
-        "Key",
-        "Jester's cap"
+        {
+          "text": "Mask",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Staff",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Crossroads",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Key",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Jester's cap",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "death_god": {
@@ -754,47 +1270,116 @@
         "The Tower"
       ],
       "universal_names": [
-        "Hades",
-        "Kali",
-        "Mictlantecuhtli",
-        "Osiris",
-        "Shiva"
+        {
+          "text": "Hades",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Kali",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Mictlantecuhtli",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Osiris",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Shiva",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Transformation",
-        "Endings",
-        "Rebirth",
-        "Judgment",
-        "Destruction"
+        {
+          "text": "Transformation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Endings",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Rebirth",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Judgment",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Destruction",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Transformative power and letting go"
       },
       "shadow_aspects": [
-        "Destruction",
-        "Depression",
-        "Morbidity"
+        {
+          "text": "Destruction",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Depression",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Morbidity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Ancestor honoring",
-        "Transformation rituals",
+        {
+          "text": "Ancestor honoring",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Transformation rituals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Letting go ceremonies"
         }
       ],
       "offerings": [
-        "Funeral rites",
-        "Release rituals",
-        "Transformation work"
+        {
+          "text": "Funeral rites",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Release rituals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Transformation work",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "sacred_symbols": [
-        "Skull",
-        "Scythe",
-        "Pomegranate",
-        "Black",
-        "Underworld"
+        {
+          "text": "Skull",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Scythe",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Pomegranate",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Black",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Underworld",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "love_goddess": {
@@ -806,48 +1391,120 @@
         }
       ],
       "universal_names": [
-        "Aphrodite",
-        "Venus",
-        "Ishtar",
-        "Lakshmi",
-        "Freya"
+        {
+          "text": "Aphrodite",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Venus",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Ishtar",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Lakshmi",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Freya",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Love",
-        "Beauty",
-        "Pleasure",
-        "Harmony",
-        "Attraction"
+        {
+          "text": "Love",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Beauty",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Pleasure",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Harmony",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Attraction",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Love principle and aesthetic sense"
       },
       "shadow_aspects": [
-        "Vanity",
+        {
+          "text": "Vanity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Manipulation through beauty"
         },
-        "Superficiality"
+        {
+          "text": "Superficiality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Beauty creation",
-        "Love rituals",
-        "Harmony building"
+        {
+          "text": "Beauty creation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Love rituals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Harmony building",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Beautiful objects",
-        "Love acts",
-        "Artistic creation",
-        "Self-care"
+        {
+          "text": "Beautiful objects",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Love acts",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Artistic creation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Self-care",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "sacred_symbols": [
-        "Rose",
-        "Dove",
-        "Mirror",
-        "Shell",
-        "Heart"
+        {
+          "text": "Rose",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Dove",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Mirror",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Shell",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Heart",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "sun_god": {
@@ -859,46 +1516,124 @@
         }
       ],
       "universal_names": [
-        "Apollo",
-        "Ra",
-        "Surya",
-        "Inti",
-        "Amaterasu"
+        {
+          "text": "Apollo",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Ra",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Surya",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Inti",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Amaterasu",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Illumination",
-        "Truth",
-        "Healing",
-        "Leadership",
-        "Vitality"
+        {
+          "text": "Illumination",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Truth",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Healing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Vitality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Conscious awareness and life force"
       },
       "shadow_aspects": [
-        "Pride",
-        "Ego inflation",
-        "Burning others"
+        {
+          "text": "Pride",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Ego inflation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Burning others",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Sun salutations",
-        "Truth-telling",
-        "Healing work",
-        "Leadership"
+        {
+          "text": "Sun salutations",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Truth-telling",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Healing work",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Truth",
-        "Healing service",
-        "Leadership",
-        "Artistic excellence"
+        {
+          "text": "Truth",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Healing service",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Artistic excellence",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "sacred_symbols": [
-        "Sun disk",
-        "Golden crown",
-        "Lyre",
-        "Lion",
-        "Gold"
+        {
+          "text": "Sun disk",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Golden crown",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Lyre",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Lion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Gold",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     },
     "moon_goddess": {
@@ -907,46 +1642,124 @@
         "The High Priestess"
       ],
       "universal_names": [
-        "Diana",
-        "Selene",
-        "Chang'e",
-        "Coyolxauhqui",
-        "Artemis"
+        {
+          "text": "Diana",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Selene",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Chang'e",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Coyolxauhqui",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Artemis",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "attributes": [
-        "Mystery",
-        "Cycles",
-        "Intuition",
-        "Protection",
-        "Magic"
+        {
+          "text": "Mystery",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Cycles",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Intuition",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Protection",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Magic",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Unconscious wisdom and cyclical awareness"
       },
       "shadow_aspects": [
-        "Illusion",
-        "Madness",
-        "Deception"
+        {
+          "text": "Illusion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Madness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Deception",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "worship_practices": [
-        "Moon rituals",
-        "Divination",
-        "Cycle honoring",
-        "Night work"
+        {
+          "text": "Moon rituals",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Divination",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Cycle honoring",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Night work",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "offerings": [
-        "Night vigils",
-        "Divination practice",
-        "Cycle awareness",
-        "Intuitive work"
+        {
+          "text": "Night vigils",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Divination practice",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Cycle awareness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Intuitive work",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "sacred_symbols": [
-        "Crescent moon",
-        "Silver",
-        "Bow",
-        "Hounds",
-        "Mirror"
+        {
+          "text": "Crescent moon",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Silver",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Bow",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Hounds",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Mirror",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ]
     }
   },
@@ -964,8 +1777,14 @@
         "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces",
         "text": "Myth is the secret opening through which the inexhaustible energies of the cosmos pour into human cultural manifestation."
       },
-      "author": "Joseph Campbell",
-      "source": "The Hero with a Thousand Faces",
+      "author": {
+        "text": "Joseph Campbell",
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+      },
+      "source": {
+        "text": "The Hero with a Thousand Faces",
+        "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+      },
       "major_themes": {
         "olympian_power": {
           "cards": [
@@ -976,9 +1795,18 @@
             }
           ],
           "deities": [
-            "Zeus",
-            "Poseidon",
-            "Hades"
+            {
+              "text": "Zeus",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Poseidon",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Hades",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -995,9 +1823,18 @@
             "The Empress"
           ],
           "deities": [
-            "Athena",
-            "Demeter",
-            "Hera"
+            {
+              "text": "Athena",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Demeter",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Hera",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1014,9 +1851,18 @@
             "The Tower"
           ],
           "myths": [
-            "Persephone",
-            "Dionysus",
-            "Phoenix"
+            {
+              "text": "Persephone",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Dionysus",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Phoenix",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1033,9 +1879,18 @@
             "Strength"
           ],
           "heroes": [
-            "Heracles",
-            "Perseus",
-            "Theseus"
+            {
+              "text": "Heracles",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Perseus",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Theseus",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1057,8 +1912,14 @@
         "citation_key": "E_A__Wallis_Budge-The_Book_of_the_Dead",
         "text": "The ancient Egyptians understood that the journey through death leads to resurrection and eternal life."
       },
-      "author": "E.A. Wallis Budge",
-      "source": "The Book of the Dead",
+      "author": {
+        "text": "E.A. Wallis Budge",
+        "citation_key": "E_A__Wallis_Budge-The_Book_of_the_Dead"
+      },
+      "source": {
+        "text": "The Book of the Dead",
+        "citation_key": "E_A__Wallis_Budge-The_Book_of_the_Dead"
+      },
       "major_themes": {
         "solar_consciousness": {
           "cards": [
@@ -1066,9 +1927,18 @@
             "The Chariot"
           ],
           "deities": [
-            "Ra",
-            "Horus",
-            "Khnum"
+            {
+              "text": "Ra",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Horus",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Khnum",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1085,9 +1955,18 @@
             "Judgement"
           ],
           "deities": [
-            "Osiris",
-            "Anubis",
-            "Thoth"
+            {
+              "text": "Osiris",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Anubis",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Thoth",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1104,9 +1983,18 @@
             "The Star"
           ],
           "deities": [
-            "Isis",
-            "Nut",
-            "Hathor"
+            {
+              "text": "Isis",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Nut",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Hathor",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1123,9 +2011,18 @@
             "The World"
           ],
           "deities": [
-            "Ma'at",
-            "Ptah",
-            "Thoth"
+            {
+              "text": "Ma'at",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Ptah",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            },
+            {
+              "text": "Thoth",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1147,8 +2044,14 @@
         "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology",
         "text": "The Norse cosmos is a web of connections, where every action affects the whole and destiny is woven by the Norns."
       },
-      "author": "Rudolf Simek",
-      "source": "Dictionary of Northern Mythology",
+      "author": {
+        "text": "Rudolf Simek",
+        "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+      },
+      "source": {
+        "text": "Dictionary of Northern Mythology",
+        "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+      },
       "major_themes": {
         "wisdom_seeking": {
           "cards": [
@@ -1156,9 +2059,18 @@
             "The Hanged Man"
           ],
           "deities": [
-            "Odin",
-            "Mimir",
-            "Frigg"
+            {
+              "text": "Odin",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            },
+            {
+              "text": "Mimir",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            },
+            {
+              "text": "Frigg",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1178,9 +2090,18 @@
             }
           ],
           "deities": [
-            "Thor",
-            "Tyr",
-            "Freyr"
+            {
+              "text": "Thor",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            },
+            {
+              "text": "Tyr",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            },
+            {
+              "text": "Freyr",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1200,15 +2121,27 @@
             "The World"
           ],
           "entities": [
-            "Norns",
-            "Wyrd",
-            "Ragnarok"
+            {
+              "text": "Norns",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            },
+            {
+              "text": "Wyrd",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            },
+            {
+              "text": "Ragnarok",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Acceptance of fate while acting with honor"
           },
-          "shadow": "Fatalism, doom-seeking"
+          "shadow": {
+            "text": "Fatalism, doom-seeking",
+            "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+          }
         },
         "magic_wisdom": {
           "cards": [
@@ -1216,9 +2149,18 @@
             "The High Priestess"
           ],
           "practices": [
-            "Seidr",
-            "Runes",
-            "Galdr"
+            {
+              "text": "Seidr",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            },
+            {
+              "text": "Runes",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            },
+            {
+              "text": "Galdr",
+              "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1240,8 +2182,14 @@
         "citation_key": "Miranda_Green-Celtic_Myths_and_Legends",
         "text": "The Celts saw the divine in every aspect of nature, understanding that the material and spiritual worlds are one."
       },
-      "author": "Miranda Green",
-      "source": "Celtic Myths and Legends",
+      "author": {
+        "text": "Miranda Green",
+        "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+      },
+      "source": {
+        "text": "Celtic Myths and Legends",
+        "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+      },
       "major_themes": {
         "land_connection": {
           "cards": [
@@ -1252,9 +2200,18 @@
             }
           ],
           "deities": [
-            "Brigid",
-            "Danu",
-            "Cernunnos"
+            {
+              "text": "Brigid",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            },
+            {
+              "text": "Danu",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            },
+            {
+              "text": "Cernunnos",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1274,12 +2231,18 @@
             }
           ],
           "concepts": [
-            "Sidhe",
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+              "text": "Sidhe",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            },
+            {
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends",
               "text": "Tir na nOg"
             },
-            "Samhain"
+            {
+              "text": "Samhain",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1299,9 +2262,18 @@
             }
           ],
           "archetypes": [
-            "Fianna",
-            "Bards",
-            "Druids"
+            {
+              "text": "Fianna",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            },
+            {
+              "text": "Bards",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            },
+            {
+              "text": "Druids",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1321,10 +2293,22 @@
             "The World"
           ],
           "festivals": [
-            "Samhain",
-            "Imbolc",
-            "Beltane",
-            "Lughnasadh"
+            {
+              "text": "Samhain",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            },
+            {
+              "text": "Imbolc",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            },
+            {
+              "text": "Beltane",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            },
+            {
+              "text": "Lughnasadh",
+              "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1346,8 +2330,14 @@
         "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts",
         "text": "The whole universe is one family, and the divine consciousness pervades every atom of existence."
       },
-      "author": "Chandogya Upanishad",
-      "source": "Ancient Vedic Texts",
+      "author": {
+        "text": "Chandogya Upanishad",
+        "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+      },
+      "source": {
+        "text": "Ancient Vedic Texts",
+        "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+      },
       "major_themes": {
         "dharma": {
           "cards": [
@@ -1355,9 +2345,18 @@
             "The Hierophant"
           ],
           "concepts": [
-            "Righteousness",
-            "Duty",
-            "Cosmic Law"
+            {
+              "text": "Righteousness",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            },
+            {
+              "text": "Duty",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            },
+            {
+              "text": "Cosmic Law",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1377,9 +2376,18 @@
             "Justice"
           ],
           "concepts": [
-            "Action",
-            "Consequence",
-            "Rebirth"
+            {
+              "text": "Action",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            },
+            {
+              "text": "Consequence",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            },
+            {
+              "text": "Rebirth",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1399,9 +2407,18 @@
             }
           ],
           "practices": [
-            "Bhakti",
-            "Puja",
-            "Seva"
+            {
+              "text": "Bhakti",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            },
+            {
+              "text": "Puja",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            },
+            {
+              "text": "Seva",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1418,9 +2435,18 @@
             "The Fool"
           ],
           "concepts": [
-            "Moksha",
-            "Enlightenment",
-            "Self-realization"
+            {
+              "text": "Moksha",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            },
+            {
+              "text": "Enlightenment",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            },
+            {
+              "text": "Self-realization",
+              "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1442,8 +2468,14 @@
         "citation_key": "Buddha-Dhammapada",
         "text": "All conditioned things are impermanent. When one sees this with wisdom, one turns away from suffering."
       },
-      "author": "Buddha",
-      "source": "Dhammapada",
+      "author": {
+        "text": "Buddha",
+        "citation_key": "Buddha-Dhammapada"
+      },
+      "source": {
+        "text": "Dhammapada",
+        "citation_key": "Buddha-Dhammapada"
+      },
       "major_themes": {
         "suffering_cessation": {
           "cards": [
@@ -1451,9 +2483,18 @@
             "Death"
           ],
           "concepts": [
-            "Dukkha",
-            "Four Noble Truths",
-            "Cessation"
+            {
+              "text": "Dukkha",
+              "citation_key": "Buddha-Dhammapada"
+            },
+            {
+              "text": "Four Noble Truths",
+              "citation_key": "Buddha-Dhammapada"
+            },
+            {
+              "text": "Cessation",
+              "citation_key": "Buddha-Dhammapada"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1473,15 +2514,27 @@
             }
           ],
           "concepts": [
-            "Karuna",
-            "Bodhisattva",
-            "Loving-kindness"
+            {
+              "text": "Karuna",
+              "citation_key": "Buddha-Dhammapada"
+            },
+            {
+              "text": "Bodhisattva",
+              "citation_key": "Buddha-Dhammapada"
+            },
+            {
+              "text": "Loving-kindness",
+              "citation_key": "Buddha-Dhammapada"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Universal compassion and service"
           },
-          "shadow": "Codependency, martyrdom"
+          "shadow": {
+            "text": "Codependency, martyrdom",
+            "citation_key": "Buddha-Dhammapada"
+          }
         },
         "mindfulness": {
           "cards": [
@@ -1492,9 +2545,18 @@
             }
           ],
           "practices": [
-            "Meditation",
-            "Awareness",
-            "Present moment"
+            {
+              "text": "Meditation",
+              "citation_key": "Buddha-Dhammapada"
+            },
+            {
+              "text": "Awareness",
+              "citation_key": "Buddha-Dhammapada"
+            },
+            {
+              "text": "Present moment",
+              "citation_key": "Buddha-Dhammapada"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1511,15 +2573,27 @@
             "The Hanged Man"
           ],
           "concepts": [
-            "Sunyata",
-            "Non-self",
-            "Interdependence"
+            {
+              "text": "Sunyata",
+              "citation_key": "Buddha-Dhammapada"
+            },
+            {
+              "text": "Non-self",
+              "citation_key": "Buddha-Dhammapada"
+            },
+            {
+              "text": "Interdependence",
+              "citation_key": "Buddha-Dhammapada"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Understanding the illusory nature of separate self"
           },
-          "shadow": "Nihilism, dissociation"
+          "shadow": {
+            "text": "Nihilism, dissociation",
+            "citation_key": "Buddha-Dhammapada"
+          }
         }
       }
     },
@@ -1532,8 +2606,14 @@
         "citation_key": "Native_American_Proverb-Traditional_Wisdom",
         "text": "We do not inherit the earth from our ancestors; we borrow it from our children."
       },
-      "author": "Native American Proverb",
-      "source": "Traditional Wisdom",
+      "author": {
+        "text": "Native American Proverb",
+        "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+      },
+      "source": {
+        "text": "Traditional Wisdom",
+        "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+      },
       "major_themes": {
         "great_spirit": {
           "cards": [
@@ -1541,9 +2621,18 @@
             "The Star"
           ],
           "concepts": [
-            "Wakan Tanka",
-            "Creator",
-            "Sacred Unity"
+            {
+              "text": "Wakan Tanka",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            },
+            {
+              "text": "Creator",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            },
+            {
+              "text": "Sacred Unity",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1563,9 +2652,18 @@
             "The World"
           ],
           "concepts": [
-            "Four directions",
-            "Seasons",
-            "Life cycles"
+            {
+              "text": "Four directions",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            },
+            {
+              "text": "Seasons",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            },
+            {
+              "text": "Life cycles",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1582,9 +2680,18 @@
             "The Star"
           ],
           "practices": [
-            "Solitude",
-            "Fasting",
-            "Vision seeking"
+            {
+              "text": "Solitude",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            },
+            {
+              "text": "Fasting",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            },
+            {
+              "text": "Vision seeking",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            }
           ],
           "lessons": {
             "citation_key": "Starhawk-The_Spiral_Dance",
@@ -1601,9 +2708,18 @@
             "The Moon"
           ],
           "concepts": [
-            "Totems",
-            "Power animals",
-            "Spirit guides"
+            {
+              "text": "Totems",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            },
+            {
+              "text": "Power animals",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            },
+            {
+              "text": "Spirit guides",
+              "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+            }
           ],
           "lessons": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1626,8 +2742,14 @@
       "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet",
       "text": "As above, so below; as within, so without; as the universe, so the soul."
     },
-    "author": "Hermes Trismegistus",
-    "source": "The Emerald Tablet",
+    "author": {
+      "text": "Hermes Trismegistus",
+      "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet"
+    },
+    "source": {
+      "text": "The Emerald Tablet",
+      "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet"
+    },
     "seasonal_cycle": {
       "spring": {
         "cards": [
@@ -1725,7 +2847,10 @@
       "new_moon": {
         "cards": [
           "The High Priestess",
-          "Ace cards"
+          {
+            "text": "Ace cards",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+          }
         ],
         "energy": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1794,7 +2919,10 @@
       "birth": {
         "cards": [
           "The Fool",
-          "Ace cards"
+          {
+            "text": "Ace cards",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+          }
         ],
         "mythology": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1807,7 +2935,10 @@
       },
       "youth": {
         "cards": [
-          "Pages",
+          {
+            "text": "Pages",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+          },
           "The Magician"
         ],
         "mythology": {
@@ -1821,8 +2952,14 @@
       },
       "adulthood": {
         "cards": [
-          "Knights",
-          "Queens",
+          {
+            "text": "Knights",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+          },
+          {
+            "text": "Queens",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+          },
           "The Chariot"
         ],
         "mythology": {
@@ -1836,7 +2973,10 @@
       },
       "elderhood": {
         "cards": [
-          "Kings",
+          {
+            "text": "Kings",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+          },
           "The Hermit"
         ],
         "mythology": {
@@ -1872,8 +3012,14 @@
         "citation_key": "Alice_Bailey-Esoteric_Astrology",
         "text": "We are moving out of the Age of Pisces into the Age of Aquarius, bringing new consciousness to humanity."
       },
-      "author": "Alice Bailey",
-      "source": "Esoteric Astrology",
+      "author": {
+        "text": "Alice Bailey",
+        "citation_key": "Alice_Bailey-Esoteric_Astrology"
+      },
+      "source": {
+        "text": "Esoteric Astrology",
+        "citation_key": "Alice_Bailey-Esoteric_Astrology"
+      },
       "age_of_aries": {
         "cards": [
           "The Emperor",
@@ -1933,18 +3079,36 @@
       "citation_key": "John-Gospel_of_John_1_1",
       "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
     },
-    "author": "John",
-    "source": "Gospel of John 1:1",
+    "author": {
+      "text": "John",
+      "citation_key": "John-Gospel_of_John_1_1"
+    },
+    "source": {
+      "text": "Gospel of John 1:1",
+      "citation_key": "John-Gospel_of_John_1_1"
+    },
     "primordial_void": {
       "cards": [
         "The High Priestess",
         "The Hanged Man"
       ],
       "mythological_examples": [
-        "Chaos",
-        "Nun",
-        "Ginnungagap",
-        "Sunyata"
+        {
+          "text": "Chaos",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Nun",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Ginnungagap",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Sunyata",
+          "citation_key": "John-Gospel_of_John_1_1"
+        }
       ],
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1964,10 +3128,22 @@
         }
       ],
       "mythological_examples": [
-        "Logos",
-        "Om",
-        "Vak",
-        "Hu"
+        {
+          "text": "Logos",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Om",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Vak",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Hu",
+          "citation_key": "John-Gospel_of_John_1_1"
+        }
       ],
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1981,12 +3157,24 @@
     "separation_duality": {
       "cards": [
         "The Lovers",
-        "Two cards"
+        {
+          "text": "Two cards",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "mythological_examples": [
-        "Heaven/Earth",
-        "Light/Dark",
-        "Yin/Yang"
+        {
+          "text": "Heaven/Earth",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Light/Dark",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Yin/Yang",
+          "citation_key": "John-Gospel_of_John_1_1"
+        }
       ],
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2006,12 +3194,18 @@
         }
       ],
       "mythological_examples": [
-        "Yggdrasil",
         {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+          "text": "Yggdrasil",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "citation_key": "John-Gospel_of_John_1_1",
           "text": "Tree of Life"
         },
-        "Axis Mundi"
+        {
+          "text": "Axis Mundi",
+          "citation_key": "John-Gospel_of_John_1_1"
+        }
       ],
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2028,9 +3222,18 @@
         "The Fool"
       ],
       "mythological_examples": [
-        "Hiranyagarbha",
-        "Orphic Egg",
-        "World Egg"
+        {
+          "text": "Hiranyagarbha",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "Orphic Egg",
+          "citation_key": "John-Gospel_of_John_1_1"
+        },
+        {
+          "text": "World Egg",
+          "citation_key": "John-Gospel_of_John_1_1"
+        }
       ],
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2051,8 +3254,14 @@
       "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference",
       "text": "The sacred marriage represents the union of consciousness and the unconscious, creating the birth of the Self."
     },
-    "author": "Carl Gustav Jung",
-    "source": "The Psychology of the Transference",
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+    },
+    "source": {
+      "text": "The Psychology of the Transference",
+      "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+    },
     "divine_couples": {
       "heaven_earth": {
         "cards": [
@@ -2060,10 +3269,16 @@
           "The Empress"
         ],
         "examples": [
-          "Zeus/Hera",
-          "Shiva/Shakti",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
+            "text": "Zeus/Hera",
+            "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+          },
+          {
+            "text": "Shiva/Shakti",
+            "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+          },
+          {
+            "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference",
             "text": "Jade Emperor/Queen Mother"
           }
         ],
@@ -2078,9 +3293,18 @@
           "The Moon"
         ],
         "examples": [
-          "Apollo/Diana",
-          "Ra/Isis",
-          "Sol/Luna"
+          {
+            "text": "Apollo/Diana",
+            "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+          },
+          {
+            "text": "Ra/Isis",
+            "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+          },
+          {
+            "text": "Sol/Luna",
+            "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+          }
         ],
         "symbolism": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -2099,8 +3323,14 @@
           }
         ],
         "examples": [
-          "Arthur/Guinevere",
-          "Osiris/Isis"
+          {
+            "text": "Arthur/Guinevere",
+            "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+          },
+          {
+            "text": "Osiris/Isis",
+            "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+          }
         ],
         "symbolism": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",

@@ -8,8 +8,14 @@
       "citation_key": "The_Three_Initiates-The_Kybalion",
       "text": "The principles of truth are seven; he who knows these, understandingly, possesses the magic key before whose touch all the doors of the temple fly open."
     },
-    "author": "The Three Initiates",
-    "source": "The Kybalion",
+    "author": {
+      "text": "The Three Initiates",
+      "citation_key": "The_Three_Initiates-The_Kybalion"
+    },
+    "source": {
+      "text": "The Kybalion",
+      "citation_key": "The_Three_Initiates-The_Kybalion"
+    },
     "mentalism": {
       "principle": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -20,9 +26,9 @@
         "text": "All tarot readings reflect the mental state and consciousness of the querent"
       },
       "cards": [
-        "The Magician",
-        "The High Priestess",
-        "The Hermit"
+        { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The High Priestess", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "practical_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -32,8 +38,14 @@
         "citation_key": "James_Allen-As_a_Man_Thinketh",
         "text": "Mind is the master power that moulds and makes, and man is mind, and evermore he takes the tool of thought, and, shaping what he wills, brings forth a thousand joys, a thousand ills."
       },
-      "author": "James Allen",
-      "source": "As a Man Thinketh",
+      "author": {
+        "text": "James Allen",
+        "citation_key": "James_Allen-As_a_Man_Thinketh"
+      },
+      "source": {
+        "text": "As a Man Thinketh",
+        "citation_key": "James_Allen-As_a_Man_Thinketh"
+      },
       "alchemical_operation": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Calcination - burning away illusions"
@@ -49,8 +61,8 @@
         "text": "Patterns in the cards reflect patterns in life and cosmos"
       },
       "cards": [
-        "The Star",
-        "The World",
+        { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Wheel of Fortune"
@@ -64,8 +76,14 @@
         "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet",
         "text": "That which is below is like that which is above, and that which is above is like that which is below, to accomplish the miracles of the one thing."
       },
-      "author": "Hermes Trismegistus",
-      "source": "The Emerald Tablet",
+      "author": {
+        "text": "Hermes Trismegistus",
+        "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet"
+      },
+      "source": {
+        "text": "The Emerald Tablet",
+        "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet"
+      },
       "alchemical_operation": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Solution - dissolving rigid boundaries"
@@ -81,9 +99,9 @@
         "text": "Each card carries specific vibrational frequencies"
       },
       "cards": [
-        "The Fool",
-        "The Hanged Man",
-        "Temperance"
+        { "text": "The Fool", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Hanged Man", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Temperance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "practical_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -93,8 +111,14 @@
         "citation_key": "Nikola_Tesla-Scientific_Principles",
         "text": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."
       },
-      "author": "Nikola Tesla",
-      "source": "Scientific Principles",
+      "author": {
+        "text": "Nikola Tesla",
+        "citation_key": "Nikola_Tesla-Scientific_Principles"
+      },
+      "source": {
+        "text": "Scientific Principles",
+        "citation_key": "Nikola_Tesla-Scientific_Principles"
+      },
       "alchemical_operation": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Separation - distinguishing different energetic states"
@@ -110,9 +134,9 @@
         "text": "All cards contain both positive and negative potentials"
       },
       "cards": [
-        "The Lovers",
-        "Justice",
-        "The Moon"
+        { "text": "The Lovers", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Justice", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "practical_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -122,8 +146,14 @@
         "citation_key": "The_Three_Initiates-The_Kybalion",
         "text": "Opposites are identical in nature, but different in degree; extremes meet; all truths are but half-truths."
       },
-      "author": "The Three Initiates",
-      "source": "The Kybalion",
+      "author": {
+        "text": "The Three Initiates",
+        "citation_key": "The_Three_Initiates-The_Kybalion"
+      },
+      "source": {
+        "text": "The Kybalion",
+        "citation_key": "The_Three_Initiates-The_Kybalion"
+      },
       "alchemical_operation": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Conjunction - uniting opposites"
@@ -143,8 +173,8 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Wheel of Fortune"
         },
-        "Death",
-        "The World"
+        { "text": "Death", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "practical_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -154,8 +184,14 @@
         "citation_key": "Ecclesiastes-Bible__Ecclesiastes_3_1",
         "text": "To everything there is a season, and a time to every purpose under heaven."
       },
-      "author": "Ecclesiastes",
-      "source": "Bible, Ecclesiastes 3:1",
+      "author": {
+        "text": "Ecclesiastes",
+        "citation_key": "Ecclesiastes-Bible__Ecclesiastes_3_1"
+      },
+      "source": {
+        "text": "Bible, Ecclesiastes 3:1",
+        "citation_key": "Ecclesiastes-Bible__Ecclesiastes_3_1"
+      },
       "alchemical_operation": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Fermentation - cyclic transformation"
@@ -171,9 +207,9 @@
         "text": "Card combinations show karmic patterns and consequences"
       },
       "cards": [
-        "Justice",
-        "Judgement",
-        "The Tower"
+        { "text": "Justice", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Judgement", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Tower", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "practical_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -183,8 +219,14 @@
         "citation_key": "Swami_Vivekananda-Raja_Yoga",
         "text": "The law of karma is the law of cause and effect in the moral world."
       },
-      "author": "Swami Vivekananda",
-      "source": "Raja Yoga",
+      "author": {
+        "text": "Swami Vivekananda",
+        "citation_key": "Swami_Vivekananda-Raja_Yoga"
+      },
+      "source": {
+        "text": "Raja Yoga",
+        "citation_key": "Swami_Vivekananda-Raja_Yoga"
+      },
       "alchemical_operation": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Distillation - purifying through consequences"
@@ -200,10 +242,10 @@
         "text": "All cards express both active and receptive energies"
       },
       "cards": [
-        "The Emperor",
-        "The Empress",
-        "The Sun",
-        "The Moon"
+        { "text": "The Emperor", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Empress", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "practical_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -213,8 +255,14 @@
         "citation_key": "The_Three_Initiates-The_Kybalion",
         "text": "The masculine and feminine principles exist in all planes of creation."
       },
-      "author": "The Three Initiates",
-      "source": "The Kybalion",
+      "author": {
+        "text": "The Three Initiates",
+        "citation_key": "The_Three_Initiates-The_Kybalion"
+      },
+      "source": {
+        "text": "The Kybalion",
+        "citation_key": "The_Three_Initiates-The_Kybalion"
+      },
       "alchemical_operation": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Coagulation - solidifying the balanced whole"
@@ -230,14 +278,20 @@
       "citation_key": "Paracelsus-Archidoxes_of_Magic",
       "text": "Alchemy is the art of transmuting base metals into gold, but more importantly, it is the art of transmuting the base human soul into spiritual gold."
     },
-    "author": "Paracelsus",
-    "source": "Archidoxes of Magic",
+    "author": {
+      "text": "Paracelsus",
+      "citation_key": "Paracelsus-Archidoxes_of_Magic"
+    },
+    "source": {
+      "text": "Archidoxes of Magic",
+      "citation_key": "Paracelsus-Archidoxes_of_Magic"
+    },
     "calcination": {
       "element": "Fire",
       "planet": "Saturn",
       "tarot_cards": [
-        "The Tower",
-        "Death",
+        { "text": "The Tower", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Death", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Five of Pentacles"
@@ -259,8 +313,14 @@
         "citation_key": "Manly_P__Hall-The_Secret_Teachings_of_All_Ages",
         "text": "The first operation of the Great Work is the calcination of the base metal, representing the burning away of all that is false in human nature."
       },
-      "author": "Manly P. Hall",
-      "source": "The Secret Teachings of All Ages",
+      "author": {
+        "text": "Manly P. Hall",
+        "citation_key": "Manly_P__Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "source": {
+        "text": "The Secret Teachings of All Ages",
+        "citation_key": "Manly_P__Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Fever, inflammation as purification"
@@ -270,8 +330,8 @@
       "element": "Water",
       "planet": "Moon",
       "tarot_cards": [
-        "The High Priestess",
-        "The Hanged Man",
+        { "text": "The High Priestess", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Hanged Man", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Four of Cups"
@@ -293,8 +353,14 @@
         "citation_key": "Carl_Jung-Psychology_and_Alchemy",
         "text": "Solution dissolves the fixed into the flowing, allowing the rigid boundaries of the ego to become permeable to divine influence."
       },
-      "author": "Carl Jung",
-      "source": "Psychology and Alchemy",
+      "author": {
+        "text": "Carl Jung",
+        "citation_key": "Carl_Jung-Psychology_and_Alchemy"
+      },
+      "source": {
+        "text": "Psychology and Alchemy",
+        "citation_key": "Carl_Jung-Psychology_and_Alchemy"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Tears, sweating as emotional release"
@@ -304,7 +370,7 @@
       "element": "Air",
       "planet": "Mercury",
       "tarot_cards": [
-        "The Hermit",
+        { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Swords"
@@ -330,8 +396,14 @@
         "citation_key": "A_E__Waite-The_Secret_Tradition_in_Alchemy",
         "text": "Separation is the operation by which we learn to distinguish between what belongs to our true nature and what is merely superficial conditioning."
       },
-      "author": "A.E. Waite",
-      "source": "The Secret Tradition in Alchemy",
+      "author": {
+        "text": "A.E. Waite",
+        "citation_key": "A_E__Waite-The_Secret_Tradition_in_Alchemy"
+      },
+      "source": {
+        "text": "The Secret Tradition in Alchemy",
+        "citation_key": "A_E__Waite-The_Secret_Tradition_in_Alchemy"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Deep breathing as consciousness separation"
@@ -341,8 +413,8 @@
       "element": "Earth",
       "planet": "Venus",
       "tarot_cards": [
-        "The Lovers",
-        "Temperance",
+        { "text": "The Lovers", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Temperance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Two of Cups"
@@ -364,8 +436,14 @@
         "citation_key": "Marie_Louise_von_Franz-Alchemy__An_Introduction_to_the_Symbolism_and_the_Psychology",
         "text": "Conjunction is the mystical marriage where opposites are united in perfect harmony, creating something greater than the sum of its parts."
       },
-      "author": "Marie-Louise von Franz",
-      "source": "Alchemy: An Introduction to the Symbolism and the Psychology",
+      "author": {
+        "text": "Marie-Louise von Franz",
+        "citation_key": "Marie_Louise_von_Franz-Alchemy__An_Introduction_to_the_Symbolism_and_the_Psychology"
+      },
+      "source": {
+        "text": "Alchemy: An Introduction to the Symbolism and the Psychology",
+        "citation_key": "Marie_Louise_von_Franz-Alchemy__An_Introduction_to_the_Symbolism_and_the_Psychology"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Sexual union as creative merger"
@@ -375,8 +453,8 @@
       "element": "Water/Earth",
       "planet": "Saturn/Pluto",
       "tarot_cards": [
-        "Death",
-        "The Devil",
+        { "text": "Death", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Devil", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Five of Cups"
@@ -398,8 +476,14 @@
         "citation_key": "Basil_Valentine-The_Twelve_Keys_of_Basil_Valentine",
         "text": "Without putrefaction, nothing can be regenerated. The old must completely die before the new can be born."
       },
-      "author": "Basil Valentine",
-      "source": "The Twelve Keys of Basil Valentine",
+      "author": {
+        "text": "Basil Valentine",
+        "citation_key": "Basil_Valentine-The_Twelve_Keys_of_Basil_Valentine"
+      },
+      "source": {
+        "text": "The Twelve Keys of Basil Valentine",
+        "citation_key": "Basil_Valentine-The_Twelve_Keys_of_Basil_Valentine"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Depression as necessary dissolution"
@@ -409,7 +493,7 @@
       "element": "Earth",
       "planet": "Saturn",
       "tarot_cards": [
-        "The Emperor",
+        { "text": "The Emperor", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Four of Pentacles"
@@ -435,8 +519,14 @@
         "citation_key": "Nicholas_Flamel-The_Summary_of_Philosophy",
         "text": "Congelation fixes the volatile spirit into stable form, making permanent what was once fleeting inspiration."
       },
-      "author": "Nicholas Flamel",
-      "source": "The Summary of Philosophy",
+      "author": {
+        "text": "Nicholas Flamel",
+        "citation_key": "Nicholas_Flamel-The_Summary_of_Philosophy"
+      },
+      "source": {
+        "text": "The Summary of Philosophy",
+        "citation_key": "Nicholas_Flamel-The_Summary_of_Philosophy"
+      },
       "bodily_correspondence": {
         "citation_key": "Melody-Love_Is_In_The_Earth",
         "text": "Crystallization of insights into habit"
@@ -446,7 +536,7 @@
       "element": "Fire/Water",
       "planet": "Jupiter",
       "tarot_cards": [
-        "Strength",
+        { "text": "Strength", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Nine of Pentacles"
@@ -472,8 +562,14 @@
         "citation_key": "Ramon_Llull-The_Tree_of_Life",
         "text": "Cibation is the gentle nourishment of the philosophical child, providing it with the spiritual food necessary for its growth."
       },
-      "author": "Ramon Llull",
-      "source": "The Tree of Life",
+      "author": {
+        "text": "Ramon Llull",
+        "citation_key": "Ramon_Llull-The_Tree_of_Life"
+      },
+      "source": {
+        "text": "The Tree of Life",
+        "citation_key": "Ramon_Llull-The_Tree_of_Life"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Proper nutrition supporting transformation"
@@ -483,8 +579,8 @@
       "element": "Air/Fire",
       "planet": "Mercury/Sun",
       "tarot_cards": [
-        "The Star",
-        "The Sun",
+        { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Ace of Swords"
@@ -506,8 +602,14 @@
         "citation_key": "Zosimos_of_Panopolis-On_the_Letter_Omega",
         "text": "Sublimation raises the earthly to the celestial, transforming base desires into divine inspiration."
       },
-      "author": "Zosimos of Panopolis",
-      "source": "On the Letter Omega",
+      "author": {
+        "text": "Zosimos of Panopolis",
+        "citation_key": "Zosimos_of_Panopolis-On_the_Letter_Omega"
+      },
+      "source": {
+        "text": "On the Letter Omega",
+        "citation_key": "Zosimos_of_Panopolis-On_the_Letter_Omega"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Transmutation of sexual energy into creativity"
@@ -517,8 +619,8 @@
       "element": "Air",
       "planet": "Jupiter/Sun",
       "tarot_cards": [
-        "Temperance",
-        "The Star",
+        { "text": "Temperance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Three of Cups"
@@ -540,8 +642,14 @@
         "citation_key": "George_Ripley-The_Compound_of_Alchemy",
         "text": "Fermentation is the resurrection phase where the philosopher's stone begins to manifest its miraculous properties."
       },
-      "author": "George Ripley",
-      "source": "The Compound of Alchemy",
+      "author": {
+        "text": "George Ripley",
+        "citation_key": "George_Ripley-The_Compound_of_Alchemy"
+      },
+      "source": {
+        "text": "The Compound of Alchemy",
+        "citation_key": "George_Ripley-The_Compound_of_Alchemy"
+      },
       "bodily_correspondence": {
         "citation_key": "Barbara_Brennan-Hands_of_Light",
         "text": "Natural healing and regeneration"
@@ -551,12 +659,12 @@
       "element": "Fire",
       "planet": "Sun",
       "tarot_cards": [
-        "The Sun",
+        { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Six of Wands"
         },
-        "The World"
+        { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_process": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -574,8 +682,14 @@
         "citation_key": "John_Dee-Monas_Hieroglyphica",
         "text": "Exaltation lifts the prepared soul to the heights of divine consciousness where it beholds the face of the eternal."
       },
-      "author": "John Dee",
-      "source": "Monas Hieroglyphica",
+      "author": {
+        "text": "John Dee",
+        "citation_key": "John_Dee-Monas_Hieroglyphica"
+      },
+      "source": {
+        "text": "Monas Hieroglyphica",
+        "citation_key": "John_Dee-Monas_Hieroglyphica"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Ecstatic states and peak experiences"
@@ -585,7 +699,7 @@
       "element": "All Elements",
       "planet": "Sun/Jupiter",
       "tarot_cards": [
-        "The Magician",
+        { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Three of Pentacles"
@@ -611,8 +725,14 @@
         "citation_key": "Michael_Maier-Atalanta_Fugiens",
         "text": "Multiplication demonstrates the infinite creative power of the perfected consciousness to generate limitless spiritual wealth."
       },
-      "author": "Michael Maier",
-      "source": "Atalanta Fugiens",
+      "author": {
+        "text": "Michael Maier",
+        "citation_key": "Michael_Maier-Atalanta_Fugiens"
+      },
+      "source": {
+        "text": "Atalanta Fugiens",
+        "citation_key": "Michael_Maier-Atalanta_Fugiens"
+      },
       "bodily_correspondence": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Abundant health and vitality"
@@ -622,8 +742,8 @@
       "element": "Spirit",
       "planet": "Sun",
       "tarot_cards": [
-        "The World",
-        "The Magician",
+        { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Ace of Pentacles"
@@ -645,8 +765,14 @@
         "citation_key": "Pseudo_Democritus-Physica_et_Mystica",
         "text": "Projection is the final operation where the adept becomes a philosopher's stone, capable of transmuting all they touch."
       },
-      "author": "Pseudo-Democritus",
-      "source": "Physica et Mystica",
+      "author": {
+        "text": "Pseudo-Democritus",
+        "citation_key": "Pseudo_Democritus-Physica_et_Mystica"
+      },
+      "source": {
+        "text": "Physica et Mystica",
+        "citation_key": "Pseudo_Democritus-Physica_et_Mystica"
+      },
       "bodily_correspondence": {
         "citation_key": "Barbara_Brennan-Hands_of_Light",
         "text": "Healing others through presence"
@@ -662,8 +788,14 @@
       "citation_key": "Gerhard_Dorn-Speculativae_philosophiae",
       "text": "The prima materia is the chaos mentioned by the ancients, containing in potential all forms and all possibilities."
     },
-    "author": "Gerhard Dorn",
-    "source": "Speculativae philosophiae",
+    "author": {
+      "text": "Gerhard Dorn",
+      "citation_key": "Gerhard_Dorn-Speculativae_philosophiae"
+    },
+    "source": {
+      "text": "Speculativae philosophiae",
+      "citation_key": "Gerhard_Dorn-Speculativae_philosophiae"
+    },
     "characteristics": {
       "universal_solvent": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -743,8 +875,14 @@
       "citation_key": "Paracelsus-The_Hermetic_and_Alchemical_Writings",
       "text": "The philosopher's stone is not a stone at all, but the perfect soul that has achieved union with the divine."
     },
-    "author": "Paracelsus",
-    "source": "The Hermetic and Alchemical Writings",
+    "author": {
+      "text": "Paracelsus",
+      "citation_key": "Paracelsus-The_Hermetic_and_Alchemical_Writings"
+    },
+    "source": {
+      "text": "The Hermetic and Alchemical Writings",
+      "citation_key": "Paracelsus-The_Hermetic_and_Alchemical_Writings"
+    },
     "properties": {
       "transmutation": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -769,11 +907,11 @@
     },
     "stages_of_development": {
       "nigredo": {
-        "color": "Black",
+        "color": { "text": "Black", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "cards": [
-          "Death",
-          "The Devil",
-          "The Tower"
+          { "text": "Death", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Devil", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Tower", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "process": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -785,11 +923,11 @@
         }
       },
       "albedo": {
-        "color": "White",
+        "color": { "text": "White", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "cards": [
-          "The Moon",
-          "The High Priestess",
-          "The Star"
+          { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The High Priestess", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "process": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -801,11 +939,11 @@
         }
       },
       "citrinitas": {
-        "color": "Yellow",
+        "color": { "text": "Yellow", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "cards": [
-          "The Sun",
-          "The Hermit",
-          "Temperance"
+          { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "Temperance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "process": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -817,11 +955,11 @@
         }
       },
       "rubedo": {
-        "color": "Red",
+        "color": { "text": "Red", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "cards": [
-          "The Magician",
-          "The World",
-          "Strength"
+          { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "Strength", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "process": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -859,22 +997,28 @@
       "citation_key": "Carl_Jung-Man_and_His_Symbols",
       "text": "Symbols are the language of the soul, speaking directly to the unconscious mind through archetypal imagery."
     },
-    "author": "Carl Jung",
-    "source": "Man and His Symbols",
+    "author": {
+      "text": "Carl Jung",
+      "citation_key": "Carl_Jung-Man_and_His_Symbols"
+    },
+    "source": {
+      "text": "Man and His Symbols",
+      "citation_key": "Carl_Jung-Man_and_His_Symbols"
+    },
     "elements": {
       "fire": {
         "symbol": "\u25b3",
         "tarot_suit": "Wands",
         "qualities": [
-          "hot",
-          "dry",
-          "active",
-          "masculine"
+          { "text": "hot", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "dry", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "active", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "masculine", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "cards": [
-          "The Sun",
-          "The Tower",
-          "Strength"
+          { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Tower", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "Strength", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -889,15 +1033,15 @@
         "symbol": "\u25bd",
         "tarot_suit": "Cups",
         "qualities": [
-          "cold",
-          "moist",
-          "passive",
-          "feminine"
+          { "text": "cold", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "moist", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "passive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "feminine", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "cards": [
-          "The Moon",
-          "The Star",
-          "The High Priestess"
+          { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The High Priestess", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -912,15 +1056,15 @@
         "symbol": "\u25b3 with line",
         "tarot_suit": "Swords",
         "qualities": [
-          "hot",
-          "moist",
-          "active",
-          "masculine"
+          { "text": "hot", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "moist", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "active", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "masculine", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "cards": [
-          "The Fool",
-          "Justice",
-          "The Hermit"
+          { "text": "The Fool", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "Justice", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -935,15 +1079,15 @@
         "symbol": "\u25bd with line",
         "tarot_suit": "Pentacles",
         "qualities": [
-          "cold",
-          "dry",
-          "passive",
-          "feminine"
+          { "text": "cold", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "dry", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "passive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "feminine", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "cards": [
-          "The World",
-          "The Empress",
-          "The Emperor"
+          { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Empress", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Emperor", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -960,10 +1104,10 @@
         "symbol": "\u2609",
         "planet": "Sun",
         "tarot_cards": [
-          "The Sun",
-          "The Magician"
+          { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
-        "quality": "Perfection and incorruption",
+        "quality": { "text": "Perfection and incorruption", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Divine consciousness achieved"
@@ -973,10 +1117,10 @@
         "symbol": "\u263d",
         "planet": "Moon",
         "tarot_cards": [
-          "The High Priestess",
-          "The Moon"
+          { "text": "The High Priestess", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
-        "quality": "Purity and reflection",
+        "quality": { "text": "Purity and reflection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Receptive wisdom and intuition"
@@ -986,10 +1130,10 @@
         "symbol": "\u263f",
         "planet": "Mercury",
         "tarot_cards": [
-          "The Magician",
-          "The Hermit"
+          { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
-        "quality": "Fluidity and transformation",
+        "quality": { "text": "Fluidity and transformation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Active intelligence and communication"
@@ -999,10 +1143,10 @@
         "symbol": "\u2640",
         "planet": "Venus",
         "tarot_cards": [
-          "The Empress",
-          "The Lovers"
+          { "text": "The Empress", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Lovers", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
-        "quality": "Beauty and attraction",
+        "quality": { "text": "Beauty and attraction", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Divine love and harmony"
@@ -1012,10 +1156,10 @@
         "symbol": "\u2642",
         "planet": "Mars",
         "tarot_cards": [
-          "The Tower",
-          "The Chariot"
+          { "text": "The Tower", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Chariot", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
-        "quality": "Strength and courage",
+        "quality": { "text": "Strength and courage", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Divine will in action"
@@ -1029,9 +1173,9 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Wheel of Fortune"
           },
-          "The Hierophant"
+          { "text": "The Hierophant", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
-        "quality": "Expansion and wisdom",
+        "quality": { "text": "Expansion and wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Divine law and growth"
@@ -1041,10 +1185,10 @@
         "symbol": "\u2644",
         "planet": "Saturn",
         "tarot_cards": [
-          "The World",
-          "The Devil"
+          { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Devil", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
-        "quality": "Limitation and structure",
+        "quality": { "text": "Limitation and structure", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "spiritual_meaning": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Divine law and necessary restriction"
@@ -1058,7 +1202,10 @@
       "text": "Classical hermetic literature and their tarot applications"
     },
     "emerald_tablet": {
-      "author": "Hermes Trismegistus",
+      "author": {
+        "text": "Hermes Trismegistus",
+        "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet"
+      },
       "key_teaching": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "As above, so below"
@@ -1077,7 +1224,10 @@
       }
     },
     "corpus_hermeticum": {
-      "author": "Hermes Trismegistus",
+      "author": {
+        "text": "Hermes Trismegistus",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "key_teaching": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Mind as creator of reality"
@@ -1096,7 +1246,10 @@
       }
     },
     "kybalion": {
-      "author": "The Three Initiates",
+      "author": {
+        "text": "The Three Initiates",
+        "citation_key": "The_Three_Initiates-The_Kybalion"
+      },
       "key_teaching": {
         "citation_key": "The_Three_Initiates-The_Kybalion",
         "text": "Seven hermetic principles"
@@ -1124,8 +1277,14 @@
       "citation_key": "Gerhard_Dorn-De_tenebris_contra_naturam",
       "text": "The alchemical marriage is the union of the solar and lunar consciousness, creating the philosophical child of perfect wisdom."
     },
-    "author": "Gerhard Dorn",
-    "source": "De tenebris contra naturam",
+    "author": {
+      "text": "Gerhard Dorn",
+      "citation_key": "Gerhard_Dorn-De_tenebris_contra_naturam"
+    },
+    "source": {
+      "text": "De tenebris contra naturam",
+      "citation_key": "Gerhard_Dorn-De_tenebris_contra_naturam"
+    },
     "stages": {
       "courtship": {
         "cards": [
@@ -1133,7 +1292,7 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Two of Cups"
           },
-          "The Lovers",
+          { "text": "The Lovers", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Two of Wands"
@@ -1158,7 +1317,7 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Six of Cups"
           },
-          "The Hierophant"
+          { "text": "The Hierophant", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "process": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1171,8 +1330,8 @@
       },
       "wedding": {
         "cards": [
-          "Temperance",
-          "The Lovers",
+          { "text": "Temperance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Lovers", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Two of Pentacles"
@@ -1189,8 +1348,8 @@
       },
       "consummation": {
         "cards": [
-          "The Star",
-          "The World",
+          { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Ten of Cups"
@@ -1213,15 +1372,15 @@
           "text": "Solar consciousness, active principle"
         },
         "tarot_cards": [
-          "The Emperor",
-          "The Sun",
-          "King cards"
+          { "text": "The Emperor", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "King cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "qualities": [
-          "will",
-          "action",
-          "consciousness",
-          "logic"
+          { "text": "will", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "action", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "consciousness", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "logic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       },
       "white_queen": {
@@ -1230,15 +1389,15 @@
           "text": "Lunar consciousness, receptive principle"
         },
         "tarot_cards": [
-          "The High Priestess",
-          "The Moon",
-          "Queen cards"
+          { "text": "The High Priestess", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "Queen cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "qualities": [
-          "intuition",
-          "receptivity",
-          "emotion",
-          "wisdom"
+          { "text": "intuition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "receptivity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "emotion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       }
     },
@@ -1249,14 +1408,14 @@
           "text": "Perfected consciousness born from union"
         },
         "tarot_cards": [
-          "The Sun",
-          "The World",
-          "The Star"
+          { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "qualities": [
-          "integrated wisdom",
-          "divine consciousness",
-          "perfect balance"
+          { "text": "integrated wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "divine consciousness", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "perfect balance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       }
     }
@@ -1270,24 +1429,30 @@
       "citation_key": "Paracelsus-Opus_Paramirum",
       "text": "All things consist of three principles: Sulphur, Mercury, and Salt. These are the trinity that manifests in all creation."
     },
-    "author": "Paracelsus",
-    "source": "Opus Paramirum",
+    "author": {
+      "text": "Paracelsus",
+      "citation_key": "Paracelsus-Opus_Paramirum"
+    },
+    "source": {
+      "text": "Opus Paramirum",
+      "citation_key": "Paracelsus-Opus_Paramirum"
+    },
     "sulphur": {
       "principle": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Soul - the active, fiery principle"
       },
-      "tarot_correspondence": "Major Arcana",
+      "tarot_correspondence": { "text": "Major Arcana", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "qualities": [
-        "consciousness",
-        "activity",
-        "fire",
-        "spirit"
+        { "text": "consciousness", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "activity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "fire", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "spirit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "cards": [
-        "The Magician",
-        "The Sun",
-        "Strength"
+        { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Strength", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1304,17 +1469,17 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Spirit - the connecting, flowing principle"
       },
-      "tarot_correspondence": "Court Cards",
+      "tarot_correspondence": { "text": "Court Cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "qualities": [
-        "fluidity",
-        "communication",
-        "change",
-        "mediation"
+        { "text": "fluidity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "change", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "mediation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "cards": [
-        "The Hermit",
-        "Temperance",
-        "The Fool"
+        { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Temperance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Fool", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1336,14 +1501,14 @@
         "text": "Minor Arcana pip cards"
       },
       "qualities": [
-        "structure",
-        "stability",
-        "earth",
-        "manifestation"
+        { "text": "structure", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "stability", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "earth", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "manifestation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "cards": [
-        "The World",
-        "The Emperor",
+        { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Emperor", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Ten of Pentacles"

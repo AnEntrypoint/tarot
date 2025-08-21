@@ -1,0 +1,376 @@
+{
+    "overview": {
+        "interpretation": { "text": "This reading shows {intensity} spiritual intensity with {personalInfluence}. The energy pattern suggests {energyFlow}, indicating the current flow of circumstances in your life.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "intensity": {
+            "high": { "text": "High", "citation_key": "overview_int_high" },
+            "medium": { "text": "Medium", "citation_key": "overview_int_med" },
+            "low": { "text": "Low", "citation_key": "overview_int_low" }
+        },
+        "personal_influence": {
+            "strong": { "text": "Strong personal influences present", "citation_key": "overview_pers_strong" },
+            "situational": { "text": "Situational focus", "citation_key": "overview_pers_sit" }
+        },
+        "energy_flow": {
+            "blocked": { "text": "Blocked or internal energy", "citation_key": "overview_flow_block" },
+            "forward": { "text": "Forward-moving energy", "citation_key": "overview_flow_forward" }
+        }
+    },
+    "suits": {
+        "interpretation": { "text": "The focus is primarily on {dominantMeaning} with {dominantCount} cards from this area.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "meanings": {
+            "Major Arcana": { "text": "spiritual lessons and major life themes", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            "Wands": { "text": "career, passion, and creative energy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            "Cups": { "text": "emotions, relationships, and intuition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            "Swords": { "text": "thoughts, challenges, and communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            "Pentacles": { "text": "material matters, health, and practical concerns", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+        }
+    },
+    "energy": {
+        "blocked": { "text": "Energy is currently blocked or moving internally. This suggests a time for reflection and inner work.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "transformative": { "text": "Major transformation is occurring. This is a time of significant change and growth.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "forward": { "text": "Energy is flowing forward positively. This is a time for action and manifestation.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "types": {
+            "blocked": { "text": "Blocked/Internal", "citation_key": "energy_type_blocked" },
+            "transformative": { "text": "Transformative", "citation_key": "energy_type_transform" },
+            "forward": { "text": "Forward-Moving", "citation_key": "energy_type_forward" }
+        }
+    },
+    "jungian": {
+        "interpretation_base": { "text": "The {dominantArchetype} archetype is dominant in this reading, suggesting this energy is most active in your psyche.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_shadow": { "text": "Shadow work is indicated in {shadowCount} area(s), offering opportunities for integration and growth.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_anima": { "text": "Anima/Animus dynamics are present, suggesting themes of inner masculine/feminine balance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "collective_unconscious_present": { "text": "{majorArcanaCount} Major Arcana cards suggest strong connection to collective unconscious themes and universal patterns.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "collective_unconscious_subtle": { "text": "Connection to collective unconscious is subtle in this reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "shadow_fallback": { "text": "unexplored shadow aspects", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "anima_animus_fallback": { "text": "archetypal energy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "shadow_work_line": { "text": "{card} ({archetype}) - {meaning}", "citation_key": "jung_shadow_line" },
+        "anima_line": { "text": "Anima: {card} - {meaning}", "citation_key": "jung_anima_line" },
+        "animus_line": { "text": "Animus: {card} - {meaning}", "citation_key": "jung_animus_line" },
+        "archetypes": {
+            "TheFool": { "text": "Innocent", "citation_key": "jung_arch_fool" },
+            "TheMagician": { "text": "Magician", "citation_key": "jung_arch_magician" },
+            "TheHighPriestess": { "text": "Sage", "citation_key": "jung_arch_priestess" },
+            "TheEmpress": { "text": "Mother", "citation_key": "jung_arch_empress" },
+            "TheEmperor": { "text": "Ruler", "citation_key": "jung_arch_emperor" },
+            "TheHierophant": { "text": "Teacher", "citation_key": "jung_arch_hierophant" },
+            "TheLovers": { "text": "Lover", "citation_key": "jung_arch_lovers" },
+            "TheChariot": { "text": "Hero", "citation_key": "jung_arch_chariot" },
+            "Strength": { "text": "Hero", "citation_key": "jung_arch_strength" },
+            "TheHermit": { "text": "Sage", "citation_key": "jung_arch_hermit" },
+            "WheelofFortune": { "text": "Magician", "citation_key": "jung_arch_wheel" },
+            "Justice": { "text": "Ruler", "citation_key": "jung_arch_justice" },
+            "TheHangedMan": { "text": "Martyr", "citation_key": "jung_arch_hangedman" },
+            "Death": { "text": "Destroyer", "citation_key": "jung_arch_death" },
+            "Temperance": { "text": "Sage", "citation_key": "jung_arch_temperance" },
+            "TheDevil": { "text": "Shadow", "citation_key": "jung_arch_devil" },
+            "TheTower": { "text": "Destroyer", "citation_key": "jung_arch_tower" },
+            "TheStar": { "text": "Innocent", "citation_key": "jung_arch_star" },
+            "TheMoon": { "text": "Shadow", "citation_key": "jung_arch_moon" },
+            "TheSun": { "text": "Hero", "citation_key": "jung_arch_sun" },
+            "Judgement": { "text": "Sage", "citation_key": "jung_arch_judgement" },
+            "TheWorld": { "text": "Sage", "citation_key": "jung_arch_world" }
+        },
+        "basic_archetypes": {
+            "Ruler": { "text": "Ruler", "citation_key": "jung_basic_ruler" },
+            "Mother": { "text": "Mother", "citation_key": "jung_basic_mother" },
+            "Hero": { "text": "Hero", "citation_key": "jung_basic_hero" },
+            "Innocent": { "text": "Innocent", "citation_key": "jung_basic_innocent" },
+            "Magician": { "text": "Magician", "citation_key": "jung_basic_magician" },
+            "Lover": { "text": "Lover", "citation_key": "jung_basic_lover" },
+            "Creator": { "text": "Creator", "citation_key": "jung_basic_creator" },
+            "Seeker": { "text": "Seeker", "citation_key": "jung_basic_seeker" }
+        },
+        "shadow_meanings": {
+            "TheFool": { "text": "reckless behavior or avoiding responsibility", "citation_key": "jung_shadow_fool" },
+            "TheMagician": { "text": "manipulation or misuse of power", "citation_key": "jung_shadow_magician" },
+            "TheHighPriestess": { "text": "secrets or intuitive blocks", "citation_key": "jung_shadow_priestess" },
+            "TheEmpress": { "text": "overindulgence or neglecting self-care", "citation_key": "jung_shadow_empress" },
+            "TheEmperor": { "text": "authoritarian behavior or lack of structure", "citation_key": "jung_shadow_emperor" }
+        },
+        "anima_animus_meanings": {
+            "anima": {
+                "TheEmpress": { "text": "nurturing feminine energy and creativity", "citation_key": "jung_anima_empress" },
+                "TheHighPriestess": { "text": "intuitive wisdom and mystery", "citation_key": "jung_anima_priestess" },
+                "QueenofCups": { "text": "emotional intelligence and compassion", "citation_key": "jung_anima_qoc" },
+                "QueenofPentacles": { "text": "practical nurturing and abundance", "citation_key": "jung_anima_qop" }
+            },
+            "animus": {
+                "TheEmperor": { "text": "structured masculine energy and leadership", "citation_key": "jung_animus_emperor" },
+                "TheMagician": { "text": "focused will and manifestation power", "citation_key": "jung_animus_magician" },
+                "KingofWands": { "text": "passionate leadership and vision", "citation_key": "jung_animus_kow" },
+                "KingofSwords": { "text": "intellectual clarity and justice", "citation_key": "jung_animus_kos" }
+            }
+        }
+    },
+    "spiritual": {
+        "interpretation_base": { "text": "This reading reveals {lessonCount} major soul lesson(s) for your spiritual growth.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_gifts": { "text": "You have {giftCount} spiritual gift(s) available to develop.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_higher_self": { "text": "Your Higher Self is offering {messageCount} message(s) of guidance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_ascension": { "text": "Signs of spiritual ascension are present in {ascensionCount} area(s).", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "soul_lesson_fallback": { "text": "Universal spiritual growth", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "spiritual_gift_fallback": { "text": "Spiritual insight", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "higher_self_fallback": { "text": "Divine guidance is available", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "ascension_path_fallback": { "text": "Spiritual evolution", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "soul_lesson_line": { "text": "{card}: {lesson}", "citation_key": "spiritual_lesson_line" },
+        "spiritual_gift_line": { "text": "{card}: {gift}", "citation_key": "spiritual_gift_line" },
+        "higher_self_message_line": { "text": "{card}: {message}", "citation_key": "spiritual_hs_line" },
+        "ascension_path_line": { "text": "{card}: {path}", "citation_key": "spiritual_asc_line" },
+        "soul_lessons": {
+            "TheFool": { "text": "Trust in the journey and embrace new beginnings", "citation_key": "spiritual_lesson_fool" },
+            "TheMagician": { "text": "Develop your personal power and manifestation abilities", "citation_key": "spiritual_lesson_magician" },
+            "TheHighPriestess": { "text": "Connect with your intuition and inner wisdom", "citation_key": "spiritual_lesson_priestess" },
+            "TheEmpress": { "text": "Embrace creativity and nurturing energy", "citation_key": "spiritual_lesson_empress" },
+            "TheEmperor": { "text": "Learn structure, discipline, and healthy boundaries", "citation_key": "spiritual_lesson_emperor" }
+        },
+        "spiritual_gifts": {
+            "TheHighPriestess": { "text": "Enhanced intuition and psychic abilities", "citation_key": "spiritual_gift_priestess" },
+            "TheHermit": { "text": "Inner wisdom and ability to guide others", "citation_key": "spiritual_gift_hermit" },
+            "TheStar": { "text": "Hope, healing, and inspirational energy", "citation_key": "spiritual_gift_star" },
+            "TheMoon": { "text": "Connection to lunar cycles and subconscious wisdom", "citation_key": "spiritual_gift_moon" }
+        },
+        "higher_self_messages": {
+            "TheFool": { "text": "Step forward with faith and trust", "citation_key": "spiritual_hs_fool" },
+            "TheMagician": { "text": "You have all the tools you need", "citation_key": "spiritual_hs_magician" },
+            "TheHighPriestess": { "text": "Listen to your inner voice", "citation_key": "spiritual_hs_priestess" },
+            "TheEmpress": { "text": "Create and nurture what you love", "citation_key": "spiritual_hs_empress" },
+            "TheEmperor": { "text": "Take charge of your destiny", "citation_key": "spiritual_hs_emperor" }
+        },
+        "ascension_paths": {
+            "TheWorld": { "text": "Completion of a major spiritual cycle", "citation_key": "spiritual_asc_world" },
+            "TheSun": { "text": "Joy, vitality, and spiritual illumination", "citation_key": "spiritual_asc_sun" },
+            "TheStar": { "text": "Hope and connection to higher purpose", "citation_key": "spiritual_asc_star" },
+            "Temperance": { "text": "Balance and integration of spiritual lessons", "citation_key": "spiritual_asc_temperance" }
+        }
+    },
+    "kabbalah": {
+        "uninitialized": { "text": "Kabbalistic analysis requires JSON database initialization.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "{pathCount} Kabbalistic paths are active, connecting to {sephirothCount} sephiroth. The Tree of Life energy flows through these channels to provide guidance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "chakras": {
+        "uninitialized": { "text": "Chakra analysis requires JSON database initialization.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "{dominantChakra} chakra is most activated in this reading. Energy flows through {cardCount} card{plural} to guide your spiritual alignment.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "archetypes": {
+        "primary": { "text": "Hero's Journey theme detected", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "mythological": { "text": "Greek/Roman mythological influences", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "Archetypal patterns suggest personal transformation journey.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "timing": {
+        "seasonal": { "text": "Spring energy - new beginnings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "lunar": { "text": "Waxing moon - growth phase", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "planetary": { "text": "Mercury influence - communication focus", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "Timing suggests favorable period for new ventures.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "karma": {
+        "debts": { "text": "Past relationship patterns need resolution", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "past_life": { "text": "Creative talents from previous incarnations", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "contracts": { "text": "Soul agreements with close relationships", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "dharma": { "text": "Teaching and healing path indicated", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "Karmic patterns suggest completion of old cycles and beginning of new soul contracts.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "elemental_dignities": {
+        "remedy_fire": { "text": "physical activity, creative projects, or candle meditation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "remedy_water": { "text": "emotional expression, water rituals, or moon gazing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "remedy_air": { "text": "breathwork, journaling, or intellectual pursuits", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "remedy_earth": { "text": "grounding exercises, nature walks, or crystal work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "remedy_fallback": { "text": "elemental balancing practices", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "enhanced_interpretation": {
+            "intro": { "text": "{dominant} energy dominates this reading. ", "citation_key": "elem_enhance_intro" },
+            "psychological": { "text": "{aspect}. ", "citation_key": "elem_enhance_psych" },
+            "lesson": { "text": "Key lesson: {lesson}. ", "citation_key": "elem_enhance_lesson" },
+            "quote": { "text": "\n\nAs {author} noted: \"{quote}\"", "citation_key": "elem_enhance_quote" },
+            "dominant_meanings": {
+                "Fire": { "text": "passion, creativity, and action dominate your current situation", "citation_key": "elem_dom_fire" },
+                "Water": { "text": "emotions, intuition, and relationships are the primary focus", "citation_key": "elem_dom_water" },
+                "Air": { "text": "thoughts, communication, and mental clarity are emphasized", "citation_key": "elem_dom_air" },
+                "Earth": { "text": "practical matters, material concerns, and stability are highlighted", "citation_key": "elem_dom_earth" }
+            }
+        },
+        "simple_interpretation": {
+            "template": { "text": "{dominant}. However, {lacking}.", "citation_key": "elem_simple_template" },
+            "dominant_meanings": {
+                "Fire": { "text": "passion, creativity, and action dominate your current situation", "citation_key": "elem_dom_fire" },
+                "Water": { "text": "emotions, intuition, and relationships are the primary focus", "citation_key": "elem_dom_water" },
+                "Air": { "text": "thoughts, communication, and mental clarity are emphasized", "citation_key": "elem_dom_air" },
+                "Earth": { "text": "practical matters, material concerns, and stability are highlighted", "citation_key": "elem_dom_earth" }
+            },
+            "lacking_meanings": {
+                "Fire": { "text": "you may need more passion and initiative", "citation_key": "elem_lack_fire" },
+                "Water": { "text": "emotional connection and intuition may be lacking", "citation_key": "elem_lack_water" },
+                "Air": { "text": "clearer thinking and communication might be needed", "citation_key": "elem_lack_air" },
+                "Earth": { "text": "more grounding and practical focus could be beneficial", "citation_key": "elem_lack_earth" }
+            }
+        }
+    },
+    "astrology": {
+        "uninitialized": { "text": "Astrological transit analysis requires JSON database initialization.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation": { "text": "{cardCount} cards carry astrological energies. Current lunar phase: {lunarPhase}. The cosmic energies support the themes revealed in this reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "sacred_geometry": {
+        "interpretation": { "text": "Sacred geometry reveals divine patterns through {cardCount} cards. Golden ratio relationships and geometric harmonies guide this reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "symbolism": {
+        "interpretation": { "text": "Deep symbolism reveals {cardCount} layers of meaning through archetypal, elemental, and color symbolism patterns.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "interactions": {
+        "interpretation": { "text": "Card interactions reveal {connectionCount} connections and dynamic relationships between the cards in this reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "shadow_work": {
+        "interpretation": { "text": "Shadow work reveals {aspectCount} shadow aspects and integration opportunities for psychological growth.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "alchemy": {
+        "interpretation": { "text": "Alchemical analysis reveals transformation through {stageCount} alchemical stages.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "mythology": {
+        "interpretation": { "text": "Mythological analysis reveals {heroJourneyCount} hero's journey elements, {goddessCount} goddess archetypes, and {godCount} god archetypes.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "quantum": {
+        "interpretation": { "text": "Quantum field analysis reveals {superpositionCount} superposition states and quantum entanglement patterns across the reading.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "cross_cultural": {
+        "uninitialized": { "text": "Cross-cultural analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading shows personal themes that may not have strong cross-cultural symbolic resonance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "This reading contains {symbolCount} universal symbols that resonate across cultures:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "themes_present": { "text": "Universal archetypal themes present: {themes}.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "symbol_line": { "text": "• {symbol} ({card}): {meaning}\n", "citation_key": "cc_symbol_line"}
+    },
+    "dream": {
+        "uninitialized": { "text": "Dream analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading may not have strong connections to dream symbolism or subconscious messaging.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "From a dream symbolism perspective:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "themes_present": { "text": "Collective unconscious themes: {themes}.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "symbol_line": { "text": "• {card}: {dreamMeaning}\n", "citation_key": "dream_symbol_line" }
+    },
+    "nature": {
+        "uninitialized": { "text": "Natural correspondences require JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading shows primarily human-centered themes without strong natural world connections.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Natural world connections in this reading:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "card_line": { "text": "• {card}:\n", "citation_key": "nature_card_line" },
+        "plants_line": { "text": "  Plants: {plants}\n", "citation_key": "nature_plants_line" },
+        "animals_line": { "text": "  Animals: {animals}\n", "citation_key": "nature_animals_line" },
+        "magic_line": { "text": "  Natural Magic: {magic}\n", "citation_key": "nature_magic_line" }
+    },
+    "healing": {
+        "uninitialized": { "text": "Therapeutic analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading may focus more on external circumstances than inner healing processes.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Therapeutic and healing insights:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "card_line": { "text": "• {card}:\n", "citation_key": "healing_card_line" },
+        "trauma_line": { "text": "  Trauma Work: {trauma}\n", "citation_key": "healing_trauma_line" },
+        "approach_line": { "text": "  Approach: {approach}\n", "citation_key": "healing_approach_line" },
+        "modalities_line": { "text": "  Modalities: {modalities}\n", "citation_key": "healing_modalities_line" }
+    },
+    "professional": {
+        "uninitialized": { "text": "Professional analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "fallback": { "text": "Apply standard professional reading techniques with attention to client comfort and clarity.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Professional reading guidance:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "technique_title": { "text": "Recommended Technique: {technique}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "dynamics_title": { "text": "Client Dynamics: {guidance}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "techniques": {
+            "spiritual": { "text": "Focus on spiritual guidance and life path insights.", "citation_key": "prof_tech_spirit" },
+            "shadow": { "text": "Emphasize inner work and unconscious pattern exploration.", "citation_key": "prof_tech_shadow" },
+            "practical": { "text": "Provide clear, actionable advice for practical matters.", "citation_key": "prof_tech_practical" }
+        },
+        "client_dynamics": {
+            "emotional": { "text": "Client may need emotional support and validation.", "citation_key": "prof_dyn_emo" },
+            "motivation": { "text": "Client likely seeks inspiration and direction for action.", "citation_key": "prof_dyn_motiv" },
+            "clarity": { "text": "Client probably needs mental clarity and decision-making support.", "citation_key": "prof_dyn_clarity" },
+            "practical": { "text": "Client is looking for practical, material guidance.", "citation_key": "prof_dyn_practical" },
+            "spiritual": { "text": "Client is seeking deeper spiritual insight.", "citation_key": "prof_dyn_spirit" },
+            "default": { "text": "Provide balanced, comprehensive guidance.", "citation_key": "prof_dyn_default" }
+        }
+    },
+    "context": {
+        "uninitialized": { "text": "Context analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Reading Context Analysis:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "complexity_line": { "text": "Complexity Level: {complexity}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "coherence_line": { "text": "Thematic Coherence: {coherence}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "flow_line": { "text": "Narrative Flow: {flow}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "complexity_high": { "text": "This reading addresses complex, multi-layered life situations requiring careful interpretation.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "complexity_low": { "text": "This reading focuses on straightforward, practical matters with clear guidance.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "complexity_levels": {
+            "high": { "text": "High", "citation_key": "context_comp_high" },
+            "medium": { "text": "Medium", "citation_key": "context_comp_med" },
+            "low": { "text": "Low", "citation_key": "context_comp_low" }
+        },
+        "coherence_levels": {
+            "focused": { "text": "Highly Focused", "citation_key": "context_coh_foc" },
+            "diverse": { "text": "Diverse", "citation_key": "context_coh_div" },
+            "moderate": { "text": "Moderately Focused", "citation_key": "context_coh_mod" },
+            "na": { "text": "N/A", "citation_key": "context_coh_na" }
+        },
+        "flow_levels": {
+            "limited": { "text": "Limited Narrative", "citation_key": "context_flow_lim" },
+            "complete": { "text": "Complete Story Arc", "citation_key": "context_flow_comp" },
+            "partial": { "text": "Partial Story Arc", "citation_key": "context_flow_part" },
+            "snapshot": { "text": "Situational Snapshot", "citation_key": "context_flow_snap" }
+        }
+    },
+    "spreads": {
+        "uninitialized": { "text": "Spread analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "{spreadType} Spread Analysis:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "mastery_technique": { "text": "Mastery Technique: {technique}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "position_interactions_title": { "text": "Position Interactions:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "standard_interpretation_fallback": { "text": "Standard interpretation", "citation_key": "spread_fallback" },
+        "interaction_line": { "text": "• {card1} → {card2}: {interaction}\n", "citation_key": "spread_interaction_line" },
+        "elemental_interactions": {
+            "Fire-Water": { "text": "Steam - Transformation through emotional passion", "citation_key": "elem_int_fw" },
+            "Fire-Air": { "text": "Amplification - Ideas fueled by enthusiasm", "citation_key": "elem_int_fa" },
+            "Fire-Earth": { "text": "Manifestation - Dreams brought into reality", "citation_key": "elem_int_fe" },
+            "Water-Air": { "text": "Mist - Intuitive communication and inspiration", "citation_key": "elem_int_wa" },
+            "Water-Earth": { "text": "Growth - Nurturing practical development", "citation_key": "elem_int_we" },
+            "Air-Earth": { "text": "Erosion - Mental focus wearing down obstacles", "citation_key": "elem_int_ae" },
+            "default": { "text": "Neutral interaction", "citation_key": "elem_int_default" }
+        }
+    },
+    "mystical": {
+        "uninitialized": { "text": "Mystical analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "no_resonance": { "text": "This reading speaks to practical matters rather than mystical revelation.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Mystical and Oracular Guidance:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "oracle_guidance": { "text": "Oracle Guidance: {guidance}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "transcendent_wisdom": { "text": "Transcendent Wisdom: {wisdom}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "oracular_techniques": {
+            "high": { "text": "Focus on soul purpose and spiritual destiny.", "citation_key": "mystic_tech_high" },
+            "balanced": { "text": "Integrate spiritual wisdom with practical guidance.", "citation_key": "mystic_tech_balanced" },
+            "grounded": { "text": "Find the sacred within the mundane circumstances.", "citation_key": "mystic_tech_grounded" }
+        },
+        "transcendent_wisdom_fallbacks": {
+            "illumination": { "text": "You are approaching a time of spiritual illumination and clarity.", "citation_key": "mystic_wis_illum" },
+            "transformation": { "text": "Great transformation requires the courage to release what no longer serves.", "citation_key": "mystic_wis_trans" },
+            "general": { "text": "Trust in the divine timing of your soul's journey.", "citation_key": "mystic_wis_gen" }
+        }
+    },
+    "applications": {
+        "uninitialized": { "text": "Application analysis requires JSON database.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "fallback": { "text": "Apply standard tarot wisdom to your current circumstances with mindful awareness.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "interpretation_base": { "text": "Comprehensive Life Applications:", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "insight_line": { "text": "{category}: {insight}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "life_mastery": {
+            "emotional": { "text": "Focus on emotional intelligence and heart-centered decision making.", "citation_key": "app_mastery_emo" },
+            "mental": { "text": "Develop clarity of thought and conscious communication.", "citation_key": "app_mastery_mental" },
+            "physical": { "text": "Ground your spiritual insights in practical, material action.", "citation_key": "app_mastery_phys" },
+            "spiritual": { "text": "Align your actions with your highest spiritual purpose.", "citation_key": "app_mastery_spirit" }
+        },
+        "manifestation_guidance": {
+            "complete_cycle": { "text": "You have both the seed and the fruition - trust the manifestation process.", "citation_key": "app_manifest_cycle" },
+            "new_beginnings": { "text": "Focus your intention clearly - you are planting powerful seeds.", "citation_key": "app_manifest_new" },
+            "completion": { "text": "Harvest time approaches - prepare to receive the fruits of your efforts.", "citation_key": "app_manifest_comp" },
+            "process": { "text": "Stay present with the unfolding process of manifestation.", "citation_key": "app_manifest_proc" }
+        },
+        "integration_practices": {
+            "inner_work": { "text": "Focus on inner integration and shadow work practices.", "citation_key": "app_integ_inner" },
+            "outer_expression": { "text": "Express your inner wisdom through concrete action in the world.", "citation_key": "app_integ_outer" },
+            "balanced_integration": { "text": "Balance inner reflection with outer expression.", "citation_key": "app_integ_balanced" }
+        }
+    },
+    "errors": {
+        "cross_cultural": { "text": "Unable to perform cross-cultural analysis.", "citation_key": "err_cc" },
+        "dream": { "text": "Unable to perform dream analysis.", "citation_key": "err_dream" },
+        "nature": { "text": "Unable to perform nature analysis.", "citation_key": "err_nature" },
+        "healing": { "text": "Unable to perform therapeutic analysis.", "citation_key": "err_healing" },
+        "professional": { "text": "Unable to perform professional analysis.", "citation_key": "err_prof" },
+        "context": { "text": "Unable to perform context analysis.", "citation_key": "err_context" },
+        "spread": { "text": "Unable to perform spread analysis.", "citation_key": "err_spread" },
+        "mystical": { "text": "Unable to access mystical wisdom.", "citation_key": "err_mystical" },
+        "applications": { "text": "Unable to provide application guidance.", "citation_key": "err_apps" }
+    }
+}

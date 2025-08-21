@@ -8,8 +8,14 @@
       "citation_key": "Dion_Fortune-The_Mystical_Qabalah",
       "text": "The oracle speaks not of fate but of the soul's infinite possibilities, revealing the divine conversation between consciousness and cosmos."
     },
-    "author": "Dion Fortune",
-    "source": "The Mystical Qabalah",
+    "author": {
+        "text": "Dion Fortune",
+        "citation_key": "Dion_Fortune-The_Mystical_Qabalah"
+    },
+    "source": {
+        "text": "The Mystical Qabalah",
+        "citation_key": "Dion_Fortune-The_Mystical_Qabalah"
+    },
     "transcendent_consciousness_levels": {
       "ordinary_consciousness_reading": {
         "description": {

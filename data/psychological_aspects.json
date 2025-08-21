@@ -1,0 +1,36 @@
+{
+    "major_arcana": {
+        "The Fool": { "text": "Embracing the innocent, spontaneous aspect of the psyche", "citation_key": "psych_fool" },
+        "The Magician": { "text": "Activating personal will and conscious manifestation", "citation_key": "psych_magician" },
+        "The High Priestess": { "text": "Accessing the anima and intuitive wisdom", "citation_key": "psych_high_priestess" },
+        "The Empress": { "text": "Nurturing the creative, fertile aspects of consciousness", "citation_key": "psych_empress" },
+        "The Emperor": { "text": "Establishing order, structure, and paternal authority", "citation_key": "psych_emperor" },
+        "The Hierophant": { "text": "Seeking wisdom through tradition and collective knowledge", "citation_key": "psych_hierophant" },
+        "The Lovers": { "text": "Integrating opposites and making conscious choices", "citation_key": "psych_lovers" },
+        "The Chariot": { "text": "Directing willpower toward a specific goal", "citation_key": "psych_chariot" },
+        "Strength": { "text": "Balancing instinct with conscious control", "citation_key": "psych_strength" },
+        "The Hermit": { "text": "Turning inward for self-discovery and enlightenment", "citation_key": "psych_hermit" },
+        "Wheel of Fortune": { "text": "Understanding cycles and surrendering to greater forces", "citation_key": "psych_wheel" },
+        "Justice": { "text": "Seeking balance and examining consequences", "citation_key": "psych_justice" },
+        "The Hanged Man": { "text": "Surrendering ego for higher perspective", "citation_key": "psych_hanged_man" },
+        "Death": { "text": "Transforming through letting go of outdated patterns", "citation_key": "psych_death" },
+        "Temperance": { "text": "Harmonizing opposing forces within the psyche", "citation_key": "psych_temperance" },
+        "The Devil": { "text": "Confronting shadow aspects and material attachments", "citation_key": "psych_devil" },
+        "The Tower": { "text": "Breaking through rigid mental structures", "citation_key": "psych_tower" },
+        "The Star": { "text": "Connecting with hope and spiritual guidance", "citation_key": "psych_star" },
+        "The Moon": { "text": "Navigating the unconscious and facing illusions", "citation_key": "psych_moon" },
+        "The Sun": { "text": "Achieving integration and conscious illumination", "citation_key": "psych_sun" },
+        "Judgement": { "text": "Experiencing spiritual awakening and rebirth", "citation_key": "psych_judgement" },
+        "The World": { "text": "Achieving wholeness and completion of a cycle", "citation_key": "psych_world" }
+    },
+    "suits": {
+        "Wands": { "text": "Exploring motivation, passion, and the drive for self-expression", "citation_key": "psych_wands" },
+        "Cups": { "text": "Processing emotions, relationships, and the feeling function", "citation_key": "psych_cups" },
+        "Swords": { "text": "Engaging with thoughts, communication, and mental challenges", "citation_key": "psych_swords" },
+        "Pentacles": { "text": "Focusing on sensation, security, and material manifestation", "citation_key": "psych_pentacles" }
+    },
+    "defaults": {
+        "major_arcana": { "text": "Working with archetypal energies to integrate aspects of the collective unconscious", "citation_key": "psych_major_default" },
+        "suit": { "text": "Integrating practical life experiences into psychological growth", "citation_key": "psych_suit_default" }
+    }
+}
