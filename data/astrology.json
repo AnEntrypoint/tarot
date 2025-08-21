@@ -6,23 +6,23 @@
       "rulership": "Leo",
       "exaltation": "Aries",
       "keywords": [
-        "identity",
-        "ego",
-        "vitality",
-        "consciousness",
-        "will"
+        { "text": "identity", "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality" },
+        { "text": "ego", "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality" },
+        { "text": "vitality", "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality" },
+        { "text": "consciousness", "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality" },
+        { "text": "will", "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality" }
       ],
       "tarot_correspondences": [
-        "The Sun",
-        "The Fool",
-        "The Magician"
+        { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Fool", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "quote": {
         "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality",
         "text": "The Sun is the heart of our solar system, and in astrology represents the core essence of individual identity and conscious will."
       },
-      "author": "Dane Rudhyar",
-      "source": "The Astrology of Personality",
+      "author": { "text": "Dane Rudhyar", "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality" },
+      "source": { "text": "The Astrology of Personality", "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Conscious ego identity and life force expression"
@@ -32,29 +32,29 @@
         "text": "The divine spark within, the higher self"
       },
       "body_parts": [
-        "heart",
-        "spine",
-        "circulation"
+        { "text": "heart", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "spine", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "circulation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Solar Plexus",
-      "metal": "Gold",
-      "day": "Sunday",
-      "color": "Golden Yellow",
+      "chakra": { "text": "Solar Plexus", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Gold", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Sunday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Golden Yellow", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "citrine",
-        "amber",
-        "topaz"
+        { "text": "citrine", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "amber", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "topaz", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "sunflower",
-        "chamomile",
-        "marigold"
+        { "text": "sunflower", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "chamomile", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "marigold", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Apollo",
-        "Ra",
-        "Helios",
-        "Inti"
+        { "text": "Apollo", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ra", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Helios", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Inti", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Moon": {
@@ -63,23 +63,23 @@
       "rulership": "Cancer",
       "exaltation": "Taurus",
       "keywords": [
-        "emotions",
-        "intuition",
-        "subconscious",
-        "nurturing",
-        "cycles"
+        { "text": "emotions", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "intuition", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "subconscious", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "nurturing", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "cycles", "citation_key": "Liz_Greene-The_Astrology_of_Fate" }
       ],
       "tarot_correspondences": [
-        "The Moon",
-        "The High Priestess",
-        "The Empress"
+        { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The High Priestess", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Empress", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "quote": {
         "citation_key": "Liz_Greene-The_Astrology_of_Fate",
         "text": "The Moon represents the realm of the unconscious, the collective memory, and the feminine principle that nurtures all life."
       },
-      "author": "Liz Greene",
-      "source": "The Astrology of Fate",
+      "author": { "text": "Liz Greene", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+      "source": { "text": "The Astrology of Fate", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Emotional nature and unconscious patterns"
@@ -89,29 +89,29 @@
         "text": "The divine feminine, receptivity, and intuitive wisdom"
       },
       "body_parts": [
-        "stomach",
-        "breasts",
-        "lymphatic system"
+        { "text": "stomach", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "breasts", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "lymphatic system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Sacral",
-      "metal": "Silver",
-      "day": "Monday",
-      "color": "Silver White",
+      "chakra": { "text": "Sacral", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Silver", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Monday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Silver White", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "moonstone",
-        "pearl",
-        "selenite"
+        { "text": "moonstone", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "pearl", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "selenite", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "jasmine",
-        "mugwort",
-        "white rose"
+        { "text": "jasmine", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "mugwort", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "white rose", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Diana",
-        "Selene",
-        "Hecate",
-        "Isis"
+        { "text": "Diana", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Selene", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Hecate", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Isis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Mercury": {
@@ -123,15 +123,15 @@
       ],
       "exaltation": "Virgo",
       "keywords": [
-        "communication",
-        "intellect",
-        "learning",
-        "analysis",
-        "connection"
+        { "text": "communication", "citation_key": "Robert_Hand-Planets_in_Transit" },
+        { "text": "intellect", "citation_key": "Robert_Hand-Planets_in_Transit" },
+        { "text": "learning", "citation_key": "Robert_Hand-Planets_in_Transit" },
+        { "text": "analysis", "citation_key": "Robert_Hand-Planets_in_Transit" },
+        { "text": "connection", "citation_key": "Robert_Hand-Planets_in_Transit" }
       ],
       "tarot_correspondences": [
-        "The Magician",
-        "The Hermit",
+        { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Swords"
@@ -141,8 +141,8 @@
         "citation_key": "Robert_Hand-Planets_in_Transit",
         "text": "Mercury is the messenger of the gods, representing the divine intelligence that connects all things through communication and understanding."
       },
-      "author": "Robert Hand",
-      "source": "Planets in Transit",
+      "author": { "text": "Robert Hand", "citation_key": "Robert_Hand-Planets_in_Transit" },
+      "source": { "text": "Planets in Transit", "citation_key": "Robert_Hand-Planets_in_Transit" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Mental processes and communication abilities"
@@ -152,29 +152,29 @@
         "text": "Divine intelligence and the hermetic principle of correspondence"
       },
       "body_parts": [
-        "nervous system",
-        "hands",
-        "lungs"
+        { "text": "nervous system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "hands", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "lungs", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Throat",
-      "metal": "Quicksilver",
-      "day": "Wednesday",
-      "color": "Orange",
+      "chakra": { "text": "Throat", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Quicksilver", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Wednesday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Orange", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "agate",
-        "carnelian",
-        "citrine"
+        { "text": "agate", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "carnelian", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "citrine", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "lavender",
-        "fennel",
-        "caraway"
+        { "text": "lavender", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "fennel", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "caraway", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Hermes",
-        "Thoth",
-        "Nabu",
-        "Odin"
+        { "text": "Hermes", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Thoth", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Nabu", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Odin", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Venus": {
@@ -186,15 +186,15 @@
       ],
       "exaltation": "Pisces",
       "keywords": [
-        "love",
-        "beauty",
-        "harmony",
-        "values",
-        "attraction"
+        { "text": "love", "citation_key": "Stephen_Arroyo-Astrology__Psychology_and_the_Four_Elements" },
+        { "text": "beauty", "citation_key": "Stephen_Arroyo-Astrology__Psychology_and_the_Four_Elements" },
+        { "text": "harmony", "citation_key": "Stephen_Arroyo-Astrology__Psychology_and_the_Four_Elements" },
+        { "text": "values", "citation_key": "Stephen_Arroyo-Astrology__Psychology_and_the_Four_Elements" },
+        { "text": "attraction", "citation_key": "Stephen_Arroyo-Astrology__Psychology_and_the_Four_Elements" }
       ],
       "tarot_correspondences": [
-        "The Empress",
-        "The Lovers",
+        { "text": "The Empress", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Lovers", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Seven of Cups"
@@ -204,8 +204,8 @@
         "citation_key": "Stephen_Arroyo-Astrology__Psychology_and_the_Four_Elements",
         "text": "Venus embodies the principle of attraction and the magnetic force that draws all things together in harmony and beauty."
       },
-      "author": "Stephen Arroyo",
-      "source": "Astrology, Psychology and the Four Elements",
+      "author": { "text": "Stephen Arroyo", "citation_key": "Stephen_Arroyo-Astrology__Psychology_and_the_Four_Elements" },
+      "source": { "text": "Astrology, Psychology and the Four Elements", "citation_key": "Stephen_Arroyo-Astrology__Psychology_and_the_Four_Elements" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Aesthetic sense and relationship patterns"
@@ -215,29 +215,29 @@
         "text": "Divine love and the attractive force of creation"
       },
       "body_parts": [
-        "throat",
-        "kidneys",
-        "reproductive system"
+        { "text": "throat", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "kidneys", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "reproductive system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Heart",
-      "metal": "Copper",
-      "day": "Friday",
-      "color": "Green",
+      "chakra": { "text": "Heart", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Copper", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Friday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Green", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "emerald",
-        "rose quartz",
-        "jade"
+        { "text": "emerald", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "rose quartz", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "jade", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "rose",
-        "apple blossom",
-        "yarrow"
+        { "text": "rose", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "apple blossom", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "yarrow", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Aphrodite",
-        "Ishtar",
-        "Freya",
-        "Lakshmi"
+        { "text": "Aphrodite", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ishtar", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Freya", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Lakshmi", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Mars": {
@@ -249,14 +249,14 @@
       ],
       "exaltation": "Capricorn",
       "keywords": [
-        "action",
-        "energy",
-        "courage",
-        "desire",
-        "assertion"
+        { "text": "action", "citation_key": "Howard_Sasportas-The_Gods_of_Change" },
+        { "text": "energy", "citation_key": "Howard_Sasportas-The_Gods_of_Change" },
+        { "text": "courage", "citation_key": "Howard_Sasportas-The_Gods_of_Change" },
+        { "text": "desire", "citation_key": "Howard_Sasportas-The_Gods_of_Change" },
+        { "text": "assertion", "citation_key": "Howard_Sasportas-The_Gods_of_Change" }
       ],
       "tarot_correspondences": [
-        "The Tower",
+        { "text": "The Tower", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Five of Wands"
@@ -270,8 +270,8 @@
         "citation_key": "Howard_Sasportas-The_Gods_of_Change",
         "text": "Mars represents the dynamic principle of action and the warrior spirit that overcomes obstacles through courage and determination."
       },
-      "author": "Howard Sasportas",
-      "source": "The Gods of Change",
+      "author": { "text": "Howard Sasportas", "citation_key": "Howard_Sasportas-The_Gods_of_Change" },
+      "source": { "text": "The Gods of Change", "citation_key": "Howard_Sasportas-The_Gods_of_Change" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Drive, ambition, and assertive energy"
@@ -281,29 +281,29 @@
         "text": "Divine will in action and the courage to manifest destiny"
       },
       "body_parts": [
-        "muscles",
-        "head",
-        "blood"
+        { "text": "muscles", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "head", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "blood", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Solar Plexus",
-      "metal": "Iron",
-      "day": "Tuesday",
-      "color": "Red",
+      "chakra": { "text": "Solar Plexus", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Iron", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Tuesday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Red", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "ruby",
-        "garnet",
-        "bloodstone"
+        { "text": "ruby", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "garnet", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "bloodstone", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "nettle",
-        "ginger",
-        "pepper"
+        { "text": "nettle", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "ginger", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "pepper", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Ares",
-        "Tyr",
-        "Mangala",
-        "Nergal"
+        { "text": "Ares", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Tyr", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Mangala", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Nergal", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Jupiter": {
@@ -315,18 +315,18 @@
       ],
       "exaltation": "Cancer",
       "keywords": [
-        "expansion",
-        "wisdom",
-        "optimism",
-        "philosophy",
-        "abundance"
+        { "text": "expansion", "citation_key": "Charles_Harvey-Mundane_Astrology" },
+        { "text": "wisdom", "citation_key": "Charles_Harvey-Mundane_Astrology" },
+        { "text": "optimism", "citation_key": "Charles_Harvey-Mundane_Astrology" },
+        { "text": "philosophy", "citation_key": "Charles_Harvey-Mundane_Astrology" },
+        { "text": "abundance", "citation_key": "Charles_Harvey-Mundane_Astrology" }
       ],
       "tarot_correspondences": [
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "The Wheel of Fortune"
         },
-        "The Hierophant",
+        { "text": "The Hierophant", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Ten of Cups"
@@ -336,8 +336,8 @@
         "citation_key": "Charles_Harvey-Mundane_Astrology",
         "text": "Jupiter represents the principle of expansion and the benevolent force that brings wisdom, growth, and spiritual understanding."
       },
-      "author": "Charles Harvey",
-      "source": "Mundane Astrology",
+      "author": { "text": "Charles Harvey", "citation_key": "Charles_Harvey-Mundane_Astrology" },
+      "source": { "text": "Mundane Astrology", "citation_key": "Charles_Harvey-Mundane_Astrology" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Growth, optimism, and meaning-seeking"
@@ -347,29 +347,29 @@
         "text": "Divine wisdom and the expansion of consciousness"
       },
       "body_parts": [
-        "liver",
-        "hips",
-        "thighs"
+        { "text": "liver", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "hips", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "thighs", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Crown",
-      "metal": "Tin",
-      "day": "Thursday",
-      "color": "Blue",
+      "chakra": { "text": "Crown", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Tin", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Thursday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Blue", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "sapphire",
-        "turquoise",
-        "lapis lazuli"
+        { "text": "sapphire", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "turquoise", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "lapis lazuli", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "sage",
-        "oak",
-        "cedar"
+        { "text": "sage", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "oak", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "cedar", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Zeus",
-        "Brihaspati",
-        "Marduk",
-        "Thor"
+        { "text": "Zeus", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Brihaspati", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Marduk", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Thor", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Saturn": {
@@ -381,15 +381,15 @@
       ],
       "exaltation": "Libra",
       "keywords": [
-        "discipline",
-        "structure",
-        "limitation",
-        "responsibility",
-        "time"
+        { "text": "discipline", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "structure", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "limitation", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "responsibility", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "time", "citation_key": "Erin_Sullivan-Saturn_in_Transit" }
       ],
       "tarot_correspondences": [
-        "The World",
-        "The Devil",
+        { "text": "The World", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Devil", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Ten of Pentacles"
@@ -399,8 +399,8 @@
         "citation_key": "Erin_Sullivan-Saturn_in_Transit",
         "text": "Saturn is the great teacher that brings wisdom through limitation and shows us the value of discipline in achieving lasting accomplishment."
       },
-      "author": "Erin Sullivan",
-      "source": "Saturn in Transit",
+      "author": { "text": "Erin Sullivan", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+      "source": { "text": "Saturn in Transit", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Self-discipline and responsibility"
@@ -410,29 +410,29 @@
         "text": "Divine law and the wisdom gained through limitation"
       },
       "body_parts": [
-        "bones",
-        "skin",
-        "knees"
+        { "text": "bones", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "skin", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "knees", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Root",
-      "metal": "Lead",
-      "day": "Saturday",
-      "color": "Black",
+      "chakra": { "text": "Root", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Lead", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Saturday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Black", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "onyx",
-        "hematite",
-        "jet"
+        { "text": "onyx", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "hematite", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "jet", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "comfrey",
-        "cypress",
-        "myrrh"
+        { "text": "comfrey", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "cypress", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "myrrh", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Kronos",
-        "Shani",
-        "El",
-        "Ninurta"
+        { "text": "Kronos", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Shani", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "El", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ninurta", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Uranus": {
@@ -441,15 +441,15 @@
       "rulership": "Aquarius",
       "exaltation": "Scorpio",
       "keywords": [
-        "innovation",
-        "rebellion",
-        "awakening",
-        "freedom",
-        "originality"
+        { "text": "innovation", "citation_key": "Richard_Tarnas-Prometheus_the_Awakener" },
+        { "text": "rebellion", "citation_key": "Richard_Tarnas-Prometheus_the_Awakener" },
+        { "text": "awakening", "citation_key": "Richard_Tarnas-Prometheus_the_Awakener" },
+        { "text": "freedom", "citation_key": "Richard_Tarnas-Prometheus_the_Awakener" },
+        { "text": "originality", "citation_key": "Richard_Tarnas-Prometheus_the_Awakener" }
       ],
       "tarot_correspondences": [
-        "The Fool",
-        "The Star",
+        { "text": "The Fool", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Ace of Swords"
@@ -459,8 +459,8 @@
         "citation_key": "Richard_Tarnas-Prometheus_the_Awakener",
         "text": "Uranus represents the lightning flash of divine inspiration that awakens humanity to new possibilities and revolutionary consciousness."
       },
-      "author": "Richard Tarnas",
-      "source": "Prometheus the Awakener",
+      "author": { "text": "Richard Tarnas", "citation_key": "Richard_Tarnas-Prometheus_the_Awakener" },
+      "source": { "text": "Prometheus the Awakener", "citation_key": "Richard_Tarnas-Prometheus_the_Awakener" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Individuation and revolutionary consciousness"
@@ -470,29 +470,29 @@
         "text": "Divine awakening and the liberation of consciousness"
       },
       "body_parts": [
-        "nervous system",
-        "ankles",
-        "circulation"
+        { "text": "nervous system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "ankles", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "circulation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Third Eye",
-      "metal": "Uranium",
-      "day": "Wednesday",
-      "color": "Electric Blue",
+      "chakra": { "text": "Third Eye", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Uranium", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Wednesday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Electric Blue", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "aquamarine",
-        "fluorite",
-        "clear quartz"
+        { "text": "aquamarine", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "fluorite", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "clear quartz", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "rosemary",
-        "ginkgo",
-        "valerian"
+        { "text": "rosemary", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "ginkgo", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "valerian", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Prometheus",
-        "Varuna",
-        "Anu",
-        "Caelus"
+        { "text": "Prometheus", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Varuna", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Anu", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Caelus", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Neptune": {
@@ -501,15 +501,15 @@
       "rulership": "Pisces",
       "exaltation": "Cancer",
       "keywords": [
-        "spirituality",
-        "illusion",
-        "compassion",
-        "transcendence",
-        "dreams"
+        { "text": "spirituality", "citation_key": "Jeff_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+        { "text": "illusion", "citation_key": "Jeff_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+        { "text": "compassion", "citation_key": "Jeff_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+        { "text": "transcendence", "citation_key": "Jeff_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+        { "text": "dreams", "citation_key": "Jeff_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" }
       ],
       "tarot_correspondences": [
-        "The Hanged Man",
-        "The Moon",
+        { "text": "The Hanged Man", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Seven of Cups"
@@ -519,8 +519,8 @@
         "citation_key": "Jeff_Green-Pluto__The_Evolutionary_Journey_of_the_Soul",
         "text": "Neptune dissolves the boundaries of the ego to reveal the oceanic unity that underlies all existence, bringing both divine inspiration and potential confusion."
       },
-      "author": "Jeff Green",
-      "source": "Pluto: The Evolutionary Journey of the Soul",
+      "author": { "text": "Jeff Green", "citation_key": "Jeff_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+      "source": { "text": "Pluto: The Evolutionary Journey of the Soul", "citation_key": "Jeff_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Transcendence and dissolution of ego boundaries"
@@ -530,29 +530,29 @@
         "text": "Divine love and the dissolution of separateness"
       },
       "body_parts": [
-        "feet",
-        "pineal gland",
-        "immune system"
+        { "text": "feet", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "pineal gland", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "immune system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Crown",
-      "metal": "Platinum",
-      "day": "Monday",
-      "color": "Sea Green",
+      "chakra": { "text": "Crown", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Platinum", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Monday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Sea Green", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "amethyst",
-        "aquamarine",
-        "moonstone"
+        { "text": "amethyst", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "aquamarine", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "moonstone", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "lotus",
-        "water lily",
-        "seaweed"
+        { "text": "lotus", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "water lily", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "seaweed", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Poseidon",
-        "Varuna",
-        "Njord",
-        "Yam"
+        { "text": "Poseidon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Varuna", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Njord", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Yam", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Pluto": {
@@ -561,15 +561,15 @@
       "rulership": "Scorpio",
       "exaltation": "Leo",
       "keywords": [
-        "transformation",
-        "death",
-        "rebirth",
-        "power",
-        "regeneration"
+        { "text": "transformation", "citation_key": "Jeffrey_Wolf_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+        { "text": "death", "citation_key": "Jeffrey_Wolf_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+        { "text": "rebirth", "citation_key": "Jeffrey_Wolf_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+        { "text": "power", "citation_key": "Jeffrey_Wolf_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+        { "text": "regeneration", "citation_key": "Jeffrey_Wolf_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" }
       ],
       "tarot_correspondences": [
-        "Death",
-        "Judgement",
+        { "text": "Death", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Judgement", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Swords"
@@ -579,8 +579,8 @@
         "citation_key": "Jeffrey_Wolf_Green-Pluto__The_Evolutionary_Journey_of_the_Soul",
         "text": "Pluto represents the alchemical process of death and rebirth that transforms the soul through the deepest mysteries of existence."
       },
-      "author": "Jeffrey Wolf Green",
-      "source": "Pluto: The Evolutionary Journey of the Soul",
+      "author": { "text": "Jeffrey Wolf Green", "citation_key": "Jeffrey_Wolf_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
+      "source": { "text": "Pluto: The Evolutionary Journey of the Soul", "citation_key": "Jeffrey_Wolf_Green-Pluto__The_Evolutionary_Journey_of_the_Soul" },
       "psychological_function": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Deep transformation and regeneration"
@@ -590,29 +590,29 @@
         "text": "Death of the ego and rebirth into higher consciousness"
       },
       "body_parts": [
-        "reproductive organs",
-        "colon",
-        "nose"
+        { "text": "reproductive organs", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "colon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "nose", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
-      "chakra": "Root",
-      "metal": "Plutonium",
-      "day": "Tuesday",
-      "color": "Deep Red",
+      "chakra": { "text": "Root", "citation_key": "Anodea_Judith-Wheels_of_Life" },
+      "metal": { "text": "Plutonium", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "day": { "text": "Tuesday", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+      "color": { "text": "Deep Red", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
       "gemstones": [
-        "obsidian",
-        "smoky quartz",
-        "garnet"
+        { "text": "obsidian", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "smoky quartz", "citation_key": "Melody-Love_Is_In_The_Earth" },
+        { "text": "garnet", "citation_key": "Melody-Love_Is_In_The_Earth" }
       ],
       "herbs": [
-        "belladonna",
-        "mandrake",
-        "wormwood"
+        { "text": "belladonna", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "mandrake", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" },
+        { "text": "wormwood", "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs" }
       ],
       "mythological_associations": [
-        "Hades",
-        "Yama",
-        "Mictlantecuhtli",
-        "Ereshkigal"
+        { "text": "Hades", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Yama", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Mictlantecuhtli", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ereshkigal", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     }
   },
@@ -624,14 +624,14 @@
       "ruler": "Mars",
       "exaltation": "Sun",
       "keywords": [
-        "leadership",
-        "initiative",
-        "courage",
-        "independence",
-        "energy"
+        { "text": "leadership", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "initiative", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "courage", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "independence", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "energy", "citation_key": "Alan_Oken-Soul_Centered_Astrology" }
       ],
       "tarot_correspondences": [
-        "The Emperor",
+        { "text": "The Emperor", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Two of Wands"
@@ -649,30 +649,30 @@
         "citation_key": "Alan_Oken-Soul_Centered_Astrology",
         "text": "Aries represents the primal fire of creation, the first breath of consciousness emerging from the cosmic void to begin the journey of manifestation."
       },
-      "author": "Alan Oken",
-      "source": "Soul-Centered Astrology",
+      "author": { "text": "Alan Oken", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+      "source": { "text": "Soul-Centered Astrology", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
       "degrees": "0-30",
       "season": "Spring Equinox",
       "body_parts": [
-        "head",
-        "brain",
-        "face"
+        { "text": "head", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "brain", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "face", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "pioneering",
-        "assertive",
-        "competitive",
-        "direct"
+        { "text": "pioneering", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "assertive", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "competitive", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "direct", "citation_key": "Alan_Oken-Soul_Centered_Astrology" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to channel raw energy into constructive leadership"
       },
       "shadow_aspects": [
-        "impulsiveness",
-        "aggression",
-        "selfishness",
-        "impatience"
+        { "text": "impulsiveness", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "aggression", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "selfishness", "citation_key": "Alan_Oken-Soul_Centered_Astrology" },
+        { "text": "impatience", "citation_key": "Alan_Oken-Soul_Centered_Astrology" }
       ],
       "evolutionary_goal": {
         "citation_key": "Starhawk-The_Spiral_Dance",
@@ -683,10 +683,10 @@
         "Air"
       ],
       "mythological_associations": [
-        "Athena",
-        "Mars",
-        "Ares",
-        "Durga"
+        { "text": "Athena", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Mars", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ares", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Durga", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Taurus": {
@@ -696,14 +696,14 @@
       "ruler": "Venus",
       "exaltation": "Moon",
       "keywords": [
-        "stability",
-        "beauty",
-        "sensuality",
-        "persistence",
-        "values"
+        { "text": "stability", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "beauty", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "sensuality", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "persistence", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "values", "citation_key": "Rudhyar-The_Astrological_Houses" }
       ],
       "tarot_correspondences": [
-        "The Hierophant",
+        { "text": "The Hierophant", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Five of Pentacles"
@@ -721,30 +721,30 @@
         "citation_key": "Rudhyar-The_Astrological_Houses",
         "text": "Taurus embodies the fertile earth principle, demonstrating how spiritual values can be anchored and manifested in the physical world."
       },
-      "author": "Rudhyar",
-      "source": "The Astrological Houses",
+      "author": { "text": "Rudhyar", "citation_key": "Rudhyar-The_Astrological_Houses" },
+      "source": { "text": "The Astrological Houses", "citation_key": "Rudhyar-The_Astrological_Houses" },
       "degrees": "30-60",
       "season": "Late Spring",
       "body_parts": [
-        "neck",
-        "throat",
-        "thyroid"
+        { "text": "neck", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "throat", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "thyroid", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "practical",
-        "reliable",
-        "aesthetic",
-        "stubborn"
+        { "text": "practical", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "reliable", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "aesthetic", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "stubborn", "citation_key": "Rudhyar-The_Astrological_Houses" }
       ],
       "spiritual_lesson": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Finding the sacred in material form and developing spiritual values"
       },
       "shadow_aspects": [
-        "materialism",
-        "stubbornness",
-        "possessiveness",
-        "inertia"
+        { "text": "materialism", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "stubbornness", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "possessiveness", "citation_key": "Rudhyar-The_Astrological_Houses" },
+        { "text": "inertia", "citation_key": "Rudhyar-The_Astrological_Houses" }
       ],
       "evolutionary_goal": {
         "citation_key": "Starhawk-The_Spiral_Dance",
@@ -755,10 +755,10 @@
         "Water"
       ],
       "mythological_associations": [
-        "Venus",
-        "Demeter",
-        "Ceres",
-        "Pachamama"
+        { "text": "Venus", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Demeter", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ceres", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Pachamama", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Gemini": {
@@ -768,14 +768,14 @@
       "ruler": "Mercury",
       "exaltation": "North Node",
       "keywords": [
-        "communication",
-        "versatility",
-        "curiosity",
-        "adaptability",
-        "duality"
+        { "text": "communication", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "versatility", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "curiosity", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "adaptability", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "duality", "citation_key": "Steven_Forrest-The_Inner_Sky" }
       ],
       "tarot_correspondences": [
-        "The Lovers",
+        { "text": "The Lovers", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Swords"
@@ -793,30 +793,30 @@
         "citation_key": "Steven_Forrest-The_Inner_Sky",
         "text": "Gemini represents the divine messenger, the bridge between worlds that facilitates communication and the exchange of ideas."
       },
-      "author": "Steven Forrest",
-      "source": "The Inner Sky",
+      "author": { "text": "Steven Forrest", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+      "source": { "text": "The Inner Sky", "citation_key": "Steven_Forrest-The_Inner_Sky" },
       "degrees": "60-90",
       "season": "Early Summer",
       "body_parts": [
-        "arms",
-        "hands",
-        "lungs"
+        { "text": "arms", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "hands", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "lungs", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "communicative",
-        "intellectual",
-        "adaptable",
-        "restless"
+        { "text": "communicative", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "intellectual", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "adaptable", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "restless", "citation_key": "Steven_Forrest-The_Inner_Sky" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to integrate duality and communicate higher truth"
       },
       "shadow_aspects": [
-        "superficiality",
-        "inconsistency",
-        "nervousness",
-        "deception"
+        { "text": "superficiality", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "inconsistency", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "nervousness", "citation_key": "Steven_Forrest-The_Inner_Sky" },
+        { "text": "deception", "citation_key": "Steven_Forrest-The_Inner_Sky" }
       ],
       "evolutionary_goal": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -827,13 +827,13 @@
         "Fire"
       ],
       "mythological_associations": [
-        "Hermes",
+        { "text": "Hermes", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Castor and Pollux"
         },
-        "Thoth",
-        "Saraswati"
+        { "text": "Thoth", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Saraswati", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Cancer": {
@@ -843,14 +843,14 @@
       "ruler": "Moon",
       "exaltation": "Jupiter",
       "keywords": [
-        "nurturing",
-        "protection",
-        "emotion",
-        "intuition",
-        "home"
+        { "text": "nurturing", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "protection", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "emotion", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "intuition", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "home", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" }
       ],
       "tarot_correspondences": [
-        "The Chariot",
+        { "text": "The Chariot", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Two of Cups"
@@ -868,30 +868,30 @@
         "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology",
         "text": "Cancer embodies the divine mother principle, offering protection, nurturing, and emotional sustenance to all who seek shelter in her embrace."
       },
-      "author": "Marion March",
-      "source": "The Only Way to Learn Astrology",
+      "author": { "text": "Marion March", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+      "source": { "text": "The Only Way to Learn Astrology", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
       "degrees": "90-120",
       "season": "Summer Solstice",
       "body_parts": [
-        "chest",
-        "breasts",
-        "stomach"
+        { "text": "chest", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "breasts", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "stomach", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "nurturing",
-        "protective",
-        "emotional",
-        "intuitive"
+        { "text": "nurturing", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "protective", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "emotional", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "intuitive", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to nurture others while maintaining emotional boundaries"
       },
       "shadow_aspects": [
-        "moodiness",
-        "clinging",
-        "oversensitivity",
-        "manipulation"
+        { "text": "moodiness", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "clinging", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "oversensitivity", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" },
+        { "text": "manipulation", "citation_key": "Marion_March-The_Only_Way_to_Learn_Astrology" }
       ],
       "evolutionary_goal": {
         "citation_key": "Starhawk-The_Spiral_Dance",
@@ -902,10 +902,10 @@
         "Earth"
       ],
       "mythological_associations": [
-        "Diana",
-        "Isis",
-        "Yemoja",
-        "Quan Yin"
+        { "text": "Diana", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Isis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Yemoja", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Quan Yin", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Leo": {
@@ -915,14 +915,14 @@
       "ruler": "Sun",
       "exaltation": "Pluto",
       "keywords": [
-        "creativity",
-        "self-expression",
-        "leadership",
-        "generosity",
-        "drama"
+        { "text": "creativity", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "self-expression", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "leadership", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "generosity", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "drama", "citation_key": "Linda_Goodman-Sun_Signs" }
       ],
       "tarot_correspondences": [
-        "Strength",
+        { "text": "Strength", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Five of Wands"
@@ -940,30 +940,30 @@
         "citation_key": "Linda_Goodman-Sun_Signs",
         "text": "Leo represents the solar heart of creation, the divine child that expresses joy, creativity, and the magnificent radiance of the awakened soul."
       },
-      "author": "Linda Goodman",
-      "source": "Sun Signs",
+      "author": { "text": "Linda Goodman", "citation_key": "Linda_Goodman-Sun_Signs" },
+      "source": { "text": "Sun Signs", "citation_key": "Linda_Goodman-Sun_Signs" },
       "degrees": "120-150",
       "season": "Mid Summer",
       "body_parts": [
-        "heart",
-        "spine",
-        "back"
+        { "text": "heart", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "spine", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "back", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "creative",
-        "generous",
-        "confident",
-        "dramatic"
+        { "text": "creative", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "generous", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "confident", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "dramatic", "citation_key": "Linda_Goodman-Sun_Signs" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to shine one's light while honoring the light in others"
       },
       "shadow_aspects": [
-        "egotism",
-        "vanity",
-        "domination",
-        "melodrama"
+        { "text": "egotism", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "vanity", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "domination", "citation_key": "Linda_Goodman-Sun_Signs" },
+        { "text": "melodrama", "citation_key": "Linda_Goodman-Sun_Signs" }
       ],
       "evolutionary_goal": {
         "citation_key": "Starhawk-The_Spiral_Dance",
@@ -974,10 +974,10 @@
         "Air"
       ],
       "mythological_associations": [
-        "Apollo",
-        "Ra",
-        "Sekhmet",
-        "Surya"
+        { "text": "Apollo", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ra", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Sekhmet", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Surya", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Virgo": {
@@ -987,14 +987,14 @@
       "ruler": "Mercury",
       "exaltation": "Mercury",
       "keywords": [
-        "service",
-        "perfection",
-        "analysis",
-        "healing",
-        "discrimination"
+        { "text": "service", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "perfection", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "analysis", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "healing", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "discrimination", "citation_key": "Alice_Bailey-Esoteric_Astrology" }
       ],
       "tarot_correspondences": [
-        "The Hermit",
+        { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Pentacles"
@@ -1012,30 +1012,30 @@
         "citation_key": "Alice_Bailey-Esoteric_Astrology",
         "text": "Virgo embodies the divine perfectionist, seeking to purify and heal through devoted service and the discrimination between essence and form."
       },
-      "author": "Alice Bailey",
-      "source": "Esoteric Astrology",
+      "author": { "text": "Alice Bailey", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+      "source": { "text": "Esoteric Astrology", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
       "degrees": "150-180",
       "season": "Late Summer",
       "body_parts": [
-        "digestive system",
-        "intestines",
-        "nervous system"
+        { "text": "digestive system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "intestines", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "nervous system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "analytical",
-        "perfectionist",
-        "service-oriented",
-        "practical"
+        { "text": "analytical", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "perfectionist", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "service-oriented", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "practical", "citation_key": "Alice_Bailey-Esoteric_Astrology" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to serve the divine through perfection of skill and character"
       },
       "shadow_aspects": [
-        "criticism",
-        "worry",
-        "perfectionism",
-        "self-doubt"
+        { "text": "criticism", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "worry", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "perfectionism", "citation_key": "Alice_Bailey-Esoteric_Astrology" },
+        { "text": "self-doubt", "citation_key": "Alice_Bailey-Esoteric_Astrology" }
       ],
       "evolutionary_goal": {
         "citation_key": "Barbara_Brennan-Hands_of_Light",
@@ -1046,10 +1046,10 @@
         "Water"
       ],
       "mythological_associations": [
-        "Demeter",
-        "Astraea",
-        "Shennong",
-        "Brigid"
+        { "text": "Demeter", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Astraea", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Shennong", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Brigid", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Libra": {
@@ -1059,14 +1059,14 @@
       "ruler": "Venus",
       "exaltation": "Saturn",
       "keywords": [
-        "balance",
-        "harmony",
-        "justice",
-        "partnership",
-        "beauty"
+        { "text": "balance", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "harmony", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "justice", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "partnership", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "beauty", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" }
       ],
       "tarot_correspondences": [
-        "Justice",
+        { "text": "Justice", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Two of Swords"
@@ -1084,30 +1084,30 @@
         "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life",
         "text": "Libra represents the divine scales of justice, seeking perfect balance and harmony between all opposing forces in the universe."
       },
-      "author": "Robert Blaschke",
-      "source": "Astrology: A Language of Life",
+      "author": { "text": "Robert Blaschke", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+      "source": { "text": "Astrology: A Language of Life", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
       "degrees": "180-210",
       "season": "Autumn Equinox",
       "body_parts": [
-        "kidneys",
-        "lower back",
-        "skin"
+        { "text": "kidneys", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "lower back", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "skin", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "diplomatic",
-        "aesthetic",
-        "balanced",
-        "indecisive"
+        { "text": "diplomatic", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "aesthetic", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "balanced", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "indecisive", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to create harmony while maintaining personal truth"
       },
       "shadow_aspects": [
-        "indecision",
-        "superficiality",
-        "people-pleasing",
-        "avoidance"
+        { "text": "indecision", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "superficiality", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "people-pleasing", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" },
+        { "text": "avoidance", "citation_key": "Robert_Blaschke-Astrology__A_Language_of_Life" }
       ],
       "evolutionary_goal": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1118,10 +1118,10 @@
         "Fire"
       ],
       "mythological_associations": [
-        "Themis",
-        "Ma'at",
-        "Astraea",
-        "Tyr"
+        { "text": "Themis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ma'at", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Astraea", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Tyr", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Scorpio": {
@@ -1131,14 +1131,14 @@
       "ruler": "Pluto",
       "exaltation": "Uranus",
       "keywords": [
-        "transformation",
-        "intensity",
-        "mystery",
-        "power",
-        "regeneration"
+        { "text": "transformation", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "intensity", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "mystery", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "power", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "regeneration", "citation_key": "Liz_Greene-The_Astrology_of_Fate" }
       ],
       "tarot_correspondences": [
-        "Death",
+        { "text": "Death", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Five of Cups"
@@ -1156,30 +1156,30 @@
         "citation_key": "Liz_Greene-The_Astrology_of_Fate",
         "text": "Scorpio embodies the alchemical fire that transforms the base metal of human nature into the gold of spiritual realization through death and rebirth."
       },
-      "author": "Liz Greene",
-      "source": "The Astrology of Fate",
+      "author": { "text": "Liz Greene", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+      "source": { "text": "The Astrology of Fate", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
       "degrees": "210-240",
       "season": "Mid Autumn",
       "body_parts": [
-        "reproductive organs",
-        "colon",
-        "nose"
+        { "text": "reproductive organs", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "colon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "nose", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "intense",
-        "transformative",
-        "mysterious",
-        "powerful"
+        { "text": "intense", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "transformative", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "mysterious", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "powerful", "citation_key": "Liz_Greene-The_Astrology_of_Fate" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to die to the lower self and be reborn in spirit"
       },
       "shadow_aspects": [
-        "jealousy",
-        "revenge",
-        "manipulation",
-        "obsession"
+        { "text": "jealousy", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "revenge", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "manipulation", "citation_key": "Liz_Greene-The_Astrology_of_Fate" },
+        { "text": "obsession", "citation_key": "Liz_Greene-The_Astrology_of_Fate" }
       ],
       "evolutionary_goal": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1190,10 +1190,10 @@
         "Earth"
       ],
       "mythological_associations": [
-        "Kali",
-        "Hades",
-        "Shiva",
-        "Morrigan"
+        { "text": "Kali", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Hades", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Shiva", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Morrigan", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Sagittarius": {
@@ -1203,14 +1203,14 @@
       "ruler": "Jupiter",
       "exaltation": "South Node",
       "keywords": [
-        "wisdom",
-        "expansion",
-        "philosophy",
-        "adventure",
-        "truth"
+        { "text": "wisdom", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "expansion", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "philosophy", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "adventure", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "truth", "citation_key": "Jan_Spiller-Spiritual_Astrology" }
       ],
       "tarot_correspondences": [
-        "Temperance",
+        { "text": "Temperance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Wands"
@@ -1228,30 +1228,30 @@
         "citation_key": "Jan_Spiller-Spiritual_Astrology",
         "text": "Sagittarius represents the eternal seeker who aims the arrow of consciousness toward the highest truth and most expansive wisdom."
       },
-      "author": "Jan Spiller",
-      "source": "Spiritual Astrology",
+      "author": { "text": "Jan Spiller", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+      "source": { "text": "Spiritual Astrology", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
       "degrees": "240-270",
       "season": "Late Autumn",
       "body_parts": [
-        "hips",
-        "thighs",
-        "liver"
+        { "text": "hips", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "thighs", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "liver", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "philosophical",
-        "adventurous",
-        "optimistic",
-        "freedom-loving"
+        { "text": "philosophical", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "adventurous", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "optimistic", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "freedom-loving", "citation_key": "Jan_Spiller-Spiritual_Astrology" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to seek and teach higher truth and wisdom"
       },
       "shadow_aspects": [
-        "dogmatism",
-        "restlessness",
-        "exaggeration",
-        "irresponsibility"
+        { "text": "dogmatism", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "restlessness", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "exaggeration", "citation_key": "Jan_Spiller-Spiritual_Astrology" },
+        { "text": "irresponsibility", "citation_key": "Jan_Spiller-Spiritual_Astrology" }
       ],
       "evolutionary_goal": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1262,10 +1262,10 @@
         "Air"
       ],
       "mythological_associations": [
-        "Diana",
-        "Artemis",
-        "Centaurs",
-        "Ogun"
+        { "text": "Diana", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Artemis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Centaurs", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ogun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Capricorn": {
@@ -1275,14 +1275,14 @@
       "ruler": "Saturn",
       "exaltation": "Mars",
       "keywords": [
-        "ambition",
-        "responsibility",
-        "structure",
-        "achievement",
-        "authority"
+        { "text": "ambition", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "responsibility", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "structure", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "achievement", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "authority", "citation_key": "Erin_Sullivan-Saturn_in_Transit" }
       ],
       "tarot_correspondences": [
-        "The Devil",
+        { "text": "The Devil", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Two of Pentacles"
@@ -1300,30 +1300,30 @@
         "citation_key": "Erin_Sullivan-Saturn_in_Transit",
         "text": "Capricorn embodies the mountain goat that climbs steadily toward the summit of spiritual achievement, mastering the material world through discipline and perseverance."
       },
-      "author": "Erin Sullivan",
-      "source": "Saturn in Transit",
+      "author": { "text": "Erin Sullivan", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+      "source": { "text": "Saturn in Transit", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
       "degrees": "270-300",
       "season": "Winter Solstice",
       "body_parts": [
-        "bones",
-        "knees",
-        "skin"
+        { "text": "bones", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "knees", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "skin", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "ambitious",
-        "disciplined",
-        "responsible",
-        "practical"
+        { "text": "ambitious", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "disciplined", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "responsible", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "practical", "citation_key": "Erin_Sullivan-Saturn_in_Transit" }
       ],
       "spiritual_lesson": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Learning to use earthly authority for spiritual service"
       },
       "shadow_aspects": [
-        "materialism",
-        "coldness",
-        "rigidity",
-        "pessimism"
+        { "text": "materialism", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "coldness", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "rigidity", "citation_key": "Erin_Sullivan-Saturn_in_Transit" },
+        { "text": "pessimism", "citation_key": "Erin_Sullivan-Saturn_in_Transit" }
       ],
       "evolutionary_goal": {
         "citation_key": "Starhawk-The_Spiral_Dance",
@@ -1334,10 +1334,10 @@
         "Water"
       ],
       "mythological_associations": [
-        "Saturn",
-        "Pan",
-        "Kronos",
-        "Geb"
+        { "text": "Saturn", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Pan", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Kronos", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Geb", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Aquarius": {
@@ -1347,14 +1347,14 @@
       "ruler": "Uranus",
       "exaltation": "Neptune",
       "keywords": [
-        "innovation",
-        "humanitarian",
-        "freedom",
-        "friendship",
-        "future"
+        { "text": "innovation", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "humanitarian", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "freedom", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "friendship", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "future", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" }
       ],
       "tarot_correspondences": [
-        "The Star",
+        { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Five of Swords"
@@ -1372,30 +1372,30 @@
         "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness",
         "text": "Aquarius pours forth the waters of life and consciousness, bringing new ideas and humanitarian ideals to elevate human civilization."
       },
-      "author": "Donna Cunningham",
-      "source": "An Astrological Guide to Self-Awareness",
+      "author": { "text": "Donna Cunningham", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+      "source": { "text": "An Astrological Guide to Self-Awareness", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
       "degrees": "300-330",
       "season": "Mid Winter",
       "body_parts": [
-        "ankles",
-        "circulation",
-        "nervous system"
+        { "text": "ankles", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "circulation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "nervous system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "innovative",
-        "humanitarian",
-        "independent",
-        "eccentric"
+        { "text": "innovative", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "humanitarian", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "independent", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "eccentric", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" }
       ],
       "spiritual_lesson": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Learning to serve humanity while maintaining individual authenticity"
       },
       "shadow_aspects": [
-        "detachment",
-        "rebellion",
-        "eccentricity",
-        "coldness"
+        { "text": "detachment", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "rebellion", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "eccentricity", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" },
+        { "text": "coldness", "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self_Awareness" }
       ],
       "evolutionary_goal": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1406,10 +1406,10 @@
         "Fire"
       ],
       "mythological_associations": [
-        "Ganymede",
-        "Prometheus",
-        "Ea",
-        "Tlaloc"
+        { "text": "Ganymede", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Prometheus", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ea", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Tlaloc", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     },
     "Pisces": {
@@ -1419,14 +1419,14 @@
       "ruler": "Neptune",
       "exaltation": "Venus",
       "keywords": [
-        "compassion",
-        "spirituality",
-        "intuition",
-        "sacrifice",
-        "transcendence"
+        { "text": "compassion", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "spirituality", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "intuition", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "sacrifice", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "transcendence", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" }
       ],
       "tarot_correspondences": [
-        "The Moon",
+        { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Cups"
@@ -1444,30 +1444,30 @@
         "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation",
         "text": "Pisces represents the oceanic consciousness that dissolves all boundaries and connects all beings in the unity of divine love and compassion."
       },
-      "author": "Stephen Arroyo",
-      "source": "Astrology, Karma and Transformation",
+      "author": { "text": "Stephen Arroyo", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+      "source": { "text": "Astrology, Karma and Transformation", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
       "degrees": "330-360",
       "season": "Late Winter",
       "body_parts": [
-        "feet",
-        "immune system",
-        "pineal gland"
+        { "text": "feet", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "immune system", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "pineal gland", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "psychological_traits": [
-        "compassionate",
-        "intuitive",
-        "spiritual",
-        "sensitive"
+        { "text": "compassionate", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "intuitive", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "spiritual", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "sensitive", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" }
       ],
       "spiritual_lesson": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Learning to serve through compassion while maintaining spiritual boundaries"
       },
       "shadow_aspects": [
-        "escapism",
-        "victimization",
-        "confusion",
-        "addiction"
+        { "text": "escapism", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "victimization", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "confusion", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" },
+        { "text": "addiction", "citation_key": "Stephen_Arroyo-Astrology__Karma_and_Transformation" }
       ],
       "evolutionary_goal": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1478,68 +1478,68 @@
         "Earth"
       ],
       "mythological_associations": [
-        "Neptune",
-        "Vishnu",
-        "Yemoja",
-        "Poseidon"
+        { "text": "Neptune", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Vishnu", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Yemoja", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Poseidon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ]
     }
   },
   "lunar_phases": {
     "New Moon": {
       "keywords": [
-        "new beginnings",
-        "intention setting",
-        "planting seeds",
-        "fresh start"
+        { "text": "new beginnings", "citation_key": "Yasmin_Boland-Moonology" },
+        { "text": "intention setting", "citation_key": "Yasmin_Boland-Moonology" },
+        { "text": "planting seeds", "citation_key": "Yasmin_Boland-Moonology" },
+        { "text": "fresh start", "citation_key": "Yasmin_Boland-Moonology" }
       ],
       "energy": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Receptive and introspective"
       },
       "tarot_correspondences": [
-        "The Fool",
-        "Ace cards",
-        "The Star"
+        { "text": "The Fool", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ace cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Star", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "quote": {
         "citation_key": "Yasmin_Boland-Moonology",
         "text": "The New Moon is a time of quiet introspection and the planting of seeds for future growth, representing the dark fertile void from which all creation emerges."
       },
-      "author": "Yasmin Boland",
-      "source": "Moonology",
+      "author": { "text": "Yasmin Boland", "citation_key": "Yasmin_Boland-Moonology" },
+      "source": { "text": "Moonology", "citation_key": "Yasmin_Boland-Moonology" },
       "spiritual_significance": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Death of the old and birth of the new"
       },
       "optimal_activities": [
-        "meditation",
-        "intention setting",
-        "planning",
-        "reflection"
+        { "text": "meditation", "citation_key": "Yasmin_Boland-Moonology" },
+        { "text": "intention setting", "citation_key": "Yasmin_Boland-Moonology" },
+        { "text": "planning", "citation_key": "Yasmin_Boland-Moonology" },
+        { "text": "reflection", "citation_key": "Yasmin_Boland-Moonology" }
       ],
-      "chakra_focus": "Root",
+      "chakra_focus": { "text": "Root", "citation_key": "Anodea_Judith-Wheels_of_Life" },
       "element": "Earth",
       "magical_correspondences": [
-        "new beginnings",
-        "banishing",
-        "binding"
+        { "text": "new beginnings", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "banishing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "binding", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ]
     },
     "Waxing Crescent": {
       "keywords": [
-        "growth",
-        "building",
-        "taking action",
-        "commitment"
+        { "text": "growth", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" },
+        { "text": "building", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" },
+        { "text": "taking action", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" },
+        { "text": "commitment", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" }
       ],
       "energy": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Building and expanding"
       },
       "tarot_correspondences": [
-        "Two cards",
-        "The Magician",
+        { "text": "Two cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Magician", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Three of Pentacles"
@@ -1549,40 +1549,40 @@
         "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft",
         "text": "The Waxing Crescent phase represents the time of building momentum and taking the first concrete steps toward manifesting your intentions."
       },
-      "author": "Christopher Penczak",
-      "source": "The Temple of High Witchcraft",
+      "author": { "text": "Christopher Penczak", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" },
+      "source": { "text": "The Temple of High Witchcraft", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" },
       "spiritual_significance": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Initial manifestation of creative force"
       },
       "optimal_activities": [
-        "taking action",
-        "building habits",
-        "networking",
-        "learning"
+        { "text": "taking action", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" },
+        { "text": "building habits", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" },
+        { "text": "networking", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" },
+        { "text": "learning", "citation_key": "Christopher_Penczak-The_Temple_of_High_Witchcraft" }
       ],
-      "chakra_focus": "Sacral",
+      "chakra_focus": { "text": "Sacral", "citation_key": "Anodea_Judith-Wheels_of_Life" },
       "element": "Water",
       "magical_correspondences": [
-        "attraction",
-        "growth",
-        "healing"
+        { "text": "attraction", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "growth", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "healing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ]
     },
     "First Quarter": {
       "keywords": [
-        "challenges",
-        "decisions",
-        "perseverance",
-        "breakthrough"
+        { "text": "challenges", "citation_key": "Judy_Hall-The_Moon_Oracle" },
+        { "text": "decisions", "citation_key": "Judy_Hall-The_Moon_Oracle" },
+        { "text": "perseverance", "citation_key": "Judy_Hall-The_Moon_Oracle" },
+        { "text": "breakthrough", "citation_key": "Judy_Hall-The_Moon_Oracle" }
       ],
       "energy": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Dynamic tension and breakthrough"
       },
       "tarot_correspondences": [
-        "Seven cards",
-        "The Chariot",
+        { "text": "Seven cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Chariot", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Five of Wands"
@@ -1592,40 +1592,40 @@
         "citation_key": "Judy_Hall-The_Moon_Oracle",
         "text": "The First Quarter Moon creates dynamic tension that forces us to make decisions and overcome obstacles on the path to manifestation."
       },
-      "author": "Judy Hall",
-      "source": "The Moon Oracle",
+      "author": { "text": "Judy Hall", "citation_key": "Judy_Hall-The_Moon_Oracle" },
+      "source": { "text": "The Moon Oracle", "citation_key": "Judy_Hall-The_Moon_Oracle" },
       "spiritual_significance": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Testing of will and commitment"
       },
       "optimal_activities": [
-        "problem solving",
-        "making decisions",
-        "overcoming obstacles",
-        "commitment"
+        { "text": "problem solving", "citation_key": "Judy_Hall-The_Moon_Oracle" },
+        { "text": "making decisions", "citation_key": "Judy_Hall-The_Moon_Oracle" },
+        { "text": "overcoming obstacles", "citation_key": "Judy_Hall-The_Moon_Oracle" },
+        { "text": "commitment", "citation_key": "Judy_Hall-The_Moon_Oracle" }
       ],
-      "chakra_focus": "Solar Plexus",
+      "chakra_focus": { "text": "Solar Plexus", "citation_key": "Anodea_Judith-Wheels_of_Life" },
       "element": "Fire",
       "magical_correspondences": [
-        "courage",
-        "strength",
-        "determination"
+        { "text": "courage", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "strength", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "determination", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ]
     },
     "Waxing Gibbous": {
       "keywords": [
-        "refinement",
-        "adjustment",
-        "patience",
-        "preparation"
+        { "text": "refinement", "citation_key": "Jan_Spiller-New_Moon_Astrology" },
+        { "text": "adjustment", "citation_key": "Jan_Spiller-New_Moon_Astrology" },
+        { "text": "patience", "citation_key": "Jan_Spiller-New_Moon_Astrology" },
+        { "text": "preparation", "citation_key": "Jan_Spiller-New_Moon_Astrology" }
       ],
       "energy": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Refining and perfecting"
       },
       "tarot_correspondences": [
-        "Nine cards",
-        "The Hermit",
+        { "text": "Nine cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Pentacles"
@@ -1635,80 +1635,80 @@
         "citation_key": "Jan_Spiller-New_Moon_Astrology",
         "text": "The Waxing Gibbous phase calls for patience and refinement, adjusting our course and perfecting our approach as we near completion."
       },
-      "author": "Jan Spiller",
-      "source": "New Moon Astrology",
+      "author": { "text": "Jan Spiller", "citation_key": "Jan_Spiller-New_Moon_Astrology" },
+      "source": { "text": "New Moon Astrology", "citation_key": "Jan_Spiller-New_Moon_Astrology" },
       "spiritual_significance": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Perfection through patience and adjustment"
       },
       "optimal_activities": [
-        "refining",
-        "editing",
-        "practicing",
-        "patience"
+        { "text": "refining", "citation_key": "Jan_Spiller-New_Moon_Astrology" },
+        { "text": "editing", "citation_key": "Jan_Spiller-New_Moon_Astrology" },
+        { "text": "practicing", "citation_key": "Jan_Spiller-New_Moon_Astrology" },
+        { "text": "patience", "citation_key": "Jan_Spiller-New_Moon_Astrology" }
       ],
-      "chakra_focus": "Heart",
+      "chakra_focus": { "text": "Heart", "citation_key": "Anodea_Judith-Wheels_of_Life" },
       "element": "Air",
       "magical_correspondences": [
-        "patience",
-        "perseverance",
-        "skill"
+        { "text": "patience", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "perseverance", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "skill", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ]
     },
     "Full Moon": {
       "keywords": [
-        "culmination",
-        "completion",
-        "revelation",
-        "release"
+        { "text": "culmination", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "completion", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "revelation", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "release", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ],
       "energy": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Peak intensity and illumination"
       },
       "tarot_correspondences": [
-        "The Moon",
-        "Ten cards",
-        "The Sun"
+        { "text": "The Moon", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Ten cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Sun", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "quote": {
         "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner",
         "text": "The Full Moon represents the peak of manifestation, when the seeds planted at the New Moon reach their full flowering and hidden things are revealed."
       },
-      "author": "Scott Cunningham",
-      "source": "Wicca: A Guide for the Solitary Practitioner",
+      "author": { "text": "Scott Cunningham", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+      "source": { "text": "Wicca: A Guide for the Solitary Practitioner", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
       "spiritual_significance": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Full illumination and peak psychic power"
       },
       "optimal_activities": [
-        "celebration",
-        "gratitude",
-        "psychic work",
-        "divination"
+        { "text": "celebration", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "gratitude", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "psychic work", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "divination", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ],
-      "chakra_focus": "Third Eye",
+      "chakra_focus": { "text": "Third Eye", "citation_key": "Anodea_Judith-Wheels_of_Life" },
       "element": "Water",
       "magical_correspondences": [
-        "divination",
-        "protection",
-        "healing"
+        { "text": "divination", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "protection", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "healing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ]
     },
     "Waning Gibbous": {
       "keywords": [
-        "gratitude",
-        "sharing",
-        "teaching",
-        "giving back"
+        { "text": "gratitude", "citation_key": "Raven_Grimassi-Italian_Witchcraft" },
+        { "text": "sharing", "citation_key": "Raven_Grimassi-Italian_Witchcraft" },
+        { "text": "teaching", "citation_key": "Raven_Grimassi-Italian_Witchcraft" },
+        { "text": "giving back", "citation_key": "Raven_Grimassi-Italian_Witchcraft" }
       ],
       "energy": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Sharing wisdom and giving thanks"
       },
       "tarot_correspondences": [
-        "Six cards",
-        "The Empress",
+        { "text": "Six cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "The Empress", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Three of Cups"
@@ -1718,40 +1718,40 @@
         "citation_key": "Raven_Grimassi-Italian_Witchcraft",
         "text": "The Waning Gibbous phase is a time of gratitude and sharing, when we give back to others from the abundance we have received."
       },
-      "author": "Raven Grimassi",
-      "source": "Italian Witchcraft",
+      "author": { "text": "Raven Grimassi", "citation_key": "Raven_Grimassi-Italian_Witchcraft" },
+      "source": { "text": "Italian Witchcraft", "citation_key": "Raven_Grimassi-Italian_Witchcraft" },
       "spiritual_significance": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Sharing wisdom and expressing gratitude"
       },
       "optimal_activities": [
-        "teaching",
-        "sharing",
-        "gratitude",
-        "mentoring"
+        { "text": "teaching", "citation_key": "Raven_Grimassi-Italian_Witchcraft" },
+        { "text": "sharing", "citation_key": "Raven_Grimassi-Italian_Witchcraft" },
+        { "text": "gratitude", "citation_key": "Raven_Grimassi-Italian_Witchcraft" },
+        { "text": "mentoring", "citation_key": "Raven_Grimassi-Italian_Witchcraft" }
       ],
-      "chakra_focus": "Throat",
+      "chakra_focus": { "text": "Throat", "citation_key": "Anodea_Judith-Wheels_of_Life" },
       "element": "Air",
       "magical_correspondences": [
-        "gratitude",
-        "wisdom",
-        "teaching"
+        { "text": "gratitude", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "wisdom", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "teaching", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ]
     },
     "Last Quarter": {
       "keywords": [
-        "release",
-        "forgiveness",
-        "letting go",
-        "clearing"
+        { "text": "release", "citation_key": "Starhawk-The_Spiral_Dance" },
+        { "text": "forgiveness", "citation_key": "Starhawk-The_Spiral_Dance" },
+        { "text": "letting go", "citation_key": "Starhawk-The_Spiral_Dance" },
+        { "text": "clearing", "citation_key": "Starhawk-The_Spiral_Dance" }
       ],
       "energy": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Releasing and clearing"
       },
       "tarot_correspondences": [
-        "Four cards",
-        "Death",
+        { "text": "Four cards", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        { "text": "Death", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Eight of Cups"
@@ -1761,67 +1761,67 @@
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "The Last Quarter Moon brings the energy of release and forgiveness, helping us let go of what no longer serves our highest good."
       },
-      "author": "Starhawk",
-      "source": "The Spiral Dance",
+      "author": { "text": "Starhawk", "citation_key": "Starhawk-The_Spiral_Dance" },
+      "source": { "text": "The Spiral Dance", "citation_key": "Starhawk-The_Spiral_Dance" },
       "spiritual_significance": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Conscious release and transformation"
       },
       "optimal_activities": [
-        "forgiveness",
-        "releasing",
-        "clearing",
-        "cleansing"
+        { "text": "forgiveness", "citation_key": "Starhawk-The_Spiral_Dance" },
+        { "text": "releasing", "citation_key": "Starhawk-The_Spiral_Dance" },
+        { "text": "clearing", "citation_key": "Starhawk-The_Spiral_Dance" },
+        { "text": "cleansing", "citation_key": "Starhawk-The_Spiral_Dance" }
       ],
-      "chakra_focus": "Solar Plexus",
+      "chakra_focus": { "text": "Solar Plexus", "citation_key": "Anodea_Judith-Wheels_of_Life" },
       "element": "Fire",
       "magical_correspondences": [
-        "banishing",
-        "releasing",
-        "cleansing"
+        { "text": "banishing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "releasing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "cleansing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ]
     },
     "Waning Crescent": {
       "keywords": [
-        "rest",
-        "reflection",
-        "surrender",
-        "preparation"
+        { "text": "rest", "citation_key": "Diana_Paxson-Essential_Asatru" },
+        { "text": "reflection", "citation_key": "Diana_Paxson-Essential_Asatru" },
+        { "text": "surrender", "citation_key": "Diana_Paxson-Essential_Asatru" },
+        { "text": "preparation", "citation_key": "Diana_Paxson-Essential_Asatru" }
       ],
       "energy": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Quiet reflection and surrender"
       },
       "tarot_correspondences": [
-        "The Hermit",
+        { "text": "The Hermit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Four of Swords"
         },
-        "The Hanged Man"
+        { "text": "The Hanged Man", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
       ],
       "quote": {
         "citation_key": "Diana_Paxson-Essential_Asatru",
         "text": "The Waning Crescent phase invites us into quiet reflection and surrender, preparing for the new cycle that will begin with the next New Moon."
       },
-      "author": "Diana Paxson",
-      "source": "Essential Asatru",
+      "author": { "text": "Diana Paxson", "citation_key": "Diana_Paxson-Essential_Asatru" },
+      "source": { "text": "Essential Asatru", "citation_key": "Diana_Paxson-Essential_Asatru" },
       "spiritual_significance": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Surrender and preparation for rebirth"
       },
       "optimal_activities": [
-        "rest",
-        "reflection",
-        "meditation",
-        "surrender"
+        { "text": "rest", "citation_key": "Diana_Paxson-Essential_Asatru" },
+        { "text": "reflection", "citation_key": "Diana_Paxson-Essential_Asatru" },
+        { "text": "meditation", "citation_key": "Diana_Paxson-Essential_Asatru" },
+        { "text": "surrender", "citation_key": "Diana_Paxson-Essential_Asatru" }
       ],
-      "chakra_focus": "Crown",
+      "chakra_focus": { "text": "Crown", "citation_key": "Anodea_Judith-Wheels_of_Life" },
       "element": "Spirit",
       "magical_correspondences": [
-        "rest",
-        "peace",
-        "surrender"
+        { "text": "rest", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "peace", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+        { "text": "surrender", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
       ]
     }
   },
@@ -1834,8 +1834,8 @@
       "citation_key": "Cornelius_Agrippa-Three_Books_of_Occult_Philosophy",
       "text": "The planetary hours represent the natural rhythm of cosmic forces as they flow through each day, offering optimal timing for different types of activities."
     },
-    "author": "Cornelius Agrippa",
-    "source": "Three Books of Occult Philosophy",
+    "author": { "text": "Cornelius Agrippa", "citation_key": "Cornelius_Agrippa-Three_Books_of_Occult_Philosophy" },
+    "source": { "text": "Three Books of Occult Philosophy", "citation_key": "Cornelius_Agrippa-Three_Books_of_Occult_Philosophy" },
     "calculation_method": {
       "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
       "text": "Divide daylight and nighttime into 12 equal parts each, starting with the day ruler at sunrise"
@@ -1852,63 +1852,63 @@
     "planetary_activities": {
       "Sun": {
         "optimal_for": [
-          "leadership",
-          "vitality",
-          "self-expression",
-          "authority",
-          "success"
+          { "text": "leadership", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "vitality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "self-expression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "authority", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "success", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "beginning new projects during eclipses"
           },
-          "ego conflicts"
+          { "text": "ego conflicts", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "magical_uses": [
-          "healing",
-          "success",
-          "leadership",
-          "vitality"
+          { "text": "healing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "success", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "leadership", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "vitality", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
         ],
         "business_activities": [
-          "important meetings",
-          "presentations",
-          "launches"
+          { "text": "important meetings", "citation_key": "Unknown-Source" },
+          { "text": "presentations", "citation_key": "Unknown-Source" },
+          { "text": "launches", "citation_key": "Unknown-Source" }
         ]
       },
       "Moon": {
         "optimal_for": [
-          "intuition",
-          "emotions",
-          "domestic matters",
-          "psychic work"
+          { "text": "intuition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "emotions", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "domestic matters", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "psychic work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "important decisions during void of course"
           },
-          "major commitments"
+          { "text": "major commitments", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "magical_uses": [
-          "divination",
-          "dreams",
-          "intuition",
-          "protection"
+          { "text": "divination", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "dreams", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "intuition", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "protection", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
         ],
         "business_activities": [
-          "negotiations",
-          "public relations",
-          "hospitality"
+          { "text": "negotiations", "citation_key": "Unknown-Source" },
+          { "text": "public relations", "citation_key": "Unknown-Source" },
+          { "text": "hospitality", "citation_key": "Unknown-Source" }
         ]
       },
       "Mars": {
         "optimal_for": [
-          "action",
-          "courage",
-          "competition",
-          "physical activity"
+          { "text": "action", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "courage", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "competition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "physical activity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
           {
@@ -1921,116 +1921,116 @@
           }
         ],
         "magical_uses": [
-          "courage",
-          "strength",
-          "protection",
-          "banishing"
+          { "text": "courage", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "strength", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "protection", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "banishing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
         ],
         "business_activities": [
-          "sports",
-          "military",
-          "competitive activities"
+          { "text": "sports", "citation_key": "Unknown-Source" },
+          { "text": "military", "citation_key": "Unknown-Source" },
+          { "text": "competitive activities", "citation_key": "Unknown-Source" }
         ]
       },
       "Mercury": {
         "optimal_for": [
-          "communication",
-          "learning",
-          "travel",
-          "technology"
+          { "text": "communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "learning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "travel", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "technology", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "signing contracts during retrograde"
           },
-          "important communications"
+          { "text": "important communications", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "magical_uses": [
-          "communication",
-          "learning",
-          "travel",
-          "divination"
+          { "text": "communication", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "learning", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "travel", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "divination", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
         ],
         "business_activities": [
-          "writing",
-          "teaching",
-          "networking",
-          "media"
+          { "text": "writing", "citation_key": "Unknown-Source" },
+          { "text": "teaching", "citation_key": "Unknown-Source" },
+          { "text": "networking", "citation_key": "Unknown-Source" },
+          { "text": "media", "citation_key": "Unknown-Source" }
         ]
       },
       "Jupiter": {
         "optimal_for": [
-          "expansion",
-          "luck",
-          "philosophical pursuits",
-          "legal matters"
+          { "text": "expansion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "luck", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "philosophical pursuits", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "legal matters", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "overexpansion",
-          "overconfidence"
+          { "text": "overexpansion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "overconfidence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "magical_uses": [
-          "prosperity",
-          "luck",
-          "wisdom",
-          "legal matters"
+          { "text": "prosperity", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "luck", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "wisdom", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "legal matters", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
         ],
         "business_activities": [
-          "investments",
-          "education",
-          "publishing",
-          "legal"
+          { "text": "investments", "citation_key": "Unknown-Source" },
+          { "text": "education", "citation_key": "Unknown-Source" },
+          { "text": "publishing", "citation_key": "Unknown-Source" },
+          { "text": "legal", "citation_key": "Unknown-Source" }
         ]
       },
       "Venus": {
         "optimal_for": [
-          "love",
-          "beauty",
-          "artistic endeavors",
-          "social activities"
+          { "text": "love", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "beauty", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "artistic endeavors", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "social activities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "relationship decisions during retrograde"
           },
-          "major purchases"
+          { "text": "major purchases", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "magical_uses": [
-          "love",
-          "beauty",
-          "harmony",
-          "money"
+          { "text": "love", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "beauty", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "harmony", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "money", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
         ],
         "business_activities": [
-          "arts",
-          "beauty",
-          "fashion",
-          "entertainment"
+          { "text": "arts", "citation_key": "Unknown-Source" },
+          { "text": "beauty", "citation_key": "Unknown-Source" },
+          { "text": "fashion", "citation_key": "Unknown-Source" },
+          { "text": "entertainment", "citation_key": "Unknown-Source" }
         ]
       },
       "Saturn": {
         "optimal_for": [
-          "discipline",
-          "structure",
-          "long-term planning",
-          "karma work"
+          { "text": "discipline", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "structure", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "long-term planning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "karma work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "fun activities",
-          "creative pursuits"
+          { "text": "fun activities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "creative pursuits", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "magical_uses": [
-          "binding",
-          "banishing",
-          "discipline",
-          "karma"
+          { "text": "binding", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "banishing", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "discipline", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" },
+          { "text": "karma", "citation_key": "Scott_Cunningham-Wicca__A_Guide_for_the_Solitary_Practitioner" }
         ],
         "business_activities": [
-          "construction",
-          "real estate",
-          "long-term planning"
+          { "text": "construction", "citation_key": "Unknown-Source" },
+          { "text": "real estate", "citation_key": "Unknown-Source" },
+          { "text": "long-term planning", "citation_key": "Unknown-Source" }
         ]
       }
     }

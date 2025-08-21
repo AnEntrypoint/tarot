@@ -11,25 +11,73 @@
     "author": "Paracelsus",
     "source": "The Hermetic and Alchemical Writings",
     "fire": {
-      "symbol": "\u25b3",
-      "tarot_suit": "Wands",
-      "direction": "South",
-      "season": "Summer",
-      "time_of_day": "Noon",
-      "moon_phase": "Waxing Gibbous",
+      "symbol": {
+        "text": "\u25b3",
+        "citation_key": "Default-Citation-Key"
+      },
+      "tarot_suit": {
+        "text": "Wands",
+        "citation_key": "Default-Citation-Key"
+      },
+      "direction": {
+        "text": "South",
+        "citation_key": "Default-Citation-Key"
+      },
+      "season": {
+        "text": "Summer",
+        "citation_key": "Default-Citation-Key"
+      },
+      "time_of_day": {
+        "text": "Noon",
+        "citation_key": "Default-Citation-Key"
+      },
+      "moon_phase": {
+        "text": "Waxing Gibbous",
+        "citation_key": "Default-Citation-Key"
+      },
       "qualities": [
-        "Hot",
-        "Dry",
-        "Active",
-        "Masculine"
+        {
+          "text": "Hot",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Dry",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Active",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Masculine",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
-      "temperament": "Choleric",
-      "life_stage": "Youth",
+      "temperament": {
+        "text": "Choleric",
+        "citation_key": "Default-Citation-Key"
+      },
+      "life_stage": {
+        "text": "Youth",
+        "citation_key": "Default-Citation-Key"
+      },
       "major_arcana": [
-        "The Sun",
-        "Strength",
-        "The Tower",
-        "Judgement"
+        {
+          "text": "The Sun",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Strength",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "The Tower",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Judgement",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "quote": {
         "citation_key": "Agrippa-Three_Books_of_Occult_Philosophy",
@@ -39,18 +87,48 @@
       "source": "Three Books of Occult Philosophy",
       "psychological_function": {
         "positive": [
-          "enthusiasm",
-          "courage",
-          "leadership",
-          "inspiration",
-          "creativity"
+          {
+            "text": "enthusiasm",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "courage",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "leadership",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "inspiration",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "creativity",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "anger",
-          "impulsiveness",
-          "aggression",
-          "destructiveness",
-          "impatience"
+          {
+            "text": "anger",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "impulsiveness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "aggression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "destructiveness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "impatience",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "balanced": [
           {
@@ -73,94 +151,259 @@
       },
       "body_correspondences": {
         "systems": [
-          "muscular",
-          "circulatory",
-          "nervous"
+          {
+            "text": "muscular",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "circulatory",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "nervous",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "organs": [
-          "heart",
-          "liver",
-          "brain"
+          {
+            "text": "heart",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "liver",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "brain",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
-        "senses": "sight",
-        "bodily_fluids": "blood"
+        "senses": {
+          "text": "sight",
+          "citation_key": "Default-Citation-Key"
+        },
+        "bodily_fluids": {
+          "text": "blood",
+          "citation_key": "Default-Citation-Key"
+        }
       },
       "planetary_rulers": [
-        "Sun",
-        "Mars",
-        "Jupiter"
+        {
+          "text": "Sun",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Mars",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Jupiter",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "zodiac_signs": [
-        "Aries",
-        "Leo",
-        "Sagittarius"
+        {
+          "text": "Aries",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Leo",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Sagittarius",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "chakras": [
-        "Solar Plexus",
+        {
+          "text": "Solar Plexus",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Root (manifestation aspect)"
         }
       ],
       "colors": [
-        "Red",
-        "Orange",
-        "Yellow",
-        "Gold"
+        {
+          "text": "Red",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Orange",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Yellow",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Gold",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "gemstones": [
-        "Ruby",
-        "Garnet",
-        "Carnelian",
-        "Citrine",
-        "Fire Opal"
+        {
+          "text": "Ruby",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Garnet",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Carnelian",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Citrine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Fire Opal",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "metals": [
-        "Gold",
-        "Iron",
-        "Brass"
+        {
+          "text": "Gold",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Iron",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Brass",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "plants": {
         "trees": [
-          "Oak",
-          "Cedar",
-          "Pine",
-          "Rowan"
+          {
+            "text": "Oak",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Cedar",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Pine",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Rowan",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "herbs": [
-          "Basil",
-          "Cinnamon",
-          "Ginger",
-          "Rosemary",
-          "Sage"
+          {
+            "text": "Basil",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Cinnamon",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Ginger",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Rosemary",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Sage",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "flowers": [
-          "Sunflower",
-          "Marigold",
-          "Red Rose",
-          "Carnation"
+          {
+            "text": "Sunflower",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Marigold",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Red Rose",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Carnation",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "animals": [
-        "Lion",
-        "Eagle",
-        "Salamander",
-        "Phoenix",
-        "Dragon"
+        {
+          "text": "Lion",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Eagle",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Salamander",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Phoenix",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Dragon",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "mythological_beings": [
-        "Salamanders",
-        "Fire Dragons",
-        "Phoenix",
-        "Seraphim"
+        {
+          "text": "Salamanders",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Fire Dragons",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Phoenix",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Seraphim",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "deities": [
-        "Ra",
-        "Apollo",
-        "Agni",
-        "Brigid",
-        "Hestia",
-        "Vulcan"
+        {
+          "text": "Ra",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Apollo",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Agni",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Brigid",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Hestia",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Vulcan",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_interpretations": {
         "when_prominent": {
@@ -186,12 +429,27 @@
           "text": "Passion spells, courage magic, success rituals"
         },
         "tools": [
-          "Wand",
-          "Athame",
-          "Candles",
-          "Incense"
+          {
+            "text": "Wand",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Athame",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Candles",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Incense",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
-        "altar_direction": "South"
+        "altar_direction": {
+          "text": "South",
+          "citation_key": "Default-Citation-Key"
+        }
       },
       "meditation_practices": {
         "flame_meditation": {
@@ -216,29 +474,80 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Water (extinguishes), excessive Fire (burnout)"
         },
-        "complementary_element": "Water"
+        "complementary_element": {
+          "text": "Water",
+          "citation_key": "Default-Citation-Key"
+        }
       }
     },
     "water": {
-      "symbol": "\u25bd",
-      "tarot_suit": "Cups",
-      "direction": "West",
-      "season": "Autumn",
-      "time_of_day": "Sunset/Evening",
-      "moon_phase": "Full Moon",
+      "symbol": {
+        "text": "\u25bd",
+        "citation_key": "Default-Citation-Key"
+      },
+      "tarot_suit": {
+        "text": "Cups",
+        "citation_key": "Default-Citation-Key"
+      },
+      "direction": {
+        "text": "West",
+        "citation_key": "Default-Citation-Key"
+      },
+      "season": {
+        "text": "Autumn",
+        "citation_key": "Default-Citation-Key"
+      },
+      "time_of_day": {
+        "text": "Sunset/Evening",
+        "citation_key": "Default-Citation-Key"
+      },
+      "moon_phase": {
+        "text": "Full Moon",
+        "citation_key": "Default-Citation-Key"
+      },
       "qualities": [
-        "Cold",
-        "Moist",
-        "Passive",
-        "Feminine"
+        {
+          "text": "Cold",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Moist",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Passive",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Feminine",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
-      "temperament": "Phlegmatic",
-      "life_stage": "Maturity",
+      "temperament": {
+        "text": "Phlegmatic",
+        "citation_key": "Default-Citation-Key"
+      },
+      "life_stage": {
+        "text": "Maturity",
+        "citation_key": "Default-Citation-Key"
+      },
       "major_arcana": [
-        "The High Priestess",
-        "The Moon",
-        "Death",
-        "The Star"
+        {
+          "text": "The High Priestess",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "The Moon",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Death",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "The Star",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "quote": {
         "citation_key": "Carl_Jung-The_Archetypes_and_the_Collective_Unconscious",
@@ -248,21 +557,54 @@
       "source": "The Archetypes and the Collective Unconscious",
       "psychological_function": {
         "positive": [
-          "empathy",
-          "intuition",
-          "compassion",
-          "adaptability",
-          "emotional depth"
+          {
+            "text": "empathy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "intuition",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "compassion",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "adaptability",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "emotional depth",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "moodiness",
-          "oversensitivity",
-          "depression",
-          "passivity",
-          "confusion"
+          {
+            "text": "moodiness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "oversensitivity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "depression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "passivity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "confusion",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "balanced": [
-          "emotionally intelligent",
+          {
+            "text": "emotionally intelligent",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "intuitive yet grounded"
@@ -279,33 +621,75 @@
       },
       "body_correspondences": {
         "systems": [
-          "lymphatic",
-          "endocrine",
-          "reproductive"
+          {
+            "text": "lymphatic",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "endocrine",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "reproductive",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "organs": [
-          "kidneys",
-          "bladder",
-          "reproductive organs"
+          {
+            "text": "kidneys",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "bladder",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "reproductive organs",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
-        "senses": "taste",
+        "senses": {
+          "text": "taste",
+          "citation_key": "Default-Citation-Key"
+        },
         "bodily_fluids": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "lymph, hormones, reproductive fluids"
         }
       },
       "planetary_rulers": [
-        "Moon",
-        "Neptune",
-        "Venus"
+        {
+          "text": "Moon",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Neptune",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Venus",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "zodiac_signs": [
-        "Cancer",
-        "Scorpio",
-        "Pisces"
+        {
+          "text": "Cancer",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Scorpio",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Pisces",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "chakras": [
-        "Sacral",
+        {
+          "text": "Sacral",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Heart (emotional aspect)"
@@ -316,66 +700,192 @@
         }
       ],
       "colors": [
-        "Blue",
-        "Silver",
-        "Sea Green",
-        "Indigo",
-        "Turquoise"
+        {
+          "text": "Blue",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Silver",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Sea Green",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Indigo",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Turquoise",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "gemstones": [
-        "Pearl",
-        "Moonstone",
-        "Aquamarine",
-        "Amethyst",
-        "Blue Lace Agate"
+        {
+          "text": "Pearl",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Moonstone",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Aquamarine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Amethyst",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Blue Lace Agate",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "metals": [
-        "Silver",
-        "Copper",
-        "Mercury"
+        {
+          "text": "Silver",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Copper",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Mercury",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "plants": {
         "trees": [
-          "Willow",
-          "Birch",
-          "Elder",
-          "Apple"
+          {
+            "text": "Willow",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Birch",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Elder",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Apple",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "herbs": [
-          "Chamomile",
-          "Jasmine",
-          "Lotus",
-          "Water Lily",
-          "Aloe"
+          {
+            "text": "Chamomile",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Jasmine",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Lotus",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Water Lily",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Aloe",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "flowers": [
-          "Water Lily",
-          "Iris",
-          "Forget-me-not",
-          "Violet"
+          {
+            "text": "Water Lily",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Iris",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Forget-me-not",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Violet",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "animals": [
-        "Fish",
-        "Dolphin",
-        "Swan",
-        "Frog",
-        "Crab",
-        "Whale"
+        {
+          "text": "Fish",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Dolphin",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Swan",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Frog",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Crab",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Whale",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "mythological_beings": [
-        "Undines",
-        "Water Nymphs",
-        "Mermaids",
-        "Sea Serpents"
+        {
+          "text": "Undines",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Water Nymphs",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Mermaids",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Sea Serpents",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "deities": [
-        "Isis",
-        "Yemoja",
-        "Poseidon",
-        "Quan Yin",
-        "Aphrodite",
-        "Tiamat"
+        {
+          "text": "Isis",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Yemoja",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Poseidon",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Quan Yin",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Aphrodite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Tiamat",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_interpretations": {
         "when_prominent": {
@@ -401,12 +911,27 @@
           "text": "Love magic, healing rituals, dream work, divination"
         },
         "tools": [
-          "Chalice",
-          "Cauldron",
-          "Mirrors",
-          "Crystals"
+          {
+            "text": "Chalice",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Cauldron",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Mirrors",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Crystals",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
-        "altar_direction": "West"
+        "altar_direction": {
+          "text": "West",
+          "citation_key": "Default-Citation-Key"
+        }
       },
       "meditation_practices": {
         "water_gazing": {
@@ -431,29 +956,80 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Fire (mutual destruction), excessive Water (flood/stagnation)"
         },
-        "complementary_element": "Fire"
+        "complementary_element": {
+          "text": "Fire",
+          "citation_key": "Default-Citation-Key"
+        }
       }
     },
     "air": {
-      "symbol": "\u25b3 with horizontal line",
-      "tarot_suit": "Swords",
-      "direction": "East",
-      "season": "Spring",
-      "time_of_day": "Dawn/Morning",
-      "moon_phase": "New Moon",
+      "symbol": {
+        "text": "\u25b3 with horizontal line",
+        "citation_key": "Default-Citation-Key"
+      },
+      "tarot_suit": {
+        "text": "Swords",
+        "citation_key": "Default-Citation-Key"
+      },
+      "direction": {
+        "text": "East",
+        "citation_key": "Default-Citation-Key"
+      },
+      "season": {
+        "text": "Spring",
+        "citation_key": "Default-Citation-Key"
+      },
+      "time_of_day": {
+        "text": "Dawn/Morning",
+        "citation_key": "Default-Citation-Key"
+      },
+      "moon_phase": {
+        "text": "New Moon",
+        "citation_key": "Default-Citation-Key"
+      },
       "qualities": [
-        "Hot",
-        "Moist",
-        "Active",
-        "Masculine"
+        {
+          "text": "Hot",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Moist",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Active",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Masculine",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
-      "temperament": "Sanguine",
-      "life_stage": "Childhood",
+      "temperament": {
+        "text": "Sanguine",
+        "citation_key": "Default-Citation-Key"
+      },
+      "life_stage": {
+        "text": "Childhood",
+        "citation_key": "Default-Citation-Key"
+      },
       "major_arcana": [
-        "The Fool",
-        "Justice",
-        "The Hermit",
-        "Temperance"
+        {
+          "text": "The Fool",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Justice",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "The Hermit",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Temperance",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "quote": {
         "citation_key": "Aristotle-Meteorology",
@@ -463,23 +1039,62 @@
       "source": "Meteorology",
       "psychological_function": {
         "positive": [
-          "intelligence",
-          "communication",
-          "objectivity",
-          "mental clarity",
-          "adaptability"
+          {
+            "text": "intelligence",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "communication",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "objectivity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mental clarity",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "adaptability",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "overthinking",
-          "detachment",
-          "anxiety",
-          "indecision",
-          "superficiality"
+          {
+            "text": "overthinking",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "detachment",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "anxiety",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "indecision",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "superficiality",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "balanced": [
-          "clear thinking",
-          "effective communication",
-          "mental flexibility"
+          {
+            "text": "clear thinking",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "effective communication",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mental flexibility",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "spiritual_significance": {
@@ -488,30 +1103,75 @@
       },
       "body_correspondences": {
         "systems": [
-          "respiratory",
-          "nervous",
-          "circulatory"
+          {
+            "text": "respiratory",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "nervous",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "circulatory",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "organs": [
-          "lungs",
-          "brain",
-          "nervous system"
+          {
+            "text": "lungs",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "brain",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "nervous system",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
-        "senses": "smell",
-        "bodily_fluids": "none specifically"
+        "senses": {
+          "text": "smell",
+          "citation_key": "Default-Citation-Key"
+        },
+        "bodily_fluids": {
+          "text": "none specifically",
+          "citation_key": "Default-Citation-Key"
+        }
       },
       "planetary_rulers": [
-        "Mercury",
-        "Uranus",
-        "Jupiter"
+        {
+          "text": "Mercury",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Uranus",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Jupiter",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "zodiac_signs": [
-        "Gemini",
-        "Libra",
-        "Aquarius"
+        {
+          "text": "Gemini",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Libra",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Aquarius",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "chakras": [
-        "Throat",
+        {
+          "text": "Throat",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Third Eye (mental aspect)"
@@ -522,64 +1182,184 @@
         }
       ],
       "colors": [
-        "Yellow",
-        "Light Blue",
-        "White",
-        "Clear"
+        {
+          "text": "Yellow",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Light Blue",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "White",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Clear",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "gemstones": [
-        "Clear Quartz",
-        "Citrine",
-        "Topaz",
-        "Fluorite",
-        "Sodalite"
+        {
+          "text": "Clear Quartz",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Citrine",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Topaz",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Fluorite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Sodalite",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "metals": [
-        "Mercury",
-        "Aluminum",
-        "Tin"
+        {
+          "text": "Mercury",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Aluminum",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Tin",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "plants": {
         "trees": [
-          "Aspen",
-          "Hazel",
-          "Linden",
-          "Palm"
+          {
+            "text": "Aspen",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Hazel",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Linden",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Palm",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "herbs": [
-          "Lavender",
-          "Peppermint",
-          "Eucalyptus",
-          "Frankincense",
-          "Sage"
+          {
+            "text": "Lavender",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Peppermint",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Eucalyptus",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Frankincense",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Sage",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "flowers": [
-          "Dandelion",
-          "Clover",
-          "Pansy",
-          "Primrose"
+          {
+            "text": "Dandelion",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Clover",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Pansy",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Primrose",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "animals": [
-        "Eagle",
-        "Hawk",
-        "Butterfly",
-        "Hummingbird",
-        "Dragonfly"
+        {
+          "text": "Eagle",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Hawk",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Butterfly",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Hummingbird",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Dragonfly",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "mythological_beings": [
-        "Sylphs",
-        "Wind Spirits",
-        "Fairies",
-        "Angels"
+        {
+          "text": "Sylphs",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Wind Spirits",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Fairies",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Angels",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "deities": [
-        "Hermes",
-        "Thoth",
-        "Saraswati",
-        "Athena",
-        "Odin",
-        "Quetzalcoatl"
+        {
+          "text": "Hermes",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Thoth",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Saraswati",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Athena",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Odin",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Quetzalcoatl",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_interpretations": {
         "when_prominent": {
@@ -605,12 +1385,27 @@
           "text": "Study magic, communication spells, weather working"
         },
         "tools": [
-          "Athame",
-          "Sword",
-          "Feather",
-          "Incense"
+          {
+            "text": "Athame",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Sword",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Feather",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Incense",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
-        "altar_direction": "East"
+        "altar_direction": {
+          "text": "East",
+          "citation_key": "Default-Citation-Key"
+        }
       },
       "meditation_practices": {
         "breath_awareness": {
@@ -635,29 +1430,80 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Earth (erosion), excessive Air (hurricane/tornado)"
         },
-        "complementary_element": "Earth"
+        "complementary_element": {
+          "text": "Earth",
+          "citation_key": "Default-Citation-Key"
+        }
       }
     },
     "earth": {
-      "symbol": "\u25bd with horizontal line",
-      "tarot_suit": "Pentacles/Coins",
-      "direction": "North",
-      "season": "Winter",
-      "time_of_day": "Midnight/Night",
-      "moon_phase": "Waning Moon",
+      "symbol": {
+        "text": "\u25bd with horizontal line",
+        "citation_key": "Default-Citation-Key"
+      },
+      "tarot_suit": {
+        "text": "Pentacles/Coins",
+        "citation_key": "Default-Citation-Key"
+      },
+      "direction": {
+        "text": "North",
+        "citation_key": "Default-Citation-Key"
+      },
+      "season": {
+        "text": "Winter",
+        "citation_key": "Default-Citation-Key"
+      },
+      "time_of_day": {
+        "text": "Midnight/Night",
+        "citation_key": "Default-Citation-Key"
+      },
+      "moon_phase": {
+        "text": "Waning Moon",
+        "citation_key": "Default-Citation-Key"
+      },
       "qualities": [
-        "Cold",
-        "Dry",
-        "Passive",
-        "Feminine"
+        {
+          "text": "Cold",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Dry",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Passive",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Feminine",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
-      "temperament": "Melancholic",
-      "life_stage": "Old Age",
+      "temperament": {
+        "text": "Melancholic",
+        "citation_key": "Default-Citation-Key"
+      },
+      "life_stage": {
+        "text": "Old Age",
+        "citation_key": "Default-Citation-Key"
+      },
       "major_arcana": [
-        "The World",
-        "The Emperor",
-        "The Empress",
-        "The Devil"
+        {
+          "text": "The World",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "The Emperor",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "The Empress",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "The Devil",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "quote": {
         "citation_key": "Paracelsus-The_Hermetic_and_Alchemical_Writings",
@@ -667,25 +1513,58 @@
       "source": "The Hermetic and Alchemical Writings",
       "psychological_function": {
         "positive": [
-          "practicality",
-          "reliability",
-          "patience",
-          "materialism",
-          "endurance"
+          {
+            "text": "practicality",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "reliability",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "patience",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "materialism",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "endurance",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "negative": [
-          "stubbornness",
-          "materialism",
+          {
+            "text": "stubbornness",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "materialism",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "resistance to change"
           },
-          "depression",
-          "greed"
+          {
+            "text": "depression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "greed",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "balanced": [
-          "grounded wisdom",
-          "practical spirituality",
+          {
+            "text": "grounded wisdom",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "practical spirituality",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "stable yet flexible"
@@ -698,31 +1577,79 @@
       },
       "body_correspondences": {
         "systems": [
-          "skeletal",
-          "digestive",
-          "immune"
+          {
+            "text": "skeletal",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "digestive",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "immune",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "organs": [
-          "bones",
-          "stomach",
-          "intestines",
-          "skin"
+          {
+            "text": "bones",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "stomach",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "intestines",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "skin",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
-        "senses": "touch",
-        "bodily_fluids": "digestive enzymes"
+        "senses": {
+          "text": "touch",
+          "citation_key": "Default-Citation-Key"
+        },
+        "bodily_fluids": {
+          "text": "digestive enzymes",
+          "citation_key": "Default-Citation-Key"
+        }
       },
       "planetary_rulers": [
-        "Saturn",
-        "Venus",
-        "Ceres"
+        {
+          "text": "Saturn",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Venus",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Ceres",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "zodiac_signs": [
-        "Taurus",
-        "Virgo",
-        "Capricorn"
+        {
+          "text": "Taurus",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Virgo",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Capricorn",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "chakras": [
-        "Root",
+        {
+          "text": "Root",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Sacral (fertility aspect)"
@@ -733,67 +1660,196 @@
         }
       ],
       "colors": [
-        "Green",
-        "Brown",
-        "Black",
-        "Russet",
-        "Gold"
+        {
+          "text": "Green",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Brown",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Black",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Russet",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Gold",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "gemstones": [
-        "Hematite",
-        "Jasper",
-        "Agate",
-        "Emerald",
-        "Peridot"
+        {
+          "text": "Hematite",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Jasper",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Agate",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Emerald",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Peridot",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "metals": [
-        "Lead",
-        "Iron",
-        "Copper"
+        {
+          "text": "Lead",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Iron",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Copper",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "plants": {
         "trees": [
-          "Oak",
-          "Pine",
-          "Cedar",
-          "Maple",
-          "Ash"
+          {
+            "text": "Oak",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Pine",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Cedar",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Maple",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Ash",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "herbs": [
-          "Comfrey",
-          "Patchouli",
-          "Vetiver",
-          "Cedar",
-          "Pine"
+          {
+            "text": "Comfrey",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Patchouli",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Vetiver",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Cedar",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Pine",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "flowers": [
-          "Sunflower",
-          "Magnolia",
-          "Honeysuckle",
-          "Jasmine"
+          {
+            "text": "Sunflower",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Magnolia",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Honeysuckle",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Jasmine",
+            "citation_key": "Default-Citation-Key"
+          }
         ]
       },
       "animals": [
-        "Bull",
-        "Bear",
-        "Wolf",
-        "Stag",
-        "Snake",
-        "Badger"
+        {
+          "text": "Bull",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Bear",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Wolf",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Stag",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Snake",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Badger",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "mythological_beings": [
-        "Gnomes",
-        "Earth Spirits",
-        "Dwarves",
-        "Tree Spirits"
+        {
+          "text": "Gnomes",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Earth Spirits",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Dwarves",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Tree Spirits",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "deities": [
-        "Gaia",
-        "Ceres",
-        "Demeter",
-        "Pan",
-        "Cernunnos",
-        "Pachamama"
+        {
+          "text": "Gaia",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Ceres",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Demeter",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Pan",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Cernunnos",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Pachamama",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_interpretations": {
         "when_prominent": {
@@ -819,12 +1875,27 @@
           "text": "Money magic, healing rituals, garden blessing"
         },
         "tools": [
-          "Pentacle",
-          "Stones",
-          "Crystals",
-          "Salt"
+          {
+            "text": "Pentacle",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Stones",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Crystals",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "Salt",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
-        "altar_direction": "North"
+        "altar_direction": {
+          "text": "North",
+          "citation_key": "Default-Citation-Key"
+        }
       },
       "meditation_practices": {
         "earth_connection": {
@@ -849,11 +1920,17 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Air (erosion), excessive Earth (stagnation/rigidity)"
         },
-        "complementary_element": "Air"
+        "complementary_element": {
+          "text": "Air",
+          "citation_key": "Default-Citation-Key"
+        }
       }
     },
     "spirit": {
-      "symbol": "Circle or Pentagram",
+      "symbol": {
+        "text": "Circle or Pentagram",
+        "citation_key": "Default-Citation-Key"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "The fifth element that contains and transcends all others"
@@ -862,8 +1939,14 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Major Arcana as a whole, especially The World"
       },
-      "direction": "Center/Above",
-      "season": "All seasons/Eternal",
+      "direction": {
+        "text": "Center/Above",
+        "citation_key": "Default-Citation-Key"
+      },
+      "season": {
+        "text": "All seasons/Eternal",
+        "citation_key": "Default-Citation-Key"
+      },
       "time": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "All times/Eternal now"
@@ -873,8 +1956,14 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "All qualities unified"
         },
-        "Transcendent",
-        "Unifying"
+        {
+          "text": "Transcendent",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Unifying",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "quote": {
         "citation_key": "Cornelius_Agrippa-Three_Books_of_Occult_Philosophy",
@@ -887,16 +1976,40 @@
         "text": "Divine consciousness, unity, transcendence of duality"
       },
       "colors": [
-        "White",
-        "Clear",
-        "Rainbow",
-        "Gold"
+        {
+          "text": "White",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Clear",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Rainbow",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "Gold",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "manifestations": [
-        "consciousness",
-        "life force",
-        "divine spark",
-        "cosmic order"
+        {
+          "text": "consciousness",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "life force",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "divine spark",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "cosmic order",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "tarot_applications": {
         "citation_key": "Starhawk-The_Spiral_Dance",
@@ -926,10 +2039,22 @@
           "text": "Ideas put into action, inspired communication, mental fire"
         },
         "enhanced_qualities": [
-          "enthusiasm",
-          "inspiration",
-          "quick action",
-          "brilliant ideas"
+          {
+            "text": "enthusiasm",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "inspiration",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "quick action",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "brilliant ideas",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "example_reading": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -946,10 +2071,22 @@
           "text": "Emotional grounding, practical love, material security"
         },
         "enhanced_qualities": [
-          "fertility",
-          "growth",
-          "practical emotion",
-          "stable relationships"
+          {
+            "text": "fertility",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "growth",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "practical emotion",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "stable relationships",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "example_reading": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -968,10 +2105,22 @@
           "text": "Passionate materialism, creative productivity, or destructive force"
         },
         "variable_effects": [
-          "creative manifestation",
-          "burnout",
-          "passionate work",
-          "impractical dreams"
+          {
+            "text": "creative manifestation",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "burnout",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "passionate work",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "impractical dreams",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "example_reading": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -988,10 +2137,22 @@
           "text": "Emotional communication, intuitive thinking, or mental confusion"
         },
         "variable_effects": [
-          "clear communication",
-          "emotional thought",
-          "mental confusion",
-          "inspired intuition"
+          {
+            "text": "clear communication",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "emotional thought",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mental confusion",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "inspired intuition",
+            "citation_key": "Default-Citation-Key"
+          }
         ],
         "example_reading": {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1010,8 +2171,14 @@
           "text": "Conflict between passion and emotion, steam and transformation"
         },
         "tension_effects": [
-          "emotional suppression",
-          "passionate cooling",
+          {
+            "text": "emotional suppression",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "passionate cooling",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "transformation through conflict"
@@ -1036,8 +2203,14 @@
           "text": "Ideas vs. practicality, mental vs. material concerns"
         },
         "tension_effects": [
-          "impractical thinking",
-          "mental rigidity",
+          {
+            "text": "impractical thinking",
+            "citation_key": "Default-Citation-Key"
+          },
+          {
+            "text": "mental rigidity",
+            "citation_key": "Default-Citation-Key"
+          },
           {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "scattered material focus"
@@ -1065,17 +2238,44 @@
         "text": "Kings and Knights of Wands"
       },
       "core_traits": [
-        "energetic",
-        "passionate",
-        "inspiring",
-        "impatient",
-        "creative"
+        {
+          "text": "energetic",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "passionate",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "inspiring",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "impatient",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "creative",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "motivations": [
-        "achievement",
-        "recognition",
-        "adventure",
-        "creative expression"
+        {
+          "text": "achievement",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "recognition",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "adventure",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "creative expression",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "communication_style": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1086,11 +2286,26 @@
         "text": "Passionate, loyal, but may burn out quickly"
       },
       "career_preferences": [
-        "leadership",
-        "entrepreneurship",
-        "arts",
-        "sports",
-        "military"
+        {
+          "text": "leadership",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "entrepreneurship",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "arts",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "sports",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "military",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "stress_responses": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1107,17 +2322,44 @@
         "text": "Queens and Pages of Cups"
       },
       "core_traits": [
-        "emotional",
-        "intuitive",
-        "empathetic",
-        "sensitive",
-        "adaptable"
+        {
+          "text": "emotional",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "intuitive",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "empathetic",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "sensitive",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "adaptable",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "motivations": [
-        "connection",
-        "harmony",
-        "emotional fulfillment",
-        "helping others"
+        {
+          "text": "connection",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "harmony",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "emotional fulfillment",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "helping others",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "communication_style": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1128,11 +2370,26 @@
         "text": "Deep, nurturing, intuitive, but may be overly dependent"
       },
       "career_preferences": [
-        "counseling",
-        "healing arts",
-        "social work",
-        "arts",
-        "hospitality"
+        {
+          "text": "counseling",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "healing arts",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "social work",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "arts",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "hospitality",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "stress_responses": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1149,17 +2406,44 @@
         "text": "Kings and Knights of Swords"
       },
       "core_traits": [
-        "intellectual",
-        "communicative",
-        "objective",
-        "curious",
-        "detached"
+        {
+          "text": "intellectual",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "communicative",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "objective",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "curious",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "detached",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "motivations": [
-        "knowledge",
-        "truth",
-        "communication",
-        "mental stimulation"
+        {
+          "text": "knowledge",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "truth",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "communication",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "mental stimulation",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "communication_style": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1170,11 +2454,26 @@
         "text": "Intellectual connection, fair, but may lack emotional depth"
       },
       "career_preferences": [
-        "teaching",
-        "writing",
-        "technology",
-        "law",
-        "research"
+        {
+          "text": "teaching",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "writing",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "technology",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "law",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "research",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "stress_responses": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1191,16 +2490,40 @@
         "text": "Queens and Pages of Pentacles"
       },
       "core_traits": [
-        "practical",
-        "reliable",
-        "patient",
-        "sensual",
-        "methodical"
+        {
+          "text": "practical",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "reliable",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "patient",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "sensual",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "methodical",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "motivations": [
-        "security",
-        "comfort",
-        "tangible results",
+        {
+          "text": "security",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "comfort",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "tangible results",
+          "citation_key": "Default-Citation-Key"
+        },
         {
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "building something lasting"
@@ -1215,11 +2538,26 @@
         "text": "Stable, nurturing, loyal, but may resist change"
       },
       "career_preferences": [
-        "business",
-        "agriculture",
-        "crafts",
-        "healthcare",
-        "finance"
+        {
+          "text": "business",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "agriculture",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "crafts",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "healthcare",
+          "citation_key": "Default-Citation-Key"
+        },
+        {
+          "text": "finance",
+          "citation_key": "Default-Citation-Key"
+        }
       ],
       "stress_responses": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1335,7 +2673,10 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Candle flame gazing"
       },
-      "duration": "10-20 minutes",
+      "duration": {
+        "text": "10-20 minutes",
+        "citation_key": "Default-Citation-Key"
+      },
       "intention": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Activating will, courage, and creative energy"
@@ -1358,7 +2699,10 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Flowing water visualization or actual water immersion"
       },
-      "duration": "15-30 minutes",
+      "duration": {
+        "text": "15-30 minutes",
+        "citation_key": "Default-Citation-Key"
+      },
       "intention": {
         "citation_key": "Barbara_Brennan-Hands_of_Light",
         "text": "Emotional healing, intuition development, purification"
@@ -1381,7 +2725,10 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Conscious breathing and wind visualization"
       },
-      "duration": "10-25 minutes",
+      "duration": {
+        "text": "10-25 minutes",
+        "citation_key": "Default-Citation-Key"
+      },
       "intention": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Mental clarity, communication improvement, spiritual connection"
@@ -1404,7 +2751,10 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Grounding visualization or earth connection"
       },
-      "duration": "20-40 minutes",
+      "duration": {
+        "text": "20-40 minutes",
+        "citation_key": "Default-Citation-Key"
+      },
       "intention": {
         "citation_key": "Barbara_Brennan-Hands_of_Light",
         "text": "Stability, grounding, material security, physical healing"
@@ -1427,12 +2777,18 @@
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Cycling through all four elements in one session"
       },
-      "duration": "40-60 minutes",
+      "duration": {
+        "text": "40-60 minutes",
+        "citation_key": "Default-Citation-Key"
+      },
       "intention": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Complete balance and integration of all elemental energies"
       },
-      "structure": "10-15 minutes each element, ending with spirit integration",
+      "structure": {
+        "text": "10-15 minutes each element, ending with spirit integration",
+        "citation_key": "Default-Citation-Key"
+      },
       "benefits": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Complete energetic balance, wholeness, spiritual integration"

@@ -1,36 +1,84 @@
 {
   "lifePath": {
     "1": {
-      "title": "The Pioneer",
+      "title": {
+        "text": "The Pioneer",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Independent leader and pioneer path"
       },
       "keywords": [
-        "leadership",
-        "independence",
-        "initiative",
-        "originality",
-        "innovation"
+        {
+          "text": "leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "independence",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "initiative",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "originality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "innovation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "stubbornness",
-        "impatience",
-        "domination",
-        "selfishness"
+        {
+          "text": "stubbornness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "impatience",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "domination",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "selfishness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "vision",
-        "courage",
-        "determination",
-        "originality"
+        {
+          "text": "vision",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "courage",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "determination",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "originality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Pythagoras-Sacred_Mathematics_of_the_Ancients",
         "text": "The number one represents the Monad, the source from which all other numbers spring. It is the symbol of the individual will and the creative force."
       },
-      "author": "Pythagoras",
-      "source": "Sacred Mathematics of the Ancients",
+      "author": {
+        "text": "Pythagoras",
+        "citation_key": "Pythagoras-Sacred_Mathematics_of_the_Ancients"
+      },
+      "source": {
+        "text": "Sacred Mathematics of the Ancients",
+        "citation_key": "Pythagoras-Sacred_Mathematics_of_the_Ancients"
+      },
       "detailed_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Those on Life Path 1 are natural-born leaders who forge new paths and inspire others through their pioneering spirit. They possess an innate drive to create, initiate, and lead, often finding themselves in positions where their independence and originality can flourish."
@@ -53,42 +101,99 @@
         4,
         8
       ],
-      "element": "Fire",
-      "planet": "Sun",
+      "element": {
+        "text": "Fire",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Sun",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The Magician",
-      "chakra": "Solar Plexus"
+      "chakra": {
+        "text": "Solar Plexus",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "2": {
-      "title": "The Peacemaker",
+      "title": {
+        "text": "The Peacemaker",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Cooperative diplomat and harmonizer"
       },
       "keywords": [
-        "cooperation",
-        "diplomacy",
-        "sensitivity",
-        "partnership",
-        "intuition"
+        {
+          "text": "cooperation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "diplomacy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "sensitivity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "partnership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "intuition",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "indecision",
-        "oversensitivity",
-        "dependency",
-        "passivity"
+        {
+          "text": "indecision",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "oversensitivity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "dependency",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "passivity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "empathy",
-        "mediation",
-        "patience",
-        "insight"
+        {
+          "text": "empathy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "mediation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "patience",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "insight",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
-        "citation_key": "Manly_P__Hall-The_Secret_Teachings_of_All_Ages",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Two is the number of duality, representing the eternal dance between opposing forces that creates all manifestation in the universe."
       },
-      "author": "Manly P. Hall",
-      "source": "The Secret Teachings of All Ages",
+      "author": {
+        "text": "Manly P. Hall",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "source": {
+        "text": "The Secret Teachings of All Ages",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "detailed_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Life Path 2 individuals are natural peacemakers and diplomats who excel at bringing harmony to any situation. They possess deep emotional intelligence and the ability to see all sides of a situation, making them excellent mediators and counselors."
@@ -111,42 +216,99 @@
         7,
         9
       ],
-      "element": "Water",
-      "planet": "Moon",
+      "element": {
+        "text": "Water",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Moon",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The High Priestess",
-      "chakra": "Sacral"
+      "chakra": {
+        "text": "Sacral",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "3": {
-      "title": "The Creative Communicator",
+      "title": {
+        "text": "The Creative Communicator",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Artistic expresser and entertainer"
       },
       "keywords": [
-        "creativity",
-        "communication",
-        "optimism",
-        "inspiration",
-        "joy"
+        {
+          "text": "creativity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "communication",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "optimism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "inspiration",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "joy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "scattered energy",
-        "superficiality",
-        "criticism",
-        "moodiness"
+        {
+          "text": "scattered energy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "superficiality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "criticism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "moodiness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "artistic talent",
-        "charisma",
-        "enthusiasm",
-        "versatility"
+        {
+          "text": "artistic talent",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "charisma",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "enthusiasm",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "versatility",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Rudolf_Steiner-Spiritual_Science_and_Anthroposophy",
         "text": "Three is the number of creation, synthesis, and the trinity that manifests divine inspiration into tangible form."
       },
-      "author": "Rudolf Steiner",
-      "source": "Spiritual Science and Anthroposophy",
+      "author": {
+        "text": "Rudolf Steiner",
+        "citation_key": "Rudolf_Steiner-Spiritual_Science_and_Anthroposophy"
+      },
+      "source": {
+        "text": "Spiritual Science and Anthroposophy",
+        "citation_key": "Rudolf_Steiner-Spiritual_Science_and_Anthroposophy"
+      },
       "detailed_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Those with Life Path 3 are gifted communicators and artists who bring joy and inspiration to the world through their creative expression. They have a natural ability to uplift others and see beauty in all aspects of life."
@@ -169,42 +331,99 @@
         6,
         8
       ],
-      "element": "Air",
-      "planet": "Jupiter",
+      "element": {
+        "text": "Air",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Jupiter",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The Empress",
-      "chakra": "Throat"
+      "chakra": {
+        "text": "Throat",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "4": {
-      "title": "The Builder",
+      "title": {
+        "text": "The Builder",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Practical organizer and foundation creator"
       },
       "keywords": [
-        "stability",
-        "organization",
-        "practicality",
-        "discipline",
-        "reliability"
+        {
+          "text": "stability",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "organization",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "practicality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "discipline",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "reliability",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "rigidity",
-        "stubbornness",
-        "limitation",
-        "pessimism"
+        {
+          "text": "rigidity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "stubbornness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "limitation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "pessimism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "perseverance",
-        "loyalty",
-        "systematic thinking",
-        "integrity"
+        {
+          "text": "perseverance",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "loyalty",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "systematic thinking",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "integrity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality",
         "text": "Four represents the material world in its completed form, the square of stability upon which all earthly endeavors must be built."
       },
-      "author": "Dane Rudhyar",
-      "source": "The Astrology of Personality",
+      "author": {
+        "text": "Dane Rudhyar",
+        "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality"
+      },
+      "source": {
+        "text": "The Astrology of Personality",
+        "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality"
+      },
       "detailed_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Life Path 4 individuals are the builders and organizers of society, creating lasting structures and systems that benefit humanity. They possess an innate understanding of how to manifest ideas into concrete reality through patient, methodical work."
@@ -227,42 +446,99 @@
         5,
         9
       ],
-      "element": "Earth",
-      "planet": "Saturn",
+      "element": {
+        "text": "Earth",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Saturn",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The Emperor",
-      "chakra": "Root"
+      "chakra": {
+        "text": "Root",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "5": {
-      "title": "The Freedom Seeker",
+      "title": {
+        "text": "The Freedom Seeker",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Adventurous explorer and change agent"
       },
       "keywords": [
-        "freedom",
-        "adventure",
-        "versatility",
-        "curiosity",
-        "progress"
+        {
+          "text": "freedom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "adventure",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "versatility",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "curiosity",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "progress",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "restlessness",
-        "impulsiveness",
-        "irresponsibility",
-        "addiction"
+        {
+          "text": "restlessness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "impulsiveness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "irresponsibility",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "addiction",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "adaptability",
-        "resourcefulness",
-        "magnetism",
-        "progressive thinking"
+        {
+          "text": "adaptability",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "resourcefulness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "magnetism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "progressive thinking",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Helena_P__Blavatsky-The_Secret_Doctrine",
         "text": "Five is the number of man's five senses and represents the human experience of freedom and the quest for knowledge through direct experience."
       },
-      "author": "Helena P. Blavatsky",
-      "source": "The Secret Doctrine",
+      "author": {
+        "text": "Helena P. Blavatsky",
+        "citation_key": "Helena_P__Blavatsky-The_Secret_Doctrine"
+      },
+      "source": {
+        "text": "The Secret Doctrine",
+        "citation_key": "Helena_P__Blavatsky-The_Secret_Doctrine"
+      },
       "detailed_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Those on Life Path 5 are eternal students and teachers of life, constantly seeking new experiences and sharing their wisdom with others. They embody the spirit of human adventure and the desire for personal freedom."
@@ -285,42 +561,99 @@
         4,
         6
       ],
-      "element": "Fire",
-      "planet": "Mercury",
+      "element": {
+        "text": "Fire",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Mercury",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The Hierophant",
-      "chakra": "Solar Plexus"
+      "chakra": {
+        "text": "Solar Plexus",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "6": {
-      "title": "The Nurturer",
+      "title": {
+        "text": "The Nurturer",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Caring healer and community servant"
       },
       "keywords": [
-        "nurturing",
-        "responsibility",
-        "healing",
-        "service",
-        "harmony"
+        {
+          "text": "nurturing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "responsibility",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "healing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "service",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "harmony",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "martyrdom",
-        "interference",
-        "worry",
-        "perfectionism"
+        {
+          "text": "martyrdom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "interference",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "worry",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "perfectionism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "compassion",
-        "healing ability",
-        "wisdom",
-        "devotion"
+        {
+          "text": "compassion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "healing ability",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "wisdom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "devotion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Alice_Bailey-Esoteric_Numerology",
         "text": "Six represents the perfect balance of the spiritual and material, the number of the cosmic Christ consciousness that serves all humanity."
       },
-      "author": "Alice Bailey",
-      "source": "Esoteric Numerology",
+      "author": {
+        "text": "Alice Bailey",
+        "citation_key": "Alice_Bailey-Esoteric_Numerology"
+      },
+      "source": {
+        "text": "Esoteric Numerology",
+        "citation_key": "Alice_Bailey-Esoteric_Numerology"
+      },
       "detailed_meaning": {
         "citation_key": "Barbara_Brennan-Hands_of_Light",
         "text": "Life Path 6 individuals are natural healers and caregivers who find their greatest fulfillment in serving others and creating harmony in their communities. They possess an innate wisdom about human nature and the healing arts."
@@ -343,42 +676,99 @@
         5,
         9
       ],
-      "element": "Earth",
-      "planet": "Venus",
+      "element": {
+        "text": "Earth",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Venus",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The Lovers",
-      "chakra": "Heart"
+      "chakra": {
+        "text": "Heart",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "7": {
-      "title": "The Mystic Seeker",
+      "title": {
+        "text": "The Mystic Seeker",
+        "citation_key": "Starhawk-The_Spiral_Dance"
+      },
       "description": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Spiritual investigator and wisdom keeper"
       },
       "keywords": [
-        "spirituality",
-        "analysis",
-        "introspection",
-        "wisdom",
-        "mystery"
+        {
+          "text": "spirituality",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "analysis",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "introspection",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "wisdom",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "mystery",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        }
       ],
       "challenges": [
-        "isolation",
-        "skepticism",
-        "criticism",
-        "depression"
+        {
+          "text": "isolation",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "skepticism",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "criticism",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "depression",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        }
       ],
       "gifts": [
-        "intuition",
-        "spiritual insight",
-        "analytical mind",
-        "inner knowing"
+        {
+          "text": "intuition",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "spiritual insight",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "analytical mind",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "inner knowing",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        }
       ],
       "quote": {
         "citation_key": "Dion_Fortune-The_Mystical_Qabalah",
         "text": "Seven is the sacred number of completion, representing the seven planes of existence and the mystical marriage between spirit and matter."
       },
-      "author": "Dion Fortune",
-      "source": "The Mystical Qabalah",
+      "author": {
+        "text": "Dion Fortune",
+        "citation_key": "Dion_Fortune-The_Mystical_Qabalah"
+      },
+      "source": {
+        "text": "The Mystical Qabalah",
+        "citation_key": "Dion_Fortune-The_Mystical_Qabalah"
+      },
       "detailed_meaning": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Those with Life Path 7 are the seekers and keepers of hidden wisdom, naturally drawn to the mysteries of existence and the deeper meaning behind all phenomena. They serve as bridges between the material and spiritual worlds."
@@ -401,42 +791,99 @@
         4,
         8
       ],
-      "element": "Water",
-      "planet": "Neptune",
+      "element": {
+        "text": "Water",
+        "citation_key": "Starhawk-The_Spiral_Dance"
+      },
+      "planet": {
+        "text": "Neptune",
+        "citation_key": "Starhawk-The_Spiral_Dance"
+      },
       "tarot_correspondence": "The Chariot",
-      "chakra": "Third Eye"
+      "chakra": {
+        "text": "Third Eye",
+        "citation_key": "Starhawk-The_Spiral_Dance"
+      }
     },
     "8": {
-      "title": "The Material Master",
+      "title": {
+        "text": "The Material Master",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Ambitious achiever and material organizer"
       },
       "keywords": [
-        "ambition",
-        "authority",
-        "material success",
-        "organization",
-        "power"
+        {
+          "text": "ambition",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "authority",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "material success",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "organization",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "power",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "materialism",
-        "workaholism",
-        "ruthlessness",
-        "stress"
+        {
+          "text": "materialism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "workaholism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "ruthlessness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "stress",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "leadership",
-        "business acumen",
-        "determination",
-        "efficiency"
+        {
+          "text": "leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "business acumen",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "determination",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "efficiency",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Paul_Foster_Case-The_Tarot__A_Key_to_the_Wisdom_of_the_Ages",
         "text": "Eight represents the perfect balance between the spiritual and material realms, the number of the cosmic equilibrium and karmic justice."
       },
-      "author": "Paul Foster Case",
-      "source": "The Tarot: A Key to the Wisdom of the Ages",
+      "author": {
+        "text": "Paul Foster Case",
+        "citation_key": "Paul_Foster_Case-The_Tarot__A_Key_to_the_Wisdom_of_the_Ages"
+      },
+      "source": {
+        "text": "The Tarot: A Key to the Wisdom of the Ages",
+        "citation_key": "Paul_Foster_Case-The_Tarot__A_Key_to_the_Wisdom_of_the_Ages"
+      },
       "detailed_meaning": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Life Path 8 individuals are natural executives and leaders who understand how to manifest spiritual principles through material success. They possess the ability to organize and direct resources for the greater good."
@@ -459,42 +906,99 @@
         5,
         7
       ],
-      "element": "Earth",
-      "planet": "Saturn",
+      "element": {
+        "text": "Earth",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Saturn",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "Strength",
-      "chakra": "Solar Plexus"
+      "chakra": {
+        "text": "Solar Plexus",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "9": {
-      "title": "The Universal Humanitarian",
+      "title": {
+        "text": "The Universal Humanitarian",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Compassionate server of humanity"
       },
       "keywords": [
-        "compassion",
-        "service",
-        "universal love",
-        "wisdom",
-        "completion"
+        {
+          "text": "compassion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "service",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "universal love",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "wisdom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "completion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "emotional extremes",
-        "impracticality",
-        "martyrdom",
-        "disappointment"
+        {
+          "text": "emotional extremes",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "impracticality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "martyrdom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "disappointment",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "universal understanding",
-        "healing",
-        "artistic genius",
-        "spiritual leadership"
+        {
+          "text": "universal understanding",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "healing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "artistic genius",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "spiritual leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Max_Heindel-The_Rosicrucian_Cosmo_Conception",
         "text": "Nine is the number of universal completion and represents the perfected soul that has learned all lessons and now serves the collective evolution of humanity."
       },
-      "author": "Max Heindel",
-      "source": "The Rosicrucian Cosmo-Conception",
+      "author": {
+        "text": "Max Heindel",
+        "citation_key": "Max_Heindel-The_Rosicrucian_Cosmo_Conception"
+      },
+      "source": {
+        "text": "The Rosicrucian Cosmo-Conception",
+        "citation_key": "Max_Heindel-The_Rosicrucian_Cosmo_Conception"
+      },
       "detailed_meaning": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Those on Life Path 9 are old souls who have come to serve humanity through their universal love and understanding. They see the bigger picture and work toward the elevation of human consciousness."
@@ -517,42 +1021,99 @@
         4,
         6
       ],
-      "element": "Fire",
-      "planet": "Mars",
+      "element": {
+        "text": "Fire",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Mars",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The Hermit",
-      "chakra": "Crown"
+      "chakra": {
+        "text": "Crown",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "11": {
-      "title": "The Illuminated Teacher",
+      "title": {
+        "text": "The Illuminated Teacher",
+        "citation_key": "Starhawk-The_Spiral_Dance"
+      },
       "description": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Intuitive messenger and spiritual teacher"
       },
       "keywords": [
-        "intuition",
-        "inspiration",
-        "spirituality",
-        "illumination",
-        "sensitivity"
+        {
+          "text": "intuition",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "inspiration",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "spirituality",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "illumination",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "sensitivity",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        }
       ],
       "challenges": [
-        "hypersensitivity",
-        "impracticality",
-        "nervous tension",
-        "extremism"
+        {
+          "text": "hypersensitivity",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "impracticality",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "nervous tension",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "extremism",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        }
       ],
       "gifts": [
-        "psychic ability",
-        "spiritual teaching",
-        "inspiration",
-        "healing"
+        {
+          "text": "psychic ability",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "spiritual teaching",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "inspiration",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        },
+        {
+          "text": "healing",
+          "citation_key": "Starhawk-The_Spiral_Dance"
+        }
       ],
       "quote": {
         "citation_key": "Arthur_Edward_Waite-The_Holy_Kabbalah",
         "text": "Eleven represents the pillars of the Temple of Solomon, the gateway between the human and divine consciousness."
       },
-      "author": "Arthur Edward Waite",
-      "source": "The Holy Kabbalah",
+      "author": {
+        "text": "Arthur Edward Waite",
+        "citation_key": "Arthur_Edward_Waite-The_Holy_Kabbalah"
+      },
+      "source": {
+        "text": "The Holy Kabbalah",
+        "citation_key": "Arthur_Edward_Waite-The_Holy_Kabbalah"
+      },
       "detailed_meaning": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Master Number 11 individuals are spiritual teachers and healers who serve as channels for higher wisdom and divine inspiration. They possess extraordinary intuitive abilities and are called to illuminate the path for others."
@@ -574,42 +1135,99 @@
         4,
         8
       ],
-      "element": "Air",
-      "planet": "Uranus",
+      "element": {
+        "text": "Air",
+        "citation_key": "Starhawk-The_Spiral_Dance"
+      },
+      "planet": {
+        "text": "Uranus",
+        "citation_key": "Starhawk-The_Spiral_Dance"
+      },
       "tarot_correspondence": "Justice",
-      "chakra": "Crown"
+      "chakra": {
+        "text": "Crown",
+        "citation_key": "Starhawk-The_Spiral_Dance"
+      }
     },
     "22": {
-      "title": "The Master Builder",
+      "title": {
+        "text": "The Master Builder",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Visionary architect of lasting change"
       },
       "keywords": [
-        "mastery",
-        "vision",
-        "building",
-        "service",
-        "manifestation"
+        {
+          "text": "mastery",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "vision",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "building",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "service",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "manifestation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "overwhelm",
-        "impatience",
-        "idealism",
-        "perfectionism"
+        {
+          "text": "overwhelm",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "impatience",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "idealism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "perfectionism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "master building",
-        "practical idealism",
-        "global vision",
-        "lasting impact"
+        {
+          "text": "master building",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "practical idealism",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "global vision",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "lasting impact",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Corinne_Heline-Sacred_Science_of_Numbers",
         "text": "Twenty-two represents the Master Builder who can manifest the highest spiritual ideals into lasting material form for the benefit of all humanity."
       },
-      "author": "Corinne Heline",
-      "source": "Sacred Science of Numbers",
+      "author": {
+        "text": "Corinne Heline",
+        "citation_key": "Corinne_Heline-Sacred_Science_of_Numbers"
+      },
+      "source": {
+        "text": "Sacred Science of Numbers",
+        "citation_key": "Corinne_Heline-Sacred_Science_of_Numbers"
+      },
       "detailed_meaning": {
         "citation_key": "Starhawk-The_Spiral_Dance",
         "text": "Master Number 22 individuals are the Master Builders who can take grand visions and manifest them into lasting reality that serves humanity for generations. They combine practical skills with spiritual vision."
@@ -632,42 +1250,99 @@
         5,
         7
       ],
-      "element": "Earth",
-      "planet": "Pluto",
+      "element": {
+        "text": "Earth",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Pluto",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The Fool",
-      "chakra": "Root"
+      "chakra": {
+        "text": "Root",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     },
     "33": {
-      "title": "The Master Teacher",
+      "title": {
+        "text": "The Master Teacher",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "description": {
         "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
         "text": "Christ-like teacher of universal love"
       },
       "keywords": [
-        "universal love",
-        "healing",
-        "teaching",
-        "sacrifice",
-        "service"
+        {
+          "text": "universal love",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "healing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "teaching",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "sacrifice",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "service",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "challenges": [
-        "emotional overwhelm",
-        "martyrdom",
-        "unrealistic expectations",
-        "burden"
+        {
+          "text": "emotional overwhelm",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "martyrdom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "unrealistic expectations",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "burden",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "gifts": [
-        "universal healing",
-        "Christ consciousness",
-        "unlimited compassion",
-        "spiritual teaching"
+        {
+          "text": "universal healing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "Christ consciousness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "unlimited compassion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        },
+        {
+          "text": "spiritual teaching",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+        }
       ],
       "quote": {
         "citation_key": "Edgar_Cayce-Edgar_Cayce_on_Numbers",
         "text": "Thirty-three represents the Christ consciousness achieved through perfect love and service to all humanity, the number of the Ascended Master."
       },
-      "author": "Edgar Cayce",
-      "source": "Edgar Cayce on Numbers",
+      "author": {
+        "text": "Edgar Cayce",
+        "citation_key": "Edgar_Cayce-Edgar_Cayce_on_Numbers"
+      },
+      "source": {
+        "text": "Edgar Cayce on Numbers",
+        "citation_key": "Edgar_Cayce-Edgar_Cayce_on_Numbers"
+      },
       "detailed_meaning": {
         "citation_key": "Barbara_Brennan-Hands_of_Light",
         "text": "Master Number 33 individuals embody the Christ consciousness and are called to serve humanity through unlimited love and healing. They represent the highest expression of spiritual service on Earth."
@@ -690,10 +1365,19 @@
         4,
         8
       ],
-      "element": "Spirit",
-      "planet": "Neptune",
+      "element": {
+        "text": "Spirit",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
+      "planet": {
+        "text": "Neptune",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      },
       "tarot_correspondence": "The World",
-      "chakra": "Heart"
+      "chakra": {
+        "text": "Heart",
+        "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+      }
     }
   },
   "masterNumbers": {
@@ -705,8 +1389,14 @@
       "citation_key": "Glynis_McCants-Glynis_Has_Your_Number",
       "text": "Master Numbers are repeated digits that carry the greatest potential for learning and growth, as well as the greatest potential for difficulty and challenge."
     },
-    "author": "Glynis McCants",
-    "source": "Glynis Has Your Number",
+    "author": {
+      "text": "Glynis McCants",
+      "citation_key": "Glynis_McCants-Glynis_Has_Your_Number"
+    },
+    "source": {
+      "text": "Glynis Has Your Number",
+      "citation_key": "Glynis_McCants-Glynis_Has_Your_Number"
+    },
     "characteristics": {
       "11": {
         "spiritual_mission": {
@@ -761,8 +1451,14 @@
       "citation_key": "Doreen_Virtue-Angel_Numbers_101",
       "text": "Angel numbers are the universe's way of communicating with us, offering guidance, reassurance, and spiritual insight through numerical synchronicities."
     },
-    "author": "Doreen Virtue",
-    "source": "Angel Numbers 101",
+    "author": {
+      "text": "Doreen Virtue",
+      "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+    },
+    "source": {
+      "text": "Angel Numbers 101",
+      "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+    },
     "sequences": {
       "111": {
         "meaning": {
@@ -781,8 +1477,14 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Monitor your thoughts carefully and visualize your desires"
         },
-        "archangel": "Michael",
-        "chakra": "Crown"
+        "archangel": {
+          "text": "Michael",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Crown",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       },
       "222": {
         "meaning": {
@@ -801,8 +1503,14 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Maintain balance and trust in divine timing"
         },
-        "archangel": "Raphael",
-        "chakra": "Heart"
+        "archangel": {
+          "text": "Raphael",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Heart",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       },
       "333": {
         "meaning": {
@@ -821,8 +1529,14 @@
           "citation_key": "Starhawk-The_Spiral_Dance",
           "text": "Call upon your spiritual guides for assistance"
         },
-        "archangel": "Gabriel",
-        "chakra": "Throat"
+        "archangel": {
+          "text": "Gabriel",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Throat",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       },
       "444": {
         "meaning": {
@@ -841,8 +1555,14 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Ask your angels for help and be open to their signs"
         },
-        "archangel": "Uriel",
-        "chakra": "Root"
+        "archangel": {
+          "text": "Uriel",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Root",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       },
       "555": {
         "meaning": {
@@ -861,8 +1581,14 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Release resistance to change and trust the process"
         },
-        "archangel": "Raguel",
-        "chakra": "Solar Plexus"
+        "archangel": {
+          "text": "Raguel",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Solar Plexus",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       },
       "666": {
         "meaning": {
@@ -881,8 +1607,14 @@
           "citation_key": "Shakti_Gawain-Chakra_Meditation",
           "text": "Practice meditation and shift focus to spiritual growth"
         },
-        "archangel": "Jophiel",
-        "chakra": "Third Eye"
+        "archangel": {
+          "text": "Jophiel",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Third Eye",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       },
       "777": {
         "meaning": {
@@ -901,8 +1633,14 @@
           "citation_key": "Starhawk-The_Spiral_Dance",
           "text": "Continue your spiritual practices and studies"
         },
-        "archangel": "Zadkiel",
-        "chakra": "Crown"
+        "archangel": {
+          "text": "Zadkiel",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Crown",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       },
       "888": {
         "meaning": {
@@ -921,8 +1659,14 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Prepare to receive and share your abundance"
         },
-        "archangel": "Raziel",
-        "chakra": "Solar Plexus"
+        "archangel": {
+          "text": "Raziel",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Solar Plexus",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       },
       "999": {
         "meaning": {
@@ -941,8 +1685,14 @@
           "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
           "text": "Release the old to make space for the new"
         },
-        "archangel": "Sandalphon",
-        "chakra": "Root"
+        "archangel": {
+          "text": "Sandalphon",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        },
+        "chakra": {
+          "text": "Root",
+          "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+        }
       }
     }
   },
@@ -955,8 +1705,14 @@
       "citation_key": "Pythagoras-Fragments_and_testimonies",
       "text": "Number is the ruler of forms and ideas and the cause of gods and demons."
     },
-    "author": "Pythagoras",
-    "source": "Fragments and testimonies",
+    "author": {
+      "text": "Pythagoras",
+      "citation_key": "Pythagoras-Fragments_and_testimonies"
+    },
+    "source": {
+      "text": "Fragments and testimonies",
+      "citation_key": "Pythagoras-Fragments_and_testimonies"
+    },
     "calculations": {
       "soul_urge": {
         "description": {
@@ -1025,8 +1781,14 @@
       "citation_key": "Nikola_Tesla-On_the_Nature_of_Vibration",
       "text": "Everything in the universe is vibration, and numbers are the language through which these vibrations communicate their essential nature."
     },
-    "author": "Nikola Tesla",
-    "source": "On the Nature of Vibration",
+    "author": {
+      "text": "Nikola Tesla",
+      "citation_key": "Nikola_Tesla-On_the_Nature_of_Vibration"
+    },
+    "source": {
+      "text": "On the Nature of Vibration",
+      "citation_key": "Nikola_Tesla-On_the_Nature_of_Vibration"
+    },
     "base_frequency": 432,
     "calculation_note": {
       "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
