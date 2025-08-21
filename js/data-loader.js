@@ -61,48 +61,38 @@ class TarotDataLoader {
             'spiritual_messages'
         ];
 
-        const loadPromises = dataSources.map(source => this._loadJSONFile(source));
+        const fetchPromises = dataSources.map(source =>
+            fetch(`data/${source}.json`)
+                .then(res => {
+                    if (!res.ok) throw new Error(`Failed to load ${source}.json`);
+                    return res.json();
+                })
+                .then(data => ({ [source]: data }))
+        );
         
-        const citationMapPromise = fetch('scripts/citation_map.json')
-            .then(res => res.json())
-            .then(data => {
-                this.dataCache.citationMap = data;
-                window.citationMap = data;
-            });
+        const citationMapPromise = fetch('scripts/citation_map.json').then(res => res.json()).then(data => ({ citationMap: data }));
+        const bookIndexPromise = fetch('data/book_index.json').then(res => res.json()).then(data => ({ bookIndex: data }));
 
-        const bookIndexPromise = fetch('data/book_index.json')
-            .then(res => res.json())
-            .then(data => {
-                this.dataCache.bookIndex = data;
-                window.bookIndex = data;
-            });
-
-        loadPromises.push(citationMapPromise, bookIndexPromise);
+        fetchPromises.push(citationMapPromise, bookIndexPromise);
 
         try {
-            await Promise.all(loadPromises);
+            const results = await Promise.all(fetchPromises);
+
+            results.forEach(result => {
+                Object.assign(this.dataCache, result);
+            });
+
+            if (this.dataCache.citationMap) {
+                window.citationMap = this.dataCache.citationMap;
+            }
+            if (this.dataCache.bookIndex) {
+                window.bookIndex = this.dataCache.bookIndex;
+            }
+
             this.isLoaded = true;
-            console.log('All tarot databases loaded successfully');
+            console.log('All tarot databases loaded successfully using Promise.all');
         } catch (error) {
             console.error('Error loading tarot databases:', error);
-            throw error;
-        }
-    }
-
-    /**
-     * Load individual JSON file
-     * @private
-     */
-    async _loadJSONFile(sourceName) {
-        try {
-            const response = await fetch(`data/${sourceName}.json`);
-            if (!response.ok) {
-                throw new Error(`Failed to load ${sourceName}.json: ${response.statusText}`);
-            }
-            const data = await response.json();
-            this.dataCache[sourceName] = data;
-        } catch (error) {
-            console.error(`Error loading ${sourceName}.json:`, error);
             throw error;
         }
     }
@@ -468,16 +458,3 @@ class TarotDataLoader {
 
 // Create global instance
 window.tarotDataLoader = new TarotDataLoader();
-
-// Auto-load data when the page loads
-document.addEventListener('DOMContentLoaded', async () => {
-    try {
-        await window.tarotDataLoader.loadAllData();
-        console.log('Tarot databases initialized successfully');
-        
-        // Dispatch custom event to notify other modules
-        window.dispatchEvent(new CustomEvent('tarotDataLoaded'));
-    } catch (error) {
-        console.error('Failed to initialize tarot databases:', error);
-    }
-});
