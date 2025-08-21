@@ -1,917 +1,2015 @@
 {
   "The_Three_Initiates-The_Kybalion": {
-    "title": "The Kybalion",
-    "author": "The Three Initiates",
+    "title": {
+      "text": "The Kybalion",
+      "citation_key": "The_Three_Initiates-The_Kybalion"
+    },
+    "author": {
+      "text": "The Three Initiates",
+      "citation_key": "The_Three_Initiates-The_Kybalion"
+    },
     "url": "#"
   },
   "James_Allen-As_a_Man_Thinketh": {
-    "title": "As a Man Thinketh",
-    "author": "James Allen",
+    "title": {
+      "text": "As a Man Thinketh",
+      "citation_key": "James_Allen-As_a_Man_Thinketh"
+    },
+    "author": {
+      "text": "James Allen",
+      "citation_key": "James_Allen-As_a_Man_Thinketh"
+    },
     "url": "#"
   },
   "Hermes_Trismegistus-The_Emerald_Tablet": {
-    "title": "The Emerald Tablet",
-    "author": "Hermes Trismegistus",
+    "title": {
+      "text": "The Emerald Tablet",
+      "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet"
+    },
+    "author": {
+      "text": "Hermes Trismegistus",
+      "citation_key": "Hermes_Trismegistus-The_Emerald_Tablet"
+    },
     "url": "#"
   },
   "Nikola_Tesla-Scientific_Principles": {
-    "title": "Scientific Principles",
-    "author": "Nikola Tesla",
+    "title": {
+      "text": "Scientific Principles",
+      "citation_key": "Nikola_Tesla-Scientific_Principles"
+    },
+    "author": {
+      "text": "Nikola Tesla",
+      "citation_key": "Nikola_Tesla-Scientific_Principles"
+    },
     "url": "#"
   },
   "Ecclesiastes-Bible_Ecclesiastes_31": {
-    "title": "Bible, Ecclesiastes 3:1",
-    "author": "Ecclesiastes",
+    "title": {
+      "text": "Bible, Ecclesiastes 3:1",
+      "citation_key": "Ecclesiastes-Bible_Ecclesiastes_31"
+    },
+    "author": {
+      "text": "Ecclesiastes",
+      "citation_key": "Ecclesiastes-Bible_Ecclesiastes_31"
+    },
     "url": "#"
   },
   "Swami_Vivekananda-Raja_Yoga": {
-    "title": "Raja Yoga",
-    "author": "Swami Vivekananda",
+    "title": {
+      "text": "Raja Yoga",
+      "citation_key": "Swami_Vivekananda-Raja_Yoga"
+    },
+    "author": {
+      "text": "Swami Vivekananda",
+      "citation_key": "Swami_Vivekananda-Raja_Yoga"
+    },
     "url": "#"
   },
   "Paracelsus-Archidoxes_of_Magic": {
-    "title": "Archidoxes of Magic",
-    "author": "Paracelsus",
+    "title": {
+      "text": "Archidoxes of Magic",
+      "citation_key": "Paracelsus-Archidoxes_of_Magic"
+    },
+    "author": {
+      "text": "Paracelsus",
+      "citation_key": "Paracelsus-Archidoxes_of_Magic"
+    },
     "url": "#"
   },
   "Manly_P_Hall-The_Secret_Teachings_of_All_Ages": {
-    "title": "The Secret Teachings of All Ages",
-    "author": "Manly P. Hall",
+    "title": {
+      "text": "The Secret Teachings of All Ages",
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+    },
+    "author": {
+      "text": "Manly P. Hall",
+      "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+    },
     "url": "#"
   },
   "Carl_Jung-Psychology_and_Alchemy": {
-    "title": "Psychology and Alchemy",
-    "author": "Carl Jung",
+    "title": {
+      "text": "Psychology and Alchemy",
+      "citation_key": "Carl_Jung-Psychology_and_Alchemy"
+    },
+    "author": {
+      "text": "Carl Jung",
+      "citation_key": "Carl_Jung-Psychology_and_Alchemy"
+    },
     "url": "#"
   },
   "AE_Waite-The_Secret_Tradition_in_Alchemy": {
-    "title": "The Secret Tradition in Alchemy",
-    "author": "A.E. Waite",
+    "title": {
+      "text": "The Secret Tradition in Alchemy",
+      "citation_key": "AE_Waite-The_Secret_Tradition_in_Alchemy"
+    },
+    "author": {
+      "text": "A.E. Waite",
+      "citation_key": "AE_Waite-The_Secret_Tradition_in_Alchemy"
+    },
     "url": "#"
   },
   "Marie-Louise_von_Franz-Alchemy_An_Introduction_to_the_Symbolism_and_the_Psychology": {
-    "title": "Alchemy: An Introduction to the Symbolism and the Psychology",
-    "author": "Marie-Louise von Franz",
+    "title": {
+      "text": "Alchemy: An Introduction to the Symbolism and the Psychology",
+      "citation_key": "Marie-Louise_von_Franz-Alchemy_An_Introduction_to_the_Symbolism_and_the_Psychology"
+    },
+    "author": {
+      "text": "Marie-Louise von Franz",
+      "citation_key": "Marie-Louise_von_Franz-Alchemy_An_Introduction_to_the_Symbolism_and_the_Psychology"
+    },
     "url": "#"
   },
   "Basil_Valentine-The_Twelve_Keys_of_Basil_Valentine": {
-    "title": "The Twelve Keys of Basil Valentine",
-    "author": "Basil Valentine",
+    "title": {
+      "text": "The Twelve Keys of Basil Valentine",
+      "citation_key": "Basil_Valentine-The_Twelve_Keys_of_Basil_Valentine"
+    },
+    "author": {
+      "text": "Basil Valentine",
+      "citation_key": "Basil_Valentine-The_Twelve_Keys_of_Basil_Valentine"
+    },
     "url": "#"
   },
   "Nicholas_Flamel-The_Summary_of_Philosophy": {
-    "title": "The Summary of Philosophy",
-    "author": "Nicholas Flamel",
+    "title": {
+      "text": "The Summary of Philosophy",
+      "citation_key": "Nicholas_Flamel-The_Summary_of_Philosophy"
+    },
+    "author": {
+      "text": "Nicholas Flamel",
+      "citation_key": "Nicholas_Flamel-The_Summary_of_Philosophy"
+    },
     "url": "#"
   },
   "Ramon_Llull-The_Tree_of_Life": {
-    "title": "The Tree of Life",
-    "author": "Ramon Llull",
+    "title": {
+      "text": "The Tree of Life",
+      "citation_key": "Ramon_Llull-The_Tree_of_Life"
+    },
+    "author": {
+      "text": "Ramon Llull",
+      "citation_key": "Ramon_Llull-The_Tree_of_Life"
+    },
     "url": "#"
   },
   "Zosimos_of_Panopolis-On_the_Letter_Omega": {
-    "title": "On the Letter Omega",
-    "author": "Zosimos of Panopolis",
+    "title": {
+      "text": "On the Letter Omega",
+      "citation_key": "Zosimos_of_Panopolis-On_the_Letter_Omega"
+    },
+    "author": {
+      "text": "Zosimos of Panopolis",
+      "citation_key": "Zosimos_of_Panopolis-On_the_Letter_Omega"
+    },
     "url": "#"
   },
   "George_Ripley-The_Compound_of_Alchemy": {
-    "title": "The Compound of Alchemy",
-    "author": "George Ripley",
+    "title": {
+      "text": "The Compound of Alchemy",
+      "citation_key": "George_Ripley-The_Compound_of_Alchemy"
+    },
+    "author": {
+      "text": "George Ripley",
+      "citation_key": "George_Ripley-The_Compound_of_Alchemy"
+    },
     "url": "#"
   },
   "John_Dee-Monas_Hieroglyphica": {
-    "title": "Monas Hieroglyphica",
-    "author": "John Dee",
+    "title": {
+      "text": "Monas Hieroglyphica",
+      "citation_key": "John_Dee-Monas_Hieroglyphica"
+    },
+    "author": {
+      "text": "John Dee",
+      "citation_key": "John_Dee-Monas_Hieroglyphica"
+    },
     "url": "#"
   },
   "Michael_Maier-Atalanta_Fugiens": {
-    "title": "Atalanta Fugiens",
-    "author": "Michael Maier",
+    "title": {
+      "text": "Atalanta Fugiens",
+      "citation_key": "Michael_Maier-Atalanta_Fugiens"
+    },
+    "author": {
+      "text": "Michael Maier",
+      "citation_key": "Michael_Maier-Atalanta_Fugiens"
+    },
     "url": "#"
   },
   "Pseudo-Democritus-Physica_et_Mystica": {
-    "title": "Physica et Mystica",
-    "author": "Pseudo-Democritus",
+    "title": {
+      "text": "Physica et Mystica",
+      "citation_key": "Pseudo-Democritus-Physica_et_Mystica"
+    },
+    "author": {
+      "text": "Pseudo-Democritus",
+      "citation_key": "Pseudo-Democritus-Physica_et_Mystica"
+    },
     "url": "#"
   },
   "Gerhard_Dorn-Speculativae_philosophiae": {
-    "title": "Speculativae philosophiae",
-    "author": "Gerhard Dorn",
+    "title": {
+      "text": "Speculativae philosophiae",
+      "citation_key": "Gerhard_Dorn-Speculativae_philosophiae"
+    },
+    "author": {
+      "text": "Gerhard Dorn",
+      "citation_key": "Gerhard_Dorn-Speculativae_philosophiae"
+    },
     "url": "#"
   },
   "Paracelsus-The_Hermetic_and_Alchemical_Writings": {
-    "title": "The Hermetic and Alchemical Writings",
-    "author": "Paracelsus",
+    "title": {
+      "text": "The Hermetic and Alchemical Writings",
+      "citation_key": "Paracelsus-The_Hermetic_and_Alchemical_Writings"
+    },
+    "author": {
+      "text": "Paracelsus",
+      "citation_key": "Paracelsus-The_Hermetic_and_Alchemical_Writings"
+    },
     "url": "#"
   },
   "Carl_Jung-Man_and_His_Symbols": {
-    "title": "Man and His Symbols",
-    "author": "Carl Jung",
+    "title": {
+      "text": "Man and His Symbols",
+      "citation_key": "Carl_Jung-Man_and_His_Symbols"
+    },
+    "author": {
+      "text": "Carl Jung",
+      "citation_key": "Carl_Jung-Man_and_His_Symbols"
+    },
     "url": "#"
   },
   "Gerhard_Dorn-De_tenebris_contra_naturam": {
-    "title": "De tenebris contra naturam",
-    "author": "Gerhard Dorn",
+    "title": {
+      "text": "De tenebris contra naturam",
+      "citation_key": "Gerhard_Dorn-De_tenebris_contra_naturam"
+    },
+    "author": {
+      "text": "Gerhard Dorn",
+      "citation_key": "Gerhard_Dorn-De_tenebris_contra_naturam"
+    },
     "url": "#"
   },
   "Paracelsus-Opus_Paramirum": {
-    "title": "Opus Paramirum",
-    "author": "Paracelsus",
+    "title": {
+      "text": "Opus Paramirum",
+      "citation_key": "Paracelsus-Opus_Paramirum"
+    },
+    "author": {
+      "text": "Paracelsus",
+      "citation_key": "Paracelsus-Opus_Paramirum"
+    },
     "url": "#"
   },
   "Ptolemy-Tetrabiblos": {
-    "title": "Tetrabiblos",
-    "author": "Ptolemy",
+    "title": {
+      "text": "Tetrabiblos",
+      "citation_key": "Ptolemy-Tetrabiblos"
+    },
+    "author": {
+      "text": "Ptolemy",
+      "citation_key": "Ptolemy-Tetrabiblos"
+    },
     "url": "#"
   },
   "Al-Kindi-On_the_Stellar_Rays": {
-    "title": "On the Stellar Rays",
-    "author": "Al-Kindi",
+    "title": {
+      "text": "On the Stellar Rays",
+      "citation_key": "Al-Kindi-On_the_Stellar_Rays"
+    },
+    "author": {
+      "text": "Al-Kindi",
+      "citation_key": "Al-Kindi-On_the_Stellar_Rays"
+    },
     "url": "#"
   },
   "Dane_Rudhyar-The_Astrological_Houses_The_Spectrum_of_Individual_Experience": {
-    "title": "The Astrological Houses: The Spectrum of Individual Experience",
-    "author": "Dane Rudhyar",
+    "title": {
+      "text": "The Astrological Houses: The Spectrum of Individual Experience",
+      "citation_key": "Dane_Rudhyar-The_Astrological_Houses_The_Spectrum_of_Individual_Experience"
+    },
+    "author": {
+      "text": "Dane Rudhyar",
+      "citation_key": "Dane_Rudhyar-The_Astrological_Houses_The_Spectrum_of_Individual_Experience"
+    },
     "url": "#"
   },
   "Liz_Greene-The_Art_of_Stealing_Fire_A_Re-visioning_of_the_Astrological_wheel": {
-    "title": "The Art of Stealing Fire: A Re-visioning of the Astrological wheel",
-    "author": "Liz Greene",
+    "title": {
+      "text": "The Art of Stealing Fire: A Re-visioning of the Astrological wheel",
+      "citation_key": "Liz_Greene-The_Art_of_Stealing_Fire_A_Re-visioning_of_the_Astrological_wheel"
+    },
+    "author": {
+      "text": "Liz Greene",
+      "citation_key": "Liz_Greene-The_Art_of_Stealing_Fire_A_Re-visioning_of_the_Astrological_wheel"
+    },
     "url": "#"
   },
   "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living": {
-    "title": "Planets in Transit: Life Cycles for Living",
-    "author": "Robert Hand",
+    "title": {
+      "text": "Planets in Transit: Life Cycles for Living",
+      "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living"
+    },
+    "author": {
+      "text": "Robert Hand",
+      "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living"
+    },
     "url": "#"
   },
   "Mary_K_Greer-Tarot_for_Your_Self": {
-    "title": "Tarot for Your Self",
-    "author": "Mary K. Greer",
+    "title": {
+      "text": "Tarot for Your Self",
+      "citation_key": "Mary_K_Greer-Tarot_for_Your_Self"
+    },
+    "author": {
+      "text": "Mary K. Greer",
+      "citation_key": "Mary_K_Greer-Tarot_for_Your_Self"
+    },
     "url": "#"
   },
   "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom": {
-    "title": "Seventy-Eight Degrees of Wisdom",
-    "author": "Rachel Pollack",
+    "title": {
+      "text": "Seventy-Eight Degrees of Wisdom",
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom"
+    },
+    "author": {
+      "text": "Rachel Pollack",
+      "citation_key": "Rachel_Pollack-Seventy-Eight_Degrees_of_Wisdom"
+    },
     "url": "#"
   },
   "Mary_K_Greer-Understanding_the_Tarot_Court": {
-    "title": "Understanding the Tarot Court",
-    "author": "Mary K. Greer",
+    "title": {
+      "text": "Understanding the Tarot Court",
+      "citation_key": "Mary_K_Greer-Understanding_the_Tarot_Court"
+    },
+    "author": {
+      "text": "Mary K. Greer",
+      "citation_key": "Mary_K_Greer-Understanding_the_Tarot_Court"
+    },
     "url": "#"
   },
   "Rachel_Pollack-Tarot_Wisdom": {
-    "title": "Tarot Wisdom",
-    "author": "Rachel Pollack",
+    "title": {
+      "text": "Tarot Wisdom",
+      "citation_key": "Rachel_Pollack-Tarot_Wisdom"
+    },
+    "author": {
+      "text": "Rachel Pollack",
+      "citation_key": "Rachel_Pollack-Tarot_Wisdom"
+    },
     "url": "#"
   },
   "Anodea_Judith-Wheels_of_Life": {
-    "title": "Wheels of Life",
-    "author": "Anodea Judith",
+    "title": {
+      "text": "Wheels of Life",
+      "citation_key": "Anodea_Judith-Wheels_of_Life"
+    },
+    "author": {
+      "text": "Anodea Judith",
+      "citation_key": "Anodea_Judith-Wheels_of_Life"
+    },
     "url": "#"
   },
   "Caroline_Myss-Anatomy_of_the_Spirit": {
-    "title": "Anatomy of the Spirit",
-    "author": "Caroline Myss",
+    "title": {
+      "text": "Anatomy of the Spirit",
+      "citation_key": "Caroline_Myss-Anatomy_of_the_Spirit"
+    },
+    "author": {
+      "text": "Caroline Myss",
+      "citation_key": "Caroline_Myss-Anatomy_of_the_Spirit"
+    },
     "url": "#"
   },
   "Anodea_Judith-Eastern_Body_Western_Mind": {
-    "title": "Eastern Body, Western Mind",
-    "author": "Anodea Judith",
+    "title": {
+      "text": "Eastern Body, Western Mind",
+      "citation_key": "Anodea_Judith-Eastern_Body_Western_Mind"
+    },
+    "author": {
+      "text": "Anodea Judith",
+      "citation_key": "Anodea_Judith-Eastern_Body_Western_Mind"
+    },
     "url": "#"
   },
   "Osho-Chakra_Meditation": {
-    "title": "Chakra Meditation",
-    "author": "Osho",
+    "title": {
+      "text": "Chakra Meditation",
+      "citation_key": "Osho-Chakra_Meditation"
+    },
+    "author": {
+      "text": "Osho",
+      "citation_key": "Osho-Chakra_Meditation"
+    },
     "url": "#"
   },
   "Deepak_Chopra-The_Seven_Spiritual_Laws_of_Success": {
-    "title": "The Seven Spiritual Laws of Success",
-    "author": "Deepak Chopra",
+    "title": {
+      "text": "The Seven Spiritual Laws of Success",
+      "citation_key": "Deepak_Chopra-The_Seven_Spiritual_Laws_of_Success"
+    },
+    "author": {
+      "text": "Deepak Chopra",
+      "citation_key": "Deepak_Chopra-The_Seven_Spiritual_Laws_of_Success"
+    },
     "url": "#"
   },
   "Shakti_Gawain-Chakra_Meditation": {
-    "title": "Chakra Meditation",
-    "author": "Shakti Gawain",
+    "title": {
+      "text": "Chakra Meditation",
+      "citation_key": "Shakti_Gawain-Chakra_Meditation"
+    },
+    "author": {
+      "text": "Shakti Gawain",
+      "citation_key": "Shakti_Gawain-Chakra_Meditation"
+    },
     "url": "#"
   },
   "Paramahansa_Yogananda-Autobiography_of_a_Yogi": {
-    "title": "Autobiography of a Yogi",
-    "author": "Paramahansa Yogananda",
+    "title": {
+      "text": "Autobiography of a Yogi",
+      "citation_key": "Paramahansa_Yogananda-Autobiography_of_a_Yogi"
+    },
+    "author": {
+      "text": "Paramahansa Yogananda",
+      "citation_key": "Paramahansa_Yogananda-Autobiography_of_a_Yogi"
+    },
     "url": "#"
   },
   "Swami_Muktananda-Play_of_Consciousness": {
-    "title": "Play of Consciousness",
-    "author": "Swami Muktananda",
+    "title": {
+      "text": "Play of Consciousness",
+      "citation_key": "Swami_Muktananda-Play_of_Consciousness"
+    },
+    "author": {
+      "text": "Swami Muktananda",
+      "citation_key": "Swami_Muktananda-Play_of_Consciousness"
+    },
     "url": "#"
   },
   "Barbara_Brennan-Hands_of_Light": {
-    "title": "Hands of Light",
-    "author": "Barbara Brennan",
+    "title": {
+      "text": "Hands of Light",
+      "citation_key": "Barbara_Brennan-Hands_of_Light"
+    },
+    "author": {
+      "text": "Barbara Brennan",
+      "citation_key": "Barbara_Brennan-Hands_of_Light"
+    },
     "url": "#"
   },
   "Barbara_Ann_Brennan-Light_Emerging": {
-    "title": "Light Emerging",
-    "author": "Barbara Ann Brennan",
+    "title": {
+      "text": "Light Emerging",
+      "citation_key": "Barbara_Ann_Brennan-Light_Emerging"
+    },
+    "author": {
+      "text": "Barbara Ann Brennan",
+      "citation_key": "Barbara_Ann_Brennan-Light_Emerging"
+    },
     "url": "#"
   },
   "Ted_Kaptchuk-The_Web_That_Has_No_Weaver": {
-    "title": "The Web That Has No Weaver",
-    "author": "Ted Kaptchuk",
+    "title": {
+      "text": "The Web That Has No Weaver",
+      "citation_key": "Ted_Kaptchuk-The_Web_That_Has_No_Weaver"
+    },
+    "author": {
+      "text": "Ted Kaptchuk",
+      "citation_key": "Ted_Kaptchuk-The_Web_That_Has_No_Weaver"
+    },
     "url": "#"
   },
   "Swami_Muktananda-Kundalini_The_Secret_of_Life": {
-    "title": "Kundalini: The Secret of Life",
-    "author": "Swami Muktananda",
+    "title": {
+      "text": "Kundalini: The Secret of Life",
+      "citation_key": "Swami_Muktananda-Kundalini_The_Secret_of_Life"
+    },
+    "author": {
+      "text": "Swami Muktananda",
+      "citation_key": "Swami_Muktananda-Kundalini_The_Secret_of_Life"
+    },
     "url": "#"
   },
   "Johann_Wolfgang_von_Goethe-Theory_of_Colors": {
-    "title": "Theory of Colors",
-    "author": "Johann Wolfgang von Goethe",
+    "title": {
+      "text": "Theory of Colors",
+      "citation_key": "Johann_Wolfgang_von_Goethe-Theory_of_Colors"
+    },
+    "author": {
+      "text": "Johann Wolfgang von Goethe",
+      "citation_key": "Johann_Wolfgang_von_Goethe-Theory_of_Colors"
+    },
     "url": "#"
   },
   "Faber_Birren-Color_Psychology_and_Color_Therapy": {
-    "title": "Color Psychology and Color Therapy",
-    "author": "Faber Birren",
+    "title": {
+      "text": "Color Psychology and Color Therapy",
+      "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy"
+    },
+    "author": {
+      "text": "Faber Birren",
+      "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy"
+    },
     "url": "#"
   },
   "Angela_Wright-The_Beginners_Guide_to_Color_Psychology": {
-    "title": "The Beginner's Guide to Color Psychology",
-    "author": "Angela Wright",
+    "title": {
+      "text": "The Beginner's Guide to Color Psychology",
+      "citation_key": "Angela_Wright-The_Beginners_Guide_to_Color_Psychology"
+    },
+    "author": {
+      "text": "Angela Wright",
+      "citation_key": "Angela_Wright-The_Beginners_Guide_to_Color_Psychology"
+    },
     "url": "#"
   },
   "Rudolf_Steiner-The_Arts_and_Their_Mission": {
-    "title": "The Arts and Their Mission",
-    "author": "Rudolf Steiner",
+    "title": {
+      "text": "The Arts and Their Mission",
+      "citation_key": "Rudolf_Steiner-The_Arts_and_Their_Mission"
+    },
+    "author": {
+      "text": "Rudolf Steiner",
+      "citation_key": "Rudolf_Steiner-The_Arts_and_Their_Mission"
+    },
     "url": "#"
   },
   "Max_Luscher-The_Luscher_Color_Test": {
-    "title": "The Lüscher Color Test",
-    "author": "Max Lüscher",
+    "title": {
+      "text": "The Lüscher Color Test",
+      "citation_key": "Max_Luscher-The_Luscher_Color_Test"
+    },
+    "author": {
+      "text": "Max Lüscher",
+      "citation_key": "Max_Luscher-The_Luscher_Color_Test"
+    },
     "url": "#"
   },
   "Wassily_Kandinsky-Concerning_the_Spiritual_in_Art": {
-    "title": "Concerning the Spiritual in Art",
-    "author": "Wassily Kandinsky",
+    "title": {
+      "text": "Concerning the Spiritual in Art",
+      "citation_key": "Wassily_Kandinsky-Concerning_the_Spiritual_in_Art"
+    },
+    "author": {
+      "text": "Wassily Kandinsky",
+      "citation_key": "Wassily_Kandinsky-Concerning_the_Spiritual_in_Art"
+    },
     "url": "#"
   },
   "Alice_Bailey-Esoteric_Healing": {
-    "title": "Esoteric Healing",
-    "author": "Alice Bailey",
+    "title": {
+      "text": "Esoteric Healing",
+      "citation_key": "Alice_Bailey-Esoteric_Healing"
+    },
+    "author": {
+      "text": "Alice Bailey",
+      "citation_key": "Alice_Bailey-Esoteric_Healing"
+    },
     "url": "#"
   },
   "Charles_Leadbeater-Man_Visible_and_Invisible": {
-    "title": "Man Visible and Invisible",
-    "author": "Charles Leadbeater",
+    "title": {
+      "text": "Man Visible and Invisible",
+      "citation_key": "Charles_Leadbeater-Man_Visible_and_Invisible"
+    },
+    "author": {
+      "text": "Charles Leadbeater",
+      "citation_key": "Charles_Leadbeater-Man_Visible_and_Invisible"
+    },
     "url": "#"
   },
   "HP_Blavatsky-The_Secret_Doctrine": {
-    "title": "The Secret Doctrine",
-    "author": "H.P. Blavatsky",
+    "title": {
+      "text": "The Secret Doctrine",
+      "citation_key": "HP_Blavatsky-The_Secret_Doctrine"
+    },
+    "author": {
+      "text": "H.P. Blavatsky",
+      "citation_key": "HP_Blavatsky-The_Secret_Doctrine"
+    },
     "url": "#"
   },
   "Carl_Jung-Memories_Dreams_Reflections": {
-    "title": "Memories, Dreams, Reflections",
-    "author": "Carl Jung",
+    "title": {
+      "text": "Memories, Dreams, Reflections",
+      "citation_key": "Carl_Jung-Memories_Dreams_Reflections"
+    },
+    "author": {
+      "text": "Carl Jung",
+      "citation_key": "Carl_Jung-Memories_Dreams_Reflections"
+    },
     "url": "#"
   },
   "Josef_Albers-Interaction_of_Color": {
-    "title": "Interaction of Color",
-    "author": "Josef Albers",
+    "title": {
+      "text": "Interaction of Color",
+      "citation_key": "Josef_Albers-Interaction_of_Color"
+    },
+    "author": {
+      "text": "Josef Albers",
+      "citation_key": "Josef_Albers-Interaction_of_Color"
+    },
     "url": "#"
   },
   "Melody-Love_Is_In_The_Earth": {
-    "title": "Love Is In The Earth",
-    "author": "Melody",
+    "title": {
+      "text": "Love Is In The Earth",
+      "citation_key": "Melody-Love_Is_In_The_Earth"
+    },
+    "author": {
+      "text": "Melody",
+      "citation_key": "Melody-Love_Is_In_The_Earth"
+    },
     "url": "#"
   },
   "Angeles_Arrien-The_Tarot_Handbook": {
-    "title": "The Tarot Handbook",
-    "author": "Angeles Arrien",
+    "title": {
+      "text": "The Tarot Handbook",
+      "citation_key": "Angeles_Arrien-The_Tarot_Handbook"
+    },
+    "author": {
+      "text": "Angeles Arrien",
+      "citation_key": "Angeles_Arrien-The_Tarot_Handbook"
+    },
     "url": "#"
   },
   "Carl_Gustav_Jung-Man_and_His_Symbols": {
-    "title": "Man and His Symbols",
-    "author": "Carl Gustav Jung",
+    "title": {
+      "text": "Man and His Symbols",
+      "citation_key": "Carl_Gustav_Jung-Man_and_His_Symbols"
+    },
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-Man_and_His_Symbols"
+    },
     "url": "#"
   },
   "EA_Wallis_Budge-Egyptian_Magic": {
-    "title": "Egyptian Magic",
-    "author": "E.A. Wallis Budge",
+    "title": {
+      "text": "Egyptian Magic",
+      "citation_key": "EA_Wallis_Budge-Egyptian_Magic"
+    },
+    "author": {
+      "text": "E.A. Wallis Budge",
+      "citation_key": "EA_Wallis_Budge-Egyptian_Magic"
+    },
     "url": "#"
   },
   "Miranda_Green-Celtic_Myths_and_Legends": {
-    "title": "Celtic Myths and Legends",
-    "author": "Miranda Green",
+    "title": {
+      "text": "Celtic Myths and Legends",
+      "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+    },
+    "author": {
+      "text": "Miranda Green",
+      "citation_key": "Miranda_Green-Celtic_Myths_and_Legends"
+    },
     "url": "#"
   },
   "Swami_Satyananda_Saraswati-Yantra_Yoga": {
-    "title": "Yantra Yoga",
-    "author": "Swami Satyananda Saraswati",
+    "title": {
+      "text": "Yantra Yoga",
+      "citation_key": "Swami_Satyananda_Saraswati-Yantra_Yoga"
+    },
+    "author": {
+      "text": "Swami Satyananda Saraswati",
+      "citation_key": "Swami_Satyananda_Saraswati-Yantra_Yoga"
+    },
     "url": "#"
   },
   "Eva_Wong-Feng_Shui_The_Ancient_Wisdom_of_Harmonious_Living": {
-    "title": "Feng Shui: The Ancient Wisdom of Harmonious Living",
-    "author": "Eva Wong",
+    "title": {
+      "text": "Feng Shui: The Ancient Wisdom of Harmonious Living",
+      "citation_key": "Eva_Wong-Feng_Shui_The_Ancient_Wisdom_of_Harmonious_Living"
+    },
+    "author": {
+      "text": "Eva Wong",
+      "citation_key": "Eva_Wong-Feng_Shui_The_Ancient_Wisdom_of_Harmonious_Living"
+    },
     "url": "#"
   },
   "Sun_Bear-The_Medicine_Wheel": {
-    "title": "The Medicine Wheel",
-    "author": "Sun Bear",
+    "title": {
+      "text": "The Medicine Wheel",
+      "citation_key": "Sun_Bear-The_Medicine_Wheel"
+    },
+    "author": {
+      "text": "Sun Bear",
+      "citation_key": "Sun_Bear-The_Medicine_Wheel"
+    },
     "url": "#"
   },
   "Jason_Lotterhand-The_Thursday_Night_Tarot": {
-    "title": "The Thursday Night Tarot",
-    "author": "Jason Lotterhand",
+    "title": {
+      "text": "The Thursday Night Tarot",
+      "citation_key": "Jason_Lotterhand-The_Thursday_Night_Tarot"
+    },
+    "author": {
+      "text": "Jason Lotterhand",
+      "citation_key": "Jason_Lotterhand-The_Thursday_Night_Tarot"
+    },
     "url": "#"
   },
   "Sigmund_Freud_adapted-The_Interpretation_of_Dreams": {
-    "title": "The Interpretation of Dreams",
-    "author": "Sigmund Freud (adapted)",
+    "title": {
+      "text": "The Interpretation of Dreams",
+      "citation_key": "Sigmund_Freud_adapted-The_Interpretation_of_Dreams"
+    },
+    "author": {
+      "text": "Sigmund Freud (adapted)",
+      "citation_key": "Sigmund_Freud_adapted-The_Interpretation_of_Dreams"
+    },
     "url": "#"
   },
   "Gaston_Bachelard-Water_and_Dreams": {
-    "title": "Water and Dreams",
-    "author": "Gaston Bachelard",
+    "title": {
+      "text": "Water and Dreams",
+      "citation_key": "Gaston_Bachelard-Water_and_Dreams"
+    },
+    "author": {
+      "text": "Gaston Bachelard",
+      "citation_key": "Gaston_Bachelard-Water_and_Dreams"
+    },
     "url": "#"
   },
   "Marie-Louise_von_Franz-Dreams_and_Death": {
-    "title": "Dreams and Death",
-    "author": "Marie-Louise von Franz",
+    "title": {
+      "text": "Dreams and Death",
+      "citation_key": "Marie-Louise_von_Franz-Dreams_and_Death"
+    },
+    "author": {
+      "text": "Marie-Louise von Franz",
+      "citation_key": "Marie-Louise_von_Franz-Dreams_and_Death"
+    },
     "url": "#"
   },
   "Jeremy_Taylor-Where_People_Fly_and_Water_Runs_Uphill": {
-    "title": "Where People Fly and Water Runs Uphill",
-    "author": "Jeremy Taylor",
+    "title": {
+      "text": "Where People Fly and Water Runs Uphill",
+      "citation_key": "Jeremy_Taylor-Where_People_Fly_and_Water_Runs_Uphill"
+    },
+    "author": {
+      "text": "Jeremy Taylor",
+      "citation_key": "Jeremy_Taylor-Where_People_Fly_and_Water_Runs_Uphill"
+    },
     "url": "#"
   },
   "Stephen_LaBerge-Exploring_the_World_of_Lucid_Dreaming": {
-    "title": "Exploring the World of Lucid Dreaming",
-    "author": "Stephen LaBerge",
+    "title": {
+      "text": "Exploring the World of Lucid Dreaming",
+      "citation_key": "Stephen_LaBerge-Exploring_the_World_of_Lucid_Dreaming"
+    },
+    "author": {
+      "text": "Stephen LaBerge",
+      "citation_key": "Stephen_LaBerge-Exploring_the_World_of_Lucid_Dreaming"
+    },
     "url": "#"
   },
   "Patricia_Garfield-Creative_Dreaming": {
-    "title": "Creative Dreaming",
-    "author": "Patricia Garfield",
+    "title": {
+      "text": "Creative Dreaming",
+      "citation_key": "Patricia_Garfield-Creative_Dreaming"
+    },
+    "author": {
+      "text": "Patricia Garfield",
+      "citation_key": "Patricia_Garfield-Creative_Dreaming"
+    },
     "url": "#"
   },
   "Edgar_Cayce-Dreams_and_Visions": {
-    "title": "Dreams and Visions",
-    "author": "Edgar Cayce",
+    "title": {
+      "text": "Dreams and Visions",
+      "citation_key": "Edgar_Cayce-Dreams_and_Visions"
+    },
+    "author": {
+      "text": "Edgar Cayce",
+      "citation_key": "Edgar_Cayce-Dreams_and_Visions"
+    },
     "url": "#"
   },
   "Agrippa-Three_Books_of_Occult_Philosophy": {
-    "title": "Three Books of Occult Philosophy",
-    "author": "Agrippa",
+    "title": {
+      "text": "Three Books of Occult Philosophy",
+      "citation_key": "Agrippa-Three_Books_of_Occult_Philosophy"
+    },
+    "author": {
+      "text": "Agrippa",
+      "citation_key": "Agrippa-Three_Books_of_Occult_Philosophy"
+    },
     "url": "#"
   },
   "Carl_Jung-The_Archetypes_and_the_Collective_Unconscious": {
-    "title": "The Archetypes and the Collective Unconscious",
-    "author": "Carl Jung",
+    "title": {
+      "text": "The Archetypes and the Collective Unconscious",
+      "citation_key": "Carl_Jung-The_Archetypes_and_the_Collective_Unconscious"
+    },
+    "author": {
+      "text": "Carl Jung",
+      "citation_key": "Carl_Jung-The_Archetypes_and_the_Collective_Unconscious"
+    },
     "url": "#"
   },
   "Aristotle-Meteorology": {
-    "title": "Meteorology",
-    "author": "Aristotle",
+    "title": {
+      "text": "Meteorology",
+      "citation_key": "Aristotle-Meteorology"
+    },
+    "author": {
+      "text": "Aristotle",
+      "citation_key": "Aristotle-Meteorology"
+    },
     "url": "#"
   },
   "Golden_Dawn_Tradition-The_Complete_Golden_Dawn_System_of_Magic": {
-    "title": "The Complete Golden Dawn System of Magic",
-    "author": "Golden Dawn Tradition",
+    "title": {
+      "text": "The Complete Golden Dawn System of Magic",
+      "citation_key": "Golden_Dawn_Tradition-The_Complete_Golden_Dawn_System_of_Magic"
+    },
+    "author": {
+      "text": "Golden Dawn Tradition",
+      "citation_key": "Golden_Dawn_Tradition-The_Complete_Golden_Dawn_System_of_Magic"
+    },
     "url": "#"
   },
   "Judith_Herman-Trauma_and_Recovery": {
-    "title": "Trauma and Recovery",
-    "author": "Judith Herman",
+    "title": {
+      "text": "Trauma and Recovery",
+      "citation_key": "Judith_Herman-Trauma_and_Recovery"
+    },
+    "author": {
+      "text": "Judith Herman",
+      "citation_key": "Judith_Herman-Trauma_and_Recovery"
+    },
     "url": "#"
   },
   "Thomas_Moore-Care_of_the_Soul": {
-    "title": "Care of the Soul",
-    "author": "Thomas Moore",
+    "title": {
+      "text": "Care of the Soul",
+      "citation_key": "Thomas_Moore-Care_of_the_Soul"
+    },
+    "author": {
+      "text": "Thomas Moore",
+      "citation_key": "Thomas_Moore-Care_of_the_Soul"
+    },
     "url": "#"
   },
   "Gabor_Mate-In_the_Realm_of_Hungry_Ghosts": {
-    "title": "In the Realm of Hungry Ghosts",
-    "author": "Gabor Maté",
+    "title": {
+      "text": "In the Realm of Hungry Ghosts",
+      "citation_key": "Gabor_Mate-In_the_Realm_of_Hungry_Ghosts"
+    },
+    "author": {
+      "text": "Gabor Maté",
+      "citation_key": "Gabor_Mate-In_the_Realm_of_Hungry_Ghosts"
+    },
     "url": "#"
   },
   "Marianne_Williamson-A_Return_to_Love": {
-    "title": "A Return to Love",
-    "author": "Marianne Williamson",
+    "title": {
+      "text": "A Return to Love",
+      "citation_key": "Marianne_Williamson-A_Return_to_Love"
+    },
+    "author": {
+      "text": "Marianne Williamson",
+      "citation_key": "Marianne_Williamson-A_Return_to_Love"
+    },
     "url": "#"
   },
   "Zev_ben_Shimon_Halevi-A_Kabbalistic_Universe": {
-    "title": "A Kabbalistic Universe",
-    "author": "Z'ev ben Shimon Halevi",
+    "title": {
+      "text": "A Kabbalistic Universe",
+      "citation_key": "Zev_ben_Shimon_Halevi-A_Kabbalistic_Universe"
+    },
+    "author": {
+      "text": "Z'ev ben Shimon Halevi",
+      "citation_key": "Zev_ben_Shimon_Halevi-A_Kabbalistic_Universe"
+    },
     "url": "#"
   },
   "Dion_Fortune-The_Mystical_Qabalah": {
-    "title": "The Mystical Qabalah",
-    "author": "Dion Fortune",
+    "title": {
+      "text": "The Mystical Qabalah",
+      "citation_key": "Dion_Fortune-The_Mystical_Qabalah"
+    },
+    "author": {
+      "text": "Dion Fortune",
+      "citation_key": "Dion_Fortune-The_Mystical_Qabalah"
+    },
     "url": "#"
   },
   "Gareth_Knight-A_Practical_Guide_to_Qabalistic_Symbolism": {
-    "title": "A Practical Guide to Qabalistic Symbolism",
-    "author": "Gareth Knight",
+    "title": {
+      "text": "A Practical Guide to Qabalistic Symbolism",
+      "citation_key": "Gareth_Knight-A_Practical_Guide_to_Qabalistic_Symbolism"
+    },
+    "author": {
+      "text": "Gareth Knight",
+      "citation_key": "Gareth_Knight-A_Practical_Guide_to_Qabalistic_Symbolism"
+    },
     "url": "#"
   },
   "Israel_Regardie-The_Tree_of_Life": {
-    "title": "The Tree of Life",
-    "author": "Israel Regardie",
+    "title": {
+      "text": "The Tree of Life",
+      "citation_key": "Israel_Regardie-The_Tree_of_Life"
+    },
+    "author": {
+      "text": "Israel Regardie",
+      "citation_key": "Israel_Regardie-The_Tree_of_Life"
+    },
     "url": "#"
   },
   "Aryeh_Kaplan-Sefer_Yetzirah_The_Book_of_Creation": {
-    "title": "Sefer Yetzirah: The Book of Creation",
-    "author": "Aryeh Kaplan",
+    "title": {
+      "text": "Sefer Yetzirah: The Book of Creation",
+      "citation_key": "Aryeh_Kaplan-Sefer_Yetzirah_The_Book_of_Creation"
+    },
+    "author": {
+      "text": "Aryeh Kaplan",
+      "citation_key": "Aryeh_Kaplan-Sefer_Yetzirah_The_Book_of_Creation"
+    },
     "url": "#"
   },
   "AE_Waite-The_Holy_Kabbalah": {
-    "title": "The Holy Kabbalah",
-    "author": "A.E. Waite",
+    "title": {
+      "text": "The Holy Kabbalah",
+      "citation_key": "AE_Waite-The_Holy_Kabbalah"
+    },
+    "author": {
+      "text": "A.E. Waite",
+      "citation_key": "AE_Waite-The_Holy_Kabbalah"
+    },
     "url": "#"
   },
   "Paul_Foster_Case-The_Tarot_A_Key_to_the_Wisdom_of_the_Ages": {
-    "title": "The Tarot: A Key to the Wisdom of the Ages",
-    "author": "Paul Foster Case",
+    "title": {
+      "text": "The Tarot: A Key to the Wisdom of the Ages",
+      "citation_key": "Paul_Foster_Case-The_Tarot_A_Key_to_the_Wisdom_of_the_Ages"
+    },
+    "author": {
+      "text": "Paul Foster Case",
+      "citation_key": "Paul_Foster_Case-The_Tarot_A_Key_to_the_Wisdom_of_the_Ages"
+    },
     "url": "#"
   },
   "William_Gray-The_Ladder_of_Lights": {
-    "title": "The Ladder of Lights",
-    "author": "William Gray",
+    "title": {
+      "text": "The Ladder of Lights",
+      "citation_key": "William_Gray-The_Ladder_of_Lights"
+    },
+    "author": {
+      "text": "William Gray",
+      "citation_key": "William_Gray-The_Ladder_of_Lights"
+    },
     "url": "#"
   },
   "John_Michael_Greer-Paths_of_Wisdom": {
-    "title": "Paths of Wisdom",
-    "author": "John Michael Greer",
+    "title": {
+      "text": "Paths of Wisdom",
+      "citation_key": "John_Michael_Greer-Paths_of_Wisdom"
+    },
+    "author": {
+      "text": "John Michael Greer",
+      "citation_key": "John_Michael_Greer-Paths_of_Wisdom"
+    },
     "url": "#"
   },
   "Aleister_Crowley-777_and_Other_Qabalistic_Writings": {
-    "title": "777 and Other Qabalistic Writings",
-    "author": "Aleister Crowley",
+    "title": {
+      "text": "777 and Other Qabalistic Writings",
+      "citation_key": "Aleister_Crowley-777_and_Other_Qabalistic_Writings"
+    },
+    "author": {
+      "text": "Aleister Crowley",
+      "citation_key": "Aleister_Crowley-777_and_Other_Qabalistic_Writings"
+    },
     "url": "#"
   },
   "Violet_Firth_Dion_Fortune-The_Circuit_of_Force": {
-    "title": "The Circuit of Force",
-    "author": "Violet Firth (Dion Fortune)",
+    "title": {
+      "text": "The Circuit of Force",
+      "citation_key": "Violet_Firth_Dion_Fortune-The_Circuit_of_Force"
+    },
+    "author": {
+      "text": "Violet Firth (Dion Fortune)",
+      "citation_key": "Violet_Firth_Dion_Fortune-The_Circuit_of_Force"
+    },
     "url": "#"
   },
   "Gershom_Scholem-Major_Trends_in_Jewish_Mysticism": {
-    "title": "Major Trends in Jewish Mysticism",
-    "author": "Gershom Scholem",
+    "title": {
+      "text": "Major Trends in Jewish Mysticism",
+      "citation_key": "Gershom_Scholem-Major_Trends_in_Jewish_Mysticism"
+    },
+    "author": {
+      "text": "Gershom Scholem",
+      "citation_key": "Gershom_Scholem-Major_Trends_in_Jewish_Mysticism"
+    },
     "url": "#"
   },
   "Carlo_Suares-The_Cipher_of_Genesis": {
-    "title": "The Cipher of Genesis",
-    "author": "Carlo Suares",
+    "title": {
+      "text": "The Cipher of Genesis",
+      "citation_key": "Carlo_Suares-The_Cipher_of_Genesis"
+    },
+    "author": {
+      "text": "Carlo Suares",
+      "citation_key": "Carlo_Suares-The_Cipher_of_Genesis"
+    },
     "url": "#"
   },
   "Rabbi_Isaac_Luria-Lurianic_Kabbalah": {
-    "title": "Lurianic Kabbalah",
-    "author": "Rabbi Isaac Luria",
+    "title": {
+      "text": "Lurianic Kabbalah",
+      "citation_key": "Rabbi_Isaac_Luria-Lurianic_Kabbalah"
+    },
+    "author": {
+      "text": "Rabbi Isaac Luria",
+      "citation_key": "Rabbi_Isaac_Luria-Lurianic_Kabbalah"
+    },
     "url": "#"
   },
   "Adolphe_Franck-The_Kabbalah": {
-    "title": "The Kabbalah",
-    "author": "Adolphe Franck",
+    "title": {
+      "text": "The Kabbalah",
+      "citation_key": "Adolphe_Franck-The_Kabbalah"
+    },
+    "author": {
+      "text": "Adolphe Franck",
+      "citation_key": "Adolphe_Franck-The_Kabbalah"
+    },
     "url": "#"
   },
   "Papus-The_Tarot_of_the_Bohemians": {
-    "title": "The Tarot of the Bohemians",
-    "author": "Papus",
+    "title": {
+      "text": "The Tarot of the Bohemians",
+      "citation_key": "Papus-The_Tarot_of_the_Bohemians"
+    },
+    "author": {
+      "text": "Papus",
+      "citation_key": "Papus-The_Tarot_of_the_Bohemians"
+    },
     "url": "#"
   },
   "Eliphas_Levi-Transcendental_Magic": {
-    "title": "Transcendental Magic",
-    "author": "Eliphas Levi",
+    "title": {
+      "text": "Transcendental Magic",
+      "citation_key": "Eliphas_Levi-Transcendental_Magic"
+    },
+    "author": {
+      "text": "Eliphas Levi",
+      "citation_key": "Eliphas_Levi-Transcendental_Magic"
+    },
     "url": "#"
   },
   "Fabre_dOlivet-The_Hebrew_Tongue_Restored": {
-    "title": "The Hebrew Tongue Restored",
-    "author": "Fabre d'Olivet",
+    "title": {
+      "text": "The Hebrew Tongue Restored",
+      "citation_key": "Fabre_dOlivet-The_Hebrew_Tongue_Restored"
+    },
+    "author": {
+      "text": "Fabre d'Olivet",
+      "citation_key": "Fabre_dOlivet-The_Hebrew_Tongue_Restored"
+    },
     "url": "#"
   },
   "Rabbi_Moses_Cordovero-Pardes_Rimonim": {
-    "title": "Pardes Rimonim",
-    "author": "Rabbi Moses Cordovero",
+    "title": {
+      "text": "Pardes Rimonim",
+      "citation_key": "Rabbi_Moses_Cordovero-Pardes_Rimonim"
+    },
+    "author": {
+      "text": "Rabbi Moses Cordovero",
+      "citation_key": "Rabbi_Moses_Cordovero-Pardes_Rimonim"
+    },
     "url": "#"
   },
   "Johannes_Reuchlin-De_Arte_Cabalistica": {
-    "title": "De Arte Cabalistica",
-    "author": "Johannes Reuchlin",
+    "title": {
+      "text": "De Arte Cabalistica",
+      "citation_key": "Johannes_Reuchlin-De_Arte_Cabalistica"
+    },
+    "author": {
+      "text": "Johannes Reuchlin",
+      "citation_key": "Johannes_Reuchlin-De_Arte_Cabalistica"
+    },
     "url": "#"
   },
   "Abraham_Abulafia-Sefer_ha-Ot": {
-    "title": "Sefer ha-Ot",
-    "author": "Abraham Abulafia",
+    "title": {
+      "text": "Sefer ha-Ot",
+      "citation_key": "Abraham_Abulafia-Sefer_ha-Ot"
+    },
+    "author": {
+      "text": "Abraham Abulafia",
+      "citation_key": "Abraham_Abulafia-Sefer_ha-Ot"
+    },
     "url": "#"
   },
   "Isaac_the_Blind-Commentary_on_Sefer_Yetzirah": {
-    "title": "Commentary on Sefer Yetzirah",
-    "author": "Isaac the Blind",
+    "title": {
+      "text": "Commentary on Sefer Yetzirah",
+      "citation_key": "Isaac_the_Blind-Commentary_on_Sefer_Yetzirah"
+    },
+    "author": {
+      "text": "Isaac the Blind",
+      "citation_key": "Isaac_the_Blind-Commentary_on_Sefer_Yetzirah"
+    },
     "url": "#"
   },
   "Nachmanides-Commentary_on_the_Torah": {
-    "title": "Commentary on the Torah",
-    "author": "Nachmanides",
+    "title": {
+      "text": "Commentary on the Torah",
+      "citation_key": "Nachmanides-Commentary_on_the_Torah"
+    },
+    "author": {
+      "text": "Nachmanides",
+      "citation_key": "Nachmanides-Commentary_on_the_Torah"
+    },
     "url": "#"
   },
   "Rabbi_Joseph_Gikatilla-Shaare_Orah": {
-    "title": "Sha'are Orah",
-    "author": "Rabbi Joseph Gikatilla",
+    "title": {
+      "text": "Sha'are Orah",
+      "citation_key": "Rabbi_Joseph_Gikatilla-Shaare_Orah"
+    },
+    "author": {
+      "text": "Rabbi Joseph Gikatilla",
+      "citation_key": "Rabbi_Joseph_Gikatilla-Shaare_Orah"
+    },
     "url": "#"
   },
   "Rabbi_Akiva-Talmudic_Teachings": {
-    "title": "Talmudic Teachings",
-    "author": "Rabbi Akiva",
+    "title": {
+      "text": "Talmudic Teachings",
+      "citation_key": "Rabbi_Akiva-Talmudic_Teachings"
+    },
+    "author": {
+      "text": "Rabbi Akiva",
+      "citation_key": "Rabbi_Akiva-Talmudic_Teachings"
+    },
     "url": "#"
   },
   "Moses_de_Leon-Zohar": {
-    "title": "Zohar",
-    "author": "Moses de Leon",
+    "title": {
+      "text": "Zohar",
+      "citation_key": "Moses_de_Leon-Zohar"
+    },
+    "author": {
+      "text": "Moses de Leon",
+      "citation_key": "Moses_de_Leon-Zohar"
+    },
     "url": "#"
   },
   "Rabbi_Isaac_of_Acre-Meirat_Einayim": {
-    "title": "Me'irat Einayim",
-    "author": "Rabbi Isaac of Acre",
+    "title": {
+      "text": "Me'irat Einayim",
+      "citation_key": "Rabbi_Isaac_of_Acre-Meirat_Einayim"
+    },
+    "author": {
+      "text": "Rabbi Isaac of Acre",
+      "citation_key": "Rabbi_Isaac_of_Acre-Meirat_Einayim"
+    },
     "url": "#"
   },
   "Abraham_ben_David-Kabbalah_and_Criticism": {
-    "title": "Kabbalah and Criticism",
-    "author": "Abraham ben David",
+    "title": {
+      "text": "Kabbalah and Criticism",
+      "citation_key": "Abraham_ben_David-Kabbalah_and_Criticism"
+    },
+    "author": {
+      "text": "Abraham ben David",
+      "citation_key": "Abraham_ben_David-Kabbalah_and_Criticism"
+    },
     "url": "#"
   },
   "Rabbi_Azriel_of_Gerona-Commentary_on_the_Aggadot": {
-    "title": "Commentary on the Aggadot",
-    "author": "Rabbi Azriel of Gerona",
+    "title": {
+      "text": "Commentary on the Aggadot",
+      "citation_key": "Rabbi_Azriel_of_Gerona-Commentary_on_the_Aggadot"
+    },
+    "author": {
+      "text": "Rabbi Azriel of Gerona",
+      "citation_key": "Rabbi_Azriel_of_Gerona-Commentary_on_the_Aggadot"
+    },
     "url": "#"
   },
   "Rabbi_Moses_ben_Nachman-Rambans_Commentary": {
-    "title": "Ramban's Commentary",
-    "author": "Rabbi Moses ben Nachman",
+    "title": {
+      "text": "Ramban's Commentary",
+      "citation_key": "Rabbi_Moses_ben_Nachman-Rambans_Commentary"
+    },
+    "author": {
+      "text": "Rabbi Moses ben Nachman",
+      "citation_key": "Rabbi_Moses_ben_Nachman-Rambans_Commentary"
+    },
     "url": "#"
   },
   "Rabbi_Bahya_ben_Asher-Commentary_on_the_Torah": {
-    "title": "Commentary on the Torah",
-    "author": "Rabbi Bahya ben Asher",
+    "title": {
+      "text": "Commentary on the Torah",
+      "citation_key": "Rabbi_Bahya_ben_Asher-Commentary_on_the_Torah"
+    },
+    "author": {
+      "text": "Rabbi Bahya ben Asher",
+      "citation_key": "Rabbi_Bahya_ben_Asher-Commentary_on_the_Torah"
+    },
     "url": "#"
   },
   "Rabbi_Eleazar_of_Worms-Sefer_ha-Razim": {
-    "title": "Sefer ha-Razim",
-    "author": "Rabbi Eleazar of Worms",
+    "title": {
+      "text": "Sefer ha-Razim",
+      "citation_key": "Rabbi_Eleazar_of_Worms-Sefer_ha-Razim"
+    },
+    "author": {
+      "text": "Rabbi Eleazar of Worms",
+      "citation_key": "Rabbi_Eleazar_of_Worms-Sefer_ha-Razim"
+    },
     "url": "#"
   },
   "Rabbi_Isaac_Luria-Etz_Chaim": {
-    "title": "Etz Chaim",
-    "author": "Rabbi Isaac Luria",
+    "title": {
+      "text": "Etz Chaim",
+      "citation_key": "Rabbi_Isaac_Luria-Etz_Chaim"
+    },
+    "author": {
+      "text": "Rabbi Isaac Luria",
+      "citation_key": "Rabbi_Isaac_Luria-Etz_Chaim"
+    },
     "url": "#"
   },
   "Rabbi_David_ben_Abraham-The_Fountain_of_Wisdom": {
-    "title": "The Fountain of Wisdom",
-    "author": "Rabbi David ben Abraham",
+    "title": {
+      "text": "The Fountain of Wisdom",
+      "citation_key": "Rabbi_David_ben_Abraham-The_Fountain_of_Wisdom"
+    },
+    "author": {
+      "text": "Rabbi David ben Abraham",
+      "citation_key": "Rabbi_David_ben_Abraham-The_Fountain_of_Wisdom"
+    },
     "url": "#"
   },
   "Angeles_Arrien-The_Tarot_Handbook_Practical_Applications_of_Ancient_Visual_Symbols": {
-    "title": "The Tarot Handbook: Practical Applications of Ancient Visual Symbols",
-    "author": "Angeles Arrien",
+    "title": {
+      "text": "The Tarot Handbook: Practical Applications of Ancient Visual Symbols",
+      "citation_key": "Angeles_Arrien-The_Tarot_Handbook_Practical_Applications_of_Ancient_Visual_Symbols"
+    },
+    "author": {
+      "text": "Angeles Arrien",
+      "citation_key": "Angeles_Arrien-The_Tarot_Handbook_Practical_Applications_of_Ancient_Visual_Symbols"
+    },
     "url": "#"
   },
   "Joseph_Campbell-The_Hero_with_a_Thousand_Faces": {
-    "title": "The Hero with a Thousand Faces",
-    "author": "Joseph Campbell",
+    "title": {
+      "text": "The Hero with a Thousand Faces",
+      "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+    },
+    "author": {
+      "text": "Joseph Campbell",
+      "citation_key": "Joseph_Campbell-The_Hero_with_a_Thousand_Faces"
+    },
     "url": "#"
   },
   "Carl_Gustav_Jung-Commentary_on_The_Secret_of_the_Golden_Flower": {
-    "title": "Commentary on The Secret of the Golden Flower",
-    "author": "Carl Gustav Jung",
+    "title": {
+      "text": "Commentary on The Secret of the Golden Flower",
+      "citation_key": "Carl_Gustav_Jung-Commentary_on_The_Secret_of_the_Golden_Flower"
+    },
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-Commentary_on_The_Secret_of_the_Golden_Flower"
+    },
     "url": "#"
   },
   "EA_Wallis_Budge-The_Book_of_the_Dead": {
-    "title": "The Book of the Dead",
-    "author": "E.A. Wallis Budge",
+    "title": {
+      "text": "The Book of the Dead",
+      "citation_key": "EA_Wallis_Budge-The_Book_of_the_Dead"
+    },
+    "author": {
+      "text": "E.A. Wallis Budge",
+      "citation_key": "EA_Wallis_Budge-The_Book_of_the_Dead"
+    },
     "url": "#"
   },
   "Rudolf_Simek-Dictionary_of_Northern_Mythology": {
-    "title": "Dictionary of Northern Mythology",
-    "author": "Rudolf Simek",
+    "title": {
+      "text": "Dictionary of Northern Mythology",
+      "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+    },
+    "author": {
+      "text": "Rudolf Simek",
+      "citation_key": "Rudolf_Simek-Dictionary_of_Northern_Mythology"
+    },
     "url": "#"
   },
   "Chandogya_Upanishad-Ancient_Vedic_Texts": {
-    "title": "Ancient Vedic Texts",
-    "author": "Chandogya Upanishad",
+    "title": {
+      "text": "Ancient Vedic Texts",
+      "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+    },
+    "author": {
+      "text": "Chandogya Upanishad",
+      "citation_key": "Chandogya_Upanishad-Ancient_Vedic_Texts"
+    },
     "url": "#"
   },
   "Buddha-Dhammapada": {
-    "title": "Dhammapada",
-    "author": "Buddha",
+    "title": {
+      "text": "Dhammapada",
+      "citation_key": "Buddha-Dhammapada"
+    },
+    "author": {
+      "text": "Buddha",
+      "citation_key": "Buddha-Dhammapada"
+    },
     "url": "#"
   },
   "Native_American_Proverb-Traditional_Wisdom": {
-    "title": "Traditional Wisdom",
-    "author": "Native American Proverb",
+    "title": {
+      "text": "Traditional Wisdom",
+      "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+    },
+    "author": {
+      "text": "Native American Proverb",
+      "citation_key": "Native_American_Proverb-Traditional_Wisdom"
+    },
     "url": "#"
   },
   "Alice_Bailey-Esoteric_Astrology": {
-    "title": "Esoteric Astrology",
-    "author": "Alice Bailey",
+    "title": {
+      "text": "Esoteric Astrology",
+      "citation_key": "Alice_Bailey-Esoteric_Astrology"
+    },
+    "author": {
+      "text": "Alice Bailey",
+      "citation_key": "Alice_Bailey-Esoteric_Astrology"
+    },
     "url": "#"
   },
   "John-Gospel_of_John_11": {
-    "title": "Gospel of John 1:1",
-    "author": "John",
+    "title": {
+      "text": "Gospel of John 1:1",
+      "citation_key": "John-Gospel_of_John_11"
+    },
+    "author": {
+      "text": "John",
+      "citation_key": "John-Gospel_of_John_11"
+    },
     "url": "#"
   },
   "Carl_Gustav_Jung-The_Psychology_of_the_Transference": {
-    "title": "The Psychology of the Transference",
-    "author": "Carl Gustav Jung",
+    "title": {
+      "text": "The Psychology of the Transference",
+      "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+    },
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-The_Psychology_of_the_Transference"
+    },
     "url": "#"
   },
   "Pythagoras-Sacred_Mathematics_of_the_Ancients": {
-    "title": "Sacred Mathematics of the Ancients",
-    "author": "Pythagoras",
+    "title": {
+      "text": "Sacred Mathematics of the Ancients",
+      "citation_key": "Pythagoras-Sacred_Mathematics_of_the_Ancients"
+    },
+    "author": {
+      "text": "Pythagoras",
+      "citation_key": "Pythagoras-Sacred_Mathematics_of_the_Ancients"
+    },
     "url": "#"
   },
   "Rudolf_Steiner-Spiritual_Science_and_Anthroposophy": {
-    "title": "Spiritual Science and Anthroposophy",
-    "author": "Rudolf Steiner",
+    "title": {
+      "text": "Spiritual Science and Anthroposophy",
+      "citation_key": "Rudolf_Steiner-Spiritual_Science_and_Anthroposophy"
+    },
+    "author": {
+      "text": "Rudolf Steiner",
+      "citation_key": "Rudolf_Steiner-Spiritual_Science_and_Anthroposophy"
+    },
     "url": "#"
   },
   "Dane_Rudhyar-The_Astrology_of_Personality": {
-    "title": "The Astrology of Personality",
-    "author": "Dane Rudhyar",
+    "title": {
+      "text": "The Astrology of Personality",
+      "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality"
+    },
+    "author": {
+      "text": "Dane Rudhyar",
+      "citation_key": "Dane_Rudhyar-The_Astrology_of_Personality"
+    },
     "url": "#"
   },
   "Helena_P_Blavatsky-The_Secret_Doctrine": {
-    "title": "The Secret Doctrine",
-    "author": "Helena P. Blavatsky",
+    "title": {
+      "text": "The Secret Doctrine",
+      "citation_key": "Helena_P_Blavatsky-The_Secret_Doctrine"
+    },
+    "author": {
+      "text": "Helena P. Blavatsky",
+      "citation_key": "Helena_P_Blavatsky-The_Secret_Doctrine"
+    },
     "url": "#"
   },
   "Alice_Bailey-Esoteric_Numerology": {
-    "title": "Esoteric Numerology",
-    "author": "Alice Bailey",
+    "title": {
+      "text": "Esoteric Numerology",
+      "citation_key": "Alice_Bailey-Esoteric_Numerology"
+    },
+    "author": {
+      "text": "Alice Bailey",
+      "citation_key": "Alice_Bailey-Esoteric_Numerology"
+    },
     "url": "#"
   },
   "Max_Heindel-The_Rosicrucian_Cosmo-Conception": {
-    "title": "The Rosicrucian Cosmo-Conception",
-    "author": "Max Heindel",
+    "title": {
+      "text": "The Rosicrucian Cosmo-Conception",
+      "citation_key": "Max_Heindel-The_Rosicrucian_Cosmo-Conception"
+    },
+    "author": {
+      "text": "Max Heindel",
+      "citation_key": "Max_Heindel-The_Rosicrucian_Cosmo-Conception"
+    },
     "url": "#"
   },
   "Corinne_Heline-Sacred_Science_of_Numbers": {
-    "title": "Sacred Science of Numbers",
-    "author": "Corinne Heline",
+    "title": {
+      "text": "Sacred Science of Numbers",
+      "citation_key": "Corinne_Heline-Sacred_Science_of_Numbers"
+    },
+    "author": {
+      "text": "Corinne Heline",
+      "citation_key": "Corinne_Heline-Sacred_Science_of_Numbers"
+    },
     "url": "#"
   },
   "Edgar_Cayce-Edgar_Cayce_on_Numbers": {
-    "title": "Edgar Cayce on Numbers",
-    "author": "Edgar Cayce",
+    "title": {
+      "text": "Edgar Cayce on Numbers",
+      "citation_key": "Edgar_Cayce-Edgar_Cayce_on_Numbers"
+    },
+    "author": {
+      "text": "Edgar Cayce",
+      "citation_key": "Edgar_Cayce-Edgar_Cayce_on_Numbers"
+    },
     "url": "#"
   },
   "Glynis_McCants-Glynis_Has_Your_Number": {
-    "title": "Glynis Has Your Number",
-    "author": "Glynis McCants",
+    "title": {
+      "text": "Glynis Has Your Number",
+      "citation_key": "Glynis_McCants-Glynis_Has_Your_Number"
+    },
+    "author": {
+      "text": "Glynis McCants",
+      "citation_key": "Glynis_McCants-Glynis_Has_Your_Number"
+    },
     "url": "#"
   },
   "Doreen_Virtue-Angel_Numbers_101": {
-    "title": "Angel Numbers 101",
-    "author": "Doreen Virtue",
+    "title": {
+      "text": "Angel Numbers 101",
+      "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+    },
+    "author": {
+      "text": "Doreen Virtue",
+      "citation_key": "Doreen_Virtue-Angel_Numbers_101"
+    },
     "url": "#"
   },
   "Pythagoras-Fragments_and_testimonies": {
-    "title": "Fragments and testimonies",
-    "author": "Pythagoras",
+    "title": {
+      "text": "Fragments and testimonies",
+      "citation_key": "Pythagoras-Fragments_and_testimonies"
+    },
+    "author": {
+      "text": "Pythagoras",
+      "citation_key": "Pythagoras-Fragments_and_testimonies"
+    },
     "url": "#"
   },
   "Nikola_Tesla-On_the_Nature_of_Vibration": {
-    "title": "On the Nature of Vibration",
-    "author": "Nikola Tesla",
+    "title": {
+      "text": "On the Nature of Vibration",
+      "citation_key": "Nikola_Tesla-On_the_Nature_of_Vibration"
+    },
+    "author": {
+      "text": "Nikola Tesla",
+      "citation_key": "Nikola_Tesla-On_the_Nature_of_Vibration"
+    },
     "url": "#"
   },
   "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs": {
-    "title": "Cunningham's Encyclopedia of Magical Herbs",
-    "author": "Scott Cunningham",
+    "title": {
+      "text": "Cunningham's Encyclopedia of Magical Herbs",
+      "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs"
+    },
+    "author": {
+      "text": "Scott Cunningham",
+      "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs"
+    },
     "url": "#"
   },
   "Marie-Louise_von_Franz-The_Interpretation_of_Fairy_Tales": {
-    "title": "The Interpretation of Fairy Tales",
-    "author": "Marie-Louise von Franz",
+    "title": {
+      "text": "The Interpretation of Fairy Tales",
+      "citation_key": "Marie-Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+    },
+    "author": {
+      "text": "Marie-Louise von Franz",
+      "citation_key": "Marie-Louise_von_Franz-The_Interpretation_of_Fairy_Tales"
+    },
     "url": "#"
   },
   "Clarissa_Pinkola_Estes-Women_Who_Run_With_the_Wolves": {
-    "title": "Women Who Run With the Wolves",
-    "author": "Clarissa Pinkola Estés",
+    "title": {
+      "text": "Women Who Run With the Wolves",
+      "citation_key": "Clarissa_Pinkola_Estes-Women_Who_Run_With_the_Wolves"
+    },
+    "author": {
+      "text": "Clarissa Pinkola Estés",
+      "citation_key": "Clarissa_Pinkola_Estes-Women_Who_Run_With_the_Wolves"
+    },
     "url": "#"
   },
   "Jean_Shinoda_Bolen-Goddesses_in_Everywoman": {
-    "title": "Goddesses in Everywoman",
-    "author": "Jean Shinoda Bolen",
+    "title": {
+      "text": "Goddesses in Everywoman",
+      "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+    },
+    "author": {
+      "text": "Jean Shinoda Bolen",
+      "citation_key": "Jean_Shinoda_Bolen-Goddesses_in_Everywoman"
+    },
     "url": "#"
   },
   "Robert_Moore-King_Warrior_Magician_Lover": {
-    "title": "King, Warrior, Magician, Lover",
-    "author": "Robert Moore",
+    "title": {
+      "text": "King, Warrior, Magician, Lover",
+      "citation_key": "Robert_Moore-King_Warrior_Magician_Lover"
+    },
+    "author": {
+      "text": "Robert Moore",
+      "citation_key": "Robert_Moore-King_Warrior_Magician_Lover"
+    },
     "url": "#"
   },
   "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life": {
-    "title": "Finding Meaning in the Second Half of Life",
-    "author": "James Hollis",
+    "title": {
+      "text": "Finding Meaning in the Second Half of Life",
+      "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+    },
+    "author": {
+      "text": "James Hollis",
+      "citation_key": "James_Hollis-Finding_Meaning_in_the_Second_Half_of_Life"
+    },
     "url": "#"
   },
   "Verena_Kast-The_Nature_of_Loving": {
-    "title": "The Nature of Loving",
-    "author": "Verena Kast",
+    "title": {
+      "text": "The Nature of Loving",
+      "citation_key": "Verena_Kast-The_Nature_of_Loving"
+    },
+    "author": {
+      "text": "Verena Kast",
+      "citation_key": "Verena_Kast-The_Nature_of_Loving"
+    },
     "url": "#"
   },
   "Aniela_Jaffe-The_Myth_of_Meaning": {
-    "title": "The Myth of Meaning",
-    "author": "Aniela Jaffé",
+    "title": {
+      "text": "The Myth of Meaning",
+      "citation_key": "Aniela_Jaffe-The_Myth_of_Meaning"
+    },
+    "author": {
+      "text": "Aniela Jaffé",
+      "citation_key": "Aniela_Jaffe-The_Myth_of_Meaning"
+    },
     "url": "#"
   },
   "James_Hillman-Re-Visioning_Psychology": {
-    "title": "Re-Visioning Psychology",
-    "author": "James Hillman",
+    "title": {
+      "text": "Re-Visioning Psychology",
+      "citation_key": "James_Hillman-Re-Visioning_Psychology"
+    },
+    "author": {
+      "text": "James Hillman",
+      "citation_key": "James_Hillman-Re-Visioning_Psychology"
+    },
     "url": "#"
   },
   "Edward_Edinger-The_Christian_Archetype": {
-    "title": "The Christian Archetype",
-    "author": "Edward Edinger",
+    "title": {
+      "text": "The Christian Archetype",
+      "citation_key": "Edward_Edinger-The_Christian_Archetype"
+    },
+    "author": {
+      "text": "Edward Edinger",
+      "citation_key": "Edward_Edinger-The_Christian_Archetype"
+    },
     "url": "#"
   },
   "Stanislav_Grof-Psychology_of_the_Future": {
-    "title": "Psychology of the Future",
-    "author": "Stanislav Grof",
+    "title": {
+      "text": "Psychology of the Future",
+      "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+    },
+    "author": {
+      "text": "Stanislav Grof",
+      "citation_key": "Stanislav_Grof-Psychology_of_the_Future"
+    },
     "url": "#"
   },
   "Robert_Johnson-Owning_Your_Own_Shadow": {
-    "title": "Owning Your Own Shadow",
-    "author": "Robert Johnson",
+    "title": {
+      "text": "Owning Your Own Shadow",
+      "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+    },
+    "author": {
+      "text": "Robert Johnson",
+      "citation_key": "Robert_Johnson-Owning_Your_Own_Shadow"
+    },
     "url": "#"
   },
   "John_Sanford-The_Man_Who_Wrestled_with_God": {
-    "title": "The Man Who Wrestled with God",
-    "author": "John Sanford",
+    "title": {
+      "text": "The Man Who Wrestled with God",
+      "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+    },
+    "author": {
+      "text": "John Sanford",
+      "citation_key": "John_Sanford-The_Man_Who_Wrestled_with_God"
+    },
     "url": "#"
   },
   "Marion_Woodman-The_Pregnant_Virgin": {
-    "title": "The Pregnant Virgin",
-    "author": "Marion Woodman",
+    "title": {
+      "text": "The Pregnant Virgin",
+      "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+    },
+    "author": {
+      "text": "Marion Woodman",
+      "citation_key": "Marion_Woodman-The_Pregnant_Virgin"
+    },
     "url": "#"
   },
   "Marie-Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales": {
-    "title": "The Psychological Meaning of Redemption Motifs in Fairytales",
-    "author": "Marie-Louise von Franz",
+    "title": {
+      "text": "The Psychological Meaning of Redemption Motifs in Fairytales",
+      "citation_key": "Marie-Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+    },
+    "author": {
+      "text": "Marie-Louise von Franz",
+      "citation_key": "Marie-Louise_von_Franz-The_Psychological_Meaning_of_Redemption_Motifs_in_Fairytales"
+    },
     "url": "#"
   },
   "John_Sanford-Mystical_Christianity": {
-    "title": "Mystical Christianity",
-    "author": "John Sanford",
+    "title": {
+      "text": "Mystical Christianity",
+      "citation_key": "John_Sanford-Mystical_Christianity"
+    },
+    "author": {
+      "text": "John Sanford",
+      "citation_key": "John_Sanford-Mystical_Christianity"
+    },
     "url": "#"
   },
   "Joseph_Campbell-A_Joseph_Campbell_Companion": {
-    "title": "A Joseph Campbell Companion",
-    "author": "Joseph Campbell",
+    "title": {
+      "text": "A Joseph Campbell Companion",
+      "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+    },
+    "author": {
+      "text": "Joseph Campbell",
+      "citation_key": "Joseph_Campbell-A_Joseph_Campbell_Companion"
+    },
     "url": "#"
   },
   "Carl_Gustav_Jung-Psychology_and_Religion": {
-    "title": "Psychology and Religion",
-    "author": "Carl Gustav Jung",
+    "title": {
+      "text": "Psychology and Religion",
+      "citation_key": "Carl_Gustav_Jung-Psychology_and_Religion"
+    },
+    "author": {
+      "text": "Carl Gustav Jung",
+      "citation_key": "Carl_Gustav_Jung-Psychology_and_Religion"
+    },
     "url": "#"
   },
   "Johannes_Kepler-Harmony_of_the_Worlds": {
-    "title": "Harmony of the Worlds",
-    "author": "Johannes Kepler",
+    "title": {
+      "text": "Harmony of the Worlds",
+      "citation_key": "Johannes_Kepler-Harmony_of_the_Worlds"
+    },
+    "author": {
+      "text": "Johannes Kepler",
+      "citation_key": "Johannes_Kepler-Harmony_of_the_Worlds"
+    },
     "url": "#"
   },
   "Luca_Pacioli-De_Divina_Proportione": {
-    "title": "De Divina Proportione",
-    "author": "Luca Pacioli",
+    "title": {
+      "text": "De Divina Proportione",
+      "citation_key": "Luca_Pacioli-De_Divina_Proportione"
+    },
+    "author": {
+      "text": "Luca Pacioli",
+      "citation_key": "Luca_Pacioli-De_Divina_Proportione"
+    },
     "url": "#"
   },
   "Aristotle-On_the_Heavens": {
-    "title": "On the Heavens",
-    "author": "Aristotle",
+    "title": {
+      "text": "On the Heavens",
+      "citation_key": "Aristotle-On_the_Heavens"
+    },
+    "author": {
+      "text": "Aristotle",
+      "citation_key": "Aristotle-On_the_Heavens"
+    },
     "url": "#"
   },
   "Pythagoras-Sacred_Mathematics": {
-    "title": "Sacred Mathematics",
-    "author": "Pythagoras",
+    "title": {
+      "text": "Sacred Mathematics",
+      "citation_key": "Pythagoras-Sacred_Mathematics"
+    },
+    "author": {
+      "text": "Pythagoras",
+      "citation_key": "Pythagoras-Sacred_Mathematics"
+    },
     "url": "#"
   },
   "St_Augustine-City_of_God": {
-    "title": "City of God",
-    "author": "St. Augustine",
+    "title": {
+      "text": "City of God",
+      "citation_key": "St_Augustine-City_of_God"
+    },
+    "author": {
+      "text": "St. Augustine",
+      "citation_key": "St_Augustine-City_of_God"
+    },
     "url": "#"
   },
   "Philo_of_Alexandria-On_the_Creation_of_the_World": {
-    "title": "On the Creation of the World",
-    "author": "Philo of Alexandria",
+    "title": {
+      "text": "On the Creation of the World",
+      "citation_key": "Philo_of_Alexandria-On_the_Creation_of_the_World"
+    },
+    "author": {
+      "text": "Philo of Alexandria",
+      "citation_key": "Philo_of_Alexandria-On_the_Creation_of_the_World"
+    },
     "url": "#"
   },
   "Clement_of_Alexandria-Stromata": {
-    "title": "Stromata",
-    "author": "Clement of Alexandria",
+    "title": {
+      "text": "Stromata",
+      "citation_key": "Clement_of_Alexandria-Stromata"
+    },
+    "author": {
+      "text": "Clement of Alexandria",
+      "citation_key": "Clement_of_Alexandria-Stromata"
+    },
     "url": "#"
   },
   "Pseudo-Dionysius-Celestial_Hierarchy": {
-    "title": "Celestial Hierarchy",
-    "author": "Pseudo-Dionysius",
+    "title": {
+      "text": "Celestial Hierarchy",
+      "citation_key": "Pseudo-Dionysius-Celestial_Hierarchy"
+    },
+    "author": {
+      "text": "Pseudo-Dionysius",
+      "citation_key": "Pseudo-Dionysius-Celestial_Hierarchy"
+    },
     "url": "#"
   },
   "Pythagoras-Mathematical_Principles": {
-    "title": "Mathematical Principles",
-    "author": "Pythagoras",
+    "title": {
+      "text": "Mathematical Principles",
+      "citation_key": "Pythagoras-Mathematical_Principles"
+    },
+    "author": {
+      "text": "Pythagoras",
+      "citation_key": "Pythagoras-Mathematical_Principles"
+    },
     "url": "#"
   },
   "Plato-Timaeus": {
-    "title": "Timaeus",
-    "author": "Plato",
+    "title": {
+      "text": "Timaeus",
+      "citation_key": "Plato-Timaeus"
+    },
+    "author": {
+      "text": "Plato",
+      "citation_key": "Plato-Timaeus"
+    },
     "url": "#"
   },
   "Drunvalo_Melchizedek-The_Ancient_Secret_of_the_Flower_of_Life": {
-    "title": "The Ancient Secret of the Flower of Life",
-    "author": "Drunvalo Melchizedek",
+    "title": {
+      "text": "The Ancient Secret of the Flower of Life",
+      "citation_key": "Drunvalo_Melchizedek-The_Ancient_Secret_of_the_Flower_of_Life"
+    },
+    "author": {
+      "text": "Drunvalo Melchizedek",
+      "citation_key": "Drunvalo_Melchizedek-The_Ancient_Secret_of_the_Flower_of_Life"
+    },
     "url": "#"
   },
   "Jonathan_Goldman-Healing_Sounds": {
-    "title": "Healing Sounds",
-    "author": "Jonathan Goldman",
+    "title": {
+      "text": "Healing Sounds",
+      "citation_key": "Jonathan_Goldman-Healing_Sounds"
+    },
+    "author": {
+      "text": "Jonathan Goldman",
+      "citation_key": "Jonathan_Goldman-Healing_Sounds"
+    },
     "url": "#"
   },
   "John_Michell-The_Dimensions_of_Paradise": {
-    "title": "The Dimensions of Paradise",
-    "author": "John Michell",
+    "title": {
+      "text": "The Dimensions of Paradise",
+      "citation_key": "John_Michell-The_Dimensions_of_Paradise"
+    },
+    "author": {
+      "text": "John Michell",
+      "citation_key": "John_Michell-The_Dimensions_of_Paradise"
+    },
     "url": "#"
   },
   "Plato-Republic": {
-    "title": "Republic",
-    "author": "Plato",
+    "title": {
+      "text": "Republic",
+      "citation_key": "Plato-Republic"
+    },
+    "author": {
+      "text": "Plato",
+      "citation_key": "Plato-Republic"
+    },
     "url": "#"
   },
   "Johann_Wolfgang_von_Goethe-On_Architecture": {
-    "title": "On Architecture",
-    "author": "Johann Wolfgang von Goethe",
+    "title": {
+      "text": "On Architecture",
+      "citation_key": "Johann_Wolfgang_von_Goethe-On_Architecture"
+    },
+    "author": {
+      "text": "Johann Wolfgang von Goethe",
+      "citation_key": "Johann_Wolfgang_von_Goethe-On_Architecture"
+    },
     "url": "#"
   },
   "Mary_K_Greer-21_Ways_to_Read_a_Tarot_Card": {
-    "title": "21 Ways to Read a Tarot Card",
-    "author": "Mary K. Greer",
+    "title": {
+      "text": "21 Ways to Read a Tarot Card",
+      "citation_key": "Mary_K_Greer-21_Ways_to_Read_a_Tarot_Card"
+    },
+    "author": {
+      "text": "Mary K. Greer",
+      "citation_key": "Mary_K_Greer-21_Ways_to_Read_a_Tarot_Card"
+    },
     "url": "#"
   },
   "Rudolf_Steiner-The_Four_Temperaments": {
-    "title": "The Four Temperaments",
-    "author": "Rudolf Steiner",
+    "title": {
+      "text": "The Four Temperaments",
+      "citation_key": "Rudolf_Steiner-The_Four_Temperaments"
+    },
+    "author": {
+      "text": "Rudolf Steiner",
+      "citation_key": "Rudolf_Steiner-The_Four_Temperaments"
+    },
     "url": "#"
   },
   "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation": {
-    "title": "The Emerald Tablet: Alchemy for Personal Transformation",
-    "author": "Dennis William Hauck",
+    "title": {
+      "text": "The Emerald Tablet: Alchemy for Personal Transformation",
+      "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation"
+    },
+    "author": {
+      "text": "Dennis William Hauck",
+      "citation_key": "Dennis_William_Hauck-The_Emerald_Tablet_Alchemy_for_Personal_Transformation"
+    },
     "url": "#"
   },
   "Hermes_Trismegistus-Corpus_Hermeticum": {
-    "title": "Corpus Hermeticum",
-    "author": "Hermes Trismegistus",
+    "title": {
+      "text": "Corpus Hermeticum",
+      "citation_key": "Hermes_Trismegistus-Corpus_Hermeticum"
+    },
+    "author": {
+      "text": "Hermes Trismegistus",
+      "citation_key": "Hermes_Trismegistus-Corpus_Hermeticum"
+    },
     "url": "#"
   },
   "Liz_Greene-The_Astrology_of_Fate": {
-    "title": "The Astrology of Fate",
-    "author": "Liz Greene",
+    "title": {
+      "text": "The Astrology of Fate",
+      "citation_key": "Liz_Greene-The_Astrology_of_Fate"
+    },
+    "author": {
+      "text": "Liz Greene",
+      "citation_key": "Liz_Greene-The_Astrology_of_Fate"
+    },
     "url": "#"
   },
   "Stephen_Arroyo-Astrology_Psychology_and_the_Four_Elements": {
-    "title": "Astrology, Psychology and the Four Elements",
-    "author": "Stephen Arroyo",
+    "title": {
+      "text": "Astrology, Psychology and the Four Elements",
+      "citation_key": "Stephen_Arroyo-Astrology_Psychology_and_the_Four_Elements"
+    },
+    "author": {
+      "text": "Stephen Arroyo",
+      "citation_key": "Stephen_Arroyo-Astrology_Psychology_and_the_Four_Elements"
+    },
     "url": "#"
   },
   "Howard_Sasportas-The_Gods_of_Change": {
-    "title": "The Gods of Change",
-    "author": "Howard Sasportas",
+    "title": {
+      "text": "The Gods of Change",
+      "citation_key": "Howard_Sasportas-The_Gods_of_Change"
+    },
+    "author": {
+      "text": "Howard Sasportas",
+      "citation_key": "Howard_Sasportas-The_Gods_of_Change"
+    },
     "url": "#"
   },
   "Charles_Harvey-Mundane_Astrology": {
-    "title": "Mundane Astrology",
-    "author": "Charles Harvey",
+    "title": {
+      "text": "Mundane Astrology",
+      "citation_key": "Charles_Harvey-Mundane_Astrology"
+    },
+    "author": {
+      "text": "Charles Harvey",
+      "citation_key": "Charles_Harvey-Mundane_Astrology"
+    },
     "url": "#"
   },
   "Erin_Sullivan-Saturn_in_Transit": {
-    "title": "Saturn in Transit",
-    "author": "Erin Sullivan",
+    "title": {
+      "text": "Saturn in Transit",
+      "citation_key": "Erin_Sullivan-Saturn_in_Transit"
+    },
+    "author": {
+      "text": "Erin Sullivan",
+      "citation_key": "Erin_Sullivan-Saturn_in_Transit"
+    },
     "url": "#"
   },
   "Richard_Tarnas-Prometheus_the_Awakener": {
-    "title": "Prometheus the Awakener",
-    "author": "Richard Tarnas",
+    "title": {
+      "text": "Prometheus the Awakener",
+      "citation_key": "Richard_Tarnas-Prometheus_the_Awakener"
+    },
+    "author": {
+      "text": "Richard Tarnas",
+      "citation_key": "Richard_Tarnas-Prometheus_the_Awakener"
+    },
     "url": "#"
   },
   "Donna_Cunningham-An_Astrological_Guide_to_Self-Awareness": {
-    "title": "An Astrological Guide to Self-Awareness",
-    "author": "Donna Cunningham",
+    "title": {
+      "text": "An Astrological Guide to Self-Awareness",
+      "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self-Awareness"
+    },
+    "author": {
+      "text": "Donna Cunningham",
+      "citation_key": "Donna_Cunningham-An_Astrological_Guide_to_Self-Awareness"
+    },
     "url": "#"
   },
   "Jeff_Green-Pluto_The_Evolutionary_Journey_of_the_Soul": {
-    "title": "Pluto: The Evolutionary Journey of the Soul",
-    "author": "Jeff Green",
+    "title": {
+      "text": "Pluto: The Evolutionary Journey of the Soul",
+      "citation_key": "Jeff_Green-Pluto_The_Evolutionary_Journey_of_the_Soul"
+    },
+    "author": {
+      "text": "Jeff Green",
+      "citation_key": "Jeff_Green-Pluto_The_Evolutionary_Journey_of_the_Soul"
+    },
     "url": "#"
   },
   "Ted_Andrews-Animal-Speak": {
-    "title": "Animal-Speak: The Spiritual & Magical Powers of Creatures Great & Small",
-    "author": "Ted Andrews",
+    "title": {
+      "text": "Animal-Speak: The Spiritual & Magical Powers of Creatures Great & Small",
+      "citation_key": "Ted_Andrews-Animal-Speak"
+    },
+    "author": {
+      "text": "Ted Andrews",
+      "citation_key": "Ted_Andrews-Animal-Speak"
+    },
     "url": "#"
   }
 }

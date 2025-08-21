@@ -13,12 +13,12 @@
     "daily_rhythms": {
       "planetary_hours": {
         "description": {
-          "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living",
-          "text": "Ancient system dividing each day into 24 planetary hours for optimal timing"
+          "text": "Ancient system dividing each day into 24 planetary hours for optimal timing",
+          "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living"
         },
         "calculation_method": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Divide sunrise to sunset into 12 equal parts (day hours), sunset to sunrise into 12 equal parts (night hours)"
+          "text": "Divide sunrise to sunset into 12 equal parts (day hours), sunset to sunrise into 12 equal parts (night hours)",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "sunday_sequence": [
           "Sun",
@@ -49,161 +49,161 @@
         "applications": {
           "sun_hours": {
             "optimal_for": [
-              "leadership decisions",
-              "success magic",
-              "vitality work",
-              "authority matters"
+              { "text": "leadership decisions", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "success magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "vitality work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "authority matters", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "tarot_cards": [
               "The Sun",
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Six of Wands"
+                "text": "Six of Wands",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               },
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "King of Wands"
+                "text": "King of Wands",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               }
             ],
             "avoid": [
-              "secret activities",
-              "nighttime magic",
-              "emotional work"
+              { "text": "secret activities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "nighttime magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "emotional work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ]
           },
           "moon_hours": {
             "optimal_for": [
-              "psychic work",
-              "intuition",
-              "women's mysteries",
-              "dream work"
+              { "text": "psychic work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "intuition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "women's mysteries", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "dream work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "tarot_cards": [
               "The Moon",
               "The High Priestess",
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Queen of Cups"
+                "text": "Queen of Cups",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               }
             ],
             "avoid": [
-              "rational analysis",
-              "business decisions",
-              "aggressive action"
+              { "text": "rational analysis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "business decisions", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "aggressive action", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ]
           },
           "mercury_hours": {
             "optimal_for": [
-              "communication",
-              "learning",
-              "writing",
-              "technology"
+              { "text": "communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "learning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "writing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "technology", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "tarot_cards": [
               "The Magician",
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Eight of Pentacles"
+                "text": "Eight of Pentacles",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               },
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Page of Swords"
+                "text": "Page of Swords",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               }
             ],
             "avoid": [
-              "emotional decisions",
-              "rest",
-              "meditation"
+              { "text": "emotional decisions", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "rest", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "meditation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ]
           },
           "venus_hours": {
             "optimal_for": [
-              "love magic",
-              "artistic work",
-              "beauty",
-              "harmony"
+              { "text": "love magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "artistic work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "beauty", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "harmony", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "tarot_cards": [
               "The Empress",
               "The Lovers",
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Two of Cups"
+                "text": "Two of Cups",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               }
             ],
             "avoid": [
-              "conflict",
-              "war",
-              "aggressive competition"
+              { "text": "conflict", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "war", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "aggressive competition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ]
           },
           "mars_hours": {
             "optimal_for": [
-              "courage work",
-              "protection",
-              "competition",
-              "physical activity"
+              { "text": "courage work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "protection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "competition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "physical activity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "tarot_cards": [
               "The Tower",
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Five of Wands"
+                "text": "Five of Wands",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               },
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Knight of Wands"
+                "text": "Knight of Wands",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               }
             ],
             "avoid": [
-              "peaceful negotiations",
-              "gentle healing",
-              "diplomatic work"
+              { "text": "peaceful negotiations", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "gentle healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "diplomatic work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ]
           },
           "jupiter_hours": {
             "optimal_for": [
-              "expansion",
-              "legal matters",
-              "prosperity",
-              "spiritual teaching"
+              { "text": "expansion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "legal matters", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "prosperity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "spiritual teaching", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "tarot_cards": [
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Wheel of Fortune"
+                "text": "Wheel of Fortune",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               },
               "The Hierophant",
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Ten of Pentacles"
+                "text": "Ten of Pentacles",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               }
             ],
             "avoid": [
-              "petty concerns",
-              "restriction",
-              "detailed work"
+              { "text": "petty concerns", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "restriction", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "detailed work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ]
           },
           "saturn_hours": {
             "optimal_for": [
-              "binding",
-              "banishing",
-              "discipline",
-              "long-term planning"
+              { "text": "binding", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "banishing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "discipline", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "long-term planning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ],
             "tarot_cards": [
               "The World",
               "The Devil",
               {
-                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-                "text": "Four of Pentacles"
+                "text": "Four of Pentacles",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
               }
             ],
             "avoid": [
-              "celebrations",
-              "new beginnings",
-              "joyful activities"
+              { "text": "celebrations", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "new beginnings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+              { "text": "joyful activities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
             ]
           }
         }
@@ -211,12 +211,12 @@
       "circadian_correspondences": {
         "dawn": {
           "time_range": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Sunrise \u00b1 1 hour"
+            "text": "Sunrise \u00b1 1 hour",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "New beginnings, hope, fresh starts, air element"
+            "text": "New beginnings, hope, fresh starts, air element",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "The Fool",
@@ -225,68 +225,68 @@
             "Pages"
           ],
           "psychological_state": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Optimistic, clear-minded, ready for new experiences"
+            "text": "Optimistic, clear-minded, ready for new experiences",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Rebirth, renewal, divine inspiration"
+            "text": "Rebirth, renewal, divine inspiration",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "magical_work": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "blessing new projects"
+              "text": "blessing new projects",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "air magic",
-            "communication spells"
+            { "text": "air magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "communication spells", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "shadow_aspects": [
-            "false optimism",
-            "naivety",
-            "ignoring reality"
+            { "text": "false optimism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "naivety", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "ignoring reality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ]
         },
         "morning": {
-          "time_range": "2-6 hours after sunrise",
+          "time_range": { "text": "2-6 hours after sunrise", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Active manifestation, productivity, fire element growing"
+            "text": "Active manifestation, productivity, fire element growing",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "The Magician",
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Three of Wands"
+              "text": "Three of Wands",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             "Knights"
           ],
           "psychological_state": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Energetic, focused, productive"
+            "text": "Energetic, focused, productive",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine will in action, manifestation power"
+            "text": "Divine will in action, manifestation power",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "magical_work": [
-            "success magic",
-            "career spells",
-            "manifestation rituals"
+            { "text": "success magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "career spells", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "manifestation rituals", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "shadow_aspects": [
-            "workaholism",
-            "ignoring relationships",
-            "burnout"
+            { "text": "workaholism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "ignoring relationships", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "burnout", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ]
         },
         "noon": {
           "time_range": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Solar maximum \u00b1 1 hour"
+            "text": "Solar maximum \u00b1 1 hour",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Peak power, full manifestation, fire element at maximum"
+            "text": "Peak power, full manifestation, fire element at maximum",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "The Sun",
@@ -294,146 +294,146 @@
             "Kings"
           ],
           "psychological_state": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Confident, powerful, authoritative"
+            "text": "Confident, powerful, authoritative",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine consciousness fully awake"
+            "text": "Divine consciousness fully awake",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "magical_work": [
-            "power magic",
-            "healing",
-            "authority spells"
+            { "text": "power magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "authority spells", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "shadow_aspects": [
-            "ego inflation",
-            "domination",
-            "burning others"
+            { "text": "ego inflation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "domination", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "burning others", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ]
         },
         "afternoon": {
-          "time_range": "2-6 hours before sunset",
+          "time_range": { "text": "2-6 hours before sunset", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Consolidation, relationship focus, air and earth balance"
+            "text": "Consolidation, relationship focus, air and earth balance",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "The Lovers",
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Six of Pentacles"
+              "text": "Six of Pentacles",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             "Queens"
           ],
           "psychological_state": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Social, collaborative, relationship-oriented"
+            "text": "Social, collaborative, relationship-oriented",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine love and cooperation"
+            "text": "Divine love and cooperation",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "magical_work": [
-            "relationship magic",
-            "social harmony",
-            "collaborative spells"
+            { "text": "relationship magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "social harmony", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "collaborative spells", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "shadow_aspects": [
-            "people-pleasing",
+            { "text": "people-pleasing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "losing individual identity"
+              "text": "losing individual identity",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "superficiality"
+            { "text": "superficiality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ]
         },
         "sunset": {
           "time_range": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Sunset \u00b1 1 hour"
+            "text": "Sunset \u00b1 1 hour",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Reflection, gratitude, completion, water element rising"
+            "text": "Reflection, gratitude, completion, water element rising",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Six of Cups"
+              "text": "Six of Cups",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Ten of Cups"
+              "text": "Ten of Cups",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             "The Hermit"
           ],
           "psychological_state": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Reflective, grateful, contemplative"
+            "text": "Reflective, grateful, contemplative",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine wisdom through experience"
+            "text": "Divine wisdom through experience",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "magical_work": [
-            "gratitude rituals",
-            "ancestor work",
-            "completion ceremonies"
+            { "text": "gratitude rituals", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "ancestor work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "completion ceremonies", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "shadow_aspects": [
-            "melancholy",
+            { "text": "melancholy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "living in past"
+              "text": "living in past",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "resistance to endings"
+              "text": "resistance to endings",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         },
         "evening": {
-          "time_range": "2-6 hours after sunset",
+          "time_range": { "text": "2-6 hours after sunset", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Emotional depth, family time, water element dominant"
+            "text": "Emotional depth, family time, water element dominant",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "The Moon",
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Four of Cups"
+              "text": "Four of Cups",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             "Court Cups"
           ],
           "psychological_state": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Emotional, intuitive, introspective"
+            "text": "Emotional, intuitive, introspective",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Barbara_Brennan-Hands_of_Light",
-            "text": "Divine feminine wisdom, emotional healing"
+            "text": "Divine feminine wisdom, emotional healing",
+            "citation_key": "Barbara_Brennan-Hands_of_Light"
           },
           "magical_work": [
-            "emotional healing",
-            "family magic",
-            "intuitive development"
+            { "text": "emotional healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "family magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "intuitive development", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "shadow_aspects": [
-            "emotional overwhelm",
-            "depression",
-            "escapism"
+            { "text": "emotional overwhelm", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "depression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "escapism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ]
         },
         "midnight": {
           "time_range": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Midnight \u00b1 1 hour"
+            "text": "Midnight \u00b1 1 hour",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Deep mystery, subconscious work, earth element at rest"
+            "text": "Deep mystery, subconscious work, earth element at rest",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "The High Priestess",
@@ -441,57 +441,57 @@
             "Death"
           ],
           "psychological_state": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Mystical, deep, accessing unconscious"
+            "text": "Mystical, deep, accessing unconscious",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine mystery, shadow work, deep transformation"
+            "text": "Divine mystery, shadow work, deep transformation",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "magical_work": [
-            "shadow work",
-            "deep healing",
-            "transformation magic"
+            { "text": "shadow work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "deep healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "transformation magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "shadow_aspects": [
-            "dark magic",
-            "depression",
-            "escapism"
+            { "text": "dark magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "depression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "escapism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ]
         },
         "deep_night": {
-          "time_range": "2-6 hours before sunrise",
+          "time_range": { "text": "2-6 hours before sunrise", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           "energy": {
-            "citation_key": "Carl_Jung-Man_and_His_Symbols",
-            "text": "Rest, renewal, dream work, preparation for rebirth"
+            "text": "Rest, renewal, dream work, preparation for rebirth",
+            "citation_key": "Carl_Jung-Man_and_His_Symbols"
           },
           "optimal_cards": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Four of Swords"
+              "text": "Four of Swords",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             "The Hanged Man",
             "Judgement"
           ],
           "psychological_state": {
-            "citation_key": "Carl_Jung-Man_and_His_Symbols",
-            "text": "Resting, dreaming, processing"
+            "text": "Resting, dreaming, processing",
+            "citation_key": "Carl_Jung-Man_and_His_Symbols"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine rest, preparation for renewal"
+            "text": "Divine rest, preparation for renewal",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "magical_work": [
-            "dream work",
-            "rest magic",
-            "preparation rituals"
+            { "text": "dream work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "rest magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "preparation rituals", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "shadow_aspects": [
-            "insomnia",
-            "anxiety",
+            { "text": "insomnia", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "anxiety", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "fear of dawn"
+              "text": "fear of dawn",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         }
@@ -502,375 +502,375 @@
         "ruling_planet": "Sun",
         "element": "Fire",
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Leadership, vitality, success, fatherhood, authority"
+          "text": "Leadership, vitality, success, fatherhood, authority",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_cards": [
           "The Sun",
           "The Emperor",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Six of Wands"
+            "text": "Six of Wands",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "King of Wands"
+            "text": "King of Wands",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "activities": [
-          "leadership work",
-          "success magic",
-          "solar healing",
-          "authority establishment"
+          { "text": "leadership work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "success magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "solar healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "authority establishment", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "subordinate roles",
-          "hidden activities",
-          "emotional vulnerability"
+          { "text": "subordinate roles", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "hidden activities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "emotional vulnerability", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "psychological_theme": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Stepping into personal power and leadership"
+          "text": "Stepping into personal power and leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "spiritual_lesson": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Embodying divine authority and radiant consciousness"
+          "text": "Embodying divine authority and radiant consciousness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "color_magic": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Gold, orange, bright yellow"
+          "text": "Gold, orange, bright yellow",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "gemstone_work": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Citrine, amber, sunstone, topaz"
+          "text": "Citrine, amber, sunstone, topaz",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "herbal_allies": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Sunflower, chamomile, St. John's wort, rosemary"
+          "text": "Sunflower, chamomile, St. John's wort, rosemary",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         }
       },
       "monday": {
         "ruling_planet": "Moon",
         "element": "Water",
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Intuition, emotions, motherhood, psychic abilities, cycles"
+          "text": "Intuition, emotions, motherhood, psychic abilities, cycles",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_cards": [
           "The Moon",
           "The High Priestess",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Queen of Cups"
+            "text": "Queen of Cups",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Two of Cups"
+            "text": "Two of Cups",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "activities": [
-          "psychic development",
-          "emotional healing",
-          "women's mysteries",
-          "lunar magic"
+          { "text": "psychic development", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "emotional healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "women's mysteries", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "lunar magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "aggressive action",
+          { "text": "aggressive action", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "logical analysis only"
+            "text": "logical analysis only",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
-          "suppressing emotions"
+          { "text": "suppressing emotions", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "psychological_theme": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Connecting with emotional and intuitive wisdom"
+          "text": "Connecting with emotional and intuitive wisdom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "spiritual_lesson": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Honoring the divine feminine and emotional intelligence"
+          "text": "Honoring the divine feminine and emotional intelligence",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "color_magic": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Silver, white, sea blue, pale green"
+          "text": "Silver, white, sea blue, pale green",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "gemstone_work": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Moonstone, pearl, aquamarine, selenite"
+          "text": "Moonstone, pearl, aquamarine, selenite",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "herbal_allies": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Jasmine, mugwort, water lily, white rose"
+          "text": "Jasmine, mugwort, water lily, white rose",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         }
       },
       "tuesday": {
         "ruling_planet": "Mars",
         "element": "Fire",
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Action, courage, competition, protection, war, sexuality"
+          "text": "Action, courage, competition, protection, war, sexuality",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_cards": [
           "The Tower",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Five of Wands"
+            "text": "Five of Wands",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Knight of Wands"
+            "text": "Knight of Wands",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Seven of Wands"
+            "text": "Seven of Wands",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "activities": [
-          "protection magic",
-          "courage building",
-          "competitive activities",
-          "passion work"
+          { "text": "protection magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "courage building", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "competitive activities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "passion work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "peaceful negotiations",
-          "gentle healing",
-          "passive activities"
+          { "text": "peaceful negotiations", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "gentle healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "passive activities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "psychological_theme": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Developing courage and assertiveness"
+          "text": "Developing courage and assertiveness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "spiritual_lesson": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Learning to fight for what is right and protect the innocent"
+          "text": "Learning to fight for what is right and protect the innocent",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "color_magic": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Red, scarlet, orange-red, burgundy"
+          "text": "Red, scarlet, orange-red, burgundy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "gemstone_work": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Ruby, garnet, bloodstone, red jasper"
+          "text": "Ruby, garnet, bloodstone, red jasper",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "herbal_allies": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Nettle, ginger, black pepper, dragon's blood"
+          "text": "Nettle, ginger, black pepper, dragon's blood",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         }
       },
       "wednesday": {
         "ruling_planet": "Mercury",
         "element": "Air",
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Communication, learning, travel, commerce, technology"
+          "text": "Communication, learning, travel, commerce, technology",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_cards": [
           "The Magician",
           "The Hermit",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Eight of Pentacles"
+            "text": "Eight of Pentacles",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Page of Swords"
+            "text": "Page of Swords",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "activities": [
-          "learning",
-          "communication magic",
-          "technology work",
-          "travel"
+          { "text": "learning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "communication magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "technology work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "travel", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "emotional intensity",
+          { "text": "emotional intensity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "physical labor only"
+            "text": "physical labor only",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "avoiding mental stimulation"
+            "text": "avoiding mental stimulation",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "psychological_theme": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Developing communication and intellectual abilities"
+          "text": "Developing communication and intellectual abilities",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "spiritual_lesson": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Using intelligence and communication to serve higher purposes"
+          "text": "Using intelligence and communication to serve higher purposes",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "color_magic": {
-          "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
-          "text": "Yellow, orange, light blue, variegated colors"
+          "text": "Yellow, orange, light blue, variegated colors",
+          "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy"
         },
         "gemstone_work": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Citrine, agate, fluorite, clear quartz"
+          "text": "Citrine, agate, fluorite, clear quartz",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "herbal_allies": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Lavender, fennel, caraway, mint"
+          "text": "Lavender, fennel, caraway, mint",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         }
       },
       "thursday": {
         "ruling_planet": "Jupiter",
         "element": "Fire",
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Expansion, wisdom, prosperity, teaching, legal matters, philosophy"
+          "text": "Expansion, wisdom, prosperity, teaching, legal matters, philosophy",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_cards": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Wheel of Fortune"
+            "text": "Wheel of Fortune",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "The Hierophant",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Ten of Pentacles"
+            "text": "Ten of Pentacles",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "King of Wands"
+            "text": "King of Wands",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "activities": [
-          "prosperity magic",
-          "teaching",
-          "legal work",
-          "spiritual expansion"
+          { "text": "prosperity magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "teaching", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "legal work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "spiritual expansion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "petty concerns",
-          "limitation thinking",
+          { "text": "petty concerns", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "limitation thinking", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "materialistic focus only"
+            "text": "materialistic focus only",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "psychological_theme": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Expanding consciousness and sharing wisdom"
+          "text": "Expanding consciousness and sharing wisdom",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "spiritual_lesson": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Growing in wisdom and sharing blessings with others"
+          "text": "Growing in wisdom and sharing blessings with others",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "color_magic": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Purple, royal blue, turquoise, gold"
+          "text": "Purple, royal blue, turquoise, gold",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "gemstone_work": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Sapphire, lapis lazuli, turquoise, amethyst"
+          "text": "Sapphire, lapis lazuli, turquoise, amethyst",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "herbal_allies": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Sage, oak, cedar, hyssop"
+          "text": "Sage, oak, cedar, hyssop",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         }
       },
       "friday": {
         "ruling_planet": "Venus",
         "element": "Earth/Water",
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Love, beauty, art, harmony, pleasure, relationships, money"
+          "text": "Love, beauty, art, harmony, pleasure, relationships, money",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_cards": [
           "The Empress",
           "The Lovers",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Two of Cups"
+            "text": "Two of Cups",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Queen of Pentacles"
+            "text": "Queen of Pentacles",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "activities": [
-          "love magic",
-          "artistic creation",
-          "beauty work",
-          "relationship healing"
+          { "text": "love magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "artistic creation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "beauty work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "relationship healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "conflict",
-          "harsh criticism",
-          "ugly environments"
+          { "text": "conflict", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "harsh criticism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "ugly environments", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "psychological_theme": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Developing capacity for love and appreciation of beauty"
+          "text": "Developing capacity for love and appreciation of beauty",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "spiritual_lesson": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Recognizing divine love and beauty in all creation"
+          "text": "Recognizing divine love and beauty in all creation",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "color_magic": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Green, pink, light blue, copper"
+          "text": "Green, pink, light blue, copper",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "gemstone_work": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Rose quartz, emerald, jade, copper"
+          "text": "Rose quartz, emerald, jade, copper",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "herbal_allies": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Rose, apple blossom, yarrow, elderflower"
+          "text": "Rose, apple blossom, yarrow, elderflower",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         }
       },
       "saturday": {
         "ruling_planet": "Saturn",
         "element": "Earth",
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Discipline, structure, limitation, time, karma, completion"
+          "text": "Discipline, structure, limitation, time, karma, completion",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_cards": [
           "The World",
           "The Devil",
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Ten of Swords"
+            "text": "Ten of Swords",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Four of Pentacles"
+            "text": "Four of Pentacles",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "activities": [
-          "banishing",
-          "binding",
-          "discipline work",
-          "karmic healing"
+          { "text": "banishing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "binding", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "discipline work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "karmic healing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "avoid": [
-          "frivolous activities",
-          "new beginnings",
-          "expansion work"
+          { "text": "frivolous activities", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "new beginnings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "expansion work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "psychological_theme": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Developing discipline and accepting necessary limitations"
+          "text": "Developing discipline and accepting necessary limitations",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "spiritual_lesson": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Understanding divine law and the necessity of structure"
+          "text": "Understanding divine law and the necessity of structure",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "color_magic": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Black, dark brown, indigo, lead gray"
+          "text": "Black, dark brown, indigo, lead gray",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "gemstone_work": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Hematite, obsidian, onyx, jet"
+          "text": "Hematite, obsidian, onyx, jet",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "herbal_allies": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Comfrey, cypress, myrrh, patchouli"
+          "text": "Comfrey, cypress, myrrh, patchouli",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         }
       }
     },
@@ -878,12 +878,12 @@
       "lunar_month_phases": {
         "new_moon": {
           "duration": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "3 days (day before, day of, day after)"
+            "text": "3 days (day before, day of, day after)",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs",
-            "text": "New beginnings, intention setting, planting seeds"
+            "text": "New beginnings, intention setting, planting seeds",
+            "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs"
           },
           "optimal_cards": [
             "Aces",
@@ -891,45 +891,45 @@
             "The Star"
           ],
           "magical_work": [
-            "intention setting",
+            { "text": "intention setting", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "new project blessing"
+              "text": "new project blessing",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "seed magic"
+            { "text": "seed magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "psychological_focus": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Clarifying desires and setting intentions"
+            "text": "Clarifying desires and setting intentions",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine feminine receptivity, new cycle blessing"
+            "text": "Divine feminine receptivity, new cycle blessing",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "avoid": [
-            "major decisions",
-            "harvesting",
-            "completion work"
+            { "text": "major decisions", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "harvesting", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "completion work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "tarot_spreads": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "New moon intention spread"
+              "text": "New moon intention spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs",
-              "text": "Seed planting spread"
+              "text": "Seed planting spread",
+              "citation_key": "Scott_Cunningham-Cunninghams_Encyclopedia_of_Magical_Herbs"
             }
           ]
         },
         "waxing_crescent": {
           "duration": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Approximately 3-7 days after new moon"
+            "text": "Approximately 3-7 days after new moon",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Initial growth, building momentum, taking first steps"
+            "text": "Initial growth, building momentum, taking first steps",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "Twos",
@@ -937,42 +937,42 @@
             "Pages"
           ],
           "magical_work": [
-            "growth magic",
-            "attraction spells",
-            "building energy"
+            { "text": "growth magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "attraction spells", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "building energy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "psychological_focus": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Taking action on intentions, building momentum"
+            "text": "Taking action on intentions, building momentum",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine support for new growth"
+            "text": "Divine support for new growth",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "activities": [
-            "starting projects",
-            "making plans",
-            "building habits"
+            { "text": "starting projects", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "making plans", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "building habits", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "tarot_spreads": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Growth potential spread"
+              "text": "Growth potential spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Next steps spread"
+              "text": "Next steps spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         },
         "first_quarter": {
           "duration": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "3 days around first quarter moon"
+            "text": "3 days around first quarter moon",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Challenge, decision, breakthrough, testing"
+            "text": "Challenge, decision, breakthrough, testing",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "Fives",
@@ -980,42 +980,42 @@
             "Knights"
           ],
           "magical_work": [
-            "breakthrough magic",
-            "courage spells",
-            "obstacle removal"
+            { "text": "breakthrough magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "courage spells", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "obstacle removal", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "psychological_focus": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Overcoming obstacles, making tough decisions"
+            "text": "Overcoming obstacles, making tough decisions",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine testing and strengthening"
+            "text": "Divine testing and strengthening",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "challenges": [
-            "resistance",
-            "obstacles",
-            "decision paralysis"
+            { "text": "resistance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "obstacles", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "decision paralysis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "tarot_spreads": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Challenge resolution spread"
+              "text": "Challenge resolution spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Decision making spread"
+              "text": "Decision making spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         },
         "waxing_gibbous": {
           "duration": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Approximately 3-7 days before full moon"
+            "text": "Approximately 3-7 days before full moon",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Refinement, adjustment, patience, preparation"
+            "text": "Refinement, adjustment, patience, preparation",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "Eights",
@@ -1023,39 +1023,39 @@
             "Queens"
           ],
           "magical_work": [
-            "refinement magic",
-            "patience spells",
-            "preparation rituals"
+            { "text": "refinement magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "patience spells", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "preparation rituals", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "psychological_focus": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Refining approach, developing patience, preparing for completion"
+            "text": "Refining approach, developing patience, preparing for completion",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine patience and perfection"
+            "text": "Divine patience and perfection",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "activities": [
-            "adjusting course",
-            "developing skills",
-            "patient persistence"
+            { "text": "adjusting course", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "developing skills", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "patient persistence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "tarot_spreads": [
-            "Refinement spread",
+            { "text": "Refinement spread", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Patience and preparation spread"
+              "text": "Patience and preparation spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         },
         "full_moon": {
           "duration": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "3 days (day before, day of, day after)"
+            "text": "3 days (day before, day of, day after)",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Culmination, peak power, illumination, completion"
+            "text": "Culmination, peak power, illumination, completion",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "Tens",
@@ -1063,43 +1063,43 @@
             "The Sun"
           ],
           "magical_work": [
-            "power magic",
-            "divination",
-            "charging",
-            "completion"
+            { "text": "power magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "divination", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "charging", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "completion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "psychological_focus": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Integration, culmination, full awareness"
+            "text": "Integration, culmination, full awareness",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine illumination and peak consciousness"
+            "text": "Divine illumination and peak consciousness",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "activities": [
-            "divination",
-            "energy charging",
-            "celebration"
+            { "text": "divination", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "energy charging", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "celebration", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "tarot_spreads": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Full moon illumination spread"
+              "text": "Full moon illumination spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Peak power spread"
+              "text": "Peak power spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         },
         "waning_gibbous": {
           "duration": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Approximately 3-7 days after full moon"
+            "text": "Approximately 3-7 days after full moon",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Gratitude, sharing, teaching, giving back"
+            "text": "Gratitude, sharing, teaching, giving back",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "Sixes",
@@ -1107,39 +1107,39 @@
             "The Hierophant"
           ],
           "magical_work": [
-            "gratitude magic",
-            "sharing spells",
-            "teaching rituals"
+            { "text": "gratitude magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "sharing spells", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "teaching rituals", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "psychological_focus": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Sharing wisdom, expressing gratitude, giving back"
+            "text": "Sharing wisdom, expressing gratitude, giving back",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine generosity and wisdom sharing"
+            "text": "Divine generosity and wisdom sharing",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "activities": [
-            "teaching",
-            "mentoring",
-            "sharing abundance"
+            { "text": "teaching", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "mentoring", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "sharing abundance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "tarot_spreads": [
-            "Gratitude spread",
+            { "text": "Gratitude spread", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Wisdom sharing spread"
+              "text": "Wisdom sharing spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         },
         "last_quarter": {
           "duration": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "3 days around last quarter moon"
+            "text": "3 days around last quarter moon",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Release, forgiveness, letting go, clearing"
+            "text": "Release, forgiveness, letting go, clearing",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "Fours",
@@ -1147,77 +1147,77 @@
             "The Hanged Man"
           ],
           "magical_work": [
-            "banishing",
-            "release magic",
-            "forgiveness rituals"
+            { "text": "banishing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "release magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "forgiveness rituals", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "psychological_focus": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Letting go, forgiving, clearing space"
+            "text": "Letting go, forgiving, clearing space",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine mercy and release"
+            "text": "Divine mercy and release",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "activities": [
-            "forgiveness work",
-            "decluttering",
-            "ending relationships"
+            { "text": "forgiveness work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "decluttering", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "ending relationships", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "tarot_spreads": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Release and forgiveness spread"
+              "text": "Release and forgiveness spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Letting go spread"
+              "text": "Letting go spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         },
         "waning_crescent": {
           "duration": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Approximately 3-7 days before new moon"
+            "text": "Approximately 3-7 days before new moon",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "energy": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Rest, reflection, inner work, preparation for rebirth"
+            "text": "Rest, reflection, inner work, preparation for rebirth",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "optimal_cards": [
             "The Hermit",
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Four of Swords"
+              "text": "Four of Swords",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             "Judgement"
           ],
           "magical_work": [
-            "rest magic",
-            "inner work",
-            "preparation rituals"
+            { "text": "rest magic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "inner work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "preparation rituals", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "psychological_focus": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Rest, reflection, inner preparation"
+            "text": "Rest, reflection, inner preparation",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "spiritual_significance": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Divine rest and preparation for renewal"
+            "text": "Divine rest and preparation for renewal",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "activities": [
-            "meditation",
-            "rest",
-            "inner reflection"
+            { "text": "meditation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "rest", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "inner reflection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "tarot_spreads": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Inner reflection spread"
+              "text": "Inner reflection spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "Rest and renewal spread"
+              "text": "Rest and renewal spread",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             }
           ]
         }
@@ -1226,12 +1226,12 @@
     "seasonal_cycles": {
       "spring_equinox_period": {
         "dates": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "March 15-April 15 (Northern Hemisphere)"
+          "text": "March 15-April 15 (Northern Hemisphere)",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "New beginnings, growth, air element awakening"
+          "text": "New beginnings, growth, air element awakening",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "dominant_cards": [
           "The Fool",
@@ -1241,41 +1241,41 @@
           "Threes"
         ],
         "psychological_themes": [
-          "renewal",
-          "hope",
-          "new projects",
-          "fresh starts"
+          { "text": "renewal", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "hope", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "new projects", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "fresh starts", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_significance": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Resurrection, rebirth, divine renewal"
+          "text": "Resurrection, rebirth, divine renewal",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_activities": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "starting new projects"
+            "text": "starting new projects",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
-          "planting seeds",
+          { "text": "planting seeds", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "blessing new ventures"
+            "text": "blessing new ventures",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "body_systems": [
-          "respiratory",
-          "nervous",
-          "circulatory awakening"
+          { "text": "respiratory", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "nervous", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "circulatory awakening", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "emotional_patterns": [
-          "optimism",
-          "excitement",
-          "restlessness",
-          "hope"
+          { "text": "optimism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "excitement", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "restlessness", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "hope", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "shadow_aspects": [
-          "overcommitment",
-          "scattered energy",
-          "impatience"
+          { "text": "overcommitment", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "scattered energy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "impatience", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "color_energies": [
           "Light green",
@@ -1297,24 +1297,24 @@
         ],
         "tarot_work": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "New year spreads"
+            "text": "New year spreads",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "goal setting readings"
+            "text": "goal setting readings",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
-          "potential assessment"
+          { "text": "potential assessment", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       },
       "late_spring_period": {
         "dates": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "April 15-May 31"
+          "text": "April 15-May 31",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Rapid growth, Venus energy, earth element flourishing"
+          "text": "Rapid growth, Venus energy, earth element flourishing",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "dominant_cards": [
           "The Empress",
@@ -1324,56 +1324,56 @@
           "Sixes"
         ],
         "psychological_themes": [
-          "creativity",
-          "learning",
-          "relationship building",
-          "skill development"
+          { "text": "creativity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "learning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "relationship building", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "skill development", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_significance": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Divine creativity, sacred sexuality, learning"
+          "text": "Divine creativity, sacred sexuality, learning",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_activities": [
-          "creative projects",
-          "relationship building",
+          { "text": "creative projects", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "relationship building", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "learning new skills"
+            "text": "learning new skills",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "body_systems": [
-          "reproductive",
-          "digestive",
-          "muscular strengthening"
+          { "text": "reproductive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "digestive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "muscular strengthening", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "emotional_patterns": [
-          "creativity",
-          "sensuality",
-          "productivity",
-          "social connection"
+          { "text": "creativity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "sensuality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "productivity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "social connection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "shadow_aspects": [
-          "overindulgence",
-          "superficiality",
-          "avoiding challenges"
+          { "text": "overindulgence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "superficiality", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "avoiding challenges", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "tarot_work": [
-          "Creativity spreads",
-          "relationship analysis",
+          { "text": "Creativity spreads", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "relationship analysis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "skill development readings"
+            "text": "skill development readings",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ]
       },
       "summer_solstice_period": {
         "dates": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "June 15-July 15"
+          "text": "June 15-July 15",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Peak manifestation, fire element at maximum, full power"
+          "text": "Peak manifestation, fire element at maximum, full power",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "dominant_cards": [
           "The Sun",
@@ -1383,59 +1383,59 @@
           "Eights"
         ],
         "psychological_themes": [
-          "achievement",
-          "confidence",
-          "leadership",
-          "full expression"
+          { "text": "achievement", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "confidence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "leadership", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "full expression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_significance": {
-          "citation_key": "Starhawk-The_Spiral_Dance",
-          "text": "Divine consciousness fully awakened, peak spiritual power"
+          "text": "Divine consciousness fully awakened, peak spiritual power",
+          "citation_key": "Starhawk-The_Spiral_Dance"
         },
         "optimal_activities": [
-          "leadership roles",
-          "major achievements",
-          "public recognition"
+          { "text": "leadership roles", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "major achievements", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "public recognition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "body_systems": [
-          "cardiovascular",
-          "muscular",
+          { "text": "cardiovascular", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "muscular", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "solar plexus at peak"
+            "text": "solar plexus at peak",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "emotional_patterns": [
-          "confidence",
-          "joy",
-          "extroversion",
-          "celebration"
+          { "text": "confidence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "joy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "extroversion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "celebration", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "shadow_aspects": [
-          "ego inflation",
-          "burnout",
+          { "text": "ego inflation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "burnout", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "ignoring others' needs"
+            "text": "ignoring others' needs",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "tarot_work": [
-          "Achievement readings",
-          "leadership guidance",
+          { "text": "Achievement readings", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "leadership guidance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "peak power spreads"
+            "text": "peak power spreads",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ]
       },
       "late_summer_period": {
         "dates": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "July 15-August 31"
+          "text": "July 15-August 31",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Sustained power, harvest beginning, fire-earth balance"
+          "text": "Sustained power, harvest beginning, fire-earth balance",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "dominant_cards": [
           "The Emperor",
@@ -1445,56 +1445,56 @@
           "Tens"
         ],
         "psychological_themes": [
-          "mastery",
-          "balance",
-          "harvesting results",
-          "wisdom"
+          { "text": "mastery", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "balance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "harvesting results", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_significance": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Divine justice, balanced power, wise leadership"
+          "text": "Divine justice, balanced power, wise leadership",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_activities": [
-          "mastering skills",
-          "harvesting results",
-          "teaching others"
+          { "text": "mastering skills", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "harvesting results", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "teaching others", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "body_systems": [
-          "digestive",
-          "metabolic",
+          { "text": "digestive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "metabolic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "immune system strengthening"
+            "text": "immune system strengthening",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "emotional_patterns": [
-          "satisfaction",
-          "wisdom",
-          "generosity",
-          "balance"
+          { "text": "satisfaction", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "generosity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "balance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "shadow_aspects": [
-          "complacency",
-          "pride",
+          { "text": "complacency", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "pride", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "taking success for granted"
+            "text": "taking success for granted",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "tarot_work": [
-          "Mastery assessment",
-          "wisdom sharing",
-          "balance evaluation"
+          { "text": "Mastery assessment", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "wisdom sharing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "balance evaluation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       },
       "autumn_equinox_period": {
         "dates": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "September 15-October 15"
+          "text": "September 15-October 15",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Balance, harvest, reflection, air-water transition"
+          "text": "Balance, harvest, reflection, air-water transition",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "dominant_cards": [
           "Justice",
@@ -1504,54 +1504,54 @@
           "Tens"
         ],
         "psychological_themes": [
-          "balance",
-          "reflection",
-          "justice",
-          "completion"
+          { "text": "balance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "reflection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "justice", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "completion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_significance": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Divine balance, karmic accounting, sacred justice"
+          "text": "Divine balance, karmic accounting, sacred justice",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_activities": [
-          "reflection",
-          "giving thanks",
-          "balancing accounts",
-          "justice work"
+          { "text": "reflection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "giving thanks", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "balancing accounts", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "justice work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "body_systems": [
-          "nervous",
-          "immune",
-          "eliminatory"
+          { "text": "nervous", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "immune", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "eliminatory", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "emotional_patterns": [
-          "gratitude",
-          "reflection",
-          "melancholy",
-          "preparation"
+          { "text": "gratitude", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "reflection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "melancholy", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "preparation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "shadow_aspects": [
-          "depression",
-          "regret",
+          { "text": "depression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "regret", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "resistance to change"
+            "text": "resistance to change",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "tarot_work": [
-          "Harvest reflection",
-          "balance assessment",
-          "gratitude spreads"
+          { "text": "Harvest reflection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "balance assessment", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "gratitude spreads", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       },
       "late_autumn_period": {
         "dates": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "October 15-November 30"
+          "text": "October 15-November 30",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Deep transformation, water element rising, shadow work"
+          "text": "Deep transformation, water element rising, shadow work",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "dominant_cards": [
           "Death",
@@ -1561,56 +1561,56 @@
           "Eights"
         ],
         "psychological_themes": [
-          "transformation",
-          "releasing",
-          "shadow work",
-          "deep change"
+          { "text": "transformation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "releasing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "shadow work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "deep change", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_significance": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Divine transformation, death-rebirth mysteries, shadow integration"
+          "text": "Divine transformation, death-rebirth mysteries, shadow integration",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_activities": [
-          "shadow work",
-          "releasing ceremonies",
-          "deep transformation"
+          { "text": "shadow work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "releasing ceremonies", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "deep transformation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "body_systems": [
-          "lymphatic",
-          "reproductive",
-          "eliminatory"
+          { "text": "lymphatic", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "reproductive", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "eliminatory", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "emotional_patterns": [
-          "intensity",
-          "depth",
-          "releasing",
-          "transformation"
+          { "text": "intensity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "depth", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "releasing", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "transformation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "shadow_aspects": [
-          "depression",
-          "obsession",
+          { "text": "depression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "obsession", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "resistance to change"
+            "text": "resistance to change",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "tarot_work": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Shadow work spreads"
+            "text": "Shadow work spreads",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
-          "transformation guidance",
-          "release ceremonies"
+          { "text": "transformation guidance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "release ceremonies", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       },
       "winter_solstice_period": {
         "dates": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "December 15-January 15"
+          "text": "December 15-January 15",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Deep rest, earth element dominant, inner work"
+          "text": "Deep rest, earth element dominant, inner work",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "dominant_cards": [
           "The Hanged Man",
@@ -1619,60 +1619,60 @@
           "Fours"
         ],
         "psychological_themes": [
-          "rest",
-          "inner work",
-          "gestation",
-          "wisdom"
+          { "text": "rest", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "inner work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "gestation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_significance": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Divine rest, inner wisdom, mystical consciousness"
+          "text": "Divine rest, inner wisdom, mystical consciousness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_activities": [
-          "rest",
-          "meditation",
-          "inner work",
-          "spiritual study"
+          { "text": "rest", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "meditation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "inner work", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "spiritual study", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "body_systems": [
-          "skeletal",
-          "immune",
+          { "text": "skeletal", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "immune", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "nervous system rest"
+            "text": "nervous system rest",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         ],
         "emotional_patterns": [
-          "introspection",
-          "peace",
-          "wisdom",
-          "patience"
+          { "text": "introspection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "peace", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "patience", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "shadow_aspects": [
-          "depression",
-          "isolation",
-          "stagnation"
+          { "text": "depression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "isolation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "stagnation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "tarot_work": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Inner wisdom spreads"
+            "text": "Inner wisdom spreads",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "rest and renewal"
+            "text": "rest and renewal",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
-          "spiritual guidance"
+          { "text": "spiritual guidance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       },
       "late_winter_period": {
         "dates": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "January 15-March 15"
+          "text": "January 15-March 15",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "energy": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Preparation for rebirth, earth-air transition, planning"
+          "text": "Preparation for rebirth, earth-air transition, planning",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "dominant_cards": [
           "The Star",
@@ -1682,399 +1682,402 @@
           "Threes"
         ],
         "psychological_themes": [
-          "hope",
-          "planning",
-          "preparation",
-          "vision"
+          { "text": "hope", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "planning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "preparation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "vision", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "spiritual_significance": {
-          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-          "text": "Divine hope, preparation for renewal, visionary consciousness"
+          "text": "Divine hope, preparation for renewal, visionary consciousness",
+          "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
         },
         "optimal_activities": [
-          "planning",
-          "visioning",
+          { "text": "planning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "visioning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "preparing for spring"
+            "text": "preparing for spring",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
-          "hope cultivation"
+          { "text": "hope cultivation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "body_systems": [
           {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "nervous system awakening"
+            "text": "nervous system awakening",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
-          "circulatory preparation"
+          { "text": "circulatory preparation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "emotional_patterns": [
-          "hope",
-          "anticipation",
-          "planning",
-          "vision"
+          { "text": "hope", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "anticipation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "planning", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "vision", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "shadow_aspects": [
-          "false hope",
-          "impatience",
-          "premature action"
+          { "text": "false hope", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "impatience", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "premature action", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ],
         "tarot_work": [
-          "Vision quests",
-          "planning spreads",
-          "hope cultivation"
+          { "text": "Vision quests", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "planning spreads", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+          { "text": "hope cultivation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
         ]
       }
     },
     "life_cycle_timing": {
       "seven_year_cycles": {
         "description": {
-          "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living",
-          "text": "Human development follows seven-year cycles corresponding to planetary influences"
+          "text": "Human development follows seven-year cycles corresponding to planetary influences",
+          "citation_key": "Robert_Hand-Planets_in_Transit_Life_Cycles_for_Living"
         },
         "quote": {
-          "citation_key": "Rudolf_Steiner-The_Four_Temperaments",
-          "text": "Every seven years, the human being undergoes a complete cellular renewal and psychological transformation, reflected in the ancient wisdom of planetary cycles."
+          "text": "Every seven years, the human being undergoes a complete cellular renewal and psychological transformation, reflected in the ancient wisdom of planetary cycles.",
+          "citation_key": "Rudolf_Steiner-The_Four_Temperaments"
         },
         "author": "Rudolf Steiner",
         "source": "The Four Temperaments",
         "ages_0_7": {
           "planetary_ruler": "Moon",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Fool, Pages"
+            "text": "The Fool, Pages",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Physical development, basic trust, innocence"
+            "text": "Physical development, basic trust, innocence",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
-            "developing trust",
+            { "text": "developing trust", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "learning basic safety"
+              "text": "learning basic safety",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "physical mastery"
+            { "text": "physical mastery", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning to trust the world and basic goodness"
+            "text": "Learning to trust the world and basic goodness",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "basic mistrust",
-            "physical insecurity",
-            "abandonment fears"
+            { "text": "basic mistrust", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "physical insecurity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "abandonment fears", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Barbara_Brennan-Hands_of_Light",
-            "text": "Family healing, inner child work, trust building"
+            "text": "Family healing, inner child work, trust building",
+            "citation_key": "Barbara_Brennan-Hands_of_Light"
           }
         },
         "ages_7_14": {
           "planetary_ruler": "Mercury",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Magician, Knights"
+            "text": "The Magician, Knights",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Mental development, learning, communication"
+            "text": "Mental development, learning, communication",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "developing intellectual capacity"
+              "text": "developing intellectual capacity",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "learning communication",
-            "skill building"
+            { "text": "learning communication", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "skill building", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning to use mental faculties for growth and connection"
+            "text": "Learning to use mental faculties for growth and connection",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "learning difficulties",
-            "communication problems",
-            "intellectual insecurity"
+            { "text": "learning difficulties", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "communication problems", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "intellectual insecurity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning support, communication improvement, skill development"
+            "text": "Learning support, communication improvement, skill development",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         },
         "ages_14_21": {
           "planetary_ruler": "Venus",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Lovers, Queens"
+            "text": "The Lovers, Queens",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Emotional and relationship development, identity formation"
+            "text": "Emotional and relationship development, identity formation",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
-            "developing relationships",
-            "sexual identity",
-            "emotional intelligence"
+            { "text": "developing relationships", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "sexual identity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "emotional intelligence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning about love, beauty, and harmonious relationships"
+            "text": "Learning about love, beauty, and harmonious relationships",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "relationship confusion",
-            "identity crisis",
-            "emotional overwhelm"
+            { "text": "relationship confusion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "identity crisis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "emotional overwhelm", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Barbara_Brennan-Hands_of_Light",
-            "text": "Relationship guidance, identity clarification, emotional healing"
+            "text": "Relationship guidance, identity clarification, emotional healing",
+            "citation_key": "Barbara_Brennan-Hands_of_Light"
           }
         },
         "ages_21_28": {
           "planetary_ruler": "Sun",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Sun, Kings"
+            "text": "The Sun, Kings",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Career development, adult identity, independence"
+            "text": "Career development, adult identity, independence",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
-            "career establishment",
-            "adult independence",
-            "personal authority"
+            { "text": "career establishment", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "adult independence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "personal authority", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning to shine unique light and take responsibility"
+            "text": "Learning to shine unique light and take responsibility",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "career confusion",
-            "authority problems",
-            "identity issues"
+            { "text": "career confusion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "authority problems", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "identity issues", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Career guidance, authority development, purpose clarification"
+            "text": "Career guidance, authority development, purpose clarification",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         },
         "ages_28_35": {
           "planetary_ruler": "Mars",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Chariot, Strength"
+            "text": "The Chariot, Strength",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Active achievement, competition, assertion"
+            "text": "Active achievement, competition, assertion",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
-            "achieving goals",
-            "competing successfully",
-            "asserting will"
+            { "text": "achieving goals", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "competing successfully", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "asserting will", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning to fight for what matters while maintaining ethics"
+            "text": "Learning to fight for what matters while maintaining ethics",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "aggressive competition",
-            "burnout",
-            "ethical compromises"
+            { "text": "aggressive competition", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "burnout", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "ethical compromises", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Goal achievement, ethical guidance, energy management"
+            "text": "Goal achievement, ethical guidance, energy management",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         },
         "ages_35_42": {
           "planetary_ruler": "Jupiter",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Hierophant, Wheel of Fortune"
+            "text": "The Hierophant, Wheel of Fortune",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Expansion, teaching, philosophical development"
+            "text": "Expansion, teaching, philosophical development",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
-            "expanding influence",
-            "teaching others",
-            "developing wisdom"
+            { "text": "expanding influence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "teaching others", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "developing wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning to share wisdom and expand consciousness"
+            "text": "Learning to share wisdom and expand consciousness",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "dogmatism",
-            "preaching",
-            "spiritual inflation"
+            { "text": "dogmatism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "preaching", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "spiritual inflation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Wisdom sharing, teaching preparation, philosophical guidance"
+            "text": "Wisdom sharing, teaching preparation, philosophical guidance",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         },
         "ages_42_49": {
           "planetary_ruler": "Saturn",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Hermit, Justice"
+            "text": "The Hermit, Justice",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Responsibility, limitation acceptance, wisdom"
+            "text": "Responsibility, limitation acceptance, wisdom",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
-            "accepting limitations",
-            "developing wisdom",
-            "taking responsibility"
+            { "text": "accepting limitations", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "developing wisdom", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "taking responsibility", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning about divine law and necessary limitations"
+            "text": "Learning about divine law and necessary limitations",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "depression",
-            "rigidity",
-            "cynicism"
+            { "text": "depression", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "rigidity", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "cynicism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Barbara_Brennan-Hands_of_Light",
-            "text": "Wisdom cultivation, responsibility acceptance, depression healing"
+            "text": "Wisdom cultivation, responsibility acceptance, depression healing",
+            "citation_key": "Barbara_Brennan-Hands_of_Light"
           }
         },
         "ages_49_56": {
           "planetary_ruler": "Uranus",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Tower, The Star"
+            "text": "The Tower, The Star",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Revolutionary change, awakening, innovation"
+            "text": "Revolutionary change, awakening, innovation",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
-            "revolutionary thinking",
+            { "text": "revolutionary thinking", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "breaking old patterns"
+              "text": "breaking old patterns",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "innovation"
+            { "text": "innovation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning to break free from limiting patterns"
+            "text": "Learning to break free from limiting patterns",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "destructive rebellion",
-            "chaos addiction",
-            "alienation"
+            { "text": "destructive rebellion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "chaos addiction", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "alienation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Revolutionary guidance, pattern breaking, innovative thinking"
+            "text": "Revolutionary guidance, pattern breaking, innovative thinking",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         },
         "ages_56_63": {
           "planetary_ruler": "Neptune",
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The Hanged Man, The Moon"
+            "text": "The Hanged Man, The Moon",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Starhawk-The_Spiral_Dance",
-            "text": "Spiritual dissolution, transcendence, confusion"
+            "text": "Spiritual dissolution, transcendence, confusion",
+            "citation_key": "Starhawk-The_Spiral_Dance"
           },
           "psychological_tasks": [
-            "spiritual development",
-            "transcending ego",
-            "accepting mystery"
+            { "text": "spiritual development", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "transcending ego", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "accepting mystery", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Learning to dissolve ego boundaries and merge with larger reality"
+            "text": "Learning to dissolve ego boundaries and merge with larger reality",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "spiritual confusion",
-            "dissolution anxiety",
-            "escapism"
+            { "text": "spiritual confusion", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "dissolution anxiety", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "escapism", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Starhawk-The_Spiral_Dance",
-            "text": "Spiritual guidance, transcendence support, confusion clearing"
+            "text": "Spiritual guidance, transcendence support, confusion clearing",
+            "citation_key": "Starhawk-The_Spiral_Dance"
           }
         },
         "ages_63_70": {
           "planetary_ruler": "Pluto",
-          "tarot_correspondence": "Death, Judgement",
+          "tarot_correspondence": {
+            "text": "Death, Judgement",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+          },
           "developmental_theme": {
-            "citation_key": "Starhawk-The_Spiral_Dance",
-            "text": "Transformation, regeneration, spiritual rebirth"
+            "text": "Transformation, regeneration, spiritual rebirth",
+            "citation_key": "Starhawk-The_Spiral_Dance"
           },
           "psychological_tasks": [
-            "major transformation",
-            "spiritual rebirth",
-            "legacy creation"
+            { "text": "major transformation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "spiritual rebirth", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "legacy creation", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Starhawk-The_Spiral_Dance",
-            "text": "Learning about death-rebirth and spiritual transformation"
+            "text": "Learning about death-rebirth and spiritual transformation",
+            "citation_key": "Starhawk-The_Spiral_Dance"
           },
           "shadow_challenges": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "fear of death"
+              "text": "fear of death",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "transformation resistance",
-            "despair"
+            { "text": "transformation resistance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+            { "text": "despair", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Transformation support, death preparation, legacy planning"
+            "text": "Transformation support, death preparation, legacy planning",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         },
         "ages_70_plus": {
           "planetary_ruler": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Return to Moon"
+            "text": "Return to Moon",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "tarot_correspondence": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "The World, The Fool"
+            "text": "The World, The Fool",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "developmental_theme": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Wisdom integration, completion, new cycles"
+            "text": "Wisdom integration, completion, new cycles",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "psychological_tasks": [
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "integrating life wisdom"
+              "text": "integrating life wisdom",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "preparing for transition"
+              "text": "preparing for transition",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "new cycles"
+            { "text": "new cycles", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "spiritual_lesson": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Completing life cycles while remaining open to new mysteries"
+            "text": "Completing life cycles while remaining open to new mysteries",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           },
           "shadow_challenges": [
-            "regret",
+            { "text": "regret", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
             {
-              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-              "text": "resistance to ending"
+              "text": "resistance to ending",
+              "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
             },
-            "bitterness"
+            { "text": "bitterness", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
           ],
           "optimal_tarot_work": {
-            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
-            "text": "Life integration, wisdom sharing, transition preparation"
+            "text": "Life integration, wisdom sharing, transition preparation",
+            "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
           }
         }
       }

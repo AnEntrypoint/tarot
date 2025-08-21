@@ -41,7 +41,10 @@
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Plan specific actions to embody card wisdom"
           },
-          "timing": "20-30 minutes each morning for consistent practice"
+          "timing": {
+            "text": "20-30 minutes each morning for consistent practice",
+            "citation_key": "Default-Citation-Key"
+          }
         },
         "evening_reflection_protocol": {
           "step_1_review": {
@@ -72,7 +75,10 @@
             "citation_key": "Carl_Jung-Man_and_His_Symbols",
             "text": "Prepare consciousness for restorative sleep and dreams"
           },
-          "timing": "15-20 minutes each evening for completion and closure"
+          "timing": {
+            "text": "15-20 minutes each evening for completion and closure",
+            "citation_key": "Default-Citation-Key"
+          }
         },
         "weekly_cycle_practices": {
           "sunday_solar_practice": {
@@ -160,7 +166,10 @@
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Identifying personal strengths and contributions"
             },
-            "healing_timeline": "3-6 months of consistent self-work before seeking partnership"
+            "healing_timeline": {
+              "text": "3-6 months of consistent self-work before seeking partnership",
+              "citation_key": "Default-Citation-Key"
+            }
           },
           "partnership_selection": {
             "soul_mate_identification": {
@@ -485,7 +494,10 @@
         },
         "energy_medicine_integration": {
           "chakra_balancing_protocols": {
-            "daily_chakra_meditation": "15-minute practice for energetic alignment",
+            "daily_chakra_meditation": {
+              "text": "15-minute practice for energetic alignment",
+              "citation_key": "Default-Citation-Key"
+            },
             "chakra_specific_healing": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Targeted work for particular energy centers"

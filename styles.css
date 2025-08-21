@@ -572,6 +572,7 @@ button {
     grid-row: 2;
     transform: rotate(90deg);
     z-index: 1;
+    pointer-events: none; /* Allow clicks to pass through to the card below */
 }
 
 .reading-grid-celtic-cross .tarot-card:nth-child(3),

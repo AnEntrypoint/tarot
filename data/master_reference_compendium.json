@@ -34,38 +34,98 @@
             "text": "The Innocent - Pure potential and trust"
           },
           "mythological_correspondences": [
-            "Parsifal",
-            "Dionysus",
-            "Green Man",
-            "Divine Child"
+            {
+              "text": "Parsifal",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Dionysus",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Green Man",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Divine Child",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "elemental_association": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Air - Mental freedom and new thoughts"
           },
-          "numerical_vibration": "0 - Infinite potential, void, beginning",
+          "numerical_vibration": {
+            "text": "0 - Infinite potential, void, beginning",
+            "citation_key": "Default-Citation-Key"
+          },
           "color_correspondences": [
-            "Light yellow",
-            "Sky blue",
-            "White",
-            "Iridescent"
+            {
+              "text": "Light yellow",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Sky blue",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "White",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Iridescent",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "gemstone_allies": [
-            "Clear quartz",
-            "Herkimer diamond",
-            "Rainbow fluorite"
+            {
+              "text": "Clear quartz",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Herkimer diamond",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Rainbow fluorite",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "plant_allies": [
-            "Daisy",
-            "Dandelion",
-            "Wild rose",
-            "Morning glory"
+            {
+              "text": "Daisy",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Dandelion",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Wild rose",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Morning glory",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "animal_spirits": [
-            "Butterfly",
-            "Hummingbird",
-            "Dolphin",
-            "White dove"
+            {
+              "text": "Butterfly",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Hummingbird",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Dolphin",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "White dove",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "chakra_activation": {
             "citation_key": "Anodea_Judith-Wheels_of_Life",
@@ -150,42 +210,102 @@
             "text": "The Creator - Conscious manifestation power"
           },
           "mythological_correspondences": [
-            "Hermes",
-            "Thoth",
-            "Loki",
-            "Prometheus"
+            {
+              "text": "Hermes",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Thoth",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Loki",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Prometheus",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "elemental_association": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
             "text": "Air/Mercury - Mental agility and communication"
           },
-          "numerical_vibration": "1 - Unity, beginning, individual will",
+          "numerical_vibration": {
+            "text": "1 - Unity, beginning, individual will",
+            "citation_key": "Default-Citation-Key"
+          },
           "color_correspondences": [
-            "Yellow",
-            "Orange",
-            "Red",
+            {
+              "text": "Yellow",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Orange",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Red",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
               "text": "All colors present"
             }
           ],
           "gemstone_allies": [
-            "Citrine",
-            "Tiger's eye",
-            "Carnelian",
-            "Agate"
+            {
+              "text": "Citrine",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Tiger's eye",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Carnelian",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Agate",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "plant_allies": [
-            "Vervain",
-            "Cinquefoil",
-            "Palm",
-            "Mercury herbs"
+            {
+              "text": "Vervain",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Cinquefoil",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Palm",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Mercury herbs",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "animal_spirits": [
-            "Ibis",
-            "Snake",
-            "Monkey",
-            "Magpie"
+            {
+              "text": "Ibis",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Snake",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Monkey",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Magpie",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "chakra_activation": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -270,9 +390,18 @@
             "text": "The Sage - Completed individuation"
           },
           "mythological_correspondences": [
-            "Cosmic Dancer",
-            "World Soul",
-            "Completion Gods"
+            {
+              "text": "Cosmic Dancer",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "World Soul",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Completion Gods",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "elemental_association": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -283,33 +412,72 @@
             "text": "21 (2+1=3) - Creative completion and synthesis"
           },
           "color_correspondences": [
-            "Deep purple",
-            "Indigo",
-            "Gold",
+            {
+              "text": "Deep purple",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Indigo",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Gold",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Faber_Birren-Color_Psychology_and_Color_Therapy",
               "text": "All colors integrated"
             }
           ],
           "gemstone_allies": [
-            "Amethyst",
-            "Lapis lazuli",
-            "Diamond",
-            "Tanzanite"
+            {
+              "text": "Amethyst",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Lapis lazuli",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Diamond",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Tanzanite",
+              "citation_key": "Default-Citation-Key"
+            }
           ],
           "plant_allies": [
-            "Oak",
-            "Cedar",
-            "Lotus",
+            {
+              "text": "Oak",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Cedar",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Lotus",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Carl_Jung-Man_and_His_Symbols",
               "text": "World tree symbolism"
             }
           ],
           "animal_spirits": [
-            "Eagle",
-            "Lion",
-            "Bull",
+            {
+              "text": "Eagle",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Lion",
+              "citation_key": "Default-Citation-Key"
+            },
+            {
+              "text": "Bull",
+              "citation_key": "Default-Citation-Key"
+            },
             {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
               "text": "Human - four fixed signs"
@@ -835,7 +1003,10 @@
     "comprehensive_spread_library": {
       "life_purpose_spreads": {
         "soul_mission_mandala": {
-          "description": "12-card spread revealing complete soul purpose and mission",
+          "description": {
+            "text": "12-card spread revealing complete soul purpose and mission",
+            "citation_key": "Default-Citation-Key"
+          },
           "card_positions": {
             "center": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -906,7 +1077,10 @@
           }
         },
         "dharma_discovery_spread": {
-          "description": "9-card spread for understanding life's true calling",
+          "description": {
+            "text": "9-card spread for understanding life's true calling",
+            "citation_key": "Default-Citation-Key"
+          },
           "card_positions": {
             "1": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -949,7 +1123,10 @@
       },
       "relationship_mastery_spreads": {
         "sacred_union_assessment": {
-          "description": "15-card spread for deep relationship evaluation",
+          "description": {
+            "text": "15-card spread for deep relationship evaluation",
+            "citation_key": "Default-Citation-Key"
+          },
           "card_positions": {
             "person_a_essence": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
@@ -1016,7 +1193,10 @@
       },
       "healing_and_transformation_spreads": {
         "complete_healing_assessment": {
-          "description": "21-card spread for comprehensive healing evaluation",
+          "description": {
+            "text": "21-card spread for comprehensive healing evaluation",
+            "citation_key": "Default-Citation-Key"
+          },
           "card_positions": {
             "physical_body": {
               "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",

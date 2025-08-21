@@ -8,8 +8,14 @@
       "citation_key": "Angeles_Arrien-The_Tarot_Handbook__Practical_Applications_of_Ancient_Visual_Symbols",
       "text": "A tarot spread is not a collection of individual cards but a living mandala of consciousness, where each position contributes to a unified field of meaning."
     },
-    "author": "Angeles Arrien",
-    "source": "The Tarot Handbook: Practical Applications of Ancient Visual Symbols",
+    "author": {
+        "text": "Angeles Arrien",
+        "citation_key": "Angeles_Arrien-The_Tarot_Handbook__Practical_Applications_of_Ancient_Visual_Symbols"
+    },
+    "source": {
+        "text": "The Tarot Handbook: Practical Applications of Ancient Visual Symbols",
+        "citation_key": "Angeles_Arrien-The_Tarot_Handbook__Practical_Applications_of_Ancient_Visual_Symbols"
+    },
     "positional_relationship_dynamics": {
       "celtic_cross_synthesis": {
         "description": {
@@ -835,7 +841,10 @@
               "text": "Wheel of Fortune"
             },
             "The Hierophant",
-            "Expansion cards"
+            {
+                "text": "Expansion cards",
+                "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages"
+            }
           ],
           "optimal_for": {
             "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages",
