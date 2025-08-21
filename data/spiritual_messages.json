@@ -1,0 +1,17 @@
+{
+    "suits": {
+        "Major Arcana": { "text": "This card carries a message from your higher self about your spiritual evolution and soul's journey.", "citation_key": "spiritual_major_arcana" },
+        "Wands": { "text": "Your spirit calls for creative expression and passionate engagement with your life's purpose.", "citation_key": "spiritual_wands" },
+        "Cups": { "text": "Divine love flows through your emotional experiences, offering healing and spiritual nourishment.", "citation_key": "spiritual_cups" },
+        "Swords": { "text": "Truth and clarity are being revealed to cut through illusion and align with your authentic path.", "citation_key": "spiritual_swords" },
+        "Pentacles": { "text": "The material world serves as a temple for spiritual growth and conscious manifestation.", "citation_key": "spiritual_pentacles" }
+    },
+    "reversed_suffix": {
+        "text": " The reversed energy suggests an invitation to look within for the spiritual lesson being offered.",
+        "citation_key": "spiritual_reversed_suffix"
+    },
+    "default": {
+        "text": "This card carries a message from your higher self about your spiritual evolution and soul's journey.",
+        "citation_key": "spiritual_default"
+    }
+}

@@ -29,15 +29,36 @@ class TarotDataLoader {
      */
     async _loadDataSources() {
         const dataSources = [
-            'numerology', 'astrology', 'kabbalah', 'psychology', 'mythology',
-            'alchemy', 'sacred_geometry', 'chakras', 'colors', 'elements',
-            'card_combinations', 'timing_cycles', 'healing_therapeutics',
-            'divination_techniques', 'cross_cultural_symbols', 'dream_symbolism',
-            'plant_animal_correspondences', 'card_relationship_matrix',
-            'synthetic_readings_context', 'master_spread_interpretations',
-            'mystical_oracular_wisdom', 'esoteric_correspondences',
-            'comprehensive_applications', 'professional_reading_mastery',
-            'master_reference_compendium'
+            'numerology',
+            'astrology',
+            'kabbalah',
+            'psychology',
+            'mythology',
+            'alchemy',
+            'sacred_geometry',
+            'chakras',
+            'colors',
+            'elements',
+            'card_combinations',
+            'timing_cycles',
+            'healing_therapeutics',
+            'divination_techniques',
+            'cross_cultural_symbols',
+            'dream_symbolism',
+            'plant_animal_correspondences',
+            'card_relationship_matrix',
+            'synthetic_readings_context',
+            'master_spread_interpretations',
+            'mystical_oracular_wisdom',
+            'esoteric_correspondences',
+            'comprehensive_applications',
+            'professional_reading_mastery',
+            'master_reference_compendium',
+            'positional_contexts',
+            'ui_text',
+            'analysis_text',
+            'psychological_aspects',
+            'spiritual_messages'
         ];
 
         const fetchPromises = dataSources.map(source =>

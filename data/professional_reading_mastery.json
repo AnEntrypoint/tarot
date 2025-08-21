@@ -8,8 +8,14 @@
       "citation_key": "Mary_K__Greer-Tarot_for_Your_Self",
       "text": "The professional tarot reader serves as a bridge between the spiritual and material worlds, offering divine guidance with practical wisdom and compassionate heart."
     },
-    "author": "Mary K. Greer",
-    "source": "Tarot for Your Self",
+    "author": {
+      "text": "Mary K. Greer",
+      "citation_key": "Mary_K__Greer-Tarot_for_Your_Self"
+    },
+    "source": {
+      "text": "Tarot for Your Self",
+      "citation_key": "Mary_K__Greer-Tarot_for_Your_Self"
+    },
     "business_development": {
       "establishing_practice": {
         "skill_development_timeline": {
