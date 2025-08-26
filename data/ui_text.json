@@ -46,10 +46,69 @@
         "energetic_influence": { "text": "Energetic Influence", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "psychological_aspect": { "text": "Psychological Aspect", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "spiritual_message": { "text": "Spiritual Message", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
-        "reversed_significance": { "text": "Reversed Significance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+        "reversed_significance": { "text": "Reversed Significance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "balanced": { "text": "Balanced", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "insights_titles": {
+        "comprehensive": { "text": "Comprehensive Reading Insights", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "elemental_analysis": { "text": "Elemental Analysis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "numerical_significance": { "text": "Numerical Significance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "energetic_flow": { "text": "Energetic Flow", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "overall_synthesis": { "text": "Overall Reading Synthesis", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "practical_guidance": { "text": "Practical Guidance", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reflection_questions": { "text": "Questions for Reflection", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "numerical_stats": {
+        "analysis": { "text": "The numerical frequency suggests {frequency_meaning}. With a total sum of {sum}, the reading vibrates at {vibration_meaning}.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "sequential_pattern": { "text": "Sequential pattern: {sequences}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "average_value": { "text": "Average numerical value: {average}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "total_sum": { "text": "Total numerical sum: {sum}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "master_numbers_present": { "text": "Master numbers present: {numbers}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "comprehensive_insight": {
+        "intro": { "text": "This reading reveals ", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "major_arcana_dominant": { "text": "a powerful spiritual awakening and major life themes demanding attention. The universe is actively guiding you through significant transformations. ", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "major_arcana_none": { "text": "a focus on practical, day-to-day matters and personal development within your current life circumstances. ", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "major_arcana_balanced": { "text": "a balanced blend of spiritual guidance and practical considerations, suggesting both inner work and outer action are needed. ", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reversed_dominant": { "text": "The predominance of reversed cards indicates a time of internal processing, reflection, and shadow work. ", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "elemental_fire": { "text": "Your path forward requires courage, creativity, and bold action.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "elemental_water": { "text": "Trust your intuition and allow emotions to guide you toward healing.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "elemental_air": { "text": "Mental clarity and honest communication will illuminate your way.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "elemental_earth": { "text": "Focus on practical steps and building solid foundations for lasting success.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "conclusion": { "text": " This reading encourages you to integrate all aspects of your experience—spiritual, emotional, mental, and physical—for holistic growth and authentic self-expression.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "practical_guidance": {
+        "wands": { "text": "Take bold action on your creative projects and trust your passionate impulses.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "cups": { "text": "Honor your emotional needs and create space for intuitive reflection.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "swords": { "text": "Engage in meaningful conversations and seek new learning opportunities.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "pentacles": { "text": "Focus on practical steps, financial planning, and physical wellness.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "reversed": { "text": "Practice patience and self-reflection before taking major external actions.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "major_arcana": { "text": "Pay attention to synchronicities and spiritual signs guiding your path.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "default1": { "text": "Trust the process and remain open to unexpected opportunities.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "default2": { "text": "Balance action with reflection for optimal results.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "reflection_questions": {
+        "major_arcana1": { "text": "What major life lesson is the universe trying to teach me right now?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "major_arcana2": { "text": "How can I align more closely with my soul's purpose?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "wands1": { "text": "What creative project or passion deserves more of my energy?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "wands2": { "text": "Where in my life do I need to take more initiative?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "cups1": { "text": "What emotions am I avoiding that need to be felt and healed?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "cups2": { "text": "How can I nurture my relationships and emotional well-being?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "swords1": { "text": "What mental patterns or beliefs need to be examined and possibly released?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "swords2": { "text": "Where do I need more clarity or honest communication in my life?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "pentacles1": { "text": "How can I better manifest my goals in the physical world?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "pentacles2": { "text": "What practical steps will move me toward greater security and abundance?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "shadow1": { "text": "What hidden aspects of myself are seeking integration and acceptance?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "shadow2": { "text": "How might current challenges be gifts in disguise?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "default1": { "text": "What is my highest priority for personal growth right now?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "default2": { "text": "How can I trust my inner wisdom more fully?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "default3": { "text": "What would love do in this situation?", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" }
+    },
+    "general": {
+        "truncation_suffix": { "text": "...", "citation_key": null }
     },
     "templates": {
-        "position_specific_meaning": { "text": "In the {positionName} position, {cardName} specifically addresses {positionContext}. {meaningText}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
+        "position_specific_meaning": { "text": "In the {positionName} position, {cardName} specifically addresses {context}. {meaning}", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "energetic_influence_base": { "text": "This card radiates {element} energy, ", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "energetic_influence_major": { "text": "carrying universal archetypal power that operates beyond personal will.", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },
         "energetic_influence_wands": { "text": "igniting passion and creative fire within your spirit", "citation_key": "Manly_P_Hall-The_Secret_Teachings_of_All_Ages" },

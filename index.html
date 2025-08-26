@@ -548,5 +548,15 @@
     <script src="js/card-renderer.js"></script>
     <script src="js/analysis-engine.js"></script>
     <script src="js/tarot-app-controller.js"></script>
+    <script>
+        // Start loading all data
+        window.tarotDataLoader.loadAllData().then(() => {
+            // Dispatch event to notify controller that data is ready
+            window.dispatchEvent(new CustomEvent('tarotDataLoaded'));
+        }).catch(error => {
+            console.error("Failed to load tarot data:", error);
+            // Optionally, display an error message to the user
+        });
+    </script>
 </body>
 </html>
