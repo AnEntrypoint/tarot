@@ -513,9 +513,22 @@ class TarotAppController {
             card.keywords.upright).map(kw => renderTextWithCitation(kw, getText(kw)));
         
         const positionSpecific = this.getPositionSpecificMeaning(card, card.position);
-        const energeticInfluence = this.getEnergeticInfluence(card);
-        const psychological = this.getPsychologicalAspect(card);
-        const spiritual = this.getSpiritualMessage(card);
+
+        const energeticInfluenceData = this.getEnergeticInfluenceData(card);
+        const energeticInfluence = energeticInfluenceData.map(d => {
+            let text = getText(d.data);
+            if (d.placeholder && d.value) {
+                text = text.replace(d.placeholder, d.value);
+            }
+            return renderTextWithCitation(d.data, text);
+        }).join('');
+
+        const psychologicalData = this.getPsychologicalAspectData(card);
+        const psychological = renderTextWithCitation(psychologicalData, getText(psychologicalData));
+
+        const spiritualData = this.getSpiritualMessageData(card);
+        const spiritual = spiritualData.map(d => renderTextWithCitation(d, getText(d))).join('');
+
         const reversedSignificance = card.isReversed ? 
             this.getReversedSignificance(card) : '';
         
@@ -656,7 +669,7 @@ class TarotAppController {
 
         // We don't add a citation to the truncated meaning here to avoid breaking HTML.
         // The full, cited meaning is available in the card detail modal.
-        return this.getUIText('position_specific_meaning_template', {
+        return this.getUIText('templates.position_specific_meaning', {
             positionName: positionNameText,
             cardName: card.name,
             context: this.getPositionContext(position.name, card),
@@ -669,52 +682,53 @@ class TarotAppController {
         return getText(contextData);
     }
     
-    getEnergeticInfluence(card) {
+    getEnergeticInfluenceData(card) {
+        const data = [];
         const element = card.element;
         const suit = card.suit;
         const isReversed = card.isReversed;
         
-        let influence = this.getUIText('energetic_influence.radiates_energy_template', {
-            element: element || this.getUIText('stats_labels.balanced')
+        data.push({
+            data: this.uiText.templates.energetic_influence_base,
+            placeholder: '{element}',
+            value: element || getText(this.uiText.stats_labels.balanced)
         });
         
         if (suit === 'Major Arcana') {
-            influence += this.getUIText('energetic_influence.major_arcana');
+            data.push({ data: this.uiText.templates.energetic_influence_major });
         } else {
-            const suitKey = `energetic_influence.${suit.toLowerCase()}`;
-            influence += this.getUIText(suitKey) || this.getUIText('energetic_influence.default_suit');
+            const suitKey = `energetic_influence_${suit.toLowerCase()}`;
+            data.push({ data: this.uiText.templates[suitKey] || this.uiText.templates.energetic_influence_fallback });
         }
         
         if (isReversed) {
-            influence += this.getUIText('energetic_influence.reversed_suffix');
+            data.push({ data: this.uiText.templates.energetic_influence_reversed });
         }
         
-        return influence;
+        return data;
     }
-    
-    getPsychologicalAspect(card) {
+
+    getPsychologicalAspectData(card) {
         if (card.suit === 'Major Arcana') {
-            const aspectData = this.psychologicalAspects.major_arcana[card.name] || this.psychologicalAspects.defaults.major_arcana;
-            return getText(aspectData);
+            return this.psychologicalAspects.major_arcana[card.name] || this.psychologicalAspects.defaults.major_arcana;
         }
         
-        const aspectData = this.psychologicalAspects.suits[card.suit] || this.psychologicalAspects.defaults.suit;
-        return getText(aspectData);
+        return this.psychologicalAspects.suits[card.suit] || this.psychologicalAspects.defaults.suit;
     }
-    
-    getSpiritualMessage(card) {
-        const messageData = this.spiritualMessages.suits[card.suit] || this.spiritualMessages.default;
-        let message = getText(messageData);
+
+    getSpiritualMessageData(card) {
+        const messages = [];
+        messages.push(this.spiritualMessages.suits[card.suit] || this.spiritualMessages.default);
         
         if (card.isReversed) {
-            message += getText(this.spiritualMessages.reversed_suffix);
+            messages.push(this.spiritualMessages.reversed_suffix);
         }
         
-        return message;
+        return messages;
     }
     
     getReversedSignificance(card) {
-        return this.getUIText('reversed_significance_template', { cardName: card.name });
+        return this.getUIText('templates.reversed_significance', { cardName: card.name });
     }
     
     generateComprehensiveInsight() {
