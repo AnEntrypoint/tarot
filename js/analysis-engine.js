@@ -331,6 +331,18 @@ class AnalysisEngine {
         };
     }
 
+    async analyzeNumerology(cards) {
+        return {
+            lifePath: 0,
+            masterNumbers: [],
+            repeatingPatterns: [],
+            pythagoreanAnalysis: {},
+            angelNumbers: [],
+            vibrationalFrequencies: { overall: 0 },
+            interpretation: 'Numerology analysis is not yet fully implemented.'
+        };
+    }
+
     getBasicArchetype(card) {
         if (card.suit === "Major Arcana") {
             const key = `jungian.archetypes.${card.name.replace(/\s/g, '')}`;
