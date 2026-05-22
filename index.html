@@ -56,6 +56,13 @@
   .ett-name { color: var(--accent); font-style: italic; }
   section.synth { border-left: 2px solid var(--accent); padding: .1rem 0 .1rem .8rem; margin-left: -.85rem; }
   section.synth p { font-size: 1rem; line-height: 1.65; }
+  .corrs { margin-top: 1.5rem; border-top: 1px dashed var(--line); padding-top: 1rem; }
+  .corrs-h { font-size: .72rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--dim); margin: 0 0 .75rem; }
+  section.corr { margin: .8rem 0; padding-left: .8rem; border-left: 1px solid var(--line); }
+  section.corr h3 { font-size: .72rem; font-weight: 500; letter-spacing: .1em; text-transform: none; color: var(--dim); margin: 0 0 .25rem; font-style: italic; }
+  section.corr p { font-size: .9rem; margin: 0 0 .3rem; }
+  section.corr p.voice { font-size: .85rem; color: var(--dim); margin: .2rem 0; line-height: 1.5; }
+  section.corr p.voice em { color: var(--accent); font-style: italic; }
   footer { color: var(--dim); font-size: .78rem; margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1rem; }
   footer p { margin: .25rem 0; }
   .draw-note { color: var(--dim); font-size: .85rem; margin: 1.5rem 0; font-style: italic; }
@@ -138,7 +145,87 @@ async function loadSynth(slot, pos) {
   return null;
 }
 
-function renderCard(slot, pos, synth) {
+let RELATIONS = null, FRAGMENTS = null;
+const VOICE_CACHE = {};
+async function loadCorrelations() {
+  if (RELATIONS) return;
+  const [r, f] = await Promise.all([
+    fetch('./data/relations.json').then(r => r.json()),
+    fetch('./data/fragments.json').then(r => r.json()),
+  ]);
+  RELATIONS = r; FRAGMENTS = f;
+}
+
+async function getVoice(name, orient) {
+  const key = name + '|' + orient;
+  if (VOICE_CACHE[key] !== undefined) return VOICE_CACHE[key];
+  const s = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const url = `./data/voice/${s}__${orient}.txt`;
+  try {
+    const r = await fetch(url);
+    if (r.ok) {
+      const t = (await r.text()).trim();
+      VOICE_CACHE[key] = t;
+      return t;
+    }
+  } catch (_) {}
+  VOICE_CACHE[key] = null;
+  return null;
+}
+
+// Phrase templates per relationship label
+const REL_PHRASES = {
+  'mirror': (a, b, posA, posB) => `${a} answers ${b} across the axis of the Fool's Journey — what the one opens, the other closes.`,
+  'sequential': (a, b, posA, posB) => `${a} stands immediately before or after ${b} in the Fool's Journey, so ${posA} flows into ${posB} without dialectical break.`,
+  'astrological-opposition': (a, b, posA, posB) => `${a} and ${b} stand on opposed signs of the zodiac, drawing the spread along the axis of their mutual contradiction.`,
+  'decanic-co-residence': (a, b, posA, posB) => `${a} and ${b} share the same zodiacal sign, three faces of one season of fate.`,
+  'planetary-rhyme': (a, b, posA, posB) => `${a} and ${b} are ruled by the same planet, their differing signs colouring its same intent.`,
+  'elemental-opposition': (a, b, posA, posB) => `Fire and Water — ${a}'s element douses ${b}'s, the ${posA} negating what the ${posB} would consume.`,
+  'elemental-resonance': (a, b, posA, posB) => `${a} and ${b} share an element: the ${posA} and ${posB} amplify each other's nature rather than oppose it.`,
+  'elemental-feeding': (a, b, posA, posB) => `One element feeds the other: ${a} in ${posA} supplies what ${b} in ${posB} burns or grows.`,
+  'elemental-undermining': (a, b, posA, posB) => `One element undermines the other: ${a} in ${posA} dissolves the ground ${b} stands on in ${posB}.`,
+  'shared-suit': (a, b, posA, posB) => `Both belong to the same suit — ${posA} and ${posB} answer to one elemental court.`,
+  'disjoint': (a, b, posA, posB) => `No specific axis binds ${a} and ${b}; their interaction is contingent and accidental.`,
+};
+
+function frag(name, kinds) {
+  const f = FRAGMENTS[name];
+  if (!f) return null;
+  for (const k of kinds) {
+    const found = f.fragments.find(x => x.kind === k);
+    if (found) return found.text;
+  }
+  return null;
+}
+
+function correlationProse(slotA, posA, slotB, posB, voiceA, voiceB) {
+  if (!RELATIONS) return '';
+  const rel = RELATIONS[slotA.name]?.[slotB.name];
+  if (!rel) return '';
+  const tmpl = REL_PHRASES[rel.primary] || REL_PHRASES.disjoint;
+  const aName = slotA.name + (slotA.reversed ? ' (rev.)' : '');
+  const bName = slotB.name + (slotB.reversed ? ' (rev.)' : '');
+  const headline = tmpl(aName, bName, posA.label, posB.label);
+  let voices = '';
+  if (voiceA) voices += `<p class="voice"><em>${aName}:</em> ${voiceA}</p>`;
+  if (voiceB) voices += `<p class="voice"><em>${bName}:</em> ${voiceB}</p>`;
+  return `<p>${headline}</p>${voices}`;
+}
+
+function renderCorrelations(slot, pos, allSlots, allPos, voices) {
+  const idx = allSlots.indexOf(slot);
+  const me = slot;
+  const myVoice = voices?.[idx];
+  const others = allSlots.map((s, i) => ({ s, p: allPos[i], v: voices?.[i] })).filter(x => x.s !== me);
+  const parts = others.map(({ s, p, v }) => `
+    <section class="corr">
+      <h3>vs. ${s.name}${s.reversed ? ' (rev.)' : ''} in ${p.label}</h3>
+      ${correlationProse(slot, pos, s, p, myVoice, v)}
+    </section>`).join('');
+  return parts;
+}
+
+function renderCard(slot, pos, synth, allSlots, allPos, voices) {
   const c = DATA.cards[slot.name];
   const o = slot.reversed ? c.reversed : c.upright;
   const gd = c.golden_dawn;
@@ -176,11 +263,13 @@ function renderCard(slot, pos, synth) {
     </section>`);
   }
 
+  const corr = allSlots ? renderCorrelations(slot, pos, allSlots, allPos, voices) : '';
   return `<article class="card ${slot.reversed ? 'rev' : ''}">
     <p class="position">${pos.label} — <em>${pos.note}</em></p>
     <h2>${slot.name}${slot.reversed ? ' (reversed)' : ''}</h2>
     <p class="gd">${gdParts.join(' · ')}</p>
     ${sections.join('')}
+    ${corr ? `<div class="corrs"><h3 class="corrs-h">Correlations</h3>${corr}</div>` : ''}
   </article>`;
 }
 
@@ -189,10 +278,14 @@ async function go() {
   $('seed').textContent = 'seed ' + seed.slice(0, 12) + '…';
   $('status').textContent = '';
   const picks = drawThree(seed);
-  // Render skeleton immediately, then fill in synth paragraphs as they arrive.
-  $('spread').innerHTML = picks.map((p, i) => renderCard(p, POSITIONS[i], null)).join('');
-  const synths = await Promise.all(picks.map((p, i) => loadSynth(p, POSITIONS[i])));
-  $('spread').innerHTML = picks.map((p, i) => renderCard(p, POSITIONS[i], synths[i])).join('');
+  // Render skeleton immediately, then fill in synth + voice as they arrive.
+  $('spread').innerHTML = picks.map((p, i) => renderCard(p, POSITIONS[i], null, picks, POSITIONS, null)).join('');
+  await loadCorrelations();
+  const [synths, voices] = await Promise.all([
+    Promise.all(picks.map((p, i) => loadSynth(p, POSITIONS[i]))),
+    Promise.all(picks.map(p => getVoice(p.name, p.reversed ? 'reversed' : 'upright'))),
+  ]);
+  $('spread').innerHTML = picks.map((p, i) => renderCard(p, POSITIONS[i], synths[i], picks, POSITIONS, voices)).join('');
 }
 
 $('draw').addEventListener('click', go);
