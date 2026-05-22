@@ -1,562 +1,203 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarot Reader - Insight and Guidance</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Three Cards — a literary tarot</title>
+<style>
+  :root {
+    --bg: #0e0c12;
+    --fg: #e8e2d6;
+    --dim: #8a8275;
+    --accent: #c9a96b;
+    --card: #1a1620;
+    --line: #2a2530;
+    --rev: #b85c5c;
+  }
+  html, body { background: var(--bg); color: var(--fg); margin: 0; }
+  body {
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+    line-height: 1.55;
+    padding: 2rem 1rem 4rem;
+    max-width: 64rem;
+    margin: 0 auto;
+  }
+  h1 { font-weight: 400; letter-spacing: 0.03em; font-size: 1.6rem; margin: 0 0 .25rem; }
+  h1 .sub { color: var(--dim); font-size: 1rem; font-style: italic; }
+  header p { color: var(--dim); margin: 0 0 2rem; font-size: .92rem; max-width: 42rem; }
+  button {
+    background: var(--accent); color: #1a1410; border: 0;
+    font: inherit; font-weight: 600; letter-spacing: .04em;
+    padding: .7rem 1.4rem; cursor: pointer; border-radius: 2px;
+  }
+  button:hover { filter: brightness(1.1); }
+  .controls { margin-bottom: 2rem; display: flex; gap: 1rem; align-items: center; }
+  .controls .seed { color: var(--dim); font-size: .85rem; font-family: ui-monospace, monospace; }
+  .spread { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+  @media (min-width: 800px) { .spread { grid-template-columns: 1fr 1fr 1fr; } }
+  .card {
+    background: var(--card); border: 1px solid var(--line); padding: 1.2rem 1.4rem;
+    border-radius: 4px;
+  }
+  .card h2 {
+    font-size: 1.15rem; font-weight: 500; margin: 0 0 .15rem;
+    border-bottom: 1px solid var(--line); padding-bottom: .5rem;
+  }
+  .card.rev h2 { color: var(--rev); }
+  .position { color: var(--accent); font-size: .8rem; letter-spacing: .15em; text-transform: uppercase; margin: 0 0 .15rem; }
+  .gd { color: var(--dim); font-size: .82rem; margin: 0 0 1rem; font-style: italic; }
+  .gd .thoth { color: var(--accent); font-style: normal; }
+  section { margin: 1rem 0 0; }
+  section h3 {
+    font-size: .72rem; font-weight: 600; letter-spacing: .2em;
+    text-transform: uppercase; color: var(--dim); margin: 0 0 .25rem;
+  }
+  section p { margin: 0; font-size: .95rem; }
+  .ett-name { color: var(--accent); font-style: italic; }
+  section.synth { border-left: 2px solid var(--accent); padding: .1rem 0 .1rem .8rem; margin-left: -.85rem; }
+  section.synth p { font-size: 1rem; line-height: 1.65; }
+  footer { color: var(--dim); font-size: .78rem; margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+  footer p { margin: .25rem 0; }
+  .draw-note { color: var(--dim); font-size: .85rem; margin: 1.5rem 0; font-style: italic; }
+</style>
 </head>
-<body class="professional-bg">
-    <div class="container mx-auto px-4 py-8 max-w-7xl">
-        <!-- Header -->
-        <header class="text-center mb-12">
-            <h1 class="title-font text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
-                Tarot Reader
-            </h1>
-            <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-                Discover insights and guidance through the ancient wisdom of tarot. 
-                Explore different spreads to gain clarity on your path forward.
-            </p>
-        </header>
+<body>
+<header>
+  <h1>Three Cards <span class="sub">— a literary tarot.</span></h1>
+  <p>Hegelian spread: <em>thesis &mdash; antithesis &mdash; synthesis</em>. Every meaning is verbatim or transcribed from a primary source — Waite's <em>Pictorial Key</em> (1910), Etteilla's <em>Manière de se récréer</em> (1785), and the Golden Dawn attribution table. No interpolation, no generated prose.</p>
+</header>
 
-        <!-- Spread Selection -->
-        <div id="spreadSelection" class="mb-6">
-            <h2 class="title-font text-center mb-4 text-blue-300">Choose Your Spread</h2>
-            <div class="spread-grid" role="group" aria-label="Tarot spread options">
-                <button id="spread-single" class="spread-option" data-spread="single" type="button" role="button" aria-label="Select single card spread for quick insight">
-                    <div class="text-center">
-                        <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">1</div>
-                        <h3 class="text-lg font-semibold mb-1">Single Card</h3>
-                        <p class="text-xs text-gray-400">Quick insight for guidance</p>
-                    </div>
-                </button>
-                <button id="spread-three-card" class="spread-option" data-spread="three-card" type="button" role="button" aria-label="Select three card spread for past, present, and future reading">
-                    <div class="text-center">
-                        <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">3</div>
-                        <h3 class="text-lg font-semibold mb-1">Past-Present-Future</h3>
-                        <p class="text-xs text-gray-400">Classic timeline reading</p>
-                    </div>
-                </button>
-                <button id="spread-relationship" class="spread-option" data-spread="relationship" type="button" role="button" aria-label="Select relationship spread for connections and partnerships">
-                    <div class="text-center">
-                        <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">4</div>
-                        <h3 class="text-lg font-semibold mb-1">Relationship</h3>
-                        <p class="text-xs text-gray-400">Explore connections & partnerships</p>
-                    </div>
-                </button>
-                <button id="spread-celtic-cross" class="spread-option" data-spread="celtic-cross" type="button" role="button" aria-label="Select Celtic Cross spread for comprehensive in-depth analysis">
-                    <div class="text-center">
-                        <div class="text-2xl mb-2 font-bold text-blue-400" aria-hidden="true">10</div>
-                        <h3 class="text-lg font-semibold mb-1">Celtic Cross</h3>
-                        <p class="text-xs text-gray-400">In-depth analysis</p>
-                    </div>
-                </button>
-            </div>
-        </div>
+<div class="controls">
+  <button id="draw">Draw three cards</button>
+  <span class="seed" id="seed"></span>
+</div>
 
+<p class="draw-note" id="status">Each card is drawn uniformly at random across all 156 (78 cards × 2 orientations). All readings are pre-generated and served as static files; no LLM runs at draw-time. There are 474,552 distinct three-card readings in the system.</p>
 
-        <!-- Action Buttons -->
-        <div class="flex flex-col sm:flex-row gap-3 justify-center mb-6" role="group" aria-label="Reading actions">
-            <button id="startReadingBtn" type="button" class="bg-gradient-to-r from-blue-600 to-teal-700 hover:from-blue-700 hover:to-teal-800 focus:from-blue-700 focus:to-teal-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 focus:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 hidden w-full sm:w-auto" aria-label="Begin your tarot reading">
-                Begin Reading
-            </button>
-            <button id="resetReadingBtn" type="button" class="bg-gradient-to-r from-red-600 to-pink-700 hover:from-red-700 hover:to-pink-800 focus:from-red-700 focus:to-pink-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 focus:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 hidden w-full sm:w-auto" aria-label="Start a new reading">
-                New Reading
-            </button>
-            <button id="saveReadingBtn" type="button" class="bg-gradient-to-r from-green-600 to-teal-700 hover:from-green-700 hover:to-teal-800 focus:from-green-700 focus:to-teal-800 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 focus:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 hidden w-full sm:w-auto" aria-label="Save your current reading">
-                Save Reading
-            </button>
-            <!-- Analysis now runs automatically when reading is complete -->
-        </div>
+<div class="spread" id="spread"></div>
 
-        <!-- Instruction Text -->
-        <p id="instructionText" class="text-center text-base mb-6 text-gray-300 px-4" aria-live="polite" role="status">
-            Select a spread type to begin your journey of insight
-        </p>
+<footer id="footer"></footer>
 
-        <!-- Deck Container -->
-        <div id="deckContainer" class="flex justify-center mb-6 hidden">
-            <div class="deck-card"></div>
-        </div>
+<script type="module">
+const POSITIONS = [
+  { key: 'thesis',    label: 'Thesis',    note: 'the proposition; the situation as it stands.' },
+  { key: 'antithesis',label: 'Antithesis',note: 'the opposing force; the contradiction the thesis cannot resolve.' },
+  { key: 'synthesis', label: 'Synthesis', note: 'the resolution; the higher unity that absorbs both.' },
+];
 
-        <!-- Reading Area -->
-        <div id="readingArea" class="mb-6" role="main" aria-label="Tarot card reading area">
-            <!-- Cards will be displayed here -->
-        </div>
+let DATA = null;
+const $ = (id) => document.getElementById(id);
 
-        <!-- Reading Summary -->
-        <section id="readingSummary" class="reading-summary hidden" aria-labelledby="summary-heading">
-            <h3 id="summary-heading" class="title-font text-2xl font-semibold mb-4 text-teal-400">Reading Interpretation</h3>
-            <div id="summaryContent" role="region" aria-live="polite"></div>
-        </section>
+async function load() {
+  const r = await fetch('./data/base.json');
+  DATA = await r.json();
+  $('footer').innerHTML = `
+    <p><strong>Sources.</strong></p>
+    <p>• ${DATA._meta.sources.waite}</p>
+    <p>• ${DATA._meta.sources.etteilla}</p>
+    <p>• ${DATA._meta.sources.golden_dawn}</p>
+  `;
+}
 
-        <!-- Advanced Analysis Panel -->
-        <section id="analysisPanel" class="analysis-panel hidden" aria-labelledby="analysis-heading">
-            <div class="mb-8">
-                <h3 id="analysis-heading" class="title-font text-2xl font-semibold mb-6 text-blue-400">Advanced Analysis</h3>
-                
-                <!-- Overview Section -->
-                <section id="overviewSection" class="analysis-section" aria-labelledby="overview-heading">
-                    <h4 id="overview-heading" class="analysis-section-title">Overview</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Reading Overview</h5>
-                            <div id="readingOverview"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Elemental Balance</h5>
-                            <div id="elementalBalance"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Suit Distribution</h5>
-                            <div id="suitDistribution"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Energy Assessment</h5>
-                            <div id="energyAssessment"></div>
-                        </div>
-                    </div>
-                </section>
+function seedFromCrypto() {
+  const b = new Uint32Array(4);
+  crypto.getRandomValues(b);
+  return Array.from(b, x => x.toString(16).padStart(8, '0')).join('');
+}
 
-                <!-- Psychology Section -->
-                <section id="psychologySection" class="analysis-section" aria-labelledby="psychology-heading">
-                    <h4 id="psychology-heading" class="analysis-section-title">Psychology</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card full-width">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Jungian Analysis</h5>
-                            <div id="jungianAnalysis"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Shadow Work</h5>
-                            <div id="shadowWork"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Anima/Animus</h5>
-                            <div id="animaAnimus"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Collective Unconscious</h5>
-                            <div id="collectiveUnconscious"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Psychological Patterns</h5>
-                            <div id="psychologicalPatterns"></div>
-                        </div>
-                    </div>
-                </section>
+function drawThree(seed) {
+  // Deterministic PRNG from seed for reproducible draws
+  let s = 0;
+  for (let i = 0; i < seed.length; i++) s = (s * 31 + seed.charCodeAt(i)) >>> 0;
+  const rng = () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 2**32; };
 
-                <!-- Spiritual Section -->
-                <section id="spiritualSection" class="analysis-section" aria-labelledby="spiritual-heading">
-                    <h4 id="spiritual-heading" class="analysis-section-title">Spiritual</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Soul Lessons</h5>
-                            <div id="soulLessons"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Spiritual Gifts</h5>
-                            <div id="spiritualGifts"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Higher Self Messages</h5>
-                            <div id="higherSelfMessages"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Ascension Path</h5>
-                            <div id="ascensionPath"></div>
-                        </div>
-                    </div>
-                </section>
+  const names = Object.keys(DATA.cards);
+  const used = new Set();
+  const picks = [];
+  while (picks.length < 3) {
+    const n = names[Math.floor(rng() * names.length)];
+    if (used.has(n)) continue;
+    used.add(n);
+    const reversed = rng() < 0.5;
+    picks.push({ name: n, reversed });
+  }
+  return picks;
+}
 
-                <!-- Kabbalah Section -->
-                <section id="kabbalahSection" class="analysis-section" aria-labelledby="kabbalah-heading">
-                    <h4 id="kabbalah-heading" class="analysis-section-title">Kabbalah</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Tree of Life Position</h5>
-                            <div id="treeOfLife"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Sephiroth Influences</h5>
-                            <div id="sephirothInfluences"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Pathworking</h5>
-                            <div id="pathworking"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Hebrew Letters</h5>
-                            <div id="hebrewLetters"></div>
-                        </div>
-                    </div>
-                </section>
+function slug(name, orient, posKey) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '__' + orient + '__' + posKey;
+}
 
-                <!-- Chakras Section -->
-                <section id="chakrasSection" class="analysis-section" aria-labelledby="chakras-heading">
-                    <h4 id="chakras-heading" class="analysis-section-title">Chakras</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Chakra Alignment</h5>
-                            <div id="chakraAlignment"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Energy Blocks</h5>
-                            <div id="energyBlocks"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Kundalini Flow</h5>
-                            <div id="kundaliniFlow"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Meridian Activity</h5>
-                            <div id="meridianActivity"></div>
-                        </div>
-                    </div>
-                </section>
+async function loadSynth(slot, pos) {
+  const orient = slot.reversed ? 'reversed' : 'upright';
+  const url = `./data/synth/${slug(slot.name, orient, pos.key)}.txt`;
+  try {
+    const r = await fetch(url);
+    if (r.ok) return await r.text();
+  } catch (_) {}
+  return null;
+}
 
-                <!-- Archetypes Section -->
-                <section id="archetypesSection" class="analysis-section" aria-labelledby="archetypes-heading">
-                    <h4 id="archetypes-heading" class="analysis-section-title">Archetypes</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Primary Archetypes</h5>
-                            <div id="primaryArchetypes"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Mythological Connections</h5>
-                            <div id="mythologicalConnections"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Hero's Journey</h5>
-                            <div id="heroJourney"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Goddess Aspects</h5>
-                            <div id="goddessAspects"></div>
-                        </div>
-                    </div>
-                </section>
+function renderCard(slot, pos, synth) {
+  const c = DATA.cards[slot.name];
+  const o = slot.reversed ? c.reversed : c.upright;
+  const gd = c.golden_dawn;
+  const gdParts = [];
+  if (gd.hebrew) gdParts.push(`<span>Hebrew: ${gd.hebrew}</span>`);
+  if (gd.attribution) gdParts.push(`<span>${gd.attribution}</span>`);
+  if (gd.thoth_title) gdParts.push(`<span class="thoth">Thoth: ${gd.thoth_title}</span>`);
 
-                <!-- Timing Section -->
-                <section id="timingSection" class="analysis-section" aria-labelledby="timing-heading">
-                    <h4 id="timing-heading" class="analysis-section-title">Timing</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Seasonal Timing</h5>
-                            <div id="seasonalTiming"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Lunar Cycles</h5>
-                            <div id="lunarCycles"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Planetary Transits</h5>
-                            <div id="planetaryTransits"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Manifestation Windows</h5>
-                            <div id="manifestationWindows"></div>
-                        </div>
-                    </div>
-                </section>
+  const sections = [];
+  if (synth) {
+    sections.push(`<section class="synth">
+      <h3>Reading — ${pos.label}</h3>
+      <p>${synth}</p>
+    </section>`);
+  }
+  sections.push(`<section>
+    <h3>Waite — Pictorial Key (1910)</h3>
+    <p>${o.waite || '<em>(not given)</em>'}</p>
+  </section>`);
+  if (o.waite_additional) {
+    sections.push(`<section>
+      <h3>Waite — additional</h3>
+      <p>${o.waite_additional}</p>
+    </section>`);
+  }
+  const ettName = o.etteilla_name ? ` <span class="ett-name">(${o.etteilla_name})</span>` : '';
+  sections.push(`<section>
+    <h3>Etteilla (1785)</h3>
+    <p>${ettName ? ettName + ' — ' : ''}${o.etteilla || '<em>(not given)</em>'}</p>
+  </section>`);
+  if (c.image && !slot.reversed) {
+    sections.push(`<section>
+      <h3>Image — Smith / Waite</h3>
+      <p>${c.image}</p>
+    </section>`);
+  }
 
-                <!-- Karma Section -->
-                <section id="karmaSection" class="analysis-section" aria-labelledby="karma-heading">
-                    <h4 id="karma-heading" class="analysis-section-title">Karma</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Karmic Debts</h5>
-                            <div id="karmicDebts"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Past Life Influences</h5>
-                            <div id="pastLifeInfluences"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Soul Contracts</h5>
-                            <div id="soulContracts"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Dharmic Purpose</h5>
-                            <div id="dharmicPurpose"></div>
-                        </div>
-                    </div>
-                </section>
+  return `<article class="card ${slot.reversed ? 'rev' : ''}">
+    <p class="position">${pos.label} — <em>${pos.note}</em></p>
+    <h2>${slot.name}${slot.reversed ? ' (reversed)' : ''}</h2>
+    <p class="gd">${gdParts.join(' · ')}</p>
+    ${sections.join('')}
+  </article>`;
+}
 
-                <!-- Numerology Section -->
-                <section id="numerologySection" class="analysis-section" aria-labelledby="numerology-heading">
-                    <h4 id="numerology-heading" class="analysis-section-title">Numerology</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Life Path & Master Numbers</h5>
-                            <div id="numerologyLifePath"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Repeating Patterns</h5>
-                            <div id="numerologyPatterns"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Pythagorean Analysis</h5>
-                            <div id="pythagoreanAnalysis"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Angel Numbers & Frequencies</h5>
-                            <div id="angelNumbers"></div>
-                        </div>
-                    </div>
-                </section>
+async function go() {
+  const seed = seedFromCrypto();
+  $('seed').textContent = 'seed ' + seed.slice(0, 12) + '…';
+  $('status').textContent = '';
+  const picks = drawThree(seed);
+  // Render skeleton immediately, then fill in synth paragraphs as they arrive.
+  $('spread').innerHTML = picks.map((p, i) => renderCard(p, POSITIONS[i], null)).join('');
+  const synths = await Promise.all(picks.map((p, i) => loadSynth(p, POSITIONS[i])));
+  $('spread').innerHTML = picks.map((p, i) => renderCard(p, POSITIONS[i], synths[i])).join('');
+}
 
-                <!-- Elements Section -->
-                <section id="elementsSection" class="analysis-section" aria-labelledby="elements-heading">
-                    <h4 id="elements-heading" class="analysis-section-title">Elements</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Elemental Dignities</h5>
-                            <div id="elementalDignities"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Elemental Flow</h5>
-                            <div id="elementalFlow"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Strengthening Pairs</h5>
-                            <div id="strengtheningPairs"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Elemental Balance</h5>
-                            <div id="elementalBalanceDetail"></div>
-                        </div>
-                    </div>
-                </section>
+$('draw').addEventListener('click', go);
 
-                <!-- Astrology Section -->
-                <section id="astrologySection" class="analysis-section" aria-labelledby="astrology-heading">
-                    <h4 id="astrology-heading" class="analysis-section-title">Astrology</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Current Transits</h5>
-                            <div id="currentTransits"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Planetary Influences</h5>
-                            <div id="planetaryInfluences"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Lunar Phase Impact</h5>
-                            <div id="lunarPhaseImpact"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Aspect Patterns</h5>
-                            <div id="aspectPatterns"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Sacred Geometry Section -->
-                <section id="geometrySection" class="analysis-section" aria-labelledby="geometry-heading">
-                    <h4 id="geometry-heading" class="analysis-section-title">Sacred Geometry</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Golden Ratio Relationships</h5>
-                            <div id="goldenRatio"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Fibonacci Sequences</h5>
-                            <div id="fibonacciSequences"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Platonic Solids</h5>
-                            <div id="platonicSolids"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Sacred Patterns</h5>
-                            <div id="sacredPatterns"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Symbolism Section -->
-                <section id="symbolismSection" class="analysis-section" aria-labelledby="symbolism-heading">
-                    <h4 id="symbolism-heading" class="analysis-section-title">Symbolism</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Archetypal Symbols</h5>
-                            <div id="archetypicalSymbols"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Color Symbolism</h5>
-                            <div id="colorSymbolism"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Animal & Plant Totems</h5>
-                            <div id="animalPlantTotems"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Alchemical Symbols</h5>
-                            <div id="alchemicalSymbols"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Interactions Section -->
-                <section id="interactionsSection" class="analysis-section" aria-labelledby="interactions-heading">
-                    <h4 id="interactions-heading" class="analysis-section-title">Interactions</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Card Connections</h5>
-                            <div id="cardConnections"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Energy Flows</h5>
-                            <div id="energyFlows"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Narrative Threads</h5>
-                            <div id="narrativeThreads"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Card Clusters</h5>
-                            <div id="cardClusters"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Shadow Work Section -->
-                <section id="shadowSection" class="analysis-section" aria-labelledby="shadow-heading">
-                    <h4 id="shadow-heading" class="analysis-section-title">Shadow Work</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Shadow Aspects</h5>
-                            <div id="shadowAspects"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Projections & Denials</h5>
-                            <div id="projectionsDenials"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Integration Opportunities</h5>
-                            <div id="integrationOpportunities"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Shadow Gifts</h5>
-                            <div id="shadowGifts"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Alchemy Section -->
-                <section id="alchemySection" class="analysis-section" aria-labelledby="alchemy-heading">
-                    <h4 id="alchemy-heading" class="analysis-section-title">Alchemy</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Alchemical Stage</h5>
-                            <div id="alchemicalStage"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Transformation Process</h5>
-                            <div id="transformationProcess"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Prima Materia</h5>
-                            <div id="primaMateria"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Philosopher's Stone</h5>
-                            <div id="philosophersStone"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Mythology Section -->
-                <section id="mythologySection" class="analysis-section" aria-labelledby="mythology-heading">
-                    <h4 id="mythology-heading" class="analysis-section-title">Mythology</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Hero's Journey Stage</h5>
-                            <div id="heroJourneyStage"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Divine Archetypes</h5>
-                            <div id="divineArchetypes"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Cultural Mythologies</h5>
-                            <div id="culturalMythologies"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Cosmic Cycles</h5>
-                            <div id="cosmicCycles"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Quantum Field Section -->
-                <section id="quantumSection" class="analysis-section" aria-labelledby="quantum-heading">
-                    <h4 id="quantum-heading" class="analysis-section-title">Quantum Field</h4>
-                    <div class="analysis-grid">
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Field Coherence</h5>
-                            <div id="fieldCoherence"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Quantum Entanglements</h5>
-                            <div id="quantumEntanglements"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Probability Fields</h5>
-                            <div id="probabilityFields"></div>
-                        </div>
-                        <div class="analysis-card">
-                            <h5 class="text-lg font-semibold mb-2 text-teal-400">Synchronicities</h5>
-                            <div id="synchronicities"></div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </section>
-
-        <!-- Saved Readings -->
-        <div id="savedReadings" class="mt-8">
-            <h3 class="title-font text-xl font-semibold mb-4 text-purple-300">📚 Your Reading History</h3>
-            <div id="savedReadingsList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Saved readings will appear here -->
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Card Detail Modal -->
-    <div id="cardModal" class="modal fixed inset-0 z-50 hidden items-center justify-center p-4">
-        <div class="modal-content max-w-4xl w-full max-h-[90vh] overflow-y-auto p-8">
-            <div class="flex justify-between items-center mb-6">
-                <h2 id="modalCardName" class="title-font text-3xl font-bold text-teal-400"></h2>
-                <button id="closeModal" class="text-gray-400 hover:text-white text-2xl">×</button>
-            </div>
-            <div id="modalCardContent" class="space-y-6">
-                <!-- Detailed card information will be inserted here -->
-            </div>
-        </div>
-    </div>
-
-    <!-- Modular JavaScript Architecture -->
-    <script src="js/utils.js"></script>
-    <script src="js/data-loader.js"></script>
-    <script src="js/spreads.js"></script>
-    <script src="js/tarot-data-enhanced.js"></script>
-    <script src="js/card-renderer.js"></script>
-    <script src="js/analysis-engine.js"></script>
-    <script src="js/tarot-app-controller.js"></script>
-    <script>
-        // Start loading all data
-        window.tarotDataLoader.loadAllData().then(() => {
-            // Dispatch event to notify controller that data is ready
-            window.dispatchEvent(new CustomEvent('tarotDataLoaded'));
-        }).catch(error => {
-            console.error("Failed to load tarot data:", error);
-            // Optionally, display an error message to the user
-        });
-    </script>
+load().then(() => { go(); });
+</script>
 </body>
 </html>

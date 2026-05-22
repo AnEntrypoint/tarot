@@ -1,0 +1,1805 @@
+{
+  "_meta": {
+    "sources": {
+      "waite": "Waite, A. E. (1910). The Pictorial Key to the Tarot, Part III. London: William Rider & Son. Public domain. Transcribed from Wikisource.",
+      "etteilla": "Etteilla (Jean-Baptiste Alliette) (1785). Manière de se récréer avec le jeu de cartes nommées tarots; expanded as Grand Etteilla (1788). Keyword catalogue from stolen-thyme.com/etteilla-in-english.",
+      "golden_dawn": "Hermetic Order of the Golden Dawn (1888) Cipher MSS attributions; Crowley, A. (1944). The Book of Thoth."
+    }
+  },
+  "cards": {
+    "0 The Fool": {
+      "name": "0 The Fool",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Folly, mania, extravagance, intoxication, delirium, frenzy, bewray ment.",
+        "waite_additional": null,
+        "etteilla": "Madness, insanity, eccentricity, enthusiasm, unreasonableness, blindness, ignorance, confusion",
+        "etteilla_name": "Folie"
+      },
+      "reversed": {
+        "waite": "Negligence, absence, distribution, carelessness, apathy, nullity, vanity",
+        "waite_additional": null,
+        "etteilla": "Imbecility, ineptitude, stupidity, imprudence, negligence, apathy, useless"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Aleph",
+        "attribution": "Air (mother letter)",
+        "element": "Air",
+        "thoth_title": null
+      }
+    },
+    "I The Magician": {
+      "name": "I The Magician",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Skill, diplomacy, address, subtlety; sickness, pain, loss, disaster, of enemies; self-confidence, will; the Querent, if male.",
+        "waite_additional": null,
+        "etteilla": "Illness of the body, disease, physical affliction, infirmity, damage, disruption, pain",
+        "etteilla_name": "Maladie"
+      },
+      "reversed": {
+        "waite": "Physician, Magus, mental disease, disgrace, disquiet",
+        "waite_additional": null,
+        "etteilla": "Illness of the mind or soul, headache, heartache, worry, melancholy, anxiety"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Beth",
+        "attribution": "Mercury (☿)",
+        "element": "Air",
+        "thoth_title": null
+      }
+    },
+    "II The High Priestess": {
+      "name": "II The High Priestess",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Secrets, mystery, the future as yet unrevealed; the woman who interests the Querent, if male; the Querent herself, if female silence, tenacity; mystery, wisdom, science.",
+        "waite_additional": null,
+        "etteilla": "Nature, rest, tranquility, retreat, private life, solitary life, silence",
+        "etteilla_name": "Etteilla / Questionnante"
+      },
+      "reversed": {
+        "waite": "Passion, moral or physical ardour, conceit, surface knowledge",
+        "waite_additional": null,
+        "etteilla": "Imitation, Garden of Eden, effervescence, fermentation, bubbling"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Gimel",
+        "attribution": "Moon (☽)",
+        "element": "Water",
+        "thoth_title": null
+      }
+    },
+    "III The Empress": {
+      "name": "III The Empress",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Fruitfulness, action, initiative, length of days; the unknown, clandestine; also difficulty, doubt, ignorance.",
+        "waite_additional": null,
+        "etteilla": "Night, darkness, eclipse, mystery, secret, hidden, unknown, occult",
+        "etteilla_name": "Nuit / Jour"
+      },
+      "reversed": {
+        "waite": "Light, truth, the unravelling of involved matters, public rejoicings; according to another reading, vacillation",
+        "waite_additional": null,
+        "etteilla": "Day, light, brightness, clarity, truth, visible, enlighten, bloom"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Daleth",
+        "attribution": "Venus (♀)",
+        "element": "Water",
+        "thoth_title": null
+      }
+    },
+    "IV The Emperor": {
+      "name": "IV The Emperor",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
+        "waite_additional": null,
+        "etteilla": "Support, backing, foundation, basis, stability, assurance, confidence, security, help, aid",
+        "etteilla_name": "Appui / Protection"
+      },
+      "reversed": {
+        "waite": "Benevolence, compassion, credit; also confusion to enemies, obstruction, immaturity",
+        "waite_additional": null,
+        "etteilla": "Protection, defense, influence, benevolence, charity, shelter, preservation"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Heh",
+        "attribution": "Aries (♈)",
+        "element": "Fire",
+        "thoth_title": null
+      }
+    },
+    "V The Hierophant": {
+      "name": "V The Hierophant",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Marriage, alliance, captivity, servitude; by another account, mercy and goodness; inspiration; the man to whom the Querent has recourse.",
+        "waite_additional": null,
+        "etteilla": "God, spirit of God, all-powerful, eternal, unique, divinity",
+        "etteilla_name": "Etteilla / Questionnant"
+      },
+      "reversed": {
+        "waite": "Society, good understanding, concord, over-kindness, weakness",
+        "waite_additional": null,
+        "etteilla": "Philosopher, philosophical, sage, wisdom, knowledge"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Vau",
+        "attribution": "Taurus (♉)",
+        "element": "Earth",
+        "thoth_title": null
+      }
+    },
+    "VI The Lovers": {
+      "name": "VI The Lovers",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Attraction, love, beauty, trials overcome.",
+        "waite_additional": null,
+        "etteilla": "Marriage, wedding, nuptials, alliance, meeting, link, pledge, promise, oath",
+        "etteilla_name": "Mariage / Union"
+      },
+      "reversed": {
+        "waite": "Failure, foolish designs. Another account speaks of marriage frustrated and contrarieties of all kinds",
+        "waite_additional": null,
+        "etteilla": "Union, society, contacts, cohabitation, adultery, blending, peace, harmony"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Zain",
+        "attribution": "Gemini (♊)",
+        "element": "Air",
+        "thoth_title": null
+      }
+    },
+    "VII The Chariot": {
+      "name": "VII The Chariot",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Succour, providence; also war, triumph, presumption, vengeance, trouble.",
+        "waite_additional": null,
+        "etteilla": "Dissension, discord, disturbances, agitation, disorder, riots, rebellion, war, battle",
+        "etteilla_name": "Dissension / Arrogance"
+      },
+      "reversed": {
+        "waite": "Riot, quarrel, dispute, litigation, defeat",
+        "waite_additional": null,
+        "etteilla": "Arrogance, pride, vanity, false glory, pomp, ostentation, presumption"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Cheth",
+        "attribution": "Cancer (♋)",
+        "element": "Water",
+        "thoth_title": null
+      }
+    },
+    "VIII Strength": {
+      "name": "VIII Strength",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Power, energy, action, courage, magnanimity; also complete success and honours.",
+        "waite_additional": null,
+        "etteilla": "Fortitude, strength, ability, power, moral strength, perseverance, courage, heroism",
+        "etteilla_name": "La Force / Le Souverain"
+      },
+      "reversed": {
+        "waite": "Despotism, abuse of power, weakness, discord, sometimes even disgrace",
+        "waite_additional": null,
+        "etteilla": "Sovereign, kingdom, empire, state, government, administration, reign, authority"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Teth",
+        "attribution": "Leo (♌)",
+        "element": "Fire",
+        "thoth_title": null
+      }
+    },
+    "IX The Hermit": {
+      "name": "IX The Hermit",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
+        "waite_additional": null,
+        "etteilla": "Traitor, deceiver, dissimulation, hypocrite, fanatic, hypocrisy, impostor, treason",
+        "etteilla_name": "Traitre / Faux Devot"
+      },
+      "reversed": {
+        "waite": "Concealment, disguise, policy, fear, unreasoned caution",
+        "waite_additional": null,
+        "etteilla": "Falsely pious person, hermit, anchorite, solitary, hidden, concealed"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Yod",
+        "attribution": "Virgo (♍)",
+        "element": "Earth",
+        "thoth_title": null
+      }
+    },
+    "X Wheel of Fortune": {
+      "name": "X Wheel of Fortune",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Destiny, for tune, success, elevation, luck, felicity.",
+        "waite_additional": null,
+        "etteilla": "Fortune, luck, happiness, joy, improvement, prosperity, blessing, wealth, profits",
+        "etteilla_name": "Fortune / Augmentation"
+      },
+      "reversed": {
+        "waite": "Increase, abundance, superfluity",
+        "waite_additional": null,
+        "etteilla": "Augmentation, increase, enlargement, abundance, growth, development, vegetation"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Kaph",
+        "attribution": "Jupiter (♃)",
+        "element": "Fire",
+        "thoth_title": null
+      }
+    },
+    "XI Justice": {
+      "name": "XI Justice",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Equity, rightness, probity, executive; triumph of the deserving side in law.",
+        "waite_additional": null,
+        "etteilla": "Justice, equity, probity, uprightness, right, rectitude, reason, execution",
+        "etteilla_name": "La Justice / Le Legiste"
+      },
+      "reversed": {
+        "waite": "Law in all its departments, legal complications, bigotry, bias, excessive severity",
+        "waite_additional": null,
+        "etteilla": "Jurist, legislator, legislation, tribunal, law, decree, code, order"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Lamed",
+        "attribution": "Libra (♎)",
+        "element": "Air",
+        "thoth_title": null
+      }
+    },
+    "XII The Hanged Man": {
+      "name": "XII The Hanged Man",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Wisdom, circumspection, discernment, trials, sacrifice, intuition, divination, prophecy.",
+        "waite_additional": null,
+        "etteilla": "Prudence, wisdom, reserve, circumspection, restraint, discernment, foresight, prediction",
+        "etteilla_name": "La Prudence / Le Peuple"
+      },
+      "reversed": {
+        "waite": "Selfishness, the crowd, body politic",
+        "waite_additional": null,
+        "etteilla": "The people, nation, sovereign, political body, population, generation"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Mem",
+        "attribution": "Water (mother letter); Neptune (♆)",
+        "element": "Water",
+        "thoth_title": null
+      }
+    },
+    "XIII Death": {
+      "name": "XIII Death",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "End, mortality, destruction, corruption; also, for a man, the loss of a benefactor; for a woman, many contrarieties; for a maid, failure of marriage projects.",
+        "waite_additional": null,
+        "etteilla": "Mortality, death, passing, end, destruction, murder, assassination, massacre, poison",
+        "etteilla_name": "Moralite / Neant"
+      },
+      "reversed": {
+        "waite": "Inertia, sleep, lethargy, petrifaction, somnambulism; hope destroyed",
+        "waite_additional": null,
+        "etteilla": "Nothingness, inertia, paralysis, sleep, lethargy, annihilate, null"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Nun",
+        "attribution": "Scorpio (♏)",
+        "element": "Water",
+        "thoth_title": null
+      }
+    },
+    "XIV Temperance": {
+      "name": "XIV Temperance",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Economy, moderation, frugality, management, accommodation.",
+        "waite_additional": null,
+        "etteilla": "Temperance, moderation, discretion, abstinence, sobriety, chastity, patience, calm",
+        "etteilla_name": "La Temperance / Le Pretre"
+      },
+      "reversed": {
+        "waite": "Things connected with churches, religions, sects, the priesthood, sometimes even the priest who will marry the Querent; also disunion, unfortunate combinations, competing interests",
+        "waite_additional": null,
+        "etteilla": "Priest, minister, priesthood, clergy, church, council, religion, sect"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Samekh",
+        "attribution": "Sagittarius (♐)",
+        "element": "Fire",
+        "thoth_title": null
+      }
+    },
+    "XV The Devil": {
+      "name": "XV The Devil",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Ravage, violence, vehemence, extraordinary efforts, force, fatality; that which is predestined but is not for this reason evil.",
+        "waite_additional": null,
+        "etteilla": "Strength, human strength, extraordinary power, physical strength, violence, firmness",
+        "etteilla_name": "Force Majeure / Force Mineure"
+      },
+      "reversed": {
+        "waite": "Evil fatality, weakness, pettiness, blindness",
+        "waite_additional": null,
+        "etteilla": "Lightness, weakness, smallness, tenderness, faint, despondency, depression"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Ayin",
+        "attribution": "Capricorn (♑)",
+        "element": "Earth",
+        "thoth_title": null
+      }
+    },
+    "XVI The Tower": {
+      "name": "XVI The Tower",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Misery, distress, indigence, adversity, calamity, disgrace, deception, ruin. It is a card in particular of unforeseen catastrophe.",
+        "waite_additional": null,
+        "etteilla": "Destitution, indigence, poverty, scarcity, need, distress, suffering, affliction, misfortune",
+        "etteilla_name": "Misere / Prison"
+      },
+      "reversed": {
+        "waite": "According to one account, the same in a lesser degree; also oppression, imprisonment, tyranny",
+        "waite_additional": null,
+        "etteilla": "Prison, imprisonment, detention, arrest, captivity, slavery, servitude, constraint"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Peh",
+        "attribution": "Mars (♂)",
+        "element": "Fire",
+        "thoth_title": null
+      }
+    },
+    "XVII The Star": {
+      "name": "XVII The Star",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Loss, theft, privation, abandonment; another reading says—hope and bright prospects,",
+        "waite_additional": null,
+        "etteilla": "Stripping away, counting, sorting, separation, remove, theft, larceny, fraud",
+        "etteilla_name": "Depouillement / Air"
+      },
+      "reversed": {
+        "waite": "Arrogance, haughtiness, impotence",
+        "waite_additional": null,
+        "etteilla": "Air, wind, hurricane, sky, stars, birds, music, song, hypocrisy"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Tzaddi",
+        "attribution": "Aquarius (♒)",
+        "element": "Air",
+        "thoth_title": null
+      }
+    },
+    "XVIII The Moon": {
+      "name": "XVIII The Moon",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Hidden enemies, danger, calumny, darkness, terror, deception, occult forces, error.",
+        "waite_additional": null,
+        "etteilla": "Aim, design, intention, resolution, will, language, words, speech, discourse, moon",
+        "etteilla_name": "Propos / Eau"
+      },
+      "reversed": {
+        "waite": "Instability, inconstancy, silence, lesser degrees of deception and error",
+        "waite_additional": null,
+        "etteilla": "Water, fluid, humid, dew, rain, deluge, sea, river, waves, inundation"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Qoph",
+        "attribution": "Pisces (♓)",
+        "element": "Water",
+        "thoth_title": null
+      }
+    },
+    "XIX The Sun": {
+      "name": "XIX The Sun",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Material happiness, fortunate marriage, contentment.",
+        "waite_additional": null,
+        "etteilla": "Brightening, clearing, explanation, development, instruction, revelation, clarity, light, fire, sun",
+        "etteilla_name": "Eclaircissement / Feu"
+      },
+      "reversed": {
+        "waite": "The same in a lesser sense",
+        "waite_additional": null,
+        "etteilla": "Fire, hot, heat, spark, flame, passion, lightning, magnetism"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Resh",
+        "attribution": "Sun (☉)",
+        "element": "Fire",
+        "thoth_title": null
+      }
+    },
+    "XX Judgement": {
+      "name": "XX Judgement",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Change of position, renewal, outcome. Another account specifies total loss though lawsuit.",
+        "waite_additional": null,
+        "etteilla": "Judgment, true judgment, good judgment, discernment, intelligence, reason, understanding",
+        "etteilla_name": "Jugement"
+      },
+      "reversed": {
+        "waite": "Weakness, pusillanimity, simplicity; also deliberation, decision, sentence",
+        "waite_additional": null,
+        "etteilla": "Judgment, decision, decree, ruling, legal outcome, weak judgment, madness"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Shin",
+        "attribution": "Fire (mother letter); Pluto (♇)",
+        "element": "Fire",
+        "thoth_title": null
+      }
+    },
+    "XXI The World": {
+      "name": "XXI The World",
+      "arcana": "major",
+      "suit": null,
+      "upright": {
+        "waite": "Assured success, recompense, voyage, route, emigration, flight, change of place.",
+        "waite_additional": null,
+        "etteilla": "Voyage, pilgrimage, tour, movement, walking, running, flight, escape",
+        "etteilla_name": "Voyage / Terre"
+      },
+      "reversed": {
+        "waite": "Inertia, fixity, stagnation, permanence",
+        "waite_additional": null,
+        "etteilla": "Earth, matter, land, fields, vineyards, terrain, landscape, world, mountains"
+      },
+      "image": null,
+      "golden_dawn": {
+        "hebrew": "Tau",
+        "attribution": "Saturn (♄); Earth",
+        "element": "Earth",
+        "thoth_title": null
+      }
+    },
+    "Ace of Wands": {
+      "name": "Ace of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "Creation, invention, enterprise, the powers which result in these; principle, beginning, source; birth, family, origin, and in a sense the virility which is behind them; the starting point of enterprises; according to another account, money, fortune, inheritance.",
+        "waite_additional": "Calamities of all kinds.",
+        "etteilla": "Nativity, origin, creation, source, spring, beginning, principle",
+        "etteilla_name": "Ace of Batons"
+      },
+      "reversed": {
+        "waite": "Fall, decadence, ruin, perdition, to perish; also a certain clouded joy.",
+        "waite_additional": "A sign of birth",
+        "etteilla": "Cascade, abyss, gulf, precipice, decline, descent, waste away"
+      },
+      "image": "A hand issuing from a cloud grasps a stout wand or club.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Root of Fire",
+        "element": "Fire",
+        "thoth_title": null
+      }
+    },
+    "Two of Wands": {
+      "name": "Two of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "Between the alternative readings there is no marriage possible; on the one hand, riches, fortune, magnificence; on the other, physical suffering, disease, chagrin, sadness, mortification. The design gives one suggestion; here is a lord overlooking his dominion and alternately contemplating a globe; it looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world's wealth.",
+        "waite_additional": "A young lady may expect trivial disappointments",
+        "etteilla": "Sadness, affliction, displeasure, pain, desolation, hopelessness, bleakness",
+        "etteilla_name": "Two of Batons"
+      },
+      "reversed": {
+        "waite": "Surprise, wonder, enchantment, emotion, trouble, fear.",
+        "waite_additional": null,
+        "etteilla": "Trick, deception, mistake, confusion, emotion, fear, fright, terror"
+      },
+      "image": "A tall man looks from a battlemented roof over sea and shore; he holds a globe in his right hand, while a staff in his left rests on the battlement; another is fixed in a ring. The Rose and Cross and Lily should be noticed on the left side.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mars in Aries (1st decan)",
+        "element": "Fire",
+        "thoth_title": "Dominion"
+      }
+    },
+    "Three of Wands": {
+      "name": "Three of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "He symbolizes established strength, enterprise, effort, trade, commerce, discovery; those are his ships, bearing his merchandise, which are sailing over the sea. The card also signifies able co-operation in business, as if the successful merchant prince were looking from his side towards yours with a view to help you.",
+        "waite_additional": "A very good card; collaboration will favour enterprise",
+        "etteilla": "Initiative, to begin, to undertake, to start, audacity, daring, temerity, boldness",
+        "etteilla_name": "Three of Batons"
+      },
+      "reversed": {
+        "waite": "The end of troubles, suspension or cessation of adversity, toil and disappointment.",
+        "waite_additional": null,
+        "etteilla": "Cessation of or a break in bad luck, torment, or exertions"
+      },
+      "image": "A calm, stately personage, with his back turned, looking from a cliff's edge at ships passing over the sea. Three staves are planted in the ground, and he leans slightly on one of them.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Sun in Aries (2nd decan)",
+        "element": "Fire",
+        "thoth_title": "Virtue / Established Strength"
+      }
+    },
+    "Four of Wands": {
+      "name": "Four of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "They are for once almost on the surface—country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these.",
+        "waite_additional": "Unexpected good fortune.",
+        "etteilla": "Association, assembly, connection, federation, confederation, church, congregation",
+        "etteilla_name": "Four of Batons"
+      },
+      "reversed": {
+        "waite": "The meaning remains unaltered; it is prosperity, increase, felicity, beauty, embellishment.",
+        "waite_additional": "A married woman will have beautiful children",
+        "etteilla": "Augmentation, increase, advancement, success, happiness, felicity, beauty"
+      },
+      "image": "From the four great staves planted in the foreground there is a great garland suspended; two female figures uplift nose-gays; at their side is a bridge over a moat, leading to an old manorial house.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Venus in Aries (3rd decan)",
+        "element": "Fire",
+        "thoth_title": "Completion / Perfected Work"
+      }
+    },
+    "Five of Wands": {
+      "name": "Five of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence.",
+        "waite_additional": "Success in financial speculation.",
+        "etteilla": "Wealth, opulence, sumptuousness, magnificence, radiance, luster, luxury, abundance",
+        "etteilla_name": "Five of Batons"
+      },
+      "reversed": {
+        "waite": "Litigation, disputes, trickery, contradiction.",
+        "waite_additional": "Quarrels may be turned to advantage",
+        "etteilla": "Litigation, difference, quarrels, contestation, disputes, discussion, delaying tactic"
+      },
+      "image": "A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare, and hereto correspond the",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Saturn in Leo (1st decan)",
+        "element": "Fire",
+        "thoth_title": "Strife"
+      }
+    },
+    "Six of Wands": {
+      "name": "Six of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "The card has been so designed that it can cover several significations; on the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier; it is expectation crowned with its own desire, the crown of hope, and so forth.",
+        "waite_additional": "Servants may lose the confidence of their masters; a young lady may be betrayed by a friend.",
+        "etteilla": "Housework, home, servant, valet, lackey, maidservant, mercenary, inferior, slave",
+        "etteilla_name": "Six of Batons"
+      },
+      "reversed": {
+        "waite": "Apprehension, fear, as of a victorious enemy at the gate; treachery, disloyalty, as of gates being opened to the enemy; also indefinite delay.",
+        "waite_additional": "Fulfilment of deferred hope",
+        "etteilla": "Awaiting, expectation, expectancy, confidence, foresight, fear, apprehensiveness"
+      },
+      "image": "A laurelled horseman bears one staff adorned with a laurel crown; footmen with staves are at his side.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Jupiter in Leo (2nd decan)",
+        "element": "Fire",
+        "thoth_title": "Victory"
+      }
+    },
+    "Seven of Wands": {
+      "name": "Seven of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife; in business—negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him.",
+        "waite_additional": "A dark child",
+        "etteilla": "Speech, to speak, to say, interview, colloquy, conversation, correspondence, deliberation",
+        "etteilla_name": "Seven of Batons"
+      },
+      "reversed": {
+        "waite": "Perplexity, embarrassments, anxiety. It is also a caution against indecision.",
+        "waite_additional": null,
+        "etteilla": "Irresoluteness, uncertainty, perplexity, inconstancy, frivolity, fickleness, variety"
+      },
+      "image": "A young man on a craggy eminence brandishing a staff; six other staves are raised towards him from below.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mars in Leo (3rd decan)",
+        "element": "Fire",
+        "thoth_title": "Valour"
+      }
+    },
+    "Eight of Wands": {
+      "name": "Eight of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "Activity in undertakings, the path of such activity, swiftness, as that of an express messenger; great haste, great hope, speed towards an end which promises assured felicity; generally, that which is on the move; also the arrows of love.",
+        "waite_additional": "Domestic disputes for a married person",
+        "etteilla": "Land, agriculture, farming, cultivation, tillage, properties, farm structures, peace, calm",
+        "etteilla_name": "Eight of Batons"
+      },
+      "reversed": {
+        "waite": "Arrows of jealousy, internal dispute, stingings of conscience, quarrels; and domestic disputes for persons who are married.",
+        "waite_additional": null,
+        "etteilla": "Misunderstanding, regrets, remorse, repent, internal agitation, irresolution, uncertainty"
+      },
+      "image": "The card represents motion through the immovable—a flight of wands through an open country; but they draw to the term of their course. That which they signify is at hand; it may be even on the threshold.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mercury in Sagittarius (1st decan)",
+        "element": "Fire",
+        "thoth_title": "Swiftness"
+      }
+    },
+    "Nine of Wands": {
+      "name": "Nine of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "The card signifies strength in opposition. If attacked, the person will meet an onslaught boldly; and his build shews that he may prove a formidable antagonist. With this main significance there are all its possible adjuncts—delay, suspension, adjournment.",
+        "waite_additional": "Generally speaking, a bad card",
+        "etteilla": "Delay, putting-back, tardiness, dismissal, suspension, drawing out, lengthening, slowness",
+        "etteilla_name": "Nine of Batons"
+      },
+      "reversed": {
+        "waite": "Obstacles, adversity, calamity.",
+        "waite_additional": null,
+        "etteilla": "Obstacle, impediment, contrariety, disadvantage, adversity, trouble, misfortune, unhappiness"
+      },
+      "image": "The figure leans upon his staff and has an expectant look, as if awaiting an enemy. Behind are eight other staves—erect, in orderly disposition, like a palisade.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Moon in Sagittarius (2nd decan)",
+        "element": "Fire",
+        "thoth_title": "Great Strength"
+      }
+    },
+    "Ten of Wands": {
+      "name": "Ten of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss.",
+        "waite_additional": "Difficulties and contradictions, if near a good card",
+        "etteilla": "Disloyalty, betrayal, infidelity, conspiracy, corruption, malpractice, wrongdoing, crime",
+        "etteilla_name": "Ten of Batons"
+      },
+      "reversed": {
+        "waite": "Contrarieties, difficulties, intrigues, and their analogies.",
+        "waite_additional": null,
+        "etteilla": "Impediment, hindrance, difficult position, struggle, inconvenience, opposition, effort"
+      },
+      "image": "A man oppressed by the weight of the ten staves which he is carrying.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Saturn in Sagittarius (3rd decan)",
+        "element": "Fire",
+        "thoth_title": "Oppression"
+      }
+    },
+    "Page of Wands": {
+      "name": "Page of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence.",
+        "waite_additional": "Young man of family in search of young lady.",
+        "etteilla": "A foreigner, someone unknown or anonymous, strange, unusual, rare, uncommon",
+        "etteilla_name": "Knave of Batons"
+      },
+      "reversed": {
+        "waite": "Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it.",
+        "waite_additional": "Bad news",
+        "etteilla": "Announcement, notice, warning, admonition, education, instruction, teaching, lesson"
+      },
+      "image": "In a scene similar to the former, a young man stands in the act of proclamation. He is unknown but faithful, and his tidings are strange.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Earth of Fire — Aries, Leo, Sagittarius",
+        "element": "Fire of Earth",
+        "thoth_title": null
+      }
+    },
+    "Knight of Wands": {
+      "name": "Knight of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "Departure, absence, flight, emigration. A dark young man, friendly. Change of residence.",
+        "waite_additional": "A bad card; according to some readings, alienation.",
+        "etteilla": "To leave, movement, transfer, distance, remoteness, sending away, absence, abandonment",
+        "etteilla_name": "Knight of Batons"
+      },
+      "reversed": {
+        "waite": "Rupture, division, interruption, discord.",
+        "waite_additional": "For a woman, marriage, but probably frustrated",
+        "etteilla": "Quarrel, rupture, disagreement, squabble, division, part, separation, partition"
+      },
+      "image": "He is shewn as if upon a journey, armed with a short wand, and although mailed is not on a warlike errand. He is passing mounds or pyramids. The motion of the horse is a key to the character of its rider, and suggests the precipitate mood, or things connected therewith.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Fire of Fire — Scorpio 3°/Sagittarius 1-2°",
+        "element": "Fire of Fire",
+        "thoth_title": null
+      }
+    },
+    "Queen of Wands": {
+      "name": "Queen of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "A dark woman, countrywoman, friendly, chaste, loving, honourable. If the card beside her signifies a man, she is well disposed towards him; if a woman, she is interested in the Querent. Also, love of money, or a certain success in business.",
+        "waite_additional": "A good harvest, which may be taken in several senses.",
+        "etteilla": "Country-dweller, villager, farmer, grower, woman of the woods, craftswoman, honesty",
+        "etteilla_name": "Queen of Batons"
+      },
+      "reversed": {
+        "waite": "Good, economical, obliging, serviceable. Signifies also—but in certain positions and in the neighbourhood of other cards tending in such directions—opposition, jealousy, even deceit and infidelity.",
+        "waite_additional": "Good-will towards the Querent, but without the opportunity to exercise it",
+        "etteilla": "Goodness, obliging, helpful, good deed, service, charity, alms, favor"
+      },
+      "image": "The Wands throughout this suit are always in leaf, as it is a suit of life and animation. Emotionally and otherwise, the Queen's personality corresponds to that of the King, but is more magnetic.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Water of Fire — Pisces 3°/Aries 1-2°",
+        "element": "Water of Fire",
+        "thoth_title": null
+      }
+    },
+    "King of Wands": {
+      "name": "King of Wands",
+      "arcana": "minor",
+      "suit": "Wands",
+      "upright": {
+        "waite": "Dark man, friendly, countryman, generally married, honest and conscientious. The card always signifies honesty, and may mean news concerning an unexpected heritage to fall in before very long.",
+        "waite_additional": "Generally favourable; may signify a good marriage.",
+        "etteilla": "Country-dweller, rustic, villager, peasant, farmer, plough-man, grower, agriculture, conscience",
+        "etteilla_name": "King of Batons"
+      },
+      "reversed": {
+        "waite": "Good, but severe; austere, yet tolerant.",
+        "waite_additional": "Advice that should be followed",
+        "etteilla": "Indulgent severity, leniency, indulgence, kindness, tolerance, condescension"
+      },
+      "image": "The physical and emotional nature to which this card is attributed is dark, ardent, lithe, animated, impassioned, noble. The King uplifts a flowering wand, and wears, like his three correspondences in the remaining suits, what is called a cap of maintenance beneath his crown. He connects with the symbol of the lion, which is emblazoned on the back of his throne.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Air of Fire — Cancer 3°/Leo 1-2° (Crowley 'Prince of Wands')",
+        "element": "Air of Fire",
+        "thoth_title": null
+      }
+    },
+    "Ace of Cups": {
+      "name": "Ace of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "House of the true heart, joy, content, abode, nourishment, abun­dance, fertility; Holy Table, felicity hereof.",
+        "waite_additional": "Inflexible will, unalterable law.",
+        "etteilla": "Table, meal, treat to a meal, food, nutrients, nutrition, feast, gala, invitation, guests, host, hotel, hospitality, inn, tavern, abundance, desk, altar, tablets, portfolio, catalog, data",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "House of the false heart, mutation, instability, revolution.",
+        "waite_additional": "Unexpected change of position",
+        "etteilla": "Change, mutation, permutation, transmutation, metamorphosis, alternation, vicissitude, inconstancy, frivolity, reversal, revolution, reversion, variety, variation, diversity, versatility, exchange, swap, purchase, sale, market, trade, convention, translation, interpretation, reading"
+      },
+      "image": "The waters are beneath, and thereon are water-lilies; the hand issues from the cloud, holding in its palm the cup, from which four streams are pouring; a dove, bearing in its bill a cross-marked Host, descends to place the Wafer in the Cup; the dew of water is falling on all sides. It is an intimation of that which may lie behind the Lesser Arcana",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Root of Water",
+        "element": "Water",
+        "thoth_title": null
+      }
+    },
+    "Two of Cups": {
+      "name": "Two of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes, and—as a suggestion apart from all offices of divination—that desire which is not in Nature, but by which Nature is sanctified.",
+        "waite_additional": "Favourable in things of pleasure and business, as well as love; also wealth and honour.",
+        "etteilla": "Love, passion, inclination, sympathy, attraction, appeal, affinity, friendship, relationship, goodwill, affection, attachment, courtly love, gallantry, chivalry",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": null,
+        "waite_additional": "Passion",
+        "etteilla": "Desire, wish, vow, will, drive, urge, yearning, pipe dream, covetousness, cupidity, lust, jealousy, passion, appetite"
+      },
+      "image": "A youth and maiden are pledging one another, and above their cups rises the Caduceus of Hermes, between the great wings of which there appears a lion's head. It is a variant of a sign which is found in a few old examples of this card. Some curious emblematical meanings are attached to it, but they do not concern us in this place.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Venus in Cancer (1st decan)",
+        "element": "Water",
+        "thoth_title": "Love"
+      }
+    },
+    "Three of Cups": {
+      "name": "Three of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "The conclusion of any matter in plenty, perfection and merriment; happy issue, victory, fulfilment, solace, healing.",
+        "waite_additional": "Unexpected advancement for military man.",
+        "etteilla": "Achievement, success, accomplishment, happy outcome, victory, healing, cure, relief, perfection",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Expedition, dispatch, achievement, end. It signifies also the side of excess in physical enjoyment, and the pleasures of the senses.",
+        "waite_additional": "Consolation, cure. end of the business",
+        "etteilla": "Business transaction, dispatches, execution, achievement, end, conclusion, termination"
+      },
+      "image": "Maidens in a garden-ground with cups uplifted, as if pledging one another.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mercury in Cancer (2nd decan)",
+        "element": "Water",
+        "thoth_title": "Abundance"
+      }
+    },
+    "Four of Cups": {
+      "name": "Four of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only; another wine, as if a fairy gift, is now offered the wastrel, but he sees no consolation therein. This is also a card of blended pleasure.",
+        "waite_additional": "Contrarieties.",
+        "etteilla": "Ennui, boredom, displeasure, discontentment, disgust, aversion, worry, spiritual anguish, grief, affliction, difficult, annoying, vexing, unpleasant, distressing, causing grief, disappointing",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Novelty, presage, new instruction, new relations.",
+        "waite_additional": "Presentiment",
+        "etteilla": "New knowledge or understanding, new directions, new information, new light, new details, new explanations, novelty, piece of information, indication, clue, sign, omen, portent, premonition, forecast, oracle, prediction, prophecy, divination"
+      },
+      "image": "A young man is seated under a tree and contemplates three cups set on the grass before him; an arm issuing from a cloud offers him another cup. His expression notwithstanding is one of discontent with his environment.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Moon in Cancer (3rd decan)",
+        "element": "Water",
+        "thoth_title": "Luxury"
+      }
+    },
+    "Five of Cups": {
+      "name": "Five of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "It is a card of loss, but something remains over; three have been taken, but two are left; it is a card of inheritance, patrimony, transmission, but not corresponding to expectations; with some interpreters it is a card of marriage, but not without bitterness or frustration.",
+        "waite_additional": "Generally favourable; a happy marriage; also patrimony, legacies, gifts, success in enterprise.",
+        "etteilla": "Heritage, inheritance, estate, legacy, holdings, legitimate, gift, donation, dowry, jointure, provision, grant, transmission, testament",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "News, alliances, affinity, consanguinity, ancestry, return, false projects.",
+        "waite_additional": "Return of some relative who has not been seen for long",
+        "etteilla": "Parents, father, mother, brother, sister, uncle, aunt, cousin, blood, family, ancestors, forebears, inbreeding, race, line of descent"
+      },
+      "image": "A dark, cloaked figure, looking sideways at three prone cups; two others stand upright behind him; a bridge is in the background, leading to a small keep or holding.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mars in Scorpio (1st decan)",
+        "element": "Water",
+        "thoth_title": "Disappointment"
+      }
+    },
+    "Six of Cups": {
+      "name": "Six of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "A card of the past and of memories, looking back, as—for example—on childhood; happiness, enjoyment, but coming rather from the past; things that have vanished. Another reading reverses this, giving new relations, new knowledge, new environment, and then the children are disporting in an unfamiliar precinct.",
+        "waite_additional": "Pleasant memories.",
+        "etteilla": "The past, faded, withered, desiccated, preserved, old age, decrepitude, gone, formerly, previously, before, in older days, once, in the past, antiquity, antiques",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "The future, renewal, that which will come to pass presently.",
+        "waite_additional": "Inheritance to fall in quickly",
+        "etteilla": "The future, after, following, subsequently, later on, looking forward, tomorrow, next time, upcoming, hereafter"
+      },
+      "image": "Children in an old garden, their cups filled with flowers.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Sun in Scorpio (2nd decan)",
+        "element": "Water",
+        "thoth_title": "Pleasure"
+      }
+    },
+    "Seven of Cups": {
+      "name": "Seven of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation; some attainment in these degrees, but nothing permanent or substantial is suggested.",
+        "waite_additional": "Fair child; idea, design, resolve, movement.",
+        "etteilla": "Thought, mind, soul, spirit, intelligence, imagination, understanding, idea, memory, conception, opinion, feeling, meditation, contemplation, reflection, deliberation",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Desire, will, determination, project.",
+        "waite_additional": "Success, if accompanied by the Three of Cups",
+        "etteilla": "Projects, design, intention, desire, will, resolution, determination, premeditation"
+      },
+      "image": "Strange chalices of vision, but the images are more especially those of the fantastic spirit.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Venus in Scorpio (3rd decan)",
+        "element": "Water",
+        "thoth_title": "Debauch"
+      }
+    },
+    "Eight of Cups": {
+      "name": "Eight of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "The card speaks for itself on the surface, but other readings are entirely antithetical—giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence—either for good or evil.",
+        "waite_additional": "Marriage with a fair woman.",
+        "etteilla": "Blond girl, honest girl, reserved girl, honor, discretion, modesty, restraint, timidity, apprehension, sweetness",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Great joy, happiness, feasting.",
+        "waite_additional": "Perfect satisfaction",
+        "etteilla": "Satisfaction, pleasure, happiness, contentment, gaiety, joy, enthusiasm, rejoicing, entertainment, party, public joy, excuse, compensation, reparation, exoneration"
+      },
+      "image": "A man of dejected aspect is deserting the cups of his felicity, enterprise, under-taking or previous concern.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Saturn in Pisces (1st decan)",
+        "element": "Water",
+        "thoth_title": "Indolence"
+      }
+    },
+    "Nine of Cups": {
+      "name": "Nine of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Concord, contentment, physical bien-être; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made.",
+        "waite_additional": "Of good augury for military men.",
+        "etteilla": "Victory, success, accomplishment, advantage, gain, winner, upper hand, lead, pomp, triumph, trophy, majesty, spectacle, parade, apparatus, gear",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc.",
+        "waite_additional": "Good business",
+        "etteilla": "Sincerity, truth, reality, loyalty, frankness, candor, liberty, familiarity, intimacy, ingenuousness, boldness"
+      },
+      "image": "A goodly personage has feasted to his heart's content, and abundant refreshment of wine is on the arched counter behind him, seeming to indicate that the future is also assured. The picture offers the material side only, but there are other aspects.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Jupiter in Pisces (2nd decan)",
+        "element": "Water",
+        "thoth_title": "Happiness"
+      }
+    },
+    "Ten of Cups": {
+      "name": "Ten of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Contentment, repose of the entire heart; the perfection of that state; also perfection of human love and friendship; if with several picture-cards, a person who is taking charge of the Querent's interests; also the town, village or country inhabited by the Querent.",
+        "waite_additional": "For a male Querent, a good marriage and one beyond his expectations.",
+        "etteilla": "Town, city, village, homeland, country, home, abode, dwelling, residence, citizens, place, site, location",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Repose of the false heart, indignation, violence.",
+        "waite_additional": "Sorrow; also a serious quarrel",
+        "etteilla": "Anger, indignation, agitation, irritation, fit of anger, fury, violence, frenzy, rage, hatred, aversion, animadversion, animosity, antipathy, resentment, vengeance, affront, outrage, blasphemy, danger, risk, peril, injury, storm, tempest, gust, cruelty, brutality, inhumanity, atrocity"
+      },
+      "image": "Appearance of Cups in a rainbow; it is contemplated in wonder and ecstacy by a man and woman below, evidently husband and wife. His right arm is about her; his left is raised upward; she raises her right arm. The two children dancing near them have not observed the prodigy but are happy after their own manner. There is a home-scene beyond.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mars in Pisces (3rd decan)",
+        "element": "Water",
+        "thoth_title": "Satiety"
+      }
+    },
+    "Page of Cups": {
+      "name": "Page of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Fair young man, one impelled to render service and with whom the Querent will be connected; a studious youth; news, message; application, reflection, meditation; also these things directed to business.",
+        "waite_additional": "Good augury; also a young man who is unfortunate in love.",
+        "etteilla": "Blonde boy, studious, study, diligence, application, work, activity, occupation, hobby, trade, employment, observation, reflection, consideration, meditation, contemplation",
+        "etteilla_name": "Knave of Cups"
+      },
+      "reversed": {
+        "waite": "Taste, inclination, attachment, seduction, deception, artifice.",
+        "waite_additional": "Obstacles of all kinds",
+        "etteilla": "Liking, soft spot, inclination, approval, attraction, passion, affection, attachment, friendship, heart, longing, desire, leaning, tendency, taste, interest, engagement, seduction, invitation, flattery, cajolery, adulation, praise, eulogy, sycophant, to coax, to tempt, to entice, siren-song"
+      },
+      "image": "A fair, pleasing, somewhat effeminate page, of studious and intent aspect, contemplates a fish rising from a cup to look at him. It is the pictures of the mind taking form.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Earth of Water — Cancer, Scorpio, Pisces",
+        "element": "Earth of Water",
+        "thoth_title": null
+      }
+    },
+    "Knight of Cups": {
+      "name": "Knight of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Arrival, approach—sometimes that of a messenger; advances, proposition, demeanour, invitation, incitement.",
+        "waite_additional": "A visit from a friend, who will bring unexpected money to the Querent.",
+        "etteilla": "Arrival, coming, approach, advent, entrance, reception, coming together, meeting, agreement, compliance, conformity, get closer, approximation, squeeze together, gathering, crowd",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Trickery, artifice, subtlety, swindling, duplicity, fraud.",
+        "waite_additional": "Irregularity",
+        "etteilla": "Scam, trickery, villainy, fraud, cheating, swindling, ruse, artifice, subtlety, delicacy, nuance, dexterity, suppleness"
+      },
+      "image": "Graceful, but not warlike; riding quietly, wearing a winged helmet, referring to those higher graces of the imagination which sometimes characterize this card. He too is a dreamer, but the images of the side of sense haunt him in his vision.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Fire of Water — Aquarius 3°/Pisces 1-2°",
+        "element": "Fire of Water",
+        "thoth_title": null
+      }
+    },
+    "Queen of Cups": {
+      "name": "Queen of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Good, fair woman; honest, devoted woman, who will do service to the Querent; loving intelligence, and hence the gift of vision; success, happiness, pleasure; also wisdom, virtue; a perfect spouse and a good mother.",
+        "waite_additional": "Sometimes denotes a woman of equivocal character.",
+        "etteilla": "Blonde woman, honest woman, an expert, virtue, ethics, values, wisdom, honesty, trustworthiness",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "The accounts vary; good woman; otherwise, distinguished woman but one not to be trusted; perverse woman; vice, dishonour, depravity.",
+        "waite_additional": "A rich marriage for a man and a distinguished one for a woman",
+        "etteilla": "Woman of position, woman of a distinguished rank, dishonest woman, vice, dishonesty, depravity, debauchery, corruption, scandal"
+      },
+      "image": "Beautiful, fair, dreamy—as one who sees visions in a cup. This is, however, only one of her aspects; she sees, but she also acts, and her activity feeds her dream.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Water of Water — Gemini 3°/Cancer 1-2°",
+        "element": "Water of Water",
+        "thoth_title": null
+      }
+    },
+    "King of Cups": {
+      "name": "King of Cups",
+      "arcana": "minor",
+      "suit": "Cups",
+      "upright": {
+        "waite": "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
+        "waite_additional": "Beware of ill-will on the part of a man of position, and of hypocrisy pretending to help.",
+        "etteilla": "Blond man, scientist, artist, probity, equity, integrity, principles",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.",
+        "waite_additional": "Loss",
+        "etteilla": "Man of position, man of a high rank, dishonest man, scam, roguery, extortion, pillage, theft, brigand, rascal, corruption, waste, profligacy, squandering"
+      },
+      "image": "He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping. The implicit is that the Sign of the Cup naturally refers to water, which appears in all the court cards.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Air of Water — Libra 3°/Scorpio 1-2° (Crowley 'Prince of Cups')",
+        "element": "Air of Water",
+        "thoth_title": null
+      }
+    },
+    "Ace of Swords": {
+      "name": "Ace of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred. The crown may carry a much higher significance than comes usually within the sphere of fortune-telling.",
+        "waite_additional": "Great prosperity or great misery.",
+        "etteilla": "Extreme, large, excessive, over-the-top, extremely, passionately, excessively, furious, choleric, fit of anger, fury, rage",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "The same, but the results are disastrous; another account says—conception, childbirth, augmentation, multiplicity.",
+        "waite_additional": "Marriage broken off, for a woman, through her own imprudence",
+        "etteilla": "Pregnancy, engendering, conception, production, composition, birthing, childbirth"
+      },
+      "image": "A hand issues from a cloud, grasping a sword, the point of which is encircled by a crown.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Root of Air",
+        "element": "Air",
+        "thoth_title": null
+      }
+    },
+    "Two of Swords": {
+      "name": "Two of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms; another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs.",
+        "waite_additional": "Gifts for a lady, influential protection for a man in search of help.",
+        "etteilla": "Friendship, attachment, affection, tenderness, benevolence, liking, affinity, attraction, rapport, relationship, intimacy, sympathy",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Imposture, falsehood, duplicity, disloyalty.",
+        "waite_additional": "Dealings with rogues",
+        "etteilla": "False, falsity, lies, imposture, duplicity, bad faith, calculated deceit, dissimulation"
+      },
+      "image": "A hoodwinked female figure balances two swords upon her shoulders.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Moon in Libra (1st decan)",
+        "element": "Air",
+        "thoth_title": "Peace"
+      }
+    },
+    "Three of Swords": {
+      "name": "Three of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration.",
+        "waite_additional": "For a woman, the flight of her lover.",
+        "etteilla": "Distance, departure, absence, removal, dispersion, misanthropy, antisocial, disdain, aversion, incompatibility, separation, division",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Mental alienation, error, loss, distraction, disorder, confusion.",
+        "waite_additional": "A meeting with one whom the Querent has compromised; also a nun",
+        "etteilla": "Confusion, dementia, wandering, spiritual alienation, distraction, mad conduct, error"
+      },
+      "image": "Three swords piercing a heart; cloud and rain behind.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Saturn in Libra (2nd decan)",
+        "element": "Air",
+        "thoth_title": "Sorrow"
+      }
+    },
+    "Four of Swords": {
+      "name": "Four of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
+        "waite_additional": "A bad card, but if",
+        "etteilla": "Solitude, desert, exile, banishment, proscription, retirement, hermitage, uninhabited, isolated, abandoned, tomb",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Wise administration, circumspection, economy, avarice, precaution, testament.",
+        "waite_additional": "a qualified success may be expected by wise administration of affairs. Reversed: A certain success following wise administration",
+        "etteilla": "Economy, good conduct, wise administration, management wisdom, foresight, discretion, savings"
+      },
+      "image": "The effigy of a knight in the attitude of prayer, at full length upon his tomb.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Jupiter in Libra (3rd decan)",
+        "element": "Air",
+        "thoth_title": "Truce"
+      }
+    },
+    "Five of Swords": {
+      "name": "Five of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these.",
+        "waite_additional": "An attack on the fortune of the Querent.",
+        "etteilla": "Losses, damages, harm, disadvantage, failure, defeat, rout, setback, ruin, theft, abduction, disgrace",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "The same; burial and obsequies.",
+        "waite_additional": "A sign of sorrow and mourning",
+        "etteilla": "Mourning, regret, desolation, affliction, sadness, calamity, unhappiness, spiritual torment"
+      },
+      "image": "A disdainful man looks after two retreating and dejected figures. Their swords lie upon the ground. He carries two others on his left shoulder, and a third sword is in his right hand, point to earth. He is the master in possession of the field.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Venus in Aquarius (1st decan)",
+        "element": "Air",
+        "thoth_title": "Defeat"
+      }
+    },
+    "Six of Swords": {
+      "name": "Six of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Journey by water, route, way, envoy, commissionary, expedient.",
+        "waite_additional": "The voyage will be pleasant.",
+        "etteilla": "Route, path, way, road, step, walk, promenade, means, medium, manner, fashion, expedient, career, delivery",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Declaration, confession, publicity; one account says that it is a proposal of love.",
+        "waite_additional": "Unfavourable issue of lawsuit",
+        "etteilla": "Declaration, publication, proclamation, poster, publicity, permit, license, denunciation, revelation, vision, confession"
+      },
+      "image": "A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mercury in Aquarius (2nd decan)",
+        "element": "Air",
+        "thoth_title": "Science"
+      }
+    },
+    "Seven of Swords": {
+      "name": "Seven of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
+        "waite_additional": "Dark girl; a good card; it promises a country life after a competence has been secured.",
+        "etteilla": "Hope, await, expectation, desire, will, wish, vow, longing, taste, fantasy",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Good advice, counsel, instruction, slander, babbling.",
+        "waite_additional": "Good advice, probably neglected",
+        "etteilla": "Wise thoughts, good advice, healthy warnings, admonition, consultation, news, announcements"
+      },
+      "image": "A man in the act of carrying away five swords rapidly; the two others of the card remain stuck in the ground. A camp is close at hand.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Moon in Aquarius (3rd decan)",
+        "element": "Air",
+        "thoth_title": "Futility"
+      }
+    },
+    "Eight of Swords": {
+      "name": "Eight of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny; also sickness.",
+        "waite_additional": "For a woman, scandal spread in her respect.",
+        "etteilla": "Critical, critical moment, decisive instant, difficult position, delicate circumstance, crisis, examination, discussion, research, analysis, blame, censure",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Disquiet, difficulty, opposition, accident, treachery; what is unforeseen; fatality.",
+        "waite_additional": "Departure of a relative",
+        "etteilla": "Incident, difficulty, complication, objection, contestation, unforeseen, unexpected, accident, adventure, destiny, luck"
+      },
+      "image": "A woman, bound and hoodwinked, with the swords of the card about her. Yet it is rather a card of temporary durance than of irretrievable bondage.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Jupiter in Gemini (1st decan)",
+        "element": "Air",
+        "thoth_title": "Interference"
+      }
+    },
+    "Nine of Swords": {
+      "name": "Nine of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Death, failure, miscarriage, delay, deception, disappointment, despair.",
+        "waite_additional": "An ecclesiastic, a priest; generally, a card of bad omen.",
+        "etteilla": "Ecclesiastic, apostle, pope, cardinal, bishop, abbot, priest, monk, hermit, nun, recluse, piety, devotion, celibate, religion, rite, temple, church",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Imprisonment, suspicion, doubt, reasonable fear, shame.",
+        "waite_additional": "Good ground for suspicion against a doubtful person",
+        "etteilla": "Justifiable mistrust, well-founded suspicion, legitimate fear, mistrust, doubt, misgiving, qualm, timidity, modesty, shame"
+      },
+      "image": "One seated on her couch in lamentation, with the swords over her. She is as one who knows no sorrow which is like unto hers. It is a card of utter desolation.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mars in Gemini (2nd decan)",
+        "element": "Air",
+        "thoth_title": "Cruelty"
+      }
+    },
+    "Ten of Swords": {
+      "name": "Ten of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Whatsoever is intimated by the design; also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death.",
+        "waite_additional": "Followed by Ace and King, imprisonment; for girl or wife, treason on the part of friends.",
+        "etteilla": "Tears, sobs, whines, sighs, moans, lamentations, grievances, afflictions, grief, sadness, pain, sorrow, droplets, dew, bleeding",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Advantage, profit, success, favour, but none of these are permanent; also power and authority.",
+        "waite_additional": "Victory and consequent fortune for a soldier in war",
+        "etteilla": "Advantage, gain, profit, success, grace, favor, benefit, upper hand, power, empire, authority, usurpation"
+      },
+      "image": "A prostrate figure, pierced by all the swords belonging to the card.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Sun in Gemini (3rd decan)",
+        "element": "Air",
+        "thoth_title": "Ruin"
+      }
+    },
+    "Page of Swords": {
+      "name": "Page of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
+        "waite_additional": "An indiscreet person will pry into the Querent's secrets.",
+        "etteilla": "Spy, observer, connoisseur, guard, monitor, steward, curious, searching, examination, note, remark, observations, annotations",
+        "etteilla_name": "Knave of Swords"
+      },
+      "reversed": {
+        "waite": "More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.",
+        "waite_additional": "Astonishing news",
+        "etteilla": "Lack of foresight, unexpectedly, astonishing, surprising, undreamt of, fortuitously, suddenly"
+      },
+      "image": "A lithe, active figure holds a sword upright in both hands, while in the act of swift walking. He is passing over rugged land, and about his way the clouds are collocated wildly. He is alert and lithe, looking this way and that, as if an expected enemy might appear at any moment.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Earth of Air — Gemini, Libra, Aquarius",
+        "element": "Earth of Air",
+        "thoth_title": null
+      }
+    },
+    "Knight of Swords": {
+      "name": "Knight of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.",
+        "waite_additional": "A soldier, man of arms, satellite, stipendiary; heroic action predicted for soldier.",
+        "etteilla": "Military, man of the sword, man-at-arms, fencing master, professional assassin, hunter, soldier, combatant, enemy, dispute, war, combat, battle, duel, courage, valor, bravery",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Imprudence, incapacity, extravagance.",
+        "waite_additional": "Dispute with an imbecile person; for a woman, struggle with a rival, who will be conquered",
+        "etteilla": "Ignorance, incompetence, ineptitude, stupidity, nonsense, idiocy, imprudence, impertinence"
+      },
+      "image": "He is riding in full course, as if scattering his enemies. In the design he is really a prototypical hero of romantic chivalry. He might almost be Galahad, whose sword is swift and sure because he is clean of heart.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Fire of Air — Taurus 3°/Gemini 1-2°",
+        "element": "Fire of Air",
+        "thoth_title": null
+      }
+    },
+    "Queen of Swords": {
+      "name": "Queen of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.",
+        "waite_additional": "A widow.",
+        "etteilla": "Widowhood, widow, privation, withdrawal, absence, scarcity, poverty, indigence, infertility, sterility",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Malice, bigotry, artifice, prudery, bale, deceit.",
+        "waite_additional": "A bad woman, with ill-will towards the Querent",
+        "etteilla": "Mean woman, malignity, malice, deception, subtlety, artifice, mischief, bigotry, prudery, hypocrisy"
+      },
+      "image": "Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair; the left hand is extended, the arm raised; her countenance is severe but chastened; it suggests familiarity with sorrow. It does not represent mercy, and, her sword notwithstanding, she is scarcely a symbol of power.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Water of Air — Virgo 3°/Libra 1-2°",
+        "element": "Water of Air",
+        "thoth_title": null
+      }
+    },
+    "King of Swords": {
+      "name": "King of Swords",
+      "arcana": "minor",
+      "suit": "Swords",
+      "upright": {
+        "waite": "Whatsoever arises out of the idea of judgment and all its connexions—power, command, authority, militant intelligence, law, offices of the crown, and so forth.",
+        "waite_additional": "A lawyer, senator, doctor.",
+        "etteilla": "Man of the law, judge, senator, lawyer, prosecutor, jurist, defense lawyer, legal scholar, doctor, physician, practitioner, consultant",
+        "etteilla_name": null
+      },
+      "reversed": {
+        "waite": "Cruelty, perversity, barbarity, perfidy, evil intention.",
+        "waite_additional": "A bad man; also a caution to put an end to a ruinous lawsuit",
+        "etteilla": "Mean man, malevolent, malice, perversity, perfidy, crime, cruelty, inhumanity, atrocity"
+      },
+      "image": "He sits in judgment, holding the un­sheathed sign of his suit. He recalls, of course, the conventional Symbol of Justice in the Trumps Major, and he may represent this virtue, but he is rather the power of life and death, in virtue of his office.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Air of Air — Capricorn 3°/Aquarius 1-2° (Crowley 'Prince of Swords')",
+        "element": "Air of Air",
+        "thoth_title": null
+      }
+    },
+    "Ace of Pentacles": {
+      "name": "Ace of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "attached thereto. It should embody whatsoever you may have divined from the other cards on the table, including the Significator itself and concerning him or it, not excepting such lights upon higher significance as might fall like sparks from heaven if the card which serves for the oracle, the card for reading, should happen to be a Trump Major.",
+        "waite_additional": "The most favourable of all cards.",
+        "etteilla": "Perfect contentment, felicity, happiness, delight, enchantment, ecstasy, marvels, complete satisfaction, complete joy",
+        "etteilla_name": "Ace of Coins"
+      },
+      "reversed": {
+        "waite": "The evil side of wealth, bad intelligence; also great riches. In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not.",
+        "waite_additional": "A share in the finding of treasure",
+        "etteilla": "Money purse, sum, capital, principal, wallet, treasure, wealth, opulence, prize, rare, dear, precious, priceless"
+      },
+      "image": "A hand—issuing, as usual, from a cloud—holds up a pentacle.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Root of Earth",
+        "element": "Earth",
+        "thoth_title": null
+      }
+    },
+    "Two of Pentacles": {
+      "name": "Two of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment.",
+        "waite_additional": "Troubles are more imaginary than real.",
+        "etteilla": "Embarrassment, predicament, obstacle, blockage, congestion, obstruction, cloudy, muddled, trouble, emotion, agitation, inquietude, perplexity",
+        "etteilla_name": "Two of Coins"
+      },
+      "reversed": {
+        "waite": "Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange.",
+        "waite_additional": "Bad omen, ignorance, injustice",
+        "etteilla": "Letter, bill, letter of exchange, writing, production, composition, alphabet, elements, principles, written work, text, literature"
+      },
+      "image": "A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Jupiter in Capricorn (1st decan)",
+        "element": "Earth",
+        "thoth_title": "Change"
+      }
+    },
+    "Three of Pentacles": {
+      "name": "Three of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "Métier, trade, skilled labour; usually, how-ever, regarded as a card of nobility, aristocracy, renown, glory.",
+        "waite_additional": "If for a man, celebrity for his eldest son.",
+        "etteilla": "Noble, nobility, substantial, important, grand, major, magnificent, sublime, renowned, famous, illustrious, powerful, high, of quality",
+        "etteilla_name": "Three of Coins"
+      },
+      "reversed": {
+        "waite": "Mediocrity, in work and otherwise, puerility, pettiness, weakness.",
+        "waite_additional": "Depends on neighbouring cards",
+        "etteilla": "Child, puerility, childish behavior, frivolity, pettiness, minutiae, trifle, childhood, humble, humility, humiliation, enfeeblement, abasement"
+      },
+      "image": "A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mars in Capricorn (2nd decan)",
+        "element": "Earth",
+        "thoth_title": "Works"
+      }
+    },
+    "Four of Pentacles": {
+      "name": "Four of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance. Reversed; Suspense, delay, opposition.",
+        "waite_additional": "For a bachelor, pleasant news from a lady.",
+        "etteilla": "A present, gift, generosity, good deed, donation, gratification, service, the color white, lunar medicine, precious stone",
+        "etteilla_name": "Four of Coins"
+      },
+      "reversed": {
+        "waite": null,
+        "waite_additional": "Observation, hindrances",
+        "etteilla": "Closure, enclosure, circuit, circumscription, circumference, circle, obstruction, congestion, monopoly, fixed, determined, definitive, imprisonment, arrest"
+      },
+      "image": "A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Sun in Capricorn (3rd decan)",
+        "element": "Earth",
+        "thoth_title": "Power"
+      }
+    },
+    "Five of Pentacles": {
+      "name": "Five of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "The card foretells material trouble above all, whether in the form illustrated—that is, destitution—or otherwise. For some cartomancists, it is a card of love and lovers—wife, husband, friend, mistress; also concordance, affinities. These alternatives cannot be harmonized.",
+        "waite_additional": "Conquest of fortune by reason.",
+        "etteilla": "Lover, in love with, amorous, gallant, husband, wife, spouse, boyfriend, girlfriend, to love, to cherish, to adore, assortment, agreement, liking, rapport",
+        "etteilla_name": "Five of Coins"
+      },
+      "reversed": {
+        "waite": "Disorder, chaos, ruin, discord, profligacy.",
+        "waite_additional": "Troubles in love",
+        "etteilla": "Lack of order, disorganized, muddled, disorder, confusion, chaos, discord, clashing, misconduct, damage, ravage, ruin, dissipation, consumption"
+      },
+      "image": "Two mendicants in a snow-storm pass a lighted casement.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mercury in Taurus (1st decan)",
+        "element": "Earth",
+        "thoth_title": "Worry"
+      }
+    },
+    "Six of Pentacles": {
+      "name": "Six of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "Presents, gifts, gratification; another account says attention, vigilance; now is the accepted time, present prosperity, etc.",
+        "waite_additional": "The present must not be relied on.",
+        "etteilla": "The present, currently, presently, at present, now, here, suddenly, this instant, immediately, at once, right this minute, straight away, contemporary, modern, up-to-date",
+        "etteilla_name": "Six of Coins"
+      },
+      "reversed": {
+        "waite": "Desire, cupidity, envy, jealousy, illusion.",
+        "waite_additional": "A check on the Querent's ambition",
+        "etteilla": "Ambition, aspiration, purpose, desire, wish, searches, cupidity, jealousy, yearning, passion, dream, illusion, pretension"
+      },
+      "image": "A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed. It is a testimony to his own success in life, as well as to his goodness of heart.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Moon in Taurus (2nd decan)",
+        "element": "Earth",
+        "thoth_title": "Success"
+      }
+    },
+    "Seven of Pentacles": {
+      "name": "Seven of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrel-and another innocence, ingenuity, purgation.",
+        "waite_additional": "Improved position for a lady's future husband.",
+        "etteilla": "Silver, whiteness, purity, purgation, purification, moon, candor, innocence, ingenuousness, naïveté, silverware, money, wealth, sum",
+        "etteilla_name": "Seven of Coins"
+      },
+      "reversed": {
+        "waite": "Cause for anxiety regarding money which it may be proposed to lend.",
+        "waite_additional": "Impatience, apprehension, suspicion",
+        "etteilla": "Worry, anxiety, spiritual torment, affliction, sorrow, concern, care, attention, diligence"
+      },
+      "image": "A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Saturn in Taurus (3rd decan)",
+        "element": "Earth",
+        "thoth_title": "Failure"
+      }
+    },
+    "Eight of Pentacles": {
+      "name": "Eight of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage.",
+        "waite_additional": "A young man in business who has relations with the Querent; a dark girl.",
+        "etteilla": "Brunette girl, honest girl, obliging, welcoming, thoughtfulness, politeness, civility, honesty, kindness, condescension, hospitality, customs, character, nature",
+        "etteilla_name": "Eight of Coins"
+      },
+      "reversed": {
+        "waite": "Voided ambition, vanity, cupidity, exaction, usury. It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue.",
+        "waite_additional": "The Querent will be compromised in a matter of money-lending",
+        "etteilla": "Usury, exorbitant, exaction, extortion, usurious, avarice, more, copiously, abundantly, advantage, augmentation, majority"
+      },
+      "image": "An artist in stone at his work, which he exhibits in the form of trophies.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Sun in Virgo (1st decan)",
+        "element": "Earth",
+        "thoth_title": "Prudence"
+      }
+    },
+    "Nine of Pentacles": {
+      "name": "Nine of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "Prudence, safety, success, accomplishment, certitude, discernment.",
+        "waite_additional": "Prompt fulfilment of what is presaged by neighbouring cards.",
+        "etteilla": "Effect, next consequence, result, conclusion, event, evidence, demonstrability, conviction, execution, accomplishment, achievement, perfection, effective, personal effects, goods, furniture",
+        "etteilla_name": "Nine of Coins"
+      },
+      "reversed": {
+        "waite": "Roguery, deception, voided project, bad faith.",
+        "waite_additional": "Vain hopes",
+        "etteilla": "Dupery, trickery, ploy, lure, fraud, con, deception, ruse, surprise, error, sleight of hand, swindle, cheat, infidelity"
+      },
+      "image": "A woman, with a bird upon her wrist, stands amidst a great abundance of grapevines in the garden of a manorial house. It is a wide domain, suggesting plenty in all things. Possibly it is her own possession and testifies to material well-being.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Venus in Virgo (2nd decan)",
+        "element": "Earth",
+        "thoth_title": "Gain"
+      }
+    },
+    "Ten of Pentacles": {
+      "name": "Ten of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "Gain, riches; family matters, archives, extraction, the abode of a family.",
+        "waite_additional": "Represents house or dwelling, and de rives its value from other cards.",
+        "etteilla": "House, housework, economy, savings, dwelling, domicile, habitation, abode, housing, building, manor, hotel, palace, boutique, lodge, castle, inn, barn, archive, religious house, monastery, convent, hermitage, burial, tomb, sepulcher, family, lair, cavern, retreat",
+        "etteilla_name": "Ten of Coins"
+      },
+      "reversed": {
+        "waite": "Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension.",
+        "waite_additional": "An occasion which may be fortunate or otherwise",
+        "etteilla": "Game of chance, lot, fortune, game, random event, coincidence, chance, luck, fate, destiny, fatality, judgment, ordinance, decision"
+      },
+      "image": "A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child's hand is on one of them.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Mercury in Virgo (3rd decan)",
+        "element": "Earth",
+        "thoth_title": "Wealth"
+      }
+    },
+    "Page of Pentacles": {
+      "name": "Page of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "Application, study, scholarship, reflection; another reading says news, messages and the bringer thereof; also rule, management.",
+        "waite_additional": "A dark youth; a young officer or soldier; a child.",
+        "etteilla": "Brunet boy, schoolchild, pupil, student, apprentice, amateur, study, instruction, diligence, learning, meditation, reflection, work, occupation, apprenticeship",
+        "etteilla_name": "Knave of Coins"
+      },
+      "reversed": {
+        "waite": "Prodigality, dissipation, liberality. luxury; unfavourable news.",
+        "waite_additional": "Sometimes degradation and sometimes pillage",
+        "etteilla": "Prodigality, profusion, superfluity, abundance, multiplicity, luxury, sumptuousness, magnificence, largesse, liberality, benefit, generosity, charity, crowd, multitude, depredation, squandering, dissipation"
+      },
+      "image": "A youthful figure, looking intently at the pentacle which hovers over his raised hands. He moves slowly, insensible of that which is about him.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Earth of Earth — Taurus, Virgo, Capricorn",
+        "element": "Earth of Earth",
+        "thoth_title": null
+      }
+    },
+    "Knight of Pentacles": {
+      "name": "Knight of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "Utility, serviceableness, interest, responsibility, rectitude—all on the normal and external plane.",
+        "waite_additional": "An useful man; useful discoveries.",
+        "etteilla": "Usefulness, advantage, gain, profit, interest, useful, practical, profitable, interesting, advantageous, important, necessary, obliging, officious",
+        "etteilla_name": "Knight of Coins"
+      },
+      "reversed": {
+        "waite": "inertia, idleness, repose of that kind, stagnation; also placidity, discouragement, carelessness.",
+        "waite_additional": "A brave man out of employment",
+        "etteilla": "Inaction, peace, tranquility, repose, sleep, leisure, pastime, recreation, break, insouciance, carefree, nonchalance, inactivity, idleness, laziness, apathy, indolence, inertia, stagnation, numbness, despondency, depression"
+      },
+      "image": "He rides a slow, enduring, heavy horse, to which his own aspect corresponds. He exhibits his symbol, but does not look therein.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Fire of Earth — Leo 3°/Virgo 1-2°",
+        "element": "Fire of Earth",
+        "thoth_title": null
+      }
+    },
+    "Queen of Pentacles": {
+      "name": "Queen of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "Opulence, generosity, magnificence, security, liberty.",
+        "waite_additional": "Dark woman; presents from a rich relative; rich and happy marriage for a young man.",
+        "etteilla": "Brunette woman, opulence, richness, splendor, luxury, sumptuousness, assurance, surety, confidence, certitude, assertion, safety, audacity, liberty, boldness, candor, outspokenness, frankness",
+        "etteilla_name": "Queen of Coins"
+      },
+      "reversed": {
+        "waite": "Evil, suspicion, suspense, fear, mistrust.",
+        "waite_additional": "An illness",
+        "etteilla": "Not certain, doubtful, dubious, uncertain, unsettled, doubt, indecision, uncertainty, fear, timidity, apprehension, vacillation, hesitation"
+      },
+      "image": "The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Water of Earth — Sagittarius 3°/Capricorn 1-2°",
+        "element": "Water of Earth",
+        "thoth_title": null
+      }
+    },
+    "King of Pentacles": {
+      "name": "King of Pentacles",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "upright": {
+        "waite": "is on the side of some change, because the cards do not happen to deal especially with questions of money. Divinatory Meanings: Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind; success in these paths.",
+        "waite_additional": "A rather dark man, a merchant, master, professor.",
+        "etteilla": "Brunet man, trader, storekeeper, merchant, banker, foreign exchange broker, calculating person, speculator, physicist, geometer, mathematics, science, master, professor",
+        "etteilla_name": "King of Coins"
+      },
+      "reversed": {
+        "waite": "Vice, weakness, ugliness, perversity, corruption, peril.",
+        "waite_additional": "An old and vicious man",
+        "etteilla": "Perverted man, vice, defect, weakness, deficiency, misshapen, misbehavior, debauchery, vileness, ugliness, deformity, corruption, stench"
+      },
+      "image": "The figure calls for no special description; the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull's head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. I have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money.",
+      "golden_dawn": {
+        "hebrew": null,
+        "attribution": "Air of Earth — Aries 3°/Taurus 1-2° (Crowley 'Prince of Disks')",
+        "element": "Air of Earth",
+        "thoth_title": null
+      }
+    }
+  }
+}
