@@ -1,0 +1,1681 @@
+                     THE GAME OF TAROTS
+
+                                                                   by
+                                                    Antoine Court de Gébelin
+
+                              translated from the French by Donald Tyson
+
+                                             (Antoine Court de Gébelin: 1728-84)
+
+The following two essays appear in Volume 8, Book 1, pages 365-410 of the work Monde
+Primitif, analysé et comparé avec le monde moderne (The Primitive World, analyzed and
+compared with the modern world). The nine volumes of this unfinished work were published
+in Paris over the period 1773-82. The eighth volume appeared in 1781.
+The first essay, titled Du Jeu des Tarots, was written by Court de Gébelin himself; the author
+of the second, titled Recherches sur les Tarots, et sur la Divination par les Cartes des Tarots,
+par M. Le C. de M. (Study on the Tarots, and on Divination with Tarot cards, by M. the C. of
+M.), has been identified as Louis Raphaël Lucrèce de Fayolle, the Comte de Mellet (1727-
+1804).
+It appears that Court de Gébelin had the essay by the Comte de Mellet in his possession when
+he wrote his own work on the Tarot, and was influenced by its contents. De Mellet probably
+composed his work independently, prior to reading Court de Gébelin's essay, although he was
+aware of some of Court de Gébelin's ideas about the Tarot.
+Court de Gébelin's essay is noteworthy for establishing the Tarot as a repository of esoteric
+wisdom, for placing its origins in ancient Egypt, for linking the dissemination of the Tarot
+throughout Europe with the Gypsies, for alluding to the connection between the 22 trumps
+and 22 letters of the Hebrew alphabet, and for placing the Fool firmly at the head of the
+trumps, rather than at their end, its previous traditional location. His views exerted a profound
+influence on later writers on the Tarot, even though most of his assertions are incorrect. The
+Tarot was probably not deliberately designed as a book of esoteric wisdom; it did not
+originate in Egypt; it has no ancient connection with the Gypsies; the similarity in number
+between the trumps and the Hebrew letters may be accidental; there is no hard evidence
+supporting the location of the Fool at the head of the trumps.
+
+The Comte de Mellet's essay is significant for his inverted ordering of the trumps that begins
+with the World and ends with the Fool, for his explicit linking of the individual trumps with
+individual Hebrew letters, for his exposition of the method of Tarot divination in use in his
+day, and for his presentation of the esoteric names and meanings associated with many of the
+cards.
+
+The present English translation of these seminal treatises in the history of the Tarot arose from
+my current work on the esoteric evolution of these cards. I needed a full knowledge of the
+material contained in Court de Gébelin's book, and discovered to my surprise that these essays
+were not available for free in English on the Internet. Considering the importance of these
+works, their age, and their relative brevity, this was quite astonishing. As a consequence, I
+decided to translate them and put them on this Web site so that anyone else who might want to
+read what Court de Gébelin and the Comte de Mellet had to write about the Tarot would not
+be similarly disappointed.
+
+These translations are quite rough - I would even go so far as to call them crude. They should
+not be relied upon where accurate quotations from the essays are needed. My skill in French is
+limited, and I am sure its limitations are evident in the translations. However, bearing this in
+mind, most of what these two pioneers of the esoteric Tarot had to communicate on the
+subject may be gathered from the English version that appears here.
+
+All of the remarks in square brackets, with one possible exception, were apparently made by
+Court de Gébelin. I have not inserted any editorial comments. Originally in Court de Gébelin's
+essay the trump Temperance was incorrectly numbered XIII, but a note repairs this mistake -
+it is not clear from the French HTML copy of the work that I used as my source whether this
+correction was made in the original book. In the future I may find time to provide a set of
+notes explaining some of the errors and obscurities in the text.
+
+The drawings of the trumps that accompany the text were executed at Court de Gébelin's
+instruction by the artist Mademoiselle Linote. Many of them were inverted left to right in the
+process of printing - I have presented them as they appear in Monde primitif, without
+correcting these inversions. In Court de Gébelin's book the drawings were gathered together
+in several plates, but here they are inserted individually next to the passages describing them.
+
+                                                                                                 Donald Tyson
+
+                    THE GAME OF TAROTS
+
+               Where one deals with the origin, where one explains the allegories,
+        and where one shows that it is the source of our modern playing cards, etc etc.
+
+                                                        1.
+                     The surprise caused by the discovery of an Egyptian book.
+
+If one proceeded to announce that there is still nowadays a work of the former Egyptians, one
+of their books that escaped the flames that devoured their superb libraries, and which contains
+their purest doctrines on interesting subjects, everyone who heard, undoubtedly, would hasten
+to study such an invaluable book, such a marvel. If one also said that this book is very
+widespread in most of Europe, that for a number of centuries it has been in the hands of
+everyone, the surprise would be certain to increase. Would it not reach its height, if one gave
+assurances that no one ever suspected that it was Egyptian; that those who possessed it did not
+value it, that nobody ever sought to decipher a sheet of it; that the fruit of an exquisite wisdom
+is regarded as a cluster of extravagant figures which do not mean anything by themselves?
+Would it not be thought that the speaker wanted to amuse himself, and played on the credulity
+of his listeners?
+
+                                                        2.
+                                         This Egyptian book exists.
+
+This fact is certainly very true: this Egyptian book, the only survivor of their superb libraries,
+exists in our day: it is even so common, that no sage condescends to occupy himself with it;
+nobody before us has ever suspected its famous origin. This book is composed of 77 layers or
+tables, even of 78, divided into five classes, each of which offer subjects as varied as they are
+amusing and instructive. This book is in a word the game of Tarots, the playing of which is
+admittedly unknown in Paris, but very well known in Italy, in Germany, even in Provence,
+and also by the bizarre figures which each one of its cards offers, as well as by their
+multitude.
+
+Event though the regions where it is in use are so extensive, none is more advanced than the
+others in understanding the value of the strange figures than it presents: and such is the
+antiquity of its origins, buried in the darkness of time, that no one knows either where or
+when it was invented, nor the reason why it is made up of so many extraordinary figures, of
+which so little is known that they offer collectively a single enigma that nobody has ever
+sought to solve.
+
+This game even appeared so unworthy of attention, that it never came under the consideration
+of the eyes of those of our savants who dealt with the origins of cards: they only spoke of
+French cards, which are in use in Paris, whose origin is not very old; and after having proven
+the modern invention of them, they believed they had exhausted the matter. It is in this way
+indeed that one constantly confuses the establishment in a country of a certain practice with
+its primitive invention: it is what we already showed with regard to the compass: the Greeks
+and the Romans themselves confused only too thoroughly these objects, which deprived us of
+a multitude of interesting origins.
+
+But the form, the disposition, the arrangement of this game, and the figures which it presents,
+are so obviously allegorical, and these allegories are so in conformity with the civil,
+philosophical and religious doctrines of the ancient Egyptians, that one cannot avoid
+recognizing the work of these sagacious people: they only could be its inventors, who rivaled
+in this respect the Indians who created the game of chess.
+
+                                                   Division.
+
+         We will show the allegories which the various cards of this game offer.
+         The numerical formulas according to which it was made up.
+         How it was transmitted down to us.
+         Its relationship with a Chinese monument.
+         How the Spanish cards were born from it.
+         And correspondences of these last with the French cards.
+This exercise will be followed by an essay where it is established how this game may be
+applied to the art of the divination; it is the work of a General Officer, the Governor of a
+province, who honors us with his benevolence, and who found in this game with a very clever
+sagacity the Egyptian principles on the art of prognosticating by cards, principles which
+distinguished the earliest bands of Egyptians, incorrectly named Bohemians, who spread
+themselves throughout Europe; and there still remain some vestiges in our card decks, which
+lend themselves to divination infinitely less by their monotony and small number of their
+figures.
+
+The Egyptian game, on the contrary, is suited admirably for this effect, encompassing in a
+way the whole universe, and all the various conditions of the life of man. Such was the
+wisdom of this singular people, that they imprinted on the least of their works the seal of
+immortality, so that others to some extent seem hardly able to walk in their footsteps.
+
+                                                 ARTICLE I
+                       Allegories presented by the cards of the game of Tarots.
+
+If this game which always remained obscure to all those which knew of it, stood revealed to
+our eyes, it was not the effect of some deep meditation, nor of the desire to clear up its chaos:
+we did not spend an instant thinking about it. Invited as a guest a few years ago to meet with a
+lady of our acquaintance, Madam la C. d'H., who had arrived from Germany or Switzerland,
+we found her occupied playing this game with some other people. We played a game which
+you surely do not know ... That may be; which is it?.. the game of Tarots ... I had occasion to
+see it when I was extremely young, but I did not have any knowledge of it ... it is a rhapsody
+of the most bizarre figures, the most extravagant: and here is one, for example; one has care to
+choose a card filled with figures, bearing no relationship to its name, it is the World: I there
+cast my eyes, and at once I recognize the allegory: everyone leaves off their game and comes
+to see this marvelous card in which I apprehend what they have never perceived: each one
+asks me to expound another of the cards: in one quarter of an hour the cards were
+comprehended, explained, declared Egyptian: and since it was not the play of our
+imaginations, but the effect of the deliberate and significant connections of this game with all
+that is known of Egyptian ideas, we promised ourselves to share the knowledge some day
+with the public; persuaded that it would take pleasure in the discovery of a gift of this nature,
+an Egyptian book that had escaped barbarity, the devastations of time, fires accidental and
+deliberate, and the even greater disaster of ignorance.
+
+A necessary consequence of the frivolous and light form of this book, which made it capable
+of triumphing over all the ages and of passing down to us with a rare fidelity: the ignorance
+which until now even we have been in concerning what it represented, was a happy safe
+conduct that allowed it to cross every century quietly without anyone thinking of doing it
+harm.
+
+It is time to recover the allegories that it had been intended to preserve, and to show that to the
+wisest of all peoples, everything including games was founded on allegory, and that these
+wise savants converted into a recreation the most useful knowledge, and made of it just a
+game.
+
+We said it, the game of Tarots is composed of 77 cards, even of a 78th, divided into atouts and
+four suits. So that our readers can follow us, we made engravings of the atouts; and the Ace of
+each suit, which we call after the Spaniards, Spadille, Baste, and Ponte.
+
+                                                   ATOUTS
+The atouts number 22, and in general represent the temporal and spiritual leaders of society,
+the physical leaders of agriculture, the cardinal virtues, marriage, death and resurrection or
+creation; the various plays of fortune, the sage and the fool, time which consumes all, etc. One
+understands thus in advance that all these cards are as many allegorical pictures relating to the
+whole of life, and susceptible to an infinitude of combinations. We will examine them one by
+one, and will try to decipher the particular allegory or enigma that each one of them contains.
+
+                                              Number 0, Zero
+                                                   The Fool.
+
+One cannot fail to recognize the Fool in this card, with his crazed look, and his apparel
+furnished with shells and bells: he goes very quickly, as mad as he is, bearing behind him his
+small pack, and thinking to escape thereby from a tiger which bites him on the haunch: as for
+the pack, it is the emblem of his faults that he wishes not to see; and this tiger, those of his
+regrets which follow it eagerly, and which jump in to bite behind him.
+This beautiful idea that Horace framed so well in golden words, would thus never have been
+invented by him, had it not escaped destruction with the Egyptians: it would have been a
+vulgar idea, a commonplace; but captured in the eternal truth of Nature, and presented with all
+the graces of which he was capable, this pleasant and wise poet seemed to have drawn it from
+his own deep judgement.
+As for this atout, we number it zero, though it is placed it in the order of cards after the
+twenty-first, because it does not count when it is alone, and possesses only the value that it
+gives to the others, precisely like our zero: showing thus that nothing exists without its folly.
+                                                  Number I
+                                    The Game of Cups, or the Juggler.
+
+We start with number I and proceed to XXI, because the current practice is to start with the
+least number and continue on to the highest: it was however that of the Egyptians to began to
+count with the higher, continuing down to the lower. Thus they sang the octave while going
+down, and not while going up like us. In the essay which follows this one, the writer follows
+the practice of the Egyptians, and makes the best account of it. There are thus here two
+approaches: ours more convenient when one wants to consider these cards only in themselves:
+and that other, useful in better conceiving the whole set and their relationships.
+
+The first of all atouts while counting up, or the last while counting down, is a player at cups;
+this is evident by his table covered with dice, goblets, knives, balls, etc., by his staff of Jacob
+or rod of the Magi, by the ball which he holds between two fingers and which he will cause to
+disappear.
+
+It is called the Juggler in the titles of the cards: this is the vulgar name given to it by people of
+this condition: is it necessary to say that the name derives from baste, stick?
+
+At the head of all the trumps, it indicates that all of life is only a dream that vanishes away:
+that it is like a perpetual game of chance or the shock of a thousand circumstances which are
+never dependant on us, and which inevitably exerts a great influence on any general
+administration.
+
+But between the Fool and Juggler, man is not well.
+                                           Numbers II, III, IV, V
+                                             Leaders of Society.
+
+Numbers II and III represent two women: numbers IV and V, their husbands: they are the
+temporal and spiritual leaders of society.
+
+                                              King and Queen.
+
+Number IV represents the King, and III the Queen. They have both for symbols the eagle on a
+shield, and a scepter surmounted by a sphere crowned with a cross, called a Tau, the sign of
+excellence.
+The King is seen in profile, the Queen facing. They are both seated on thrones. The Queen
+wears a long dress, the back of her throne is high: the King is in a chair shaped like a gondola
+or shell, his legs crossed. His semicircular crown is surmounted by a pearl with a cross. That
+of the Queen terminates in a peak. The King carries an order of knighthood.
+
+                                     High Priest and High Priestess.
+
+Number V represents the leader of the hierophants or the High Priest: Number II the High
+Priestess or his wife: it is known that among Egyptians, the leaders of the priesthood were
+married. If these cards were of modern invention, one would not see one titled the High
+Priestess, much less still bearing the name of Papesse, as the German card makers ridiculously
+titled this one.
+The High Priestess sits in an armchair: she wears a long dress with a type of veil behind her
+head which descends to cross over her breast: she has a double crown with two horns like that
+of Isis: she holds a book open on her knees; two scarves furnished with crosses cross on her
+abdomen and form an X there.
+The High Priest wears a long habit with a great coat which serve as his vestments: on his head
+is the triple crown: one hand holds a scepter with a triple cross, and the other gives the
+blessing with two fingers extended toward two individuals at his knees.
+Italian card makers or Germans who brought back this game to their buyers, made these two
+characters into what the ancients called the Father and Mother, like our names Abbot and
+Abbess, Oriental words meaning the same thing; they called them, I say, Pope and Popess.
+As for the scepter with the triple cross, it is a symbol absolutely Egyptian: one sees it on the
+Table of Isis, under Letter TT; an invaluable monument which we have already caused to be
+engraved in all its details in order to present it some day to the public. It is related to the triple
+Phallus that may be observed in the famous Feast of Pamylies where one rejoices to have
+found Osiris, and where it represents the symbol of the regeneration of plants and all of
+Nature.
+
+                                                 Number VII
+                                             Osiris Triumphant.
+Osiris advances; he comes in the form of a king triumphing, his scepter in hand, his crown on
+his head: he is in the chariot of a warrior, drawn by two white horses. Nobody is unaware that
+Osiris was the primary god of the Egyptians, the same one as that of all the Sabaean people,
+or that he is the physical sun symbol of a supreme invisible divinity, but who appears in this
+masterpiece of Nature. He was lost during the winter: he reappeared in springtime with a new
+radiance, having triumphed over all against whom he made war.
+                                                 Number VI
+                                                The Marriage.
+
+A young man and a young woman pledge themselves their mutual faith: a priest blesses them,
+an expression of love on his features. Card makers call this card, the Lovers. They seem also
+to have added themselves the figure of Love with his bow and its arrows, to make this card
+more eloquent in their view.
+
+One sees in the Antiquities of Boissard [T. III. Pl. XXXVI.], a monument of the same nature,
+representing the marital union; but it is made up only of three figures.
+
+The lover and his mistress who give themselves their faith: the figure of Love between the
+two takes the place of the witness and the priest.
+
+This image is entitled Fidei Simulacrum, Tableau of Marital Faith: the characters in it are
+designated by these beautiful names, Truth, Honor and Love. It is unnecessary to say that
+truth designates the woman here rather than the man, not only because this word is of female
+gender, but because constant fidelity is more essential in a woman. This invaluable monument
+was raised by one named T. Fundanius Eromenus or the Pleasant One, with his very dear wife
+Poppée Demetrie, and with their cherished daughter Manilia Eromenis.
+
+                                                    Plate V
+
+                                      Numbers VIII, XI, XII, XIII
+                                           Four Cardinal Virtues.
+
+The Figures which we have joined together in this plate, relate to the four cardinal virtues.
+Number XI. This one represents Fortitude. It is a woman who is the mistress of a lion, and
+who opens its mouth with the same facility as she would open that of her small spaniel; she
+has on her head the cap of a shepherdess.
+Number XIII. Temperance [recte: XIV]. This shows a woman who pours the water of one
+vase into another, to temper the liquor which it contains.
+
+Number VIII. Justice. It is a queen, it is Astraea sitting on her throne, holding with one hand
+a dagger; with the other, a balance.
+Number XII. Prudence is numbered among the four cardinal virtues: could the Egyptians
+forget it in this painting of human life? However, one does not find it in this game. One sees
+in its place under number XII, between Fortitude and Temperance, a man hanging by the feet:
+but why is he hung like this? It is the work of a bad and presumptuous card maker who, not
+understanding the beauty of the allegory contained upon this card, took on himself to correct
+it, and thereby has entirely disfigured it.
+Prudence can only be represented in a way sensible to the eyes by a man upright, who having
+one foot set, advances the other, and holds it suspended while looking for the place where he
+will be able to safely place it. The title of this card was thus the Man with A Raised Foot, or
+the Suspended Foot: the card maker, not knowing what this signified, made of it a man hung
+by the feet.
+Then one asked, why a hanged man in this game? and another did not fail to say, it is a fit
+punishment for the inventor of the game, to have represented a female pope.
+But placed between Fortitude, Temperance and the Justice, who does not see that it is
+Prudence that is lacking and that must have been originally represented?
+
+                                                   Plate VI
+                                                 Numbers IX
+                             The Sage, or the Seeker of Truth and Justice.
+Number IX represents a worthy philosopher in a long coat, a hood on his shoulders: he goes
+bent on his stick, bearing a lantern in his left hand. It is the Sage who seeks justice and virtue.
+One thus imagines, based on this Egyptian painting, the story of Diogenes who with lantern in
+hand seeks a man in full midday. The witty remarks, know-all epigrams, are of any century:
+and Diogenes was the man who enacted this scene.
+Card makers made of this a wise hermit. It is rather well conceived: philosophers live in
+voluntary retirement from those who are not cleansed from the frivolity of the times.
+Heraclitus passed for insane in the eyes of his dear Concitoyens: in the East, moreover, to
+deliver oneself to speculative or hermetic sciences, is almost the only option. The Egyptian
+hermits cannot approach in this respect those of the Indians, and in temples of Siam: they all
+were or are like as many Druids.
+
+                                                Number XIX
+                                                      Sun.
+
+We joined together under this plate all the cards relating to the light: thus after the cloaked
+lantern of the Hermit, we will review the Sun, the Moon and brilliant Sirius or glittering Dog
+Star, all figures in this game, with various symbols.
+The Sun is represented here like the physical father of man and of Nature entire: it illuminates
+men in society, it regulates their cities: of its rays are distilled gold tears and pearls: thus one
+marks out the happy influences of this star.
+The game of Tarots is perfectly in conformity here with the doctrines of the Egyptians, as we
+shall examine in more detail in the following article.
+                                               Number XVIII
+                                                  The Moon.
+
+Thus the Moon which goes following the Sun is also accompanied by tears of gold and pearls,
+to also mark what it contributes in its part to the advantages of the ground.
+
+Pausanias teaches us in his description of Phocide, that according to the Egyptians, it was the
+tears of Isis which flooded each year the waters of the Nile and which thus rendered fertile the
+fields of Egypt. The historians of that country also speak about a drop or tear, which falls from
+the Moon at the time when the water of the Nile must grow bigger.
+
+At the bottom of this card, one sees a crayfish or Cancer, either to mark the retrograde
+functioning of the Moon, or to indicate that it is at the time when the Sun and the Moon leave
+the sign of Cancer at which the flood caused by their tears arrives, at the rising of the Dog
+Star that one sees in the following card.
+
+It may even be that the two reasons are joined together: is it not very common to be persuaded
+by a crowd of consequences which form a mass one feels too embarrassed to disentangle?
+
+The middle of the card is occupied by two towers, one on each side to indicate the two famous
+Pillars of Hercules, beyond which these two large luminaries never pass.
+
+Between the two columns are two dogs which seem to bark against the Moon and to guard it:
+perfectly Egyptian ideas. These people, unique for their allegories, compared the Tropics with
+two palaces, each one guarded by a dog, which, similar to faithful gatekeepers, held back
+these stars in the middle region of the skies without allowing them to slip towards one or the
+other Pole.
+These are not fantasies of commentators on customs. Clement, himself Egyptian, since he was
+of Alexandria, and who consequently knew what he was talking about, assures us in his
+Tapestries [or Stromates, Liv. V.] that the Egyptians represented the Tropics under the figure
+of two dogs, which, similar to gatekeepers or faithful guards, kept the Sun and the Moon from
+going to the Poles.
+
+                                                Number XVII
+                                                The Dog Star.
+Here we have under our gaze a card not allegorical, and absolutely Egyptian; it is entitled the
+Star. One may see there, indeed, a brilliant star, about which are seven different smaller stars.
+The bottom of the card is occupied by a washer woman on a knee which holds two vases,
+from which run two streams. Near this woman is a butterfly on a flower.
+It is purely Egyptian.
+This Star, preeminently, is the Dog Star or Sirius: a star which rises when the Sun leaves the
+sign of Cancer, in which ends the preceding card, and which this Star immediately follows.
+The seven stars that are around it, and seem like courtiers, are the planets: it is to some extent
+their queen, since it fixes in this moment the beginning of the year; they seem to come to
+receive its commands in order to regulate their courses on it.
+The lady which is below, and extremely attentive at this moment to spread the water of her
+vases, is the Queen of Heaven, Isis, to the benevolence of whom were attributed the floods of
+the Nile, which start with the rising of the Dog Star; thus this rising was the signal of the
+inundation. The reason the Dog Star was consecrated to Isis, is that it was her perfect symbol.
+And as the year began simultaneously with the rising of this star, one of its names is Soth-Is,
+opening of the year; and it is under this name that it was devoted to Isis.
+Lastly, the flower and the butterfly which it supports, represent the symbols of regeneration
+and resurrection: they signify at the same time the blessing of the benefits of Isis, and the
+rising of the Dog Star, when the lands of Egypt, which were absolutely naked, cover
+themselves with new crops.
+
+                                                  Plate VIII
+
+                                                Number XIII
+                                                     Death.
+
+Number XIII represents Death: it mows down humans, the kings and the queens, the great
+ones and the small ones; nothing can resist its murderous scythe.
+It is not astonishing that it is placed under this number; the number thirteen was always
+looked upon as unhappy. It is likely that long ago some great misfortune arrived on a similar
+day, and that it influenced the memories of all the ancient nations. Can it have been by a
+continuation of this memory that the thirteen Hebrew tribes were never counted other than as
+twelve?
+Let us add that it is not astonishing either that the Egyptians chose to insert Death into a game,
+which serves to awaken that pleasant idea: this game was a game of war, the dead thus must
+enter there: thus it is a game of failures finished by a stalemate, or better put, by a checkmate,
+the death of the king. Besides, we had occasion to recall in the calendar, that in the feasts, this
+wise and considered people introduced there a skeleton under the name of Màneros,
+undoubtedly in order to urge the guests not to commit suicide by greediness. Each one has his
+manner of seeing, and tastes never should be disputed.
+
+                                                 Number XV
+                                                    Typhon.
+
+Number XV represents a famous Egyptian character, Typhon, brother of Osiris and Isis, the
+bad principle, the great demon of hell: he has the wings of a bat, the feet and hands of harpy;
+on his head, the villainous horns of a stag: he is also ugly, as devilish as one could be. At his
+feet are two small imps with long ears, with large tails, their lowered hands behind their
+backs: they themselves are bound by a cord which passes to their necks, and which is attached
+to the pedestal of Typhon: he never releases those that are with him; he likes those that are his
+own.
+                                                Number XVI
+                                 The House of God, or Castle of Plutus.
+
+Here, we have a lesson against avarice. This card represents a tower, which one calls the
+House of God, that is, the highest house; it is a tower filled with gold, it is the castle of Plutus:
+it collapses in ruins, and its adorers fall crushed under its remains.
+
+With this card, one can understand the history of this Egyptian prince about which Herodotus
+speaks, and which he calls Rhampsinitus, who, having made a large tower of stone to contain
+his treasures, and of which he only had the key, noticed however that they were diminishing
+under his very gaze, without anyone passing in any manner through the only door which
+existed in this building. To discover such skilful robbers, this prince proceeded to set traps
+around the vases which held his riches. The robbers were two sons of the architect who served
+Rhampsinitus: he had rigged a stone in such a manner, that it was possible to remove it and
+enter to steal at will without fear of capture. He taught its secret to his children who made use
+of it marvelously as one sees. They robbed the prince, and then they left the tower at the
+bottom: thus they are represented here. It is in truth the most beautiful part of the History; one
+will find in Herodotus the remainder of this clever tale: how one of the two brothers was taken
+in the nets: how he urged his brother to cut his head off: how their mother demanded that her
+son bring back the body of his brother: how he went with goatskin bottles loaded on an ass to
+steal the corpse from the guards at the palace: how, after they had taken his goatskin bottles in
+spite of his cunning tears, and had fallen asleep, he shaved off from all of them the right side
+of their beards, and he removed the body of his brother: how the king extremely astonished,
+urged his daughter to compel each of her lovers to reveal to her the cleverest trick which they
+had ever done: how this devious youth went near the beautiful one, told her all that he had
+done: how the beautiful one having wanted to detain him, had seized only one false arm: how,
+to complete this great adventure, and to lead it to a happy end, this king promised in marriage
+this same daughter to the clever young man who had played him so well, as the person
+worthiest of her; which was carried out to the great satisfaction of all.
+I do not know if Herodotus took this tale for a real history; but people able to invent similar
+romances or Milesian Fables, could very easily invent any game.
+This tale brings back another fact which proves what we said in the history of the calendar,
+that statues of giants that appear in various festivals, almost always designate the seasons. It
+says that Rhampsinitus, the same prince of which we came to speak, caused to be raised in the
+north and the south of the temple of Vulcan two statues of twenty-five cubits, one titled
+Summer and the other Winter: they adored the one, and sacrificed, on the contrary, to the
+other: it is thus like the savages who recognize the good principle and admire it, but who
+sacrifice only to the bad.
+
+                                                  Number X
+                                           The Wheel of Fortune.
+The last number of this plate is the Wheel of Fortune. Here human caricatures, in the form of
+monkeys, of dogs, of rabbits, etc. rise turn-with-turn on this wheel to which they are attached:
+it is said that it is a satire against fortune, and those which it elevates quickly, it lets fall down
+with the same speed.
+
+                                                  Plate VIII
+                                                 Number XX
+                                 Card badly named the Last Judgement.
+
+This card represents an angel sounding a trumpet: one sees immediately rising from the
+ground an old man, a woman, a naked child. Card makers who forgot the significance of these
+cards, and more still their numbers, saw here the Last Judgement; and to make it more
+obvious, they put into it something resembling tombs. Removing these tombs, this card is also
+used to indicate the creation, arrived in time, at the beginning of time, which number XXI
+indicates.
+                                                Number XXI
+                                      Time, badly named the World.
+
+This card, which card makers called the World, because they regarded it as the origin of all,
+represents Time. One cannot be mistaken with this number. In the center is the goddess of
+Time, with her veil which flies, and which serves her as a belt or peplum, as the ancients
+called it. She is in a posture to run like time, and in a circle which represents the revolutions
+of time; as well as the egg where all exists in time. At the four corners of the card are the
+symbols of the four seasons, which form the revolutions of the year, the same which make up
+the four heads of the Kerubim.
+
+These emblems are, The Eagle, the Lion, the Ox, and the Young Man:
+
+The Eagle represents spring, when the birds return.
+The Lion, the summer or burning of the Sun.
+The Ox, the autumn when one plows and when one sows.
+The Young Man, the winter, when one meets in company.
+
+                                                ARTICLE II
+                                                     Suits.
+
+In addition to the atouts, this game is composed of four suits distinguished by their symbols:
+they are called Sword, Cup, Baton and Coin. One can see the Aces of these four suits in Plate
+VIII.
+
+A represents the Ace of Swords, surmounted by a crown which surrounds the palms.
+
+C, the Ace of Cups: it has the appearance of a castle; it is how one made in former times large
+money cups.
+
+D, the Ace of Batons; it is truly a bludgeon.
+
+B, the Ace of Coins, surrounded by garlands.
+
+Each one of these suits is made up of fourteen cards, that is, of ten cards numbered I to X, and
+of four illustrated cards, which one calls the King, the Queen, the Knight or Horseman, and
+his Page or Servant. These four suits relate to the four classes between which the Egyptians
+were divided. The Sword designates the sovereign and the military or nobility. The Cup, the
+clergy or priesthood. The Baton, or bludgeon of Hercules, agriculture. The Coin, trade of
+which money is the sign.
+
+                                This game is based on the number seven.
+
+This game is absolutely founded on the sacred number of seven. Each suit is of twice seven
+cards. Atouts are three time seven; the total number of the cards is seventy-seven; the Fool
+being like 0. However, nobody is unaware of the role that this number played among the
+Egyptians, and that it became in their nation a formula with which they reconciled the
+elements of all sciences.
+
+The sinister idea attached in this game to the number thirteen, recollects also extremely well
+this same beginning.
+
+This game can thus have been invented only by the Egyptians, that has as a base the number
+seven; that is related to the division of the inhabitants of Egypt into four classes; that has the
+majority of its atouts related absolutely to Egypt, such as the two heads of hierophants, man
+and woman, Isis or the Dog Star, Typhon, Osiris, the House of God, the World, the dogs
+which indicate the Tropics, etc; that this game, entirely allegorical, could only be the work of
+the Egyptians.
+
+Invented by a man of genius, before or after the game of chess, and joining together utility
+with delight, it has passed down to us through all the centuries; it has endured the utter ruin of
+Egypt and of the wise men which distinguished that nation; and while one may have no idea
+of the wisdom of the lessons only they could teach, one nevertheless enjoys playing with what
+they have invented.
+
+It is easy besides to trace the road which it followed to arrive in our regions. In the first
+centuries of the Church, the Egyptians were very widespread in Rome; they carried there their
+ceremonies and the worship of Isis; consequently the game in question.
+
+This game, interesting by itself, was limited to Italy until relations between the Germans with
+the Italians made it known to this second nation; and until the counts from Italy living in
+Provence, during the stay in Avignon of all the Court from Rome, naturalized it in Provence
+and in Avignon.
+
+That it did not come to Paris, should be attributed to the strangeness of its figures and the
+number of its cards, which were not likely to appeal to the vivacity of the ladies of France.
+Also one was obliged, as it will soon be seen, to excessively reduce this game in their favor.
+
+However that same Egypt does not enjoy the fruit of its invention: reduced to the most
+deplorable servitude, and the most profound ignorance, deprived of all arts, its inhabitants are
+scarcely in a position to manufacture a card game.
+
+If our French cards, infinitely less complicated, require the constant work of a multitude of
+hands and the mingling of several arts, how were these unfortunate people to preserve their
+own? Such are the evils which befall a subjugated nation, even to the loss of the objects of its
+amusements: not having been able to preserve its most invaluable advantages, of which right
+pretends it to what was only a pleasant recreation?
+
+                                 Eastern names preserved in this game.
+
+This game preserved some names which also would declare it to be an Oriental game if one
+had no other evidence.
+
+These names are those of Taro, Mat and Pagad.
+
+                                                   1. Tarots.
+
+The name of this game is pure Egyptian: it is composed of the word Tar, which means way,
+path; and of the word Ro, Ros, Rog, which means king, royal. It is, literally, the Royal Path of
+Life.
+
+It indeed refers to the entire life of citizens, since it is formed of the various classes between
+which they are divided, and follows them from their birth to death, showing all the virtues and
+all physical and moral guides to which they must abide, such as the king, the queen, heads of
+religion, the Sun, the Moon, etc.
+It teaches them at the same time by the Player at Cups and the Wheel of Fortune, that nothing
+is more inconstant in this world than various states of man: that his only refuge is in virtue,
+which never fails when needed.
+
+                                                    2. Mat.
+
+The Mat, which is vulgarly named the Fool, and which remains in its Italian form, come from
+the Eastern word mat, struck, bruised, cracked. Fools were always represented as having a
+cracked brain.
+
+                                                   3. Pagad.
+
+The Player at Cups is called Pagad in the modern version of the game. This name which
+resembles nothing in our Western languages, is pure Oriental and very well chosen: pag
+means in the East chief, master, lord: and gad, fortune. Indeed, it is represented as showing
+Fate with its rod of Jacob or its rod of the Magi.
+
+                                                  Article III
+                                   The way in which one plays Tarots.
+
+1st. Manner of dealing the cards.
+
+One of our friends, Mr. A. R., agreed to explain to us the way in which one plays it: it is he
+who will speak, if we have understood well.
+
+This game is played by two, but one deals the cards as if there were three players: each player
+thus has only one third of the cards: thus during the combat there is always a third of the
+troops which rest; one calls this the body in reserve.
+
+For this game is a game of war, and not a peaceful game as it has incorrectly been described:
+however in all armies there is a body in reserve. Moreover, this reserve makes the game more
+difficult, since one has much more trouble guessing the cards which his adversary may have.
+
+One deals the cards by five, or by five and five.
+
+Of the 78 cards, there thus remain three at the end of the deal; instead of sharing them
+between the players and the reserve or discarding them, the dealer keeps them; what gives
+him the advantage of three cards.
+
+2nd. The manner of counting points during play.
+
+The atouts do not have all the same value.
+
+Those numbered 21, 20, 19, 18 and 17 are termed the five large atouts.
+
+Those numbered 1, 2, 3, 4, 5 are called the five small ones.
+
+If there are three of the large or three of the small, five points are counted: ten points, if there
+are four of them; and fifteen, if there are five of them.
+
+This is also an Egyptian manner of counting: the dinaire or denier of Pythagoras being equal
+to the quaternary, since one, two, three and four added together make ten.
+If there are ten atouts in this game, they are spread out, and they are worth ten more points; if
+there are thirteen of them, one also spreads them out, and they are worth fifteen points,
+independently of the other combinations.
+
+Seven cards bear the name of Tarots especially: they are the privileged cards; and here again,
+the number seven. These cards are:
+
+         The World or atout 21.
+         The Fool or Madman 0.
+         The Juggler or atout 1.
+         (Atouts-Tarots)
+
+         And the four Kings.
+
+If there are two of these atouts-Tarots, one asks the other whether or not he has it. If the other
+cannot answer by showing the third, he who asked the question marks 5 points: the other
+marks 15 of them if he has all three of them. Sequences or the four court figures of the same
+suit are worth 5 points.
+
+3rd. Manner of playing the Cards.
+
+The Fool takes anything, but nothing takes it: it forms an atout, and it is of any suit also.
+
+If one plays a King, but does not have the Queen, one plays the Fool, which is called the
+Excuse.
+
+The Fool with two Kings, counts 5 points: with three, 15.
+
+A King cut, or killed, 5 points for that which delivers the blow.
+
+If one takes the Juggler from his adversary, one marks 5 points.
+
+Thus the game is to take from one's adversary the figures which count the most points, and to
+make all efforts to form sequences: the adversary must do all he can to save his great figures:
+in consequence of seeing it coming, by sacrificing petty atouts, or petty cards of his suits.
+
+He must always be willing to sacrifice, in order to save his strong cards while cutting those of
+his adversary.
+
+4th. Variation for the one who deals.
+
+The one who deals can draw aside neither atouts nor Kings; it is too beautiful a game, since it
+is savage without danger. All that is permitted him in favor of his primacy, it is to draw aside a
+sequence: because it counts, and it forces the other to give it up, it is a double advantage.
+
+5th. Manner of counting the hands.
+
+The division is into a hundred, as with Piquet, with this difference, that it is not the one who
+arrives the first at a hundred when the counting is started who gains, but he who then makes
+the most points; because it is necessary that all counting started continue until the end: it
+offers thus more resources than Piquet.
+
+To count the points which one has in his hands, each of the seven cards called Tarots, with a
+card of a suit, is worth 5 points.
+A Queen with a card, 4.
+
+A Knight with a Card, 3.
+
+A Page with a card, 2.
+
+Two simple number cards, 1.
+
+The surplus of the points is counted that one of the adversaries has over the other, and he
+marks them down: one continues the evening of play until one arrives at hundred.
+
+                                                  Article IV
+                  The Game of Tarots regarded as a game of political geography.
+
+Someone showed to us in a catalogue of Italian books, the title of a work where the geography
+is interlaced with the Tarots: but we could not obtain this book containing it lessons of
+geography engraved on each card of this game: this is an application of this game to
+geography: the field of conjecture is without end, and perhaps by multiplying the
+combinations, we may steal away some of the images from this work. Without us being
+hindered by what may actually be written there, let us conjecture ourselves how the Egyptians
+would have been able to apply this game to political geography, such as it was known of in
+their times, three thousand years ago.
+
+Time or the World, represents the moment when the earth left chaos, where matter took a
+form, being divided into lands and into seas, and where man was created to become its master,
+the king of this beautiful property.
+
+The four cardinal virtues correspond to the four coasts of the world, east, west, north and
+south, these four points relating to man, by whom he is in the center of all; that one can call
+his right, his left, his front and his back, and from where his awareness extends in rays until
+the end of all, according to the extent of his physical eyes firstly, and then of his intellectual
+eyes by a different perception.
+
+The four suits will be the four areas or parts of the world corresponding to the four cardinal
+points, Asia, Africa, Europe and Celto-Scythia or the frozen countries of North: a division
+which was increased by America since its discovery, when the polar grounds of the North and
+the South were substituted for the ancient region of Celto-Scythia.
+
+The Sword represents Asia, nations of great monarchies, great conquests, great revolutions.
+
+The Baton, Egypt, nourisher of humanity, and symbol of the South, the black peoples.
+
+The Cup, the North, from which humanity descended, and from which came teaching and
+science.
+
+The Coin, Europe or the West, rich in gold mines in the beginnings of the world that we so
+badly term the olden times or ancient times.
+
+Each ten numbered cards of these four suits, will be one of the great regions of these four
+areas of the world.
+
+The ten cards of Swords will represent: Arabia; Idumée, which rules over the seas of the
+South; Palestine populated by Egyptians; Phoenicia, mistress of the Mediterranean; Syria or
+Aramée; Mesopotamia or Chaldea, Média, Susiane, Persia and the Indies.
+The ten numbered cards of Batons will represent the three great divisions of Egypt, Thébaide
+or Upper Egypt, the Delta or Lower Egypt, Heptanome or Middle Egypt divided into seven
+governments. Then Ethiopia, Cyrénaique, or in its place the land of Jupiter Ammon, Lybia or
+Carthage, the peaceful Telamones, the vagrant Numides, Maures pressed on the Atlantic
+Ocean; Gétules, which is placed in the south by the atlas, and spreads over those vast regions
+which we call today Nigeria and Guinea.
+
+The ten cards of Coins will represent the Isle of Crete, monarchy of the famous Minos,
+Greece and its Isles, Italy, Sicily and its volcanoes, the Balearic Islands famous for the dress
+of their troops of the line, Bétique rich in herds, Celtibérie abundant in gold mines: Gadix or
+Cadir, Isle most closely associated with Hercules, most commercial of the universe; Lusitanie
+and the Fortunate Isles, or the Canaries.
+
+The ten cards of Cups, Armenia and its Mount Ararat, Iberia, Scythes of Imaüs, Scythes of the
+Caucasus, Cimmerians of Palus-Méotides, Getes or Goths, the Daces, Hyperboreans so
+celebrated in high antiquity, the Celts wandering in their frozen forests, the Isle de Thulé at
+the ends of the world.
+
+The four illustrated cards of each suit will stand for certain geographical details relative to
+each area.
+
+The Kings, the state of the governments of each one, forces of the empires which compose
+them, and how they are more or less considerable according to whether agriculture is of use
+and in honor; this source of inexhaustible riches always reappearing.
+
+The Queens, the development of their religions, their manners, their customs, especially of
+their opinions, opinion having always been regarded as Queen of the World. Happy he who is
+able to direct it; he will always be king of the universe, master of the same; he is an eloquent
+Hercules who leads men with a golden bridle.
+
+The Knights, the exploits of the people, the history of their heroes or warriors; of their
+tournaments, of their games, their battles.
+
+The Pages, the history of arts, their origin, their nature; all that looks at the industrious portion
+of each nation, that which produces machines, manufacturers, commerce which varies in one
+hundred ways the form of wealth without adding anything to the base, which causes to
+circulate in the universe these riches and the products of industry; which puts them at the use
+of farmers to create new riches while providing an efficient outlet for those to which they
+have already given birth, and how all are strangled as soon as this circulation does not play
+freely, since the goods are hoarded, and those who provide them discouraged.
+
+The whole of the 21 or 22 atouts, the 22 letters of the Egyptian alphabet common to the
+Hebrews and to the East, and which were also used as numbers, are necessary to keep an
+account of so many regions.
+
+Each one of these atouts will have had at the same time a particular use. Several will have
+related to the principal objects of celestial geography, if one can use such an expression.
+Hence:
+
+The Sun, the Moon, Cancer, the Pillars of Hercules, the Tropics or their Dogs.
+
+The Dog Star, this beautiful and brilliant portal of the heavens.
+The Celestial Bear, on which all the stars lean by carrying out their revolutions around it,
+admirable constellation represented by the seven Tarots, and which seems to publish in
+characters of fire imprinted on our heads and in the firmament, that our solar system was
+founded like our sciences on the formula of seven, as was even the entire structure of the
+universe.
+
+All the others can be considered relative to the political and moral geography, the true
+government of the states: and even with the government of each man in particular. The four
+atouts relating to civil and religious authority, make known the importance for a state of a
+united government, and of respect for the ancients.
+
+The four cardinal virtues show that the social classes can be supported only by the kindness of
+government, by the excellence of instruction, by the practice of the virtues in those who
+control and who are controlled: Prudence to correct abuses, Fortitude to maintain peace and
+union, Temperance in the means, Justice towards all. How ignorance, pride, greed, stupidity in
+the one, generates in others a disastrous contempt: from which disorders result which shake
+even to their foundations the empires where justice is violated, where force is the only means,
+where one misuses his power, and where one lives without security. Disorders which
+destroyed so many families whose names had resounded so long a time across all the earth,
+and who ruled with such an amount of glory on the astonished nations.
+
+These virtues are no less necessary to each individual. Temperance regulates one's duties
+towards himself, especially towards his own body which he treats too often only like an
+unhappy slave, martyr of his disordered affections.
+
+Justice which regulates one's duties towards those nearest and the Divinity itself to which he
+owes all.
+
+Fortitude with which he is supported in the midst of the ruins of the universe, in spite of the
+vain and foolish efforts of passions which unceasingly besiege him with their impetuous
+floods.
+
+Lastly, Prudence with which he patiently awaits the success of his plans, equal to any event
+and similar to a fine player who never risks his game and can benefit from all circumstances.
+
+The triumphing King then becomes the emblem of that man who by means of these virtues
+was wise towards himself, right towards others, extreme against passions, foresighted enough
+to pile up resources against the times of adversity.
+
+Time who uses all with an inconceivable speed, Fortune who is played of all; the Juggler who
+conjures away all, the Fool who is of all, the Miser who loses all; the Devil who is inside all:
+Death who absorbs all, seven singular numbers who are of all countries, can give place to
+observations not less significant and not less varied.
+
+Lastly, he who has very much to gain and nothing to lose, the true King triumphing, is the true
+Sage who lantern in hand is unceasingly careful where he steps, does not adopt any school,
+knows all that is good to enjoy, and recognizes all that is evil and to be avoided.
+
+Such is sufficient concerning the geographical-political-moral explanation of this antique
+game: and such must be the end of all mankind, which would be happy, if all its games ended
+thus!
+                                                   Article V.
+                         Relationship of this game with a Chinese monument.
+
+Mr. Bertin who returned so great a benefit to literature and the sciences, by the excellent
+Memoirs that he wrote and published concerning China, told us about a unique monument
+which was sent to him from this vast region, and which we assume dates from the first ages of
+this empire, since the Chinese on it looks like an inscription by Yao relating to the receding
+waters of the Flood.
+
+It is composed of characters which form large compartments in quarter-length, all equal, and
+precisely the same size as the cards of the game of Tarots. These compartments are distributed
+in six perpendicular columns, of which the first five contain fourteen compartments each,
+while the sixth which is not completely filled contains only seven of them.
+
+This monument is thus composed in this way of seventy-seven figures like the set of Tarots:
+and it is formed according to the same combination of the number seven, since each column is
+of fourteen figures, and the one which is not is that with half, containing seven of them.
+
+Without that, one would have been able to arrange these seventy-seven compartments in a
+manner so as to make unnecessary this sixth column: one would have had only to make each
+column of thirteen compartments; and the sixth would have had twelve.
+
+This Monument is thus perfectly similar, numerically, with the set of Tarots, if one withholds
+from them only one card: the four suits filling the first four columns with fourteen cards each:
+and the atouts that number twenty-one, filling the fifth column, and precisely half of the sixth.
+
+It seems quite strange that so similar a relationship was the result of simple chance: it is thus
+very apparent that both of these monuments were formed according to the same theory, and
+on the connection with the sacred number seven; they both seem thus to be only different
+applications of a single formula, perhaps anterior to the existence of the Chinese and the
+Egyptians: perhaps one will even find something similar among the Indians or the people of
+Tibet who are located between these two ancient nations.
+
+We were extremely tempted to also make an engraving of this Chinese monument; but feared
+it would appear badly when reduced to a size smaller than the original, and also the
+impossibility, given the means available to us to do all that was required for the perfecting of
+our work, prevented us.
+
+Let us not omit that the Chinese figures are in white on a jet black background; what makes
+them very prominent.
+
+                                                  Article VI.
+                       Relationship of this game with squares or tournaments.
+
+During a great number of centuries, the nobility mounted on horseback, and divided into
+colors or factions, exercised between them pretended combats or tournaments perfectly
+similar to that carried out in the games of cards, and especially in that of the Tarots, which
+was a military game just as that of chess, up until the time that it came to be considered a civil
+game, an aspect it has taken on presently.
+
+In the beginning, the knights of the tournaments were divided into four, even into five bands
+relating to the four suits of the Tarots and with the set of atouts. The last entertainment of this
+kind which was seen in France, was given in 1662 by Louis XIV, between Tileries and the
+Louvre, in that great place where is preserved the name Carousel. It was composed of five
+squares. The King was the leader of the Romans: his brother, head of the House of Orleans,
+with the leader of the Persians: the Prince of Condé commanded the Turks: the Duke of
+Enguien his son, the Indians: the Duke de Guise, the Americans. Three queens were seated
+there on a platform: the Queen Mother, the reigning Queen, the widowed Queen of England
+of Charles II. The Count de Sault, son of the Duke of Lesdiguieres, placed the prizes for the
+matches into the hands of the Queen Mother.
+
+The squares were usually made up of 8 or 12 knights for each color: which, to 4 colors by 8
+squares, gives the number 32, which forms that of the cards for the game of Piquet: and to 5
+colors, the number 40 which is that of the cards for the game of Quadrille.
+
+                                                  Article VII
+                                             Spanish card decks.
+
+When one examines the card decks in use among Spaniards, one cannot avoid noticing that
+they are a diminutive form of the Tarots.
+
+Their most distinctive games are that of Hombre which is played by three: and Quadrille
+which is played by four and which is only a modification of the game of Hombre.
+
+This name signifies the game of man, or human life; it thus has a name which corresponds
+perfectly to that name Tarot. It is divided into four suits which bear the same titles as in the
+Tarots, such as Spadille or Swords, Baste or Batons, which are the two black suits; Copa or
+Cups, and Dinero or Coins, which are both red suits.
+
+Several of these names were carried into France with this game: thus the Ace of Spades is
+called Spadille or Swords; the Ace of Clubs, Baste, that is, Batons. The Ace of Hearts is
+named Ponte, from the Spanish punto, having a point.
+
+Those atouts, which are the strongest, are called Matadors, or the Slaughtermen, the
+triumphant who destroyed their enemies.
+
+This game is entirely formed on the tournaments; the proof is striking, since the suits
+collectively are called Palos or Pales, the lances, the pikes of the knights.
+
+The cards themselves are called Naypes, from the Oriental word nap, which means to take, to
+hold: literally, the Keepers.
+
+There are thus four or five squares of knights who fight in tournaments.
+
+They are forty, called Naypes or Keepers.
+
+Four suits called Palos or rows of pikes.
+
+The trumps are called Matadors or Slaughtermen, those who came in the end to demolish
+their enemies.
+
+Finally the names of the four suits, that even of the game, show that it was formed entirety on
+the game of Tarots; that the Spanish cards are only an imitation in miniature of the Egyptian
+game.
+
+                                                 Article VIII
+                                                French cards.
+According to this information, no one will have difficulty perceiving that the French cards are
+themselves an imitation of the Spanish cards, and that they are thus the imitation of an
+imitation, and in consequence a well degenerated institution, far from being an original
+invention and first, as is incorrectly expressed in remarks our savants, who do not focus on
+points of comparison, but only seek to discover the causes and relationships of all.
+
+It is usually supposed that the French cards were invented during the reign of Charles VI, in
+order to amuse this feeble and infirm prince: but what we believe ourselves is right to assert,
+is that they were not an imitation of the southernmost games.
+
+Perhaps we may even be right to suppose that the French cards are older than Charles VI,
+since it is attributed in the dictionary of Ducange [With the word charta] to St. Bernard of
+Sienne, contemporary of Charles V, to have condemned to fire, not only masks and the game
+of dice, but even the triumphal cards, or of the game called Triumph.
+
+One finds in this same Ducange the criminal statutes of a City called Saona, which defend the
+legality of card games.
+
+It is necessary that these statutes are very old, since in this work one could not indicate the
+time of it: this city must be that of Savone.
+
+No doubt it happens that these games are much older than St. Bernard of Sienne: why else
+would he confuse dice and masks with a game lately invented to amuse a great king?
+
+Besides, our French cards present no vision, no ingenuity, no cohesion. If they were invented
+according to the tournament, why was the Knight removed, while his Page was retained? why
+allow at the time only thirteen cards instead of fourteen per suit?
+
+The names of the suits have degenerated at this point and offer no consistency. If one can
+recognize the Swords in the Spades, how did the Batons become the Clubs? how do the
+Hearts and the Diamonds correspond with Cups and Coins; and what ideas are revealed by
+these suits?
+
+Whose idea was it to introduce the names given to the four Kings? David, Alexander, Caesar,
+Charlemagne, do not correspond either to four famous monarchs of antiquity, nor with those
+of modern times. They are a monstrous composition.
+
+It is the same for the names of the Queens: they are called Rachael, Judith, Pallas and Argine:
+it is true that one believed that they were allegorical names relating to the four ways in which
+a lady attracts to herself the attentions of men: that Rachael indicates beauty, Judith strength,
+Pallas wisdom, and Argine, where one only sees the anagram Regina, queen, birth.
+
+But what relationships have these names with Charles VI or with France? What are these
+forced allegories?
+
+It is true that among the names of Pages one finds that of Hire, which may refer to one of the
+French Generals of Charles VI; but is this solitary correspondence sufficient to scramble all
+the periods of history?
+
+We were here when one spoke to us about a work of the Abbot Rive, which discusses the
+same subject: afterwards having sought it in vain at the greater number of our booksellers, M.
+de S. Paterne lent it to us.
+
+This work is entitled:
+Historical and critical notes of two Manuscripts of the Library of the Duke of Valliere, of
+which one has for its title Le Roman d'Artus, Comte de Bretaigne, and the other, Le Romant
+de Pertenay or de Lusignen, by M. l'Abbe Rive, etc. at Paris, 1779, in 4o. 36 pages.
+
+On page 7, where the author starts to discuss the origin of the French cards; we saw with
+pleasure that it supports, (1) that these cards are older than Charles VI; (2) that they are an
+imitation of Spanish cards: now let us give a brief summary of his evidence.
+
+"Cards, he states, date from at least the year 1330; and it is neither in France, nor in Italy, nor
+in Germany that they appeared for the first time. One sees them in Spain around this year, and
+it is a long time before one finds the least trace in any other nation.
+
+They were invented there, according to the Castillan Dictionary of 1734, by one named
+Nicolao Pepin ...
+
+One finds them in Italy towards the end of this same century, under the name of Naibi, in the
+Chronicle of Giovan Morelli, which is of the year 1393."
+
+From this learned abbot we discover at the same time that the first Spanish work which attests
+the existence of cards is from approximately the year 1332.
+
+"They are the Statutes of an order of knighthood established around this period in Spain, and
+founded by Alphonse XI, King de Castille. Those who were admitted swore an oath not to
+play cards.
+
+One then sees them in France under the reign of Charles V. Little Jean de Saintré was not
+honored with the favors of Charles V because he played neither with dice nor with cards, and
+this king proscribed them along with several others games, in his Edict of 1369. One sees
+them in various provinces of France; one gave to some of the figures on the cards names made
+to inspire horror. In Provence, one of the Knaves is named the Tuchim. The name signifies a
+race of robbers who, in 1361, caused in this country and that of Venaissin, a devastation so
+horrible, that the popes were obliged to preach a crusade to exterminate them. Cards were not
+introduced into the Court of France because under the successor of Charles V one feared even
+by their introduction, to wound the standard of morality, and consequently a pretext was
+conceived: it was said to be done to calm the melancholy of Charles VI. Under Charles VII
+the game of Piquet was invented. This game was the reason that cards spread, from France,
+into several other parts of Europe."
+
+These details are very interesting; their consequences are still more so. These cards that were
+condemned in the XIVth century, and proscribed by the orders of knighthood, are necessarily
+very old: they have been regarded as only shameful remainders of paganism: they thus must
+have been the cards of the Tarot; their strange figures, their odd names, such as House of God,
+the Devil, Popess, etc., their high antiquity which is lost in the night of time, their use in
+fortune telling, etc. all serve to make them look like a diabolic recreation, a work of the
+blackest magic, of a sorcery condemnable.
+
+However the agony of not gaming! Thus were invented more human games, more purified,
+free from figures that were only good to frighten: the result, Spanish cards and French cards
+which were never prohibited like these bad cards that came out of Egypt, but which however
+lent themselves perfectly to these clever games.
+Especially the game of Piquet, where two opponents play, where one draws aside, where one
+has sequences, where one goes in a hundred: where one counts the cards in hand, and the
+pickups, and where one finds a number of other correspondences too striking.
+
+                                                 Conclusion.
+
+We thus dare to flatter ourselves that our readers will receive with pleasure these various
+opinions on so common a subject as cards, and that they will find them to perfectly rectify the
+vague and poorly reconciled ideas that have been available until now on this subject:
+
+That no one can bring forth proof in support of these proposals.
+That the cards have existed only since Charles VI.
+That the Italians are the last people which adopted them.
+That the figures of the game of Tarots are extravagant.
+That it is ridiculous to seek the origin of the cards in the various states of civil life.
+That this game of cards is patterned on peaceful life, while that of chess is patterned on war.
+That the game of chess is older than that of cards.
+
+Thus the absence of truth, in some manner or other, generates a crowd of errors of all kinds,
+which becomes more or less harmful, according to whether they unite with other truths,
+contrast with them or oppose them.
+
+                                 Application of this game to divination.
+
+To finish this examination and these considerations on the Egyptian game, we will put under
+the eyes of the public the essay that we announced above, where it is proven how the
+Egyptians applied this game to the art of divination, and how this same use was transmitted
+down to our gaming cards, made in imitation of these former.
+
+One will see there in particular what we already said in this volume, wherein is explained the
+relationship between the prophetic dreams in ancient times with the hieroglyphic and
+philosophical science of the sages, who sought to reduce by their science into a set of images
+the visions which the Divinity permitted them to receive; and that all this science declined
+over the course of time, but was wisely preserved, because it was reduced to vain and futile
+practices, which in the not very enlightened centuries that followed have managed to survive
+as the preoccupation of fools and the superstitious.
+
+This judicious observer will provide us new evidence that the Spanish cards are an imitation
+of Egypt, since he teaches us that it is only with the game of Piquet that the fates are
+consulted, and that several names of these cards relate absolutely to Egyptian ideas.
+
+The Three of Coins is called the Lord, or Osiris.
+The three of Cups, the Sovereigness, or Isis.
+The two of Cups, the Cow, or Apis.
+The Nine of Coins, Mercury.
+The Ace of Batons, the Snake, symbol of agriculture among Egyptians.
+The Ace of Coins, the One-eyed, or Apollo.
+
+This name of One-eyed, given to Apollo or the Sun as having only one eye, is an epithet taken
+from Nature that provides us a proof, along with several others, that the famous character of
+the Edda who lost one of his eyes in a famous allegorical fountain, is no other than the Sun,
+the One-eyed One or the preeminent single Eye.
+This essay is so filled besides with matter, and so apt to give healthy ideas on the way in
+which the sages of Egypt consulted the book of destiny, that we do not doubt it will be well
+received by the public, until now deprived of similar research, because until now nobody has
+had the courage to deal with subjects which appeared lost forever in the deep night of time.
+
+                    STUDY ON THE TAROTS,
+
+                          and on the Divination by the Cards of the Tarots,
+                                           by M. Le C. de M.***
+
+                                                        I
+                                             The Book of Thoth.
+
+The desire to teach developed in the heart of man as his spirit acquired new knowledge: the
+need to preserve it, and eagerness to transmit it, made him imagine characters of which Thoth
+or Mercury was looked upon as the inventor. These characters were not, in the beginning,
+conventional signs, and did not express, like our current letters, the sound of the words; they
+were the same true images that make up the pictures on the cards, which presented to the eyes
+the things about which one wanted to speak.
+
+It is natural that the inventor of these images was the first historian: indeed, Thoth is regarded
+as having painted the gods [the gods, in the writing and the hieroglyphic expression, are the
+eternal and the virtues, represented with one body], that is to say, acts of absolute power, or
+creation, to which he joined precepts or morals. This book was to be named A-Rosh; from A,
+doctrines, science; and from Rosch [Rosh is the Egyptian name of Mercury and of its festival
+which is celebrated the first day of the new year], Mercury, which, joined to the article T,
+means pictures of the doctrines of Mercury; but as Rosh also means commencement, this
+word Ta-Rosh was particularly devoted to his cosmogony; just as Ethotia, the History of
+Time, was the title of his astronomy; and perhaps that Athothes, which one took for King, son
+of Thoth, is only the child of his genius, and the History of the kings of Egypt.
+
+This ancient cosmogony, this book of Ta-Rosh, except for some minor corruptions, has come
+down to us in the cards which still bear this name [twenty-two pictures form a book not very
+bulky; but if, as is quite probable, the first traditions were preserved in poems, a simple image
+which fixed the attention of the people, by which one illustrated the event, served to help
+them to retain them, as well as the verse which described them.], that is to say, greed has
+preserved for an idle amusement, or superstition has preserved from the injury of time,
+mysterious symbols which serve them, as formerly they served the Magi, to mislead credulity.
+
+The Arabs communicated this book [We still name Livret aus Lansquenet, or Lands-Knecht,
+the series of cards that one gives with the deal.] or game to the Spaniards, and the soldiers of
+Charles V carried it into Germany. It is composed of three higher series, representing the first
+three ages, of gold, silver and bronze: each series is made up of seven cards [Three times
+seven, a mystical, famous number for Kabbalists, Pythagoreans, etc.].
+
+But like the Egyptian writing which reads to the left or the right, the twenty-first card, which
+was not numbered with an Arabic numeral, is nonetheless also the first, and must be read in
+the same way in order to understand the history; as it is the first in the game of Tarots, and in
+the species of divination that one performs with these images.
+
+Lastly, there is a twenty-second card without number as without power, but which increases
+the value of that which it precedes; it is the zero of magic calculations: it is called the Fool.
+                                                 First Series.
+                                                 Age of Gold.
+
+The twenty-first, or first card, represents the Universe by the goddess Isis in an oval, or an
+egg, with the four seasons in the four corners: the Man or the Angel, the Eagle, the Ox, and
+the Lion.
+
+Twentieth, this one is titled the Judgement: indeed, an angel sounding a trumpet, and the men
+leaving the ground, had to induce a painter, not very well versed in mythology, to see in this
+picture only the image of the Resurrection; but the ancients looked upon the men as children
+of the Earth [The teeth sown by Cadmus, etc.]; Thoth wanted to express the Creation of Man
+by painting Osiris, a generating god, with the speaking pipe or verb which orders matter, and
+by tongues of fire which escape from the cloud, the Spirit [Painted even in our sacred
+histories.] of God reviving this same matter; finally, by men leaving the ground in order to
+adore and admire the Absolute Power: the posture of these men does not announce culprits
+who go to appear in front of their Judge.
+
+Nineteenth, the creation of the Sun which brightens the union of man and woman, expressed
+by a man and a woman who give to each other their hands: this sign became, after that of
+Gemini, androgynous: Duo in carne una.
+
+Eighteenth, the creation of the Moon and the terrestrial animals, expressed by a wolf and a
+dog, to stand for domestic animals and wild: this emblem is well chosen, in as much as the
+dog and the wolf are the only beasts which howl at the appearance of this star, as though
+regretting the loss of the day. This card makes me believe that its picture once announced very
+great misfortunes to those who chose to consult the Fates, since it depicts the line of the
+Tropic, that is to say, of the departure and the return of the Sun, which leaves the comforting
+hope of a beautiful day and of a better fortune. Also, two fortresses which defend a path traced
+in blood, and a marsh which terminates the image, inevitably suggest difficulties without
+number that must be surmounted in order to banish so sinister a presage.
+
+Seventeenth, the Creation of Stars and Fishes, represented by stars and Aquarius.
+
+Sixteenth, the House of God overthrown, or the terrestrial Paradise from which man and
+woman are precipitated by the blazing tail of a comet or star, joined with a fall of hailstones.
+
+Fifteenth, the Devil or Typhon, final card of the first series, come to disturb the innocence of
+man and to abolish the golden age. His tail, his horns and his long ears announce that he is a
+degraded being: his raised left arm and folded wing, forming N, symbol of produced beings,
+makes us think it signifies having been created; but the torch of Prometheus which he holds
+with his right hand, serves to complete the letter M, which expresses generation: indeed, the
+history of Typhon naturally persuades us to this explanation; because it shows that, by
+depriving Osiris of his virility, that Typhon desired to encroach on the rights of the producing
+Power; also he was the father of evils which were spread on the ground.
+
+The two beings bound at his feet mark degraded and subjected human nature, as well as a new
+and perverse generation, whose hooked nails express cruelty; they miss only the wings
+(spiritual or angelic nature), to be very similar to the devil: one of these beings touches with
+its claw the thigh of Typhon; a symbol which in mythological writing was always that of
+carnal generation [the birth of Bacchus and of Minerva are the mythological images of two
+such generations.]: he touches it with his left claw to signify illegitimacy.
+Typhon finally is often taken for the Winter, and this picture finishing the golden age
+announces the bad weather of the seasons, which will torment the man driven out of the
+Paradise thereafter.
+
+                                                Second Series.
+                                                 Age of Silver.
+
+Fourteenth, the Angel of Temperance comes to inform man, to make him avoid the death to
+which he is lately condemned: it is painted pouring water into wine [Perhaps its attitude is
+marked with the culture of the vine.], to show man the need for diluting this liquor, or for
+moderating his emotions.
+
+Thirteenth; this number, always unhappy, is devoted to Death, who is represented mowing
+crowned heads and vulgar heads.
+
+Twelfth, the accidents which afflict human life, represented by a man hanged by the foot;
+which wants also to say that, to avoid them, it is necessary in this world to go with prudence:
+Suspenso pede.
+
+Eleventh, the Strength that is assisted by Prudence, and overcomes the lion, which was always
+the symbol of the ground uncultivated and wild.
+
+Tenth, the Wheel of Fortune, at the top of which is a crowned monkey, teaches us that after
+the fall of man, it was no longer virtue which gave dignities: the rabbit that goes up and the
+man who is precipitated, express the injustices of the inconstant goddess: this wheel at the
+same time is an emblem of the wheel of Pythagoras, a way of drawing lots by numbers: this
+form of divination is called arithomancy.
+
+Ninth, the Hermit or the Sage, lantern in hand, seeking justice on the earth.
+
+Eighth, Justice.
+
+                                                Third Series.
+                                                 Age of Iron.
+
+Seventh, the Chariot of War in which is an armored king, armed with a javelin, expresses the
+dissensions, the murders, the combats of the age of bronze, and announces the crimes of the
+age of iron.
+
+Sixth, the man depicted wavering between vice and virtue, is not led any more by reason:
+Love or Desire [concupiscence], with bandaged eyes, ready to release a dart, will make him
+lean to the right or to the left, whichever way he is guided by chance.
+
+Fifth, Jupiter or the Eternal together with his eagle, lightning in hand, threatens the earth, and
+will visit it kings with his anger.
+
+Fourth, the king armed with a bludgeon, which ignorance thereafter made an imperial globe
+[Osiris is often represented with a whip in his hand, with a sphere and a T: all these things
+united, have produced in the head of a German card maker an imperial globe]: his helmet is
+furnished behind with saw-like teeth, to make known that nothing serves to appease his
+insatiability [Or his revenge, if it has irritated Osiris.].
+
+Third, the Queen, bludgeon in hand; her crown has the same ornaments as the helmet of the
+King.
+Second, the pride of power, represented by the peacock, on which Junon pointing to the sky
+on the right side, and to the earth of the left, announces a terrestrial religion or idolatry.
+
+First, the Juggler holding the rod of the Magi, making miracles and misleading the credulity
+of the people.
+
+It is followed by a single card representing the Fool who carries his bag or his errors behind
+him, while a tiger or his regrets, devouring his haunch, delays his march towards crime [This
+card does not have a row: it completes the sacred alphabet, and answers to the Tau which
+expresses completion, perfection: perhaps it was intended to represent by this image the
+natural result of the actions of men.].
+
+These twenty-two first cards are not only hieroglyphics, which when placed in their natural
+order recall the history of the earliest times, but they are also as many letters [the Hebrew
+alphabet is composed of 22 letters.] which when differently combined, can form as many
+sentences; also their name (A-tout) is only a literal translation of their general employment
+and property.
+
+                                                        II
+                                     This game applied to divination.
+
+When the Egyptians had forgotten the first interpretation of these images, and that they had
+been used as simple letters for their sacred writing, it was natural that such a superstitious
+people attached occult virtues to the characters, respected for their antiquity [Also the science
+of numbers and the value of letters was extremely renowned formerly.], and that the priests,
+who possessed the only knowledge of them, employed them solely for religious matters.
+
+New characters were even invented, and we see in the holy writings that the Magi along with
+those who were initiated into their Mysteries, used a divination by cup [Cup of Joseph.].
+
+That they worked wonders with their wand [The rod of Moses and of the magicians of
+Pharaoh.].
+
+That they consulted talismans [The gods of Laban and the teraphim, Urim and Thummim.] or
+engraved stones.
+
+That they divined future things by swords [They did more: they fixed the fate of battles; and if
+King Joas had struck the ground seven times, instead of three, it would have destroy Syria, II
+Kings, XIII, 19], by arrows, by axes, finally by weapons in general. These four signs were
+introduced among the religious images when the establishment of kings had brought different
+social classes into society.
+
+The Sword marked royalty and power of the earth.
+
+The priests made use of vessels for the sacrifices, and the Cup designated sacred.
+
+The Coin, commerce.
+
+The Baton, the Hoe, the Needle represent agriculture.
+
+These four already mysterious characters, once joined together in the sacred pictures, gave
+hope of greater illuminations; and the fortuitous combination that one obtains by mixing these
+images forms the sentences that the Magi read or interpreted like statements of Destiny;
+which was to them all the easier since what is revealed by a pattern due to chance, naturally
+produces an obscurity sacred to the style of oracles.
+
+Each social class thus had its symbol which characterized it; and among the different cards
+bearing this symbol, some were happy, others unhappy, and according to their position, the
+number of the symbols and their ornaments, they each served to announce happiness or
+misfortune.
+
+                                                       III.
+                         Names of various cards, preserved by the Spaniards.
+
+The names of several of these cards preserved by the Spaniards, we think very appropriate.
+These names are seven.
+
+The Three of Coins, a mysterious number, called the Lord, the Master, devoted to supreme
+God, with Great Jove.
+
+Three of Cups, called the Lady, devoted to the Queen of Heaven.
+
+The One-eyed or the Ace of Coins, Phoebeoe lampadis instar., devoted to Apollo.
+
+The Cow or Two of Cups, devoted to Apis or Isis.
+
+The Grand Nine, the Nine of Cups; devoted to Destiny.
+
+The Little Nine of Coins, devoted to Mercury.
+
+The Serpent or the Ace of Batons (Ophion) a famous and sacred symbol among the Egyptians.
+
+                                                       IV.
+                               Mythological attributes of several others.
+
+Several other pictures are accompanied by mythological attributes which were intended to
+impart to them a particular and secret virtue.
+
+Such as the Two of Coins surrounded by the mystical Belt of Isis.
+
+The Four of Coins, devoted to good Fortune, painted in the midst of the card, on the ball of
+her foot and her veil deployed.
+
+The Queen of Batons devoted to Ceres; this Lady is crowned with spikes, and carries the skin
+of a lion in the same way as Hercules, the quintessential farmer.
+
+The Page of Cups carrying his hat in his hand, and respectfully bearing a mysterious cup,
+covered with a veil; he seems by extending his arm, to push away from himself this cup, to
+teach us that one has to approach sacred things with fear, and not to seek to know those things
+which are hidden by discretion.
+
+The Ace of Swords devoted to Mars. The sword is decorated with a crown, a palm and a
+branch of the olive tree with its bays, to signify victory and its fruits: it is not possible to have
+a happier card in this suit than this one. It is single, because there is only one way of making
+war well; that is to prevail in order to achieve peace. This sword is supported by a left arm
+extended from a cloud.
+The card of Batons of the Serpent, about which we spoke above, is decorated with flowers
+and fruits just as is that of the victorious Sword; this mysterious wand is supported by a right
+arm extending from a cloud, but bright with rays. These two images seem to say that
+agriculture and the sword are the two arms of empire and the support of society.
+
+The Cups in general announce happiness, and the Coins wealth.
+
+The Batons are devoted to agriculture and prognosticate more or less abundant harvests, the
+things which are seen in the countryside or which pertain to it.
+
+They stand for a mixture of good and evil: the four court figures have a green wand, similar to
+the wand of Fortune, but the other cards express, by compensating symbols, an indication
+neither good or bad: two only, whose wands are the color of blood, seems devoted to
+misfortune.
+
+All the Swords predict only misfortunes, especially those marked with an odd number, that
+carry still a bloody sword. The only sign of victory, the crowned sword, is in this suit the one
+sign of a happy event.
+
+                                                        V
+Comparison between these attributes and the values that one assigns to the modern cards for
+
+                                                  divination.
+
+Our fortune tellers, not knowing how to read hieroglyphics, withdrew all the trumps from
+them and changed the names of Cups, Batons, Coins and Swords, of which they knew neither
+the etymology, nor the expression; they substituted those of Hearts, Diamonds, Clubs and
+Spades.
+
+But they retained certain turnings and several expressions the use of which lets us perceive the
+origin of their divination. According to them,
+
+The Hearts, (Cups), announce happiness.
+The Clubs, (Coins), fortune.
+Spades, (Swords), misfortune.
+Diamonds, (Batons), indifference and the countryside [It is to be noticed that in their symbolic
+writing system the Egyptians employed squares to express the countryside.].
+
+The Nine of Spades is a disastrous card.
+
+That of Hearts, the card of the Sun; it is easy to recognize the Greater Nine, that of the Cups:
+just as it is the Lesser Nine in the Nine of Clubs, which they also regard as a happy card.
+
+The Aces announce letters, news: indeed who is more capable to bring news than the One-
+eyed, (Sun) which traverses, sees and lights all the universe?
+
+The Ace of Spades and the Eight of Hearts predict victory; the Ace Crowned prognosticates in
+the same way, and all the more happily when it is accompanied by the Cups or the fortunate
+signs.
+
+The Hearts and more particularly the Ten, reveal the news that must arrive at the city. Cup,
+symbol of the priesthood, seems intended to express Memphis and the stay of the Pontiffs.
+
+The Ace of Hearts and the Queen of Diamonds announce a happy and faithful tenderness. The
+Ace of Cups expresses a single happiness, that one possesses alone; the Queen of Diamonds
+indicates a woman who lives in the countryside, or partly in the countryside: and in which
+places can one aspire to more truth, of innocence, than in the villages?
+
+The Nine of Clubs and the Queen of Hearts, mark jealousy. However, the Nine of Coins is a
+fortunate card, a great passion, even happiness; for a lady living in the great world, does not
+always leave her lover without concern, etc. etc. One finds an infinity of similar things into
+which it is futile to search, and here already are too many.
+
+                                                       VI
+                           Way in which one proceeds to consult the Fates.
+
+Now let us suppose that two men who want to consult the Fates, have, one the twenty-two
+letter cards, the other the four suits, and that after having shuffled the cards, and each having
+cut the cards of the other, they start to count together up to the number fourteen, holding the
+trumps and the lesser cards in their hands face down so that only their backs are visible; then
+if a suit card turns up in its natural place, that is, which bears the number named, it must be
+put aside with the number of the accompanying letter card at the same time, which will be
+placed above: the one who holds the trumps places this same letter there, so that the book of
+Destiny is always in its entirety, and there is, in no case, an incomplete sentence; then the
+cards are mixed again and again receive a cut. Finally the cards are run through to the end a
+third time with the same attentions; and when this operation is completed, it is a question of
+reading the numbers which express the accompanying letters. Whatever happiness or
+misfortune is predicted by each one of them, must be combined with what the card announces
+that corresponds to them, in the same way that their greater or lesser power is determined by
+the number of this same card, multiplied by that which characterizes the letter. And for this
+reason the Fool which does not produce anything, is without number; it is, as we have said,
+the zero of this calculation.
+
+                                                       VII
+                             It made up a great portion of ancient wisdom.
+
+But if the sages of Egypt made use of sacred pictures to predict the future, at the same time
+they spared no indication which could apprise them of future events, with the hope of
+encouraging their understanding when their search was preceded by dreams which served to
+help to develop the sentence produced by the images of the fates!
+
+The priests of this ancient people formed in a good hour a learned society, charged to preserve
+and to extend human knowledge. The priesthood had its leaders, whose names were Jannes
+and Jambres, that Saint Paul preserved to us in his Second Epistle to Timothy, titles which
+characterize the august functions of the pontiffs. Jannes [Just as Pharaoh means the Sovereign
+without being the particular name of any prince who controlled Egypt.] means Explicator, and
+Jambres Permutater, he who makes wonders.
+
+Jannes and Jambres wrote their interpretations, their discoveries, their miracles. The unbroken
+continuation of these memories [Pope Gelase I put the 491 books of Jannes and Jambres
+among the number of apocryphal books.] formed a body of science and doctrines, that showed
+their deep understanding of physics and morals: they observed, under the inspection of their
+leaders, the course of the stars, the floods of the Nile, the phenomena of meteorology, etc. The
+kings brought them together sometimes to make use of their consultings. We see that in the
+time of the Patriarch Joseph they were called by Pharaoh to interpret a dream; and if Joseph
+alone had glory to discover the sense of it, it none the less proves that one of the functions of
+the Magi was to explain dreams.
+The Egyptians could not avoid falling into the errors of idolatry [Long still after this time the
+Magi recognized the finger of God in the Miracles of Moses.]; but back in those times God
+often moved men with an expression of his will, and if someone boldly questioned him on his
+eternal decrees, it was at least due to a forgivable desire to seek to penetrate them, when the
+Divinity seemed, not only to approve, but to even cause, by dreams, this curiosity: also their
+interpretation was a sublime art, a sacred science of which one made a particular study,
+reserved for the ministers of the altars: and when the officers of Pharaoh, prisoners with
+Joseph, grieved themselves not to have anybody to explain their dreams, it is not that they did
+not have companions in their misfortune; but it was that, locked up in prison by the leader of
+the militia, there remained nobody among the soldiers who could conduct the religious rituals
+associated with the sacred tables, let alone anyone having the knowledge to interpret them.
+The answer that the Patriarch spoke explains their thoughts: the interpretation, he said to
+them, does it not depend on the Lord? Tell me what you saw.
+
+But to return to the functions of the priests, they began by writing in vulgar letters the dream
+of which they inquired, as in road divination where they make a positive request of which
+they proceed to seek the answer in the book of the fates, and after having mixed the sacred
+letters they drew the cards, with the attention of scrupulously placing under the one the words
+of the explanation for which they searched; the sentence formed by these cards was
+deciphered by Jannes.
+
+Let us suppose, for example, that a Magus had wanted to interpret the dream of Pharaoh about
+which we will speak presently, as they tried to imitate the miracles of Moses, and that he had
+drawn the Fortunate Baton, preeminent symbol of agriculture, followed by the Knight and the
+King [the Page is worth 1, Knight 2, Queen 3, the King 4]; that he left at the same time from
+the book of destiny the cards the Sun, Fortune and the Fool, this will be the first member of
+the sentence which he seeks. If he draws the Two and the Five of Batons, whose symbol is
+marked with blood, and of the sacred trumps he draws Typhoon and Death, he has obtained a
+kind of interpretation of the dream of the king, which may be written thus in ordinary letters:
+
+Seven fat cows and seven thin which devour them.
+
+Batons   The King                     The Knight  2 of Batons  5 of Batons
+1        4                            2           --           --
+The Sun  Fortune                      The Fool    Typhon       Death
+
+Natural calculation which results from this arrangement.
+
+The Ace of Batons is worth 1. The Sun announces happiness.
+The King, 4. Fortune [Preceded by a happy card.] in the same way.
+The Knight, 2. The Fool or zero puts the Sun to the hundreds.
+Total 7.
+
+The sign of agriculture gives seven.
+
+One will thus read, seven years of a fortunate agriculture will give an abundance a hundred
+times larger than one will ever have experienced.
+
+The second member of this sentence, closed by the Two and the Five of Batons, gives also the
+number of seven which, combined with Typhon and Death, announces seven years of food
+shortage, famine and the evils that it involves.
+
+This explanation will prove even more natural if one pays attention to the direction and the
+value of the letters that these trumps represent.
+The Sun answering to Gimel, signifies, in this context, remuneration, happiness.
+
+Fortune or Lamed means rule, law, science.
+
+The Fool does not express anything by itself, it corresponds with the Tau, it is simply a sign, a
+mark.
+
+Typhon or Zain announces inconstancy, error, faith violated, crime.
+
+Death or Teth indicates the action to reap: indeed, Death is a terrible reaper.
+
+Teleuté, which in Greek means the end, seems to be, in this way, a derivative of Teth.
+
+It is not difficult to find in Egyptian manners the origin of the greater part of our superstitions:
+for example, the practice of turning the sieve in order to discover a thief, owes its birth to the
+habit that these people had to mark robbers with a hot iron, of one ... T, and of one ... Samech
+[Tau, sign: Samech, adhesion], by putting these two characters, one on the other, to make a
+figure of it, signum adherens, which was used to announce that one should be wary of the
+person who bore it, by which one produces a figure which resembles a pair of scissors cutting
+in a circle, in a screen, which must be detached when the name of the robber is pronounced
+and will make it known.
+
+Divination by the Bible, the Gospel and our Canonical Books, which is called the oracle of
+the saints, of which it is spoken in the 109th letter of Saint Augustine and in several Councils,
+among others that of Orleans; the fates of Saint Martin de Tours which were so famous,
+deserve to be considered an antidote to Egyptian divination by the book of destiny. It is these
+same presages that one drew from the Gospel, ad apperturam libri, when after the election of
+a bishop one sought to know which position he would control in the Episcopate.
+
+But such is the fate of human things: of such a sublime science, which occupied powerful
+men, wise philosophers, the greatest saints, it remains among us only the practice of children
+to draw the beautiful letter.
+
+                                                      VIII
+                           Cards to which fortune tellers attach predictions.
+
+It is like a game of Piquet where one shuffles and cuts for the interested person.
+
+One draws a card which is named Ace, the second Seven, and thus while going up to the
+King: one puts aside all the cards which arrive in the order of calculation that one has just
+established: that is to say, if by naming Ace, Seven, or such, there is dealt an Ace, a Seven, or
+that which was named, it is that which it is necessary to put aside. One starts again, always
+until one has exhausted the cards; and if at the end there do not remain enough of cards to
+reach the King inclusively, one takes up the cards again, without mixing them nor cutting
+them, to complete the calculation to the King.
+
+This operation of the whole deck is made three times in the same way. It is necessary to have
+the greatest care to arrange the cards which leave the deck, in the order which they arrive, and
+on the same line, which produces a hieroglyphic sentence; and here is the means of reading it.
+
+All the picture or court cards represent the persons who may be concerned with the question;
+the first which arrives is always the one who it is all about.
+
+The Kings represent sovereigns, parents, generals, magistrates, old men.
+The Queens have the same character in their gender relative to the circumstances, that is to
+say in political matters, serious or merry: sometimes they are powerful, skilful, intriguing,
+faithful or fickle, are impassioned or indifferent, sometimes rivals, obliging, confidants,
+perfidious, etc. If there arrive two cards of same kind, it is the second which plays the
+supporting role.
+
+The Pages are young people, warriors, those in love, dandies, those of the street, etc.
+
+The Sevens and the Eights are young ladies of all kinds. The Nine of Hearts is named,
+preeminently, Card of the Sun, because it always announces brilliant things, pleasures,
+successes, especially if it is joined together with the Nine of Clubs, which is also a card of
+marvelous forecasts. The Nines of Diamonds indicates a delay in good or in evil.
+
+The Nine of Spades is the worst card: it predicts only ruin, diseases, death.
+
+The Ten of Hearts indicates the town; that of Diamonds, the countryside; Ten of Clubs,
+fortune, money; that of Spades, pains and sorrows.
+
+The Aces announce letters, news.
+
+If the four Queens arrive together, that means prattle, quarrels.
+
+Several Pages together announce competition, argument and combats.
+
+The Clubs in general, especially if they are drawn together, announce success, favors, fortune,
+money.
+
+Diamonds, the countryside, indifference.
+
+Hearts, satisfaction, happiness.
+
+Spades, shortages, concern, sorrows, death.
+
+It is necessary to have a care to arrange the cards in the same order that they are drawn, and
+on the same line, in order not to disturb the sentence, and to make interpretation easier.
+
+The predicted events, in good or evil, can be more or less advantageous or unhappy, according
+to how the principal card which announces them is accompanied: Spades, for example,
+accompanied by Clubs, especially if they arrive between two Clubs, are less dangerous;
+similarly a Club between two Spades or coupled with a Spade, is less fortunate.
+
+Sometimes the beginning announces disastrous accidents; but the end of the cards is
+favorable, if there are many Clubs; one regards the risks as reduced, more or less, according to
+the quantity: if they are followed by the Nine, by the Ace or the Ten, that proves that one ran
+great dangers, but that they passed, and that Fortune has had a change of face.
+
+The Aces:
+
+1 of Diamonds, 8 of Hearts, good news.
+1 of Hearts, Queen of Spades, visit of a woman.
+1 of Hearts, Knave of Hearts, a victory.
+1, 9 and Page of Hearts, the happy lover.
+
+1, 10 and 8 of Spades, misfortune.
+1 of Spades, 8 of Hearts, a victory.
+1 of Clubs, Page of Spades, friendship.
+
+The 7s:
+
+7 and 10 of Hearts, friendship of a young lady.
+7 of Hearts, Queen of Diamonds, friendship of a woman.
+7 of Diamonds, King of Hearts, delay.
+
+The 9s:
+
+Three Nines or three Tens, success.
+
+The 10s:
+
+10 of Clubs, King of Spades, a present.
+10 of Clubs and Page of Clubs, a lover.
+10 of Spades, Page of Diamonds, somebody anxious.
+10 of Hearts, King of Clubs, sincere friendship.
+
